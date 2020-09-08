@@ -1,0 +1,440 @@
+- name: Dynamics 365 Project Operations (modus 2)
+  items:
+    - name: Startside for Dynamics 365 Project Operations (modus 2)
+      href: project-operations-mode-2-home-page.md
+    - name: Gjeldende scenarioer
+      href: applicable-scenarios.md
+    - name: Nyheter
+      href: whats-new-mode-2-project-operations.md
+    - name: Konfigurere miljøet ditt
+      href: set-up-environment-mode-2.md
+    - name: Eksempeldata
+      href: sample-data-mode-2.md
+    - name: Salgsprosess
+      items:
+        - name: Oversikt over salgsprosess
+          href: ../project-operations/sales/sales-overview.md
+        - name: Viktige forskjeller
+          href: ../project-operations/sales/key-differences.md
+        - name: Konfigurere
+          items:
+            - name: Produkter
+              href: ../project-operations/sales/sales-products.md
+            - name: Enheter og enhetsgrupper
+              href: ../project-operations/sales/sales-units-unit-groups.md
+            - name: Valuta
+              href: ../project-operations/sales/sales-currency.md
+        - name: Behandle kundeemner
+          href: ../project-operations/sales/managing-leads.md
+        - name: Behandle salgsmuligheter
+          items:
+            - name: Topptekst for salgsmulighet
+              href: ../project-operations/sales/opportunity-header.md
+            - name: Produktbaserte linjer
+              href: ../project-operations/sales/product-based-lines.md
+            - name: Prosjektbaserte linjer
+              href: ../project-operations/sales/project-based-lines.md
+            - name: Koble tilbud og salgsmuligheter
+              href: ../project-operations/sales/link-quotes-opportunities.md
+            - name: Lukke en salgsmulighet
+              href: ../project-operations/sales/close-opportunity.md
+        - name: Administrere tilbud
+          items:
+            - name: Nøkkelkonsepter
+              href: ../project-operations/sales/quotes-key-concepts.md
+            - name: 'Administrere siterte verdier, kundebudsjetter og Må ikke overskrides-grenser'
+              href: ../project-operations/sales/quote-values-budget-limits.md
+            - name: Administrere flere kunder i et tilbud
+              href: ../project-operations/sales/manage-multiple-customers-quote.md
+            - name: Produktbaserte tilbudslinjer
+              items:
+                - name: Produktbaserte tilbudslinjer for kostberegning
+                  href: ../project-operations/sales/costing-product-based-quote-lines.md
+                - name: Administrere komplekse enheter for produktbaserte tilbudslinjer
+                  href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
+            - name: Prosjektbaserte tilbudslinjer
+              items:
+                - name: Administrere prosjektprislister
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Administrere flere kunder på en tilbudslinje
+                  href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+                - name: Tilordne prosjekter og oppgaver til en tilbudslinje
+                  href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+                - name: Opprette estimater på en tilbudslinje
+                  href: ../project-operations/sales/create-estimate-quote-line.md
+                - name: Importere estimater fra et prosjekt til en tilbudslinje
+                  href: ../project-operations/sales/import-estimate-project-quote-line.md
+                - name: 'Administrere siterte verdier, kundebudsjetter og Må ikke overskrides-grenser'
+                  href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Fakturaplaner på en tilbudslinje
+                  href: ../project-operations/sales/invoice-schedule-quote-line.md
+            - name: Vinne et tilbud
+              href: ../project-operations/sales/win-quote.md
+            - name: Tape et tilbud
+              href: ../project-operations/sales/lose-quote.md
+        - name: Administrere kontrakter
+          items:
+            - name: Nøkkelkonsepter
+              href: ../project-operations/sales/contracts-key-concepts.md
+            - name: 'Administrere kontraktverdier, kundebudsjetter og Må ikke overskrides-grenser'
+              href: ../project-operations/sales/contract-quote-values-budgets-limits.md
+            - name: Administrere flere kunder i en kontrakt
+              href: ../project-operations/sales/manage-multiple-customers-contract.md
+            - name: Produktbaserte kontraktlinjer
+              items:
+                - name: Produktbaserte kontraktlinjer for kostberegning
+                  href: ../project-operations/sales/cost-product-based-contract-lines.md
+                - name: Administrere komplekse enheter for produktbaserte kontraktlinjer
+                  href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
+            - name: Prosjektbaserte kontraktlinjer
+              items:
+                - name: Administrere prosjektprislister
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Administrere flere kunder på en kontraktlinje
+                  href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+                - name: Tilordne prosjekter og oppgaver til en kontraktlinje
+                  href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+                - name: Opprette estimater fra et prosjekt til en kontraktlinje
+                  href: ../project-operations/sales/create-estimate-project-contract-line.md
+                - name: Importere estimater fra et prosjekt til en kontraktlinje
+                  href: ../project-operations/sales/import-estimate-project-contract-line.md
+                - name: 'Administrere kontraktverdier, kundebudsjetter og Må ikke overskrides-grenser på en kontraktlinje'
+                  href: ../project-operations/sales/manage-contract-values-project-based.md
+                - name: Fakturaplaner på en tilbudslinje
+                  href: ../project-operations/sales/invoice-schedules-quote-line.md
+            - name: Bekrefte en kontrakt
+              href: ../project-operations/sales/confirm-contract.md
+            - name: Lukke en kontrakt som fullført arbeid
+              href: ../project-operations/sales/close-contract-work-completed.md
+            - name: Lukke en kontrakt som avbrutt
+              href: ../project-operations/sales/close-contract-canceled.md
+    - name: Prissetting og kostberegning
+      items:
+        - name: Produktprislister
+          href: ../project-operations/pricing-costing/product-price-lists.md
+        - name: Prosjektprislister
+          items:
+            - name: Prisliste for kostnad
+              items:
+                - name: Sette opp kostnadsprislister
+                  href: ../project-operations/pricing-costing/cost-price-list-setup.md
+                - name: Prislistestandarder
+                  href: ../project-operations/pricing-costing/cost-price-list-default.md
+                - name: Overstyre standarder
+                  href: ../project-operations/pricing-costing/cost-override-default.md
+            - name: Prislisteoppsett for salg
+              items:
+                - name: Sette opp salgsprisliste
+                  href: ../project-operations/pricing-costing/sales-price-list-setup.md
+                - name: Standarder for salgsprisliste
+                  href: ../project-operations/pricing-costing/sales-price-list-default.md
+                - name: Overstyre standarder
+                  href: ../project-operations/pricing-costing/sales-override-default.md
+        - name: Prisdimensjoner
+          items:
+            - name: Oversikt over prisdimensjoner
+              href: ../project-operations/pricing-costing/pricing-dimension-overview.md
+            - name: Bruke et eksisterende felt i Project Operations som en prisdimensjon
+              href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Egendefinerte felt som prisdimensjon
+              items:
+                - name: Opprette egendefinerte felt og enheter som prisdimensjoner
+                  href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Legge til egendefinerte felt i prisoppsett og transaksjonsenheter
+                  href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Konfigurere egendefinerte felt som prisdimensjoner
+                  href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Deaktivere en prisdimensjon
+              href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
+    - name: Prosjektledelse
+      items:
+        - name: Oversikt over prosjektstyring
+          href: ../project-operations/project-management/project-management-overview.md
+        - name: Prosjektfaser
+          href: ../project-operations/project-management/project-stages.md
+        - name: Navigere i brukergrensesnittet
+          href: ../project-operations/project-management/navigate-ui.md
+        - name: Forstå prosjektstatus
+          href: ../project-operations/project-management/understand-project-status.md
+        - name: Definere prosjektkalendere
+          href: ../project-operations/project-management/define-project-calendars.md
+        - name: Opprette et prosjekt
+          items:
+            - name: Opprette første estimater
+              href: ../project-operations/project-management/create-initial-estimates.md
+            - name: Definere prosjektkalenderen
+              href: ../project-operations/project-management/set-project-calendar.md
+            - name: Angi prosjektvalutaen
+              href: ../project-operations/project-management/set-project-currency.md
+            - name: Definere en kunde
+              href: ../project-operations/project-management/set-customer.md
+            - name: Legg til en gruppe
+              href: ../project-operations/project-management/add-group.md
+        - name: Oppdatere et prosjekt
+          href: ../project-operations/project-management/update-project.md
+        - name: Kopiere et prosjekt
+          href: ../project-operations/project-management/copy-project.md
+        - name: Planlegging av arbeidsnedbrytningsstruktur
+          items:
+            - name: Opprette en arbeidsnedbrytningsstruktur
+              items:
+                - name: Opprett oppgaver
+                  href: ../project-operations/project-management/wbs-create-tasks.md
+                - name: 'Klippe ut, kopiere og lime inn oppgaver'
+                  href: ../project-operations/project-management/cut-copy-paste-tasks.md
+                - name: Angre og gjøre om oppgaver
+                  href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+                - name: Hierarki for arbeidsnedbrytningsstruktur
+                  href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+                - name: Oppdateringer for masseoppgaver
+                  href: ../project-operations/project-management/bulk-task-updates.md
+                - name: Redigere oppgavedetaljer
+                  href: ../project-operations/project-management/edit-task-details.md
+            - name: Opprette tilordninger
+              items:
+                - name: Legge til eksisterende ressurser
+                  href: ../project-operations/project-management/add-existing-resources.md
+                - name: Legge til generelle ressurser
+                  href: ../project-operations/project-management/add-generic-resources.md
+                - name: 'Forstå virkningen av tilordningene for oppgaveinnsats, varighet og sluttdato'
+                  href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Vise tildelingsprofiler
+                  href: ../project-operations/project-management/view-assignment-contours.md
+            - name: Navigere i oppgavebehandlingsopplevelsen
+              items:
+                - name: Kolonnebehandling
+                  href: ../project-operations/project-management/column-management.md
+                - name: Visninger
+                  href: ../project-operations/project-management/task-management-views.md
+                - name: Samlinger
+                  href: ../project-operations/project-management/task management-buckets.md
+        - name: Estimatprosjekter
+          items:
+            - name: Oversikt over estimatprosjekter
+              href: ../project-operations/project-management/estimate-projects-overview.md
+            - name: Ressursestimater
+              items:
+                - name: Oppdatere prosjektestimater for å gjenspeile endringer i prosjektplanen
+                  href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Oppdatere priser og kostnadssatser for prosjektestimater
+                  href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Ressurskostnadspris og standardverdier for kostnadsvaluta
+                  href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+                - name: Standarder for ressursfaktura og salgsvaluta
+                  href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
+            - name: Opprette utgiftsestimater
+              items:
+                - name: Utgiftskostnadspris og standardverdier for kostnadsvaluta
+                  href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+                - name: Standarder for utgiftsfakturasats og salgsvaluta
+                  href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
+        - name: Bygge tilbud og kontrakter
+          items:
+            - name: Importere arbeidsnedbrytningsstruktur til tilbud
+              href: ../project-operations/project-management/import-wbs-structure-quotes.md
+            - name: Importere arbeidsnedbrytningsstruktur til kontrakter
+              href: ../project-operations/project-management/import-wbs-structure-contracts.md
+        - name: Prosjektsporing
+          items:
+            - name: Startside for prosjektsporing
+              href: ../project-operations/project-management/cost-vs-effort-overview.md
+            - name: Kolonnedefinisjoner
+              items:
+                - name: Innsats
+                  href: ../project-operations/project-management/effort.md
+                - name: Kostnad
+                  href: ../project-operations/project-management/cost.md
+                - name: Salg
+                  href: ../project-operations/project-management/sales.md
+            - name: Oppdatere estimat for kostnad
+              href: ../project-operations/project-management/update-completed-estimate.md
+        - name: Prosjektteammedlemmer
+          items:
+            - name: Oversikt over prosjektteammedlemmer
+              href: ../project-operations/project-management/project-team-members-overview.md
+            - name: Opprettholde teammedlemmer
+              items:
+                - name: Legge til teammedlemmer
+                  href: ../project-operations/project-management/add-team-members.md
+                - name: Oppdatere prosjektteammedlemmer
+                  href: ../project-operations/project-management/update-project-team-members.md
+                - name: Slette teammedlemmer
+                  href: ../project-operations/project-management/delete-team-members.md
+                - name: Opprettholde bestillinger
+                  href: ../project-operations/project-management/maintain-bookings.md
+                - name: Prosjektgodkjennere
+                  href: ../project-operations/project-management/project-approvers.md
+        - name: Salg
+          items:
+            - name: Oversikt over salgskategori
+              href: ../project-operations/project-management/sales-tab-overview.md
+        - name: Samarbeid
+          items:
+            - name: Grupper
+              href: ../project-operations/project-management/groups.md
+        - name: Vanlige spørsmål om prosjektplanlegging
+          href: ../project-operations/project-management/project-planning-faq.md
+    - name: Ressursstyring
+      items:
+        - name: Oversikt over ressursstyring
+          href: ../project-operations/resource-management/resource-management-overview.md
+        - name: Nøkkelkonsepter
+          href: ../project-operations/resource-management/resource-management-key-concepts.md
+        - name: Bestillinger i forhold til tildelinger
+          href: ../project-operations/resource-management/booking-vs-assignment.md
+        - name: Modus for ressursstyring
+          items:
+            - name: Oversikt over modus for ressursstyring
+              href: ../project-operations/resource-management/resource-management-mode-overview.md
+            - name: Hybrid
+              href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+            - name: Sentralt
+              href: ../project-operations/resource-management/resource-management-mode-central.md
+        - name: Sentralisert bestilling
+          items:
+            - name: Oversikt over sentralisert bestilling
+              href: ../project-operations/resource-management/centralized-booking-overview.md
+            - name: Legge til generelle teammedlemmer i oppgaver
+              href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+            - name: Definere ressurskrav
+              href: ../project-operations/resource-management/define-resource-requirements.md
+            - name: Definere kravprofiler
+              href: ../project-operations/resource-management/define-resource-requirement-contours.md
+            - name: Oppdatere ressurskrav
+              href: ../project-operations/resource-management/update-resource-requirements.md
+            - name: Sende ressurskrav
+              href: ../project-operations/resource-management/submit-resource-requirements.md
+            - name: Ressursforespørsler
+              items:
+                - name: Oversikt over ressursforespørsler
+                  href: ../project-operations/resource-management/resource-requests-overview.md
+                - name: Se gjennom felt og handlinger
+                  href: ../project-operations/resource-management/review-fields-actions.md
+                - name: Søke etter ressurser
+                  href: ../project-operations/resource-management/find-resources.md
+                - name: Se gjennom foreslåtte ressurser
+                  href: ../project-operations/resource-management/review-proposed-resources.md
+        - name: Bestilling av desentralisert ressurs
+          items:
+            - name: Oversikt over bestilling av desentralisert ressurs
+              href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+            - name: Alternativer for å bestille direkte
+              href: ../project-operations/resource-management/options-book-directly.md
+            - name: Oppfylle generelle ressurskrav
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administrasjon av ressurser
+          items:
+            - name: Opprette ressurser
+              href: ../project-operations/resource-management/create-resources.md
+            - name: Definere ferdigheter og kompetanser
+              href: ../project-operations/resource-management/define-skills-proficiencies.md
+            - name: Definere roller
+              href: ../project-operations/resource-management/define-roles.md
+            - name: Definere ressurskalendere
+              href: ../project-operations/resource-management/define-resource-calendars.md
+            - name: Knytte ressurser til organisasjonsenheter
+              href: ../project-operations/resource-management/associate-resources-organizational-units.md
+            - name: Knytte ressurser til firmaer
+              href: ../project-operations/resource-management/associate-resources-companies.md
+        - name: Metoder for bestillingstildeling
+          href: ../project-operations/resource-management/booking-allocation-methods.md
+        - name: Bestillingsstatuser
+          href: resource-management/booking-status.md
+        - name: Ferdighets- og kompetansemodeller
+          href: ../project-operations/resource-management/skills-proficiency-models.md
+        - name: Ressursavstemming
+          items:
+            - name: Oversikt over ressursavstemming
+              href: ../project-operations/resource-management/resource-reconciliation-overview.md
+            - name: Nøkkelkonsepter
+              href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigasjon
+              href: ../project-operations/resource-management/resource-reconciliation-navigation.md
+            - name: Utvid bestillinger
+              href: ../project-operations/resource-management/extend-bookings.md
+            - name: Administrere flere tidssoner
+              href: ../project-operations/resource-management/manage-multiple-time-zones.md
+        - name: Ressursutnyttelse
+          items:
+            - name: Oversikt over ressursutnyttelse
+              href: ../project-operations/resource-management/resource-utilization-overview.md
+            - name: 'Søk, innstillinger og navigasjon'
+              href: ../project-operations/resource-management/search-settings-navigation.md
+        - name: Planleggingstavle
+          items:
+            - name: Navigasjon og nøkkelinnstillinger
+              href: ../project-operations/resource-management/navigation-key-settings-urs.md
+            - name: Tilpassing
+              href: ../project-operations/resource-management/personalization-urs.md
+            - name: Søke
+              href: ../project-operations/resource-management/search-urs.md
+            - name: Bestillingshandlinger
+              href: ../project-operations/resource-management/booking-actions-urs.md
+            - name: Bestilling
+              items:
+                - name: Bestille til et prosjekt
+                  href: ../project-operations/resource-management/book-project.md
+                - name: Bestille åpne krav
+                  href: ../project-operations/resource-management/book-open-requirements.md
+                - name: Erstatte ressurser
+                  href: ../project-operations/resource-management/substitute-resources.md
+                - name: Redigere eksisterende bestillinger
+                  href: ../project-operations/resource-management/edit-existing-bookings.md
+        - name: Vanlige spørsmål om ressursstyring
+          href: ../project-operations/resource-management/resource-management-faq.md
+    - name: Tid
+      items:
+        - name: Oversikt over tidsregistrering
+          href: ../project-operations/time/time-entry-overview.md
+        - name: Opprette tidsoppføringer
+          items:
+            - name: 'Importere bestillinger, tilordninger og kalenderoppføringer'
+              href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+            - name: Virkemåte for brukergrensesnitt
+              href: ../project-operations/time/ui-behavior.md
+        - name: Send tidsoppføringer
+          href: ../project-operations/time/submit-time-entries.md
+        - name: Tilbakekall tidsoppføringer
+          items:
+            - name: Før godkjenning
+              href: ../project-operations/time/recall-time-entries-before-approval.md
+            - name: Etter godkjenning
+              href: ../project-operations/time/recall-time-entries-after-approval.md
+        - name: Godkjenne tidsoppføringer
+          href: ../project-operations/time/approvals.md
+        - name: Notater for utviklere
+          items:
+            - name: Forlenge tidsoppføringer
+              href: ../project-operations/time/extending-time-entries.md
+            - name: Tilpasse det ukentlige tidsoppføringsrutenettet
+              href: ../project-operations/time/customize-weekly-time-entry-grid.md
+            - name: Sikkerhetshensyn
+              href: ../project-operations/time/security-considerations.md
+    - name: Utgift
+      items:
+        - name: Startside for utgift
+          href: ../project-operations/expense/expense-overview.md
+        - name: Utgiftsoppføring
+          href: expense-entry.md
+    - name: Godkjenninger
+      items:
+        - name: Oversikt
+          href: ../project-operarations/approvals/approvals-overview.md
+        - name: Godkjenne tidsoppføringer
+          href: approvals/approving-time-entries.md
+        - name: Godkjenne utgiftsoppføringer
+          href: approve-expense-entries.md
+    - name: Proformafakturering
+      items:
+        - name: Opprette fakturaplaner
+          href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+        - name: Opprette en manuell proformafaktura
+          href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Behandle en proformafaktura
+          href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+        - name: Bekrefte en proformafaktura
+          href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+        - name: Korrigerte fakturaer
+          href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+        - name: Konfigurere en automatisk fakturaoppretting
+          href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md

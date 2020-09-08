@@ -1,0 +1,1 @@
+<span data-ttu-id="fab0a-101">Dynamics 365 Project Service Automation-tillegg for Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="fab0a-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>
