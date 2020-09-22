@@ -1,0 +1,47 @@
+---
+title: Vise planen
+description: Slik viser du tidsplanen i Project Service
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: e7c083d4-635d-47b8-849c-c1c627012b9e
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: e4b8ebc4b89d85bfa27c3592b96aa999a08ecbc5
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3754119"
+---
+# <a name="view-your-schedule-project-service"></a>Vise tidsplanen (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+Når du vil se hva du skal arbeide med i uken, kan du ta en titt på tidsplanen.  
+  
+ Hvis du bruker webappen:  
+  
+1.  Gå til **Project Service > Bestillinger og oppgaver**. Dette åpner en kalendervisning av tidsplanen.  
+  
+2.  Klikk **Forrige** eller **Neste** for å se planen for forrige eller neste uke. Klikk **I dag** for å gå tilbake til den gjeldende uken. Du kan velge en oppgave for å oppdatere den, hvis det er nødvendig.  
+  
+3.  Hvis du heller vil se en liste over hva du arbeider med, klikker du **Rutenett**. Du kan redigere innebygde oppgaver, om nødvendig.  
+  
+4.  Klikk **Vis fullførte oppgaver** for å se oppgavene du allerede har fullført.  
+  
+### <a name="see-also"></a>Se også  
+ [Håndbok for tid, utgifter og samarbeid](../project-service/time-expense-collaboration-guide.md)
