@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081471"
 ---
 # <a name="project-tracking-overview"></a>Oversikt over prosjektsporing
 
@@ -25,10 +25,10 @@ Behovet for å spore fremdriften mot en tidsplan varierer etter bransje. Noen br
 
 Visningen **Innsatssporing** sporer fremdriften for oppgaver i tidsplanen ved å sammenligne de faktiske innsatstimene som er brukt på en oppgave, med oppgavens planlagte innsatstimer. Dynamics 365 Project Operations bruker følgende formler til å beregne sporingsmåledata:
 
-- **Fremdriftsprosent**: Faktisk innsats brukt til dags dato ÷ sluttestimat (EAC) 
-- **Estimat for fullføring (ETC)**: Planlagt innsats – faktisk innsats brukt til dags dato 
-- **EAC**: Resterende innsats + faktisk innsats brukt til dags dato 
-- **Forventet innsatsavvik**: Planlagt innsats – EAC
+- **Fremdriftsprosent** : Faktisk innsats brukt til dags dato ÷ sluttestimat (EAC) 
+- **Estimat for fullføring (ETC)** : Planlagt innsats – faktisk innsats brukt til dags dato 
+- **EAC** : Resterende innsats + faktisk innsats brukt til dags dato 
+- **Forventet innsatsavvik** : Planlagt innsats – EAC
 
 Project Operations viser en projeksjon av innsatsvariasjonen for oppgaven. Hvis EAC er større enn den planlagte innsatsen, blir oppgaven beregnet til å ta mer tid enn det som opprinnelig ble planlagt, og er etter tidsplanen. Hvis EAC er mindre enn den planlagte innsatsen, blir oppgaven beregnet til å ta mindre tid enn det som opprinnelig ble planlagt, og er foran tidsplanen.
 
@@ -55,15 +55,15 @@ Innsats i aktivitetssammendrag eller beholderaktivitet kan projiseres på nytt. 
 
 ### <a name="cost-tracking-view"></a>Kostnadssporingsvisning 
 
-**Kostnadssporings**-visningen sammenligner de faktiske kostnadene som ble brukt på en aktivitet, med de planlagte kostnadene på en aktivitet. 
+**Kostnadssporings** -visningen sammenligner de faktiske kostnadene som ble brukt på en aktivitet, med de planlagte kostnadene på en aktivitet. 
 
 > [!NOTE]
 > Denne visningen viser bare arbeidskostnader og inkluderer ikke kostnader fra utgiftsestimater. Project Operations bruker følgende formler til å beregne sporingsmåledata:
 
-- **Prosentandel av kostnadene som brukes**: Faktisk kostnad brukt til dato ÷ beregnet kostnad ved fullføring
-- **Kostnad for fullføring (CTC)**: Planlagt kostnad – faktisk kostnad brukt til dags dato
-- **EAC**: Gjenværende kostnad + faktisk kostnad brukt til dato
-- **Beregnet kostnadsavvik**: Planlagt kostnad – EAC
+- **Prosentandel av kostnadene som brukes** : Faktisk kostnad brukt til dato ÷ beregnet kostnad ved fullføring
+- **Kostnad for fullføring (CTC)** : Planlagt kostnad – faktisk kostnad brukt til dags dato
+- **EAC** : Gjenværende kostnad + faktisk kostnad brukt til dato
+- **Beregnet kostnadsavvik** : Planlagt kostnad – EAC
 
 En projeksjon av kostnadsavviket vises for oppgaven. Hvis EAC er større enn den planlagte kostnaden, blir oppgaven beregnet til for å koste mer enn det som opprinnelig ble planlagt. Derfor tenderer den til å være over budsjettet. Hvis EAC er mindre enn den planlagte kostnaden, blir oppgaven beregnet til å koste mindre enn det som opprinnelig ble planlagt. Derfor tenderer den til å være under budsjettet.
 
@@ -73,10 +73,10 @@ Når innsatsen reprojiseres, blir alt forbrukt CTC, EAC, prosent av kostnad bruk
 
 ## <a name="project-status-summary"></a>Oppsummering av prosjektstatus
 
-Sporingsdata i visningene **Innsatssporing** og **Kostnadssporing** viser fremdrift og kostnadsforbruk på oppgavenivåene prosjektrotnode, aktivitetssammendrags og bladnode. **Status**-delen på siden **Prosjektenhet** viser et sammendrag av status på prosjektnivå.
+Sporingsdata i visningene **Innsatssporing** og **Kostnadssporing** viser fremdrift og kostnadsforbruk på oppgavenivåene prosjektrotnode, aktivitetssammendrags og bladnode. **Status** -delen på siden **Prosjektenhet** viser et sammendrag av status på prosjektnivå.
 
 ## <a name="status-summary-fields"></a>Statussammendragsfelt
 
-Feltet **Generell prosjektstatus** er et redigerbart felt som viser den generelle statusen til prosjektet. Det bruker fargekoding, for eksempel grønn, gul og rød, for å vise økende risikoer. Med **Kommentarer**-feltet kan prosjektlederen angi spesifikke kommentarer om statusen. Feltet **Status oppdatert** er ikke redigerbart, og verdien er et tidsstempel som angir når statusen sist ble oppdatert.
+Feltet **Generell prosjektstatus** er et redigerbart felt som viser den generelle statusen til prosjektet. Det bruker fargekoding, for eksempel grønn, gul og rød, for å vise økende risikoer. Med **Kommentarer** -feltet kan prosjektlederen angi spesifikke kommentarer om statusen. Feltet **Status oppdatert** er ikke redigerbart, og verdien er et tidsstempel som angir når statusen sist ble oppdatert.
 
 Feltene **Tidsplanytelse** og **Kostnadsytelse** angis fra sporingsdatoen. Når tidsplan- og kostnadsavviket for rotnoden i visningen **Innsatssporing** er positive, kan du angi disse feltene til **Foran**. Når tidsplan- og kostnadsavviket for rotnoden er negativ, kan du angi dem til **Bak**.

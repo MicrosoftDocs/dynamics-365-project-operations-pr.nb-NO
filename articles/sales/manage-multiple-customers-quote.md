@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908434"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081474"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Administrere flere kunder i prosjekttilbud
 
@@ -23,17 +23,17 @@ Prosjekttilbud støtter scenarioet der forslaget omfatter flere kunder som vil f
 
 Alle tilbudskunder i kategorien **Kunder** i prosjekttilbudet blir som standard tilbudslinjekunder på **nye** prosjektbaserte tilbudslinjer som er opprettet for tilbudet. Eksisterende prosjektbaserte tilbudslinjer arver ikke nye tilbudskundeoppføringer som er opprettet etter dem.
 
-Tilbudskunder og tilbudslinjekunder kan når som helst legges til, oppdateres eller slettes før tilbudet er vunnet. En gyldig kunde i tilbudet må være definert som en kunde i det eiende firmaet eller den juridiske enheten på **Kunder**-siden. Juridiske enheter konfigureres i modulen **Prosjektstyring og regnskap** i Dynamics 365 Project Operations og blir gjort tilgjengelig som firmaer i modulen **Prosjektsalg og levering** i Project Operations.
+Tilbudskunder og tilbudslinjekunder kan når som helst legges til, oppdateres eller slettes før tilbudet er vunnet. En gyldig kunde i tilbudet må være definert som en kunde i det eiende firmaet eller den juridiske enheten på **Kunder** -siden. Juridiske enheter konfigureres i modulen **Prosjektstyring og regnskap** i Dynamics 365 Project Operations og blir gjort tilgjengelig som firmaer i modulen **Prosjektsalg og levering** i Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Konseptet primær kunde
 
 Kunden som er oppført i kategorien **Sammendrag** for prosjekttilbudet som potensiell kunde, er den primære kunden i tilbudet. Hvis du prøver å slette den primære kunden fra kundelisten i tilbudet, får du en feilmelding om at en primær kundeoppføring i et tilbud ikke kan slettes.
 
-Den primære kunden bør ikke oppdateres fra kundelisten i tilbudet. Du kan imidlertid påvirke den primære kunden ved å endre den potensielle kunden i kategorien **Sammendrag** for tilbudet. Når dette feltet oppdateres i **tilbudssammendraget**, blir den nylig valgte potensielle kunden lagt til som en ny tilbudskunde med flagget **Primær** angitt. Den gamle potensielle kunden vil fremdeles være en kunde i tilbudet.
+Den primære kunden bør ikke oppdateres fra kundelisten i tilbudet. Du kan imidlertid påvirke den primære kunden ved å endre den potensielle kunden i kategorien **Sammendrag** for tilbudet. Når dette feltet oppdateres i **tilbudssammendraget** , blir den nylig valgte potensielle kunden lagt til som en ny tilbudskunde med flagget **Primær** angitt. Den gamle potensielle kunden vil fremdeles være en kunde i tilbudet.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Opprette, oppdatere eller slette en oppføring av en tilbudskunde
 
-En tilbuds kundekan opprettes, oppdateres eller slettes fra kategorien **Tilbudskunder** på **Tilbud**-siden. Feltene i tabellen nedenfor er på oppføringen av en tilbudskunde for et prosjekttilbud.
+En tilbuds kundekan opprettes, oppdateres eller slettes fra kategorien **Tilbudskunder** på **Tilbud** -siden. Feltene i tabellen nedenfor er på oppføringen av en tilbudskunde for et prosjekttilbud.
 
 | **Felt** | **Plassering** | **Relevans, formål og veiledning** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ En tilbuds kundekan opprettes, oppdateres eller slettes fra kategorien **Tilbuds
 | Fakturanavn | Redigerbart rutenett i kategorien **Tilbudskunder** og skjemaene **Hoved** og **Hurtigoppretting** for en tilbudskunde. | Dette tekstfeltet bør brukes til å identifisere fakturakontaktpersonen for denne kunden. | Kopieres til prosjektkontraktkunden når et tilbud blir vunnet og i sin tur til til slutt til feltet **Faktura til kontraktnavn** på fakturaen som er generert for denne kunden. |
 | Betalingsbetingelser | Redigerbart rutenett i kategorien **Tilbudskunder** og skjemaene **Hoved** og **Hurtigoppretting** for en tilbudskunde. | Dette er et alternativsett med verdier som er standard fra oppføringen for den relaterte forretningsforbindelsen. | Kopieres til prosjektkontraktkunden når et tilbud blir vunnet og i sin tur til til slutt til feltet **Faktura til kontraktnavn** på fakturaen som er generert for denne kunden. |
 | Er avrunding | Redigerbart rutenett i kategorien **Tilbudskunder** og skjemaene **Hoved** og **Hurtigoppretting** for en tilbudskunde. | Angir om denne kunden er en standard avrundingskunde for denne avtalen. | Kopiert til kundene i prosjektkontrakten når et tilbud er vunnet. |
-| Eiende firma | Redigerbart rutenett i kategorien **Tilbudskunder** og skjemaene **Hoved** og **Hurtigoppretting** for en tilbudskunde. | Den juridiske enheten som denne kunden er konfigurert med, i modulen **Prosjektstyring og regnskap**. Dette feltet er skrivebeskyttet og er satt til eiende firma for selve tilbudet. Listen over kunder som skal legges til i **Forretningsforbindelse**-feltet, er allerede filtrert til listen fra dette eiende firmaet i modulen **Prosjektstyring og regnskap** i Project Operations. | Det eiende firmaet tilsvarer konseptet juridisk enhet i modulen **Prosjektstyring og regnskap** i Project Operations. Alle kostnader og inntekter som påløper fra dette prosjektet, blir regnskapsført i hovedboken til det eiende firmaet. |
+| Eiende firma | Redigerbart rutenett i kategorien **Tilbudskunder** og skjemaene **Hoved** og **Hurtigoppretting** for en tilbudskunde. | Den juridiske enheten som denne kunden er konfigurert med, i modulen **Prosjektstyring og regnskap**. Dette feltet er skrivebeskyttet og er satt til eiende firma for selve tilbudet. Listen over kunder som skal legges til i **Forretningsforbindelse** -feltet, er allerede filtrert til listen fra dette eiende firmaet i modulen **Prosjektstyring og regnskap** i Project Operations. | Det eiende firmaet tilsvarer konseptet juridisk enhet i modulen **Prosjektstyring og regnskap** i Project Operations. Alle kostnader og inntekter som påløper fra dette prosjektet, blir regnskapsført i hovedboken til det eiende firmaet. |
 | Må ikke overskrides-grense | Redigerbart rutenett i kategorien **Tilbudskunder** og skjemaene **Hoved** og **Hurtigoppretting** for en tilbudskunde. | Angir om det finnes en avtalt grense eller et tak på totalbeløp som blir fakturert til denne kunden for dette engasjementet. | Kopiert til kundene i prosjektkontrakten når et tilbud er vunnet. |
 
 ## <a name="editing-billing-split-percentages"></a>Redigere delingsprosenter for fakturering

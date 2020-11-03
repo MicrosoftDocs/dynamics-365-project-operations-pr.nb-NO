@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b11c67ebd21fdf423eeae2db8154f26787c2e64f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081747"
 ---
 # <a name="project-stages"></a>Prosjektfaser
 
@@ -46,11 +45,11 @@ Når du oppretter et prosjekt, er prosjektfasen satt til **Ny**. Hvis prosjektet
 
 ## <a name="quote"></a>Tilbud
 
-Når du knytter et prosjekt til et tilbud, eller når du oppretter et prosjekt fra et tilbud, er prosjektfasen satt til **Tilbud**, og de estimerte start- og sluttdatoene oppdateres også. Når prosjektet er i **Tilbud**-fasen, vises detaljene for tilbudet i kategorien **Salg** på **Prosjektenhet**-siden.
+Når du knytter et prosjekt til et tilbud, eller når du oppretter et prosjekt fra et tilbud, er prosjektfasen satt til **Tilbud** , og de estimerte start- og sluttdatoene oppdateres også. Når prosjektet er i **Tilbud** -fasen, vises detaljene for tilbudet i kategorien **Salg** på **Prosjektenhet** -siden.
 
 ## <a name="plan"></a>Plan
 
-Når du har vunnet et tilbud som er tilknyttet et prosjekt, og når dette engasjementet går videre til **Kontrakt**-fasen, oppdateres prosjektfasen til **Plan**. Når prosjektet er i **Plan**-fasen, vises detaljene for kontrakten på **Prosjektenhet**-siden.
+Når du har vunnet et tilbud som er tilknyttet et prosjekt, og når dette engasjementet går videre til **Kontrakt** -fasen, oppdateres prosjektfasen til **Plan**. Når prosjektet er i **Plan** -fasen, vises detaljene for kontrakten på **Prosjektenhet** -siden.
 
 ## <a name="deliver"></a>Lever
 
@@ -58,7 +57,7 @@ Når prosjektplanen er fullført, og du er klar til å starte prosjektet, skal p
 
 ## <a name="complete"></a>Fullstendig 
 
-Når arbeidet for prosjektet er fullført, kan prosjekt lederen oppdatere fasen til **Fullfør**. Ved å oppdatere prosjektstadiet til **Fullfør**angir prosjektlederen at arbeidet er 100 prosent fullført, men at prosjektet holdes åpent slik at eventuelle ventende tids- eller utgiftsoppføringer kan registreres.
+Når arbeidet for prosjektet er fullført, kan prosjekt lederen oppdatere fasen til **Fullfør**. Ved å oppdatere prosjektstadiet til **Fullfør** angir prosjektlederen at arbeidet er 100 prosent fullført, men at prosjektet holdes åpent slik at eventuelle ventende tids- eller utgiftsoppføringer kan registreres.
 
 ## <a name="close"></a>Lukk
 

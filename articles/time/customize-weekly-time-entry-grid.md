@@ -3,17 +3,17 @@ title: Forlenge tidsoppføringer
 description: Dette emnet gir informasjon om hvordan utviklere kan forlenge tidsoppføringskontrollen.
 author: stsporen
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 93f411ad7c86beefcc35e7799a03987dacdcd62b
-ms.sourcegitcommit: 5a29adce48133e09f051929e8544d6c2c93c025d
+ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081519"
 ---
 # <a name="extending-time-entries"></a>Forlenge tidsoppføringer
 
@@ -31,17 +31,17 @@ UTvidelse av tidsoppføringer er mulig i to områder:
 - [Legg til egendefinerte tidsoppføringer for eget bruk](#add)
 - [Tilpass den ukentlige tidsoppføringskontroll](#customize)
 
-## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Legg til egendefinerte tidsoppføringer for eget bruk.
+## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Legg til egendefinerte tidsoppføringer for eget bruk
 
-Tidsoppføringer er en kjerneenhet som er utformet for bruk i flere scenarioer. I lanseringsbølge 1, april 2020, ble TESA-kjerneløsningen introdusert, som har en **Innstillinger**-enhet og en ny **Tidsoppføringsbruker**-sikkerhetsrolle. De nye feltene **msdyn_start** og **msdyn_end**, som har en direkte relasjon til **msdyn_duration**, er også inkludert. Den nye enheten, sikkerhetsrollen og feltene gjør det mulig å gi en mer enhetlig tilnærming til tid på tvers av flere produkter.
+Tidsoppføringer er en kjerneenhet som brukes i flere scenarioer. I bølge 1 fra april 2020 ble TESA-kjerneløsningen innført. TESA inneholder en **Innstillinger** -enhet og en ny **Tidsoppføringsbruker** -sikkerhetsrolle. De nye feltene **msdyn_start** og **msdyn_end** , som har en direkte relasjon til **msdyn_duration** , er også inkludert. Den nye enheten, sikkerhetsrollen og feltene gjør det mulig å gi en mer enhetlig tilnærming til tid på tvers av flere produkter.
 
 
 ### <a name="time-source-entity"></a>Tidskildeenhet
 | Felt | Beskrivelse | 
 |-------|------------|
-| Navn  | Navnet på tidskildeoppføringen som brukes som den utvalgte verdien under oppretting av tidsoppføring. |
-| Standard tidskilde [tidskilde: isdefault] | Som standard kan bare én tidskilde være merket som standard tidskilde. Denne funksjonaliteten gjør det mulig at oppføringer kan angis som standard til en tidskilde hvis det ikke er angitt en. |
-|Tidskildetype [tidskilde: sourcetype] | Kildetypen er et alternativ (Kildetype for tidsoppføring) som tillater tilknytning av tidskilden til en app. Flere verdier blir lagt til i dette alternativsettet etter hvert som det legges til flere programmer. Vær oppmerksom på at verdier som er større enn 190 000 000, er reservert av Microsoft.|
+| Navn  | Navnet på tidskildeoppføringen som brukes som den utvalgte verdien når tidsoppføringer opprettes. |
+| Standard tidskilde [tidskilde: isdefault] | Som standard kan bare én tidskilde være merket som standard. Dette gjør det mulig at oppføringer kan angis som standard til en tidskilde hvis det ikke er angitt en. |
+|Tidskildetype [tidskilde: sourcetype] | Kildetypen er et alternativ (Kildetype for tidsoppføring) som tillater tilknytning av tidskilden til en app. Verdier som er større enn 190 000 000, er reservert av Microsoft.|
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Tidsoppføringer og tidskildeenheten
@@ -51,14 +51,14 @@ Tidsoppføringer er alltid én sammenhengende tidsblokk, der start, slutt og var
 
 Logikken oppdaterer automatisk tidsoppføringsposten i følgende situasjoner:
 
-- Hvis to av de tre følgende feltene er angitt, beregnes det tredje automatisk 
+- Hvis to av de tre følgende feltene er angitt, beregnes det tredje automatisk: 
 
     - **msdyn_start**
     - **msdyn_end**
     - **msdyn_duration**
 
 - Feltene **msdyn_start** og **msdyn_end** skiller mellom tidssoner.
-- Tidsoppføringer som er opprettet der bare **msdyn_date** og **msdyn_duration** er angitt, starter ved midnatt, og **msdyn_start** og **msdyn_end** oppdateres i henhold til dette.
+- Tidsoppføringer som er opprettet med bare **msdyn_date** og **msdyn_duration** angitt, starter med midnatt. Feltene **msdyn_start** og **msdyn_end** oppdateres i henhold til dette.
 
 #### <a name="time-entry-types"></a>Tidsoppføringstyper
 
@@ -81,48 +81,50 @@ Utviklere kan legge til flere felt og oppslag i andre enheter og implementere eg
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Legge til egendefinerte felt med oppslag til andre enheter
 Det er tre hovedtrinn for å legge til et egendefinert felt i rutenettet for ukentlige tidsoppføringer.
 
-- Legg til det egendefinerte feltet i dialogboksen for hurtigoppretting.
-- Konfigurer rutenettet slik at det egendefinerte feltet vises.
-- Legg til det egendefinerte feltet i radredigeringsoppgaveflyten eller i celleredigeringsoppgaveflyten.
+1. Legg til det egendefinerte feltet i dialogboksen for hurtigoppretting.
+2. Konfigurer rutenettet slik at det egendefinerte feltet vises.
+3. Legg til det egendefinerte feltet i radredigeringsoppgaveflyten eller i celleredigeringsoppgaveflyten.
 
-Du må også kontrollere at det nye feltet har de nødvendige valideringene i raden eller celleredigeringsoppgaveflyten. Som en del av dette trinnet må du låse feltet basert på tidsoppføringsstatusen.
+Kontroller også at det nye feltet har de nødvendige valideringene i raden eller celleredigeringsoppgaveflyten. Som en del av dette trinnet må du låse feltet basert på tidsoppføringsstatusen.
 
-#### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Legge til det egendefinerte feltet i dialogboksen for hurtigoppretting
-Du må legge til det egendefinerte feltet i dialogboksen for **hurtigoppretting for tidsoppføring**. Brukere kan deretter angi en verdi når de legger til tidsoppføringer ved å velge **Ny**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Legge til det egendefinerte feltet i dialogboksen for hurtigoppretting
+Legg til det egendefinerte feltet i dialogboksen for **hurtigoppretting for tidsoppføring**. Når tidsoppføringer legges til, kan en verdi angis ved å velge **Ny**.
 
-#### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurere rutenettet slik at det egendefinerte feltet vises
+### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurere rutenettet slik at det egendefinerte feltet vises
 Det er to måter å legge til et egendefinert felt i rutenettet for ukentlige tidsoppføringer:
 
   - Tilpasse en visning og legge til et egendefinert felt
   - Opprette en ny standard egendefinert tidsoppføring 
 
 
-**Tilpasse en visning og legge til et egendefinert felt**
+#### <a name="customize-a-view-and-add-a-custom-field"></a>Tilpasse en visning og legge til et egendefinert felt
 
-Du kan tilpasse visningen **Mine ukentlige tidsoppføringer** og legge til det egendefinerte feltet i den. Du kan velge plassering og størrelse for det egendefinerte feltet i rutenettet ved å redigere egenskapene i visningen.
+Tilpass visningen **Mine ukentlige tidsoppføringer** , og legg til det egendefinerte feltet i den. Du kan velge plassering og størrelse for det egendefinerte feltet i rutenettet ved å redigere egenskapene i visningen.
 
-**Opprette en ny standard egendefinert tidsoppføring** 
+#### <a name="create-a-new-default-custom-time-entry"></a>Opprette en ny standard egendefinert tidsoppføring
 
 Denne visningen skal inneholde feltene **Beskrivelse** og **Eksterne kommentarer** i tillegg til kolonnene du vil ha i rutenettet. 
 
 1. Velg plassering, størrelse og standard sorteringsrekkefølge i rutenettet ved å redigere egenskapene i visningen. 
-2. Konfigurer den egendefinerte kontrollen for denne visningen, slik at den er en **Rutenett for tidsoppføring**-kontroll. 
+2. Konfigurer den egendefinerte kontrollen for denne visningen, slik at den er en **Rutenett for tidsoppføring** -kontroll. 
 3. Legg til denne kontrollen i visningen, og velg den for nett, telefon eller nettbrett. 
-4. Konfigurer parameterne for rutenettet for ukentlige tidsoppføringer. Angi feltet **Startdato** til **msdyn_date**, sett **Varighet** -feltet til **msdyn_duration**, og sett feltet **Status** til **msdyn_entrystatus**. 
-5. For standardvisningen er feltet **Liste over statusen Skrivebeskyttet** satt til **192350002,192350003,192350004**, feltet **Oppgaveflyt for rediger rad** er satt til **msdyn_timeentryrowedit**, og feltet **Oppgaveflyt for rediger celle** er satt til **msdyn_timeentryedit**. 
-6. Du kan tilpasse disse feltene for å legge til eller fjerne skrivebeskyttelsesstatusen eller for å bruke en annen oppgavebasert opplevelse (TBX) for redigering av rader eller celler. Disse feltene skal være bundet til en statisk verdi.
+4. Konfigurer parameterne for rutenettet for ukentlige tidsoppføringer. 
+5. Angi feltet **Startdato** til **msdyn_date** , sett **Varighet** -feltet til **msdyn_duration** , og sett feltet **Status** til **msdyn_entrystatus**. 
+6. For standardvisningen settes feltet **Liste over statusen Skrivebeskyttet** til **192350002,192350003,192350004**. Feltet **Oppgaveflyt for rediger rad** er satt til **msdyn_timeentryrowedit**. Feltet **Oppgaveflyt for rediger celle** er satt til **msdyn_timeentryedit**. 
+7. Du kan tilpasse disse feltene for å legge til eller fjerne skrivebeskyttelsesstatusen eller for å bruke en annen oppgavebasert opplevelse (TBX) for redigering av rader eller celler. Disse feltene er nå bundet til en statisk verdi.
 
 
 > [!NOTE] 
-> Begge alternativene fjerner noe standardfiltrering på enhetene **Prosjekt** og **Prosjektoppgave**, slik at alle oppslagsvisninger for enhetene blir synlige. Bare de relevante oppslagsvisningene er synlige som standard.
-Du må angi den aktuelle oppgaveflyten for det egendefinerte feltet. Hvis du la til feltet i rutenettet, skal det mest sannsynlig være i radredigeringsoppgaveflyten som blir brukt til felt som gjelder for hele raden med tidsoppføringer. Hvis det egendefinerte feltet har en unik verdi hver dag, for eksempel et egendefinert felt for **Sluttidspunkt**, skal det være i celleredigeringsoppgaveflyten.
+> Begge alternativene fjerner noe standardfiltrering på enhetene **Prosjekt** og **Prosjektoppgave** , slik at alle oppslagsvisninger for enhetene blir synlige. Bare de relevante oppslagsvisningene er synlige som standard.
 
-Hvis du vil legge til det egendefinerte feltet i en oppgaveflyt, drar du et **Felt**-element til riktig plassering på siden, og deretter angir du feltegenskapene. Angi egenskapen **Kilde** til **Tidsoppføring**, og sett **Datafelt**-egenskapen til det egendefinerte feltet. **Field**-egenskapen angir visningsnavnet på TBX-siden. Velg **Bruk** for å lagre endringene i feltet, og velg deretter **Oppdater** for å lagre endringene på siden.
+Angi den aktuelle oppgaveflyten for det egendefinerte feltet. Hvis du la til feltet i rutenettet, skal det være i radredigeringsoppgaveflyten som blir brukt til felt som gjelder for hele raden med tidsoppføringer. Hvis det egendefinerte feltet har en unik verdi hver dag, for eksempel et egendefinert felt for **Sluttidspunkt** , skal det være i celleredigeringsoppgaveflyten.
 
-Hvis du vil bruke en ny egendefinert TBX-side i stedet, oppretter du en ny prosess. Angi kategorien **Forretningsprosessflyt**, angi oppføringen til **Tidsoppføring**, og angi forretningsprosesstypen til **Kjør prosess som en oppgaveflyt**. Under **Egenskaper** skal egenskapen **Sidenavn** angis til visningsnavnet for siden. Legg til alle relevante felt på TBX-siden. Lagre og aktiver prosessen, og oppdater deretter den egendefinerte kontrollegenskapen for den relevante oppgaveflyten til verdien for **Navn** i prosessen.
+Hvis du vil legge til det egendefinerte feltet i en oppgaveflyt, drar du et **Felt** -element til riktig plassering på siden, og deretter angir du feltegenskapene. Angi egenskapen **Kilde** til **Tidsoppføring** , og sett **Datafelt** -egenskapen til det egendefinerte feltet. **Field** -egenskapen angir visningsnavnet på TBX-siden. Velg **Bruk** for å lagre endringene i feltet, og velg deretter **Oppdater** for å lagre endringene på siden.
+
+Hvis du vil bruke en ny egendefinert TBX-side i stedet, oppretter du en ny prosess. Angi kategorien **Forretningsprosessflyt** , angi oppføringen til **Tidsoppføring** , og angi forretningsprosesstypen til **Kjør prosess som en oppgaveflyt**. Under **Egenskaper** skal egenskapen **Sidenavn** angis til visningsnavnet for siden. Legg til alle relevante felt på TBX-siden. Lagre og aktiver prosessen. Oppdater den egendefinerte kontrollegenskapen for den relevante oppgaveflyten til verdien for **Navn** i prosessen.
 
 ### <a name="add-new-option-set-values"></a>Legge til nye alternativsettverdier
-Hvis du vil legge til alternativsettverdier i et standardfelt, åpner du redigeringssiden for feltet, og deretter, under **Type**, velger du **Rediger** ved siden av alternativsettet. Deretter legger du til et nytt alternativ som har en egendefinert etikett og farge. Hvis du vil legge til en ny tidsoppføringsstatus, er standardfeltet kalt **Oppføringsstatus**, ikke **Status**.
+Hvis du vil legge til alternativsettverdier i et standardfelt, åpner du redigeringssiden for feltet, og under **Type** velger du **Rediger** ved siden av alternativsettet. Legg til et nytt alternativ som har en egendefinert etikett og farge. Hvis du vil legge til en ny tidsoppføringsstatus, er standardfeltet kalt **Oppføringsstatus** , ikke **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Angi en ny tidsregistreringsstatus som skrivebeskyttet
 Hvis du vil angi en ny tidsregistreringsstatus som skrivebeskyttet, legger du til den nye tidsoppføringsverdien for egenskapen **Liste over statusen Skrivebeskyttet**. Den redigerbare delen av tidsregistreringsrutenettet blir låst for rader som har den nye statusen.
@@ -138,4 +140,7 @@ Det finnes to typer valideringsregler som du kan legge til i det ukentlige ruten
 Bruk forretningsregler til å låse og låse opp felt, angi standardverdier i felt og definere valideringer som bare krever informasjon fra gjeldende tidsregistreringsoppføring. Du kan få tilgang til forretningsreglene for en TBX-side ved å åpne redigeringsprogrammet for forretningsprosessflyt for siden og deretter velge **Forretningsregler**. Deretter kan du redigere de eksisterende forretningsreglene eller legge til en ny forretningsregel. Hvis du vil bruke enda mer tilpassede valideringer, kan du bruke en forretningsregel til å kjøre JavaScript.
 
 #### <a name="plug-in-validations"></a>Plugin-modulvalideringer
-Du bør bruke plugin-modulvalideringer for valideringer som krever mer kontekst enn det som er tilgjengelig i én enkelt tidsregistreringsoppføring, eller for valideringer du vil kjøre på innebygde oppdateringer i rutenettet. For å fullføre valideringen oppretter du en egendefinert plugin-modul i enheten **Tidsoppføring**.
+Bruk plugin-modulvalideringer for valideringer som krever mer kontekst enn det som er tilgjengelig i én enkelt tidsregistreringsoppføring, eller for valideringer du vil kjøre på innebygde oppdateringer i rutenettet. For å fullføre valideringen oppretter du en egendefinert plugin-modul i enheten **Tidsoppføring**.
+
+### <a name="copying-time-entries"></a>Kopiere tidsoppføringer
+Bruk visningen **Kopier tidsoppføringskolonner** for å definere listen over felter som skal kopieres under tidsoppføring. **Dato** og **Varighet** er obligatoriske felter som ikke bør fjernes fra visningen.

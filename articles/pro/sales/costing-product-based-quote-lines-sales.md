@@ -9,18 +9,18 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 17b377eab5bcbc1a2327cb3ff87cc75d8de40953
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906270"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081523"
 ---
 # <a name="costing-product-based-quote-lines"></a>Produktbaserte tilbudslinjer for kostberegning
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 
-Produktbaserte tilbudslinjer i Dynamics 365 Project Operations har også et **Kostpris**-felt. Dette feltet brukes til å spore kostprisen for produktet i tilbudslinjen og for beregning av overskudd nedstrøms.
+Produktbaserte tilbudslinjer i Dynamics 365 Project Operations har også et **Kostpris** -felt. Dette feltet brukes til å spore kostprisen for produktet i tilbudslinjen og for beregning av overskudd nedstrøms.
 
 Når det opprettes en produktbasert tilbudslinje for et katalogprodukt, hentes kostnadene for den produktbaserte tilbudslinjen som standard fra feltet **Standardkostnad** i produktkatalogen. Feltet Standardkostnad i produktkatalogen konfigureres i organisasjonens standardvaluta. Standard enhetskostnad på den produktbaserte tilbudslinjen konverteres til salgsvalutaen i tilbudet.
 

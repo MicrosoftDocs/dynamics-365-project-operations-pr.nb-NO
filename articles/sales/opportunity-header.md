@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908423"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081495"
 ---
 # <a name="opportunity-headersummary"></a>Hode/sammendrag for salgsmulighet
 
@@ -28,7 +28,7 @@ Tabellen nedenfor inneholder feltene i en prosjektbasert salgsmulighet som er en
 
 | **Felt** | **Plassering** | **Relevans, formål og veiledning** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |
-| Type | Kategorien Generelt (skjult) | Dette alternativsettfeltet inneholder følgende alternativer:</br>- Arbeidsbasert (bare tilgjengelig med Project Operations)</br>- Varebasert (bare tilgjengelig når Project Operations og Sales er installert)</br>- Basert på service og vedlikehold (tilgjengelig når Field Service er installert) | Når du bruker Project Operations, settes denne feltverdien automatisk til **Arbeidsbasert**, som klassifiserer salgsmuligheten som prosjektbasert. En salgsmulighet må være prosjektbasert for å aktivere alle prosjektspesifikke utvidelser og funksjonalitet i den salgsprosessen nedstrøms for denne avtalen. |
+| Type | Kategorien Generelt (skjult) | Dette alternativsettfeltet inneholder følgende alternativer:</br>- Arbeidsbasert (bare tilgjengelig med Project Operations)</br>- Varebasert (bare tilgjengelig når Project Operations og Sales er installert)</br>- Basert på service og vedlikehold (tilgjengelig når Field Service er installert) | Når du bruker Project Operations, settes denne feltverdien automatisk til **Arbeidsbasert** , som klassifiserer salgsmuligheten som prosjektbasert. En salgsmulighet må være prosjektbasert for å aktivere alle prosjektspesifikke utvidelser og funksjonalitet i den salgsprosessen nedstrøms for denne avtalen. |
 | Eiende firma | Generelt, kategori | Dette er firmaet eller den juridiske enheten som skal levere prosjektet for kunden. | Denne feltinformasjonen kopieres til det tilsvarende feltet i prosjekttilbudet, som opprettes fra denne salgsmuligheten. |
 | Kontakt | Generelt, kategori | Referanse til kundens hovedkontakt for denne avtalen. | |
 | Konto | Generelt, kategori | Referanse til kundens firma- eller forretningsforbindelsesoppføring. | |

@@ -3,23 +3,23 @@ title: Kopiere et prosjekt
 description: Dette emnet gir informasjon om kopiering av prosjekter i Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908429"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081561"
 ---
 # <a name="copy-a-project"></a>Kopiere et prosjekt
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Med Dynamics 365 Project Operations kan du raskt utvikle nye prosjekter ved hjelp av handlingen **Kopier prosjekt** i **Prosjekter**-skjemaet. Hvis du vil kopiere et prosjekt, velger du et prosjekt, og deretter velger du **Kopier**. Handlingen kopierer følgende:
+Med Dynamics 365 Project Operations kan du raskt utvikle nye prosjekter ved å velge **Kopier prosjekt** i **Prosjekter** -skjemaet. Hvis du vil kopiere et prosjekt, åpner du prosjektet du vil kopiere, og deretter velger du **Kopier prosjekt**. Handlingen kopierer følgende:
 
 - Prosjektegenskaper
 - Arbeidsnedbrytningsstrukturen
@@ -58,4 +58,6 @@ Når et prosjektteam kopieres fra kildeprosjektet, kopieres de generelle ressurs
 
 ## <a name="estimates"></a>Estimater
 
-Når prosjektet kopieres, blir både ressurs- og kostnadsestimatlinjer kopiert fra kildeprosjektet.
+Når prosjektet kopieres, blir både ressurs- og kostnadsestimatlinjer kopiert fra kildeprosjektet. 
+
+Hvis du vil ha informasjon om hvordan du programmatisk får tilgang til Kopier Project, kan du se [Utvikle prosjektmaler med Kopier prosjekt](dev-copy-project.md).

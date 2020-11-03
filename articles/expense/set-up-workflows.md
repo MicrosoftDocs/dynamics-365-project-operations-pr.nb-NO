@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc5945f32bb8d4073fc31499979ba279fef66a4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081647"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Konfigurere arbeidsflyter for reiseregning og utlegg
 
@@ -31,9 +30,9 @@ Du kan sette opp en arbeidsflytprosess for å gjennomgå og godkjenne reise- og 
 
 En arbeidsflyt representerer en forretningsprosess og definerer hvordan et dokument flyter gjennom systemet. Arbeidsflyten angir også hvem som må fullføre en oppgave eller godkjenne et dokument. Det er flere fordeler ved å bruke arbeidsflytsystemet i organisasjonen:
 
-- **Konsistente prosesser**: Du kan definere godkjenningsprosessen for bestemte dokumenter, for eksempel innkjøpsrekvisisjoner og reiseregningsrapporter. Ved å bruke arbeidsflytsystemet bidrar du til å sikre at dokumenter behandles og godkjennes på en konsekvent og effektiv måte.
-- **Prosess-synlighet**: Du kan spore måledata for status, logg og ytelse for en bestemt arbeidsflytforekomst. Dette gjør det mulig for deg å fastsette om endringer skal utføres i arbeidsflyten for å forbedre effektiviteten.
-- **Sentralisert arbeidsliste**: Brukere kan vise en sentralisert arbeidsliste for å vise arbeidsflytoppgavene og godkjenningene som er tilordnet dem. 
+- **Konsistente prosesser** : Du kan definere godkjenningsprosessen for bestemte dokumenter, for eksempel innkjøpsrekvisisjoner og reiseregningsrapporter. Ved å bruke arbeidsflytsystemet bidrar du til å sikre at dokumenter behandles og godkjennes på en konsekvent og effektiv måte.
+- **Prosess-synlighet** : Du kan spore måledata for status, logg og ytelse for en bestemt arbeidsflytforekomst. Dette gjør det mulig for deg å fastsette om endringer skal utføres i arbeidsflyten for å forbedre effektiviteten.
+- **Sentralisert arbeidsliste** : Brukere kan vise en sentralisert arbeidsliste for å vise arbeidsflytoppgavene og godkjenningene som er tilordnet dem. 
 
 ## <a name="workflow-types"></a>Arbeidsflyttyper
 

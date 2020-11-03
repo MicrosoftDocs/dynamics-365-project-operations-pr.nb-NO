@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896743"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081505"
 ---
 # <a name="security-model"></a>Sikkerhetsmodell
 
@@ -36,10 +36,11 @@ Frontfunksjonene i Project Operations inkluderer følgende roller:
 
 
 Microsoft Project for Internett inkluderer følgende roller:
-| Rolle                          | Beskrivelse                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Prosjektbruker | Samarbeidsbruker i prosjektet som kan opprette sine egne prosjekter og vise alle prosjekter som er delt med dem.| User|
-| Prosjektsystem | Rolle brukt til programkontekst. Kunder bør ikke bruke denne systemrollen. | Global|
+
+| Rolle           | Beskrivelse                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Prosjektbruker   | Samarbeidsbruker i prosjektet som kan opprette sine egne prosjekter og vise alle prosjekter som er delt med dem. | User   |
+| Prosjektsystem | Rolle brukt til programkontekst. Kunder bør ikke bruke denne systemrollen.                                    | Global |
 
 ## <a name="security-enforcement"></a>Sikkerhetshåndhevelse
 Handlinger som utføres på prosjektnivå, utføres i konteksten til brukeren som er logget på. Dette betyr at brukeren må ha tilgang til CDS for å opprette, åpne eller slette et prosjekt. Tilgang i CDS kan gis gjennom enhver av de mulige mekanismene som er inkludert i plattformen. En bruker med et større omfang kan for eksempel få tilgang til prosjektet, eller hvis en eksplisitt handling for prosjektdeling er utført som gir brukeren tilgang.
@@ -56,6 +57,8 @@ Med grupper er det mulig med samarbeid for tillatelsene i prosjektet og støtten
 Project Operations oppretter ikke en gruppe gjennom implisitt handling. Dette skjer bare gjennom den eksplisitte handlingen ved å trykke grupper.
 
 Søk etter gruppemedlemmer i dialogboksen **Gruppebehandling** er begrenset til de som er angitt som en del av miljøets sikkerhetsgruppe. Hvis du vil ha mer informasjon, kan du se [Styre brukertilgangen til miljøer: sikkerhetsgrupper og lisenser](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Gruppemodus](./media/groupsmode.png)
 
 1. Prosjektet opprettes og eies av brukeren som opprettet det.
 2. Prosjekteieren oppdateres til teamet.

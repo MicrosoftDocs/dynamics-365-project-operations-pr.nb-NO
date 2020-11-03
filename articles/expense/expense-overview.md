@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967378"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081500"
 ---
 # <a name="expense-home-page"></a>Startside for utgift
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations støtte behandling av utgifter. Utgiftsbehandlin
 
 I Project Operations finnes det to støttede distribusjonsmodeller for utgifter: 
 
-- **Fullstendig**: Fullstendig distribusjon er tilgjengelig for **Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer** eller **Project Operations for produksjonsordrebaserte scenarioer**.
-- **Standard**: Standard distribusjon er tilgjengelig for **Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer** og **Lite-distribusjon – avtale til proformafakturering**.
+- **Fullstendig** : Fullstendig distribusjon er tilgjengelig for **Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer** eller **Project Operations for produksjonsordrebaserte scenarioer**.
+- **Standard** : Standard distribusjon er tilgjengelig for **Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer** og **Lite-distribusjon – avtale til proformafakturering**.
 
 ## <a name="full"></a>Fullstendig 
 Fullstendig utgiftsdistribusjon gir en fullstendig håndheving av en policy som inkluderer muligheten til å opprette policyer, for eksempel følgende:

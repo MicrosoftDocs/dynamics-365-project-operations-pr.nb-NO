@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d53bae2f64e7b427f762161ff08917598217bb5a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1db7e76dbb220954b9f9088b2168eed1a1902abc
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898363"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081652"
 ---
 # <a name="currency"></a>Valuta
 
@@ -32,7 +31,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Valutaer bestemmer prisen på produktene i produktkatalogen og kostnaden for transaksjoner, for eksempel salgsordrer. Hvis kundene dine er spredt over ulike områder, kan du legge til valutaene deres for å behandle transaksjonene. Legg til valutaene som er mest aktuelle for dine gjeldende og fremtidige forretningsbehov.  
 
 > [!NOTE]
-> Hvis miljøet er et Common Data Service-miljø, er du i Power Platform -administrasjonssenteret, og du velger siden **Valutaer** (**Miljøer** > [velg miljø] > **Innstillinger** > **Virksomhet** > **Valutaer**), vil siden være tom. Dette skyldes at angivelse av en valuta ikke støttes i Common Data Service-miljøer.
+> Hvis miljøet er et Common Data Service-miljø, er du i Power Platform -administrasjonssenteret, og du velger siden **Valutaer** ( **Miljøer** > [velg miljø] > **Innstillinger** > **Virksomhet** > **Valutaer** ), vil siden være tom. Dette skyldes at angivelse av en valuta ikke støttes i Common Data Service-miljøer.
 
 ## <a name="add-a-currency"></a>Legge til en valuta  
 Før du starter denne prosedyren, må du kontrollere at sikkerhetsrollen inneholder tillatelser for systemadministrator. 
@@ -46,9 +45,9 @@ Før du starter denne prosedyren, må du kontrollere at sikkerhetsrollen innehol
 
    |          Felt          |                                                                                                                                                                                                                                                                                                                                                                            Beskrivelse                                                                                                                                                                                                                                                                                                                                                                            |
    |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |    **Valutatype**    | - **System** – Velg dette alternativet hvis du vil bruke valutaene som er tilgjengelige i modelldrevne apper i Dynamics 365. Velg **Oppslag** for å søke etter en valuta. Når du velger en valutakode, legges **valutanavnet** og **valutasymbolet** automatisk til for den valgte valutaen.<br />- **Egendefinert** – Velg dette alternativet hvis du vil legge til en valuta som ikke er tilgjengelig i modelldrevne apper i Dynamics 365. I dette tilfellet må du angi verdier manuelt for **Valutakode**, **Valutapresisjon**, **Valutanavn**, **Valutasymbol** og **Valutaomregning**. |
+   |    **Valutatype**    | - **System** – Velg dette alternativet hvis du vil bruke valutaene som er tilgjengelige i modelldrevne apper i Dynamics 365. Velg **Oppslag** for å søke etter en valuta. Når du velger en valutakode, legges **valutanavnet** og **valutasymbolet** automatisk til for den valgte valutaen.<br />- **Egendefinert** – Velg dette alternativet hvis du vil legge til en valuta som ikke er tilgjengelig i modelldrevne apper i Dynamics 365. I dette tilfellet må du angi verdier manuelt for **Valutakode** , **Valutapresisjon** , **Valutanavn** , **Valutasymbol** og **Valutaomregning**. |
    |    **Valutakode**    |                                                                                                                                                                                                                                                                                                                                            Kortform for valutaen. Eksempel: **USD** for amerikanske dollar.                                                                                                                                                                                                                                                                                                                                            |
-   | **Valutapresisjon**  |                                                                                                                                                                                  Skriv inn antall desimaler du vil bruke for valutaen.  Du kan legge til en verdi mellom 0 og 4. **Obs!**  Hvis du har angitt en presisjonsverdi i **Systeminnstillinger**-dialogboksen, vises denne verdien her.                                                                                                                                                                                  |
+   | **Valutapresisjon**  |                                                                                                                                                                                  Skriv inn antall desimaler du vil bruke for valutaen.  Du kan legge til en verdi mellom 0 og 4. **Obs!**  Hvis du har angitt en presisjonsverdi i **Systeminnstillinger** -dialogboksen, vises denne verdien her.                                                                                                                                                                                  |
    |    **Valutanavn**    |                                                                                                                                                                                                                                         Hvis du valgte en valutakode fra listen over tilgjengelige valutaer i modelldrevne apper i Dynamics 365, vises valutanavnet for den valgte koden her. Hvis du valgte **Egendefinert** som valutatype, skriver du inn navnet på valutaen.                                                                                                                                                                                                                                          |
    |   **Valutasymbol**   |                                                                                                                                                                                                                                                                      Hvis du valgte en valutakode fra listen over tilgjengelige valutaer, vises symbolet for den valgte valutaen her. Hvis du valgte **Egendefinert** som valutatype, skriver du inn symbolet for den nye valutaen.                                                                                                                                                                                                                                                                       |
    | **Valutakonvertering** |                                                                                                                                                                                                                                     Skriv inn verdien for den valgte valutaen i henhold til én amerikansk dollar. Dette er beløpet som brukes ved konvertering av den valgte valutaen til standardvalutaen. **Viktig!**  Pass på at du oppdaterer denne verdien så ofte som nødvendig for å unngå eventuelle unøyaktige beregninger i transaksjonene.                                                                                                                                                                                                                                      |

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908435"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081553"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Fakturaplaner på prosjektbaserte tilbudslinjer
 
@@ -27,12 +27,12 @@ Generelt sett er formålet med faktureringsplanen å tillate automatisk opprette
 
 Når faktureringsmetoden for en prosjektbasert tilbudslinje er tid og materiell, genererer systemet en datobasert fakturaplan. Fullfør fremgangsmåten nedenfor for å generere en datobasert fakturaplan automatisk.
 
-1. Gå til **Innstillinger** > **Fakturafrekvenser**, og konfigurer en fakturafrekvens.
-2. På **Tilbud**-siden åpner du prosjekttilbudet, og på **Sammendrag**-fanen angir du ønsket leveringsdato.
+1. Gå til **Innstillinger** > **Fakturafrekvenser** , og konfigurer en fakturafrekvens.
+2. På **Tilbud** -siden åpner du prosjekttilbudet, og på **Sammendrag** -fanen angir du ønsket leveringsdato.
 3. Åpne tilbudslinjen for tid og materiell som du må opprette en datobasert fakturaplan for. 
 4. I kategorien **Fakturaplan** velger du verdier i feltene **Fakturastart** og **Fakturafrekvens**. 
 5. I delrutenettet velger du **Generer fakturaplan**.
-6. Programmet genererer fakturaplanen med feltene **Dato for fakturakjøring**, **Transaksjonsfrist** og **Kjørestatus** angitt på følgende måte:
+6. Programmet genererer fakturaplanen med feltene **Dato for fakturakjøring** , **Transaksjonsfrist** og **Kjørestatus** angitt på følgende måte:
 
     - **Dato for fakturakjøring** er angitt til datoen som er diktert basert på fakturafrekvensen.
     - **Transaksjonsfrist** er angitt til dagen før **Dato for fakturakjøring**.
@@ -40,10 +40,10 @@ Når faktureringsmetoden for en prosjektbasert tilbudslinje er tid og materiell,
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Opprette en fakturaplan for fastpris for en prosjektbasert tilbudslinje
 
-Når den prosjektbaserte tilbudslinjen har faktureringsmetoden **Fast**, oppretter systemet en milepælbasert fakturaplan. Fullfør fremgangsmåten nedenfor for automatisk å generere denne tidsplanen for et fast sett med milepæler som er likt distribuert for kalenderperioden.
+Når den prosjektbaserte tilbudslinjen har faktureringsmetoden **Fast** , oppretter systemet en milepælbasert fakturaplan. Fullfør fremgangsmåten nedenfor for automatisk å generere denne tidsplanen for et fast sett med milepæler som er likt distribuert for kalenderperioden.
 
-1. Gå til **Innstillinger** > **Fakturafrekvenser**, og konfigurer en fakturafrekvens.
-2. På **Tilbud**-siden åpner du prosjekttilbudet, og på **Sammendrag**-fanen angir du ønsket leveringsdato.
+1. Gå til **Innstillinger** > **Fakturafrekvenser** , og konfigurer en fakturafrekvens.
+2. På **Tilbud** -siden åpner du prosjekttilbudet, og på **Sammendrag** -fanen angir du ønsket leveringsdato.
 3. Åpne den tilbudslinjen for fastpris som du trenger for å opprette en milepælplan for. 
 4. I kategorien **Fakturaplan** velger du verdier i feltene **Fakturastart** og **Fakturafrekvens**. 
 5. I delrutenettet velger du **Generer periodiske milepæler**.
@@ -58,7 +58,7 @@ Når den prosjektbaserte tilbudslinjen har faktureringsmetoden **Fast**, opprett
 
 Milepæler med fastpris kan også genereres manuelt når de ikke deles regelmessig. Slik oppretter du en milepæl manuelt:
 
-Åpne tilbudslinjen for fastpris der du trenger for å opprette en milepæl. På fanen **Fakturaplan**, i delrutenettet, velger du **+ Opprett ny milepæl for tilbudslinje**, og angi deretter den nødvendige informasjonen basert på følgende tabell.
+Åpne tilbudslinjen for fastpris der du trenger for å opprette en milepæl. På fanen **Fakturaplan** , i delrutenettet, velger du **+ Opprett ny milepæl for tilbudslinje** , og angi deretter den nødvendige informasjonen basert på følgende tabell.
 
 | **Felt** | **Plassering** | **Relevans, formål og veiledning** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |

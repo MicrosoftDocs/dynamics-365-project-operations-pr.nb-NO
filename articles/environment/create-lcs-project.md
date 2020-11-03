@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: f42a5e4dbb9e82d8e635d1fbfb17c49c73f25d60
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930539"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081477"
 ---
 # <a name="start-a-new-project-in-lcs"></a>Start et nytt prosjekt i LCS
 
@@ -23,7 +23,7 @@ Bruk Lifecycle Services (LCS) til å administrere Dynamics 365 Project Operation
 
 1. Gå til [LCS](https://lcs.dynamics.com/Logon/Index), og velg **Logg på** via kontoen du brukte til å abonnere.
 2. Hvis du blir bedt om det, godtar du de juridiske vilkårene og personvernvilkårene.
-3. Velg plusstegnet (**+**) for å opprette et nytt prosjekt.
+3. Velg plusstegnet ( **+** ) for å opprette et nytt prosjekt.
 4. For forhåndsvisningsformål velger du prosjekttypen **Overfør, opprett løsninger og lær**.
 
   ![Velg LCS-prosjekttype](./media/create-lcs-1.png)

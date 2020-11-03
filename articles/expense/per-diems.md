@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908432"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081494"
 ---
 # <a name="per-diems"></a>Kostgodtgjørelser
 
@@ -30,4 +30,4 @@ En kostgodtgjørelse er en godtgjørelse som betales til en arbeider som er på 
 4. Hvis du vil angi måltidsprosentreduksjonen for frokost, lunsj eller middag, må du oppdatere feltene på siden **Parametere for utgiftshåndtering** i kategorien **Kostgodtgjørelse**. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Sende utgifter med kostgodtgjørelse
-Hvis du vil sende utgifter ved hjelp av kostgodtgjørelse, bruker du utgiftskategorien **Kostgodtgjørelse** når du oppretter en reiseregning. Angi **Kostgodtgjørelse fra dato**, **Kostgodtgjørelse til dato** og **Sted for kostgodtgjørelse**. Beløpet beregnes basert på kostgodtgjørelsessatsene for den valgte lokasjonen, og måltidsreduksjonen beregnes basert på kostgodtgjørelsesnivåene.
+Hvis du vil sende utgifter ved hjelp av kostgodtgjørelse, bruker du utgiftskategorien **Kostgodtgjørelse** når du oppretter en reiseregning. Angi **Kostgodtgjørelse fra dato** , **Kostgodtgjørelse til dato** og **Sted for kostgodtgjørelse**. Beløpet beregnes basert på kostgodtgjørelsessatsene for den valgte lokasjonen, og måltidsreduksjonen beregnes basert på kostgodtgjørelsesnivåene.

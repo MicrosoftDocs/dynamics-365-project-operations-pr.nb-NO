@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081520"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Administrasjon av flere kunder i prosjekttilbud (salg)
 
@@ -31,11 +31,11 @@ Tilbudskunder og tilbudslinjekunder kan når som helst legges til, oppdateres el
 
 Kunden som er i kategorien Sammendrag for prosjekttilbudet som potensiell kunde, er den primære kunden i tilbudet. Når du prøver å slette den primære kunden fra kundelisten i tilbudet, vises en feilmelding om at en primær kundeoppføring i et tilbud ikke kan slettes.
 
-Den primære kunden bør ikke oppdateres fra kundelisten i tilbudet. Du kan imidlertid påvirke den primære kunden ved å endre den potensielle kunden i kategorien **Sammendrag** for tilbudet. Når dette feltet oppdateres i **tilbudssammendraget**, blir den nylig valgte potensielle kunden lagt til som en ny tilbudskunde med flagget **Primær** angitt. Den gamle potensielle kunden vil fremdeles være en kunde i tilbudet.
+Den primære kunden bør ikke oppdateres fra kundelisten i tilbudet. Du kan imidlertid påvirke den primære kunden ved å endre den potensielle kunden i kategorien **Sammendrag** for tilbudet. Når dette feltet oppdateres i **tilbudssammendraget** , blir den nylig valgte potensielle kunden lagt til som en ny tilbudskunde med flagget **Primær** angitt. Den gamle potensielle kunden vil fremdeles være en kunde i tilbudet.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Opprette, oppdatere eller slette en oppføring av en tilbudskunde
 
-En tilbuds kundekan opprettes, oppdateres eller slettes fra kategorien **Tilbudskunder** på **Tilbud**-siden. Feltene i tabellen nedenfor er på oppføringen av en tilbudskunde for et prosjekttilbud.
+En tilbuds kundekan opprettes, oppdateres eller slettes fra kategorien **Tilbudskunder** på **Tilbud** -siden. Feltene i tabellen nedenfor er på oppføringen av en tilbudskunde for et prosjekttilbud.
 
 | **Felt** | **Plassering** | **Relevans, formål og veiledning** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |

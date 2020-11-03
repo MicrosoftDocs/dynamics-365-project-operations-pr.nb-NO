@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fbab7fd94fa429876216ee82b716da8d847fb01a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896653"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081690"
 ---
 # <a name="define-expense-policies"></a>Definere utgiftspolicyer
 
@@ -37,12 +36,12 @@ definener policyen.
         
 Du kan definere tre typer policyer:         
         
-- **Advarsel**: Gjør det mulig for den ansatte å sende en reiseregningsrapport eller reiserekvisisjon, men utgiften blir merket for alle godkjennere og         
+- **Advarsel** : Gjør det mulig for den ansatte å sende en reiseregningsrapport eller reiserekvisisjon, men utgiften blir merket for alle godkjennere og         
   for senere rapportering.        
 
-- **Feil**: Krever at arbeideren reviderer utgiften for å overholde policyen før han/hun sender reiseregningsrapporten eller reiserekvisisjonen.        
+- **Feil** : Krever at arbeideren reviderer utgiften for å overholde policyen før han/hun sender reiseregningsrapporten eller reiserekvisisjonen.        
  
- - **Begrunnelse**: Krever at arbeideren eller en overordnet angir en begrunnelse for å overskride policybeløpet før han/hun sender reiseregningsrapporten eller reiserekvisisjonen.        
+ - **Begrunnelse** : Krever at arbeideren eller en overordnet angir en begrunnelse for å overskride policybeløpet før han/hun sender reiseregningsrapporten eller reiserekvisisjonen.        
 
 ## <a name="policy-tips"></a>Policytips
 Her er noen forslag som kan hjelpe deg når du oppretter nye policyer for håndtering av reiseregning og utlegg: 

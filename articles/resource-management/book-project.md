@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 19128264ed3db7efeeba948155f0ddbdc806c2a0
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081472"
 ---
 # <a name="book-to-a-project"></a>Bestille til et prosjekt
 
@@ -23,7 +23,7 @@ Det er tilfeller der en prosjektleder eller ressursleder må tildele en ressurs 
 
 - Bestille fra teammedlemsrutenettet
 - Bestille fra planleggingstavlen
-- Bestille fra **Prosjekt**-skjemaet
+- Bestille fra **Prosjekt** -skjemaet
 
 ## <a name="book-from-the-team-member-grid"></a>Bestille fra teammedlemsrutenettet
 
@@ -47,7 +47,7 @@ Hvis organisasjonen din opererer i hybrid ressursallokeringsmodus, kan prosjektl
 Når en ressursleder må reservere en ressurs direkte til et prosjekt, kan de bruke planleggingstavlen og prosjektkravet. Prosjektkravet er et ressurskrav som alltid er tilgjengelig for bestilling. Fullfør fremgangsmåten nedenfor for å bestille direkte til et prosjekt fra planleggingstavlen.
 
 1. Naviger til planleggingstavlen og filtrer etter ressursene du vurderer for kravet, på venstre side.
-2. Velg **Prosjekt**-fanen i den nederste ruten for å vise en liste over prosjektkrav.
+2. Velg **Prosjekt** -fanen i den nederste ruten for å vise en liste over prosjektkrav.
 3. Dra kravet til en ressurs, og definer følgende informasjon:
 
     - Startdato

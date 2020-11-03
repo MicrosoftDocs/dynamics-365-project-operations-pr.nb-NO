@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966832"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081543"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Administrer prosjektprislister i prosjekttilbud (salg)
 
@@ -29,8 +29,8 @@ Når det ikke er noen prosjektprislister i et prosjekttilbud, får du en advarse
 
 Fullfør fremgangsmåten nedenfor for å opprette eller velge en bestemt prisliste for beregning av prosjektbasert arbeid og utgifter.
 
-1. I tilbudet velger du kategorien **Prosjektpris**, og i delrutenettet velger du **+ Legg til ny prosjektprisliste**.
-2. På hurtigopprettingssiden velger du en prisliste. Rullegardinlisten viser alle prislister som har kontekst angitt til **Salg**, og valutaen samsvarer med valutaen i tilbudet.
+1. I tilbudet velger du kategorien **Prosjektpris** , og i delrutenettet velger du **+ Legg til ny prosjektprisliste**.
+2. På hurtigopprettingssiden velger du en prisliste. Rullegardinlisten viser alle prislister som har kontekst angitt til **Salg** , og valutaen samsvarer med valutaen i tilbudet.
 4. Skriv inn en beskrivelse av tilknytningen for prosjektprislisten, og velg **Lagre og Lukk**.
 
 En tilknytning for prosjektprislisten opprettes.
@@ -49,7 +49,7 @@ Prosjektprislister kan defineres som standard i et prosjekttilbud. Dette oppsett
 
 1. Gå til **Innstillinger** > **Generelt** > **Parametere**.
 2. På listesiden **Aktive parametere** finner du oppføringer og dobbeltklikker på den for å åpne den. 
-3. På **Parametere**-siden velger du kategorien **Prisliste**. Du kan se at listen over standard prislister vises. Dette er en liste over standard kostnads- og salgsprislister. Ved å ha en salgsprisliste tilknyttet her for hver valuta du selger i, sørger du for at denne salgsprislisten som standard brukes i alle tilbud som du oppretter for kunder som har transaksjoner i denne valutaen.
+3. På **Parametere** -siden velger du kategorien **Prisliste**. Du kan se at listen over standard prislister vises. Dette er en liste over standard kostnads- og salgsprislister. Ved å ha en salgsprisliste tilknyttet her for hver valuta du selger i, sørger du for at denne salgsprislisten som standard brukes i alle tilbud som du oppretter for kunder som har transaksjoner i denne valutaen.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Definere kundespesifikke prosjektprislister
 
@@ -57,7 +57,7 @@ Kundespesifikkeprosjekt prislister kan også opprettes når du har forhandlet en
 
 Følg fremgangsmåten nedenfor for å definere en kundespesifikk prosjektprisliste.
 
-1. I **Salg**-området velger du **Kunder**.
+1. I **Salg** -området velger du **Kunder**.
 2. Velg i listen over aktive forretningsforbindelser, og åpne kundeoppføringen du har spesialprisliste for.
 3. I kategorien **Prosjektprislister** kan du opprette en ny prislistetilknytning for å få prosjektprislisten som er spesifikk for denne kunden.
 

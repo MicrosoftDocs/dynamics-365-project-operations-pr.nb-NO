@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: fa99783e52dbcdeaf80bbfd03df0f458f86b5e99
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896023"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081469"
 ---
 # <a name="bookings-vs-assignments"></a>Bestillinger i forhold til tildelinger
 
@@ -23,4 +23,4 @@ Bestillinger er forpliktende eller ikke-forpliktende tildeling av ressurser i et
 
 Tildelinger er tilordningen av ressurser til prosjektoppgaver i prosjektplanen. Ressursene kan være enten reelle ressurser eller generelle ressurser. 
 
-Ideelt sett bør bestillinger og tildelinger for reelle ressurser være de samme, fordi de ikke er forskjellige. Microsoft Dynamics Project Operations håndhever imidlertid ikke denne avtalen. **Avstemming**-visningen viser en prosjektleder steder der bestillingene og tildelingene til en ressurs ikke er de samme.
+Ideelt sett bør bestillinger og tildelinger for reelle ressurser være de samme, fordi de ikke er forskjellige. Microsoft Dynamics Project Operations håndhever imidlertid ikke denne avtalen. **Avstemming** -visningen viser en prosjektleder steder der bestillingene og tildelingene til en ressurs ikke er de samme.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 3c429fa14b4b95420c67a91a6a59af7db2660f68
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898903"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081518"
 ---
 # <a name="close-a-quote"></a>Lukke et tilbud
 
@@ -23,7 +23,7 @@ Et prosjekttilbud kan lukkes som vunnet eller tapt. Siden funksjonene Aktiver og
 
 ## <a name="close-a-quote-as-won"></a>Lukk et tilbud som vunnet
 
-Hvis du lukker et prosjekttilbud som vunnet, settes statusen for tilbudet til **Lukket**, og statusårsaken settes til **Vunnet**. Ved å lukke tilbudet blir det skrivebeskyttet, og det opprettes et prosjektkontraktutkast med all tilbudsinformasjonen. Siden et lukket tilbud ikke kan åpnes på nytt, vil en bekreftelsesdialogboks bekrefte endringene før du lukker et tilbud.
+Hvis du lukker et prosjekttilbud som vunnet, settes statusen for tilbudet til **Lukket** , og statusårsaken settes til **Vunnet**. Ved å lukke tilbudet blir det skrivebeskyttet, og det opprettes et prosjektkontraktutkast med all tilbudsinformasjonen. Siden et lukket tilbud ikke kan åpnes på nytt, vil en bekreftelsesdialogboks bekrefte endringene før du lukker et tilbud.
 
 Prosjektkontrakten som opprettes fra et prosjekttilbud, gjøres også tilgjengelig i modulen for prosjektstyring og regnskap i Project Operations. Hvis en prosjektkontrakt ikke er tilordnet til et prosjekt på noen av linjene, gjøres denne prosjektkontrakten tilgjengelig som en inaktiv prosjektkontrakt, og den blir aktiv så snart et prosjekt er tilordnet til minst én av kontraktlinjene.
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081497"
 ---
 # <a name="copy-project-based-quotes"></a>Kopier prosjektbaserte tilbud
 
@@ -21,7 +21,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Du kan enkelt opprette et nytt prosjekttilbud ved å kopiere et eksisterende. 
 
-- Hvis du vil kopiere et prosjekttilbud, går du til listesiden **Prosjekttilbud** eller detaljsiden **Prosjekttilbud**, velger prosjekttilbudet du vil kopiere, og velger deretter **Kopier**.
+- Hvis du vil kopiere et prosjekttilbud, går du til listesiden **Prosjekttilbud** eller detaljsiden **Prosjekttilbud** , velger prosjekttilbudet du vil kopiere, og velger deretter **Kopier**.
 
 Dette åpner en dialogside der du kan angi parameterne for kopien. Den følgende tabellen lister opp feltene som er inkludert på dialogsiden. Kopieringsprosessen kan endres avhengig av verdiene du velger.
 
@@ -33,7 +33,7 @@ Dette åpner en dialogside der du kan angi parameterne for kopien. Den følgende
 Når dialogboksen åpnes, setter systemet den til kontraktenheten i kildetilbudet. | Kontraktenheten er avdelingen i firmaet som skal kjøre prosjektene etter at avtalen er lukket. Hver enkelt kontraktenhet har en valuta. Valutaen brukes til å rapportere beregnet og faktisk kostnad som påløpte under kjøringen av prosjektet. |
 | Valuta | Dette er valutaen som avtaletransaksjonene utføres i. Når dialogboksen åpnes, setter systemet den til valutaen i kildetilbudet. Dette kan endres, og hvis det endres, er feltet **Kopier pris** alltid satt til **Nei**. Dette skyldes at prislistene i kildetilbudet ikke lenger er relevante. | Valuta brukes til å angi en prisliste som standard, til å bygge et økonomisk estimat på tilbudet og til slutt til å fakturere kunden når avtalen er vunnet. |
 | Ønsket leveringsdato | Dette er leveringsdatoen som kunden har bedt om. | Dette brukes som sluttdato når du oppretter faktureringsdatoer langs en bestemt frekvens. |
-| Kopier pris | En Ja/nei-verdi angir om prissettingen i tilbudet skal kopieres fra kildetilbudet. | Hvis du velger **Ja**, kopieres prosjektprisliste- og produktprislistereferansene fra kildetilbudet til måltilbudet. Hvis du velger **Nei**, blir prislistene standard på nytt basert på de siste prislistene som ble definert i konto- eller prosjektparameterne. |
+| Kopier pris | En Ja/nei-verdi angir om prissettingen i tilbudet skal kopieres fra kildetilbudet. | Hvis du velger **Ja** , kopieres prosjektprisliste- og produktprislistereferansene fra kildetilbudet til måltilbudet. Hvis du velger **Nei** , blir prislistene standard på nytt basert på de siste prislistene som ble definert i konto- eller prosjektparameterne. |
 
 Når du velger **OK** på dialogsiden, oppretter systemet en kopi av prosjekttilbudet basert på parameterne som er valgt i dialogen. Det nye prosjekttilbudet åpnes. 
 

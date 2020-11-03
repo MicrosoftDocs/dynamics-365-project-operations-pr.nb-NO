@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081493"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurer og bruk konfigurasjonsdata i Common Data Service for Project Operations
 
@@ -27,7 +27,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 ![Konfigurasjonsoverføring](./media/1ConfigurationMigration.png)
 
-4. På side 2 i CMT-veiviseren velger du **Office 365** som **Distribusjonstype**.
+4. På side 2 i CMT-veiviseren velger du **Microsoft 365** som **Distribusjonstype**.
 5. Merk av for **Vis en liste over tilgjengelige organisasjoner** og **Vis avansert**.
 6. Velg området for leieren din, skriv inn legitimasjonen din, og velg **Logg på**.
 
@@ -75,19 +75,19 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 ![Åpne miljø](./media/7OpenEnvironment.png)
 
-2. Gå til **Prosjekter** > **Ressurser**, og velg deretter **Ny** for å opprette en bestillbar ressurs for brukeren.
+2. Gå til **Prosjekter** > **Ressurser** , og velg deretter **Ny** for å opprette en bestillbar ressurs for brukeren.
 
 ![Ressurser som kan reserveres](./media/8BookableResources.png)
 
-3. På **Generelt**-fanen velger du administratorbrukeren. Kontroller at tidssonen samsvarer med den som du befinner deg i. 
+3. På **Generelt** -fanen velger du administratorbrukeren. Kontroller at tidssonen samsvarer med den som du befinner deg i. 
 
 ![Ny ressurs som kan reserveres](./media/9NewBookableResource.png)
 
-4. På **Planlegging**-fanen i **Firma**-feltet velger du **USPM**-firmaet og deretter **Lagre**. 
+4. På **Planlegging** -fanen i **Firma** -feltet velger du **USPM** -firmaet og deretter **Lagre**. 
 
 ![Planlegging-fanen](./media/10SchedulingTab.png)
 
-5. Velg **Arbeidstimer**-fanen.  
+5. Velg **Arbeidstimer** -fanen.  
 
 ![Arbeidstimer](./media/11WorkHours.png)
 
@@ -100,7 +100,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 ![Oppdater kalender](./media/13UpdateCalendar.png)
 
-9. Gå til **Innstillinger** > **Kalendermaler**, og velg **Ny**.
+9. Gå til **Innstillinger** > **Kalendermaler** , og velg **Ny**.
  
  ![Kalendermaler](./media/14CalendarTemplates.png)
  
@@ -108,16 +108,16 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
  
  ![Lagre kalendermal](./media/15SaveCalendarTemplate.png)
  
- 11. Gå til **Parametere**, og dobbeltklikk oppføringen. 
+ 11. Gå til **Parametere** , og dobbeltklikk oppføringen. 
  
  ![Prosjektparametere](./media/16ProjectParameters.png)
  
 12. Oppdater følgende felter:
 
- - **Standardfirma**: USPM
- - **Standard organisasjonsenhet**: Contoso Robotics Global
- - **Fakturafrekvens**: Sjuende og siste dag
- - **Arbeidstimemal**: Bytt til malen du opprettet.
+ - **Standardfirma** : USPM
+ - **Standard organisasjonsenhet** : Contoso Robotics Global
+ - **Fakturafrekvens** : Sjuende og siste dag
+ - **Arbeidstimemal** : Bytt til malen du opprettet.
 
 13. Velg **Lagre**. 
 

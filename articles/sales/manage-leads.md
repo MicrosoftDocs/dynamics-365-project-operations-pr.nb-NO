@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898633"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081478"
 ---
 # <a name="manage-leads"></a>Behandle kundeemner
 
@@ -23,9 +23,9 @@ Prosjektrelaterte kundeemner kan administreres og kvalifiseres i Project Operati
 
 ## <a name="project-sales-leads"></a>Kundeemner i prosjekt
 
-I **Salg**-delen, i den venstre navigasjonsruten, åpner du listesiden **Kundeemner** for å vise en liste over alle kundeemneoppføringer i systemet. Listen over kundeemner som vises, er arbeidsbasert, og andre typer kundeemner kan opprettes hvis du også har Dynamics 365 Sales eller Dynamics 365 Field Service.
+I **Salg** -delen, i den venstre navigasjonsruten, åpner du listesiden **Kundeemner** for å vise en liste over alle kundeemneoppføringer i systemet. Listen over kundeemner som vises, er arbeidsbasert, og andre typer kundeemner kan opprettes hvis du også har Dynamics 365 Sales eller Dynamics 365 Field Service.
 
-Du kan opprette en filtrert visning for å se bare kundeemner som er basert på prosjekter, ved å opprette et filter på **Type**-verdien. Du kan for eksempel velge å vise bare arbeidsbaserte kundeemner.
+Du kan opprette en filtrert visning for å se bare kundeemner som er basert på prosjekter, ved å opprette et filter på **Type** -verdien. Du kan for eksempel velge å vise bare arbeidsbaserte kundeemner.
 
 ## <a name="create-a-new-lead-for-a-project-based-deal"></a>Opprett et nytt kundeemne for en prosjektbasert avtale
 
@@ -34,7 +34,7 @@ Når et prosjektbasert kundeemne er kvalifisert, opprettes det en salgsmulighet 
 - Faktureringsmetodene for tid og materiale og fast pris
 - Prislister med flere gyldige datoer for personale, utgifter og materiell påløpt for prosjekter
 
-Hvis du vil opprette en salgsmulighet automatisk for et kvalifisert kundeemne, setter du **Type**-attributtet til **Arbeidsbasert** når du oppretter kundeemnet. Hvis du velger en annen type, vil ikke emnet opprette en prosjektbasert salgsmulighet når det er kvalifisert. Hvis den prosjektbaserte psalgsmuligheten ikke blir opprettet, vil ikke de prosjektspesifikke funksjonene være tilgjengelig i salgsprosessene nedstrøms.
+Hvis du vil opprette en salgsmulighet automatisk for et kvalifisert kundeemne, setter du **Type** -attributtet til **Arbeidsbasert** når du oppretter kundeemnet. Hvis du velger en annen type, vil ikke emnet opprette en prosjektbasert salgsmulighet når det er kvalifisert. Hvis den prosjektbaserte psalgsmuligheten ikke blir opprettet, vil ikke de prosjektspesifikke funksjonene være tilgjengelig i salgsprosessene nedstrøms.
 
 Tabellen nedenfor inneholder viktig feltinformasjon for et kundeemne, og innvirkningene nedstrøms av disse feltene.
  
@@ -49,11 +49,11 @@ Tabellen nedenfor inneholder viktig feltinformasjon for et kundeemne, og innvirk
 
 ## <a name="qualify-a-new-project-based-lead"></a>Kvalifisere et nytt prosjektbasert kundeemne
 
-Kundeemner som har **Type**-verdien satt til **Arbeidsbasert**, kalles for prosjektbaserte kundeemner. Når et prosjektbasert kundeemne er kvalifisert, opprettes følgende:
+Kundeemner som har **Type** -verdien satt til **Arbeidsbasert** , kalles for prosjektbaserte kundeemner. Når et prosjektbasert kundeemne er kvalifisert, opprettes følgende:
 
-- En forretningsforbindelse som bruker **Firma**-feltet fra emnet.
+- En forretningsforbindelse som bruker **Firma** -feltet fra emnet.
 - En kontaktoppføring som er knyttet til forretningsforbindelsen basert på verdiene i feltene **Fornavn** og **Etternavn** for kundeemnet.
-- En prosjektbasert salgsmulighet som har **Type**-feltet satt til &quot;**Arbeidsbasertert**.
+- En prosjektbasert salgsmulighet som har **Type** -feltet satt til &quot;**Arbeidsbasertert**.
 
 Hvis du vil ha mer detaljert informasjon om kvalifisering av kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
@@ -61,7 +61,7 @@ Hvis du vil ha mer detaljert informasjon om kvalifisering av kundeemner, kan du 
 
 Når du kjører Project Operations ved hjelp av distribusjonsmodusen Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, må hver kunde og salgsmulighet ha feltet **Eiende firma** angitt. Det eiende firmaet er en juridisk enhet i organisasjonen som eier levering av prosjektet. Hver kunde eller forretningsforbindelse relasjonstypen kunde må ha feltverdien **Eiende firma** angitt til den juridiske enheten som inngår kontrakter og forhandler med denne kunden. En kunde kan bare være i én juridisk enhet.
 
-Når et emne kvalifiseres, vil kunde- og salgsmulighetsoppføringene som opprettes, ha **Eiende firma**-feltet angitt til firmaet til den gjeldende brukerens bestillbare ressursoppføring.
+Når et emne kvalifiseres, vil kunde- og salgsmulighetsoppføringene som opprettes, ha **Eiende firma** -feltet angitt til firmaet til den gjeldende brukerens bestillbare ressursoppføring.
 
 Hvis den gjeldende brukerens bestillbare ressursoppføring er tom, brukes verdien i feltet **Eiende firma** på brukeroppføringen som standard på kunde- og salgsmulighetsoppføringene.
 

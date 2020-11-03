@@ -3,17 +3,17 @@ title: Klargjør et nytt miljø
 description: Dette emnet gir informasjon om hvordan du klargjør et nytt Project Operations-miljø.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949374"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081507"
 ---
 # <a name="provision-a-new-environment"></a>Klargjør et nytt miljø
 
@@ -26,21 +26,21 @@ Dette emnet gir informasjon om hvordan du klargjør et nytt Dynamics 365 Project
 Bruk fremgangsmåten nedenfor for å aktivere den automatiserte klargjøringsflyten for Project Operations for LCS-prosjektet.
 
 1. Gå til [LCS](https://lcs.dynamics.com/v2), og velg flisen **Behandling av evalueringsfunksjonalitet**.
-2. I listen **Evalueringsfunksjonalitet** velger du **Project Operations** og deretter **Evalueringsfunksjonalitet aktivert** for å aktivere Project Operations.
+2. I listen **Evalueringsfunksjonalitet** velger du **Project Operations-funksjonen** og deretter **Evalueringsfunksjonalitet aktivert** for å aktivere Project Operations.
 
 > [!NOTE]
 > Dette trinnet utføres bare én gang per LCS-prosjekt.
 
 ## <a name="provision-a-project-operations-environment"></a>Klargjør et Project Operations-miljø
 
-1. Åpne en ny Dynamics 365 Finance-distribusjon med et [demonstrasjonsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller et [sandkasse-/produksjonsmiljø](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Åpne en ny Dynamics 365 Finance-distribusjon med et [demonstrasjonsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller et [sandkasse-/produksjonsmiljø](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Gå gjennom veiviseren for **klargjøring av miljø**. 
 
 > [!IMPORTANT]
 > Kontroller at den valgte programversjon er 10.0.13 eller høyere.
 
 3. Du klargjør Project Operations ved å gå til **Avanserte innstillinger** og velge **Common Data Service**. 
-4. Aktiver **Common Data Service-innstillingen** ved å velge **Ja**, og skriv deretter inn informasjon i de obligatoriske feltene:
+4. Aktiver **Common Data Service-innstillingen** ved å velge **Ja** , og skriv deretter inn informasjon i de obligatoriske feltene:
 
   - Navn
   - Område
@@ -76,7 +76,7 @@ Project Operations krever et Finance-miljø med programversjon **10.0.13 (10.0.5
 
 Det kan hende du må bruke kvalitetsoppdateringer i Finance-miljøet for å få denne versjonen.
 
-1. I LCS, på siden **Miljødetaljer**, i delen **Tilgjengelige oppdateringer**, velger du **Vis oppdatering**.
+1. I LCS, på siden **Miljødetaljer** , i delen **Tilgjengelige oppdateringer** , velger du **Vis oppdatering**.
 
 ![Vis oppdateringer](./media/5ViewUpdates.png)
 
@@ -84,7 +84,7 @@ Det kan hende du må bruke kvalitetsoppdateringer i Finance-miljøet for å få 
 
 ![Lagre pakke](./media/6SavePackage.png)
 
-3. Klikk **Velg alle**, og velg deretter **Lagre pakke**.
+3. Klikk **Velg alle** , og velg deretter **Lagre pakke**.
 
 ![Se gjennom og lagre oppdateringer](./media/7ReviewAndSaveUpdates.png)
 
@@ -120,7 +120,7 @@ Behandling av miljøet kan ta litt tid. Når det er ferdig, går miljøet tilbak
 
 ![Bruk løsninger](./media/13ApplySolutions.png)
 
-5. Velg begge løsningene, **Enhetstilordning for dobbel skriving i Dynamics 365 Finance and Operations** og **Enhetstilordninger for dobbel skriving i Dynamics 365 Project Operations**, og velg deretter **Bruk**.
+5. Velg begge løsningene, **Enhetstilordning for dobbel skriving i Dynamics 365 Finance and Operations** og **Enhetstilordninger for dobbel skriving i Dynamics 365 Project Operations** , og velg deretter **Bruk**.
 
 ![Bekreft løsninger](./media/14ConfirmSolutions.png)
 
@@ -165,18 +165,19 @@ Oppdateringen tar ca. 20 minutter. Du mottar et varsel når den er fullført.
 | **Integreringsenhet for prosjekttransaksjonsrelasjoner (msdyn\_transactionconnections)** | No | No | Ikke tilgjengelig | No | Ikke tilgjengelig |
 | **Kontraktlinjemilepæler for Project Operations-integrering (msdyn\_contractlinesscheduleofvalues)** | No | No | Ikke tilgjengelig | No | Ikke tilgjengelig |
 | **Enhet for utgiftsestimater for Project Operations-integrering (msdyn\_estimateslines)** | No | No | Ikke tilgjengelig | No | Ikke tilgjengelig |
-| **Enhet for timesestimater for Project Operations-integrering (msdyn\_resourceassignments)** | No | No | Ikke tilgjengelig | No | Ikke tilgjengelig |
+| **Eksportenhet for prosjektutgiftskategorier for Project Operations-integrering (msdyn\_expensecategories)** | No | No | Ikke tilgjengelig | No | Ikke tilgjengelig |
 | **Eksportenhet for prosjektutgifter for Project Operations-integrering (msdyn\_utgifter)** | Ja | No | Ikke tilgjengelig | No | Ikke tilgjengelig |
 | **Enhet for timesestimater for Project Operations-integrering (msdyn\_resourceassignments)** | Ja | No | Ikke tilgjengelig | No | Ikke tilgjengelig |
 
+
 4. Hvis du vil oppdatere enheten, velger du tilordningsnavnet, og deretter velger du **Oppdater enhteter**. 
-5. Fortsett med å kjøre tilordningen etter at oppdateringen er fullført.
+
 
 ![Oppdater tilordning](./media/20RefreshMapping.png)
 
-Før du aktiverer den neste tilordningen, må du kontrollere at tilordningen i tabellen er tilstanden **Kjører**. Det kan ta litt tid å kjøre tilordninger med et større antall forhånds krav.
+5. Kjør tilordningen etter at oppdateringen er fullført. Før du aktiverer den neste tilordningen, må du kontrollere at tilordningen i tabellen er tilstanden **Kjører**. Det kan ta litt tid å kjøre tilordninger med et større antall forhånds krav.
 
-Hvis du vil kjøre en tilordning med forhåndskrav, aktiverer du **Vis relaterte enhetstilordninger**. Hvis tabellen angir at **Forhåndskrav for innledende synkronisering** er **Nei**, må du kontrollere at flagget **Innledende synkronisering** er **Av** i alle tilordninger med forhåndskrav før kjøring.
+Hvis du vil kjøre en tilordning med forhåndskrav, aktiverer du **Vis relaterte enhetstilordninger**. Hvis tabellen angir at **Forhåndskrav for innledende synkronisering** er **Nei** , må du kontrollere at flagget **Innledende synkronisering** er **Av** i alle tilordninger med forhåndskrav før kjøring.
 
 ![Kjør tilordning](./media/21RunMap.png)
 

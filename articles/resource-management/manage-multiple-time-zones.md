@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961918"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081558"
 ---
 # <a name="manage-time-zones"></a>Administrere tidssoner
 
@@ -22,7 +22,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 ## <a name="projects"></a>Prosjekter
 
-Når et prosjekt opprettes, er tidssonen basert på tidssonen som er definert i den brukte arbeidstidsmalen. I **prosjektet** er datoene alltid relative i forhold til tidssonen for brukeren som er logget på i hver kategori, med unntak av **Oppgave**-kategorien. Når du viser arbeidsnedbrytningsstrukturen, vises alltid datoene i tidssonen for prosjektet.
+Når et prosjekt opprettes, er tidssonen basert på tidssonen som er definert i den brukte arbeidstidsmalen. I **prosjektet** er datoene alltid relative i forhold til tidssonen for brukeren som er logget på i hver kategori, med unntak av **Oppgave** -kategorien. Når du viser arbeidsnedbrytningsstrukturen, vises alltid datoene i tidssonen for prosjektet.
 
 ## <a name="tasks"></a>Oppgaver
 
@@ -30,7 +30,7 @@ Når du oppretter en oppgave, kontrolleres start- og sluttidspunktet og timene/d
 
 ## <a name="manage-resources-with-time-zones"></a>Administrere ressurser med tidssoner
 
-For å få nøyaktige og forutsigbare resultater når du bruker **Utvid bestilling**, er det to viktige krav som må oppfylles:  
+For å få nøyaktige og forutsigbare resultater når du bruker **Utvid bestilling** , er det to viktige krav som må oppfylles:  
 
 - Brukeren må konfigurere tidssonen for enheten slik at den samsvarer medtids sonen som er angitt i systemets **tilpassingsinnstillinger**.
  
@@ -57,7 +57,7 @@ Følgende tabell viser:
 |Ressurs C  |  ![Ressurs C-kalender](media/reconcile-assignments-08.png) |
 |Ressurs D  | ![Ressurs D-kalender](media/reconcile-assignments-09.png)  |
  
-Når du navigerer til **Avstemming**-visningen, vises ressurstilordningene og de tilknyttede bestillingsmanglene.
+Når du navigerer til **Avstemming** -visningen, vises ressurstilordningene og de tilknyttede bestillingsmanglene.
 
 ![Avstemmingsvisning før utvidelse](media/reconcile-assignments-10.png)
 

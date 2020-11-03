@@ -11,11 +11,11 @@ ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
 ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908422"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081503"
 ---
 # <a name="cash-advance"></a>Kontantforskudd
 
@@ -35,7 +35,7 @@ Et kontantforskudd gjør det mulig for ansatte å låne penger fra selskapet fø
 Du kan endre en forespørsel om kontantforskudd hvis den ikke er sendt til godkjenning.
 
 1. Under **Mine utgifter: Kontantforskudd** finner og velger du kontantforskuddet du vil redigere.
-2. Velg **Rediger**, og gjør de nødvendige endringene i forespørselen om kontantforskudd. 
+2. Velg **Rediger** , og gjør de nødvendige endringene i forespørselen om kontantforskudd. 
 3. Velg **Lagre og lukk**.
 
 
@@ -52,7 +52,7 @@ Ledere eller brukere som er konfigurert som godkjennere i arbeidsflyten, kan god
 ## <a name="pay-cash-advances"></a>Betale kontantforskudd 
 Fremgangsmåten nedenfor fullføres vanligvis av en regnskapsfører eller en bruker med regnskapstillatelser.
 
-1. Hvis du vil postere godkjente forskudd, velger du **Godkjente kontantforskudd**, og deretter velger du **Betal og Overfør**.  
+1. Hvis du vil postere godkjente forskudd, velger du **Godkjente kontantforskudd** , og deretter velger du **Betal og Overfør**.  
 2. Angi journaldetaljene for forskuddene, og velg deretter **OK**. 
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Sende inn en reiseregning mot et betalt forskudd 
@@ -60,4 +60,4 @@ Fremgangsmåten nedenfor fullføres vanligvis av en regnskapsfører eller en bru
 Når du oppretter og sender inn en reiseregning for kontantforskuddet du allerede har mottatt, justeres utgiftene automatisk mot dette forskuddet. Hvis kontantforskuddet er større enn utgiftsbeløpet, må du returnere saldoen til firmaet ved hjelp av utgiftskategorien **Tilbakebetal kontanter**. Hvis forskuddet som firmaet har betalt, er mindre enn beløpet du har ført som utgift, må selskapet refundere saldoen til deg. 
 
 ### <a name="example"></a>Eksempel
-Du planlegger å reise til en konferanse fra Bergen til Oslo. Du oppretter en forespørsel om kontantforskudd på 10 000 kroner, siden du har beregnet kostnadene til konferansebilletten, flyreiser, hotell, måltider og drosje til å bli omtrent dette beløpet. Du blir ikke betalt med mindre din overordnede har godkjent denne forespørselen. Når din overordnede godkjenner, betales det forespurte kontantforskuddet som 10 000 kroner til bankkontoen din. Deretter deltar du på konferansen. Når du har fullført reisen, oppdager du at den totale utgiften bare ble 8000 kroner. Velg **Kontanter** i feltet **Betalingsmåte**, og send inn utgiften på 8000 kroner. Det sendte utgiftsbeløpet justeres automatisk mot forskuddet på 10 000 kroner som ble utlånt til deg. Nå skylder du en balanse på 2000 kroner (10 000 minus 8000) til firmaet, som du kan tilbakebetale til firmaet ved hjelp av utgiftskategorien **Tilbakebetal kontanter**. 
+Du planlegger å reise til en konferanse fra Bergen til Oslo. Du oppretter en forespørsel om kontantforskudd på 10 000 kroner, siden du har beregnet kostnadene til konferansebilletten, flyreiser, hotell, måltider og drosje til å bli omtrent dette beløpet. Du blir ikke betalt med mindre din overordnede har godkjent denne forespørselen. Når din overordnede godkjenner, betales det forespurte kontantforskuddet som 10 000 kroner til bankkontoen din. Deretter deltar du på konferansen. Når du har fullført reisen, oppdager du at den totale utgiften bare ble 8000 kroner. Velg **Kontanter** i feltet **Betalingsmåte** , og send inn utgiften på 8000 kroner. Det sendte utgiftsbeløpet justeres automatisk mot forskuddet på 10 000 kroner som ble utlånt til deg. Nå skylder du en balanse på 2000 kroner (10 000 minus 8000) til firmaet, som du kan tilbakebetale til firmaet ved hjelp av utgiftskategorien **Tilbakebetal kontanter**. 

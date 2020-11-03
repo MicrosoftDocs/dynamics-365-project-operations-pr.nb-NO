@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949001"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081491"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Legg til et Azure-abonnement i et LCS Project
 
@@ -23,7 +23,7 @@ Skydriftede miljøer må distribueres ved hjelp av et eksisterende Azure-abonnem
 
 ## <a name="grant-admin-consent"></a>Gi admin-tillatelse
 
-1. I LCS-prosjektet, i **Miljøer**-delen velger du **Microsoft Azure-innstillinger**.
+1. I LCS-prosjektet, i **Miljøer** -delen velger du **Microsoft Azure-innstillinger**.
 
 ![Innstillinger for Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
@@ -50,14 +50,14 @@ Autorisasjonen er nå fullført.
 ![Azure-abonnementsdetaljer](./media/6AzureSubscription.png)
 
 2. Velg **Tilgangskontroll (IAM)** i navigasjonsruten, og velg deretter **Legg til rolletildeling**.
-3. På glidebryteren til høyre velger du **Bidragsyterroller**, og finn og velg **Dynamics Deployment Services** i listen som vises. 
+3. På glidebryteren til høyre velger du **Bidragsyterroller** , og finn og velg **Dynamics Deployment Services** i listen som vises. 
 4. Velg **Lagre**.
 
 ![Abonnementstilgang](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Legg til en abonnementskontakt i et LCS Project
 
-1. I LCS-prosjektet, på siden **Microsoft Azure-innstillinger**, velger du **Legg til** for å legge til en ny kontakt.
+1. I LCS-prosjektet, på siden **Microsoft Azure-innstillinger** , velger du **Legg til** for å legge til en ny kontakt.
 2. Skriv inn Azure abonnements-ID-en din. Du finner Azure-abonnements-ID-en i [Azure-portalen](https://ms.portal.azure.com/), under **Innstillinger** nederst til venstre på skjermen.
 3. I feltet **Konfigurer for å bruke Azure Resource Manager** velger du **Ja**.
 4. Kontroller at Azure-abonnementets AAD-leierdomene samsvarer med det domeneeiende Azure-abonnementet du bruker, og velg **Neste**.

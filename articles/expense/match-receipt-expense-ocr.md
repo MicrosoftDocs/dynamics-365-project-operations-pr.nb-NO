@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02c1bafbe907a657689b610ae792f88085320903
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897013"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081585"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Samsvare et mottak med utgift ved hjelp av OCR (optisk tegngjenkjenning)
 
@@ -51,7 +50,7 @@ Fullfør fremgangsmåten nedenfor for å opprette en utgift eller samsvare en ut
   2. Under det opplastede bildet av kvitteringen legger du merke til alternativene **Opprett** og **Samsvar**.
 
       - Velg **Opprett** for å opprette en manuelt angitt utgiftstransaksjon, og fyll ut verdiene som trekkes ut fra kvitteringen.
-      - Hvis du velger **Samsvar**, prøver systemet å samsvare en eksisterende utgift med kvitteringen.
+      - Hvis du velger **Samsvar** , prøver systemet å samsvare en eksisterende utgift med kvitteringen.
 
 ## <a name="installation"></a>Installasjon
 
@@ -59,13 +58,13 @@ Hvis du vil bruke disse avanserte utgiftsfunksjonene, installerer du tilleggspro
 
 1. Logg på LCS, og åpne ønsket miljø.
 2. Gå til **Detaljert informasjon**.
-3. Velg **Vedlikehold**, eller rull ned til hurtigfanen **Tilleggsprogrammer for miljø**.
+3. Velg **Vedlikehold** , eller rull ned til hurtigfanen **Tilleggsprogrammer for miljø**.
 4. Velg **Installer et nytt tillegg**.
 5. Velg **Expense Management Service**.
 6. Følg installasjonsveiledningen, og godta vilkårene.
 7. Velg **Installer**.
 
-Aktiver følgende funksjoner i arbeidsområdet **Funksjonsbehandling**:
+Aktiver følgende funksjoner i arbeidsområdet **Funksjonsbehandling** :
 
 - Nyskapte utgiftsrapporter
 - Automatisk samsvar og opprette utgift fra kvittering

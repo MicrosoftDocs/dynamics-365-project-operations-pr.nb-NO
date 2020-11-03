@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fe2ab3a1b12c00e346e27709d66b5a0cb81a3b56
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898228"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081727"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversikt over prisdimensjoner
 
@@ -36,8 +35,8 @@ Dimensjonene som brukes i personalet til å definere priser og kostnader, kan de
 
 På grunn av dette er to typer prisdimensjonsverdier tilgjengelige:
 
-- **Alternativsett**: Dimensjoner som er faste opplistinger for et sett med verdier.
-- **Enhetsbaserte verdier**: Dimensjoner som kan være et variert sett med verdier.
+- **Alternativsett** : Dimensjoner som er faste opplistinger for et sett med verdier.
+- **Enhetsbaserte verdier** : Dimensjoner som kan være et variert sett med verdier.
 
 ## <a name="pricing-dimensions"></a>Prisdimensjoner
 
@@ -48,7 +47,7 @@ Hvis du har behov for pris eller kostnad for ressursene ved hjelp av flere attri
 ## <a name="pricing-human-resource-time"></a>Prising av personaltid
 Hvordan en organisasjon priser personaltid er ofte en viktig strategisk betraktning som direkte påvirker lønnsomheten i organisasjonen. Du kan arbeide med økonomiteamene og øve på når organisasjonen er klar til å identifisere hvordan de vil sette opp faktura- og kostnadssatser for personale.
 
-Andre hensyn til prisingen inkluderer om felt eller enheter som ikke er prisdimensjoner, men gjelder som en prisdimensjon for organisasjonen, skal brukes på nytt. Felt som **Transaksjonskategori** (**msdyn_transactioncategory**) og **Bestillbar ressurs** (**bookableresource**) er eksempler på kandidatdimensjoner. 
+Andre hensyn til prisingen inkluderer om felt eller enheter som ikke er prisdimensjoner, men gjelder som en prisdimensjon for organisasjonen, skal brukes på nytt. Felt som **Transaksjonskategori** ( **msdyn_transactioncategory** ) og **Bestillbar ressurs** ( **bookableresource** ) er eksempler på kandidatdimensjoner. 
 
 Vurder om prisdimensjonen skal være en tabell eller et alternativsett. Hvis du forforutser endringer i verdiene til en dimensjon som vil overskride 10 eller 12, og du trenger flere attributter for disse verdiene, kan du opprette en enhet i stedet for et alternativsett. Vedlikehold av et alternativsett, for eksempel legge til eller fjerne verdier, krever en administrator eller utvikler, mens det å legge til nye rader i en tabell kan utføres av de fleste brukere.
 
