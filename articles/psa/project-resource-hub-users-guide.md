@@ -1,0 +1,105 @@
+---
+title: Brukerhåndbok for Prosjektressurshub
+description: Sluttbrukerhåndbok for Prosjektressurshub for Project Service
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081611"
+---
+# <a name="user-guide-for-project-resource-hub"></a><span data-ttu-id="612fe-103">Brukerhåndbok for Prosjektressurshub</span><span class="sxs-lookup"><span data-stu-id="612fe-103">User guide for Project Resource Hub</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+<span data-ttu-id="612fe-104">Med appen Prosjektressurshub kan du angi tid og utgifter for prosjektene du jobber på, mens du på farten.</span><span class="sxs-lookup"><span data-stu-id="612fe-104">With the Project Resource Hub app, you can enter time and expenses for the projects you’re working on the go.</span></span> <span data-ttu-id="612fe-105">Hold oversikt over tid og utgifter for å kontrollere:</span><span class="sxs-lookup"><span data-stu-id="612fe-105">Stay on top of your time and expense entry to make sure:</span></span>
+
+- <span data-ttu-id="612fe-106">Klientene faktureres riktig</span><span class="sxs-lookup"><span data-stu-id="612fe-106">Your clients are billed properly</span></span>
+- <span data-ttu-id="612fe-107">Du får anerkjennelse for arbeidet du har gjort</span><span class="sxs-lookup"><span data-stu-id="612fe-107">You get credit for the work you’ve done</span></span>
+
+<span data-ttu-id="612fe-108">**Tilgjengelig hvor som helst på enhver enhet**</span><span class="sxs-lookup"><span data-stu-id="612fe-108">**Available anywhere, on any device**</span></span>
+
+<span data-ttu-id="612fe-109">Det finnes to utgaver av [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]:</span><span class="sxs-lookup"><span data-stu-id="612fe-109">There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]:</span></span> 
+
+- <span data-ttu-id="612fe-110">Hvis du bruker en nettleser på en PC, bruker du Project Service-appen.</span><span class="sxs-lookup"><span data-stu-id="612fe-110">If you're using a desktop, you'll use the Project Service app.</span></span> 
+
+- <span data-ttu-id="612fe-111">Hvis du er i felten og bruker en smarttelefon eller et nettbrett, bruker du appen Prosjektressurshub, som er et delsett av appen Project Service.</span><span class="sxs-lookup"><span data-stu-id="612fe-111">If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service  app.</span></span> <span data-ttu-id="612fe-112">Appen Prosjektressurshub er basert på rammeverket for enhetlig grensesnitt, som bruker webutformingsprinsipper som gir respons, for å formidle en optimal visnings- og samhandlingsopplevelse for alle skjermstørrelser, enheter eller retninger.</span><span class="sxs-lookup"><span data-stu-id="612fe-112">The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.</span></span> 
+
+
+## <a name="install-the-mobile-app"></a><span data-ttu-id="612fe-113">Installere mobilappen</span><span class="sxs-lookup"><span data-stu-id="612fe-113">Install the mobile app</span></span>
+<span data-ttu-id="612fe-114">Før du kan begynne å bruke appen Prosjektressurshub, må du installere mobilappen på enheten.</span><span class="sxs-lookup"><span data-stu-id="612fe-114">Before you can start using the Project Resource Hub app, you need to install the mobile app on your device.</span></span> 
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="612fe-115">[Installere Dynamics 365 for phones og tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).</span><span class="sxs-lookup"><span data-stu-id="612fe-115">[Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).</span></span>
+
+## <a name="basic-navigation"></a><span data-ttu-id="612fe-116">Grunnleggende navigasjon</span><span class="sxs-lookup"><span data-stu-id="612fe-116">Basic Navigation</span></span>
+1.  <span data-ttu-id="612fe-117">Når du logger på mobilappen, kan du se siden Mine apper med en liste over appene du har tilgang til.</span><span class="sxs-lookup"><span data-stu-id="612fe-117">When you sign in on the mobile app, you’ll see the MyApps page with a list of the apps that you access to.</span></span> 
+2.  <span data-ttu-id="612fe-118">Velg **Prosjektressurshub**.</span><span class="sxs-lookup"><span data-stu-id="612fe-118">Select **Project Resource Hub**.</span></span>
+
+<span data-ttu-id="612fe-119">![Velg et program](media/chooseApp_1.png "Velg et program")</span><span class="sxs-lookup"><span data-stu-id="612fe-119">![Choose an app](media/chooseApp_1.png "Choose an app")</span></span>
+
+<span data-ttu-id="612fe-120">**Navigasjonsfeltet**</span><span class="sxs-lookup"><span data-stu-id="612fe-120">**The navigation bar**</span></span>
+
+<span data-ttu-id="612fe-121">Bruk navigasjonsfeltet til å gå til arbeidsområdet ditt, opprette en ny oppføring, søke eller utføre andre oppgaver.</span><span class="sxs-lookup"><span data-stu-id="612fe-121">Use the nav bar to get to your work area, create a new record, search, or do other tasks.</span></span> <span data-ttu-id="612fe-122">Trykk på ![Mer-knappen](media/MoreButton.png "Mer-knappen") for å få tilgang til flere kommandoer.</span><span class="sxs-lookup"><span data-stu-id="612fe-122">To access more commands, tap ![More Button](media/MoreButton.png "More Button")</span></span>
+
+<span data-ttu-id="612fe-123">![Navigasjonsfelt](media/NavBar_2.png "Navigasjonsfelt")</span><span class="sxs-lookup"><span data-stu-id="612fe-123">![Nav Bar](media/NavBar_2.png "Nav Bar")</span></span>
+
+<span data-ttu-id="612fe-124">**Favoritter og nylig brukte oppføringer**</span><span class="sxs-lookup"><span data-stu-id="612fe-124">**Favorites and recently used records**</span></span>
+
+<span data-ttu-id="612fe-125">Inndelingene Favoritter og Nylig brukte gir rask tilgang til oppføringer, visninger og instrumentbord.</span><span class="sxs-lookup"><span data-stu-id="612fe-125">The Favorites and Recently Used sections provide quick access to your records, views, and dashboards.</span></span> 
+
+- <span data-ttu-id="612fe-126">Hvis du vil ha tilgang til disse delene, trykker du på **Meny** -knappen ![Meny-knapp](media/MenuButton.png "Menyknapp") i navigasjonsfeltet og deretter på knappen **Favoritter og Nylig** ![Favoritter-knapp](media/FavButton.png "Favorittknapp").</span><span class="sxs-lookup"><span data-stu-id="612fe-126">To access these sections, tap the **Menu** ![Menu button](media/MenuButton.png "Menu button") button on the nav bar, and then tap the **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button") button.</span></span>
+
+- <span data-ttu-id="612fe-127">Hvis du vil feste et element som favoritt, trykker du på festefunksjonen fra listen over **nylig brukte** elementer.</span><span class="sxs-lookup"><span data-stu-id="612fe-127">To pin an item as a favorite, from the list of **Recently Used** items, tap the pin.</span></span> <span data-ttu-id="612fe-128">Dette vil feste og flytte elementet til Favoritter.</span><span class="sxs-lookup"><span data-stu-id="612fe-128">This will pin and move the item to Favorites.</span></span>
+
+  <span data-ttu-id="612fe-129">![Favoritter og Nylige elementer](media/Favs_3.png "Favoritter og Nylige elementer")</span><span class="sxs-lookup"><span data-stu-id="612fe-129">![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")</span></span>
+ 
+## <a name="enter-time"></a><span data-ttu-id="612fe-130">Angi tid</span><span class="sxs-lookup"><span data-stu-id="612fe-130">Enter time</span></span>
+<span data-ttu-id="612fe-131">Angi timene minst ukentlig, eller så ofte forespurt av ledere, for å sikre at klientene blir fakturert og du er kreditert på riktig måte.</span><span class="sxs-lookup"><span data-stu-id="612fe-131">Enter your hours at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.</span></span>
+
+1. <span data-ttu-id="612fe-132">Trykk på menyknappen ![menyknappen](media/MenuButton.png "Menyknapp"), og trykk deretter på **Tidsoppføringer**.</span><span class="sxs-lookup"><span data-stu-id="612fe-132">Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Time Entries**.</span></span> <span data-ttu-id="612fe-133">Dette åpner kalenderen.</span><span class="sxs-lookup"><span data-stu-id="612fe-133">This brings up your calendar.</span></span>
+
+2. <span data-ttu-id="612fe-134">Trykk på knappen **Forrige** eller **Neste** for å se kalenderen for forrige eller neste uke.</span><span class="sxs-lookup"><span data-stu-id="612fe-134">To see your calendar for the previous or next week, tap the **Previous** or **Next** button.</span></span> <span data-ttu-id="612fe-135">Trykk på **I dag** for å gå tilbake til den gjeldende uken.</span><span class="sxs-lookup"><span data-stu-id="612fe-135">Tap **Today** to get back to the current week.</span></span>
+
+3. <span data-ttu-id="612fe-136">Hvis du vil angi tiden, trykker du på **Ny** på kommandolinjen.</span><span class="sxs-lookup"><span data-stu-id="612fe-136">To enter your time, tap **New** on the command bar.</span></span> 
+
+4. <span data-ttu-id="612fe-137">Fyll ut feltene i skjemaet, og trykk på **Lagre**.</span><span class="sxs-lookup"><span data-stu-id="612fe-137">Fill in the fields in the form and tap **Save**.</span></span>
+
+5. <span data-ttu-id="612fe-138">Fortsett å angi tid for uken.</span><span class="sxs-lookup"><span data-stu-id="612fe-138">Continue entering time for the week.</span></span> <span data-ttu-id="612fe-139">Når du er ferdig, og alt ser riktig ut, trykker du på **Send**.</span><span class="sxs-lookup"><span data-stu-id="612fe-139">When you’re done and everything looks correct, tap **Submit**.</span></span> <span data-ttu-id="612fe-140">En leder vil se gjennom og godkjenne tidsoppføringene.</span><span class="sxs-lookup"><span data-stu-id="612fe-140">A manager will review and approve your time entries.</span></span>
+
+## <a name="enter-expenses"></a><span data-ttu-id="612fe-141">Angi utgifter</span><span class="sxs-lookup"><span data-stu-id="612fe-141">Enter expenses</span></span> 
+<span data-ttu-id="612fe-142">Angi utgiftene minst ukentlig, eller så ofte forespurt av ledere, for å sikre at klientene blir fakturert og du er kreditert på riktig måte.</span><span class="sxs-lookup"><span data-stu-id="612fe-142">Enter your expenses at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.</span></span>
+
+1. <span data-ttu-id="612fe-143">Trykk på menyknappen ![menyknappen](media/MenuButton.png "Menyknapp"), og trykk deretter på **Utgifter**.</span><span class="sxs-lookup"><span data-stu-id="612fe-143">Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Expenses**.</span></span> <span data-ttu-id="612fe-144">Dette åpner kalenderen.</span><span class="sxs-lookup"><span data-stu-id="612fe-144">This brings up your calendar.</span></span>
+
+2. <span data-ttu-id="612fe-145">Du kan bytte til **Dag** , **Uke** eller **Måned** eller gå til forrige eller neste tidsperiode.</span><span class="sxs-lookup"><span data-stu-id="612fe-145">You can switch to **Day** , **Week** , or **Month** view, or navigate to the previous or next time period.</span></span> 
+
+3. <span data-ttu-id="612fe-146">Hvis du vil angi utgiftene, trykker du på **Ny** på kommandolinjen.</span><span class="sxs-lookup"><span data-stu-id="612fe-146">To enter your expense, tap **New** on the command bar.</span></span> 
+
+4. <span data-ttu-id="612fe-147">Fyll ut feltene i skjemaet, og trykk på **Lagre**.</span><span class="sxs-lookup"><span data-stu-id="612fe-147">Fill in the fields in the form and tap **Save**.</span></span>
+
+5. <span data-ttu-id="612fe-148">Fortsett å angi utgifter for uken.</span><span class="sxs-lookup"><span data-stu-id="612fe-148">Continue entering expenses for the week.</span></span> <span data-ttu-id="612fe-149">Når du er ferdig, og alt ser riktig ut, trykker du på **Send**.</span><span class="sxs-lookup"><span data-stu-id="612fe-149">When you’re done and everything looks correct, tap **Submit**.</span></span> <span data-ttu-id="612fe-150">En leder vil se gjennom og godkjenne utgiftene.</span><span class="sxs-lookup"><span data-stu-id="612fe-150">A manager will review and approve your expenses.</span></span>
+
+## <a name="general-information-on-how-to-use-the-mobile-app"></a><span data-ttu-id="612fe-151">Generell informasjon om hvordan du bruker mobilappen</span><span class="sxs-lookup"><span data-stu-id="612fe-151">General information on how to use the mobile app</span></span> 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="612fe-152">[Grunnleggende veiledning for mobil](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span><span class="sxs-lookup"><span data-stu-id="612fe-152">[Mobile Basics Guide](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span></span>
+
+### <a name="see-also"></a><span data-ttu-id="612fe-153">Se også</span><span class="sxs-lookup"><span data-stu-id="612fe-153">See Also</span></span>  
+ <span data-ttu-id="612fe-154">[Oversikt over Project Service](../psa/overview.md) </span><span class="sxs-lookup"><span data-stu-id="612fe-154">[Overview of Project Service](../psa/overview.md) </span></span>  
+ [<span data-ttu-id="612fe-155">Håndbok for tid, utgifter og samarbeid</span><span class="sxs-lookup"><span data-stu-id="612fe-155">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)   
+ 
