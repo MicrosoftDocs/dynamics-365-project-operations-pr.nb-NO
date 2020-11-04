@@ -34,7 +34,7 @@ Et delsett av de inkluderte komponentene kan merkes som belastbarte ved hjelp av
 
 Belastbare komponenter kan defineres for oppgaver, roller og transaksjonskategorier.
 
-Belastbar er definert i oppgaver for en prosjektkontraktlinje og gjelder for alle transaksjonsklasser som finnes på linjen. Hvis feltet **Inkluder oppgaver** på en kontraktlinje er tomt eller satt til * *Hele prosjektet* , er ikke **Belastbare oppgaver** -fanen tilgjengelig.
+Belastbar er definert i oppgaver for en prosjektkontraktlinje og gjelder for alle transaksjonsklasser som finnes på linjen. Hvis feltet **Inkluder oppgaver** på en kontraktlinje er tomt eller satt til * *Hele prosjektet* *, er ikke **Belastbare oppgaver** -fanen tilgjengelig.
 
 Belastbarhet definert for roller for en prosjektkontraktlinje gjelder bare transaksjonsklassen **Tid**. Hvis feltet **Inkluder td** på en kontraktlinje er satt til **Nei** , er ikke **Belastbare roller** -fanen tilgjengelig.
 
