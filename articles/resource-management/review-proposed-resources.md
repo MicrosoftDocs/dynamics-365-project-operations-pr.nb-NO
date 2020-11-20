@@ -3,10 +3,10 @@ title: Se gjennom foreslåtte ressurser
 description: Dette emnet gir informasjon om hvordan du foreslår prosjektressurser.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081587"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401185"
 ---
 # <a name="review-proposed-resources"></a>Se gjennom foreslåtte ressurser
 
@@ -31,7 +31,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Ressursledere kan foreslå en ressurs til prosjektlederen ved å bruke en ressursforespørsel.
 
 1. Fra rutenettet med forspørsler eller fra selve forespørselen velger du **Søk etter ressurser**.
-2. På siden **Planleggingsassistent** velger du ressursen, og deretter i ruten **Opprett ressursbestilling** , i feltet **Bestillingsstatus** , velger du **Bestill**.
+2. På siden **Planleggingsassistent** velger du ressursen, og deretter i ruten **Opprett ressursbestilling**, i feltet **Bestillingsstatus**, velger du **Bestill**.
 
 Følgende statusoppdateringer inntreffer:
 
@@ -47,35 +47,6 @@ Når ressursledere behandler ressursforespørsler, kan de bruke én av følgende
 - Foreslå færre ressurser enn nødvendig. I dette scenariet er den foreslåtte ressurskapasiteten mindre enn de påkrevde timene som er angitt. Når anmoderen godtar de foreslåtte ressursene, opprettes det derfor et ressurskrav som ikke er fullført, for å fange opp det gjenstående behovet.
 - Bestille flere ressurser for å tilfredsstille behovet hvis det ikke er noen enkelt ressurs tilgjengelig for å utføre arbeidet.
 - Bestille færre ressurser enn nødvendig. I dette scenariet er de bestilte timene færre enn de obligatoriske timene. Systemet veileder deg om hvordan du foreslår ressurser i stedet for bestillinger, slik at anmoderen kan kontrollere og holde oversikt over gjenstående behov.
-
-## <a name="billable-utilization"></a>Fakturerbar utnyttelse
-
-Ressurser kan ha fakturerbar utnyttelse som mål. Denne målutnyttelsen er definert som et attributt i standardrollen til en ressurs eller angitt i oppføringen for en enkelt bestillbar ressurs. Utnyttelsesberegninger er basert på de faktiske timene ressursene har rapportert ved hjelp av godkjente tidsoppføringer.
-
-Følgende formler brukes til å beregne utnyttelse:
-
-- Fakturerbar utnyttelse = belastbare faktiske timer ÷ ressurskapasitet
-- Ikke-fakturerbar utnyttelse = faktisk tid med faktureringstype-ID = ikke-belastbar, komplementær eller ikke tilgjengelig ÷ ressurskapasitet
-- Intern = faktisk tid uten salgskontrakt ÷ ressurskapasitet
-- Ressurskapasitet = arbeidstimer for ressursen – fravær – ikke-arbeidsdager
-
-Du kan finne visningen **Ressursutnyttelse** i **Ressurser** -ruten.
-
-Hver celle i rutenettet representerer den fakturerbare utnyttelsesprosenten for ressursen i en periode, for eksempel en dag, uke eller måned. Følgende formler brukes til å fargelegge cellene:
-
-- **Grønn:** fakturerbar utnyttelse \>= ressursmålutnyttelse
-- **Gul:** målutnyttelse – 20 \<= fakturerbar utnyttelse \< målutnyttelse
-- **Rød:** fakturerbar utnyttelse \< målutnyttelse – 20.
-
-Siden visningen **Ressursutnyttelse** er basert på planleggingstavlen, kan du bruke filtreringsfunksjonene på planleggingstavlen til å filtrere resultatene.
-
-Rutenettet krever at du angir en målutnyttelse for rollen eller den individuelle ressursen. Du kan sette opp dette ved å gå til **Ressurser** \> **Ressursroller**.
-
-I tillegg må en standardrolle tilordnes til hver bestillbare ressurs. Gå til **Ressurser** \> **Ressurser**. I kategorien **Project Service** kontrollerer du at det er definert en ressursrolle, og at **Er standard** -feltet er satt til **Ja**. Du kan legge til flere roller der **Er standard = Nei**. Rollen der **Er standard = Ja** brukes til å evaluere ressursens utnyttelse mot målet for den aktuelle rollen.
-
-I kategorien **Project Service** kan du også angi en individuell målutnyttelse for ressursen. Beregningen av utnyttelsen bruker deretter denne målutnyttelsen til å evaluere ressursens mål i stedet for målet for standardrollen for ressursen.
-
-Utnyttelse vises bare for en ressurs hvis ressursen har godkjent, belastbar tid i perioden som vises i rutenettet.
 
 ## <a name="resource-availability"></a>Ressurstilgjengelighet
 

@@ -1,26 +1,33 @@
 ---
-title: Bruk demonstrasjonsoppsett og konfigurasjonsdata
+title: Bruke demonstrasjonsoppsett og konfigurasjonsdata – Lite
 description: Dette emnet gir informasjon om hvordan du bruker demonstrasjonsoppsett og konfigurasjonsdata for Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081485"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401275"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Bruk demonstrasjonsoppsett og konfigurasjonsdata for Lite-distribusjon i Project Operations – avtale til proformafakturering
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Bruke demonstrasjonsoppsett og konfigurasjonsdata for Project Operations – Lite 
 
 _**Lite-distribusjon – avtale til proformafakturering_
 
+## <a name="prerequisites"></a>Forutsetninger
+
+Før du begynner å konfigurere, må du ha et Common Data Service (CDS)-miljø klargjort for Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Instruksjoner
+
 1. Last ned [Master data-pakken](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Naviger til mappen *ProjOpsDemoDataSetupAndMaster - Integrert CMT* , og kjør den kjørbare filen *DataMigrationUtility*.
+2. Naviger til mappen *ProjOpsDemoDataSetupAndMaster - Integrert CMT*, og kjør den kjørbare filen *DataMigrationUtility*.
 3. På side 1 i Common Data Service-veiviseren for konfigurasjonsoverføring (CMT) velger du **Importer data** og deretter **Fortsett**.
 
 ![Konfigurasjonsoverføring](./media/1ConfigurationMigration.png)
@@ -45,25 +52,25 @@ _**Lite-distribusjon – avtale til proformafakturering_
 10. Importen kjører i omtrent 2 til 10 minutter, avhengig av nettverkshastigheten. Når den er fullført, avslutter du CMT-veiviseren. 
 11. Kontroller organisasjonen for data i følgende 20 enheter:
 
-- Valuta
-- Organisasjonsenhet
-- Kontakt
-- Avgiftsgruppe
-- Kundegruppe
-- Enhet
-- Enhetsgruppe
-- Prisliste
-- Prisliste for prosjektparameter
-- Fakturafrekvens
-- Fakturafrekvensdetalj
-- Kategori for ressurs som kan reserveres
-- Transaksjonskategori
-- Utgiftskategori
-- Rollepris
-- Pris for transaksjonskategorier
-- Kjennetegn
-- Ressurs som kan reserveres
-- Kategoritilknytning for ressurs som kan reserveres
-- Kjennetegn for ressurs som kan reserveres
+-   Valuta
+-   Konto
+-   Organisasjonsenhet
+-   Kontakt
+-   Avgiftsgruppe
+-   Kundegruppe
+-   Enhet
+-   Enhetsgruppe
+-   Prisliste
+-   Prisliste for prosjektparameter 
+-   Fakturafrekvens
+-   Kategori for ressurs som kan reserveres
+-   Transaksjonskategori
+-   Utgiftskategori
+-   Rollepris
+-   Pris for transaksjonskategorier
+-   Kjennetegn
+-   Ressurs som kan reserveres
+-   Kategoritilknytning for ressurs som kan reserveres
+-   Kjennetegn for ressurs som kan reserveres
 
 ![Fullført import](./media/6CompleteImport.png)
