@@ -3,7 +3,7 @@ title: Opprette tidsoppføringer
 description: Dette emnet gir informasjon om hvordan du oppretter tidsoppføringer.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081711"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131296"
 ---
 # <a name="create-time-entries"></a>Opprette tidsoppføringer
 
@@ -41,13 +41,13 @@ Følg denne fremgangsmåten for å opprette en tidsoppføring.
 4. Finn aktiviteten for denne tidsoppføringen i feltet **Prosjektoppgave**.
 
     > [!NOTE]
-    > Hvis du skal opprette en tidsoppføring for en oppgave som ikke er tilordnet til en bruker, går du til **Prosjektoppgave** , velger **Søk** -knappen, velger **Endre visning** og deretter **Alle aktive prosjektoppgaver** for å vise alle oppgavene.
+    > Hvis du skal opprette en tidsoppføring for en oppgave som ikke er tilordnet til en bruker, går du til **Prosjektoppgave**, velger **Søk**-knappen, velger **Endre visning** og deretter **Alle aktive prosjektoppgaver** for å vise alle oppgavene.
 
 5. Angi en beskrivelse hvis det kreves en beskrivelse, og velg deretter **Lagre og lukk**.
 
 Når tidsoppføringen er opprettet og lagret, kan du redigere den i tidsrutenettet for tidsoppføringen. Tidsoppføringsrutenettet støtter to formater:
 
-- Du kan angi tidsoppføringer i **tt:mm** -format. Dette formatet blir deretter konvertert til timer og brøker.
+- Du kan angi tidsoppføringer i **tt:mm**-format. Dette formatet blir deretter konvertert til timer og brøker.
 - Du kan skrive inn timer og brøker direkte.
 
 Vær oppmerksom på at brøkene i en time ikke er minutter. Derfor representerer 1,5 timer 1 time og 30 minutter. Den samme regelen gjelder for deler av en dag. Én dag er 24 timer, og 0,5 dager representerer 12 timer.
@@ -63,8 +63,8 @@ Etter at du har opprettet noen få oppføringer, kan du bruke dem til å opprett
 
 ## <a name="import-data-for-time-entries"></a>Importere data for tidsoppføringer
 
-Du kan importere data fra prosjektbestillinger og -tilordninger. Når du importerer data, kan du angi datointervallet for bestillinger for å importere og deretter eksplisitt velge bestillinger som skal opprettes som **Utkast** -tidsoppføringer.
+Du kan importere data fra prosjektbestillinger og -tilordninger. Når du importerer data, kan du angi datointervallet for bestillinger for å importere og deretter eksplisitt velge bestillinger som skal opprettes som **Utkast**-tidsoppføringer.
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funksjoner for å gruppere etter, sortere, søke og filtrere
 
-Du kan gruppere og filtrere tidsoppføringer etter dimensjonene som er angitt i kolonnene. I feltet **Grupper etter** velger du dimensjonen som skal brukes til å filtrere tidsoppføringer. Du kan også sortere tidsoppføringsregistreringer i stigende eller synkende rekkefølge ved å bruke sorteringspilen i kolonneoverskriftene. Du kan også vise eller skjule oppføringer ved å velge **Filter** -knappen på kolonneoverskriftene og deretter, i **Søk** -boksen, angi teksten som skal brukes til å søke etter tidsoppføringer etter prosjektnavn, prosjektoppgave, tidsoppføring eller ressurs.
+Du kan gruppere og filtrere tidsoppføringer etter dimensjonene som er angitt i kolonnene. I feltet **Grupper etter** velger du dimensjonen som skal brukes til å filtrere tidsoppføringer. Du kan også sortere tidsoppføringsregistreringer i stigende eller synkende rekkefølge ved å bruke sorteringspilen i kolonneoverskriftene. Du kan også vise eller skjule oppføringer ved å velge **Filter**-knappen på kolonneoverskriftene og deretter, i **Søk**-boksen, angi teksten som skal brukes til å søke etter tidsoppføringer etter prosjektnavn, prosjektoppgave, tidsoppføring eller ressurs.

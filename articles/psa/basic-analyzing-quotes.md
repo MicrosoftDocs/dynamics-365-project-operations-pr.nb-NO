@@ -3,7 +3,7 @@ title: Analyse av prosjekttilbud
 description: Dette emnet gir informasjon om analyse av prosjekttilbud.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d9cefafcce33297146cae81d9ba7e68ab79aeb6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6ed900620f92e76d293f6b533b101be94b25cff3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081736"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127035"
 ---
 # <a name="analysis-of-project-quotes"></a>Analyse av prosjekttilbud
 
@@ -52,8 +52,8 @@ Hvis verdiene for bruttofortjeneste og justert bruttofortjeneste varierer med en
 
 Du kan analysere tilbud og generere diagrammer for kundeforventninger om tidsplanen og budsjettet hvis du angir verdier for følgende felt:
 
-- **Ønsket leveringsdato** -feltet i tilbudshodet.
-- **Kundebudsjett** -feltet for hver tilbudslinje (for prosjektrelaterte linjer og produktbaserte linjer).
+- **Ønsket leveringsdato**-feltet i tilbudshodet.
+- **Kundebudsjett**-feltet for hver tilbudslinje (for prosjektrelaterte linjer og produktbaserte linjer).
 
 Analyse av kundeforventninger om tidsplanen utføres ved å sammenligne den siste sluttdatoen for tilbudslinjedetaljene med den ønskede leveringsdatoen i alle tilbudslinjene i tilbudet.
 

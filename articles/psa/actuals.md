@@ -3,7 +3,7 @@ title: Oversikt over faktiske verdier
 description: Denne emnet gir informasjon om faktiske verdier for prosjekter.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081818"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129780"
 ---
 # <a name="actuals-overview"></a>Oversikt over faktiske verdier
 
@@ -39,7 +39,7 @@ Når en tidsoppføring sendes til et prosjekt som er tilordnet en kontraktlinje 
 
 Logikk for angivelse av standardpriser finnes på journallinjen. Alle feltverdiene fra en tidsoppføring kopieres til journallinjen. Disse feltene inneholder transaksjonsdatoen, kontraktlinjen som prosjektet er tilordnet, og valutaresultatet i den aktuelle prislisten. 
 
-Feltene som påvirker standardpriser, for eksempel **Rolle** og **Organisasjonsenhet** , fører til at en passende pris registreres som standard på journallinjen. Hvis du legger til et egendefinert felt for tidsoppføringen, og du vil at feltverdien skal overføres til faktiske verdier, oppretter du feltet på den faktiske enheten og bruker felttilordninger til å kopiere feltet fra tidsoppføringen til den faktiske verdien.
+Feltene som påvirker standardpriser, for eksempel **Rolle** og **Organisasjonsenhet**, fører til at en passende pris registreres som standard på journallinjen. Hvis du legger til et egendefinert felt for tidsoppføringen, og du vil at feltverdien skal overføres til faktiske verdier, oppretter du feltet på den faktiske enheten og bruker felttilordninger til å kopiere feltet fra tidsoppføringen til den faktiske verdien.
 
 ## <a name="submitting-an-expense-entry"></a>Sende en utgiftsoppføring
 

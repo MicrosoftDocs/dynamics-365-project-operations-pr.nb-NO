@@ -3,7 +3,7 @@ title: Tillate noen andre å skrive inn tidsoppføringene eller utgiftene dine
 description: Tillate andre å angi tidsoppføring eller utgifter i Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081593"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130392"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Tillate noen andre å angi tidsoppføring eller utgifter (Project Service)
 
@@ -37,13 +37,13 @@ Definer en representant for å la noen andre registrere tids- eller utgiftsposte
   
 2.  Klikk **Ny(tt)** på kommandolinjen.  
   
-3. **Navn** : Angi et navn for oppføringen.  
+3. **Navn**: Angi et navn for oppføringen.  
   
-4. **Type** : Velg om representanten kan angi tids- eller utgiftsposter på dine vegne.  
+4. **Type**: Velg om representanten kan angi tids- eller utgiftsposter på dine vegne.  
   
-5. **Representant** : Velg navnet på personen du vil skal være representanten.  
+5. **Representant**: Velg navnet på personen du vil skal være representanten.  
   
-6. **Start- og sluttdatoer** : Velg datoer for når delegering starter og slutter.  
+6. **Start- og sluttdatoer**: Velg datoer for når delegering starter og slutter.  
   
 7.  Klikk **Lagre og lukk** når du er ferdig.  
   
@@ -61,7 +61,7 @@ Definer en representant for å la noen andre registrere tids- eller utgiftsposte
   
 1.  Fra hovedmenyen klikker du **Project Service** > **Tidsoppføringer**.  
   
-2.  På kommandolinjen kan du velge rullegardinmenyen **RESSURSNAVN** , og velge navnet på personen som du registrerer tid for.  
+2.  På kommandolinjen kan du velge rullegardinmenyen **RESSURSNAVN**, og velge navnet på personen som du registrerer tid for.  
   
 3.  Klikk **OK**.  
   
@@ -69,7 +69,7 @@ Definer en representant for å la noen andre registrere tids- eller utgiftsposte
   
 5.  Hvis du vil angi tiden, kan du enten klikke **Ny** eller dobbeltklikke i kalenderen under dagen du vil angi tid for.  
   
-6.  Fyll ut feltene i **Tidsoppføring** -skjemaet, og klikk **Lagre**.  
+6.  Fyll ut feltene i **Tidsoppføring**-skjemaet, og klikk **Lagre**.  
   
 7.  Fortsett å angi tid for uken. Når du er ferdig, og alt ser riktig ut, klikker du **Send**.  
   
@@ -77,7 +77,7 @@ Definer en representant for å la noen andre registrere tids- eller utgiftsposte
   
 1.  Fra hovedmenyen klikker du **Project Service** > **Utgifter**.  
   
-2.  På kommandolinjen kan du velge rullegardinmenyen **RESSURSNAVN** , og velge navnet på personen som du registrerer utgifter for.  
+2.  På kommandolinjen kan du velge rullegardinmenyen **RESSURSNAVN**, og velge navnet på personen som du registrerer utgifter for.  
   
 3.  Klikk **OK**.  
   
@@ -85,7 +85,7 @@ Definer en representant for å la noen andre registrere tids- eller utgiftsposte
   
 5.  Hvis du vil angi en utgift, klikker du **Ny**  
   
-6.  Fyll ut feltene i **Ny utgift** -skjemaet. Du kan også legge til kvitteringer.  
+6.  Fyll ut feltene i **Ny utgift**-skjemaet. Du kan også legge til kvitteringer.  
   
 7.  Klikk **Lagre** når du er ferdig.  
   

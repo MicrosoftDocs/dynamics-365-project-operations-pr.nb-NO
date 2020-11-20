@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081511"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127440"
 ---
 # <a name="project-team-members"></a>Prosjektteammedlemmer
 
@@ -47,16 +47,16 @@ Tabellen nedenfor viser de viktigste attributtene for et prosjektteammedlem.
 
 Følgende handlinger kan utføres fra rutenettet for teammedlemmer:
 
-- **Bestill** : For organisasjoner som bruker hybride bestillinger, vil Bestill-handlingen gi brukerne mulighet til å bestille en navngitt ressurs basert på behovskravene som genereres fra det generelle teammedlemmet.
-- **Generer krav** : Denne handlingen genererer kravet.
-- **Angi mønster** : Gjør det mulig for prosjektledere å justere profiler for ressurskrav på et detaljert nivå. Prosjektledere kan justere de spesifikke behovene til prosjektet i tilfeller der standarddistribusjonen ikke passer inn.
-- **Send forespørsel** : For organisasjoner som bruker metoden for sentrale bestillinger.
-- **Rediger** : Attributter for teammedlemmer kan redigeres, blant annet organisasjonsenheten, rollen og stillingsnavnet.
-- **Vedlikehold bestillinger** : Når ressursbestillinger må oppdateres, gjør vedlikehold av bestillinger at prosjektlederen kan justere følgende:
+- **Bestill**: For organisasjoner som bruker hybride bestillinger, vil Bestill-handlingen gi brukerne mulighet til å bestille en navngitt ressurs basert på behovskravene som genereres fra det generelle teammedlemmet.
+- **Generer krav**: Denne handlingen genererer kravet.
+- **Angi mønster**: Gjør det mulig for prosjektledere å justere profiler for ressurskrav på et detaljert nivå. Prosjektledere kan justere de spesifikke behovene til prosjektet i tilfeller der standarddistribusjonen ikke passer inn.
+- **Send forespørsel**: For organisasjoner som bruker metoden for sentrale bestillinger.
+- **Rediger**: Attributter for teammedlemmer kan redigeres, blant annet organisasjonsenheten, rollen og stillingsnavnet.
+- **Vedlikehold bestillinger**: Når ressursbestillinger må oppdateres, gjør vedlikehold av bestillinger at prosjektlederen kan justere følgende:
 
     - Start
     - Slutt
     - Fordeling av total innsats
 
-- **Ny** : I tillegg til å legge til ressurser direkte fra tidsplanen kan prosjektledere legge til nye eller generelle teammedlemmer fra rutenettet for teammedlemmer.
-- **Slett** : Ved å velge ett eller mange teammedlemmer kan prosjektlederen slette ressurser som ikke lenger skal være med i prosjektet. Ved sletting av et teammedlem slettes også alle tilknyttede ressurstildelinger, og alle eksisterende bestillinger blir annullert.
+- **Ny**: I tillegg til å legge til ressurser direkte fra tidsplanen kan prosjektledere legge til nye eller generelle teammedlemmer fra rutenettet for teammedlemmer.
+- **Slett**: Ved å velge ett eller mange teammedlemmer kan prosjektlederen slette ressurser som ikke lenger skal være med i prosjektet. Ved sletting av et teammedlem slettes også alle tilknyttede ressurstildelinger, og alle eksisterende bestillinger blir annullert.

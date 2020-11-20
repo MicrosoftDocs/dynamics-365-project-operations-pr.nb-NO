@@ -3,7 +3,7 @@ title: Enhetsgrupper og enheter
 description: Dette emnet inneholder informasjon om enhetsgrupper og enheter.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081636"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130590"
 ---
 # <a name="unit-groups-and-units"></a>Enhetsgrupper og enheter
 
@@ -33,16 +33,16 @@ Enhetsgrupper og enheter er basisenheter i Microsoft Dynamics 365. En enhet er e
 
 Her er noen eksempler på enheter og enhetsgrupper:
  
-- **Enhetsgruppe** : Avstand 
-    - **Enheter** : Mile, kilometer og så videre.
-- **Enhetsgruppe** : Tid
-    - **Enheter** : Time, dag, uke og så videre. 
+- **Enhetsgruppe**: Avstand 
+    - **Enheter**: Mile, kilometer og så videre.
+- **Enhetsgruppe**: Tid
+    - **Enheter**: Time, dag, uke og så videre. 
 
 Når du definerer flere enheter i en enhetsgruppe, må du også angi en konverteringsfaktor mellom dem ved å angi den første enheten som er angitt som standard- eller primærenhet for enhetsgruppen. 
 
-For eksempel, i en **Tid** -enhetsgruppe, hvis du definerer **Time** som den første enheten, tilordner systemet **Time** som standardenhet. Hvis neste enhet du angir, er **Dag** , må du konfigurere en konverteringsfaktor for **Dag** til **Time**. Hvis du deretter legger til **Uke** som en tredje enhet, må du angi en konverteringsfaktor for **Uke** i form av **Dag** eller **Time**. 
+For eksempel, i en **Tid**-enhetsgruppe, hvis du definerer **Time** som den første enheten, tilordner systemet **Time** som standardenhet. Hvis neste enhet du angir, er **Dag**, må du konfigurere en konverteringsfaktor for **Dag** til **Time**. Hvis du deretter legger til **Uke** som en tredje enhet, må du angi en konverteringsfaktor for **Uke** i form av **Dag** eller **Time**. 
 
-Følgende bilde viser et eksempel på oppsett for **Dag** -enheten, der **Antall** -feltet viser antall timer i løpet av en dag, og i **Uke** , der **Antall** -feltet viser antall dager i uken.
+Følgende bilde viser et eksempel på oppsett for **Dag**-enheten, der **Antall**-feltet viser antall timer i løpet av en dag, og i **Uke**, der **Antall**-feltet viser antall dager i uken.
 
 > ![Enhetsgruppe: informasjonsside](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation bruker enheter og enhetsgrupper til å b
 
 For utgifter har hver utgiftskategori en standard enhetsgruppe og enhet. Disse verdiene angis som standardverdier for prislisteoppføringer for utgiftskategorier. 
 
-Du har for eksempel en utgiftskategori som kalles **Reisegodtgjørelse**. Den har en enhetsgruppe som har navnet **Distanse** og en standardenhet med navnet **Mile**. Hvis du konfigurerer **Distanse** -enhetsgruppen slik at den har to enheter ( **Mile** og **Kilometer** ), kan du angi to priser for **Reisegodtgjørelse** -kategorien i én prisliste: pris per mile og pris per kilometer.
+Du har for eksempel en utgiftskategori som kalles **Reisegodtgjørelse**. Den har en enhetsgruppe som har navnet **Distanse** og en standardenhet med navnet **Mile**. Hvis du konfigurerer **Distanse**-enhetsgruppen slik at den har to enheter (**Mile** og **Kilometer**), kan du angi to priser for **Reisegodtgjørelse**-kategorien i én prisliste: pris per mile og pris per kilometer.
 
 | Utgiftskategori  | Enhetsgruppe  | Enhet      | Prismodell  | Pris per enhet  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -65,24 +65,24 @@ Når du angir en utgift i et prosjekt, bestemmer systemet prisen gjennom kombina
 |----------------------------|---------------------|-------|-----------|----------------|
 | Kjøring til klientsted | Reisegodtgjørelse             | Mile  | 10        | 10 USD         |
 
-For tid har hvert prislistehode et **Standard tidsenhet** -felt. Verdien angis når du oppretter prislistehodet. Denne enheten brukes deretter til å angi alle rollebaserte priser i denne prislisten.
+For tid har hvert prislistehode et **Standard tidsenhet**-felt. Verdien angis når du oppretter prislistehodet. Denne enheten brukes deretter til å angi alle rollebaserte priser i denne prislisten.
 
-Estimatlinjer for feltet **Tid i tilbud** kan uttrykkes i en hvilken som helst enhet. Estimatlinjer på prosjekter og tidsoppføringer for prosjekter kan imidlertid bruke bare **Time** -enheten. Hvis enheten i tidsoppføringen eller på estimatlinjen ikke samsvarer med enheten på prislistelinjen for den aktuelle rollen, konverterer systemet prisen til enhetene som er definert i prosjektestimatet eller den faktiske transaksjonen for prosjektet.
+Estimatlinjer for feltet **Tid i tilbud** kan uttrykkes i en hvilken som helst enhet. Estimatlinjer på prosjekter og tidsoppføringer for prosjekter kan imidlertid bruke bare **Time**-enheten. Hvis enheten i tidsoppføringen eller på estimatlinjen ikke samsvarer med enheten på prislistelinjen for den aktuelle rollen, konverterer systemet prisen til enhetene som er definert i prosjektestimatet eller den faktiske transaksjonen for prosjektet.
 
 Følgende eksempel viser hvordan PSA bruker enhetsgruppen, enhetene og konverteringsfaktorene.
 - Enheter
 
-   - **Enhetsgruppe** : Tid 
-   - **Enheter** : Time 
+   - **Enhetsgruppe**: Tid 
+   - **Enheter**: Time 
     
     - **Dag** – omregningsfaktor: 8 timer       
     - **Uke** – omregningsfaktor: 40 timer  
         
 - Prislisteoppsett for prosjekt A:
 
-    - **Navn** : Salgspriser i UK 2016 
-    - **Standard tidsenhet** : Dag 
-    - **Valuta** : GBP
+    - **Navn**: Salgspriser i UK 2016 
+    - **Standard tidsenhet**: Dag 
+    - **Valuta**: GBP
 
 | Rolle      | Enhetsgruppe | Enhet | Organisasjonsenhet | Pris   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ I noen land eller områder er det juridiske krav for at faktureringspriser skal 
 Nr. Tidsplanestimering er for øyeblikket begrenset til timer og kan ikke endres.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kan enheter og enhetsgrupper redigeres, slettes og legges til?
-Ja. Med unntak av **Tid** -enhetsgruppen og **Time** -enheten kan alle enheter slettes eller redigeres, og det kan legges til nye enheter. I PSA kan **Tid** -enhetsgruppen og **Time** -enheten ikke slettes. De kan imidlertid oppdateres med en oversatt tekst for **Navn** -feltet.
+Ja. Med unntak av **Tid**-enhetsgruppen og **Time**-enheten kan alle enheter slettes eller redigeres, og det kan legges til nye enheter. I PSA kan **Tid**-enhetsgruppen og **Time**-enheten ikke slettes. De kan imidlertid oppdateres med en oversatt tekst for **Navn**-feltet.

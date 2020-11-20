@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4081855"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126405"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importere et estimat til en prosjektbasert kontraktlinje
 
@@ -21,9 +21,9 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 I Dynamics 365 Project Operations kan du importere estimater fra et prosjekt til en prosjektbasert kontraktlinje.
 
-1. Kontroller at **Prosjekt** -feltet på den prosjektbaserte kontraktlinjen er fylt ut.
-2. I kategorien **Kontraktlinjedetaljer** i delrutenettet velger du **Importer fra prosjektberegningen**. Det vises en dialogside med sammendragsalternativer. Tilgjengelige sammendragsalternativer er **Transaksjonsklasse** , **Kategori** , **Rolle** og **Prosjektoppgave**. Avhengig av valgene for sammendrag kopieres estimatet fra prosjektet for alle transaksjonsklassene og oppgavene som er inkludert på denne kontraktlinjen. 
-3. Hvis du vil kontrollere hvilke transaksjonsklasser som er inkludert, velger du kategorien **Generelt** på kontraktlinjen, og deretter kontrollerer du verdiene i feltene **Inkluder tid** , **Inkluder utgifter** og **Inkluder gebyrer**.
+1. Kontroller at **Prosjekt**-feltet på den prosjektbaserte kontraktlinjen er fylt ut.
+2. I kategorien **Kontraktlinjedetaljer** i delrutenettet velger du **Importer fra prosjektberegningen**. Det vises en dialogside med sammendragsalternativer. Tilgjengelige sammendragsalternativer er **Transaksjonsklasse**, **Kategori**, **Rolle** og **Prosjektoppgave**. Avhengig av valgene for sammendrag kopieres estimatet fra prosjektet for alle transaksjonsklassene og oppgavene som er inkludert på denne kontraktlinjen. 
+3. Hvis du vil kontrollere hvilke transaksjonsklasser som er inkludert, velger du kategorien **Generelt** på kontraktlinjen, og deretter kontrollerer du verdiene i feltene **Inkluder tid**, **Inkluder utgifter** og **Inkluder gebyrer**.
 
 Når du importerer estimater, blir prissettingen som standard basert på prosjektprislistene som er knyttet til kontrakten og fakturatypen som er konfigurert på kontraktlinjen. Hvis en rolle eller kategori er konfigurert på kontraktlinjen som ikke-belastbar, vil den importerte estimatlinjen for rollen eller kategorien være ikke-belastbar, og den vil ikke øke den verdien på kontraktlinjen.
 
@@ -39,20 +39,20 @@ Hvis for eksempel prosjektet hadde følgende estimatlinjer for utgifter:
 | Oppgave B | Hotell | 1. oktober 2020 | 4 | 200 | 800 |
 | Oppgave C | Hotell | 1. november 2020 | 2 | 200 | 400 |
 
-Når brukeren velger å oppsummere etter **Transaksjonsklasse** , blir følgende informasjon importert:
+Når brukeren velger å oppsummere etter **Transaksjonsklasse**, blir følgende informasjon importert:
 
 | Oppgave | Fane | Dato | Antall | Enhetspris | Mengde |
 | --- | --- | --- | --- | --- | --- |
 | &nbsp;  | &nbsp;  | 1. oktober 2020 | 3.34 | 840 | 2800 |
 
-Når brukeren velger å oppsummere etter **Transaksjonsklasse** og **Kategori** , blir følgende informasjon importert:
+Når brukeren velger å oppsummere etter **Transaksjonsklasse** og **Kategori**, blir følgende informasjon importert:
 
 | Oppgave | Fane | Dato | Antall | Enhetspris | Mengde |
 | --- | --- | --- | --- | --- | --- |
 | Oppgave A | Flybilletter | 1. oktober 2020 | 4 | 400 | 1600 |
 | &nbsp;  | Hotell | 1. oktober 2020 | 6 | 200 | 1200 |
 
-Når brukeren velger å oppsummere etter **Transaksjonsklasse** , **Kategori** og **Bladnodeoppgave** , blir følgende informasjon importert. Legg merke til at dette resultatet er det samme som det som var i prosjektet:
+Når brukeren velger å oppsummere etter **Transaksjonsklasse**, **Kategori** og **Bladnodeoppgave**, blir følgende informasjon importert. Legg merke til at dette resultatet er det samme som det som var i prosjektet:
 
 | Oppgave | Fane | Dato | Antall | Enhetspris | Mengde |
 | --- | --- | --- | --- | --- | --- |

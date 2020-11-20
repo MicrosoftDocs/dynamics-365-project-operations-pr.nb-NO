@@ -3,7 +3,7 @@ title: Hva er nytt eller endret i Project Service Automation Update Release 19, 
 description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 19, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081573"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126854"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation, Update Release 19, V3
 
@@ -39,7 +39,7 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA 
 Følgende problemer har blitt løst: 
 
 - Feil avledet av import av tidsoppføringer som ikke vises riktig.
-- Timeregistreringsrutenettet støtter ikke **Bare dato** -feltvirkemåte.
+- Timeregistreringsrutenettet støtter ikke **Bare dato**-feltvirkemåte.
 - Prosjektressurser kan ikke opprette en utgift med et prosjekt.
 
 **Prosjektledelse**
@@ -54,13 +54,13 @@ Følgende problemer har blitt løst:
 
 - Handlingen **Beregn på nytt** virker ikke med detaljer for utgiftkontraktlinje eller tilbudslinjedetaljer.
 - **Oppdater priser** mangler for utgiftsestimater.
--  Kunder kan ikke velge egendefinerte kontraktstatusårsaker fra **Prosjektkontrakt** -siden.
+-  Kunder kan ikke velge egendefinerte kontraktstatusårsaker fra **Prosjektkontrakt**-siden.
 - Kunder opplever redusert ytelse ved oppretting av en egendefinert prisliste fra et tilbud.
-- Kunder opplever inkonsekvens med **enhet** -standarder på **Tilbudslinjedetaljer** - og **Kontraktlinjedetaljer** -sidene.
-- Hvis du legger til kategorivarer i ikke-belastbare transaksjoner på en belastbar kontraktlinje, respekterer den ikke **Ikke-belastbar** -faktureringstype for transaksjonskategorien.
+- Kunder opplever inkonsekvens med **enhet**-standarder på **Tilbudslinjedetaljer**- og **Kontraktlinjedetaljer**-sidene.
+- Hvis du legger til kategorivarer i ikke-belastbare transaksjoner på en belastbar kontraktlinje, respekterer den ikke **Ikke-belastbar**-faktureringstype for transaksjonskategorien.
 - Kunder kan ikke bruke de nylig tillagte rollene og kategoriene i tidligere opprettede kontrakter.
 - Kunder opplever redusert ytelse, henter unødvendig inn PreValidateProjectTeamMemberUpdate.cs
-- Roller som ikke er belastbare i **Ressurskategorier** -listen, må legges til i **Belastbare roller** -fanen som **Ikke-belastbare** på kontraktlinjen for et prosjekt.
+- Roller som ikke er belastbare i **Ressurskategorier**-listen, må legges til i **Belastbare roller**-fanen som **Ikke-belastbare** på kontraktlinjen for et prosjekt.
 - Kunder kan oppleve redusert ytelse ved oppretting av et prosjekt fordi **GetBookableResourceIdFromUser** henter alle kolonner med ressurser som kan reserveres, i stedet for bare primær-ID-en.
-- **TransactionType** -enheten mangler plugin-modulen for oppdatering av forhåndsvalidering for å hindre brukere i å skrive inn **Enheter** og **UnitGroups** som ikke er gyldige for transaksjonstyper.
-- **Fjern** -trinnet fungerer ikke for import av tidsoppføringer.
+- **TransactionType**-enheten mangler plugin-modulen for oppdatering av forhåndsvalidering for å hindre brukere i å skrive inn **Enheter** og **UnitGroups** som ikke er gyldige for transaksjonstyper.
+- **Fjern**-trinnet fungerer ikke for import av tidsoppføringer.

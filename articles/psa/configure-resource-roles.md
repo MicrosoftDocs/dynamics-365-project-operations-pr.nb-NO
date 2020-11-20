@@ -3,7 +3,7 @@ title: Konfigurere ressursroller
 description: Slik konfigurerer du ressursroller i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081618"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129150"
 ---
 # <a name="configure-resource-roles-project-service"></a>Konfigurere ressursroller (Project Service)
 
@@ -41,13 +41,13 @@ Roller spiller er en viktig del av prosjektplanleggingen når ressurskrav og kos
   
 2.  Klikk **Ny**.  
   
-3.  I **Generelt** -området angir du et navn for rollen i **Navn** , og fyller deretter ut de andre feltene etter behov.  
+3.  I **Generelt**-området angir du et navn for rollen i **Navn**, og fyller deretter ut de andre feltene etter behov.  
   
 4.  Klikk **Lagre** for å opprette oppføringen slik at du kan fortsette å redigere den.  
   
-5.  Hvis du vil legge til en ny ferdighet, klikker du **+** i **Ferdigheter** -området.  
+5.  Hvis du vil legge til en ny ferdighet, klikker du **+** i **Ferdigheter**-området.  
   
-6.  I ruten **Rollekompetansekrav** klikker du i **Ferdighet** -feltet, og klikker **Søk** -knappen, og velger deretter en ferdighet.  
+6.  I ruten **Rollekompetansekrav** klikker du i **Ferdighet**-feltet, og klikker **Søk**-knappen, og velger deretter en ferdighet.  
   
 7.  Velg et kompetansenivå for ferdigheten, og klikk deretter **Lagre**.  
   

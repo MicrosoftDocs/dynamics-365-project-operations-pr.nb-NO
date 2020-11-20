@@ -3,7 +3,7 @@ title: Hva er nytt eller endret i Project Service Automation Update Release 24, 
 description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081572"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126585"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, Update Release 24, V3
 
@@ -67,13 +67,13 @@ Følgende problemer har blitt løst:
 
 Følgende problemer har blitt løst:
 
-- I **Prosjekttidsplan** , når du bytter fra **Manuell** til **Automatisk** , fullføres ikke automatisk lagring.
+- I **Prosjekttidsplan**, når du bytter fra **Manuell** til **Automatisk**, fullføres ikke automatisk lagring.
 - Utgiftskostnader bør ikke beregnes mot varians i **rutenettet for prosjektsporing**.
-- Inkonsekvent virkemåte for **Estimatmerke** -kolonner under innlasting, i forhold til endring av **Tidsfase** -typen.
+- Inkonsekvent virkemåte for **Estimatmerke**-kolonner under innlasting, i forhold til endring av **Tidsfase**-typen.
 - De faktiske kostnadene i et prosjekt gjenspeiler kanskje ikke totalverdiene fra **Faktiske verdier**.
 - **Beregnet sluttdato** i kategorien **Sammendrag** samsvarer ikke med **WBS-plan**.
 - **Oppdater faktiske timer** ved redusering av innrykk fungerer ikke riktig.
-- En prosjektleder utenfor rot- **BU** kan ikke opprette et prosjekt.
+- En prosjektleder utenfor rot-**BU** kan ikke opprette et prosjekt.
 - Endringer i oppgaven eller kategorien i **Utgiftsestimater** beholdes ikke.
 - **Kopi av kontrakt** kopierer faktureringsplanene og kjørestatusen.
 - Knappen **Oppdater faktiske verdier** beregner aktivitetssammendrag på feil måte.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081610"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126324"
 ---
 # <a name="actuals"></a>Faktiske verdier 
 
@@ -45,7 +45,7 @@ Når en tidsoppføring som er sendt, kobles til et prosjekt som er tilordnet en 
 
 Logikken for oppretting av standardpriser finnes på journallinjen. Feltverdiene fra tidsoppføringen kopieres til journallinjen. Disse verdiene inneholder transaksjonsdatoen, kontraktlinjen som prosjektet er tilordnet, og valutaresultatet i den aktuelle prislisten.
 
-Feltene som påvirker standardprising, for eksempel **Rolle** og **Organisasjonsenhet** , brukes til å bestemme den passende prisen på journallinjen. Du kan legge til et egendefinert felt for tidsoppføringen. Hvis du vil at feltverdien skal overføres til faktiske verdier, oppretter du feltet på den faktiske enheten og bruker felttilordninger til å kopiere feltet fra tidsoppføringen til den faktiske verdien.
+Feltene som påvirker standardprising, for eksempel **Rolle** og **Organisasjonsenhet**, brukes til å bestemme den passende prisen på journallinjen. Du kan legge til et egendefinert felt for tidsoppføringen. Hvis du vil at feltverdien skal overføres til faktiske verdier, oppretter du feltet på den faktiske enheten og bruker felttilordninger til å kopiere feltet fra tidsoppføringen til den faktiske verdien.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Journallinjer og sending av grunnleggende utgifter
 

@@ -3,7 +3,7 @@ title: Knytte ferdigheter til ressurser
 description: Slik knytter du ferdigheter til spesifikke ressurser i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9b025f9856b60e97facf15b6f2edcc8a1e59874b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e322f331b37132fa0478d190c10f3bf67c22fda3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081738"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130465"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>Knytte ferdigheter til ressurser (Project Service)
 
@@ -35,9 +35,9 @@ I det forrige trinnet har du allerede tilknyttet noen ferdigheter til en ny ress
   
 2.  Dobbeltklikk ressursen du vil legge til ferdighetene for.  
   
-3.  Hvis du vil legge til en ny ferdighet, klikker du **+** i **Ferdigheter** -området.  
+3.  Hvis du vil legge til en ny ferdighet, klikker du **+** i **Ferdigheter**-området.  
   
-4.  I skjermbildet som kommer opp, fyller du ut feltene etter behov, og klikker deretter **Lagre** -knappen i nederste høyre hjørne av skjermen.  
+4.  I skjermbildet som kommer opp, fyller du ut feltene etter behov, og klikker deretter **Lagre**-knappen i nederste høyre hjørne av skjermen.  
   
 5.  Fortsett å legge til ferdigheter etter behov. Når du er ferdig, klikker du **Lagre** nederst til høyre på skjermen.  
   

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081536"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125595"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importer estimater for et prosjekt til en prosjektbasert tilbudslinje
 
@@ -22,7 +22,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Hvis det opprettes et prosjekt i løpet av trinnet før salg, kan du velge å importere det økonomiske estimatet fra prosjektet til den prosjektbaserte tilbudslinjen.
 
-1. Pass på at den prosjektbaserte tilbudslinjen har prosjektinformasjonen i **Prosjekt** -feltet.
+1. Pass på at den prosjektbaserte tilbudslinjen har prosjektinformasjonen i **Prosjekt**-feltet.
 2. I kategorien **Tilbudslinjedetaljer** velger du **Importer fra prosjektberegningen**.
 3. Velg ett av følgende alternativer for oppsumering i dialogboksen som åpnes:
 
@@ -31,7 +31,7 @@ Hvis det opprettes et prosjekt i løpet av trinnet før salg, kan du velge å im
   - **Rolle** 
   - **Prosjektoppgave**
 
-Avhengig av hva du velger, kopieres estimatet fra prosjektet for alle transaksjonsklasser som er inkludert i tilbudslinjen. Hvis du vil kontrollere hvilke transaksjonsklasser som er inkludert, velger du kategorien **Generelt** på den prosjektbaserte tilbudslinjen, og deretter kontrollerer du verdiene for **Inkluder tid** , **Inkluder utgifter** og **Inkluder gebyrer**.
+Avhengig av hva du velger, kopieres estimatet fra prosjektet for alle transaksjonsklasser som er inkludert i tilbudslinjen. Hvis du vil kontrollere hvilke transaksjonsklasser som er inkludert, velger du kategorien **Generelt** på den prosjektbaserte tilbudslinjen, og deretter kontrollerer du verdiene for **Inkluder tid**, **Inkluder utgifter** og **Inkluder gebyrer**.
 
 Når du importerer estimater, blir prissettingen som standard basert på på prosjektprislistene som er knyttet til tilbudet, og faktureringstypen som er satt opp på den prosjektbaserte tilbudslinjen. Hvis en rolle eller kategori er konfigurert på den prosjektbaserte tilbudslinjen som ikke-belastbar, vil den importerte estimatlinjen bli angitt som ikke-belastbar, og den vil ikke øke den oppgitte verdien på tilbudslinjen.
 

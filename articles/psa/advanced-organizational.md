@@ -3,7 +3,7 @@ title: Organisasjonsenheter
 description: Dette emnet inneholder informasjon om organisasjonsenheter i Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081732"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130635"
 ---
 # <a name="organizational-units"></a>Organisasjonsenheter 
 
@@ -50,7 +50,7 @@ I tillegg finnes det et attributt for organisasjonsenheten i ressursenheten. Hve
 
 Organisasjonsenheten spiller to roller i PSA:
 
-- **Kontraktsenhet** – organisasjonsenheten som representerer firmagruppen eller divisjonen som er primært ansvarlig for å vinne salget og administrere levering av arbeid og tjenester til kunden. Kontraktsenheten identifiseres av feltet **Kontraktsenhet** i overskriftsdelen på sidene **Salgsmulighet** , **Tilbud** , **Prosjektkontrakt** og **Prosjekt**.
+- **Kontraktsenhet** – organisasjonsenheten som representerer firmagruppen eller divisjonen som er primært ansvarlig for å vinne salget og administrere levering av arbeid og tjenester til kunden. Kontraktsenheten identifiseres av feltet **Kontraktsenhet** i overskriftsdelen på sidene **Salgsmulighet**, **Tilbud**, **Prosjektkontrakt** og **Prosjekt**.
 - **Ressursenhet** – organisasjonsenheten som en ressurs tilhører eller er tilordnet til. Denne organisasjonsenheten kan levere ressursene for enkelte roller for arbeidsoppgaver (SOWs) og prosjekter som eies av kontraktsenheten.
 
 > ![Kontraktsenheter og ressursenheter](media/advanced-1.png)

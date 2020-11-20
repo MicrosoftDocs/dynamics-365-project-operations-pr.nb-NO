@@ -3,7 +3,7 @@ title: Tilordne generelt bestillbare ressurser til en oppgave og et prosjektteam
 description: Dette emnet gir informasjon om bestilling av generelle ressurser for aktiviteter og prosjektteam.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081635"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127080"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4081635"
 
 I tillegg til å bestille og tilordne navngitte eller faktiske ressurser i prosjektet kan du tilordne generelle ressurser til prosjektoppgaver. Disse ressursene kan fungere som plassholdere for navngitte ressurser til du er klar til å bemanne prosjektet med navngitte ressurser. 
 
-1. I Project Service Automation (PSA) åpner du **Prosjekt** -siden, og i kategorien **Tidsplan** angir du posisjonsnavnet til den generelle ressursen i **Ressurs** -cellen i tidsplanen. Du kan også klikke **Ressurs** -ikonet i cellen for å åpne ressursvelgeren og deretter skrive inn navnet på den generelle ressursen du vil opprette.
+1. I Project Service Automation (PSA) åpner du **Prosjekt**-siden, og i kategorien **Tidsplan** angir du posisjonsnavnet til den generelle ressursen i **Ressurs**-cellen i tidsplanen. Du kan også klikke **Ressurs**-ikonet i cellen for å åpne ressursvelgeren og deretter skrive inn navnet på den generelle ressursen du vil opprette.
 
 ![Opprette og tilordne et generelt teammedlem](media/RM-how-to-9.png)
 
@@ -53,7 +53,7 @@ I rutenettet for teammedlemmer, i tillegg til å kunne bruke ressursvelgeren som
 
 Du kan se en forskjell hvis du legger til det generelle teammedlemmet direkte og deretter tildeler flere oppgaver til den generelle ressursen enn antallet det er nødvendig å dekke. Klikk **Generer krav** for å generere kravet på nytt for å balansere de nødvendige timene mot tildelinger.
 
-Du kan også klikke **Ressurskrav** -koblingen i rutenettet for teamet for å åpne kravet og legge til kvalifikasjoner, foretrukne ressurser og så videre.
+Du kan også klikke **Ressurskrav**-koblingen i rutenettet for teamet for å åpne kravet og legge til kvalifikasjoner, foretrukne ressurser og så videre.
 
 ![Ressurskrav](media/RM-how-to-13.png)
 

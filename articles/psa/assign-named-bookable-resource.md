@@ -3,7 +3,7 @@ title: Bestille navngitte bestillbare ressurser til et prosjektteam og tilordne 
 description: Dette emnet gir informasjon om hvordan du bestiller navngitte ressurser for prosjektteam og tilordner dem til oppgaver.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081739"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130185"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Bestille navngitte bestillbare ressurser til et prosjektteam og tilordne oppgaver 
 
@@ -32,11 +32,11 @@ ms.locfileid: "4081739"
 Du kan legge til en navngitt ressurs i prosjektteamet ved å reservere den direkte til teamet. Det gjør du ved å følge denne fremgangsmåten:
 
 1. Gå til **Prosjekter** i Project Service Automation, og velg det åpne prosjektet du bestiller for.
-2. På **Prosjekt** -siden i **Team** -kategorien klikker du **Ny**. 
+2. På **Prosjekt**-siden i **Team**-kategorien klikker du **Ny**. 
 
 ![Legge til et teammedlem fra kategorien Team](media/RM-how-to-1.png)
 
-3. Velg den bestillbare ressursen i dialogboksen **Hurtigoppretting: Prosjektteammedlem**. **Rolle** -feltet fylles ut med ressursens standardrolle hvis en rolle er tilordnet. Du kan endre rollen etter behov. 
+3. Velg den bestillbare ressursen i dialogboksen **Hurtigoppretting: Prosjektteammedlem**. **Rolle**-feltet fylles ut med ressursens standardrolle hvis en rolle er tilordnet. Du kan endre rollen etter behov. 
 4. Velg fra- og til-datoene som ressursen trenger, og velg fordelingsmetoden for ressursens kapasitet. 
 5. Hvis du vil at teammedlemmet skal være en prosjektgodkjenner, velger du **Ja** i feltet **Prosjektgodkjenner**. Dette betyr at teammedlemmet kan godkjenne sendte tids- og utgiftsoppføringer for dette prosjektet. 
 6. Klikk **Lagre**.
@@ -44,7 +44,7 @@ Du kan legge til en navngitt ressurs i prosjektteamet ved å reservere den direk
 ![Legge til et team medlem i hurtigopprettingsskjemaet](media/RM-how-to-2.png)
 
 
-Nå kan du tilordne den bestilte ressursen til oppgaver i prosjektet. På **Prosjekt** -siden klikker du kategorien **Tidsplan** for å tilordne oppgaver til den nye ressursen. Ressursvelgeren som startes fra **Ressurser** -feltet i oppgaverutenettet, viser teammedlemmene som du kan velge.
+Nå kan du tilordne den bestilte ressursen til oppgaver i prosjektet. På **Prosjekt**-siden klikker du kategorien **Tidsplan** for å tilordne oppgaver til den nye ressursen. Ressursvelgeren som startes fra **Ressurser**-feltet i oppgaverutenettet, viser teammedlemmene som du kan velge.
 
 ![Tilordne et teammedlem til en oppgave i kategorien Tidsplan](media/RM-how-to-3.png)
 

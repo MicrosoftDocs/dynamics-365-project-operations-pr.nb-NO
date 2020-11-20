@@ -3,7 +3,7 @@ title: Hvordan tilordner jeg en ressurs som kan reserveres, til en oppgave i net
 description: En oversikt over måtene du kan tilordne bestillbare ressurser på.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081808"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125190"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Hvordan tilordner jeg en ressurs som kan reserveres, til en oppgave i webappen (Project Service-appen v2.x)?
 
@@ -40,7 +40,7 @@ Vær oppmerksom på at hvis du vil tilordne en ressurs som kan bestilles, til en
 Med denne metoden kan du legge til en ressurs i prosjektteamet og deretter tilordne oppgaver til ressursen i prosjektplanen. Slik gjør du dette:
 1.  Legg til et nytt teammedlem ved å velge **Ny** i teammedlemsrutenettet.
 2.  Velg navnet på ressursen som kan bestilles, og angi en rolle i skjermbildet for hurtigoppretting av teammedlem.
-3.  Velg **Fra** - og **Til** -datoer.
+3.  Velg **Fra**- og **Til**-datoer.
 
     > [!div class="mx-imgBorder"] 
     > ![Skjermbilde av å legge til teammedlem](media/FAQ-Resources-to-Tasks2-1.png "Skjermbilde av å legge til teammedlem")
@@ -59,7 +59,7 @@ Med denne metoden kan du legge til en ressurs i prosjektteamet og deretter tilor
 6.  I arbeidsnedbrytningsstrukturen (WBS) for oppgaven klikker du rullegardinlisten for ressurscellen. Deretter: 
 
     1. Velg **Legg til**.
-    2. Velg rullegardinlisten under **Ressurser** , og velg teammedlemmet du la til ovenfor.
+    2. Velg rullegardinlisten under **Ressurser**, og velg teammedlemmet du la til ovenfor.
     3. Velg **OK**. Teammedlemmet tilordnes nå til oppgaven.
 
     > [!div class="mx-imgBorder"] 
@@ -87,8 +87,8 @@ Hvis du vil tilordne denne ressursen, må du fjerne dem fra teamet, og deretter 
 Denne metoden sikrer at ressursene har nok bestillinger for oppgaver. Først oppretter du en plassholder eller en generell ressurs som beskriver egenskapene til den navngitte ressursen som du vil skal arbeide med oppgavene, ved å generere et team etter at rollene er tilordnet til oppgavene. Slik gjør du dette:
 
 1. Velg en oppgave i arbeidsnedbrytningsstrukturen.
-2. Velg **Tilordnet rolle** -rullegardinlisteikonet i ressurscellen.
-3. Velg **Rolle** -rullegardinlisten, og velg rollen for den generelle ressursen.
+2. Velg **Tilordnet rolle**-rullegardinlisteikonet i ressurscellen.
+3. Velg **Rolle**-rullegardinlisten, og velg rollen for den generelle ressursen.
 4. Velg **OK**.
 
     > [!div class="mx-imgBorder"] 

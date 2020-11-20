@@ -3,7 +3,7 @@ title: Tilordne en ressurs til en oppgave
 description: Dette emnet gir informasjon om hvordan du tilordner ressurser til oppgaver.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081809"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125145"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Tilordne en ressurs til en oppgave
 
@@ -45,7 +45,7 @@ Du kan legge til en ressurs i prosjektteamet og deretter tilordne ressursen til 
     - **Etter timer - frontbelast** bestiller ressursen for et bestemt antall timer og frontbelaster timene per dag over de angitte fra- og til-datoene.
     - **Ingen** legger til ressursen i teamet, men oppretter ikke en bestilling som absorberer kapasiteten deres.
 
-3. I rutenettet **Planlegg** for en oppgave velger du **Ressurs** -ikonet i ressurscellen, og velger deretter teammedlemmet du akkurat la til, under **Teammedlemmer**. 
+3. I rutenettet **Planlegg** for en oppgave velger du **Ressurs**-ikonet i ressurscellen, og velger deretter teammedlemmet du akkurat la til, under **Teammedlemmer**. 
 
 > [!NOTE]
 > I kategorien **Teammedlem** og **Avstemming** viser ressursen bestilte timer og tilordnede timer. Timene børl være like, men behøver ikke være det ettersom bestillinger og tilordninger ikke er tett sammenknyttet. Kategorien **Avstemming** gir informasjon når de er forskjellige, for eksempel når du tilordner en ressurs flere timer enn du har bestilt. Om nødvendig kan du korrigere informasjonen ved å utvide ressursens bestillinger eller endre tilordningen.
@@ -58,7 +58,7 @@ Når du oppretter et generelt teammedlem via oppgavetildeling, oppretter du en p
 
 2. Skriv inn et navn som fungerer som plassholder for ressursens navn. For eksempel "Programleder".
 
-3. Velg **Opprett** , og angi rollen for den generelle ressursen i feltet for **hurtigoppretting av prosjektteammedlem**.
+3. Velg **Opprett**, og angi rollen for den generelle ressursen i feltet for **hurtigoppretting av prosjektteammedlem**.
 
 4. Du kan fortsette å tilordne oppgaver til denne plassholderessursen ved å velge ressursen i **ressursvelgeren** for oppgaven. De er oppført under **Teammedlemmer**.
 

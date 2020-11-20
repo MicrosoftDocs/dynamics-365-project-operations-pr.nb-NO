@@ -3,7 +3,7 @@ title: Tilbud og tilbudslinjer
 description: Dette emnet inneholder informasjon om tilbud og tilbudslinjer.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081735"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129465"
 ---
 # <a name="quotes-and-quote-lines"></a>Tilbud og tilbudslinjer
 
@@ -35,7 +35,7 @@ I Dynamics 365 Project Service Automation finnes det to typer tilbud: prosjektti
 - Et salgstilbud støtter aktivering og revisjoner. Et prosjekttilbud støtter ikke disse prosessene.
 - Du kan knytte flere ordrer til et salgstilbud. Du kan bare knytte én prosjektkontrakt til et prosjekttilbud.
 - Du kan vinne et salgstilbud og holde den relaterte salgsmuligheten åpen. Når et prosjekttilbud er vunnet, blir den relaterte salgsmuligheten lukket.
-- Et salgstilbud inkluderer ikke enkelte felt og konsepter som er inkludert i et prosjekttilbud som har felt. Feltene omfatter **Kontraktenhet** , **Forretningsforbindelsesansvarling** og **Navn på kontakt for fakturering**.  
+- Et salgstilbud inkluderer ikke enkelte felt og konsepter som er inkludert i et prosjekttilbud som har felt. Feltene omfatter **Kontraktenhet**, **Forretningsforbindelsesansvarling** og **Navn på kontakt for fakturering**.  
 - Salgstilbud og prosjekttilbud identifiseres også ved hjelp av et felt basert på et alternativsett med navnet **Type**. For et salgstilbud har dette feltet verdien **Varebasert**. For et prosjekttilbud har det verdien **Arbeidsbasert**.
 
 Dette emnet fokuserer på detaljene i prosjekttilbud.
@@ -76,7 +76,7 @@ PSA støtter alle tre typer fakturaplaner for tilbudslinjer med fast pris.
 Profesjonelle serviceorganisasjoner oppgir og fakturerer vanligvis kundene etter klassifisering av kostnader. I PSA representeres kostnadene av følgende transaksjonsklassifiseringer:
 
 - **Tid** – denne klassifiseringen representerer kostnadene for arbeid eller personale i et prosjekt.
-- **Utgift** : – denne klassifiseringen representerer alle andre typer utgifter i et prosjekt. Siden utgifter kan klassifiseres bredt, kan de fleste organisasjoner opprette underkategorier, for eksempel reise, leiebil, hotell eller kontorutstyr.
+- **Utgift**: – denne klassifiseringen representerer alle andre typer utgifter i et prosjekt. Siden utgifter kan klassifiseres bredt, kan de fleste organisasjoner opprette underkategorier, for eksempel reise, leiebil, hotell eller kontorutstyr.
 - **Avgift** – denne klassifiseringen representerer diverse kostnader, straffer og andre elementer som er belastet kunden. 
 - **Skatt** – denne klassifiseringen representerer skattebeløp som brukere legger til mens de registrerer utgifter.
 - **Materialetransaksjon** – denne klassifiseringen representerer faktiske verdier fra produktlinjer på en bekreftet prosjektfaktura.
@@ -91,7 +91,7 @@ Et tilbud kan for eksempel inneholde følgende to tilbudslinjer:
 - Relaterte reiseutgifter som bruker en faktureringsmetode for fast pris. Alle reiseutgifter for eksempelprosjektet **Dynamics AX-implementering** blir for eksempel fakturert med et fast beløp.
 
 > [!NOTE]
-> Kombinasjonen av prosjekt- og transaksjonsklassifiseringen for **Tid** , **Utgift** og **Avgift** som er tilknyttet en tilbudslinje eller kontraktlinje, må være unik. Hvis samme kombinasjon av prosjekt- og transaksjonsklasse er tilknyttet mer enn én kontraktlinje eller tilbudslinje, fungerer ikke PSA på riktig måte.
+> Kombinasjonen av prosjekt- og transaksjonsklassifiseringen for **Tid**, **Utgift** og **Avgift** som er tilknyttet en tilbudslinje eller kontraktlinje, må være unik. Hvis samme kombinasjon av prosjekt- og transaksjonsklasse er tilknyttet mer enn én kontraktlinje eller tilbudslinje, fungerer ikke PSA på riktig måte.
 
 ## <a name="billing-types"></a>Faktureringstyper
 
@@ -126,6 +126,6 @@ Faktureringsfrekvens er en enhet som lagrer attributtverdier som bidrar til å u
 
 For en tilbudslinje med fast pris kan du bruke rutenettet **Fakturaplen** til å opprette faktureringsmilepæler som er lik verdien på tilbudslinjen.
 
-- Hvis du vil opprette faktureringsmilepæler som er likt inndelt, velger du en fakturafrekvens, angir startdatoen for fakturering på tilbudslinjen og velger **Forespurt fullføringsdato** for tilbudet i **Sammendrag** -delen i tilbudshodet. . Deretter velger du **Generer periodiske milepæler** for å opprette likt delte milepæler basert på den valgte fakturafrekvensen. 
+- Hvis du vil opprette faktureringsmilepæler som er likt inndelt, velger du en fakturafrekvens, angir startdatoen for fakturering på tilbudslinjen og velger **Forespurt fullføringsdato** for tilbudet i **Sammendrag**-delen i tilbudshodet. . Deretter velger du **Generer periodiske milepæler** for å opprette likt delte milepæler basert på den valgte fakturafrekvensen. 
 - Hvis du vil opprette en faktureringsmilepæl for et engangsbeløp, oppretter du en milepæl, og deretter angir du tilbudslinjeverdien som milepælbeløpet.
 - Hvis du vil opprette faktureringsmilepæler som er basert på bestemte oppgaver i prosjektplanen, oppretter du en milepæl og tilordner den til prosjektets tidsplanelement i brukergrensesnittet for faktureringsmilepælen.

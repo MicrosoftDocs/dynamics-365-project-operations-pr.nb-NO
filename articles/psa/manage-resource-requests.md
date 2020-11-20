@@ -3,7 +3,7 @@ title: Administrere ressursforespørsler
 description: Slik administrerer du ressursforespørsler i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081619"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129015"
 ---
 # <a name="manage-resource-requests-project-service"></a>Administrere ressursforespørsler (Project Service)
 
@@ -37,11 +37,11 @@ Kundeansvarlige og prosjektledere ber regelmessig om ressurser for sine prosjekt
   
     Gjør ett av følgende for å optimalisere søket:  
   
-   -   Velg en visning eller sorteringsrekkefølge fra toppen av skjermen. Du kan også velge om du vil vise tilgjengeligheten for **Dag** , **Uke** eller **Måned** , og bruke pilene til å vise forrige eller neste periode. Bruk søkeboksen til å finne en bestemt ressurs.  
+   -   Velg en visning eller sorteringsrekkefølge fra toppen av skjermen. Du kan også velge om du vil vise tilgjengeligheten for **Dag**, **Uke** eller **Måned**, og bruke pilene til å vise forrige eller neste periode. Bruk søkeboksen til å finne en bestemt ressurs.  
   
    -   Klikk **Alternativer** for å endre det som vises. For eksempel kan du vise en forklaring som angir fargevalget for ulike typer bestillinger, eller du kan velge å vise bare en bestemt type bestilling (for eksempel forpliktende bestilling eller ikke-forpliktende bestilling).  
   
-   -   Klikk **Filter** for å vise **Filter** -ruten, der du kan filtrere resultatene etter organisasjonsenhet, rolle, ferdighet eller andre attributter.  
+   -   Klikk **Filter** for å vise **Filter**-ruten, der du kan filtrere resultatene etter organisasjonsenhet, rolle, ferdighet eller andre attributter.  
   
        ![Ressursforespørsel-skjermen i Project Service](../psa/media/project-service-resource-request-screen.png "Ressursforespørsel-skjermen i Project Service")  
   

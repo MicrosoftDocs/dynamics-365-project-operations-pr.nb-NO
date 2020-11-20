@@ -3,7 +3,7 @@ title: Planlegge et prosjekt med en arbeidsnedbrytningsstruktur
 description: Slik planlegger du et prosjekt med en arbeidsnedbrytningsstruktur i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081802"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127890"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planlegge et prosjekt med en arbeidsnedbrytningsstruktur (Project Service)
 
@@ -86,14 +86,14 @@ Når du oppretter en arbeidsnedbrytningsstruktur, skal du bruke følgende typer 
   
 ### <a name="schedule-attributes"></a>Planlegge attributter
 
- - Tilordne verdier til **Innsatstimer** , **Antall ressurser** , **Startdato** , **Sluttdato** og **Varighet** for å bestemme tidsplanen for oppgaven. 
+ - Tilordne verdier til **Innsatstimer**, **Antall ressurser**, **Startdato**, **Sluttdato** og **Varighet** for å bestemme tidsplanen for oppgaven. 
  - **Innsats** er et estimat for timene det tar å fullføre oppgaven.
  - **Antall ressurser** er et estimat som prosjektlederen legger inn i oppgaven, for å komme opp med den beste mulige tidsplanen. 
  - **Varighet** (i dager) angir hvor mange arbeidsdager det vil ta å fullføre oppgaven.  
   
 ### <a name="staffing-attributes"></a>Bemanningsattributter
 
- - **Rolle** , **Organisasjonsenhet for ressurs** , **Antall ressurser** og **Ressurser** beskriver bemanningsbehovene for oppgaven. 
+ - **Rolle**, **Organisasjonsenhet for ressurs**, **Antall ressurser** og **Ressurser** beskriver bemanningsbehovene for oppgaven. 
  - **Rolle** beskriver hvilken type ressurs som kreves for å utføre oppgaven. 
  - **Organisasjonsenhet for ressurs** angir organisasjonsenheten der ressursene skal bemannes for denne oppgaven. Dette også påvirker kostnader og salgsestimat for oppgaven, siden dette er gjort rede for når det skal avgjøres enhetssalgspris for ressursen. 
  - **Ressurser** inneholder en generell ressurs eller en navngitt ressurs når noe blir funnet.  

@@ -3,7 +3,7 @@ title: Prosjektkostnader og -omsetning
 description: Dette emnet gir informasjon om beregning av prosjektkostnader og -omsetning.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081650"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127980"
 ---
 # <a name="project-costs-and-revenue"></a>Prosjektkostnader og -omsetning
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Prosjektestimater gir en økonomisk oversikt for arbeid som beregnet og planlagt i prosjektetplanen. Kategorien **Estimater** på **Prosjekter** -siden viser kostnadene og omsetningen for arbeidet du planlegger. Den inneholder også informasjon om mange forhåndsdefinerte dimensjoner. 
+Prosjektestimater gir en økonomisk oversikt for arbeid som beregnet og planlagt i prosjektetplanen. Kategorien **Estimater** på **Prosjekter**-siden viser kostnadene og omsetningen for arbeidet du planlegger. Den inneholder også informasjon om mange forhåndsdefinerte dimensjoner. 
 
 > ![Kategorien Estimater](media/project-5.png)
 
@@ -50,7 +50,7 @@ Hvis kombinasjonen av rolle og og organisasjonsenhet ikke returnerer en kostpris
 Hvis systemet ikke finner en pris for rollen, settes kostprisen på estimatlinjen til en standardverdi på **0,00**. Alle kostnadsbeløp på estimatlinjer for prosjektkostnader er oppført i valutaen for kontraktsenheten.
 
 > [!NOTE]
-> Som standard lagrer Microsoft Dynamics 365 kostnadsbeløp i standardvalutaen. Kostnadsbeløpene som vises i kategorien **Estimater** , er imidlertid i valutaen som er angitt i kontraktsenheten.  
+> Som standard lagrer Microsoft Dynamics 365 kostnadsbeløp i standardvalutaen. Kostnadsbeløpene som vises i kategorien **Estimater**, er imidlertid i valutaen som er angitt i kontraktsenheten.  
 
 ### <a name="default-sales-price"></a>Standard salgspris 
 
@@ -70,7 +70,7 @@ Kategorien **Estimater** har en rutenettvisning som viser estimatlinjer. Rutenet
 
 ## <a name="time-phased-view-of-project-estimates"></a>Tidsinndelt visning av prosjektestimater
 
-Den tidsfasede visningen av prosjektestimater viser estimatdataene fra rutenettvisningen i løpet av tidslinjen, i en tidsskala som du velger. Som standard er estimatdataene pivotert i **Rolle** -dimensjonen.
+Den tidsfasede visningen av prosjektestimater viser estimatdataene fra rutenettvisningen i løpet av tidslinjen, i en tidsskala som du velger. Som standard er estimatdataene pivotert i **Rolle**-dimensjonen.
 
 > ![Tidsinndelt visning for prosjektestimater](media/project-7.png)
 
@@ -80,7 +80,7 @@ I den tidsinndelte visningen distribuerer du den totale innsats som er beregnet 
 
 ### <a name="work-hours-based-allocation"></a>Tildeling basert på arbeidstimer
  
-I modus for automatisk planlegging av oppgaver angis de daglige standardtimene for oppgaveressurser med timeprisen for full arbeid. Denne virkemåten gjelder også når innsatsen tildeles ved å dele den opp gjennom varigheten for oppgaven i den tidsinndelte visningen. Hvis du for eksempel estimerer at en oppgave blir fullført av én ressurs i **Dag** -tidsskalaen, vil innsatsen som tildeles per dag, ikke oversride arbeidstimene per dag som er definert i prosjektkalenderen. Derfor sørger tildelingen av innsats alltid for at ressursene er estimert til å brukes hele dagen.
+I modus for automatisk planlegging av oppgaver angis de daglige standardtimene for oppgaveressurser med timeprisen for full arbeid. Denne virkemåten gjelder også når innsatsen tildeles ved å dele den opp gjennom varigheten for oppgaven i den tidsinndelte visningen. Hvis du for eksempel estimerer at en oppgave blir fullført av én ressurs i **Dag**-tidsskalaen, vil innsatsen som tildeles per dag, ikke oversride arbeidstimene per dag som er definert i prosjektkalenderen. Derfor sørger tildelingen av innsats alltid for at ressursene er estimert til å brukes hele dagen.
 
 ### <a name="even-allocation"></a>Jevn tildeling
 
@@ -88,7 +88,7 @@ I manuelt planlagt oppgavemodus brukes ikke arbeidstimene fra prosjektkalenderen
 
 ## <a name="grouping-and-time-phasing-options"></a>Alternativer for gruppering og tidsinndeling
 
-Den tidsinndelte visningen viser fordelingen av innsats, kostnader og salgsestimater basert på per dag, uke, måned eller år. Som standard er estimatdataene pivotert i **Rolle** -dimensjonen. Du kan imidlertid bruke alternativet **Grupper etter** til å pivotere på to andre dimensjoner: **Kategori** og **Ressurs**.
+Den tidsinndelte visningen viser fordelingen av innsats, kostnader og salgsestimater basert på per dag, uke, måned eller år. Som standard er estimatdataene pivotert i **Rolle**-dimensjonen. Du kan imidlertid bruke alternativet **Grupper etter** til å pivotere på to andre dimensjoner: **Kategori** og **Ressurs**.
 
 I både rutenettvisningen og den tidsinndelte visningen kan du velge hvilke felt som skal vises. Totalsummer for hver tidsblokk vises nederst i prosjektet. De viser totalt estimaert innsats, kostnader og salg for dagen, uken, måneden eller året. Standard kostpris og salgspris er datobasert. De endres med andre ord for hver ressurs basert på den tidsinndelte visningen du velger.
 

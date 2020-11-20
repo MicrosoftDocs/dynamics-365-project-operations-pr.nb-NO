@@ -3,7 +3,7 @@ title: Spore status for et prosjekt
 description: Slik sporer du status for et prosjekt i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081706"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127845"
 ---
 # <a name="track-a-projects-status-project-service"></a>Spore status for et prosjekt (Project Service)
 
@@ -37,10 +37,10 @@ Senere i engasjementet oppdateres prosjektfasene for å gjenspeile fasen i engas
 |              |                                                                                                                                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **Ny**    | Når du oppretter et prosjekt, er fasen satt til **Ny**. Hvis du opprettet prosjektet fra en mal, kan prosjektet i denne fasen ha en tidsplan, estimater og teamdata. Ellers vil det være disposisjonen for prosjektet, og du må manuelt angi resten av prosjektkomponentene. |
-|  **Tilbud**   |      Når du knytter et prosjekt til et tilbud eller oppretter det fra et tilbud, er prosjektfasen satt til **Tilbud** , og de estimerte start- og sluttdatoene oppdateres også. Når prosjektet er i tilbudsfasen, vises detaljene for tilbudet i kategorien **Salg** på **Prosjekt** -siden.      |
-|   **Plan**   |                                     Når du har vunnet et tilbud som er tilknyttet et prosjekt, og når dette engasjementet går videre til kontraktfasen, oppdateres prosjektfasen til **Plan**. Kontraktdetaljene vises i kategorien **Salg** på **Prosjekt** -siden.                                      |
+|  **Tilbud**   |      Når du knytter et prosjekt til et tilbud eller oppretter det fra et tilbud, er prosjektfasen satt til **Tilbud**, og de estimerte start- og sluttdatoene oppdateres også. Når prosjektet er i tilbudsfasen, vises detaljene for tilbudet i kategorien **Salg** på **Prosjekt**-siden.      |
+|   **Plan**   |                                     Når du har vunnet et tilbud som er tilknyttet et prosjekt, og når dette engasjementet går videre til kontraktfasen, oppdateres prosjektfasen til **Plan**. Kontraktdetaljene vises i kategorien **Salg** på **Prosjekt**-siden.                                      |
 | **Fullfør** |                    Når prosjektarbeidet er fullført, kan du bytte fase til **Fullført**. Når prosjektfasen er satt til Fullført, er det forstått at arbeidet er 100 % fullført, men prosjektet holdes åpent for alle ventende tids- eller utgiftsposter som skal registreres.                     |
-|  **Lukk**   |           Når alle transaksjoner er registrert i prosjektet og du ikke forventer at flere skal loggføres, kan du manuelt sette fasen til **Lukk**. Når prosjektet er satt til **Lukk** , kan du ikke loggføre flere transaksjoner i prosjektet, og prosjektet vil være skrivebeskyttet.           |
+|  **Lukk**   |           Når alle transaksjoner er registrert i prosjektet og du ikke forventer at flere skal loggføres, kan du manuelt sette fasen til **Lukk**. Når prosjektet er satt til **Lukk**, kan du ikke loggføre flere transaksjoner i prosjektet, og prosjektet vil være skrivebeskyttet.           |
 
 ## <a name="to-track-a-projects-status"></a>Slik sporer du status for et prosjekt  
 

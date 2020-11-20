@@ -3,7 +3,7 @@ title: Hva er nytt eller endret i Project Service Automation Update Release 22, 
 description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 22, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081568"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126630"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation, Update Release 22, V3
 
@@ -47,7 +47,7 @@ Følgende problemer har blitt løst:
 
 Følgende problemer har blitt løst:
 
-- I manuell modus gjenkjennes ikke endringer i **Ressurstilordning** -konturer ved generering av **Ressurskrav**.
+- I manuell modus gjenkjennes ikke endringer i **Ressurstilordning**-konturer ved generering av **Ressurskrav**.
 - **Ressursforespørsler** støtter ikke egendefinerte forespørselsstatuser.
 
 **Prosjektledelse**
@@ -69,4 +69,4 @@ Følgende problemer har blitt løst:
 - Valideringsfeilmelding vises ikke når en kostprisliste er valgt i prislisteoppslag i skjema/enhet for ny prosjektprisliste for tilbud.
 - Hvis du lukker tilbudet som vunnet, går det ikke videre til den opprettede kontrakten hvis en BPF som er knyttet til tilbudet, er i det siste trinnet.
 - Tilbakeføring av **Ufakturert salg** er koblet til opprinnelig kostnad når en tidsoppføring blir tilbakekalt.
-- Når du har valgt **Bekreft** -knappen, endres ikke fakturastatusen til **Bekreftet** med mindre fakturaen oppdateres.
+- Når du har valgt **Bekreft**-knappen, endres ikke fakturastatusen til **Bekreftet** med mindre fakturaen oppdateres.

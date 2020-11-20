@@ -3,7 +3,7 @@ title: Bestille navngitte ressurser fra ressurskrav
 description: Dette emnet gir informasjon om bestilling av navngitte ressurser for et generisk ressurskrav.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081825"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125910"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Bestille navngitte ressurser fra ressurskrav
 
@@ -31,7 +31,7 @@ ms.locfileid: "4081825"
 
 Du kan bestille en navngitt ressurs som erstatter en generisk ressurs som har et ressurskrav.
 
-1. I Project Service Automation (PSA), på **Prosjekter** -siden, klikker du på kategorien **Team**.
+1. I Project Service Automation (PSA), på **Prosjekter**-siden, klikker du på kategorien **Team**.
 2. Velg den generelle ressursen som har et ressurskrav, fra listen, og klikk deretter **Bestill**. Du kan også åpne ressurskravet og deretter klikke **Bestill**.
 
 
@@ -63,6 +63,6 @@ Dette er et eksempel på når flere navngitte ressurser er nødvendige for å op
 
 ![Bestille flere ressurser for å oppfylle behovet.](media/RM-how-to-23.png)
 
-Hovedforskjellen i dette scenariet er at den generelle ressursen beholdes i teamet som er tilordnet til oppgaven, og medlemmer av ressursteamet som er bestilt, blir ikke tilordnet som en del av posisjonen. Prosjektlederen kan tilordne arbeidet slik det passer til de navngitte ressursene. **Avstemming** -visningen kan hjelpe en prosjektleder med å dele opp bestillinger på tvers av flere ressurser i oppgavetildelinger. Dette gjøres ikke automatisk fordi et scenario som er mer komplisert enn det enkle eksemplet ovenfor, for eksempel hvor du har en gruppe oppgaver som utgjør behovet, må intensjonen av hvordan prosjektlederen vil tilordne, antas av systemet. Siden systemet ikke kan forstå hensikt, er det sannsynlig at antakelsene vil være forskjellige fra tiltenkt, og det skjer et uriktig eller uforutsigbart resultat. Det forutsigbare resultatet er at den generelle ressursen holdes tilordnet til prosjektlederen med hensikt oppretter tildelinger, med hjelp av **Avstemming** -visningen.
+Hovedforskjellen i dette scenariet er at den generelle ressursen beholdes i teamet som er tilordnet til oppgaven, og medlemmer av ressursteamet som er bestilt, blir ikke tilordnet som en del av posisjonen. Prosjektlederen kan tilordne arbeidet slik det passer til de navngitte ressursene. **Avstemming**-visningen kan hjelpe en prosjektleder med å dele opp bestillinger på tvers av flere ressurser i oppgavetildelinger. Dette gjøres ikke automatisk fordi et scenario som er mer komplisert enn det enkle eksemplet ovenfor, for eksempel hvor du har en gruppe oppgaver som utgjør behovet, må intensjonen av hvordan prosjektlederen vil tilordne, antas av systemet. Siden systemet ikke kan forstå hensikt, er det sannsynlig at antakelsene vil være forskjellige fra tiltenkt, og det skjer et uriktig eller uforutsigbart resultat. Det forutsigbare resultatet er at den generelle ressursen holdes tilordnet til prosjektlederen med hensikt oppretter tildelinger, med hjelp av **Avstemming**-visningen.
 
 
