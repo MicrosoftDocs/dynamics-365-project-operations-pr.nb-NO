@@ -2,7 +2,7 @@
 title: Startsiden for oppgradering
 description: Dette emnet viser hvor du finner viktig informasjon om nye og endrede funksjoner i Dynamics 365 Project Service Automation, og prosessen med å oppgradere til nyeste versjon.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081701"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121770"
 ---
 # <a name="upgrade-home-page"></a>Startsiden for oppgradering
 
@@ -61,4 +61,4 @@ Fra og med 17. mai 2019 vil alle nye forekomster ha UCI som standardklient. Når
 Fra og med 1. mars 2020 kan ikke Dynamics PSA-kunder lenger opprette nye miljøer med eldre versjoner av PSA, for eksempel PSA versjon 2.x eller lavere. Alle nye miljøer vil bare få versjon 3.x av PSA.
 
 > [!NOTE]
-> For å få best mulig utbytte når du bruker eldre versjoner av Field Service og PSA, går du til siden **Systeminnstillinger** , og for feltet **Bruk bare det nye enhetlige grensesnittet (anbefales)** velger du **Nei** , fordi disse versjonene ikke er utformet for å lastes inn på riktig måte i UCI. Når du har deaktivert UCI, kan du åpne og kjøre disse versjonene av Field Service og PSA ved å bruke den gamle webklienten. 
+> For å få best mulig utbytte når du bruker eldre versjoner av Field Service og PSA, går du til siden **Systeminnstillinger**, og for feltet **Bruk bare det nye enhetlige grensesnittet (anbefales)** velger du **Nei**, fordi disse versjonene ikke er utformet for å lastes inn på riktig måte i UCI. Når du har deaktivert UCI, kan du åpne og kjøre disse versjonene av Field Service og PSA ved å bruke den gamle webklienten. 

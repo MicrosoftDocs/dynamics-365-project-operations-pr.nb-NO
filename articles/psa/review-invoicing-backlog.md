@@ -3,7 +3,7 @@ title: Se gjennom restansen for fakturering for prosjekter og prosjektkontrakter
 description: Dette emnet gir informasjon om hvordan du gjennomgår tids-, utgifts- og produktrestanse, og hvordan du merker dem som klare til fakturering.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081829"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123975"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Se gjennom restansen for fakturering for prosjekter og prosjektkontrakter
 
@@ -36,7 +36,7 @@ Når en tids- eller utgiftsoppføring sendes og godkjennes for et prosjekt, oppr
 - Faktisk kostnad 
 - Ufakturert faktisk salg
 
-Ufakturerte faktiske verdier for salg representerer faktureringsrestansen, og faktureringsstatusen må være satt **Klar for fakturering**. Når en prosjektfaktura opprettes, blir ufakturerte faktiske verdier for salg merket som **Klar for fakturering** , kopiert over som fakturalinjedetaljer.
+Ufakturerte faktiske verdier for salg representerer faktureringsrestansen, og faktureringsstatusen må være satt **Klar for fakturering**. Når en prosjektfaktura opprettes, blir ufakturerte faktiske verdier for salg merket som **Klar for fakturering**, kopiert over som fakturalinjedetaljer.
 
 Hvis du vil se gjennom faktureringsrestansen for tid og materialer, går du til **Salg** \> **Fakturering** \> **Faktureringsrestanse for Tid og materiale**. Velg alle ufakturerte faktiske verdier for salg som er klare for fakturering, og velg deretter **Klar for fakturering**. Faktureringsstatusen for disse faktiske verdiene endres til **Klar for fakturering**.
 
@@ -44,7 +44,7 @@ Hvis du vil se gjennom faktureringsrestansen for tid og materialer, går du til 
 
 ## <a name="review-the-product-billing-backlog"></a>Se gjennom faktureringsrestanse for produkt
 
-Når en prosjektkontrakt i PSA har produktbaserte kontraktlinjer, vurderes disse linjene for fakturering hver gang det opprettes en faktura for prosjektkontrakten. Alle produkter som har kontraktlinjer som er merket **Klar for fakturering** , kopieres til prosjektfakturaen som prosjektfakturalinjer.
+Når en prosjektkontrakt i PSA har produktbaserte kontraktlinjer, vurderes disse linjene for fakturering hver gang det opprettes en faktura for prosjektkontrakten. Alle produkter som har kontraktlinjer som er merket **Klar for fakturering**, kopieres til prosjektfakturaen som prosjektfakturalinjer.
 
 Hvis du vil se gjennom faktureringsresistansen for produkter, går du til **Salg** \> **Fakturering** \> **Faktureringsrestanse for produkt**. Merk av for alle de produktbaserte kontraktlinjene som er klare til fakturering, og velg deretter **Klar for fakturering**. Faktureringsstatusen for disse linjene endres til **Klar for fakturering**.
 

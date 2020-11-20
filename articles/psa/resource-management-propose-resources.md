@@ -3,7 +3,7 @@ title: Foreslå prosjektressurser
 description: Dette emnet gir informasjon om hvordan du foreslår prosjektressurser.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,19 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081839"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120195"
 ---
 # <a name="propose-project-resources"></a>Foreslå prosjektressurser
 
 Ressursledere kan foreslå en ressurs til prosjektlederen ved å bruke en ressursforespørsel.
 
 1. Fra rutenettet med forspørsler eller fra selve forespørselen velger du **Søk etter ressurser**.
-2. På siden **Planleggingsassistent** velger du ressursen, og deretter i ruten **Opprett ressursbestilling** , i feltet **Bestillingsstatus** , velger du **Bestill**.
+2. På siden **Planleggingsassistent** velger du ressursen, og deretter i ruten **Opprett ressursbestilling**, i feltet **Bestillingsstatus**, velger du **Bestill**.
 
     ![Foreslått ressurs valgt](media/Resource-Management-image62.png)
 
@@ -68,7 +68,7 @@ Følgende formler brukes til å beregne utnyttelse:
 - Intern = faktisk tid uten salgskontrakt ÷ ressurskapasitet
 - Ressurskapasitet = arbeidstimer for ressursen – fravær – ikke-arbeidsdager
 
-Du kan finne visningen **Ressursutnyttelse** i **Ressurser** -ruten.
+Du kan finne visningen **Ressursutnyttelse** i **Ressurser**-ruten.
 
 ![Visningen Ressursutnyttelse](media/Resource-Management-image65.png)
 
@@ -82,7 +82,7 @@ Siden visningen **Ressursutnyttelse** er basert på planleggingstavlen, kan du b
 
 Rutenettet krever at du angir en målutnyttelse for rollen eller den individuelle ressursen. Du kan sette opp dette ved å gå til **Ressurser** \> **Ressursroller**.
 
-I tillegg må en standardrolle tilordnes til hver bestillbare ressurs. Gå til **Ressurser** \> **Ressurser**. I kategorien **Project Service** kontrollerer du at det er definert en ressursrolle, og at **Er standard** -feltet er satt til **Ja**. Du kan legge til flere roller der **Er standard = Nei**. Rollen der **Er standard = Ja** brukes til å evaluere ressursens utnyttelse mot målet for den aktuelle rollen.
+I tillegg må en standardrolle tilordnes til hver bestillbare ressurs. Gå til **Ressurser** \> **Ressurser**. I kategorien **Project Service** kontrollerer du at det er definert en ressursrolle, og at **Er standard**-feltet er satt til **Ja**. Du kan legge til flere roller der **Er standard = Nei**. Rollen der **Er standard = Ja** brukes til å evaluere ressursens utnyttelse mot målet for den aktuelle rollen.
 
 ![Standardrolle angitt](media/Resource-Management-image67.png)
 

@@ -3,7 +3,7 @@ title: Scenarioer for flere valutaer (versjon 3.x)
 description: Dette emnet inneholder informasjon om scenarioer med flere valutaer.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081730"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123390"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarioer for flere valutaer
 
@@ -40,7 +40,7 @@ Ekeli solgte for eksempel 100 T-skjorter til en kunde i Storbritannia for 15 pun
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
 | T-skjorte | 100      | 15             | GBP      | 1500   | 0.94          | USD 17,25               | USD 1,725       |
 
-**Valuta** -kolonnen viser transaksjonsvalutaen, som er valutaen som salget forekom i. **Valutakurs** -kolonnen er valutakursen mellom transaksjonsvalutaen og basisvalutaen. Basisvalutaen er amerikanske dollar (USD). Denne basisvalutaen ble konfigurert da Dynamics 365-forekomsten ble klargjort.
+**Valuta**-kolonnen viser transaksjonsvalutaen, som er valutaen som salget forekom i. **Valutakurs**-kolonnen er valutakursen mellom transaksjonsvalutaen og basisvalutaen. Basisvalutaen er amerikanske dollar (USD). Denne basisvalutaen ble konfigurert da Dynamics 365-forekomsten ble klargjort.
 Som tabellen viser, registreres hver transaksjon både i transaksjonsvalutaen og basisvalutaen. Dynamics 365 bruker valutakursen til å beregne basisvalutabeløpene.
 
 ## <a name="project-service-automation-extensions"></a>Project Service Automation-utvidelser
@@ -56,7 +56,7 @@ Følgende enheter anses som forretningstransaksjoner:
 - Fakturalinjedetalj
 - Faktisk
 
-I hver av disse enhetene finnes det en oppføring som representerer kostnadsbeløpet eller salgsbeløpet. På samme måte som for alle Dynamics 365-enheter som har et **Beløp** -felt, inneholder hver oppføring beløp både i transaksjonsvalutaen og basisvalutaen. 
+I hver av disse enhetene finnes det en oppføring som representerer kostnadsbeløpet eller salgsbeløpet. På samme måte som for alle Dynamics 365-enheter som har et **Beløp**-felt, inneholder hver oppføring beløp både i transaksjonsvalutaen og basisvalutaen. 
 
 PSA utvider konseptet med transaksjonsvaluta for kostnaden og salget på følgende måter:
 
@@ -102,4 +102,4 @@ Dynamics 365 håndterer automatisk verdier i forskjellige valutaer. Her er et ek
 | Utgift           | Ufakturert salg   | 16. juni | Noah  | Hotell                | 1 per stk.     | 250 EUR      | 250 EUR     | 0.94          | 265,95 USD     |
 | Utgift           | Ufakturert salg   | 17. juni | Noah  | Leiebil           | 1 per stk.     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
-Hvis du vil beregne den totale verdien for ufakturert salg i prosjektet, kan du opprette et verdifelt felt for **Beløp** -feltet i alle de relaterte, ufakturerte salgsbeløpene. Verdifeltet er en konstruksjon i Dynamics 365, som gjør det mulig å bruke hurtigformler på relaterte oppføringer.
+Hvis du vil beregne den totale verdien for ufakturert salg i prosjektet, kan du opprette et verdifelt felt for **Beløp**-feltet i alle de relaterte, ufakturerte salgsbeløpene. Verdifeltet er en konstruksjon i Dynamics 365, som gjør det mulig å bruke hurtigformler på relaterte oppføringer.

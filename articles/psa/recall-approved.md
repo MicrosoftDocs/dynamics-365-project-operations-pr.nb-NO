@@ -3,7 +3,7 @@ title: Tilbakekalle godkjente tids- eller utgiftsoppføringer
 description: Dette emnet gir informasjon om hvordan du tilbakekaller en tidligere godkjent prosjekttid eller utgiftstransaksjon.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081667"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120555"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Tilbakekalle godkjente tids- eller utgiftsoppføringer
 
@@ -62,11 +62,11 @@ Følg denne fremgangsmåten for å godkjenne eller avvise en tilbakekallingsfore
 1. Gå til **Prosjekter** \> **Mitt arbeid** \> **Godkjenninger**.
 2. På listesiden **Godkjenninger** endrer du visningen til **Tilbakekallingsforespørsler å godkjenne**. Det vises en liste over sendte forespørsler om tilbakekalling.
 3. Velg én eller flere oppføringer, og velg deretter **Godkjenn** eller **Avvis**.
-4. Hvis du valgte **Godkjenn** , får du en advarsel som forklarer innvirkningen av godkjenningen. Velg **OK** for å bekrefte handlingen. Tilbakekallingsforespørselen godkjennes.
+4. Hvis du valgte **Godkjenn**, får du en advarsel som forklarer innvirkningen av godkjenningen. Velg **OK** for å bekrefte handlingen. Tilbakekallingsforespørselen godkjennes.
 
     –eller–
 
-    Hvis du valgte **Avvis** , blir tilbakekallingsforespørselen avvist.
+    Hvis du valgte **Avvis**, blir tilbakekallingsforespørselen avvist.
 
 > [!NOTE]
 > Når en tilbakekalling blir forespurt, når en tilbakekalling blir godkjent, ser systemet etter eventuell fakturaaktivitet på tids- eller utgiftsoppføringer. Hvis en oppføring allerede er fakturert, eller hvis den er på et fakturautkast, mottar godkjenneren en feilmelding som sier at tiden eller utgiften ikke kan godkjennes for tilbakekalling fordi den allerede er fakturert.
@@ -77,11 +77,11 @@ Når en godkjenning tilbakekalles, får dette både driftsinnvirkning og finansi
 
 ### <a name="operational-impact"></a>Driftsinnvirkning
 
-Hvis en tilbakekallingsforespørsel godkjennes, merkes godkjenningsoppføringen som **Avvist**. Statusen for oppføringen endres til enten **Returnert** eller **Avvist** , avhengig av om det er en tidsoppføring eller en utgiftsoppføring.
+Hvis en tilbakekallingsforespørsel godkjennes, merkes godkjenningsoppføringen som **Avvist**. Statusen for oppføringen endres til enten **Returnert** eller **Avvist**, avhengig av om det er en tidsoppføring eller en utgiftsoppføring.
 
 Prosjektteammedlemmet kan vise oppføringer, redigere og sende oppføringer på nytt, eller slette oppføringer helt.
 
-Hvis en tilbakekallingsforespørsel blir avvist, blir statusen for oppføringen fortsatt **Godkjent** , og oppføringen kan ikke redigeres av prosjektteammedlemmet eller godkjenneren for prosjektet.
+Hvis en tilbakekallingsforespørsel blir avvist, blir statusen for oppføringen fortsatt **Godkjent**, og oppføringen kan ikke redigeres av prosjektteammedlemmet eller godkjenneren for prosjektet.
 
 ### <a name="financial-impact"></a>Økonomisk innvirkning
 
@@ -90,7 +90,7 @@ Hvis en tilbakekallingsforespørsel godkjennes, oppdateres de tilsvarende faktis
 - Feltet **Justeringsstatus** oppdateres til **Justert**.
 - Feltet **Faktureringsstatus** oppdateres til **Kansellert**.
 
-Deretter opprettes tilbakeføringsoppføringer i tabellen over faktiske verdier. For å opprette tilbakeføringsoppføringer kopierer systemet over feltverdiene fra de opprinnelige faktiske verdiene. De eneste verdiene som ikke kopieres over, er antallsverdiene. Disse verdiene reverseres i stedet. Reverserte faktiske verdier opprettes både for de faktiske verdiene **Kostnad** og **Ufakturert salg**. Feltet **Justeringsstatus** for de tilbakeførte faktiske verdiene settes til **Kan ikke justeres** , og feltet **Faktureringsstatus** settes til **Annullert**. På grunn av disse endringene vil det registrerte forbruket og restinntekten for prosjektet ikke lengre regnes med for beløpene som disse faktiske verdiene representerer.
+Deretter opprettes tilbakeføringsoppføringer i tabellen over faktiske verdier. For å opprette tilbakeføringsoppføringer kopierer systemet over feltverdiene fra de opprinnelige faktiske verdiene. De eneste verdiene som ikke kopieres over, er antallsverdiene. Disse verdiene reverseres i stedet. Reverserte faktiske verdier opprettes både for de faktiske verdiene **Kostnad** og **Ufakturert salg**. Feltet **Justeringsstatus** for de tilbakeførte faktiske verdiene settes til **Kan ikke justeres**, og feltet **Faktureringsstatus** settes til **Annullert**. På grunn av disse endringene vil det registrerte forbruket og restinntekten for prosjektet ikke lengre regnes med for beløpene som disse faktiske verdiene representerer.
 
 Hvis en tilbakekallingsforespørsel blir avvist, er det ingen økonomisk innvirkning på prosjektet.
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081717"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121275"
 ---
 # <a name="products"></a>Produkter
 
@@ -34,26 +34,26 @@ Produktene er ryggraden i bedriften din. Produktkatalogen i Dynamics 365 Sales P
 
 1.  Kontroller at du har en rolle som salgsleder eller systemansvarlig, slik at du kan legge til produkter i Dynamics 365 Sales Professional.
 2.  I områdekartet under **Oppsett** velger du **Produkter**.
-3.  Velg **Legg til produkt** , og fyll ut følgende informasjon:
+3.  Velg **Legg til produkt**, og fyll ut følgende informasjon:
 
     -  **Navn**
     -  **Produkt-ID**
-    -  **Overordnet** : Velg en overordnet produktfamilie for produktet. Hvis du oppretter et underordnet produkt i en produktfamilie, fylles navnet på overordnet produktfamilie ut her. Dette kan ikke endres etter at oppføringen er lagret.
-    -  **Gyldig fra**/**Gyldig til** : Definer perioden produktet er gyldig, ved å velge en **Gyldig fra** - og **Gyldig til** -dato.
-    -  **Enhetsgruppe** : Velg en enhetsgruppe. En enhetsgruppe er en samling av ulike enheter som et produkt selges i, og definerer hvordan enkeltelementer grupperes i større mengder. Hvis du for eksempel legger til frø som et produkt, har du kanskje opprettet en enhetsgruppe kalt "Frø" og definert primærenheten som "pakke".
-    -  **Standardenhet** : Velg den vanligste enheten som produktet skal selges i. Enhetene er antall eller mål som du selger produktene dine i. Hvis du legger til frø som et produkt, kan du for eksempel selge dem i pakker, esker eller paller. Hver av disse blir en produktenhet. Hvis frø for det meste selges i pakker, velger du dette som enheten.
-    -  **Standard prisliste** : Hvis dette er et nytt produkt, er dette feltet skrivebeskyttet. Hvis du vil velge en standard prisliste, må du først fylle ut alle obligatoriske felt og deretter lagre oppføringen. Selv om det ikke er obligatorisk, bør du angi en standard prisliste for hvert produkt når du har lagret produktoppføringen. Da kan standard prisliste brukes i Sales for å generere tilbud, ordrer og fakturaer for kundeoppføringer som ikke inneholder en prisliste.
-    -  **Støttede desimaler** : Angi et helt tall mellom 0 og 5. Hvis produktet ikke kan deles inn i delverdier, skriver du 0. Presisjonen for **Antall** -feltet i tilbuds-, ordre- eller fakturaproduktoppføringen, valideres mot verdien i dette feltet hvis det ikke er knyttet en prisliste til produktet.
-    -  **Emne** : Knytt dette produktet til et emne. Du kan bruke emner til å kategorisere produkter og filtrere rapporter.
+    -  **Overordnet**: Velg en overordnet produktfamilie for produktet. Hvis du oppretter et underordnet produkt i en produktfamilie, fylles navnet på overordnet produktfamilie ut her. Dette kan ikke endres etter at oppføringen er lagret.
+    -  **Gyldig fra**/**Gyldig til**: Definer perioden produktet er gyldig, ved å velge en **Gyldig fra**- og **Gyldig til**-dato.
+    -  **Enhetsgruppe**: Velg en enhetsgruppe. En enhetsgruppe er en samling av ulike enheter som et produkt selges i, og definerer hvordan enkeltelementer grupperes i større mengder. Hvis du for eksempel legger til frø som et produkt, har du kanskje opprettet en enhetsgruppe kalt "Frø" og definert primærenheten som "pakke".
+    -  **Standardenhet**: Velg den vanligste enheten som produktet skal selges i. Enhetene er antall eller mål som du selger produktene dine i. Hvis du legger til frø som et produkt, kan du for eksempel selge dem i pakker, esker eller paller. Hver av disse blir en produktenhet. Hvis frø for det meste selges i pakker, velger du dette som enheten.
+    -  **Standard prisliste**: Hvis dette er et nytt produkt, er dette feltet skrivebeskyttet. Hvis du vil velge en standard prisliste, må du først fylle ut alle obligatoriske felt og deretter lagre oppføringen. Selv om det ikke er obligatorisk, bør du angi en standard prisliste for hvert produkt når du har lagret produktoppføringen. Da kan standard prisliste brukes i Sales for å generere tilbud, ordrer og fakturaer for kundeoppføringer som ikke inneholder en prisliste.
+    -  **Støttede desimaler**: Angi et helt tall mellom 0 og 5. Hvis produktet ikke kan deles inn i delverdier, skriver du 0. Presisjonen for **Antall**-feltet i tilbuds-, ordre- eller fakturaproduktoppføringen, valideres mot verdien i dette feltet hvis det ikke er knyttet en prisliste til produktet.
+    -  **Emne**: Knytt dette produktet til et emne. Du kan bruke emner til å kategorisere produkter og filtrere rapporter.
 
 4.  Velg **Lagre**.
-5.  Gå til kategorien **Flere detaljer**. I delen **Prislisteelementer** velger du **Flere kommandoer** , og deretter velger du **Legg til nytt prislisteelement**.
-7.  Gå til kategorien **Flere detaljer**. I delen **Produktrelasjon** velger du **Flere kommandoer** -ikonet, og deretter velger du **Legg til ny produktrelasjon.**
-8.  I **Ny produktrelasjon** -skjemaet angir du følgende informasjon, og på kommandolinjen velger du **Lagre og lukk** :
+5.  Gå til kategorien **Flere detaljer**. I delen **Prislisteelementer** velger du **Flere kommandoer**, og deretter velger du **Legg til nytt prislisteelement**.
+7.  Gå til kategorien **Flere detaljer**. I delen **Produktrelasjon** velger du **Flere kommandoer**-ikonet, og deretter velger du **Legg til ny produktrelasjon.**
+8.  I **Ny produktrelasjon**-skjemaet angir du følgende informasjon, og på kommandolinjen velger du **Lagre og lukk**:
 
-    -   **Relatert produkt** : Velg et produkt du vil legge til som et produkt som er relatert til den eksisterende produktoppføringen du arbeider på.
-    -   **Salgsrelasjonstype** : Velg om du vil legge til produktet som et oppsalg, kryssalg, tilbehør eller erstatningsprodukt.
-    -   **Retning** : Velg om relasjonen mellom produktene skal være enveis eller toveis. Når du velger enveis, vises produktet du velger i **Relatert produkt** , som en anbefaling for det eksisterende produktet, men ikke omvendt.
+    -   **Relatert produkt**: Velg et produkt du vil legge til som et produkt som er relatert til den eksisterende produktoppføringen du arbeider på.
+    -   **Salgsrelasjonstype**: Velg om du vil legge til produktet som et oppsalg, kryssalg, tilbehør eller erstatningsprodukt.
+    -   **Retning**: Velg om relasjonen mellom produktene skal være enveis eller toveis. Når du velger enveis, vises produktet du velger i **Relatert produkt**, som en anbefaling for det eksisterende produktet, men ikke omvendt.
 
 9.  Velg **Lagre** i produktskjemaet.
 
@@ -115,12 +115,12 @@ Vanligvis lagres prisen på abonnementsprogramvaren i katalogen som prisen per b
 
 Antallsfaktorer er avhengig av produktattributter. Når du konfigurerer bestemte egenskaper for et produkt, kan du flagge et delsett av disse egenskapene, eller alle egenskapene, som antall faktorer.
 
-Systemet validerer at bare numeriske egenskaper eller produktegenskaper som har numeriske datatyper, blir flagget som antallsfaktorer. Når et produkt som antallsfaktorer er konfigurert for, blir lagt til på en tilbudslinje, blir **Antall** -feltet på tilbuds linjen et skrivebeskyttet felt. Etter at du har angitt verdier for produktegenskaper som er antallsfaktorer, beregnes antallet på tilbudslinjen.
+Systemet validerer at bare numeriske egenskaper eller produktegenskaper som har numeriske datatyper, blir flagget som antallsfaktorer. Når et produkt som antallsfaktorer er konfigurert for, blir lagt til på en tilbudslinje, blir **Antall**-feltet på tilbuds linjen et skrivebeskyttet felt. Etter at du har angitt verdier for produktegenskaper som er antallsfaktorer, beregnes antallet på tilbudslinjen.
 
 Hvis det for eksempel finnes følgende egenskaper: 
 
-- **Antall brukere** : Antall brukere 
-- **Antall måneder** : Antall abonnementsmåneder
+- **Antall brukere**: Antall brukere 
+- **Antall måneder**: Antall abonnementsmåneder
 - **Produkt-SKU** 
 
 Egenskapene **Antall brukere** og **Antall måneder** kan flagges som antallsfaktorer ved å redigere egenskapene for produktlinjen. 

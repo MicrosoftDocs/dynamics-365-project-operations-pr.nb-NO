@@ -2,7 +2,7 @@
 title: Hvordan tilpasser jeg forretningsprosessflyten for prosjektfaser?
 description: En oversikt over hvordan du tilpasser forretningsprosessflyten for prosjektfaser.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,27 +18,27 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081806"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125055"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hvordan tilpasser jeg forretningsprosessflyten for prosjektfaser?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Det er en kjent begrensning i tidligere versjoner av programmet Project Service at navnene på fasene i forretningsprosessflyten for prosjektfaser må samsvare nøyaktig med de forventede engelske navnene ( **Quote** , **Plan** , **Close** ). Ellers vil ikke forretningslogikken som er avhengig av de engelske fasenavnene, fungere som forventet. Det er derfor du ikke ser kjente handlinger som for eksempel **Bytt prosess** eller **Rediger prosess** tilgjengelig på prosjektskjemaet, og det oppfordres ikke til tilpassing av forretningsprosessflyten. 
+Det er en kjent begrensning i tidligere versjoner av programmet Project Service at navnene på fasene i forretningsprosessflyten for prosjektfaser må samsvare nøyaktig med de forventede engelske navnene (**Quote**, **Plan**, **Close**). Ellers vil ikke forretningslogikken som er avhengig av de engelske fasenavnene, fungere som forventet. Det er derfor du ikke ser kjente handlinger som for eksempel **Bytt prosess** eller **Rediger prosess** tilgjengelig på prosjektskjemaet, og det oppfordres ikke til tilpassing av forretningsprosessflyten. 
 
 Denne begrensningen er håndtert i versjon 2.4.5.48 og senere. Denne artikkelen inneholder foreslåtte løsninger hvis du ønsker å tilpasse standard forretningsprosessflyt for tidligere versjoner.  
 
 ## <a name="business-logic-requires-an-exact-match-with-english-stage-names"></a>Forretningslogikk krever nøyaktig samsvar med engelske fasenavn
 
 Forretningsprosessflyten for prosjektfaser inneholder forretningslogikk som bidrar til følgende virkemåter i appen:
-- Når prosjektet er knyttet til et tilbud, setter koden forretningsprosessflyten til **Quote** -fasen.
-- Når prosjektet er knyttet til en kontrakt, setter koden forretningsprosessflyten til **Plan** -fasen.
-- Når forretningsprosessflyten er gått videre til **Close** -fasen, deaktiveres prosjektoppføringen. Når prosjektet er deaktivert, settes prosjektskjemaet og arbeidsnedbrytningsstrukturen (WBS) til skrivebeskyttet, de navngitte ressursbestillingene lanseres, og eventuelle tilknyttede prislister deaktiveres.
+- Når prosjektet er knyttet til et tilbud, setter koden forretningsprosessflyten til **Quote**-fasen.
+- Når prosjektet er knyttet til en kontrakt, setter koden forretningsprosessflyten til **Plan**-fasen.
+- Når forretningsprosessflyten er gått videre til **Close**-fasen, deaktiveres prosjektoppføringen. Når prosjektet er deaktivert, settes prosjektskjemaet og arbeidsnedbrytningsstrukturen (WBS) til skrivebeskyttet, de navngitte ressursbestillingene lanseres, og eventuelle tilknyttede prislister deaktiveres.
 
 Denne forretningslogikken er avhengig av de engelske navnene på prosjektfasene. Denne avhengigheten av de engelske fasenavnene er hovedårsaken til at det ikke oppfordres til å tilpasse forretningsprosessflyten for prosjektfaser, og hvorfor du ikke ser vanlige forretningsprosessflythandlinger som **Bytt prosess** eller **Rediger prosess** i prosjektenheten.
 
@@ -48,7 +48,7 @@ Når fasenavnene i forretningsprosessflyten ikke samsvarer nøyaktig med de enge
 
 I Project Service-appen versjon 2.4.4.30 eller tidligere på 9.0-plattformen var det en betydelig arkitektonisk endring i forretningsprosessflyter som krevde en omskriving av forretningslogikken til forretningsprosessflyten. Hvis prosessfasenavnene ikke samsvarer med de forventede engelske navnene, får du derfor en feilmelding. 
 
-Hvis du vil tilpasse forretningsprosessflyten for prosjektfaser for prosjektenheten, kan du altså bare legge til helt nye faser i standard forretningsprosessflyt for prosjektenheten mens du beholder fasene **Quote** , **Plan** og **Close** som de er. Denne begrensningen sikrer at du ikke får feil fra forretningslogikken som forventer engelske fasenavn i forretningsprosessflyten.
+Hvis du vil tilpasse forretningsprosessflyten for prosjektfaser for prosjektenheten, kan du altså bare legge til helt nye faser i standard forretningsprosessflyt for prosjektenheten mens du beholder fasene **Quote**, **Plan** og **Close** som de er. Denne begrensningen sikrer at du ikke får feil fra forretningslogikken som forventer engelske fasenavn i forretningsprosessflyten.
 
 I versjon 2.4.5.48 eller nyere er forretningslogikken som er beskrevet i denne artikkelen, fjernet fra standard forretningsprosessflyt for prosjektenheten. Hvis du oppgraderer til denne versjonen eller senere, kan du tilpasse eller erstatte standard forretningsprosessflyt med din egen. 
 
@@ -56,22 +56,22 @@ I versjon 2.4.5.48 eller nyere er forretningslogikken som er beskrevet i denne a
 
 Hvis oppgradering ikke er noe alternativ, kan du tilpasse forretningsprosessflyten for prosjektfaser for prosjektenheten på en av disse to måtene:
 
-1. Legg til flere faser i standardkonfigurasjonen samtidig som du beholder de engelske fasenavnene for **Quote** , **Plan** og **Close**.
+1. Legg til flere faser i standardkonfigurasjonen samtidig som du beholder de engelske fasenavnene for **Quote**, **Plan** og **Close**.
 
 
 ![Skjermbilde av å legge til faser i standardkonfigurasjon](media/FAQ-Customize-BPF-1.png)
  
-2. Opprett din egen forretningsprosessflyt og gjør den til den primære forretningsprosessflyten for prosjektenheten, som lar deg ha de fasenavnene du ønsker. Hvis du imidlertid vil bruke de samme standardprosjektfasene **Quote** , **Plan** og **Close** , må du utføre noen tilpassinger som er basert på de egendefinert fasenavnene. Den mer komplekse logikken er i lukkingen av prosjektet, som du fremdeles kan utløse ved å bare deaktivere prosjektoppføringen.
+2. Opprett din egen forretningsprosessflyt og gjør den til den primære forretningsprosessflyten for prosjektenheten, som lar deg ha de fasenavnene du ønsker. Hvis du imidlertid vil bruke de samme standardprosjektfasene **Quote**, **Plan** og **Close**, må du utføre noen tilpassinger som er basert på de egendefinert fasenavnene. Den mer komplekse logikken er i lukkingen av prosjektet, som du fremdeles kan utløse ved å bare deaktivere prosjektoppføringen.
 
 ![BPF-tilpassing](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Andre hensyn for Project Service-appen versjon 2.4.4.30 eller tidligere på plattform 9.0
 
-I Project Service 2.4.4.30 eller tidligere på plattform 9.0 med en egendefinert forretningsprosessflyt brukes **Fasenavn** -feltet på prosjektenheten i **Prosjekt etter fase** -diagrammet, og prosjektlistevisninger oppdateres ikke fordi det er koblet til standard forretningsprosessflyten for prosjektfaser. Du kan løse dette problemet med følgende trinn:
+I Project Service 2.4.4.30 eller tidligere på plattform 9.0 med en egendefinert forretningsprosessflyt brukes **Fasenavn**-feltet på prosjektenheten i **Prosjekt etter fase**-diagrammet, og prosjektlistevisninger oppdateres ikke fordi det er koblet til standard forretningsprosessflyten for prosjektfaser. Du kan løse dette problemet med følgende trinn:
 
 - Legg til et egendefinert felt for å fange opp gjeldende forretningsprosessflyttrinn som oppdateres når brukeren går gjennom den egendefinerte forretningsprosessflyten.
 
-- Endre **Prosjekt etter fase** -diagrammet slik at det fungerer med det egendefinerte feltet i stedet for standardkonfigurasjonen.
+- Endre **Prosjekt etter fase**-diagrammet slik at det fungerer med det egendefinerte feltet i stedet for standardkonfigurasjonen.
 
 ### <a name="steps-to-create-your-own-business-process-flow-for-the-project-entity"></a>Trinn for å opprette din egen forretningsprosessflyt for prosjektenheten
 
@@ -81,7 +81,7 @@ Slik oppretter du din egen forretningsprosessflyt for prosjektenheten:
 
   ![Opprett prosess](media/FAQ-Customize-BPF-3.png)
 
-2. Bruk prosessdesigneren til å opprette de fasenavnene du vil ha. Hvis du vil ha samme funksjonalitet som standardfasene for **Tilbud** , **Planlegg** og **Lukk** , må du opprette dette basert på fasenavnene i den egendefinerte forretningsprosessflyten.
+2. Bruk prosessdesigneren til å opprette de fasenavnene du vil ha. Hvis du vil ha samme funksjonalitet som standardfasene for **Tilbud**, **Planlegg** og **Lukk**, må du opprette dette basert på fasenavnene i den egendefinerte forretningsprosessflyten.
 
    ![Skjermbilde av prosessdesigner som brukes til å tilpasse BPF](media/FAQ-Customize-BPF-4.png) 
 
@@ -96,7 +96,7 @@ Slik oppretter du din egen forretningsprosessflyt for prosjektenheten:
 
    ![Skjermbilde av tilpassing av prosjektenhet](media/FAQ-Customize-BPF-6-720.png)
 
-5. Endre **Prosjekt etter fase** -diagrammet slik at det bruker det nye egendefinerte feltet for faser.
+5. Endre **Prosjekt etter fase**-diagrammet slik at det bruker det nye egendefinerte feltet for faser.
 
    ![Skjermbilde av bruk av diagrammet Prosjekt etter fase](media/FAQ-Customize-BPF-7-720.png)
 

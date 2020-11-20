@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096764"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122895"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurere Project Operations-integrering per juridisk enhet 
 
@@ -26,13 +26,13 @@ Dette emnet veileder deg gjennom trinnene som kreves for å konfigurere Dynamics
 Fullfør fremgangsmåten nedenfor for å aktivere nødvendige funksjoner.
 
 1. I Dynamics 365 Finance går du til arbeidsområdet **Funksjonsbehandling**.
-2. Søk etter og aktiver følgende funksjoner i **funksjonslisten** :
+2. Søk etter og aktiver følgende funksjoner i **funksjonslisten**:
   
     - **Aktiver flere kontraktlinjer for et prosjekt**
     - **Aktiver Project Operations i Dynamics 365 Customer Engagement**
 
 > [!NOTE]
-> Hvis du ikke ser **Funksjonsnøkler** , må du kontrollere at Finance-versjonen oppfyller minimumskravene for versjon (programversjon 10.0.13 med alle kvalitets oppdateringer brukt, eller nyere). Velg **Se etter oppdateringer** for å oppdatere funksjonslisten.
+> Hvis du ikke ser **Funksjonsnøkler**, må du kontrollere at Finance-versjonen oppfyller minimumskravene for versjon (programversjon 10.0.13 med alle kvalitets oppdateringer brukt, eller nyere). Velg **Se etter oppdateringer** for å oppdatere funksjonslisten.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Definere Project Operations-distribusjonsscenarioet for en juridisk enhet
 
@@ -46,8 +46,8 @@ Du kan aktivere Project Operations i Dynamics 365 Customer Engagement på et niv
 
 ## <a name="configure-project-management-and-accounting-parameters"></a>Konfigurere parametere for prosjektstyring og regnskap
 
-Hver juridiske enhet som bruker Project Operations i Dynamics 365 Customer Engagement, trenger et sett med standardparametere. Disse parameterne konfigureres på **Project Operations** -fanen på siden **Parametere for prosjektstyring og regnskap**. Parameterne er:
+Hver juridiske enhet som bruker Project Operations i Dynamics 365 Customer Engagement, trenger et sett med standardparametere. Disse parameterne konfigureres på **Project Operations**-fanen på siden **Parametere for prosjektstyring og regnskap**. Parameterne er:
 
-  - **Faktureringstypestandarder** : Project Operations bruker et fast sett med faktureringstypestandarder som må tilordnes til linjeegenskaper i Finance. Opprett en oppføring for hver faktureringstype: **Ikke angitt** , **Belastbar** , **Ikke-belastbar** , **Gratis** og **Ikke tilgjengelig**.
-  - **Prosjektkategoristandarder** : Velg standard prosjektkategorier som skal brukes for hver transaksjonstype. Disse standardene brukes i **Journal for Project Operations-integrering** og i beregninger der det ikke er angitt en transaksjonskategori for det faktiske prosjektet.
-  - **Prognoser** : Velg prognosemodellen som skal brukes for tids- og utgiftsestimater.
+  - **Faktureringstypestandarder**: Project Operations bruker et fast sett med faktureringstypestandarder som må tilordnes til linjeegenskaper i Finance. Opprett en oppføring for hver faktureringstype: **Ikke angitt**, **Belastbar**, **Ikke-belastbar**, **Gratis** og **Ikke tilgjengelig**.
+  - **Prosjektkategoristandarder**: Velg standard prosjektkategorier som skal brukes for hver transaksjonstype. Disse standardene brukes i **Journal for Project Operations-integrering** og i beregninger der det ikke er angitt en transaksjonskategori for det faktiske prosjektet.
+  - **Prognoser**: Velg prognosemodellen som skal brukes for tids- og utgiftsestimater.

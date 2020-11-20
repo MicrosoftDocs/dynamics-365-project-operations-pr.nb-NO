@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4ae5b3c4a4378330caed97011f55ca11175e644
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088041"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119565"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Løse salgspriser for estimater og faktiske verdier
 
@@ -27,12 +27,12 @@ I Project Operations brukes estimatlinjer til å angi tilbudslinje- og kontraktl
 
 Når en prisliste for salg er løst, fullfører systemet følgende trinn for angi fakturasatsen som standard.
 
-1. Ssystemet bruker feltene **Rolle** , **Ressursstyringsfirma** og **Ressursenhet** på estimatlinjen for tid til å samsvare mot rolleprislinjene i den løste prislisten. Dette samsvaret forutsetter at standard prisdimensjoner for fakturasatser brukes. Hvis du har konfigurert prising basert på andre felter i stedet for, eller i tillegg til **Rolle** , **Ressursutstyringsfirma** og **Ressursenhet** , er det denne kombinasjonen som brukes til å hente en samsvarende rolleprislinje.
-2. Hvis systemet finner en rolleprislinje som har en fakturasats for kombinasjonen av feltene **Rolle** , **Ressurstyringsfirma** og **Ressursenhet** , brukes denne fakturasatsen som standard.
-3. Hvis systemet ikke kan samsvare feltverdiene for **Rolle** , **Ressursutstyringsfirma** og **Ressursenhet** , henter det rolleprislinjer med en samsvarende rolle, men nullverdier for **Ressursenhet**. Når systemet har funnet en samsvarende rolleprisoppføring, blir fakturasatsen fra denne oppføringen standardsatsen. Dette samsvaret forutsetter en standardkonfigurasjon for den relative prioriteten for **Rolle** i forhold til **Ressursenhet** som en salgsprisdimensjon.
+1. Ssystemet bruker feltene **Rolle**, **Ressursstyringsfirma** og **Ressursenhet** på estimatlinjen for tid til å samsvare mot rolleprislinjene i den løste prislisten. Dette samsvaret forutsetter at standard prisdimensjoner for fakturasatser brukes. Hvis du har konfigurert prising basert på andre felter i stedet for, eller i tillegg til **Rolle**, **Ressursutstyringsfirma** og **Ressursenhet**, er det denne kombinasjonen som brukes til å hente en samsvarende rolleprislinje.
+2. Hvis systemet finner en rolleprislinje som har en fakturasats for kombinasjonen av feltene **Rolle**, **Ressurstyringsfirma** og **Ressursenhet**, brukes denne fakturasatsen som standard.
+3. Hvis systemet ikke kan samsvare feltverdiene for **Rolle**, **Ressursutstyringsfirma** og **Ressursenhet**, henter det rolleprislinjer med en samsvarende rolle, men nullverdier for **Ressursenhet**. Når systemet har funnet en samsvarende rolleprisoppføring, blir fakturasatsen fra denne oppføringen standardsatsen. Dette samsvaret forutsetter en standardkonfigurasjon for den relative prioriteten for **Rolle** i forhold til **Ressursenhet** som en salgsprisdimensjon.
 
 > [!NOTE]
-> Hvis du konfigurerte en annen prioritering av **Rolle** , **Ressursutstyringsfirma** og **Ressursenhet** , eller hvis du har andre dimensjoner som har høyere prioritet, endres denne virkemåten i henhold til dette. Systemet henter rolleprisoppføringene med samsvarende verdier for hver av prisdimensjonsverdiene i prioritetsrekkefølgen, med rader som har nullverdier for de dimensjonene som kommer sist.
+> Hvis du konfigurerte en annen prioritering av **Rolle**, **Ressursutstyringsfirma** og **Ressursenhet**, eller hvis du har andre dimensjoner som har høyere prioritet, endres denne virkemåten i henhold til dette. Systemet henter rolleprisoppføringene med samsvarende verdier for hver av prisdimensjonsverdiene i prioritetsrekkefølgen, med rader som har nullverdier for de dimensjonene som kommer sist.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Løse salgssatser på faktiske og estimerte linjer for utgift
 
@@ -41,7 +41,7 @@ I Project Operations brukes estimatlinjer for utgift til å angi tilbudslinje- o
 Når en prisliste for salg er løst, fullfører systemet følgende trinn for angi enhetssalgsprisen som standard.
 
 1. Systemet bruker kombinasjonen av feltene **Kategori** og **Enhet** på estimatlinjen for utgift til å samsvare mot kategoriprislinjene i prislisten som er løst.
-2. Hvis systemet finner en kategoriprislinje som har en salgssats for kombinasjonen av feltene **Kategori** og **Enhet** , brukes denne salgssatsen som standard.
+2. Hvis systemet finner en kategoriprislinje som har en salgssats for kombinasjonen av feltene **Kategori** og **Enhet**, brukes denne salgssatsen som standard.
 3. Hvis systemet finner en samsvarende kategoriprislinje, kan prismodellen brukes til å angi salgsprisen som standard. Tabellen nedenfor viser standard virkemåte for utgiftspris i Project Operations.
 
     | Kontekst | Prismodell | Pris brukt som standard |
@@ -53,4 +53,4 @@ Når en prisliste for salg er løst, fullfører systemet følgende trinn for ang
     | &nbsp; | Kostpris | Basert på de relaterte faktiske kostnadene |
     | &nbsp; | Påslag over kostnad | Ved å bruke en markering som definert av kategoriprislinjen for enhetskostnadssasten for den relaterte faktiske kostnaden |
 
-4. Hvis systemet ikke kan samsvare verdiene i feltene **Kategori** og **Enhet** , settes salgssatsen til null (0) som standard.
+4. Hvis systemet ikke kan samsvare verdiene i feltene **Kategori** og **Enhet**, settes salgssatsen til null (0) som standard.

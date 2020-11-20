@@ -3,7 +3,7 @@ title: Foreta en ikke-forpliktende bestilling på krav
 description: Dette emnet gir informasjon om hvordan du foretar en ikke-forpliktende bestilling på krav.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081830"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124110"
 ---
 # <a name="soft-book-requirements"></a>Foreta en ikke-forpliktende bestilling på krav
 
@@ -31,7 +31,7 @@ Et ressurskrav kan være forpliktende. En forpliktende bestilling oppretter et f
 
 ![Bestillingsstatusen settes til Ikke-forpliktende](media/Resource-Management-image77.png)
 
-Når kategorien **Team** er i visning **Navngitte teammedlemmer** , vises ressursen der. Timene som det er foretatt en ikke-forpliktende bestilling på, rapporteres i kolonnen **Timer med ikke-forpliktende bestillinger**.
+Når kategorien **Team** er i visning **Navngitte teammedlemmer**, vises ressursen der. Timene som det er foretatt en ikke-forpliktende bestilling på, rapporteres i kolonnen **Timer med ikke-forpliktende bestillinger**.
 
 ![Ikke-forpliktende bestilte timer i visningen Navngitte teammedlemmer](media/Resource-Management-image78.png)
 
@@ -54,7 +54,7 @@ Hvis du vil konvertere en ikke-forpliktende bestilling til en forpliktende besti
 
 ![Endre bestillingsstatusen til forpliktende](media/Resource-Management-image82.png)
 
-Bestillingen endres, og statusen endres på planleggingstavlen. Fordi bestillingsstatusen nå er **Forpliktende** , vises ressursen som bestilt, og kapasiteten og tilgjengeligheten blir justert.
+Bestillingen endres, og statusen endres på planleggingstavlen. Fordi bestillingsstatusen nå er **Forpliktende**, vises ressursen som bestilt, og kapasiteten og tilgjengeligheten blir justert.
 
 Du kan bruke samme metode til å annullere en forpliktende bestilling eller en ikke-forpliktende bestilling fra planleggingstavlen.
 

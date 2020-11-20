@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081502"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121050"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurere parametere for utgiftshåndtering
 
@@ -26,7 +26,7 @@ Dette emnet beskriver parameterne som kontrollerer den generelle virkemåten i u
 | Felt                                                    | Beskrivelse |
 |----------------------------------------------------------|-------------|
 | Standardsats for kjørelengde                                 | Angi refusjonssatsen for kjøreutgifter. Denne satsen multipliseres med kjørelengden som er angitt for utgiften, for å beregne beløpet som skal refunderes for reiseutgiften. |
-| Valider utgiftsformål                                 | Aktiver dette alternativet for å begrense brukere til et eksisterende sett med verdier som er konfigurert i feltet **Formål for reiseregning** , når de oppretter reiseregninger. |
+| Valider utgiftsformål                                 | Aktiver dette alternativet for å begrense brukere til et eksisterende sett med verdier som er konfigurert i feltet **Formål for reiseregning**, når de oppretter reiseregninger. |
 | Private utgifter betalt av                                | Velg hvem som er ansvarlig for å betale eventuelle kredittkorttransaksjonsbeløp som er kategorisert som private. |
 | Vis hele reiseregningen ved tilbakedrilling               | Velg dette alternativet for å vise alle utgifter for en reiseregning når detaljene i det opprinnelige dokumentet vises for et bestemt bilag som ble generert da reiseregningen ble postert. |
 | Forhåndsautorisasjon av reise er obligatorisk                 | Velg dette alternativet hvis du vil kreve at en reiserekvisisjon skal sendes inn og godkjennes før en ansatt kan sende inn en reiseregning. |
@@ -35,8 +35,8 @@ Dette emnet beskriver parameterne som kontrollerer den generelle virkemåten i u
 | Tillat konserninterne utgiftslinjer                         | Velg om utgifter for andre juridiske enheter kan registreres i en reiseregning. |
 | Tillat redigering av valutakursen for kredittkortutgifter | Velg dette alternativet hvis du vil at brukeren skal kunne redigere valutakursen for importerte kredittkortutgifter. |
 | Felt med flernivåhierarkier som skal vises                  | Velg hvilke felt for godkjennere som skal vises når typen arbeidsflyttilordning er satt til et hierarki, og når **Hierarki** er angitt for å bruke godkjenningshierarkiet, godkjenning av utgifter i flere nivåer. Når godkjenningshierarkiet med flere nivåer brukes for en arbeidsflyt, vises de valgte feltene i reiseregningen og kan redigeres. |
-| Angi kredittkortnummer for ansatt                        | Velg om et 15-tegns eller 16-tegns nummer kan registreres og lagres i feltet **Kort-ID** på **Kredittkort** -siden for en ansatt. |
-| Valider formål med reiserekvisisjon                      | Aktiver dette alternativet for å begrense brukere til et eksisterende sett med verdier som er konfigurert i feltet **Formål for reiseregning** , når de oppretter reiserekvisisjoner. |
+| Angi kredittkortnummer for ansatt                        | Velg om et 15-tegns eller 16-tegns nummer kan registreres og lagres i feltet **Kort-ID** på **Kredittkort**-siden for en ansatt. |
+| Valider formål med reiserekvisisjon                      | Aktiver dette alternativet for å begrense brukere til et eksisterende sett med verdier som er konfigurert i feltet **Formål for reiseregning**, når de oppretter reiserekvisisjoner. |
 
 ## <a name="financial"></a>Finansielle tjenester
 

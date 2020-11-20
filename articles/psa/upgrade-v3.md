@@ -2,7 +2,7 @@
 title: Hensyn ved oppgradering – Microsoft Dynamics 365 Project Service Automation versjon 2.x eller 1.x til versjon 3
 description: Dette emnet gir informasjon om hensyn du må ta når du oppgraderer fra Project Service Automation versjon 2.x eller 1.x til versjon 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081700"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121725"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Hensyn ved oppgradering – PSA-versjon 2.x eller 1.x til versjon 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "4081700"
 Både Dynamics 365 Project Service Automation og Dynamics 365 Field Service bruker løsningen Universal Resourcing Scheduling (URS) for ressursplanlegging. Hvis du har både Project Service Automation and Field Service i forekomsten, må du planlegge å oppgradere begge løsningene til den nyeste versjonen (versjon 3.x for Project Service Automation, versjon 8.x for Field Service). Oppgradering av Project Service Automation eller Field Service installerer den nyeste versjonen av URS, noe som betyr at inkonsekvent funksjonalitet er mulig hvis både Project Service Automation- og Field Service-løsningen i samme forekomst ikke oppgraderes til nyeste versjon.
 
 ## <a name="resource-assignments"></a>Ressurstilordninger
-I Project Service Automation versjon 2 og versjon 1 ble oppgavetilordninger lagret som underordnede oppgaver (også kalt linjeoppgaver) i **Oppgaveenhet** og var indirekte relatert til **Ressurstilordning** -enheten. Linjeoppgaven var synlig i popup-vinduet for tilordningen i arbeidsnedbrytningsstrukturen (WBS).
+I Project Service Automation versjon 2 og versjon 1 ble oppgavetilordninger lagret som underordnede oppgaver (også kalt linjeoppgaver) i **Oppgaveenhet** og var indirekte relatert til **Ressurstilordning**-enheten. Linjeoppgaven var synlig i popup-vinduet for tilordningen i arbeidsnedbrytningsstrukturen (WBS).
 
 ![Linjeaktiviteter i WBS i Project Service Automation versjon 2 og versjon 1](media/upgrade-line-task-01.png)
 
@@ -77,7 +77,7 @@ I versjon 2 og versjon 1 kan prosjekter med generelle ressurser ha to tilstander
 
 Før du starter oppgraderingen, anbefaler vi at du genererer teamet på nytt for hvert prosjekt som har aktiviteter som er tilordnet til generelle ressurser, eller som teamprosessen fremdeles ikke er kjørt på.
 
-For oppgaver som er tilordnet til generelle teammedlemmer som ble generert med **Generer team** , vil oppgraderingen beholde den generelle ressursen i teamet og beholde tilordningen til det generelle teammedlemmet. Vi anbefaler at du genererer ressurskravet for det generelle teammedlemmet etter oppgraderingen, men før du bestiller eller sender en ressursforespørsel. Dette bevarer eventuelle organisasjonsenhetstilordninger for de generelle teammedlemmene som er forskjellige fra prosjektets kontraktsorganisasjonsenhet.
+For oppgaver som er tilordnet til generelle teammedlemmer som ble generert med **Generer team**, vil oppgraderingen beholde den generelle ressursen i teamet og beholde tilordningen til det generelle teammedlemmet. Vi anbefaler at du genererer ressurskravet for det generelle teammedlemmet etter oppgraderingen, men før du bestiller eller sender en ressursforespørsel. Dette bevarer eventuelle organisasjonsenhetstilordninger for de generelle teammedlemmene som er forskjellige fra prosjektets kontraktsorganisasjonsenhet.
 
 I Prosjekt Z-prosjektet er for eksempel kontraktorganisasjonsenheten Ekeli USA. I prosjektplanen er testing av oppgaver i implementeringsfasen blitt tilordnet rollen Teknisk konsulent, og den tilordnede organisasjonsenheten er Ekeli India.
 

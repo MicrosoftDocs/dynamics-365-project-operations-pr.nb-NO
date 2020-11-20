@@ -3,7 +3,7 @@ title: Produktbaserte tilbudslinjer
 description: Dette emnet inneholder informasjon om produktbasere tilbudslinjer.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081800"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123218"
 ---
 # <a name="product-based-quote-lines"></a>Produktbaserte tilbudslinjer
 
@@ -41,7 +41,7 @@ Et selskap selger for eksempel abonnementslisenser for en rekke typer programvar
 - Antall brukere 
 - Abonnementsvarighet (i måneder)
 
-En god måte å opprettholde denne typen katalog på, er å opprette en produktserie kalt **Abonnementsprogramvare** , og som har **Antall brukere** og **Abonnementsvarighet** som attributter. Du kan deretter legge til enkeltprodukter, for eksempel **Dynamics 365 Sales** eller **Dynamics 365 Field Service** i produktserien **Abonnementsprogramvare**.
+En god måte å opprettholde denne typen katalog på, er å opprette en produktserie kalt **Abonnementsprogramvare**, og som har **Antall brukere** og **Abonnementsvarighet** som attributter. Du kan deretter legge til enkeltprodukter, for eksempel **Dynamics 365 Sales** eller **Dynamics 365 Field Service** i produktserien **Abonnementsprogramvare**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Legge til produktkatalogvarer i et prosjekttilbud
 
@@ -49,14 +49,14 @@ Sider med prosjekttilbud og prosjektkontrakter har deler for to linjetyper: pros
 
 Du kan også velge produkter fra andre prislister, eller du kan velge produkter direkte fra produktkatalogen. Når du velger produkter direkte fra en produktkatalog, brukes standardprislisten for dette produktet til å hente produktets salgspris. Hvis det ikke er angitt en standardprisliste, settes prisen til 0 (null).
 
-Hvis en tilbudslinje er basert på en produktkatalog, kan du overstyre salgsprisen direkte i tilbudslinjen. Vær oppmerksom på at en tilbudslinje i Dynamics 365 har et **Prising** -felt. To verdier er tilgjengelige:
+Hvis en tilbudslinje er basert på en produktkatalog, kan du overstyre salgsprisen direkte i tilbudslinjen. Vær oppmerksom på at en tilbudslinje i Dynamics 365 har et **Prising**-felt. To verdier er tilgjengelige:
 
 - Overstyr pris  
 - Bruk standard
 
-Hvis du angir dette feltet til **Overstyr pris** , angir ikke Dynamics 365 en standardpris. Du må angi en pris for produktet på tilbudslinjen. Hvis du angir dette feltet til **Bruk standard** , bruker Dynamics 365 standard salgspris og låser feltet for å forhindre redigering.
+Hvis du angir dette feltet til **Overstyr pris**, angir ikke Dynamics 365 en standardpris. Du må angi en pris for produktet på tilbudslinjen. Hvis du angir dette feltet til **Bruk standard**, bruker Dynamics 365 standard salgspris og låser feltet for å forhindre redigering.
 
-Når du har installert PSA, angis det standard salgspriser på de produktbasert linjene i et tilbud. **Pris** -feltet angis deretter til **Overstyr pris** , slik at du kan redigere standardprisen på tilbudslinjene.
+Når du har installert PSA, angis det standard salgspriser på de produktbasert linjene i et tilbud. **Pris**-feltet angis deretter til **Overstyr pris**, slik at du kan redigere standardprisen på tilbudslinjene.
 
 > ![Angi Overstyr pris](media/basic-guide-10.png)
  
@@ -68,7 +68,7 @@ Vanligvis lagres prisen på abonnementsprogramvaren i katalogen som prisen per b
 
 PSA har innført konseptet antallsfaktorer for å støtte denne typen salg. Antallsfaktorer er avhengig av produktattributter i Dynamics 365. Når du konfigurerer bestemte egenskaper for et produkt, kan du bruke PSA til å flagge et delsett av disse egenskapene, eller alle egenskapene, som antall faktorer.
 
-PSA validerer at bare numeriske egenskaper eller produktegenskaper som har numeriske datatyper, blir flagget som antallsfaktorer. Når et produkt som antallsfaktorer er konfigurert for, blir lagt til på en tilbudslinje, blir **Antall** -feltet på tilbuds linjen et skrivebeskyttet felt. Etter at du har angitt verdier for produktegenskaper som er antallsfaktorer, beregner PSA antallet på tilbudslinjen.
+PSA validerer at bare numeriske egenskaper eller produktegenskaper som har numeriske datatyper, blir flagget som antallsfaktorer. Når et produkt som antallsfaktorer er konfigurert for, blir lagt til på en tilbudslinje, blir **Antall**-feltet på tilbuds linjen et skrivebeskyttet felt. Etter at du har angitt verdier for produktegenskaper som er antallsfaktorer, beregner PSA antallet på tilbudslinjen.
 
 Dynamics 365 kan for eksempel ha følgende egenskaper: 
 

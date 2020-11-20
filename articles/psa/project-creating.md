@@ -3,7 +3,7 @@ title: Prosjektplaner
 description: Dette emnet gir informasjon om hvordan du oppretter en tidsplan.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081655"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123254"
 ---
 # <a name="project-schedules"></a>Prosjektplaner 
 
@@ -55,9 +55,9 @@ Bladnodeoppgaver representerer det mest detaljerte arbeidet på prosjektet. De h
 
 Du kan opprette et oppgavehierarki ved å bruke følgende alternativer:
 
-- **Legg til oppgave** -knappen
-- **Rykk inn aktivitet** -knappen
-- **Reduser innrykk for aktivitet** -knappen
+- **Legg til oppgave**-knappen
+- **Rykk inn aktivitet**-knappen
+- **Reduser innrykk for aktivitet**-knappen
 - Knappene **Flytt opp** og **Flytt ned**
 - Tilgjengelighet og hurtigtaster
 
@@ -83,12 +83,12 @@ Knappene **Flytt opp** og **Flytt ned** endrer plasseringen av en oppgave i det 
 
 Rutenettet **Tidsplan** er fullt tilgjengelig og kan brukes med skjermlesere, for eksempel Narrator, JAWS eller NVDA. Du kan bla gjennom rutenettområdet ved hjelp av piltastene (som i Microsoft Excel), du kan bruke TAB-tasten til å gå gjennom de interaktive grensesnittelementene, og du kan bruke pil ned-tasten, ENTER-tasten eller mellomromstasten til å velge og aktivere rullegardinmenyene. Kolonneoverskriftene er også interaktive. Du kan skjule og vise kolonner, bruke TAB-tasten og piltastene til å bla gjennom kolonneoverskriftene, og bruke handlingsknappene på verktøylinjen. I tillegg kan du bruke følgende hurtigtaster:
 
-- **Oppdater** : ALT+SKIFT+F5
-- **Legg til** : ALT+SKIFT+INS
-- **Slett** : ALT+SKIFT+Del
-- **Flytt opp/ned** : ALT+SKIFT+Pil opp/ned
-- **Rykk inn / Reduser innrykk** : ALT+SKIFT+Pil venstre/høyre
-- **Vis/Skjul hierarkier** : ALT+SKIFT+pluss/minus
+- **Oppdater**: ALT+SKIFT+F5
+- **Legg til**: ALT+SKIFT+INS
+- **Slett**: ALT+SKIFT+Del
+- **Flytt opp/ned**: ALT+SKIFT+Pil opp/ned
+- **Rykk inn / Reduser innrykk**: ALT+SKIFT+Pil venstre/høyre
+- **Vis/Skjul hierarkier**: ALT+SKIFT+pluss/minus
 
 ## <a name="task-attributes"></a>Oppgaveattributter
 
@@ -98,19 +98,19 @@ Et oppgavenavn beskriver arbeidet som må fullføres. I PSA er attributtene som 
  
 ### <a name="schedule-attributes"></a>Planlegge attributter
 
-Attributtene **Innsats** , **Startdato** , **Sluttdato** og **Varighet** definerer tidsplanen for oppgaven.
+Attributtene **Innsats**, **Startdato**, **Sluttdato** og **Varighet** definerer tidsplanen for oppgaven.
 
 Flere tidsplanattributter inkluderer:
 
-- **Innsatstimer** : Skriv inn et estimat over timene som kreves for å fullføre oppgaven. 
-- **Varighet** : Angi antall arbeidsdager som kreves for å fullføre oppgaven.
-- **Tidsplan-ID** : Denne automatisk genererte ID-en brukes til å bestille oppgaver i hierarkiet. Avhengigheter mellom oppgavene styrer den faktiske rekkefølgen som oppgavene arbeides på.
+- **Innsatstimer**: Skriv inn et estimat over timene som kreves for å fullføre oppgaven. 
+- **Varighet**: Angi antall arbeidsdager som kreves for å fullføre oppgaven.
+- **Tidsplan-ID**: Denne automatisk genererte ID-en brukes til å bestille oppgaver i hierarkiet. Avhengigheter mellom oppgavene styrer den faktiske rekkefølgen som oppgavene arbeides på.
  
 ### <a name="staffing-attributes"></a>Bemanningsattributter
 
-Du får tilgang til attributter for bemanning via **Ressurser** -feltet i tidsplanen. Du kan søke etter en eksisterende ressurs, eller klikke **Opprett** og legge til et prosjektteammedlem som en ny ressurs i **Hurtigoppretting** -ruten.
+Du får tilgang til attributter for bemanning via **Ressurser**-feltet i tidsplanen. Du kan søke etter en eksisterende ressurs, eller klikke **Opprett** og legge til et prosjektteammedlem som en ny ressurs i **Hurtigoppretting**-ruten.
 
-Feltene **Rolle** , **Ressursenhet** og **Stillingsnavn** brukes til å beskrive bemanningskravene for oppgaven. Disse bemanningsattributtene sammen med oppgaveplanen brukes til å finne tilgjengelige ressurser for denne oppgaven.
+Feltene **Rolle**, **Ressursenhet** og **Stillingsnavn** brukes til å beskrive bemanningskravene for oppgaven. Disse bemanningsattributtene sammen med oppgaveplanen brukes til å finne tilgjengelige ressurser for denne oppgaven.
 
 **Rolle** – angi ressurstypen som kreves for å utføre oppgaven.
 
@@ -118,13 +118,13 @@ Feltene **Rolle** , **Ressursenhet** og **Stillingsnavn** brukes til å beskrive
 
 **Stillingsnavn** – angi et egendefinert navn for den generelle ressursen som fungerer som en plassholder for ressursen som til syvende og sist kommer til å utføre arbeidet.
 
-**Ressurser** -feltet inneholder stillingsnavnet til den generelle ressursen eller den navngitte ressursen når en slik finnes.
+**Ressurser**-feltet inneholder stillingsnavnet til den generelle ressursen eller den navngitte ressursen når en slik finnes.
 
-**Kategori** -feltet inneholder verdier som angir en bredere arbeidstype som oppgaven kan grupperes i. Dette feltet har ikke innvirkning på planlegging eller bemanning. Den brukes bare til rapportering.
+**Kategori**-feltet inneholder verdier som angir en bredere arbeidstype som oppgaven kan grupperes i. Dette feltet har ikke innvirkning på planlegging eller bemanning. Den brukes bare til rapportering.
 
 ### <a name="task-dependencies"></a>Oppgaveavhengigheter 
 
-Du kan bruke tidsplanen i PSA til å opprette foregående relasjoner mellom aktiviteter. **Foregående** -feltet under **Oppgaver** bruker én eller flere verdier til å angi oppgavene som en oppgave avhenger av. Når foregående verdier tilordnes til en oppgave, kan oppgaven bare starte etter at alle de foregående oppgavene er fullført. På grunn av avhengigheten tilbakestilles planlagt startdato for oppgaven til datoen når de foregående oppgavene er fullført.
+Du kan bruke tidsplanen i PSA til å opprette foregående relasjoner mellom aktiviteter. **Foregående**-feltet under **Oppgaver** bruker én eller flere verdier til å angi oppgavene som en oppgave avhenger av. Når foregående verdier tilordnes til en oppgave, kan oppgaven bare starte etter at alle de foregående oppgavene er fullført. På grunn av avhengigheten tilbakestilles planlagt startdato for oppgaven til datoen når de foregående oppgavene er fullført.
 
 Oppgavemodusen har ingen innvirkning på oppdateringer som utføres på start- og sluttdatoene for foregående/avhengige oppgaver.
 
@@ -134,7 +134,7 @@ Oppgavemodusen avgjør planleggingen av bladnodeoppgaver. PSA støtter to oppgav
 
 ### <a name="auto-scheduling"></a>Automatisk planlegging 
  
-Når oppgavemodusen angis til **Automatisk planlagt** , bruker oppgaveplanleggingsmotoren planleggingsreglene på følgende oppgaveattributter for å bestemme tidsplanen for oppgaven.
+Når oppgavemodusen angis til **Automatisk planlagt**, bruker oppgaveplanleggingsmotoren planleggingsreglene på følgende oppgaveattributter for å bestemme tidsplanen for oppgaven.
 
 #### <a name="scheduling-rules"></a>Planleggingsregler
 

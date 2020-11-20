@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081489"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123750"
 ---
 # <a name="travel-requisitions"></a>Reiserekvisisjoner
 
@@ -31,7 +31,7 @@ Reiserekvisisjoner kan konfigureres som "obligatorisk" ved å aktivere parameter
 
 ## <a name="create-and-submit-a-travel-requisition"></a>Opprette og sende en reiserekvisisjon
 
-1. Gå til **Mine utgifter: Reiserekvisisjon** , og velg **Ny reiserekvisisjon**.
+1. Gå til **Mine utgifter: Reiserekvisisjon**, og velg **Ny reiserekvisisjon**.
 2. Angi et formål og et mål for rekvisisjonen.
 3. Skriv inn eventuell tilleggsinformasjon i feltet **Reisebeskrivelse**. 
 4. For hver av de forventede utgiftene, for eksempel flyreiser, måltider eller bilutleie, oppretter du et utgiftslinjeelement. Inkluder estimert dato, estimert beløp og valuta for hver utgift. 

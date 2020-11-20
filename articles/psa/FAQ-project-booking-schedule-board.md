@@ -3,7 +3,7 @@ title: Opprette en prosjektbestilling fra planleggingstavlen
 description: Dette emnet gir informasjon om hvordan du oppretter en prosjektestilling fra planleggingstavlen.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081637"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122310"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Opprette en prosjektbestilling fra planleggingstavlen
 
@@ -35,21 +35,21 @@ Du kan også bestille en ressurs til et prosjekt direkte fra planleggingstavlen.
 
 - **Bestille fra det primære kravet:** De primære kravene vises på planleggingstavlen i kategorien **Prosjekt**. 
 
-- **Bestille fra et nytt ressurskrav:** Du kan opprette et ressurskrav fra grunnen av og knytte det til et prosjekt. På planleggingstavlen vises ressurskravet i **Åpne krav** -kategorien.
+- **Bestille fra et nytt ressurskrav:** Du kan opprette et ressurskrav fra grunnen av og knytte det til et prosjekt. På planleggingstavlen vises ressurskravet i **Åpne krav**-kategorien.
 
 ## <a name="book-from-a-generated-resource-requirement"></a>Bestille fra et generert ressurskrav
 
 Du kan opprette en generell ressurs og tilordne den til én oppgave eller flere oppgaver i et prosjekt. Deretter kan du generere et ressurskrav fra det generelle teammedlemmet. 
 
-1.  På planleggingstavlen vises denne ressursen i **Åpne krav** -kategorien. Du må kanskje bruke kolonnefiltre i rutenettet hvis du har mange åpne krav. 
+1.  På planleggingstavlen vises denne ressursen i **Åpne krav**-kategorien. Du må kanskje bruke kolonnefiltre i rutenettet hvis du har mange åpne krav. 
 
     ![Kategorien Åpne krav på planleggingstavlen](media/FAQ-Project-Booking-Schedule-Board-1.png "Skjermbilde av tabell med bestillinger og tilordninger")
 
-2. Velg kravet. **Søk etter tilgjengelighet** -kategorien vises øverst i den valgte raden.
+2. Velg kravet. **Søk etter tilgjengelighet**-kategorien vises øverst i den valgte raden.
  
 3. Når du velger kategorien, åpnes modusen Planleggingsassistent på planleggingstavlen og filtrerer de tilgjengelige ressursene som oppfyller ressurskravet. Deretter kan du bestille en ressurs.
 
-4. Du kan også dra og slippe valgt rad fra bunnen av planleggingstavlen til en ressurscelle i rutenettet ovenfor. Når du slipper det, åpner **Opprett ressursbestilling** -panelet til høyre.
+4. Du kan også dra og slippe valgt rad fra bunnen av planleggingstavlen til en ressurscelle i rutenettet ovenfor. Når du slipper det, åpner **Opprett ressursbestilling**-panelet til høyre.
 
     Valg av **Bestill** bestiller ressursen til prosjektteamet.
 
@@ -60,21 +60,21 @@ Du kan opprette en generell ressurs og tilordne den til én oppgave eller flere 
 
 Når du oppretter et prosjekt i Project Service, opprettes automatisk et ressurskrav kalt primærkrav. Dette er et tomt krav som brukes til å bestille raskt en ressurs med planleggingstavlen uten å generere et krav eller opprette ett helt forfra. Fordi kravet er tomt, må du angi datoer samt tildelingsmetode og timer hvis det er aktuelt. 
 
-1. Hvis du vil bestille en ressurs med primærkravet, velger du **Prosjekt** -kategorien på planleggingstavlen. Det kan hende du må bruke kolonnefilteret i **Prosjekt** -kolonnen hvis du har mange prosjekter.
+1. Hvis du vil bestille en ressurs med primærkravet, velger du **Prosjekt**-kategorien på planleggingstavlen. Det kan hende du må bruke kolonnefilteret i **Prosjekt**-kolonnen hvis du har mange prosjekter.
 
    ![Kolonnefiltre på planleggingstavlen](media/FAQ-Project-Booking-Schedule-Board-2.png "Skjermbilde av tabell med bestillinger og tilordninger")
 
 2. Velg kravet som bare har prosjektnavnet som navn, og som har en varighet på null (0).
 
-3. Velg **Søk etter tilgjengelighet** -kategorien som vises i raden. Dette setter planleggingstavlen i modusen Planleggingsassistent og viser tilgjengelige ressurser som kan bestilles på prosjektet.
+3. Velg **Søk etter tilgjengelighet**-kategorien som vises i raden. Dette setter planleggingstavlen i modusen Planleggingsassistent og viser tilgjengelige ressurser som kan bestilles på prosjektet.
 
-4. Siden et **primærkrav** er et tomt krav med null (0) varighet, må du angi varigheten i **Opprett ressursbestilling** -panelet når du velger og bestiller en ressurs.
+4. Siden et **primærkrav** er et tomt krav med null (0) varighet, må du angi varigheten i **Opprett ressursbestilling**-panelet når du velger og bestiller en ressurs.
 
 5. Du kan også velge **primærkravet for prosjektet** nederst på planleggingstavlen og dra og slippe det på en ressurs for å bestille den.
  
-    Siden **primærkravet** er et tomt krav med null (0) varighet, må du angi varigheten i **Opprett ressursbestilling** -panelet når du velger og bestiller en ressurs.
+    Siden **primærkravet** er et tomt krav med null (0) varighet, må du angi varigheten i **Opprett ressursbestilling**-panelet når du velger og bestiller en ressurs.
  
-    Når du bestiller en ressurs gjennom **primærkravet på planleggingstavlen** , kan du legge den til prosjektteamet uten tilordninger.
+    Når du bestiller en ressurs gjennom **primærkravet på planleggingstavlen**, kan du legge den til prosjektteamet uten tilordninger.
  
 ## <a name="book-from-a-new-resource-requirement"></a>Bestille fra et nytt ressurskrav
 Fullfør fremgangsmåten nedenfor for å bestille fra et nytt ressurskrav. 

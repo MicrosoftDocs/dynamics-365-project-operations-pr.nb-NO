@@ -3,7 +3,7 @@ title: Prosjektinnstillinger
 description: Denne emnet gir informasjon om innstillinger for prosjektstyring.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081783"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123120"
 ---
 # <a name="project-settings"></a>Prosjektinnstillinger
 
@@ -33,10 +33,10 @@ Bruk følgende innstillinger for å få tilgang til funksjonene for prosjektplan
 
 ## <a name="work-template"></a>Arbeidsmal
 
-Hvis du vil opprette en prosjektplan, må du opprette en prosjektkalendermal som definerer antallet arbeidstimer for hver dag i tidsplanen og eventuelle tidspunkt selskapet holder stengt. Hvis du vil opprette en prosjektkalendermal, kan du knytte en arbeidsmal til **Kalendermal** -feltet for prosjektet. Følg denne fremgangsmåten for å opprette en arbeidsmal.
+Hvis du vil opprette en prosjektplan, må du opprette en prosjektkalendermal som definerer antallet arbeidstimer for hver dag i tidsplanen og eventuelle tidspunkt selskapet holder stengt. Hvis du vil opprette en prosjektkalendermal, kan du knytte en arbeidsmal til **Kalendermal**-feltet for prosjektet. Følg denne fremgangsmåten for å opprette en arbeidsmal.
 
 1. I PSA, den venstre navigasjonsruten, klikker du **Ressurser**. 
-2. På **Ressurser** -listesiden åpner du en brukeroppføring og velger deretter **Vis arbeidstimer**.
+2. På **Ressurser**-listesiden åpner du en brukeroppføring og velger deretter **Vis arbeidstimer**.
 
   > [!NOTE]
   > Sørg for at du tillater popup-vinduer på nettlesersiden. På denne måten kan du se arbeidstimene som er angitt for ressursen.
@@ -49,17 +49,17 @@ Hvis du vil opprette en prosjektplan, må du opprette en prosjektkalendermal som
 
 > ![Konfigurere salternativer](media/project-13.png)
 
-4. Velg **Ny ukeplan** , og angi deretter alternativene for denne ressursplanen. Du kan angi en regelmessig ukeplan, daglige timeparametere, selskapet holder stengt, og så videre.
-5. Angi datointervallet, velg **Lagre** , og klikk deretter **Lukk**. 
-6. Gå tilbake til **Ressurser** -listesiden, og velg ressursen du angir arbeidstimer for. 
+4. Velg **Ny ukeplan**, og angi deretter alternativene for denne ressursplanen. Du kan angi en regelmessig ukeplan, daglige timeparametere, selskapet holder stengt, og så videre.
+5. Angi datointervallet, velg **Lagre**, og klikk deretter **Lukk**. 
+6. Gå tilbake til **Ressurser**-listesiden, og velg ressursen du angir arbeidstimer for. 
 7. Velg **Angi kalender som** for å angi arbeidsmalen. 
-8. Skriv inn et navn på arbeidsmalen i dialogboksen **Arbeidsmal** , og velg deretter **Bruk**. 
+8. Skriv inn et navn på arbeidsmalen i dialogboksen **Arbeidsmal**, og velg deretter **Bruk**. 
 
 Du kan nå knytte arbeidsmalen til en prosjektkKalendermal.
 
 ## <a name="resource-roles"></a>Ressursroller
 
-Begrepet *ressursrolle* viser til en rekke ferdigheter, kompetanser og sertifiseringer som en person må ha for å utføre et bestemt sett med oppgaver i et prosjekt. Med PSA kan du angi kostnader for og fakturere tiden til en ressurs basert på rollen som ressursen er tilknyttet. Alle organisasjoner må konfigurere disse rollene ved å bruke det venstre navigasjonsfeltet på **Project Service** -menyen.
+Begrepet *ressursrolle* viser til en rekke ferdigheter, kompetanser og sertifiseringer som en person må ha for å utføre et bestemt sett med oppgaver i et prosjekt. Med PSA kan du angi kostnader for og fakturere tiden til en ressurs basert på rollen som ressursen er tilknyttet. Alle organisasjoner må konfigurere disse rollene ved å bruke det venstre navigasjonsfeltet på **Project Service**-menyen.
 
 Alle organisasjoner må konfigurere disse rollene på siden **Aktive ressurskategorier**. Hvis du vil åpne denne siden, velger du **Ressursroller** i den venstre navigasjonsruten.
 

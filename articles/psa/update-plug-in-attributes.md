@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081703"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121860"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Oppdater plugin-attributter slik at de inkluderer nye prisdimensjoner
 
@@ -39,8 +39,8 @@ Når du gjør en endring i antallet eller et felt på kostnadssiden, overføres 
 
 Fremgangsmåten nedenfor forklarer hvordan du registrerer plugin-modulene.
 
-1. Åpne **PluginRegistrationTool** , koble til forekomsten på nettet.
-2. Klikk **Søk** , og søk etter plugin-modulen som du vil oppdatere.
+1. Åpne **PluginRegistrationTool**, koble til forekomsten på nettet.
+2. Klikk **Søk**, og søk etter plugin-modulen som du vil oppdatere.
 
  ![Skjermbilde av søketreet](media/PRT-1.png)
 
@@ -50,7 +50,7 @@ Fremgangsmåten nedenfor forklarer hvordan du registrerer plugin-modulene.
 
  ![Skjermbilde av plugin-modulen som skal oppdateres](media/PRT-2.png)
  
-5. I oppdateringsvinduet klikker du på ellipsen ( **...** ) i filtreringsegenskapene.
+5. I oppdateringsvinduet klikker du på ellipsen (**...**) i filtreringsegenskapene.
 
  ![Skjermbilde av konfigurasjonsinformasjon for oppdatering av eksisterende trinn](media/PRT-3.png)
  

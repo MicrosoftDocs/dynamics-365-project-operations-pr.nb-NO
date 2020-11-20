@@ -3,7 +3,7 @@ title: Brukerhåndbok for Prosjektressurshub
 description: Sluttbrukerhåndbok for Prosjektressurshub for Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081611"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123165"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Brukerhåndbok for Prosjektressurshub
 
@@ -64,7 +64,7 @@ Bruk navigasjonsfeltet til å gå til arbeidsområdet ditt, opprette en ny oppf�
 
 Inndelingene Favoritter og Nylig brukte gir rask tilgang til oppføringer, visninger og instrumentbord. 
 
-- Hvis du vil ha tilgang til disse delene, trykker du på **Meny** -knappen ![Meny-knapp](media/MenuButton.png "Menyknapp") i navigasjonsfeltet og deretter på knappen **Favoritter og Nylig** ![Favoritter-knapp](media/FavButton.png "Favorittknapp").
+- Hvis du vil ha tilgang til disse delene, trykker du på **Meny**-knappen ![Meny-knapp](media/MenuButton.png "Menyknapp") i navigasjonsfeltet og deretter på knappen **Favoritter og Nylig** ![Favoritter-knapp](media/FavButton.png "Favorittknapp").
 
 - Hvis du vil feste et element som favoritt, trykker du på festefunksjonen fra listen over **nylig brukte** elementer. Dette vil feste og flytte elementet til Favoritter.
 
@@ -88,7 +88,7 @@ Angi utgiftene minst ukentlig, eller så ofte forespurt av ledere, for å sikre 
 
 1. Trykk på menyknappen ![menyknappen](media/MenuButton.png "Menyknapp"), og trykk deretter på **Utgifter**. Dette åpner kalenderen.
 
-2. Du kan bytte til **Dag** , **Uke** eller **Måned** eller gå til forrige eller neste tidsperiode. 
+2. Du kan bytte til **Dag**, **Uke** eller **Måned** eller gå til forrige eller neste tidsperiode. 
 
 3. Hvis du vil angi utgiftene, trykker du på **Ny** på kommandolinjen. 
 

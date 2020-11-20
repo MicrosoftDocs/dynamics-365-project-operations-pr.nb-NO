@@ -3,7 +3,7 @@ title: Prosjektfremdrift og kostnadsforbruk
 description: Dette emnet gir informasjon om sporing av prosjektfremdrift og kostnadsforbruk.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b60f72b371a76a59216b0b528d8e63513b06e0d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0793ee0c75bcbdde0fd92a16634457f73f872b5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081781"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120645"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Prosjektfremdrift og kostnadsforbruk
 
@@ -67,14 +67,14 @@ Innsats i aktivitetssammendrag eller beholderaktivitet kan projiseres på nytt. 
 
 ### <a name="cost-tracking-view"></a>Kostnadssporingsvisning 
 
-**Kostnadssporings** -visningen sammenligner de faktiske kostnadene som ble brukt på en aktivitet, med de planlagte kostnadene. 
+**Kostnadssporings**-visningen sammenligner de faktiske kostnadene som ble brukt på en aktivitet, med de planlagte kostnadene. 
 
 > [!NOTE]
 > Denne visningen viser bare arbeidskostnader og inkluderer ikke kostnader fra utgiftsestimater. 
 
 Project Service Automation bruker følgende formler til å beregne sporingsmåledata:
 
-Når en oppgave opprettes, er de planlagte kostnadene lik beregnet kostnad som fullført. Når faktiske verdier er registrert på oppgaven, blir følgende beregnet på **Sporing** -visningen for kostnad:
+Når en oppgave opprettes, er de planlagte kostnadene lik beregnet kostnad som fullført. Når faktiske verdier er registrert på oppgaven, blir følgende beregnet på **Sporing**-visningen for kostnad:
 
  - Prosentandel av kostnadene som brukes = faktisk kostnad brukt til dato ÷ beregnet kostnad som fullført for aktiviteten
  - Kostnad for fullføring (CTC) = beregnet kostnad som fullført – faktisk kostnad brukt til dags dato
@@ -89,10 +89,10 @@ Når innsatsen reprojiseres, blir alt forbrukt CTC, beregnet kostnad som fullfø
 
 ## <a name="project-status-summary"></a>Oppsummering av prosjektstatus
 
-Sporingsdata i visningene **Innsatssporing** og **Kostnadssporing** viser fremdrift og kostnadsforbruk på oppgavenivåene prosjektrotnode, aktivitetssammendrags og bladnode. **Status** -delen på siden **Prosjektenhet** viser et sammendrag av status på prosjektnivå.
+Sporingsdata i visningene **Innsatssporing** og **Kostnadssporing** viser fremdrift og kostnadsforbruk på oppgavenivåene prosjektrotnode, aktivitetssammendrags og bladnode. **Status**-delen på siden **Prosjektenhet** viser et sammendrag av status på prosjektnivå.
 
 ## <a name="status-summary-fields"></a>Statussammendragsfelt
 
-Feltet **Generell prosjektstatus** er et redigerbart felt som viser den generelle statusen til prosjektet. Det bruker fargekoding, for eksempel grønn, gul og rød, for å vise økende risikoer. Med **Kommentarer** -feltet kan prosjektlederen angi spesifikke kommentarer om statusen. Feltet **Status oppdatert** er ikke redigerbart, og verdien er et tidsstempel som angir når statusen sist ble oppdatert.
+Feltet **Generell prosjektstatus** er et redigerbart felt som viser den generelle statusen til prosjektet. Det bruker fargekoding, for eksempel grønn, gul og rød, for å vise økende risikoer. Med **Kommentarer**-feltet kan prosjektlederen angi spesifikke kommentarer om statusen. Feltet **Status oppdatert** er ikke redigerbart, og verdien er et tidsstempel som angir når statusen sist ble oppdatert.
 
 Feltene **Tidsplanytelse** og **Kostnadsytelse** angis fra sporingsdatoen. Når tidsplan- og kostnadsavviket for rotnoden i visningen **Innsatssporing** er positive, kan du angi disse feltene til **Foran**. Når tidsplan- og kostnadsavviket for rotnoden er negativ, kan du angi dem til **Bak**.

@@ -3,7 +3,7 @@ title: Prosjektprising
 description: Dette emnet inneholder informasjon om hvordan prising fungerer i Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081817"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120780"
 ---
 # <a name="project-pricing"></a>Prosjektprising 
 
@@ -54,9 +54,9 @@ Prislisten er et rangeringskort. Et rangeringskort er en kombinasjon av prislist
 
 Begrepet *ressursrolle* viser til en rekke ferdigheter, kompetanser og sertifiseringer som en person må ha for å utføre et bestemt sett med oppgaver i et prosjekt.
 
-Personaltid tilbys vanligvis basert på rollen som en ressurs fyller, i et bestemt prosjekt. For personaltid støtter PSA kostnader og fakturering som er basert på ressursrolle. Tid kan prises i alle enheter i **Tid** -enhetsgruppen.
+Personaltid tilbys vanligvis basert på rollen som en ressurs fyller, i et bestemt prosjekt. For personaltid støtter PSA kostnader og fakturering som er basert på ressursrolle. Tid kan prises i alle enheter i **Tid**-enhetsgruppen.
 
-**Tid** -enhetsgruppen opprettes når PSA installeres. Den har **Time** som standardenhet. Du kan ikke slette, gi nytt navn til eller redigere attributter for **Tid** -enhetsgruppen eller **Time** -enheten. Du kan imidlertid legge til andre enheter i **Tid** -enhetsgruppen. Hvis du prøver å slette **Tid** -enhetsgruppen eller **Time** -enheten, kan det oppstå feil i PSA-forretningslogikken.
+**Tid**-enhetsgruppen opprettes når PSA installeres. Den har **Time** som standardenhet. Du kan ikke slette, gi nytt navn til eller redigere attributter for **Tid**-enhetsgruppen eller **Time**-enheten. Du kan imidlertid legge til andre enheter i **Tid**-enhetsgruppen. Hvis du prøver å slette **Tid**-enhetsgruppen eller **Time**-enheten, kan det oppstå feil i PSA-forretningslogikken.
 
 > ![Konfigurere priser etter rolle](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ I PSA kan du opprette avtalespesifikke overstyringer for valgte priser i prosjek
 
 Som standard får en prosjektkontrakt alltid en kopi av hovedprislisten for salg i stedet for en direkte kobling til den. Denne virkemåten bidrar til å garantere at prisavtaler som gjøres med en kunde for en arbeidserklæring, ikke endrer seg hvis hovedprislisten endres.
 
-Du kan imidlertid bruke en hovedprisliste i et tilbud. Du kan også kopiere en hovedprisliste og redigere den for å opprette en egendefinert prisliste som bare gjelder for dette tilbudet. Hvis du vil opprette en ny prisliste som er spesifikk for et tilbud, går du til **Tilbud** -siden og velger **Opprett egendefinert prising**. Du kan bare få tilgang til den avtalespesifikke prosjektprislisten fra tilbudet. 
+Du kan imidlertid bruke en hovedprisliste i et tilbud. Du kan også kopiere en hovedprisliste og redigere den for å opprette en egendefinert prisliste som bare gjelder for dette tilbudet. Hvis du vil opprette en ny prisliste som er spesifikk for et tilbud, går du til **Tilbud**-siden og velger **Opprett egendefinert prising**. Du kan bare få tilgang til den avtalespesifikke prosjektprislisten fra tilbudet. 
 
 Når du oppretter en egendefinert prosjektprisliste, kopieres bare prosjektkomponentene i prislisten. Med andre ord opprettes det en ny prisliste som en kopi av den eksisterende prosjektprislisten som er knyttet til tilbudet, og denne nye prislisten har bare relaterte rollepriser og transaksjonskategoripriser.
 

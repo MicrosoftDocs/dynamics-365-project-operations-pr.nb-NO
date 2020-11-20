@@ -3,7 +3,7 @@ title: Hva er nytt eller endret i Project Service Automation Update Release 15, 
 description: Dette emnet inneholder informasjon om hva som er nytt i Project Service Automation Update Release 15, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081577"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119925"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, Update Release 15, V3
 
@@ -50,7 +50,7 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA 
   - Fikset: Rullegardinmenyen for **Bruk i sporingsvisning** utvides nå basert på bredden på alternativene.
   - Fikset: Ved administrasjon av prosjekter i +13-tidssonen kan oppgaveberegninger vise unøyaktige resultater.
   - Fikset: **Sluttid for teammedlemmer** er rettet opp ved bruk av 24-timers kalender.
-  - Fikset: Reaktiverte **BPF** i **msdyn_project** -hovedskjemaet.
+  - Fikset: Reaktiverte **BPF** i **msdyn_project**-hovedskjemaet.
   - Fikset: Tildelingsberegning ignorerer ikke lenger én dag.
   - Fikset: Et nytt varslingsbanner er lagt til i prosjektskjemaet når tidssonen er forskjellig mellom brukeren og prosjektet.
 
@@ -59,5 +59,5 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA 
   - Fikset: Oppslagsvisning for utgiftsestimat kan brukes til å filtrere duplikater.
   - Fikset: Kode i **PluginDomain.ExecuteInTryCatchBlock(..)** skjuler ikke lenger opprinnelsen til unntaket.
   - Fikset: Feilmelding vises ikke lenger i **Prosjektoppslag** i skjemaet **Tilbudslinje** når det er mer enn 1000 prosjekter.
-  - Fikset: **Estimater** -rutenett for arbeidsberegninger og utgiftsoverslag viser nå riktig valutasymbol.
+  - Fikset: **Estimater**-rutenett for arbeidsberegninger og utgiftsoverslag viser nå riktig valutasymbol.
   - Fikset: Når en organisasjon oppdaterer PSA fra Update Release 14 til Update Release 15, vises ikke lenger kategorien **Planlegg** som tom i skjemaet **Prosjekt**.

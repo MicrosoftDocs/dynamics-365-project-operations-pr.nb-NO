@@ -3,7 +3,7 @@ title: Prosjektfasetyper
 description: Denne emnet gir informasjon om prosjektfaser.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081671"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123074"
 ---
 # <a name="project-stage-types"></a>Prosjektfasetyper 
 
@@ -46,11 +46,11 @@ Når du oppretter et prosjekt, er prosjektfasen satt til **Ny**. Hvis prosjektet
 
 ## <a name="quote"></a>Tilbud
 
-Når du knytter et prosjekt til et tilbud, eller når du oppretter et prosjekt fra et tilbud, er prosjektfasen satt til **Tilbud** , og de estimerte start- og sluttdatoene oppdateres også. Når prosjektet er i **Tilbud** -fasen, vises detaljene for tilbudet i kategorien **Salg** på **Prosjektenhet** -siden.
+Når du knytter et prosjekt til et tilbud, eller når du oppretter et prosjekt fra et tilbud, er prosjektfasen satt til **Tilbud**, og de estimerte start- og sluttdatoene oppdateres også. Når prosjektet er i **Tilbud**-fasen, vises detaljene for tilbudet i kategorien **Salg** på **Prosjektenhet**-siden.
 
 ## <a name="plan"></a>Plan
 
-Når du har vunnet et tilbud som er tilknyttet et prosjekt, og når dette engasjementet går videre til **Kontrakt** -fasen, oppdateres prosjektfasen til **Plan**. Når prosjektet er i **Plan** -fasen, vises detaljene for kontrakten på **Prosjektenhet** -siden.
+Når du har vunnet et tilbud som er tilknyttet et prosjekt, og når dette engasjementet går videre til **Kontrakt**-fasen, oppdateres prosjektfasen til **Plan**. Når prosjektet er i **Plan**-fasen, vises detaljene for kontrakten på **Prosjektenhet**-siden.
 
 ## <a name="deliver"></a>Lever
 

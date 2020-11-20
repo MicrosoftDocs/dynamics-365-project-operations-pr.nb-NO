@@ -2,7 +2,7 @@
 title: Hva er nytt eller endret i Project Service Automation versjon 3
 description: Dette emnet gir informasjon om hva som er nytt og endret i Project Service Automation versjon 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081582"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120015"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Hva er nytt eller endret i Project Service Automation versjon 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -40,7 +40,7 @@ Tidsplanen har nå en ny overflate for samhandling som er både moderne og tilgj
 - **Gantt-diagram** – Gantt-diagrammet finnes ikke lenger. En ny Gantt-visualisering vil returnere i en fremtidig oppdatering.
 - **Kolonneoverskrifter** – Du kan skjule kolonneoverskrifter i rutenettet ved å klikke på pil ned ved siden av kolonnetittelen. 
 - **Kolonner** – Du kan vise skjulte kolonner ved å klikke **Legg til kolonne**. 
-- **Transaksjonskategori** – Et **Transaksjonskategori** -oppslag er lagt til i tidsplanrutenettet og vises som standard. 
+- **Transaksjonskategori** – Et **Transaksjonskategori**-oppslag er lagt til i tidsplanrutenettet og vises som standard. 
  
 ## <a name="project-templates"></a>Prosjektmaler
 Følgende endringer er gjort i prosjektmalfunksjonen.
@@ -94,7 +94,7 @@ Estimater er delt inn i to kategorier, **Ressurstilordninger** og **Estimater**.
 
 ![Kategorien Ressurstilordninger med arbeidsestimater og ressurstilordninger for oppgaver](media/resource-assignments-tab-02.png)
 
-Kategorien **Estimater** viser kostnadene og salgsbeløpene for ressurstilordningene. Beløpene er skrivebeskyttet. Kostnadene og salgsprisen er nå drevet fra teammedlemstilordningene i tidsplanen. Det betyr at hvis du har en oppgave uten noen tilordning, vil oppgaven vises under den ikke-tilordnede samlingen. Dette betyr også at uten **rolle** , som er en standard prisdimensjon, vil det ikke finnes beregnet kostnad eller salg hvis du har en kunde eller en kontrakt/tilbud knyttet til prosjektet. 
+Kategorien **Estimater** viser kostnadene og salgsbeløpene for ressurstilordningene. Beløpene er skrivebeskyttet. Kostnadene og salgsprisen er nå drevet fra teammedlemstilordningene i tidsplanen. Det betyr at hvis du har en oppgave uten noen tilordning, vil oppgaven vises under den ikke-tilordnede samlingen. Dette betyr også at uten **rolle**, som er en standard prisdimensjon, vil det ikke finnes beregnet kostnad eller salg hvis du har en kunde eller en kontrakt/tilbud knyttet til prosjektet. 
 
 ![Kategorien Estimater med kostnads- og salgsbeløp](media/estimates-tab-03.png)
   
@@ -105,7 +105,7 @@ Utgiftsestimater kan angis i rutenettet i kategorien **Utgiftsestimater**.
 ![Kategorien utgiftsestimater som viser rutenettet for utgiftsestimater](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Ressursbehandling
-Ved hjelp av det nye enhetlige klientgrensesnittet i Project Service Automation versjon 3 og endringer i relasjonen mellom bestillinger og tilordninger, har bemanning av generelle og faktiske ressurser på et prosjekt blitt endret seg svært mye fra versjon 2 og versjon 1. Begrepene for ressurser som kan bestilles, både **faktiske** og **generelle** , er imidlertid de samme, som også gjelder for teammedlemmer, krav, tilordninger og bestillinger.   
+Ved hjelp av det nye enhetlige klientgrensesnittet i Project Service Automation versjon 3 og endringer i relasjonen mellom bestillinger og tilordninger, har bemanning av generelle og faktiske ressurser på et prosjekt blitt endret seg svært mye fra versjon 2 og versjon 1. Begrepene for ressurser som kan bestilles, både **faktiske** og **generelle**, er imidlertid de samme, som også gjelder for teammedlemmer, krav, tilordninger og bestillinger.   
 
 ![Bruke ressursvelgeren](media/resource-management-05.png)
 
@@ -128,7 +128,7 @@ Når bestillingen er fullført og fullstendig oppfylt med en navngitt ressurs, e
 Foreslåtte ressurser for krav lagres nå i en kategori i stedet for en egen del.
 
 ### <a name="multiple-named-resources-fulfilling-a-generic-resource"></a>Flere navngitte ressurser oppfyller en generell ressurs
-Når et krav oppfylles med flere ressurser, beholdes den generelle ressursen i teamet og tildeles oppgaven. De navngitte teammedlemmene som er bestilt, blir ikke tilordnet som en del av stillingen. Prosjektlederen kan tilordne arbeidet etter behov til de faktiske ressursene.  Visningen **Avstemming** viser en oppdeling av bestillingene på tvers av flere ressurser i mange oppgavetildelinger. Dette gjøres ikke automatisk, fordi i mange kompliserte scenarioer, for eksempel der du har en gruppe oppgaver som utgjør kravet, må intensjonen av hvordan prosjektlederen vil tilordne, antas. Siden systemet ikke kan forstå hensikt, er det sannsynlig at antakelsene vil være forskjellige fra tiltenkt, og det skjer et uriktig eller uforutsigbart resultat. Det forutsigbare resultatet er at den generelle ressursen holdes tilordnet til prosjektlederen med hensikt tildeler ressurser med **Avstemming** -visningen.
+Når et krav oppfylles med flere ressurser, beholdes den generelle ressursen i teamet og tildeles oppgaven. De navngitte teammedlemmene som er bestilt, blir ikke tilordnet som en del av stillingen. Prosjektlederen kan tilordne arbeidet etter behov til de faktiske ressursene.  Visningen **Avstemming** viser en oppdeling av bestillingene på tvers av flere ressurser i mange oppgavetildelinger. Dette gjøres ikke automatisk, fordi i mange kompliserte scenarioer, for eksempel der du har en gruppe oppgaver som utgjør kravet, må intensjonen av hvordan prosjektlederen vil tilordne, antas. Siden systemet ikke kan forstå hensikt, er det sannsynlig at antakelsene vil være forskjellige fra tiltenkt, og det skjer et uriktig eller uforutsigbart resultat. Det forutsigbare resultatet er at den generelle ressursen holdes tilordnet til prosjektlederen med hensikt tildeler ressurser med **Avstemming**-visningen.
 
 ### <a name="reconciliation"></a>Avstemming
 Kategorien **Avstemming** viser bestillinger og alle tilordninger for hvert prosjektgruppemedlem. Visningen viser timer i celler som kan representere tidspunkter fra måneder til dager. Med denne visninger kan prosjektledere avstemme teammedlemsbestillinger og deres tilordninger for prosjektteamet. Dette er nyttig fordi bestillinger og oppgavetildelinger ikke er tett koblet sammen, noe som gir mer fleksibilitet under planlegging av et prosjekt. 
@@ -146,7 +146,7 @@ Når du har oppgavetildelinger for en ressurs uten bestillinger (en bestillingsm
 Denne delen inneholder informasjon om endringer i tid, utgift og godkjenning i versjon 3 av Project Service Automation. Som en del av Dynamics 365 Project Service Automation-løsningen er funksjonen **Tidsoppføring** oppdatert til å dra nytte av Enhetlig grensesnitt-rammeverket. Dette gjør det mulig å levere et ensartet og gjennomført brukergrensesnitt som følger responsiv utforming på best mulig måte for optimal visning på alle skjermstørrelser og enheter. 
 
 ### <a name="landing-page"></a>Målside
-Den ikke-utvidbare opplevelsen av egendefinert tidsoppføring er avskrevet i versjon 3. I stedet finnes det nå en utvidbar og tilgjengelig innebygd rutenettopplevelse. Du kan få tilgang til tidsoppføringsfunksjonaliteten ved å bruke områdekartet til venstre. Ved hjelp av denne endringen kan du ikke lenger angi tid for én uke om gangen. I stedet må du opprette en tidsoppføring for hver dag i rutenettet. Når det er opprettet noen få tidsoppføringer, kan brukere masseopprette tidsoppføringer med **Kopier** -funksjonen som forklares senere i dette emnet. 
+Den ikke-utvidbare opplevelsen av egendefinert tidsoppføring er avskrevet i versjon 3. I stedet finnes det nå en utvidbar og tilgjengelig innebygd rutenettopplevelse. Du kan få tilgang til tidsoppføringsfunksjonaliteten ved å bruke områdekartet til venstre. Ved hjelp av denne endringen kan du ikke lenger angi tid for én uke om gangen. I stedet må du opprette en tidsoppføring for hver dag i rutenettet. Når det er opprettet noen få tidsoppføringer, kan brukere masseopprette tidsoppføringer med **Kopier**-funksjonen som forklares senere i dette emnet. 
 
 ![Landingsside for tidsoppføringer](media/time-entry-landing-page-07.png)
  
@@ -155,15 +155,15 @@ Klikk **Ny** på båndet for å åpne en hurtigopprettingsside for tidsoppførin
 
 ![Hurtigoppretting for tidsoppføring](media/quick-create-time-entry-08.png)
 
-Oppslagsfelt blir støttet av systemvisninger. Når du for eksempel har angitt prosjektinformasjon, blir **Prosjektoppgave** -feltet angitt som standard til **Mine åpne prosjektoppgaver**. Hvis du vil opprette tidsoppføringer for oppgaver som ikke er tilordnet brukeren, klikker du **Endre visning** på oppslaget og velger **Alle aktive prosjektoppgaver**. Når tidsoppføringen er opprettet og vises i rutenettet, kan du redigere eventuelle linjeverdier direkte i rutenettet.  
+Oppslagsfelt blir støttet av systemvisninger. Når du for eksempel har angitt prosjektinformasjon, blir **Prosjektoppgave**-feltet angitt som standard til **Mine åpne prosjektoppgaver**. Hvis du vil opprette tidsoppføringer for oppgaver som ikke er tilordnet brukeren, klikker du **Endre visning** på oppslaget og velger **Alle aktive prosjektoppgaver**. Når tidsoppføringen er opprettet og vises i rutenettet, kan du redigere eventuelle linjeverdier direkte i rutenettet.  
 
 ### <a name="bulk-createcopy"></a>Masseopprette/-kopiere 
-Etter at du har opprettet noen få oppføringer, kan du bruke kopieringsfunksjonaliteten til å opprette flere tidsoppføringer samtidig. Klikk **Kopier** for å åpne **Kopier** -dialogboksen. I **Fra-periode: Startdato** , angi datointervallet som tidsperiodene skal kopieres fra. I **Til-periode: Startdato** angir du datoen tidsoppføringer må opprettes. Klikk **Kopier** for å kopiere tidsoppføringene til den tilsvarende dagen i uken som er angitt i **Til-perioden**. Mandagens tidsoppføring fra forrige uke blir for eksempel kopiert til mandag for uken som er angitt i **Til-periode**. 
+Etter at du har opprettet noen få oppføringer, kan du bruke kopieringsfunksjonaliteten til å opprette flere tidsoppføringer samtidig. Klikk **Kopier** for å åpne **Kopier**-dialogboksen. I **Fra-periode: Startdato**, angi datointervallet som tidsperiodene skal kopieres fra. I **Til-periode: Startdato** angir du datoen tidsoppføringer må opprettes. Klikk **Kopier** for å kopiere tidsoppføringene til den tilsvarende dagen i uken som er angitt i **Til-perioden**. Mandagens tidsoppføring fra forrige uke blir for eksempel kopiert til mandag for uken som er angitt i **Til-periode**. 
 
 ![Massekopiere tidsoppføringer](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importer data 
-Tilordninger og utveksling følger samme grensesnittmønster, noe som gjør det mulig for brukeren å angi datointervallet fra når bestillinger må importeres. Deretter må du eksplisitt velge bestillingene som må kopieres til **Utkast** -tidsoppføringer. I versjon 3 kan du ikke lenger se mønsteret for **Foreslått** -tidsoppføringer i rutenettet og kalenderen.  
+Tilordninger og utveksling følger samme grensesnittmønster, noe som gjør det mulig for brukeren å angi datointervallet fra når bestillinger må importeres. Deretter må du eksplisitt velge bestillingene som må kopieres til **Utkast**-tidsoppføringer. I versjon 3 kan du ikke lenger se mønsteret for **Foreslått**-tidsoppføringer i rutenettet og kalenderen.  
 
 ### <a name="change-in-calendar-control"></a>Endre i kalenderkontroll
 I versjon 3 har vi flyttet bort fra den egendefinerte kalenderkontrollen, og vi bruker nå UC-kalenderen til å vise tidsoppføringer for uken. Ved hjelp av denne kalenderen kan du vise dag, uke og måned. 
@@ -192,16 +192,16 @@ Common Data Service-plattformen støtter ikke at én bruker representerer en ann
 Tilpassing gjør det mulig å legge til **Ressurs som kan reserveres** for å opprette og redigere erfaringer, noe som gjør det mulig for en bruker å arbeide som representant ved å endre feltet **Ressursbestilling** til en annen bruker som tids- og utgiftsoppføringer må registreres for. Fremgangsmåten nedenfor viser tidsoppføringsdelegering. Den samme informasjonen gjelder for utgiftsoppføringsdelegering. 
  
 1.  Kontroller at den delegerte brukeren har global sikkerhetstilgang for prosjekter og prosjektoppgaver. 
-1.  Siden **Ressurs som kan reserveres** , som er et felt i enheten **Tidsoppføring** , ikke vises på siden **Hurtigoppføring** , må du legge den til.
+1.  Siden **Ressurs som kan reserveres**, som er et felt i enheten **Tidsoppføring**, ikke vises på siden **Hurtigoppføring**, må du legge den til.
 
     -eller-
 
-    Opprett en egendefinert visning som inkluderer kolonnen **Ressurs som kan reserveres** , for å vise bare tidsoppføringer som er opprettet for ressursen. Publiser tilpassingene i appmodulutformingen, slik at denne visningen vises under **Visningsvelger** på siden **Tidsoppføringer**. Det finnes to plugin-moduler som håndterer angivelse av overordnet for tidsoppføringer som ikke er relatert til et prosjekt:
+    Opprett en egendefinert visning som inkluderer kolonnen **Ressurs som kan reserveres**, for å vise bare tidsoppføringer som er opprettet for ressursen. Publiser tilpassingene i appmodulutformingen, slik at denne visningen vises under **Visningsvelger** på siden **Tidsoppføringer**. Det finnes to plugin-moduler som håndterer angivelse av overordnet for tidsoppføringer som ikke er relatert til et prosjekt:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. Opprett en ny plugin-modul for å overskrive **Overordnet** -feltet til den overordnede til brukeren som er tilordnet i feltet **Ressurs som kan reserveres**. Bruk samme **Utføringsfase** som out-of-band-plugin-modulen (OOB), og bruk en **Utføringsrekkefølge** som er høyere enn OOB-plugin-modulene (større enn 1). Dette sikrer at den tilpassede plugin-modulen utføres etter OOB-plugin-modulene.  
+1. Opprett en ny plugin-modul for å overskrive **Overordnet**-feltet til den overordnede til brukeren som er tilordnet i feltet **Ressurs som kan reserveres**. Bruk samme **Utføringsfase** som out-of-band-plugin-modulen (OOB), og bruk en **Utføringsrekkefølge** som er høyere enn OOB-plugin-modulene (større enn 1). Dette sikrer at den tilpassede plugin-modulen utføres etter OOB-plugin-modulene.  
  
 ### <a name="end-user-experience"></a>Sluttbrukeropplevelse
 1.  Når du oppretter en tidsoppføring på hurtigopprettingssiden, angir du prosjekt- og prosjektoppgavedetaljene, og deretter velger du brukeren i feltet **Ressurs som kan reserveres** som tidsoppføringene må registreres for. 
@@ -211,7 +211,7 @@ Tilpassing gjør det mulig å legge til **Ressurs som kan reserveres** for å op
 5.  Du kan eventuelt bytte til den egendefinerte visningen for å filtrere tidsoppføringer som er opprettet for den andre brukeren. 
  
 ### <a name="limitations"></a>Begrensninger
-**Kopier** - og **Importer** -funksjonene fungerer bare i konteksten til brukeren som er logget på. Dette betyr at det ikke er mulig å kopiere eller importere tidsoppføringer som er opprettet for brukeren som er logget på som ressursen som kan reserveres.
+**Kopier**- og **Importer**-funksjonene fungerer bare i konteksten til brukeren som er logget på. Dette betyr at det ikke er mulig å kopiere eller importere tidsoppføringer som er opprettet for brukeren som er logget på som ressursen som kan reserveres.
 
 Tidsoppføringer som ikke er for et prosjekt, blir bare distribuert til godkjenning til lederen for reserverbar ressurs hvis trinn 4 i delen **Tilpassingsdetaljer** over er fullført. Hvis ikke blir ikke tidsoppføringer for den andre brukeren som ikke er relatert til prosjektet, rutet riktig til den overordnede for den påloggede brukeren. 
 
@@ -229,13 +229,13 @@ For kunder av Project Service Automation som vil fortsette å bruke disse standa
 I versjon 3 av Project Service Automation er aspekter av oppsett og administrasjon for tilbud og kontrakter endret. Avsnittene nedenfor inneholder mer detaljert informasjon.
 
 ### <a name="set-up-chargeability-options"></a>Definere alternativer for belastbarhet
-I versjon 1 og 2 ble det utført oppsett for belastbarhet for roller og kategorier for bestemte tilbud og kontrakter ved hjelp visningen for **Belastbarhet** , som var øverst i navigasjonen i en tilbudslinje eller kontraktslinje. Dette var også der du kunne sette opp priser for disse rollene og utgiftskategoriene.
+I versjon 1 og 2 ble det utført oppsett for belastbarhet for roller og kategorier for bestemte tilbud og kontrakter ved hjelp visningen for **Belastbarhet**, som var øverst i navigasjonen i en tilbudslinje eller kontraktslinje. Dette var også der du kunne sette opp priser for disse rollene og utgiftskategoriene.
 
 Fra og med versjon 3 utføres oppsett av belastbarhetsalternativer etter rolle og utgiftskategori på tilbuds- eller kontraktlinjenivå. Prisoppsett er atskilt fra belastbarhetsoppsett. Du finner **Belastbare roller** og **Belastbare kategorier** som kategorier på sidene **Tilbudslinje** og **Kontraktlinje** uten å måtte bruke toppnavigasjonen.
 
 ![Belastbare roller](media/chargeable-12.png)
  
-Oppsettet av belastbare roller og belastbare kategorier benytter også den redigerbare rutenettkontrollen, som er standard. For hver rolle og kategori forblir de støttede alternativene for faktureringstype i tilbuds- og kontraktfasen uendret, som **Belastbar** og **Ikke-belastbar** , fra tidligere versjoner. **Gratis** støttes ikke under tilbuds- eller kontraktfasen. **Gratis** støttes bare i tids- eller utgiftsgodkjenningen.  
+Oppsettet av belastbare roller og belastbare kategorier benytter også den redigerbare rutenettkontrollen, som er standard. For hver rolle og kategori forblir de støttede alternativene for faktureringstype i tilbuds- og kontraktfasen uendret, som **Belastbar** og **Ikke-belastbar**, fra tidligere versjoner. **Gratis** støttes ikke under tilbuds- eller kontraktfasen. **Gratis** støttes bare i tids- eller utgiftsgodkjenningen.  
  
 ### <a name="create-and-edit-custom-pricing-for-a-project-service-automation-quote-and-project-contract"></a>Opprette og redigere egendefinerte priser for et Project Service Automation-tilbud og en prosjektkontrakt
 I versjon 1 og 2 ble det brukt egendefinert prisliste for bestemte tilbud og kontrakter ved hjelp av **Rediger priser** i visningen **Belastbarhet**. Visningen **Belastbarhet** var plassert øverst i navigasjonen i en tilbudslinje eller kontraktslinje. Det var også der du kunne sette opp alternativene for belastbarhet for roller eller utgiftskategorier.
@@ -251,4 +251,4 @@ Følgende grafikk er etter egendefinerte prislister er opprettet.
 ![Etter egendefinerte prislister](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
-> En kort forsinkelse kan oppstå mellom når du klikker **Opprett egendefinert prising** , og når den egendefinerte prislisten opprettes. Vi anbefaler at du oppdaterer rutenettet i stedet for å klikke flere ganger. En egendefinert prisliste er opprettet hvis det tilknyttede prislistenavnet har tilbudsnavnet eller prosjektkontraktnavnet tilknyttet.
+> En kort forsinkelse kan oppstå mellom når du klikker **Opprett egendefinert prising**, og når den egendefinerte prislisten opprettes. Vi anbefaler at du oppdaterer rutenettet i stedet for å klikke flere ganger. En egendefinert prisliste er opprettet hvis det tilknyttede prislistenavnet har tilbudsnavnet eller prosjektkontraktnavnet tilknyttet.

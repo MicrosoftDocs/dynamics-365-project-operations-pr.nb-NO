@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081480"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123840"
 ---
 # <a name="approvals-overview"></a>Oversikt over godkjenninger
 
@@ -27,7 +27,7 @@ Når du oppretter og sender en tids- eller utgiftsoppføring, opprettes det en g
 ## <a name="approve-an-entry"></a>Godkjenne en oppføring
 På skjemaet **Godkjenninger** kan du bytte mellom forskjellige visninger, slik at du kan vise de forskjellige godkjenningstypene.
   
-1. Gå til **Godkjenninger** -skjemaet, og velg **Utgifter** , **Tid** eller **Tilbakekallinger**.
+1. Gå til **Godkjenninger**-skjemaet, og velg **Utgifter**, **Tid** eller **Tilbakekallinger**.
 2. Gå gjennom hver godkjenning, og velg de du vil godkjenne.
 3. Velg **Godkjenn** for å godkjenne de valgte oppføringene.
 Systemet behandler disse oppføringene og oppretter faktiske verdier eller en bestilling.
@@ -35,7 +35,7 @@ Systemet behandler disse oppføringene og oppretter faktiske verdier eller en be
 ## <a name="reject-an-entry"></a>Avvise en oppføring
 Som prosjektgodkjenner kan det hende du må sende en oppføring tilbake til en bruker for korrigering.
   
-1. Gå til **Godkjenninger** -skjemaet, og velg oppføringen du vil avvise. 
+1. Gå til **Godkjenninger**-skjemaet, og velg oppføringen du vil avvise. 
 2. Velg **Avvis**.
 3. Valgfritt – Legg til en kommentar i dialogboksen **Avvisningskommentarer** for å informere brukeren hvorfor oppføringen blir avvist.
 4. Velg **OK**. Oppføringen returneres til brukeren.
@@ -46,8 +46,8 @@ Det kan hende du må kalle tilbake en oppføring som er sendt. Hvis oppføringen
 ## <a name="specify-project-approvers"></a>Angi prosjektgodkjennere
 Hvert prosjekt har flere prosjektteammedlemmer. Du kan angi hvilke teammedlemmer som også er prosjektgodkjennere.
 
-1. Gå til **Prosjekter** -skjemaet, og åpne prosjektet fra listen.
-2. På **Team** -fanen velger du teammedlemmet som skal være en prosjektgodkjenner, og deretter velger du **Rediger**.
+1. Gå til **Prosjekter**-skjemaet, og åpne prosjektet fra listen.
+2. På **Team**-fanen velger du teammedlemmet som skal være en prosjektgodkjenner, og deretter velger du **Rediger**.
 3. Sett feltet **Prosjektgodkjenner** til **Ja**.
 4. Velg **Lagre**.
 5. Gjenta trinn 2 til 4 hvis du vil legge til flere prosjektgodkjennere.

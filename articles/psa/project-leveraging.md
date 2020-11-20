@@ -3,7 +3,7 @@ title: Salgsestimater og prosjekter
 description: Dette emnet gir informasjon om hvordan du kan dra nytte av tidsplanen og estimatene i salgsprosessen.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8bb380519759659dc1b4151b62228a626ee7a26
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081638"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120690"
 ---
 # <a name="sales-estimates-and-projects"></a>Salgsestimater og prosjekter
 
@@ -33,7 +33,7 @@ I løpet av salgsprosessen kan du opprette salgsestimater ved å koble et prosje
 
 ## <a name="linking-a-project-to-a-quote-line"></a>Koble et prosjekt til en tilbudslinje
 
-Når du oppretter en prosjektbasert tilbudslinje, kan du opprette et nytt prosjekt eller knytte til et eksisterende prosjekt på **Tilbudslinje** -siden. 
+Når du oppretter en prosjektbasert tilbudslinje, kan du opprette et nytt prosjekt eller knytte til et eksisterende prosjekt på **Tilbudslinje**-siden. 
 
 > ![Tilbudslinje-skjemaet](media/project-8.png)
  
@@ -47,7 +47,7 @@ Når du oppretter prosjektet fra tilbudet er prosjektet automatisk knyttet til t
 
 Ved hjelp av en tidsplan kan du dele arbeid inn i oppgaver, vedlikeholde et hierarki med oppgaver, bestemme hvilke ressurser som kreves for å fullføre en oppgave, og tilordne et estimat over innsatsen som kreves for å fullføre en oppgave.
 
-Du kan definere arbeidsinnsatsen og tidsplanestimatene ved hjelp av feltene i kategorien **Tidsplan** på **Prosjekt** -siden. Siden en prisliste er knyttet til prosjektet, beregnes økonomiske estimater ved hjelp av kostnader og salgspriser som er definert i prislisten.
+Du kan definere arbeidsinnsatsen og tidsplanestimatene ved hjelp av feltene i kategorien **Tidsplan** på **Prosjekt**-siden. Siden en prisliste er knyttet til prosjektet, beregnes økonomiske estimater ved hjelp av kostnader og salgspriser som er definert i prislisten.
 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importere estimater fra et prosjekt til et tilbud
 

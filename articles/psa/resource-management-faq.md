@@ -3,7 +3,7 @@ title: Vanlige spørsmål om ressursbehandling
 description: Dette emnet inneholder svar på vanlige spørsmål om ressursbehandling.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081831"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120150"
 ---
 # <a name="resource-management-faq"></a>Vanlige spørsmål om ressursbehandling
 
@@ -47,7 +47,7 @@ Når ressursene er bestilt, velger du **Vedlikehold bestillinger** for å gjøre
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Hvilke ressurstyper støtter Project Service Automation?
 
-**Bruker** og **Kontakt** er de eneste ressurstypene som støttes i Dynamics 365 Project Service Automation. Selv om du kan opprette andreressurs typer (for eksempel **Utstyr** og **Gruppe** ), er det ingen ende-til-ende-brukstilfelle som støttes for dem.
+**Bruker** og **Kontakt** er de eneste ressurstypene som støttes i Dynamics 365 Project Service Automation. Selv om du kan opprette andreressurs typer (for eksempel **Utstyr** og **Gruppe**), er det ingen ende-til-ende-brukstilfelle som støttes for dem.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Hva er forskjellen mellom en tilordning og en bestilling?
 
