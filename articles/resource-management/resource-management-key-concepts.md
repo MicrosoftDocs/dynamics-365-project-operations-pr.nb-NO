@@ -5,33 +5,33 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 124d9bad5cc0c16955417a8213db047a2d8bae1d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081467"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123885"
 ---
-# <a name="resource-management-key-concepts"></a><span data-ttu-id="6c5d3-103">Nøkkelkonsepter for ressursstyring</span><span class="sxs-lookup"><span data-stu-id="6c5d3-103">Resource management key concepts</span></span>
+# <a name="resource-management-key-concepts"></a><span data-ttu-id="4c791-103">Nøkkelkonsepter for ressursstyring</span><span class="sxs-lookup"><span data-stu-id="4c791-103">Resource management key concepts</span></span>
 
-<span data-ttu-id="6c5d3-104">_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_</span><span class="sxs-lookup"><span data-stu-id="6c5d3-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="4c791-104">_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_</span><span class="sxs-lookup"><span data-stu-id="4c791-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="6c5d3-105">Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-105">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="6c5d3-106">Muligheten til å finne de riktige ressursene til rett tid, bestille disse ressursene på prosjekter og sørge for at ressurser blir brukt, hjelper organisasjoner med å oppfylle omsetningsmål og kundetilfredshetsmål.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-106">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="6c5d3-107">Du kan bruke prosjektbemanningsfunksjonaliteten i Dynamics 365 Project Operations til følgende oppgaver:</span><span class="sxs-lookup"><span data-stu-id="6c5d3-107">You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:</span></span>
+<span data-ttu-id="4c791-105">Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon.</span><span class="sxs-lookup"><span data-stu-id="4c791-105">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="4c791-106">Muligheten til å finne de riktige ressursene til rett tid, bestille disse ressursene på prosjekter og sørge for at ressurser blir brukt, hjelper organisasjoner med å oppfylle omsetningsmål og kundetilfredshetsmål.</span><span class="sxs-lookup"><span data-stu-id="4c791-106">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="4c791-107">Du kan bruke prosjektbemanningsfunksjonaliteten i Dynamics 365 Project Operations til følgende oppgaver:</span><span class="sxs-lookup"><span data-stu-id="4c791-107">You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:</span></span>
 
-- <span data-ttu-id="6c5d3-108">Danne prosjektteam ved å bestille tilgjengelige og kvalifiserte ressurser.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-108">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="6c5d3-109">Opprette generelle teammedlemsoppføringer og definere rollene og ressursorganisasjonsenheten.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-109">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="6c5d3-110">Generere ressurskrav for generelle teammedlemmer fra oppgavetilordningene.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-110">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="6c5d3-111">Samsvare ferdigheter ved å identifisere ferdighetene som er definert i ressursbehovet, mot tilgjengelig ressurskompetanse.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-111">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="6c5d3-112">Erstatte ressurser.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-112">Substitute resources.</span></span>
-- <span data-ttu-id="6c5d3-113">Rette inn prosjektplantilordninger og ressursbestillinger.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-113">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="6c5d3-114">Avstemme ulikheter i bestillinger og tilordninger.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-114">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="6c5d3-115">Endre ressursbestillinger som svar på fraværsstatus.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-115">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="6c5d3-116">Samarbeide mellom prosjektledere og ressursledere.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-116">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="6c5d3-117">Vise historikken for ressursutnyttelsen mot et mål, inkludert en analyse av hvordan ressursens tid ble brukt.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-117">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="6c5d3-118">Vedlikeholde kompetanse og ferdigheter.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-118">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="4c791-108">Danne prosjektteam ved å bestille tilgjengelige og kvalifiserte ressurser.</span><span class="sxs-lookup"><span data-stu-id="4c791-108">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="4c791-109">Opprette generelle teammedlemsoppføringer og definere rollene og ressursorganisasjonsenheten.</span><span class="sxs-lookup"><span data-stu-id="4c791-109">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="4c791-110">Generere ressurskrav for generelle teammedlemmer fra oppgavetilordningene.</span><span class="sxs-lookup"><span data-stu-id="4c791-110">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="4c791-111">Samsvare ferdigheter ved å identifisere ferdighetene som er definert i ressursbehovet, mot tilgjengelig ressurskompetanse.</span><span class="sxs-lookup"><span data-stu-id="4c791-111">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="4c791-112">Erstatte ressurser.</span><span class="sxs-lookup"><span data-stu-id="4c791-112">Substitute resources.</span></span>
+- <span data-ttu-id="4c791-113">Rette inn prosjektplantilordninger og ressursbestillinger.</span><span class="sxs-lookup"><span data-stu-id="4c791-113">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="4c791-114">Avstemme ulikheter i bestillinger og tilordninger.</span><span class="sxs-lookup"><span data-stu-id="4c791-114">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="4c791-115">Endre ressursbestillinger som svar på fraværsstatus.</span><span class="sxs-lookup"><span data-stu-id="4c791-115">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="4c791-116">Samarbeide mellom prosjektledere og ressursledere.</span><span class="sxs-lookup"><span data-stu-id="4c791-116">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="4c791-117">Vise historikken for ressursutnyttelsen mot et mål, inkludert en analyse av hvordan ressursens tid ble brukt.</span><span class="sxs-lookup"><span data-stu-id="4c791-117">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="4c791-118">Vedlikeholde kompetanse og ferdigheter.</span><span class="sxs-lookup"><span data-stu-id="4c791-118">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="6c5d3-119">Du kan bemanne prosjektet med et team med generelle eller navngitte ressurser i Project Operations.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-119">You can staff your project with a team of generic or named resources in Project Operations.</span></span> <span data-ttu-id="6c5d3-120">Du kan bruke forskjellige metoder til å legge til og tilordne teammedlemmer og til å administrere bestillinger og tilordninger.</span><span class="sxs-lookup"><span data-stu-id="6c5d3-120">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> 
+<span data-ttu-id="4c791-119">Du kan bemanne prosjektet med et team med generelle eller navngitte ressurser i Project Operations.</span><span class="sxs-lookup"><span data-stu-id="4c791-119">You can staff your project with a team of generic or named resources in Project Operations.</span></span> <span data-ttu-id="4c791-120">Du kan bruke forskjellige metoder til å legge til og tilordne teammedlemmer og til å administrere bestillinger og tilordninger.</span><span class="sxs-lookup"><span data-stu-id="4c791-120">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> 
