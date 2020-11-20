@@ -3,7 +3,7 @@ title: Sette opp fakturafrekvenser
 description: Slik setter du opp fakturafrekvenser i Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081836"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132054"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Sette opp fakturafrekvenser (Project Service)
 
@@ -35,11 +35,11 @@ ms.locfileid: "4081836"
   
 2.  Klikk **Ny**.  
   
-3.  I **Generelt** -området skriver du inn et navn for fakturafrekvensen i **Navn**.  
+3.  I **Generelt**-området skriver du inn et navn for fakturafrekvensen i **Navn**.  
   
-4.  I **Periode** velger du **Månedlig** , **Hver fjortende dag** eller **Ukentlig**.  
+4.  I **Periode** velger du **Månedlig**, **Hver fjortende dag** eller **Ukentlig**.  
   
-5.  Hvis du har angitt periode på månedlig eller hver fjortende dag, går du til **Dager for kjøring** , velger **Dag i perioden** for å fakturere på den angitte dagen i perioden (enten det er ukedag eller helg) eller velger **Ukedag i perioden** for å fakturere på den angitte ukedagen for perioden.  
+5.  Hvis du har angitt periode på månedlig eller hver fjortende dag, går du til **Dager for kjøring**, velger **Dag i perioden** for å fakturere på den angitte dagen i perioden (enten det er ukedag eller helg) eller velger **Ukedag i perioden** for å fakturere på den angitte ukedagen for perioden.  
   
 6.  Hvis du har angitt en månedlig periode, går du til **Kjøringer per måned** og velger du hvor mange ganger i måneden du vil kjøre fakturaen.  
   

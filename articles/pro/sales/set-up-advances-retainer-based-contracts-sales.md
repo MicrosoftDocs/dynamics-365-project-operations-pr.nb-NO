@@ -1,21 +1,21 @@
 ---
-title: Forskudd og honorarbaserte kontrakter
+title: Forskudd og honorarbaserte kontrakter – Lite
 description: Dette emnet gir information om hvordan honorarbaserte kontraktmodeller og forskudd i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088033"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180879"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Forskudd og honorarbaserte kontrakter 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Forskudd og honorarbaserte kontrakter – Lite
 
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
@@ -33,7 +33,7 @@ I tillegg til en periodisk honorarbasert tidsplan kan Project Operations registr
 
 Honoraret i Project Operations er ikke tilgjengelig for bruk før det er fakturert til kunden. Dette angis av følgende felt i delrutenettet for forskudd og honorarer.
 
-| Felt | Relevans, formål og veiledning | Nedstrøms påvirkning |
+| Felt | Beskrivelse | Nedstrøms påvirkning |
 | --- | --- | --- |
 | Tilgjengelig beløp | Beløpet som er tilgjengelig for bruk i honorar- eller forskuddsoppføringen. | Før forskuddet eller honoraret er fakturert, er det ikke tilgjengelig for bruk, noe som betyr at det tilgjengelige beløpet vil være null. |
 | Brukt beløp | Beløpet som allerede er brukt for honoraret eller forskuddet. | Et forskudd eller honorar kan avstemmes delvis på en faktura med faktiske kostnader, der en del av det er merket som allerede brukt. Resten av forskudds- eller honorarbeløpet er tilgjengelig for avstemming på en fremtidig faktura med faktiske kostnader. |

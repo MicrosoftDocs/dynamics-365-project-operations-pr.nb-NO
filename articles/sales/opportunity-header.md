@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081495"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181239"
 ---
-# <a name="opportunity-headersummary"></a>Hode/sammendrag for salgsmulighet
+# <a name="opportunity-settings"></a>Innstillinger for salgsmulighet
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
@@ -26,9 +26,9 @@ Prosjektrelaterte salgsmuligheter i Dynamics 365 Project Operations er utvidelse
 
 Tabellen nedenfor inneholder feltene i en prosjektbasert salgsmulighet som er enten unike for Project Operations, eller som har viktige endringer i virkemåten fra salgsmulighetene i Sales.
 
-| **Felt** | **Plassering** | **Relevans, formål og veiledning** | **Nedstrøms påvirkning** |
+| **Felt** | **Plassering** | **Beskrivelse** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |
-| Type | Kategorien Generelt (skjult) | Dette alternativsettfeltet inneholder følgende alternativer:</br>- Arbeidsbasert (bare tilgjengelig med Project Operations)</br>- Varebasert (bare tilgjengelig når Project Operations og Sales er installert)</br>- Basert på service og vedlikehold (tilgjengelig når Field Service er installert) | Når du bruker Project Operations, settes denne feltverdien automatisk til **Arbeidsbasert** , som klassifiserer salgsmuligheten som prosjektbasert. En salgsmulighet må være prosjektbasert for å aktivere alle prosjektspesifikke utvidelser og funksjonalitet i den salgsprosessen nedstrøms for denne avtalen. |
+| Type | Kategorien Generelt (skjult) | Dette alternativsettfeltet inneholder følgende alternativer:</br>- Arbeidsbasert (bare tilgjengelig med Project Operations)</br>- Varebasert (bare tilgjengelig når Project Operations og Sales er installert)</br>- Basert på service og vedlikehold (tilgjengelig når Field Service er installert) | Når du bruker Project Operations, settes denne feltverdien automatisk til **Arbeidsbasert**, som klassifiserer salgsmuligheten som prosjektbasert. En salgsmulighet må være prosjektbasert for å aktivere alle prosjektspesifikke utvidelser og funksjonalitet i den salgsprosessen nedstrøms for denne avtalen. |
 | Eiende firma | Generelt, kategori | Dette er firmaet eller den juridiske enheten som skal levere prosjektet for kunden. | Denne feltinformasjonen kopieres til det tilsvarende feltet i prosjekttilbudet, som opprettes fra denne salgsmuligheten. |
 | Kontakt | Generelt, kategori | Referanse til kundens hovedkontakt for denne avtalen. | |
 | Konto | Generelt, kategori | Referanse til kundens firma- eller forretningsforbindelsesoppføring. | |

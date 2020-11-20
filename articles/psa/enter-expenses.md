@@ -3,7 +3,7 @@ title: Angi utgifter
 description: Slik angir du utgifter i Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081824"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132930"
 ---
 # <a name="enter-expenses-project-service"></a>Angi utgifter (Project Service)
 
@@ -39,7 +39,7 @@ Angi utgiftene minst ukentlig, eller så ofte forespurt av ledere, for å sikre 
   
 3. Hvis du vil angi en utgift, kan du enten klikke **Ny** eller dobbeltklikke i kalenderen under dagen du vil angi tid for.  
   
-4. Fyll ut feltene i **Ny utgift** -skjemaet, og klikk deretter **Lagre**.  
+4. Fyll ut feltene i **Ny utgift**-skjemaet, og klikk deretter **Lagre**.  
   
 5. Fortsett å angi utgifter for uken. Når du er ferdig, og alt ser riktig ut, klikker du **Send**. En leder vil se gjennom og godkjenne utgiftene.  
   
@@ -49,7 +49,7 @@ Angi utgiftene minst ukentlig, eller så ofte forespurt av ledere, for å sikre 
   
    Hvis du bruker mobilappen:  
   
-8. På menyen, gå til **Utgifter**.     Du kan bytte til **Dag** , **Uke** eller **Måned** eller gå til forrige eller neste tidsperiode.  
+8. På menyen, gå til **Utgifter**.     Du kan bytte til **Dag**, **Uke** eller **Måned** eller gå til forrige eller neste tidsperiode.  
   
 9. Trykk **…** og trykk deretter **Ny**.  
   

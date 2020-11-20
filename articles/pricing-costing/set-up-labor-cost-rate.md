@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081517"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180609"
 ---
 # <a name="set-up-labor-cost-rates"></a>Konfigurere kostnadssatser for arbeid
 
@@ -22,25 +22,25 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Hver prisliste har et sett med arbeidssatser (rollepriser), som er rettet inn etter innholdet og datogyldigheten for prislisten.
 
-1. Opprett en prisliste, og i delrutenettet i kategorien **Rollepris** velger du **+ Ny rollepris**.
+1. Opprett en prisliste, og velg **Ny rolle** i delrutenettet i kategorien **Rollepris**.
 2. Velg rollen og organisasjonsenheten på **hurtigopprettingssiden**.
 3. Angi annen obligatorisk informasjon i feltene.
 
 Tabellen nedenfor inneholder noen av feltene som er viktige når du oppretter arbeidssatser i en kostprisliste.
 
-| Felt | Sted | Relevans, formål og veiledning | Nedstrøms påvirkning |
+| Felt | Sted | Beskrivelse | Nedstrøms påvirkning |
 | --- | --- | --- | --- |
 | Rolle | Sidene **Generelt** og **Hurtigoppretting** | Velg rollen som kostnadssatsen gjelder for. | Rollen på det innkommende estimatet eller den faktiske verdien samsvares mot denne linjen for å standardisere kostnaden for rollen. |
 | Ressursstyringsfirma | Sidene **Generelt** og **Hurtigoppretting** | Velg den juridiske enheten som rollen er tilordnet til. For eksempel en utvikler fra Fabrikam India eller en utvikler fra Fabrikam USA. | Resursfirmaet på det innkommende estimatet eller den faktiske verdien samsvares mot denne linjen for å standardisere kostnadssatsen for rollen. |
 | Ressursenhet | Sidene **Generelt** og **Hurtigoppretting** | Velg organisasjonsenheten eller divisjonen av firmaet som denne rollen skal brukes fra. For eksempel en utvikler fra robotavdelingen hos Fabrikam India eller en utvikler fra programvareavdelingen hos Fabrikam USA. | Resursenheten på det innkommende estimatet eller den faktiske verdien samsvares mot denne linjen for å standardisere kostnaden for rollen. |
-| Pris | Sidene **Generelt** og **Hurtigoppretting** | Angi kostnadssatsen for kombinasjonen av ressursfirma og ressursenhet for rollen. For eksempel en utvikler fra Fabrikam India koster 1000 INR, eller en utvikler fra Fabrikam USA koster 150 USD. | Prisen er kostnadssatsen som brukes som standard på kostnaden per enhet på det innkommende estimatet eller den faktiske linjen i **Tid** -transaksjonsklassen. |
-| Valuta | Sidene **Generelt** og **Hurtigoppretting** | Som standard kommer valutaverdien fra valutaen i hodet i kostprislsiten, men dette kan overstyres. En utvikler fra Fabrikam India koster for eksempel 1000 INR. En utvikler fra Fabrikam USA koster 150 USD. | Denne valutaen er standardvalutaen for kostnaden per enhet på den innkommende faktiske kostnadslinjen for **Tid** -transaksjonsklassen. I et prosjektestimat konverteres valutaverdien til prosjektvalutaen, og den vises i den tidsinndelte visningen av estimatet. |
+| Pris | Sidene **Generelt** og **Hurtigoppretting** | Angi kostnadssatsen for kombinasjonen av ressursfirma og ressursenhet for rollen. For eksempel en utvikler fra Fabrikam India koster 1000 INR, eller en utvikler fra Fabrikam USA koster 150 USD. | Prisen er kostnadssatsen som brukes som standard på kostnaden per enhet på det innkommende estimatet eller den faktiske linjen i **Tid**-transaksjonsklassen. |
+| Valuta | Sidene **Generelt** og **Hurtigoppretting** | Som standard kommer valutaverdien fra valutaen i hodet i kostprislsiten, men dette kan overstyres. En utvikler fra Fabrikam India koster for eksempel 1000 INR. En utvikler fra Fabrikam USA koster 150 USD. | Denne valutaen er standardvalutaen for kostnaden per enhet på den innkommende faktiske kostnadslinjen for **Tid**-transaksjonsklassen. I et prosjektestimat konverteres valutaverdien til prosjektvalutaen, og den vises i den tidsinndelte visningen av estimatet. |
 | Tidsplan for enhet | Sidene **Generelt** og **Hurtigoppretting** | Enhetsplanen bruker tid som standard og kan ikke endres i rolleprisenheten fordi den brukes til å uttrykke priser etter tidsenheter. | Dette har ingen innvirkning nedstrøms. |
-| Enhet | Sidene **Generelt** og **Hurtigoppretting** | som standard kommer verdien fra **Tidsenhet** -feltet i hodet i kostprislisten. Verdien kan overstyres. En utvikler fra Fabrikam India koster for eksempel 1000 INR per **dag i India**. En utvikler fra Fabrikam USA koster 150 USD **per dag i USA**. | Systemet bruker enhetssystemet og konverteringen i basisenheter til å beregne en kostnad per enhet, for å beregne standardprisen per enhet på et innkommende estimat eller en faktisk linje. Et estimat er for eksempel 10 **dager i India** med arbeid for en utvikler fra India, og enheten **dag i India** defineres som 10 timer. Ved kostnadsberegnings av denne estimatlinjen beregner programmet enhetskosten på estimatet som: 1000 INR / 10 timer = 100 INR per time, som konverteres til USD og vises som enhetskostnad på **Prosjektestimater** -siden. |
+| Enhet | Sidene **Generelt** og **Hurtigoppretting** | som standard kommer verdien fra **Tidsenhet**-feltet i hodet i kostprislisten. Verdien kan overstyres. En utvikler fra Fabrikam India koster for eksempel 1000 INR per **dag i India**. En utvikler fra Fabrikam USA koster 150 USD **per dag i USA**. | Systemet bruker enhetssystemet og konverteringen i basisenheter til å beregne en kostnad per enhet, for å beregne standardprisen per enhet på et innkommende estimat eller en faktisk linje. Et estimat er for eksempel 10 **dager i India** med arbeid for en utvikler fra India, og enheten **dag i India** defineres som 10 timer. Ved kostnadsberegnings av denne estimatlinjen beregner programmet enhetskosten på estimatet som: 1000 INR / 10 timer = 100 INR per time, som konverteres til USD og vises som enhetskostnad på **Prosjektestimater**-siden. |
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Overføre prising og kostnader for ressurser utenfor divisjonen eller den juridiske enheten
 
-I prosjektbaserte selskaper er det vanlig å bruke ansatte fra ulike juridiske enheter eller divisjoner på prosjekter. Et prosjekt kan utføres av én juridisk enhet, men de ansatte eller konsulenter som arbeider med prosjekt, kan komme fra samme juridiske enhet eller fra en annen, eller en kombinasjon av begge deler. I Dynamics 365 Project Operations kalles den juridiske enheten som eier leveringen av prosjektet, for det **eiende selskapet** , og divisjonen som eier leveringen, kalles for en **kontraktenheten**. Andre juridiske enheter som leverer ressurser, kalles for **ressursselskaper** , og divisjonene som leverer ressurser, kalles for **ressursenheter**. I de fleste land kreves det at selskaper må forsikre seg om at den juridiske ressursenheten eller divisjonen, belaster det eiende firmaet og kontraktenheten for bruk av ressurser.
+I prosjektbaserte selskaper er det vanlig å bruke ansatte fra ulike juridiske enheter eller divisjoner på prosjekter. Et prosjekt kan utføres av én juridisk enhet, men de ansatte eller konsulenter som arbeider med prosjekt, kan komme fra samme juridiske enhet eller fra en annen, eller en kombinasjon av begge deler. I Dynamics 365 Project Operations kalles den juridiske enheten som eier leveringen av prosjektet, for det **eiende selskapet**, og divisjonen som eier leveringen, kalles for en **kontraktenheten**. Andre juridiske enheter som leverer ressurser, kalles for **ressursselskaper**, og divisjonene som leverer ressurser, kalles for **ressursenheter**. I de fleste land kreves det at selskaper må forsikre seg om at den juridiske ressursenheten eller divisjonen, belaster det eiende firmaet og kontraktenheten for bruk av ressurser.
 
 Fabrikam Corporation må for eksempel sikre at Fabrikam India - robot har et forhandlet et kostnadssatskort med Fabrikam USA - robot eller Fabrikam UK - robot
 
@@ -48,7 +48,7 @@ En utvikler fra Fabrikam India – robot koster $100 ved utlån til Fabrikam US 
 
 ### <a name="set-up-costs-for-outside-resources"></a>Konfigurere kostnader for eksterne ressurser
 
-1. Opprett en kostprisliste kalt *Kostnadssatser for Fabrikam US - robot* , og angi et gyldig datointervall.
+1. Opprett en kostprisliste kalt *Kostnadssatser for Fabrikam US - robot*, og angi et gyldig datointervall.
 2. Angi kostprislisten angir du satser ved å bruke informasjon fra tabellen nedenfor. 
 
 | Rolle | Ressursstyringsfirma | Ressursenhet | Kostnadssats |

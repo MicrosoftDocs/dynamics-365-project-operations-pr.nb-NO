@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081524"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180384"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimere en prosjektbasert tilbudslinje
 
@@ -30,9 +30,9 @@ Hvis du vil beregne en prosjektbasert tilbudslinje, velger du kategorien **Tilbu
 
 Hvis du vil opprette et estimat på en prosjektbasert tilbudslinje, velger du kategorien **Tilbudslinjedetalj**. Linjeelementet du oppretter i denne kategorien, oppsummerer den tilbudte verdien for denne tilbudslinjen. 
 
-Hvis du vil opprette tilbudslinjedetaljer, velger du **+ Ny tilbudslinjedetalj** i delrutenettet **Tilbudslinjedetaljer**. En glidebryter for hurtigoppretting åpner. følgende felt i skjemaet **Tilbudslinje** :
+Hvis du vil opprette tilbudslinjedetaljer, velger du **+ Ny tilbudslinjedetalj** i delrutenettet **Tilbudslinjedetaljer**. En glidebryter for hurtigoppretting åpner. følgende felt i skjemaet **Tilbudslinje**:
 
-| **Felt** | **Plassering** | **Relevans, formål og veiledning** | **Nedstrøms påvirkning** |
+| **Felt** | **Plassering** | **Beskrivelse** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |
 | Beskrivelse | Hurtigoppretting | En beskrivelse av det spesifikke estimatet. | Dette feltet er som standard den relaterte tilbudslinjendetaljen for kostnad som opprettes automatisk. |
 | Transaksjonsklasse | Hurtigoppretting | Denne rullegardinlisten inneholder transaksjonsklassene som er inkludert i kategorien **Generelt** for den prosjektbaserte tilbudslinjen.  | Dette feltet er som standard den relaterte tilbudslinjendetaljen for kostnad som opprettes automatisk. |
@@ -50,11 +50,11 @@ Hvis du vil opprette tilbudslinjedetaljer, velger du **+ Ny tilbudslinjedetalj**
 
 ## <a name="update-prices-on-quote-line-details"></a>Oppdatere priser på tilbudslinjedetaljer
 
-Hvis du har endret priser på prosjektprislisten som er knyttet til tilbudet, eller på kostnadsprislisten for kontraktenheten, kan du velge **Beregn på nytt** på **Tilbud** -siden for å oppdatere prisene i de enkelte tilbudslinjedetaljene for å gjenspeile denne endringen. Når du velger **Beregn på nytt** , vises det en advarsel som informerer deg om at priser på tilbudslinjedetaljer for alle tilbudslinjer i tilbudet blir tilbakestilt. Velg **Ja** for å oppdatere priser for både salgs- og kostnadstilbudslinjedetaljer.
+Hvis du har endret priser på prosjektprislisten som er knyttet til tilbudet, eller på kostnadsprislisten for kontraktenheten, kan du velge **Beregn på nytt** på **Tilbud**-siden for å oppdatere prisene i de enkelte tilbudslinjedetaljene for å gjenspeile denne endringen. Når du velger **Beregn på nytt**, vises det en advarsel som informerer deg om at priser på tilbudslinjedetaljer for alle tilbudslinjer i tilbudet blir tilbakestilt. Velg **Ja** for å oppdatere priser for både salgs- og kostnadstilbudslinjedetaljer.
 
 ## <a name="access-quote-line-details-for-cost"></a>Få tilgang til tilbudslinjedetaljer for kostnad
 
-På fanen **Tilbudslinjedetaljer** velger du en rad i rutenettet for å aktivere enkelte handlinger på verktøylinjen i delrutenettet. Den første handlingen på verktøylinjen i delrutenettet når en tilbudslinjedetalj er valgt, er **Åpne kostnadsdetaljer**. Velg **Åpne kostnadsdetaljer** for å vise den beslektede kostnadssatsen og beløpet for denne tilbuds linjen.
+I kategorien **Tilbudslinjedetaljer** velger du en rad i rutenettet for å aktivere noen handlinger på verktøylinjen i delrutenettet. Den første handlingen på verktøylinjen i rutenettet når en tilbudslinjedetalj er valgt, er **Åpne kostnadsdetaljer**. Velg **Åpne kostnadsdetaljer** for å vise den beslektede kostnadssatsen og beløpet for denne tilbuds linjen.
 
 > [!NOTE]
 > Endring av ressursenhetenhet, antall, dato, rolle eller kategoriverdier på tilbudslinjedetaljene for kostnad, endrer de tilsvarende verdiene i tilbudslinjedetaljene for salg.

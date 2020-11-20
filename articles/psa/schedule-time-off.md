@@ -3,7 +3,7 @@ title: Planlegge fritid
 description: Slik planlegger du fritid i Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081845"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132210"
 ---
 # <a name="schedule-time-off-project-service"></a>Planlegge fritid (Project Service)
 
@@ -39,7 +39,7 @@ Planlegg ferie eller permisjon omtrent på samme måte som når du angir tid for
   
 3.  Hvis du vil angi tiden, kan du enten klikke **Ny** eller dobbeltklikke i kalenderen under dagen du vil angi tid for.  
   
-4.  Fyll ut feltene i **Tidsoppføring** -skjemaet.  
+4.  Fyll ut feltene i **Tidsoppføring**-skjemaet.  
   
 5.  I **Type** velger du **Ferie** eller **fravær**.  
   

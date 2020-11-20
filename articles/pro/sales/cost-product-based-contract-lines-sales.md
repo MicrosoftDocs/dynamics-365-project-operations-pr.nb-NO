@@ -1,26 +1,26 @@
 ---
-title: Produktbaserte kontraktlinjer for kostberegning
+title: Produktbaserte kontraktlinjer for kostberegning – Lite
 description: Dette emnet gir informasjon om oppretting
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4081851"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177253"
 ---
-# <a name="costing-product-based-contract-lines"></a>Produktbaserte kontraktlinjer for kostberegning
+# <a name="cost-product-based-contract-lines---lite"></a>Produktbaserte kontraktlinjer for kostberegning – Lite
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 
-Produktbaserte kontraktlinjer i Dynamics 365 Project operations omfatter feltet **Kostpris** , som lagrer kostprisen for produktet for beregninger av lønnsomhet nedstrøms.
+Produktbaserte kontraktlinjer i Dynamics 365 Project operations omfatter feltet **Kostpris**, som lagrer kostprisen for produktet for beregninger av lønnsomhet nedstrøms.
 
 Når det opprettes en produktbasert kontraktlinje for et katalogprodukt, hentes kostnadene for den produktbaserte kontraktlinjen som standard fra feltet **Standardkostnad** i produktkatalogen. Feltet **Standardkostnad** i produktkatalogen konfigureres i organisasjonens standardvaluta. Når enhetskostnaden er angitt som standard på kontraktlinjen, blir den konvertert til salgsvalutaen i kontrakten.
 

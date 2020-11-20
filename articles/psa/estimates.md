@@ -3,7 +3,7 @@ title: Estimater
 description: Dette emnet inneholder informasjon om estimater i Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081822"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132788"
 ---
 # <a name="estimates"></a>Estimater
 
@@ -47,7 +47,7 @@ PSA tillater ikke materialestimater i kontraktslinjedetaljer.
 
 Prosessene som støttes i en prosjektkontrakt, er fakturaopprettelse og -bekreftelse. Fakturaopprettelse oppretter et utkast av en prosjektbasert faktura som inkluderer alle faktiske beløp for fakturaer som ikke er fakturert, frem til gjeldende dato.
 
-Bekreftelsen gjør kontrakten skrivebeskyttet og endrer statusen fra **Utkast** til **Bekreftet**. Når du har utført denne handlingen, kan du ikke angre den. Ettersom denne handlingen er permanent, er det best å holde kontrakten i en **Utkast** -status.
+Bekreftelsen gjør kontrakten skrivebeskyttet og endrer statusen fra **Utkast** til **Bekreftet**. Når du har utført denne handlingen, kan du ikke angre den. Ettersom denne handlingen er permanent, er det best å holde kontrakten i en **Utkast**-status.
 
 De eneste forskjellene mellom kontraktutkast og bekreftede kontrakter er statusen og det faktum at kontraktutkast kan redigeres, mens bekreftede kontrakter ikke kan dette. Du kan utføre både fakturaopprettelse og sporing av faktiske verdier både i kontraktutkast og bekreftede kontrakter.
 
@@ -59,7 +59,7 @@ Du kan estimere tid og utgifter på prosjekter. PSA tillater ikke estimater av m
 
 Tidsestimater genereres når du oppretter en oppgave og identifiserer attributtene for en generisk ressurs som kreves for å utføre oppgaven. Tidsestimater genereres fra planlagte oppgaver. Tidsestimater opprettes ikke hvis du oppretter generiske teammedlemmer utenfor konteksten i tidsplanen.
 
-Utgiftsestimater angis i rutenettet på **Estimater** -siden.
+Utgiftsestimater angis i rutenettet på **Estimater**-siden.
 
 ## <a name="understanding-estimation"></a>Forstå estimering
 
@@ -81,7 +81,7 @@ Bruk tabellen nedenfor som veiledning for å forstå forretningslogikken i estim
 Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at systemet skal angi verdien i feltet som en standardverdi på den relaterte kostnadslinjen som opprettes, bruker du registreringsverktøyene PreOperationContractLineDetailUpdate og PreOperationQuoteLineDetailUpdate. Disse plugin-modulene må registreres på nytt etter at tilbudslinjedetaljene eller kontraktslinjedetaljene endres. Følg disse trinnene for å fullføre prosessen.
 
 1. Åpne PluginRegistrationTool, og koble til forekomsten på nettet.
-2. Velg **Søk** , og søk etter plugin-modulen for å oppdatere.
+2. Velg **Søk**, og søk etter plugin-modulen for å oppdatere.
 
     ![Dialogboksen Søketre](media/basic-guide-19.png)
 
@@ -90,7 +90,7 @@ Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at syst
 
     ![Velge et trinn i plugin-modulen](media/basic-guide-20.png)
 
-5. I dialogboksen **Oppdater eksisterende trinn** , i feltet **Filtreringsattributter** velger du ellipseknappen ( **...** ):
+5. I dialogboksen **Oppdater eksisterende trinn**, i feltet **Filtreringsattributter** velger du ellipseknappen (**...**):
  
     ![Dialogboksen Oppdater eksisterende trinn](media/basic-guide-21.png)
 

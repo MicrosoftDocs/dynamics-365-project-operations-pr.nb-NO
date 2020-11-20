@@ -3,7 +3,7 @@ title: Behandle ressurser
 description: Dette emnet gir informasjon om hvordan du kan administrere ressurser.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081821"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132345"
 ---
 # <a name="manage-resources"></a>Behandle ressurser
 
@@ -44,7 +44,7 @@ Prosjektledere kan bruke instrumentbordet for ressursledere til å administrere 
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Legge til et teammedlem direkte i et prosjekt
 
-Hvis du vil legge til et teammedlem direkte i et prosjekt, går du til **Prosjekter** -siden og **Team** -kategorien og velger **Ny**. Dialogboksen **Hurtigoppretting: Prosjektteammedlem** vises. I denne dialogboksen kan du utføre disse oppgavene:
+Hvis du vil legge til et teammedlem direkte i et prosjekt, går du til **Prosjekter**-siden og **Team**-kategorien og velger **Ny**. Dialogboksen **Hurtigoppretting: Prosjektteammedlem** vises. I denne dialogboksen kan du utføre disse oppgavene:
 
 - **Bestille en navngitt ressurs** – velg navnet på ressursen i feltet **Bestillbar ressurs**. Velg deretter rollen, angi perioden, og velg en tildelingsmetode. Den navngitte ressursen du har valgt, blir lagt til i prosjektet ved hjelp av den valgte tildelingsmetoden og ressurskalenderen.
 - **Legge til en generell ressurs** – la feltet **Bestillbar ressurs** være tomt, og velg deretter rollen, angi perioden, og velg den foretrukne tildelingsmetoden. En generell ressurs blir lagt til i teamet som en plassholder for å holde behovsmønsteret som brukes til å bestille navngitte ressurser i teamet. Kravet utføres i henhold til prosjektkalenderen.
@@ -60,15 +60,15 @@ Følg fremgangsmåten nedenfor for å angi nødvendige ferdigheter på en genere
 
     ![Generell ressurs bestilt i teamet](media/Resource-Management-image9.png)
 
-2. I visningen **Alle teammedlemmer** , i kolonnen **Ressurskrav** velger du koblingen for å legge til nødvendige ferdigheter for den generelle ressursen.
+2. I visningen **Alle teammedlemmer**, i kolonnen **Ressurskrav** velger du koblingen for å legge til nødvendige ferdigheter for den generelle ressursen.
 
     ![Kobling til krav](media/Resource-Management-image10.png)
 
-3. På siden **Ressurskrav** som vises i **Ferdigheter** -rutenettet, velger du ellipsen ( **...** ) og velger deretter **Legg til nytt kravkjennetegn** for å legge til de nødvendige ferdighetene for utvikleren.
+3. På siden **Ressurskrav** som vises i **Ferdigheter**-rutenettet, velger du ellipsen (**...**) og velger deretter **Legg til nytt kravkjennetegn** for å legge til de nødvendige ferdighetene for utvikleren.
 
     ![Kommandoen Legg til nytt kravkjennetegn](media/Resource-Management-image11.png)
 
-4. I dialogboksen **Hurtigoppretting: Kravkjennetegn** som vises, velger du den ønskede ferdigheten i **Kjennetegn** -feltet. I feltet **Rangeringsverdi** velger du deretter kompetansenivået for ferdigheten. Til slutt, i feltet **Ressurskrav** , angir du kravet for kilderessurser fra organisasjonsenheter eller navngitte ressurser. Velg **Lagre** når du er ferdig.
+4. I dialogboksen **Hurtigoppretting: Kravkjennetegn** som vises, velger du den ønskede ferdigheten i **Kjennetegn**-feltet. I feltet **Rangeringsverdi** velger du deretter kompetansenivået for ferdigheten. Til slutt, i feltet **Ressurskrav**, angir du kravet for kilderessurser fra organisasjonsenheter eller navngitte ressurser. Velg **Lagre** når du er ferdig.
 
     ![Dialogboksen Hurtigoppretting: Kravkjennetegn](media/Resource-Management-image12.png)
 
@@ -124,7 +124,7 @@ I PSA kan du opprette oppgaver og deretter tilordne generelle ressurser til dem.
 
     ![Ny oppgave opprettet](media/Resource-Management-image21.png)
 
-2. I **Ressurser** -feltet velger du **Ressursvelger** -symbolet. Ressursvelgeren vises med eksisterende teammedlemmer for prosjektet.
+2. I **Ressurser**-feltet velger du **Ressursvelger**-symbolet. Ressursvelgeren vises med eksisterende teammedlemmer for prosjektet.
 
     ![Ressursvelger](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ I PSA kan du opprette oppgaver og deretter tilordne generelle ressurser til dem.
 
     ![Navn på en ny generisk ressurs angitt](media/Resource-Management-image23.png)
 
-4. I dialogboksen **Hurtigoppretting: Prosjektteammedlem** som vises, velger du rollen for den generelle ressursen i **Rolle** -feltet. I feltet **Ressursenhet** velger du organisasjonsenheten for den generelle ressursen. Velg deretter **Lagre**.
+4. I dialogboksen **Hurtigoppretting: Prosjektteammedlem** som vises, velger du rollen for den generelle ressursen i **Rolle**-feltet. I feltet **Ressursenhet** velger du organisasjonsenheten for den generelle ressursen. Velg deretter **Lagre**.
 
     ![Dialogboksen Hurtigoppretting: Prosjektteammedlem](media/Resource-Management-image24.png)
 
@@ -191,7 +191,7 @@ I PSA kan du opprette oppgaver og deretter tilordne generelle ressurser til dem.
 
 PSA tilordner ikke begge ressursene til oppgaven fordi denne funksjonaliteten vil gi en mindre forutsigbar tidsplan. I dette enkle eksemplet er det enkelt å dele opp timene likt mellom to ressurser. I mer komplekse scenarier som involverer flere oppgaver og flere ressurser, må imidlertid PSA opprette antagelser om hvordan det skal fordele bestillinger som er mottatt for flere ressurser på tvers av flere oppgaver.
 
-I disse scenariene er prosjektlederen derfor ansvarlig for å analysere flere bestillinger og tilordne dem etter behov. For å kunne tildele bestillinger tilordner prosjektlederen oppgavene fra de generelle ressursene til de navngitte ressursene, og deretter brukes **Avstemming** -visningen til å sikre at tildelingen fungerer med bestillinger.
+I disse scenariene er prosjektlederen derfor ansvarlig for å analysere flere bestillinger og tilordne dem etter behov. For å kunne tildele bestillinger tilordner prosjektlederen oppgavene fra de generelle ressursene til de navngitte ressursene, og deretter brukes **Avstemming**-visningen til å sikre at tildelingen fungerer med bestillinger.
 
 ### <a name="edit-a-resource-requirement"></a>Redigere et ressurskrav
 
@@ -217,7 +217,7 @@ På siden **Ressurskrav** kan prosjektlederen eller ressurslederen også definer
 
 Når du har lagt til en generell eller navngitt ressurs i et prosjektteam, kan du endre ressursens bestillinger.
 
-1. På **Prosjekter** -siden i kategorien **Team** velger du et teammedlem og velger deretter **Vedlikehold bestillinger**.
+1. På **Prosjekter**-siden i kategorien **Team** velger du et teammedlem og velger deretter **Vedlikehold bestillinger**.
 
     ![Planleggingstavlen åpnet for det valgte teammedlemmet](media/Resource-Management-image40.png)
 
@@ -242,7 +242,7 @@ Du kan endre enhver standard eller egendefinert bestillingsstatus.
 Følgende statuser er inkludert i PSA:
 
 - **Annullert** – denne statusen annullerer en bestillingen av en ressurs og frigjør kapasiteten for ressursen.
-- **Forpliktende bestilling** – denne statusen bruker kapasiteten til en ressurs. En bestilling har vanligvis denne statusen når du åpner **Vedlikehold bestillinger** fra rutenettet **Alle teammedlemmer** på **Prosjekter** -siden.
+- **Forpliktende bestilling** – denne statusen bruker kapasiteten til en ressurs. En bestilling har vanligvis denne statusen når du åpner **Vedlikehold bestillinger** fra rutenettet **Alle teammedlemmer** på **Prosjekter**-siden.
 - **Ikke-forpliktende bestilling** – denne statusen legger til en ressurs i et team, men forbruker ikke kapasiteten til ressursen. Den angir at ressursen er reservert for potensielt arbeid, men fremdeles har kapasitet hvis det er nødvendig for andre jobber. Når det gjelder generell ressurstilgjengelighet, har ikke-forpliktende bestillinger en annen status enn forpliktende bestillinger.
 - **Foreslått** – denne statusen representerer et forslag for en ressurs fra en ressursleder eller prosjektleder. Forslag forbruker ikke kapasiteten til en ressurs, og ressursen blir ikke lagt til i prosjektteamet. Hvis du vil ha en forpliktende bestilling av ressursen i teamet, må prosjektlederen godta forslaget.
 
@@ -259,7 +259,7 @@ Når et ressurskrav er generert, kan en prosjektleder sende en ressursforespørs
 
 ![Knappen Send forespørsel](media/Resource-Management-image45.png)
 
-Kommentarer om ressursen kan sendes til ressurslederen ren som oppfyller forespørselen. Når forespørselen er sendt, blir **Status** -feltet for teammedlemmet endret til **Sendt**.
+Kommentarer om ressursen kan sendes til ressurslederen ren som oppfyller forespørselen. Når forespørselen er sendt, blir **Status**-feltet for teammedlemmet endret til **Sendt**.
 
 ![Angi valgfrie kommentarer](media/Resource-Management-image46.png)
 
@@ -269,7 +269,7 @@ Når ressurslederen oppfyller forespørselen, blir det generelle teammedlemmet e
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Bruke et ressursforslag for ressursforespørsler
 
-I stedet for å reservere en ressurs direkte på en ressursforespørsel kan en ressursleder foreslå en ressurs til prosjektlederen. En ressursleder kan bruke dette alternativet når et identisk treff for kravene ikke er tilgjengelige. Når en ressursleder foreslår en ressurs, ser prosjektlederen at **Status** -feltet for det generelle teammedlemmet blir endret til **Må gjennomgås**.
+I stedet for å reservere en ressurs direkte på en ressursforespørsel kan en ressursleder foreslå en ressurs til prosjektlederen. En ressursleder kan bruke dette alternativet når et identisk treff for kravene ikke er tilgjengelige. Når en ressursleder foreslår en ressurs, ser prosjektlederen at **Status**-feltet for det generelle teammedlemmet blir endret til **Må gjennomgås**.
 
 ![Statusen for generelt teammedlems endret til Må gjennomgås](media/Resource-Management-image48.png)
 
@@ -286,7 +286,7 @@ Velg **Godta alle forslag** for å godta alle foreslåtte ressurser eller **Avvi
 
 Noen ganger må en prosjektleder erstatte et teammedlem i et prosjekt.
 
-1. På **Prosjekter** -siden i kategorien **Team** velger du ressursen som trenger erstatning, og velger deretter **Vedlikehold bestillinger**.
+1. På **Prosjekter**-siden i kategorien **Team** velger du ressursen som trenger erstatning, og velger deretter **Vedlikehold bestillinger**.
 2. Utvid ressursen for å vise prosjektene den er tilordnet til.
 
     ![Ressurs utvidet for å vise tilordnede prosjekter](media/Resource-Management-image50.png)
@@ -318,7 +318,7 @@ Noen ganger må en prosjektleder erstatte et teammedlem i et prosjekt.
 
 For teammedlemmer er bestillinger og tildelinger løst sammenkoblet. Ressurser kan med andre ord ha tilordninger, men ikke bestillinger, eller de kan ha bestillinger, men ikke tilordninger. Ideelt sett bør bestillinger og tilordninger rettes inn mot hverandre, slik at ressurser har forpliktet kapasitet til å utføre oppgavetilordningene. Det kan imidlertid hende at bestillinger blir basert på tilgjengelighet, og det kan hende at oppgavetidspunkter endres etter hvert som prosjektet fortsetter. Derfor gir den løse koblingen av bestillinger og tildelinger fleksibilitet.
 
-PSA har en **Avstemming** -kategori som gjør at prosjektledere kan avstemme teammedlemmenes bestillinger og deres tildelinger for prosjektteam.
+PSA har en **Avstemming**-kategori som gjør at prosjektledere kan avstemme teammedlemmenes bestillinger og deres tildelinger for prosjektteam.
 
 ![Kategorien Avstemming](media/Resource-Management-image56.png)
 
@@ -333,11 +333,11 @@ For hver ressurs beregner kategorien forskjellen mellom teammedlemmenes bestilli
 
 Når du i noen tilfeller viser tid på høyere nivå enn dagnivået (for eksempel månedsnivået), kan det hende du ser en netto differanse på null for en ressurs (med andre ord bestillinger = tildelinger). Hvis du imidlertid viser tid på ukenivå, ser du at det er tildelinger på null timer og bestillinger på 40 timer i den første uken, men tildelinger på 40 timer og bestillinger på null timer i den andre uken. Totalt er bestillingene og tilordningene avstemte, men de skiller seg fra én uke til den neste.
 
-Når du viser tid på høyere nivåer, har celler i **Avstemming** -kategorien en indikator som informerer deg om at det er forskjeller på lavere nivåer. Ved å dobbeltklikke i en celle kan du zoome inn for å vise forskjellen. Du kan deretter høyreklikke for å zoome ut. Ved å velge en ressurs og deretter bruke kontrollen **Neste forskjell** på verktøylinjen i rutenettet kan du gå til den neste forskjellen mellom bestillinger og tildelinger for denne ressursen. Deretter kan du bruke kontrollen **Forrige forskjell** til å gå tilbake. Du kan også slå av forskjellsindikatoren og virkemåten for navigasjon under **Innstillinger**.
+Når du viser tid på høyere nivåer, har celler i **Avstemming**-kategorien en indikator som informerer deg om at det er forskjeller på lavere nivåer. Ved å dobbeltklikke i en celle kan du zoome inn for å vise forskjellen. Du kan deretter høyreklikke for å zoome ut. Ved å velge en ressurs og deretter bruke kontrollen **Neste forskjell** på verktøylinjen i rutenettet kan du gå til den neste forskjellen mellom bestillinger og tildelinger for denne ressursen. Deretter kan du bruke kontrollen **Forrige forskjell** til å gå tilbake. Du kan også slå av forskjellsindikatoren og virkemåten for navigasjon under **Innstillinger**.
 
 ![Forskjellsindikator](media/Resource-Management-image57.png)
 
-Hvis du har oppgavetildelinger for en ressurs, men ingen bestillinger, går du til **Prosjekter** -siden, i kategorien **Avstemming** og velger **Utvid bestilling**. Dialogboksen **Utvid bestilling** vises med bestillingen som er nødvendig for å løse ressursens underskudd. Den viser også ressursens eksisterende bestillinger på tvers av alle prosjekter eller andre enheter som kan planlegges. Hvis du velger **OK** for å opprette en bestilling for ressursen, uavhengig av om ressursen er tilgjengelig, kan det oppstå overbestilling.
+Hvis du har oppgavetildelinger for en ressurs, men ingen bestillinger, går du til **Prosjekter**-siden, i kategorien **Avstemming** og velger **Utvid bestilling**. Dialogboksen **Utvid bestilling** vises med bestillingen som er nødvendig for å løse ressursens underskudd. Den viser også ressursens eksisterende bestillinger på tvers av alle prosjekter eller andre enheter som kan planlegges. Hvis du velger **OK** for å opprette en bestilling for ressursen, uavhengig av om ressursen er tilgjengelig, kan det oppstå overbestilling.
 
 ![Dialogboksen Utvid bestilling](media/Resource-Management-image58.png)
 

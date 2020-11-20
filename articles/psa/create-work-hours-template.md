@@ -3,7 +3,7 @@ title: Opprette en mal for arbeidstimer
 description: Slik oppretter du en mal for arbeidstimer i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081630"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133065"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Opprette en mal for arbeidstimer (Project Service)
 
@@ -45,7 +45,7 @@ Før du kan opprette prosjekttidsplaner, må du sette opp en prosjektkalender so
   
 2.  Velg ressursen du vil basere arbeidstimene på.  
   
-3.  Klikk **Lagre kalender som** , skriv inn et navn for malen for arbeidstimer, og klikk deretter **Lagre**.  
+3.  Klikk **Lagre kalender som**, skriv inn et navn for malen for arbeidstimer, og klikk deretter **Lagre**.  
   
 4.  Når du er ferdig med å endre alternativer, klikker du **Lagre og lukk**.  
   

@@ -1,21 +1,21 @@
 ---
-title: Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje
+title: Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje – Lite
 description: Dette emnet gir informasjon om hvordan du legger til belastbare komponenter i kontraktlinjer i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081527"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177163"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje – Lite
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
@@ -34,31 +34,31 @@ Et delsett av de inkluderte komponentene kan merkes som belastbarte ved hjelp av
 
 Belastbare komponenter kan defineres for oppgaver, roller og transaksjonskategorier.
 
-Belastbar er definert i oppgaver for en prosjektkontraktlinje og gjelder for alle transaksjonsklasser som finnes på linjen. Hvis feltet **Inkluder oppgaver** på en kontraktlinje er tomt eller satt til * *Hele prosjektet* *, er ikke **Belastbare oppgaver** -fanen tilgjengelig.
+Belastbar er definert i oppgaver for en prosjektkontraktlinje og gjelder for alle transaksjonsklasser som finnes på linjen. Hvis feltet **Inkluder oppgaver** på en kontraktlinje er tomt eller satt til **Hele prosjektet**, er ikke **Belastbare oppgaver**-fanen tilgjengelig.
 
-Belastbarhet definert for roller for en prosjektkontraktlinje gjelder bare transaksjonsklassen **Tid**. Hvis feltet **Inkluder td** på en kontraktlinje er satt til **Nei** , er ikke **Belastbare roller** -fanen tilgjengelig.
+Belastbarhet definert for roller for en prosjektkontraktlinje gjelder bare transaksjonsklassen **Tid**. Hvis feltet **Inkluder td** på en kontraktlinje er satt til **Nei**, er ikke **Belastbare roller**-fanen tilgjengelig.
 
-Belastbarhet definert for transaksjonskategorier for en prosjektkontraktlinje gjelder bare transaksjonsklassen **Utgift**. Hvis feltet **Inkluder utgifter** på en kontraktlinje er satt til **Nei** , er ikke **Belastbare kategorier** -fanen tilgjengelig.
+Belastbarhet definert for transaksjonskategorier for en prosjektkontraktlinje gjelder bare transaksjonsklassen **Utgift**. Hvis feltet **Inkluder utgifter** på en kontraktlinje er satt til **Nei**, er ikke **Belastbare kategorier**-fanen tilgjengelig.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Oppdatere en prosjektoppgave som belastbar eller ikke-belastbar
 
 En prosjektoppgave kan være belastbar eller ikke-belastbar på en bestemt kontraktlinje, noe som gjør følgende oppsett mulig:
 
-Hvis en prosjektbasert kontraktlinje inkluderer **Tid** og en bestemt oppgave, er **T1** knyttet til den som belastbar. Hvis det er en ny kontraktlinje som inkluderer **Utgift** , kan du knytte T1-oppgaven på kontraktlinjen som ikke-belastbar. Resultatet er at all tid som registreres på oppgaven, er belastbar, og at alle utgifter er ikke-belastbare.
+Hvis en prosjektbasert kontraktlinje inkluderer **Tid** og en bestemt oppgave, er **T1** knyttet til den som belastbar. Hvis det er en ny kontraktlinje som inkluderer **Utgift**, kan du knytte T1-oppgaven på kontraktlinjen som ikke-belastbar. Resultatet er at all tid som registreres på oppgaven, er belastbar, og at alle utgifter er ikke-belastbare.
 
-Du kan konfigurere fakturerings typen for en oppgave på **Belastbare oppgaver** -fanen på kontraktlinjen ved å oppdatere feltet **Faktureringstype** i delrutenettet for kontraktlinjeoppgaver. Du kan også oppdatere feltet **Faktureringstype** i delrutenettet for faktureringsoppsettet for et prosjekt som viser kontraktlinjene som er knyttet til en oppgave.
+Du kan konfigurere faktureringstypen for en oppgave i kategorien **Belastbare oppgaver** på kontraktlinjen ved å oppdatere **Fakturatype**-feltet i delrutenettet for kontraktlinjeoppgaver. Du kan også oppdatere **Faktureringstype**-feltet i delrutenettet for faktureringsoppsettet for oppgaven for prosjektet som viser kontraktlinjene som er knyttet til en oppgave.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Oppdatere en rolle som belastbar eller ikke-belastbar
 
 En rolle kan være belastbar eller ikke-belastbar på en bestemt kontraktlinje.
 
-Du kan konfigurere fakturerings typen for en rolle på **Belastbare roller** -fanen på en kontraktlinje. Dette gjør du ved å oppdatere **Faktureringstype** -feltet i delrutenettet **Belastbare roller**.
+Du kan konfigurere fakturerings typen for en rolle på **Belastbare roller**-fanen på en kontraktlinje. Dette gjør du ved å oppdatere **Faktureringstype**-feltet i delrutenettet **Belastbare roller**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Oppdatere en transaksjonskategori som belastbar eller ikke-belastbar
 
 En transaksjonskategori kan være belastbar eller ikke-belastbar på en bestemt kontraktlinje.
 
-Du kan konfigurere faktureringstypen for en transaksjon på **Belastbare kategorier** -fanen på en prosjektbasert kontraktlinje. Dette gjør du ved å oppdatere **Faktureringstype** -feltet i delrutenettet **Belastbare kategorier**.
+Du kan konfigurere faktureringstypen for en transaksjon på **Belastbare kategorier**-fanen på en prosjektbasert kontraktlinje. Dette gjør du ved å oppdatere **Faktureringstype**-feltet i delrutenettet **Belastbare kategorier**.
 
 ### <a name="resolve-chargeability"></a>Løse belastbarhet
 

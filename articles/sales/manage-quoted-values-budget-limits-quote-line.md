@@ -1,21 +1,21 @@
 ---
-title: Prosjektbaserte tilbudslinjer
+title: Oversikt over prosjektbaserte tilbudslinjer
 description: Dette emnet gir informasjon om hvordan du bruker prosjektbaserte tilbudslinjer for prosjektarbeid.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081487"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181869"
 ---
-# <a name="project-based-quote-lines"></a>Prosjektbaserte tilbudslinjer
+# <a name="project-based-quote-lines-overview"></a>Oversikt over prosjektbaserte tilbudslinjer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
@@ -31,14 +31,14 @@ Prosjektbaserte tilbudslinjer er utformet for å bidra til å estimere prosjekta
 
 Tabellen nedenfor inneholder informasjon om feltene i kategorien **Generelt** på prosjektbaserte tilbudslinjer. Disse feltene bidrar til å definere grunnlaget for en detaljert grunnberegning for prosjektarbeid.
 
-| **Felt** | **Relevans, formål og veiledning** | **Nedstrøms påvirkning** |
+| **Felt** | **Beskrivelse** | **Nedstrøms påvirkning** |
 | --- | --- | --- |
 | Navn | Navnet på tilbudslinjen som skal hjelpe deg med å identifisere den diskrete komponenten i tilbudet som beregnes. | Kopiert til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
 | Faktureringsmetode | På et tilbud som er opprettet fra en salgsmulighet, kopieres denne verdien fra det tilsvarende feltet på salgsmulighetslinjen. Dette feltet inneholder de to hovedkontraktmodellene som støttes av Dynamics 365 Project Operations:</br>- Fast pris</br>- Tid og materiale.| Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
 | Project | Bruk dette valgfrie feltet til å identifisere prosjektet som skal brukes til å levere arbeidet med dette engasjementet. Når et prosjekt tilordnes til en tilbudslinje, hjelper det med å definere belastbare oppgaver og også med å hente inn et prosjektbasert estimat til tilbudslinjen som tilbudslinjedetaljer. Når et prosjekt ikke er tilordnet til en prosjektbasert tilbudslinje, bør estimatet opprettes manuelt ved å opprette hver tilbudslinjedetalj. | Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
-| Inkluder tid | Et **Ja**/**Nei** -flagg angir om tidstransaksjoner eller lønnskostnader på det valgte prosjektet vil bli inkludert i estimatet på denne tilbudslinjen. Verdien **Nei** angir at tidstransaksjoner eller lønnskostnader ikke inkluderes i estimatet på denne tilbudslinjen. Verdien **Ja** angir at tidstransaksjoner eller lønnskostnader inkluderes i estimatet på denne tilbudslinjen. | Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
-| Inkluder utgift | Et **Ja**/**Nei** -flagg angir om utgiftskostnader på det valgte prosjektet vil bli inkludert i estimatet på denne tilbudslinjen. Verdien **Nei** angir at utgiftskostnader ikke inkluderes i estimatet på denne tilbudslinjen. Verdien **Ja** angir at utgiftskostnader inkluderes i estimatet på denne tilbudslinjen. | Denne feltverdien kopieres over til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
-| Inkluder gebyr | Et **Ja**/**Nei** -flagg angir om gebyrer på det valgte prosjektet vil bli inkludert i estimatet på denne tilbudslinjen. Verdien **Nei** angir at gebyrer ikke inkluderes i estimatet på denne tilbudslinjen. Verdien **Ja** angir at gebyrer inkluderes i estimatet på denne tilbudslinjen. | Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
+| Inkluder tid | Et **Ja**/**Nei**-flagg angir om tidstransaksjoner eller lønnskostnader på det valgte prosjektet vil bli inkludert i estimatet på denne tilbudslinjen. Verdien **Nei** angir at tidstransaksjoner eller lønnskostnader ikke inkluderes i estimatet på denne tilbudslinjen. Verdien **Ja** angir at tidstransaksjoner eller lønnskostnader inkluderes i estimatet på denne tilbudslinjen. | Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
+| Inkluder utgift | Et **Ja**/**Nei**-flagg angir om utgiftskostnader på det valgte prosjektet vil bli inkludert i estimatet på denne tilbudslinjen. Verdien **Nei** angir at utgiftskostnader ikke inkluderes i estimatet på denne tilbudslinjen. Verdien **Ja** angir at utgiftskostnader inkluderes i estimatet på denne tilbudslinjen. | Denne feltverdien kopieres over til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
+| Inkluder gebyr | Et **Ja**/**Nei**-flagg angir om gebyrer på det valgte prosjektet vil bli inkludert i estimatet på denne tilbudslinjen. Verdien **Nei** angir at gebyrer ikke inkluderes i estimatet på denne tilbudslinjen. Verdien **Ja** angir at gebyrer inkluderes i estimatet på denne tilbudslinjen. | Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
 | Tilbudsbeløp | Dette er beløpet som skal tilbys til kunden for alt arbeidet som er prognostisert på denne prosjektbaserte tilbudslinjen. På et tilbud som er opprettet fra en salgsmulighet, kopieres denne verdien fra feltet **Kundebudsjett** på salgsmulighetslinjen. Når den prosjektbaserte tilbudslinjen har linjedetaljer, er dette feltet låst for redigering og summeres fra beløpet i tilbudslinjedetaljene. | Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
 | Beregnet mva | Dette er et redigerbart felt for brukeren å legge til det estimerte mva-beløpet på tilbudslinjen. Når en prosjektbasert tilbudslinje har linjedetaljer, er dette feltet låst for redigering og summeres fra avgiftsbeløpet i tilbudslinjedetaljene. | Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
 | Tilbudsbeløp etter mva | Dette feltet er tilbudslinjebeløpet etter mva og er skrivebeskyttet. Beløpet i dette feltet beregnes som *Oppgitt beløp + mva*. | Denne feltverdien kopieres til prosjektkontraktlinjen som opprettes fra denne tilbudslinjen når tilbudet er vunnet. |
@@ -47,11 +47,11 @@ Tabellen nedenfor inneholder informasjon om feltene i kategorien **Generelt** p�
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Valideringsregler for felt i kategorien Generelt på prosjektbaserte tilbudslinjer
 
-**Regel 1** : En bestemt transaksjonsklasse på det valgte prosjektet kan bare inkluderes på én prosjektbasert tilbudslinje i et tilbud.
+**Regel 1**: En bestemt transaksjonsklasse på det valgte prosjektet kan bare inkluderes på én prosjektbasert tilbudslinje i et tilbud.
 
-**Regel 2** : Hvis en salgsmulighet har flere tilbud, kan det finnes tilbudslinjer fra forskjellige tilbud som alle refererer til samme prosjekt og inkluderer samme transaksjonsklasse.
+**Regel 2**: Hvis en salgsmulighet har flere tilbud, kan det finnes tilbudslinjer fra forskjellige tilbud som alle refererer til samme prosjekt og inkluderer samme transaksjonsklasse.
 
-**Regel 3** : Hvis tilbudene ikke tilhører samme salgsmulighet, kan de ikke inneholde samme prosjekt- og transaksjonsklasse.
+**Regel 3**: Hvis tilbudene ikke tilhører samme salgsmulighet, kan de ikke inneholde samme prosjekt- og transaksjonsklasse.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

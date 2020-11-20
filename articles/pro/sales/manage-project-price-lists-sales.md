@@ -1,21 +1,21 @@
 ---
-title: Administrer prosjektprislister i prosjekttilbud
+title: Administrer prosjektprislister i prosjekttilbud– Lite
 description: Dette emnet gir information om å arbeide med prosjektprislister i tilbud. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081543"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175993"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Administrer prosjektprislister i prosjekttilbud (salg)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Administrer prosjektprislister i prosjekttilbud– Lite
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
@@ -29,8 +29,8 @@ Når det ikke er noen prosjektprislister i et prosjekttilbud, får du en advarse
 
 Fullfør fremgangsmåten nedenfor for å opprette eller velge en bestemt prisliste for beregning av prosjektbasert arbeid og utgifter.
 
-1. I tilbudet velger du kategorien **Prosjektpris** , og i delrutenettet velger du **+ Legg til ny prosjektprisliste**.
-2. På hurtigopprettingssiden velger du en prisliste. Rullegardinlisten viser alle prislister som har kontekst angitt til **Salg** , og valutaen samsvarer med valutaen i tilbudet.
+1. I tilbudet velger du kategorien **Prosjektpris**, og i delrutenettet velger du **+ Legg til ny prosjektprisliste**.
+2. På hurtigopprettingssiden velger du en prisliste. Rullegardinlisten viser alle prislister som har kontekst angitt til **Salg**, og valutaen samsvarer med valutaen i tilbudet.
 4. Skriv inn en beskrivelse av tilknytningen for prosjektprislisten, og velg **Lagre og Lukk**.
 
 En tilknytning for prosjektprislisten opprettes.
@@ -49,7 +49,7 @@ Prosjektprislister kan defineres som standard i et prosjekttilbud. Dette oppsett
 
 1. Gå til **Innstillinger** > **Generelt** > **Parametere**.
 2. På listesiden **Aktive parametere** finner du oppføringer og dobbeltklikker på den for å åpne den. 
-3. På **Parametere** -siden velger du kategorien **Prisliste**. Du kan se at listen over standard prislister vises. Dette er en liste over standard kostnads- og salgsprislister. Ved å ha en salgsprisliste tilknyttet her for hver valuta du selger i, sørger du for at denne salgsprislisten som standard brukes i alle tilbud som du oppretter for kunder som har transaksjoner i denne valutaen.
+3. På **Parametere**-siden velger du kategorien **Prisliste**. Du kan se at listen over standard prislister vises. Dette er en liste over standard kostnads- og salgsprislister. Ved å ha en salgsprisliste tilknyttet her for hver valuta du selger i, sørger du for at denne salgsprislisten som standard brukes i alle tilbud som du oppretter for kunder som har transaksjoner i denne valutaen.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Definere kundespesifikke prosjektprislister
 
@@ -57,7 +57,7 @@ Kundespesifikkeprosjekt prislister kan også opprettes når du har forhandlet en
 
 Følg fremgangsmåten nedenfor for å definere en kundespesifikk prosjektprisliste.
 
-1. I **Salg** -området velger du **Kunder**.
+1. I **Salg**-området velger du **Kunder**.
 2. Velg i listen over aktive forretningsforbindelser, og åpne kundeoppføringen du har spesialprisliste for.
 3. I kategorien **Prosjektprislister** kan du opprette en ny prislistetilknytning for å få prosjektprislisten som er spesifikk for denne kunden.
 

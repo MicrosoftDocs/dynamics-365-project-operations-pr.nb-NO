@@ -1,27 +1,27 @@
 ---
-title: Importere estimater for et prosjekt til en prosjektbasert tilbudslinje
+title: Importere estimater for et prosjekt til en prosjektbasert tilbudslinje – Lite
 description: Dette emnet gir informasjon om hvordan du importerer estimater fra et prosjekt til en tilbudslinje.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081522"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177748"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Importere estimater for et prosjekt til en prosjektbasert tilbudslinje
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importere estimater for et prosjekt til en prosjektbasert tilbudslinje – Lite
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 Hvis det opprettes et prosjekt i løpet av trinnet før salg, kan du velge å importere det økonomiske estimatet fra prosjektet til den prosjektbaserte tilbudslinjen.
 
-1. Pass på at den prosjektbaserte tilbudslinjen har prosjektinformasjonen i **Prosjekt** -feltet.
+1. Pass på at den prosjektbaserte tilbudslinjen har prosjektinformasjonen i **Prosjekt**-feltet.
 2. I kategorien **Tilbudslinjedetaljer** velger du **Importer fra prosjektberegningen**.
 3. Velg ett av følgende alternativer for oppsumering i dialogboksen som åpnes.
 
@@ -30,7 +30,7 @@ Hvis det opprettes et prosjekt i løpet av trinnet før salg, kan du velge å im
   - **Rolle** 
   - **Prosjektoppgave**
 
-Avhengig av hva du velger, kopieres estimatet fra prosjektet for alle transaksjonsklasser som er inkludert i tilbudslinjen. Hvis du vil kontrollere hvilke transaksjonsklasser som er inkludert, velger du kategorien **Generelt** på den prosjektbaserte tilbudslinjen, og deretter kontrollerer du verdiene for **Inkluder tid** , **Inkluder utgifter** og **Inkluder gebyrer**.  Hvis du vil se hvilke oppgaver som er inkludert, velger du kategorien **Belastbare oppgaver** på tilbudslinjen.
+Avhengig av hva du velger, kopieres estimatet fra prosjektet for alle transaksjonsklasser som er inkludert i tilbudslinjen. Hvis du vil kontrollere hvilke transaksjonsklasser som er inkludert, velger du kategorien **Generelt** på den prosjektbaserte tilbudslinjen, og deretter kontrollerer du verdiene for **Inkluder tid**, **Inkluder utgifter** og **Inkluder gebyrer**.  Hvis du vil se hvilke oppgaver som er inkludert, velger du kategorien **Belastbare oppgaver** på tilbudslinjen.
 
 Alt etter de tilknyttede oppgavene og de inkluderte transaksjonsklassene, importeres estimatene for disse kombinasjonene av oppgave og transaksjonsklasse til tilbudslinjen.
 

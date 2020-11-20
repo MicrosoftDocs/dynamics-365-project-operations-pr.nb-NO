@@ -1,12 +1,12 @@
 ---
-title: Prosjektprislister
+title: Administrere prosjektprislister i et tilbud
 description: Denne emnet gir informasjon om Project-prislisteenheten.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081846"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177208"
 ---
-# <a name="project-price-lists"></a>Prosjektprislister
+# <a name="manage-project-price-lists-on-a-quote"></a>Administrere prosjektprislister i et tilbud
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations utvider prislisteenheten i Dynamics 365 Sales.
 
 En prisliste inneholder informasjon fra fire ulike enheter:
 
-- **Prisliste** : Denne enheten lagrer informasjon om kontekst, valuta, datogyldighet og tidsenhet for prisingstiden. Konteksten viser om prislisten uttrykker kostnadssatser eller salgssatser. 
-- **Valuta** : Denne enheten lagrer valutakursen i prislisten. 
-- **Dato** : Denne enheten brukes når systemet prøver å angi en standardpris for en transaksjon. Det velges en prislisten som har datogyldighet som inkluderer datoen for transaksjonen. Hvis mer enn én prisliste blir funnet som er gyldig for transaksjonsdatoen og er knyttet til beslektet tilbud, kontrakt eller organisasjonsenhet, blir ingen pris angitt som standard. 
-- **Tid** : Denne entiteten lagrer tidsenheten som prisene er uttrykt for, for eksempel daglige eller timebaserte priser. 
+- **Prisliste**: Denne enheten lagrer informasjon om kontekst, valuta, datogyldighet og tidsenhet for prisingstiden. Konteksten viser om prislisten uttrykker kostnadssatser eller salgssatser. 
+- **Valuta**: Denne enheten lagrer valutakursen i prislisten. 
+- **Dato**: Denne enheten brukes når systemet prøver å angi en standardpris for en transaksjon. Det velges en prislisten som har datogyldighet som inkluderer datoen for transaksjonen. Hvis mer enn én prisliste blir funnet som er gyldig for transaksjonsdatoen og er knyttet til beslektet tilbud, kontrakt eller organisasjonsenhet, blir ingen pris angitt som standard. 
+- **Tid**: Denne entiteten lagrer tidsenheten som prisene er uttrykt for, for eksempel daglige eller timebaserte priser. 
 
 Prislisteenheten har tre relaterte tabeller som lagrer priser:
 
-  - **Rollepris** : Denne tabellen lagrer en sats for en kombinasjon av verdier for rolle og organisasjonsenhet, og brukes til å konfigurere rollebaserte priser for personale.
-  - **Transaksjonskategoripris** : Denne tabellen lagrer priser etter transaksjonskategori og brukes til å definere utgiftskategoripriser.
-  - **Prislisteelementer** : Denne tabellen inneholder priser for katalogprodukter.
+  - **Rollepris**: Denne tabellen lagrer en sats for en kombinasjon av verdier for rolle og organisasjonsenhet, og brukes til å konfigurere rollebaserte priser for personale.
+  - **Transaksjonskategoripris**: Denne tabellen lagrer priser etter transaksjonskategori og brukes til å definere utgiftskategoripriser.
+  - **Prislisteelementer**: Denne tabellen inneholder priser for katalogprodukter.
  
 Prislisten er et rangeringskort. Et rangeringskort er en kombinasjon av prislisteenheten og relaterte rader i tabellene Rollepris, Transaksjonskategoripris og Prislisteelementer.
 
@@ -51,17 +51,17 @@ Prislisten er et rangeringskort. Et rangeringskort er en kombinasjon av prislist
 
 Begrepet *ressursrolle* viser til en rekke ferdigheter, kompetanser og sertifiseringer som en person må ha for å utføre et bestemt sett med oppgaver i et prosjekt.
 
-Personaltid tilbys basert på rollen som en ressurs fyller, i et bestemt prosjekt. For personaltid er kostnader og fakturering basert på ressursrolle. Tid kan prises i alle enheter i **Tid** -enhetsgruppen.
+Personaltid tilbys basert på rollen som en ressurs fyller, i et bestemt prosjekt. For personaltid er kostnader og fakturering basert på ressursrolle. Tid kan prises i alle enheter i **Tid**-enhetsgruppen.
 
-**Tid** -enhetsgruppen opprettes når du installerer Project Operations. Den har **Time** som standardenhet. Du kan ikke slette, gi nytt navn til eller redigere attributter for **Tid** -enhetsgruppen eller **Time** -enheten. Du kan imidlertid legge til andre enheter i **Tid** -enhetsgruppen. Hvis du prøver å slette **Tid** -enhetsgruppen eller **Time** -enheten, kan det oppstå feil i forretningslogikken.
+**Tid**-enhetsgruppen opprettes når du installerer Project Operations. Den har **Time** som standardenhet. Du kan ikke slette, gi nytt navn til eller redigere attributter for **Tid**-enhetsgruppen eller **Time**-enheten. Du kan imidlertid legge til andre enheter i **Tid**-enhetsgruppen. Hvis du prøver å slette **Tid**-enhetsgruppen eller **Time**-enheten, kan det oppstå feil i forretningslogikken.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transaksjonskategorier og utgiftskategorier
 
 Reiseutgifter og andre utgifter som påløper for prosjektkonsulenter, blir fakturert til kunden. Prising av utgiftskategorier fullføres ved hjelp av prislister. Flyreiser, hotell og leiebil er eksempler på utgiftskategorier. Hver prislistelinje for utgifter angir prising for en bestemt utgiftskategori. Følgende tre metoder brukes til prisutgiftskategorier:
 
-- **Kostnad** : Utgiftskostnaden faktureres til kunden, og ingen påslag brukes.
-- **Påslagsprosent** : Prosentandelen for den faktiske kostnaden som faktureres til kunden. 
-- **Pris per enhet** : En faktureringspris er angitt for hver enhet i utgiftskategorien. Beløpet som blir fakturert til kunden, beregnes basert på antall utgiftsenheter som konsulenten rapporterer. Reisegodtgjørelse bruker pris per enhet. For eksempel kan utgiftskategorien for reisegodtgjørelse konfigureres for 30 USD per dag eller 2 USD per mile. Når en konsulent rapporterer reisegodtgjørelse i et prosjekt, beregnes beløpet til fakturering basert på antall kilometer som er rapportert av konsulenten.
+- **Kostnad**: Utgiftskostnaden faktureres til kunden, og ingen påslag brukes.
+- **Påslagsprosent**: Prosentandelen for den faktiske kostnaden som faktureres til kunden. 
+- **Pris per enhet**: En faktureringspris er angitt for hver enhet i utgiftskategorien. Beløpet som blir fakturert til kunden, beregnes basert på antall utgiftsenheter som konsulenten rapporterer. Reisegodtgjørelse bruker pris per enhet. For eksempel kan utgiftskategorien for reisegodtgjørelse konfigureres for 30 USD per dag eller 2 USD per mile. Når en konsulent rapporterer reisegodtgjørelse i et prosjekt, beregnes beløpet til fakturering basert på antall kilometer som er rapportert av konsulenten.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prising og overstyringer av prosjektsalg
 
@@ -103,7 +103,7 @@ Du kan opprette avtalespesifikke overstyringer for valgte priser i prosjektprisl
 
 Som standard får en prosjektkontrakt alltid en kopi av hovedprislisten for salg i stedet for en direkte kobling til den. Denne virkemåten bidrar til å garantere at prisavtaler som gjøres med en kunde for en arbeidserklæring, ikke endrer seg hvis hovedprislisten endres.
 
-Du kan imidlertid bruke en hovedprisliste i et tilbud. Du kan også kopiere en hovedprisliste og redigere den for å opprette en egendefinert prisliste som bare gjelder for dette tilbudet. Hvis du vil opprette en ny prisliste som er spesifikk for et tilbud, går du til **Tilbud** -siden og velger **Opprett egendefinert prising**. Du kan bare få tilgang til den avtalespesifikke prosjektprislisten fra tilbudet. 
+Du kan imidlertid bruke en hovedprisliste i et tilbud. Du kan også kopiere en hovedprisliste og redigere den for å opprette en egendefinert prisliste som bare gjelder for dette tilbudet. Hvis du vil opprette en ny prisliste som er spesifikk for et tilbud, går du til **Tilbud**-siden og velger **Opprett egendefinert prising**. Du kan bare få tilgang til den avtalespesifikke prosjektprislisten fra tilbudet. 
 
 Når du oppretter en egendefinert prosjektprisliste, kopieres bare prosjektkomponentene i prislisten. Med andre ord opprettes det en ny prisliste som en kopi av den eksisterende prosjektprislisten som er knyttet til tilbudet, og denne nye prislisten har bare relaterte rollepriser og transaksjonskategoripriser.
   

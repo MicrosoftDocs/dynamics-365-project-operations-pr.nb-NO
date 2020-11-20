@@ -1,21 +1,21 @@
 ---
-title: Registrer deg for et forhåndsversjonsbonnement
+title: Registrer deg for et forhåndsversjonsbonnement – Lite
 description: Dette emnet gir informasjon om hvordan du abonnerer på og distribuerer Lite-distribusjon i Project Operations – avtale til proformafakturering.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081483"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175903"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Registrer deg for et forhåndsversjonsabonnement for Lite-distribusjon – avtale til proformafakturering
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Registrer deg for et forhåndsversjonsbonnement – Lite 
 
 Dette eforklarer hvordan du abonnerer på tilbudet om forhåndsversjon for partnere og distribuerer Lite-distribusjon i Dynamics 365 Project Operations – avtale til proformafakturering.
 
@@ -79,12 +79,12 @@ Gjenta de samme trinnene som med den første tilbudskoden. Pass på at du legger
 1. Klargjør et nytt Project Operations CDS-distribusjonsmiljø ved å følge instruksjonene i emnet [CDS-distribusjonsmodell](lite-deployment.md). Når du velger miljøtypen, må du passe på å bruke **Prøveversjon (abonnementsbasert)**.
 ![Nytt miljø](./media/19CreateEnvironment.png)
 
-2. Velg innstillingen **Enable Dynamics 365-apper** , og la **Distribuer disse appene automatisk** stå tomt.  
+2. Velg innstillingen **Enable Dynamics 365-apper**, og la **Distribuer disse appene automatisk** stå tomt.  
 3. Velg **Lagre** for å opprette miljøet.
 
 ![Legg til database](./media/20CreateEnvironment1.png)
 
-4. Når du har opprettet miljøet, installerer du **Microsoft Dynamics 365 Project Operations** -løsningen. 
+4. Når du har opprettet miljøet, installerer du **Microsoft Dynamics 365 Project Operations**-løsningen. 
 
 ![Installere løsning](./media/21InstallSolution.png)
 

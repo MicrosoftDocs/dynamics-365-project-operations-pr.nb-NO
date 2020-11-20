@@ -1,21 +1,21 @@
 ---
-title: Nøkkelkonsepter for prosjekttilbud
+title: Tilbud – nøkkelkonsepter – Lite
 description: Dette emnet gir informasjon om hvordan du bruker prosjekttilbud i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081544"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178018"
 ---
-# <a name="project-quote-key-concepts"></a>Nøkkelkonsepter for prosjekttilbud
+# <a name="quotes---key-concepts---lite"></a>Tilbud – nøkkelkonsepter – Lite
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
@@ -42,7 +42,7 @@ I motsetning til kostnader kan salgsverdier bare registreres i salgsvalutaen.
 
 Prosjekter har vanligvis kontraktmodeller basert på faste gebyrer og forbruk. Dette representeres i Project Operations som **Faktureringsmetode** og har to verdier: tid og materiale og fast pris.
 
-- **Tid og materiale** : Dette er en forbruksbasert kontraktmodell der hver kostnad som påløper, støttes av den tilsvarende omsetningen. Etter hvert som du beregner eller oppfører flere kostnader, øker også det tilhørende estimerte og faktiske salget. Du kan angi grenser som ikke må overskrides, på tilbudslinjer som har denne faktureringsmetoden. Dette setter et tak på den faktiske omsetningen. Beregnet omsetning påvirkes ikke av grensene som ikke må overskrides.
+- **Tid og materiale**: Dette er en forbruksbasert kontraktmodell der hver kostnad som påløper, støttes av den tilsvarende omsetningen. Etter hvert som du beregner eller oppfører flere kostnader, øker også det tilhørende estimerte og faktiske salget. Du kan angi grenser som ikke må overskrides, på tilbudslinjer som har denne faktureringsmetoden. Dette setter et tak på den faktiske omsetningen. Beregnet omsetning påvirkes ikke av grensene som ikke må overskrides.
 - **Fast pris:** Dette er en kontraktmodell med fast gebyr som angir at salgsverdiene er uavhengige av påløpte kostnader. Salgsverdien er fast og endres ikke etter hvert som du beregner eller oppfører flere kostnader.
 
 ## <a name="project-price-lists"></a>Prosjektprislister
@@ -78,7 +78,7 @@ Avtaler for flere kunder inntreffer når det er flere enn én kunde å fakturere
 
 ## <a name="invoice-schedules"></a>Fakturaplaner
 
-Faktureringsplaner er spesifikke for hver tilbudslinje, og de er også valgfrie. Fakturaplaner opprettes basert på bestemte start- og sluttdatoer og fakturahyppighet. Fakturaplaner brukes i kontraktfasen når automatisk oppretting av fakturaer er konfigurert. Tidsplanene er valgfrie i tilbudsfasen. Når fakturaplaner opprettes i **Tilbud** -fasen, kopieres de til prosjektkontrakten som opprettes når et prosjekttilbud blir vunnet.
+Faktureringsplaner er spesifikke for hver tilbudslinje, og de er også valgfrie. Fakturaplaner opprettes basert på bestemte start- og sluttdatoer og fakturahyppighet. Fakturaplaner brukes i kontraktfasen når automatisk oppretting av fakturaer er konfigurert. Tidsplanene er valgfrie i tilbudsfasen. Når fakturaplaner opprettes i **Tilbud**-fasen, kopieres de til prosjektkontrakten som opprettes når et prosjekttilbud blir vunnet.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Endringer fra Dynamics 365 Sales-tilbud:
 

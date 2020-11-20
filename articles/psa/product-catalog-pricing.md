@@ -3,7 +3,7 @@ title: Prising i produktkatalog
 description: Dette emnet inneholder informasjon om hvordan prising i produktkatalogen fungerer i Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081651"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132300"
 ---
 # <a name="product-catalog-pricing"></a>Prising i produktkatalog 
 
@@ -46,11 +46,11 @@ PSA støtter ulike avrundingsalternativer når priser konfigureres som en funksj
 
 > ![Legge til produkter fra en katalog i forskjellige prislister](media/basic-guide-16.png)
 
-Når du oppretter en ny egen definert prisliste for et tilbud ved **Opprett egendefinert prising** på siden **Prosjekttilbud** , lager PSA en kopi av prislisten, og **Enhet** -feltet i overskriften i den nye prislisten settes til **Salgsenhet**. Navnet på den nye prislisten føyes til med navnet på tilbudet og et tidsstempel. Du kan også bruke navnet på den nye prislisten og navnet på tilbudet i egendefinerte arbeidsflyter for å utløse ytterligere gjennomsyn og godkjenninger for tilbud som bruker et egendefinert pris.
+Når du oppretter en ny egen definert prisliste for et tilbud ved **Opprett egendefinert prising** på siden **Prosjekttilbud**, lager PSA en kopi av prislisten, og **Enhet**-feltet i overskriften i den nye prislisten settes til **Salgsenhet**. Navnet på den nye prislisten føyes til med navnet på tilbudet og et tidsstempel. Du kan også bruke navnet på den nye prislisten og navnet på tilbudet i egendefinerte arbeidsflyter for å utløse ytterligere gjennomsyn og godkjenninger for tilbud som bruker et egendefinert pris.
 
  
 ## <a name="default-product-price-list"></a>Standard produktprisliste
-Hver kundeoppføring har et **Standard prisliste** -felt der du kan angi en prisliste som samsvarer med kundens valuta. I PSA blir det ikke automatisk lagt inn en standardverdi i dette feltet. Når en egendefinert prisavtale med en bestemt kunde finnes, kan du bruke dette feltet til å knytte en prisliste til den aktuelle kunden.
+Hver kundeoppføring har et **Standard prisliste**-felt der du kan angi en prisliste som samsvarer med kundens valuta. I PSA blir det ikke automatisk lagt inn en standardverdi i dette feltet. Når en egendefinert prisavtale med en bestemt kunde finnes, kan du bruke dette feltet til å knytte en prisliste til den aktuelle kunden.
 
 Enhetene Salgsmulighet, Tilbud og Prosjektkontrakt bruker følgende rekkefølge til å angi standard prislister for produkter. Den samme rekkefølgen brukes for prosjektprislister.
 
@@ -59,6 +59,6 @@ Enhetene Salgsmulighet, Tilbud og Prosjektkontrakt bruker følgende rekkefølge 
 3.  Kunde
 4.  Globale innstillinger for PSA
 
-**Produkt** -feltet på tilbudslinjen viser som standard alle de aktive produktene i produktprislisten for tilbudet. Hvis et produkt er deaktivert, eller det er et utkastprodukt, vises det ikke, selv om det er i prislisten. 
+**Produkt**-feltet på tilbudslinjen viser som standard alle de aktive produktene i produktprislisten for tilbudet. Hvis et produkt er deaktivert, eller det er et utkastprodukt, vises det ikke, selv om det er i prislisten. 
 
 Produktkataloglinjer legges til som fakturalinjer på den første fakturaen som opprettes for en prosjektkontrakt. Disse fakturalinjene kan slettes på et fakturautkast. I slike tilfeller vil linjene vises på en etterfølgende faktura til de faktureres eller til fakturaen sendes til kunden. I PSA kan du ikke fakturere et delvist antall av en produktfakturalinje. Når produktlinjene fra prosjektkontrakten faktureres, opprettes faktiske verdier. De faktiske verdiene blir imidlertid ikke koblet til den relaterte prosjektenheten. Med andre ord er produktbaserte prosjektkontraktlinjer uavhengige av prosjektbasert forbruk. PSA sporer ikke materialforbruk på prosjekter.

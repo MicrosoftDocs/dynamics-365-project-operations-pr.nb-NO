@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088040"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181150"
 ---
 # <a name="project-contract-settings"></a>Innstillinger for prosjektkontrakt
 
@@ -23,21 +23,21 @@ Dette emnet gir informasjon om felt som gjelder for hele prosjektkontrakten, ink
 
 Tabellen nedenfor viser feltene i en prosjektkontrakt som er unike for Dynamics 365 Project Operations, eller har noen viktige endringer i virkemåten fra salgsordrer i Dynamics 365 Sales.
 
-| Felt | Sted | Relevans, formål og veiledning | Nedstrøms påvirkning |
+| Felt | Sted | Beskrivelse | Nedstrøms påvirkning |
 | --- | --- | --- | --- |
 | Type | Kategorien **Sammendrag** (skjult) | Dette er et alternativsettfelt med følgende alternativer:</br>- **Arbeidsbasert** (bare tilgjengelig når Project Operations er installert)</br>- **- Varebasert** (bare tilgjengelig når Project Operations og Sales er installert)</br>- **Basert på service og vedlikehold** (tilgjengelig når Dynamics 365 Field Service er installert) | I Project Operations er verdien i dette feltet **Arbeidsbasert** som standard, og det klassifiserer kontrakten som en prosjektbasert kontrakt. En kontrakt må være prosjektbasert for å aktivere alle prosjektspesifikke utvidelser og funksjoner. |
-| Eiende firma | **Sammendrag** -fanen | Den juridiske enheten som står for kostnadene og inntektene som påløper fra prosjektene som er tilknyttet denne prosjektkontrakten. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. | Det eiende firmaet tilsvarer konseptet juridisk enhet i modulen **Prosjektstyring og regnskap** i Project Operations. Alle kostnader og inntekter som påløper fra dette prosjektet, blir regnskapsført i hovedboken til det eiende firmaet. |
-| Kunde | **Sammendrag** -fanen | En referanse til kundens firma- eller forretningsforbindelsesoppføring. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. | Valutaen i prosjektkontrakten blir som standard basert på valutaen til kunden. Valutaen kan endres før kontrakten lagres. |
-| Kontoadministrator | **Sammendrag** -fanen | Navnet på kontoadministratoren for denne avtalen. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. | Kontoadministratoren er ansvarlig for å administrere relasjonen med kunden gjennom fullføringen av prosjektet. Basert på oppføringen av den bestillbare ressursen som er knyttet til kontoadministratoren, blir kontraktenheten som standard i prosjektkontrakten. |
-| Kontraktsenhet | **Sammendrag** -fanen | Organisasjonsenheten som er ansvarlig for levering av prosjektene tilknyttet denne kontrakten. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. | Kontraktenheten er avdelingen i firmaet som skal kjøre prosjektene. Hver kontraktenhet har en valuta, og denne valutaen brukes til å rapportere beregnet og faktisk kostnad som påløpte under prosjektet. |
-| Produktprisliste | **Sammendrag** -fanen | Denne prislisten brukes til standardpriser på de produktbaserte kontraktlinjene. Listen over rullegardinalternativer for dette feltet viser en liste over prislister der prislistevalutaen samsvarer med valutaen i kontrakten. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. I prosjektkontrakten hentes dette feltet som standard fra kontooppføringen, men kan endres. | Dette feltet har ingen relevans nedstrøms. |
-| Valuta | **Sammendrag** -fanen | Valutaen som brukes til å rapportere verdien for denne avtalen, og valutaen som kunden blir fakturert i. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. I prosjektkontrakten hentes dette feltet som standard fra kontooppføringen, men kan endres. | Når en kontrakt er lagret, kan ikke dette feltet lenger redigeres. Dette feltet brukes til å standardisere produktet og prosjektprislistene i kontrakten. Valutaen i kontrakten brukes til å samsvare valutaen i prislisten. |
-| Må ikke overskrides-grense | **Sammendrag** -fanen | Dette feltet angir det forhandlede taket for den endelige verdien som kunden har godtatt for denne avtalen. | Taket evalueres under kjøring og gjelder på tvers av alle linjeelementer og prosjekter som er tilknyttet denne avtalen. |
-| Ønsket leveringsdato | **Sammendrag** -fanen | Når en kontrakt er opprettet fra et prosjekttilbud, kopieres dette feltet fra det tilsvarende feltet for prosjekttilbudet. | Denne datoen brukes som sluttdato for å generere fakturaplaner. |
+| Eiende firma | **Sammendrag**-fanen | Den juridiske enheten som står for kostnadene og inntektene som påløper fra prosjektene som er tilknyttet denne prosjektkontrakten. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. | Det eiende firmaet tilsvarer konseptet juridisk enhet i modulen **Prosjektstyring og regnskap** i Project Operations. Alle kostnader og inntekter som påløper fra dette prosjektet, blir regnskapsført i hovedboken til det eiende firmaet. |
+| Kunde | **Sammendrag**-fanen | En referanse til kundens firma- eller forretningsforbindelsesoppføring. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. | Valutaen i prosjektkontrakten blir som standard basert på valutaen til kunden. Valutaen kan endres før kontrakten lagres. |
+| Kontoadministrator | **Sammendrag**-fanen | Navnet på kontoadministratoren for denne avtalen. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. | Kontoadministratoren er ansvarlig for å administrere relasjonen med kunden gjennom fullføringen av prosjektet. Basert på oppføringen av den bestillbare ressursen som er knyttet til kontoadministratoren, blir kontraktenheten som standard i prosjektkontrakten. |
+| Kontraktsenhet | **Sammendrag**-fanen | Organisasjonsenheten som er ansvarlig for levering av prosjektene tilknyttet denne kontrakten. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. | Kontraktenheten er avdelingen i firmaet som skal kjøre prosjektene. Hver kontraktenhet har en valuta, og denne valutaen brukes til å rapportere beregnet og faktisk kostnad som påløpte under prosjektet. |
+| Produktprisliste | **Sammendrag**-fanen | Denne prislisten brukes til standardpriser på de produktbaserte kontraktlinjene. Listen over rullegardinalternativer for dette feltet viser en liste over prislister der prislistevalutaen samsvarer med valutaen i kontrakten. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. I prosjektkontrakten hentes dette feltet som standard fra kontooppføringen, men kan endres. | Dette feltet har ingen relevans nedstrøms. |
+| Valuta | **Sammendrag**-fanen | Valutaen som brukes til å rapportere verdien for denne avtalen, og valutaen som kunden blir fakturert i. Når en kontrakt er opprettet fra et tilbud, kopieres dette feltet fra det tilsvarende feltet for tilbudsoppføringen. I prosjektkontrakten hentes dette feltet som standard fra kontooppføringen, men kan endres. | Når en kontrakt er lagret, kan ikke dette feltet lenger redigeres. Dette feltet brukes til å standardisere produktet og prosjektprislistene i kontrakten. Valutaen i kontrakten brukes til å samsvare valutaen i prislisten. |
+| Må ikke overskrides-grense | **Sammendrag**-fanen | Dette feltet angir det forhandlede taket for den endelige verdien som kunden har godtatt for denne avtalen. | Taket evalueres under kjøring og gjelder på tvers av alle linjeelementer og prosjekter som er tilknyttet denne avtalen. |
+| Ønsket leveringsdato | **Sammendrag**-fanen | Når en kontrakt er opprettet fra et prosjekttilbud, kopieres dette feltet fra det tilsvarende feltet for prosjekttilbudet. | Denne datoen brukes som sluttdato for å generere fakturaplaner. |
 
 Følgende KPI-er er tilgjengelige i kategorien **Kontraktytelse** for en prosjektkontrakt.
 
-| Felt | Sted | Relevans, formål og veiledning |
+| Felt | Sted | Beskrivelse |
 | --- | --- | --- |
 | Kontraktverdi | Samlet kontrakt | Totalverdien for prosjektkontrakten. |
 | Fakturert beløp | Samlet kontrakt | Summen av beløpene på alle fakturaer mot denne kontrakten. |

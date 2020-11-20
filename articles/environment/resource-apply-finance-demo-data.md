@@ -1,21 +1,21 @@
 ---
-title: Bruk Project Operations-demodata for miljø driftet i skyen i Finance
+title: Bruke demodata i et skybasert Finance-miljø
 description: Dette emnet forklarer hvordan du bruker demonstrasjonsdata fra Project Operations i et skydriftet Dynamics 365 Finance-miljø.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096634"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365250"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Bruk Project Operations-demodata for miljø driftet i skyen i Finance
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Bruke demodata i et skybasert Finance-miljø
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
@@ -28,12 +28,12 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Det første settet med uthevede legitimasjoner er legitimasjonen for den lokale forretningsforbindelsen og inneholder en hyperkobling til tilkoblingen til eksternt skrivebord. Legitimasjonen inkluderer brukernavn og passord for miljøadministratoren. Det andre settet med legitimasjon brukes til å logge på SQL Server i dette miljøet.
 
-2. Koble til miljøet ved hjelp av hyperkoblingen i **Lokale forretningsforbindelser** , og bruk **legitimasjonen for den lokale forretningsforbindelsen** til å godkjenne.
-3. Gå til **Internet Information Services** > **Applikasjonsutvalg** > **AOSService** , og stopp tjenesten. Du stopper tjenesten på dette tidspunktet, slik at du kan fortsette å erstatte SQL-databasen.
+2. Koble til miljøet ved hjelp av hyperkoblingen i **Lokale forretningsforbindelser**, og bruk **legitimasjonen for den lokale forretningsforbindelsen** til å godkjenne.
+3. Gå til **Internet Information Services** > **Applikasjonsutvalg** > **AOSService**, og stopp tjenesten. Du stopper tjenesten på dette tidspunktet, slik at du kan fortsette å erstatte SQL-databasen.
 
 ![Stopp AOS](./media/2StopAOS.png)
 
-4. Gå til **Tjenester** , og stopp følgende to elementer:
+4. Gå til **Tjenester**, og stopp følgende to elementer:
 
 - Microsoft Dynamics 365 Unified Operations: Tjenesten for partiadministrasjon
 - Microsoft Dynamics 365 Unified Operations: Rammeverket for import/eksport av data
@@ -44,25 +44,25 @@ Det første settet med uthevede legitimasjoner er legitimasjonen for den lokale 
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
-6. I Object Explorer velger du **Databaser** , og finn **AXDB**. Du skal erstatte databasen med en ny database som er plassert i [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
+6. I Object Explorer velger du **Databaser**, og finn **AXDB**. Du skal erstatte databasen med en ny database som er plassert i [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Kopier zip-filen til den virtuelle maskinen du er koblet eksternt til, og pakk ut zip-innholdet.
-8. I SQL Server Management Studio høyreklikker du på **AxDB** , og deretter velger du **Oppgaver** > **Gjenopprett** > **Database**.
+8. I SQL Server Management Studio høyreklikker du på **AxDB**, og deretter velger du **Oppgaver** > **Gjenopprett** > **Database**.
 
 ![Gjenopprett database](./media/5RestoreDatabase.png)
 
-9. Velg **Kildeenhet** , og naviger til filen som ble pakket ut fra zip-filen du kopierte.
+9. Velg **Kildeenhet**, og naviger til filen som ble pakket ut fra zip-filen du kopierte.
 
 ![Kildeenheter](./media/6SourceDevice.png)
 
-10. Velg **Alternativer** , og velg deretter **Overskriv den eksisterende databasen** og **Lukk eksisterende tilkoblinger til måldatabase**. 
+10. Velg **Alternativer**, og velg deretter **Overskriv den eksisterende databasen** og **Lukk eksisterende tilkoblinger til måldatabase**. 
 11. Velg **OK**.
 
 ![Gjenopprett innstillinger](./media/7RestoreSetting.png)
 
 Du vil motta en bekreftelse på at AXDB-gjenopprettingen var vellykket. Når du har mottatt denne bekreftelsen, kan du lukke SQL Services Management Studio.
 
-12. Gå tilbake til **Internet Information Services** > **Applikasjonsutvalg** > **AOSService** , og start AOSService.
-13. Gå til **Tjenester** , og start de to tjenestene du stoppet tidligere.
+12. Gå tilbake til **Internet Information Services** > **Applikasjonsutvalg** > **AOSService**, og start AOSService.
+13. Gå til **Tjenester**, og start de to tjenestene du stoppet tidligere.
 
 14. Finn AdminUserProvisioning-verktøyet på denne virtuelle maskinen. Se under K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.
 15. Kjør .ext-filen ved å bruke brukeradressen din i feltet **E-postadresse**. 

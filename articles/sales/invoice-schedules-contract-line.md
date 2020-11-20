@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4081852"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180789"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Opprette en fakturaplan på en prosjektbasert kontraktlinje 
 
@@ -25,15 +25,15 @@ Du kan opprette en fakturaplan på en prosjektbasert kontraktlinje. Fakturering 
 
 Når en prosjektbasert kontraktlinje har en faktureringsmetode for tid og materialer, kan du opprette en datobasert fakturaplan. Fullfør fremgangsmåten nedenfor for å generere en datobasert fakturaplan automatisk.
 
-1. Gå til **Innstillinger** > **Fakturafrekvenser** , og konfigurer en fakturafrekvens.
-2. Gå til prosjektkontraktoppføringen, og på **Sammendrag** -fanen i feltet **Ønsket leveringsdato** velger du en dato.
+1. Gå til **Innstillinger** > **Fakturafrekvenser**, og konfigurer en fakturafrekvens.
+2. Gå til prosjektkontraktoppføringen, og på **Sammendrag**-fanen i feltet **Ønsket leveringsdato** velger du en dato.
 3. Åpne kontraktlinjen **Tid og materiale** som du lager den datobaserte fakturaplanen for. 
 4. I kategorien **Fakturaplan** velger du startdatoen for fakturering og fakturafrekvensen.
-5. I delrutenettet velger du **Generer fakturaplan**. Fakturaplanen genereres med feltene **Dato for fakturakjøring** , **Transaksjonsfrist** og **Kjørestatus** angitt på følgende måte:
+5. I delrutenettet velger du **Generer fakturaplan**. Fakturaplanen genereres med feltene **Dato for fakturakjøring**, **Transaksjonsfrist** og **Kjørestatus** angitt på følgende måte:
 
-    - **Dato for fakturakjøring** : Denne datoen er diktert av fakturafrekvensen.
-    - **Transaksjonsfrist** : Dagen før fakturakjøringen.
-    - **Kjørestatus** : Angis automatisk til **Ikke kjørt**. Når den automatiske fakturaopprettingsjobben kjører for en bestemt fakturakjøringsdato, oppdateres dette feltet automatisk til **Kjøringen var vellykket** eller **Kjøring mislyktes**.
+    - **Dato for fakturakjøring**: Denne datoen er diktert av fakturafrekvensen.
+    - **Transaksjonsfrist**: Dagen før fakturakjøringen.
+    - **Kjørestatus**: Angis automatisk til **Ikke kjørt**. Når den automatiske fakturaopprettingsjobben kjører for en bestemt fakturakjøringsdato, oppdateres dette feltet automatisk til **Kjøringen var vellykket** eller **Kjøring mislyktes**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Opprette en fakturaplan for fastpris for en kontraktlinje
 
@@ -44,27 +44,27 @@ Når kontraktlinjen har en fast faktureringsmetode, kan du opprette en milepælb
 
 Fullfør fremgangsmåten nedenfor for å generere en milepælbasert fakturaplan for et fast sett med milepæler som er likt distribuert for kalenderperioden.
 
-1. Gå til **Innstillinger** > **Fakturafrekvenser** , og konfigurer en fakturafrekvens.
-2. Gå til prosjektkontraktoppføringen, og på **Sammendrag** -fanen i feltet **Ønsket leveringsdato** velger du en dato.
-3. Åpne **Fast pris** -kontraktlinjen som du oppretter milepælplanen for. I kategorien **Faktureringsmilepæler** velger du startdatoen for fakturering og fakturafrekvensen. 
-4. I delrutenettet velger du **Generer periodiske milepæler**. Fakturaplanen genereres med feltene **Navn på milepæl** , **Milepældato** og **Milepælbeløp** angitt som følger:
+1. Gå til **Innstillinger** > **Fakturafrekvenser**, og konfigurer en fakturafrekvens.
+2. Gå til prosjektkontraktoppføringen, og på **Sammendrag**-fanen i feltet **Ønsket leveringsdato** velger du en dato.
+3. Åpne **Fast pris**-kontraktlinjen som du oppretter milepælplanen for. I kategorien **Faktureringsmilepæler** velger du startdatoen for fakturering og fakturafrekvensen. 
+4. I delrutenettet velger du **Generer periodiske milepæler**. Fakturaplanen genereres med feltene **Navn på milepæl**, **Milepældato** og **Milepælbeløp** angitt som følger:
 
-    - **Navn på milepæl** : Denne datoen er diktert av fakturafrekvensen.
-    - **Milepældato** : Denne datoen er diktert av fakturafrekvensen.
-    - **Milepælbeløp** : Dette beløpet beregnes ved å dele kontraktbeløpet på kontraktlinjen etter antall milepæler som diktert etter frekfvensen og datoene for faktureringsstart og ønsket levering.
+    - **Navn på milepæl**: Denne datoen er diktert av fakturafrekvensen.
+    - **Milepældato**: Denne datoen er diktert av fakturafrekvensen.
+    - **Milepælbeløp**: Dette beløpet beregnes ved å dele kontraktbeløpet på kontraktlinjen etter antall milepæler som diktert etter frekfvensen og datoene for faktureringsstart og ønsket levering.
 
-    Hvis kontraktlinjen har en verdi i feltet **Estimert mva-beløp** , er dette feltet også fordelt likt for hver milepælved generering av periodiske milepæler.
+    Hvis kontraktlinjen har en verdi i feltet **Estimert mva-beløp**, er dette feltet også fordelt likt for hver milepælved generering av periodiske milepæler.
 
-Faktureringsmilepæler skal være lik den avtalte verdien på kontraktlinjen. Hvis de ikke er det, vil det vises en feil på **Kontraktlinje** -siden. Du kan rette opp feilen ved å kontrollere at totalen for faktureringsmilepælene er lik den avtalte verdien for linjen, ved å opprette, redigere eller slette milepæler. Når du har gjort endringene, oppdaterer du siden for å fjerne feilen.
+Faktureringsmilepæler skal være lik den avtalte verdien på kontraktlinjen. Hvis de ikke er det, vil det vises en feil på **Kontraktlinje**-siden. Du kan rette opp feilen ved å kontrollere at totalen for faktureringsmilepælene er lik den avtalte verdien for linjen, ved å opprette, redigere eller slette milepæler. Når du har gjort endringene, oppdaterer du siden for å fjerne feilen.
 
 ### <a name="manually-create-milestones"></a>Opprette milepæler manuelt
 
 Du kan generere milepæler med fastpris manuelt når de ikke deles regelmessig. Fullfør fremgangsmåten nedenfor for å opprette en milepæl manuelt.
 
-1. Åpne kontraktlinjen med fastpris som du oppretter en milepæl for, gå til **Fakturaplan** -fanen i delrutenettet og velg **+ Opprett ny milepæl for kontraktlinje**. 
+1. Åpne kontraktlinjen med fastpris som du oppretter en milepæl for, gå til **Fakturaplan**-fanen i delrutenettet og velg **+ Opprett ny milepæl for kontraktlinje**. 
 2. På siden **Oppret milepæl** angir du den nødvendige informasjonen basert på tabellen nedenfor.
 
-| Felt | Sted | Relevans, formål og veiledning | Nedstrøms påvirkning |
+| Felt | Sted | Beskrivelse | Nedstrøms påvirkning |
 | --- | --- | --- | --- |
 | Navn på milepæl | Hurtigoppretting | Tekstfelt for navnet på milepælen. | Dette overføres til milepælen for prosjektkontraktlinjen og fakturaen. |
 | Prosjektoppgave | Hurtigoppretting | Hvis milepælen er knyttet til en prosjektoppgave, kan du bruke denne referansen til å legge til et egendefinert logikksett for milepælstatusen basert på oppgavestatusen. | Programmet har ingen nedstrøms innvirkning på denne referansen til en oppgave. |

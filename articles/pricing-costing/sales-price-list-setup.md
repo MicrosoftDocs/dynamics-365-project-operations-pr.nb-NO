@@ -1,12 +1,12 @@
 ---
-title: Sette opp salgsprisliste
+title: Konfigurere en salgsprisliste
 description: Dette emnet gir information om salgsprislister for prosjektpriser.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d2c797b72666123eb0a18d2d0c1df9fe3d207f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081675"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176263"
 ---
-# <a name="sales-price-list-setup"></a>Sette opp salgsprisliste
+# <a name="set-up-a-sales-price-list"></a>Konfigurere en salgsprisliste
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 

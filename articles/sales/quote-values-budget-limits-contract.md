@@ -1,21 +1,21 @@
 ---
-title: Sammendragsinformasjon om et prosjekttilbud
+title: Innstillinger for prosjekttilbud
 description: Dette emnet gir informasjon om informasjonen og innstillingene som gjelder for og virker inn på prosjekttilbud.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081466"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180249"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Sammendragsinformasjon om et prosjekttilbud
+# <a name="project-quote-settings"></a>Innstillinger for prosjekttilbud
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
@@ -24,7 +24,7 @@ Denne artikkelen forklarer informasjonen som gjelder for et prosjekttilbud. Dett
 
 Tabellen nedenfor viser sammendragsinformasjonsfeltene i et prosjekttilbud som er unike for Dynamics 365 Project Operations, eller har noen viktige endringer i virkemåten fra Dynamics 365 Sales-tilbud.
 
-| **Felt** | **Plassering** | **Relevans, formål og veiledning** | **Nedstrøms påvirkning** |
+| **Felt** | **Plassering** | **Beskrivelse** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |
 | Type | Kategorien Sammendrag (skjult) | Dette alternativsettfeltet inneholder følgende alternativer:</br>- Arbeidsbasert (bare tilgjengelig når Project Operations er installert)</br>- Varebasert (bare tilgjengelig når Project Operations og Sales er installert)</br>- Basert på service og vedlikehold (tilgjengelig når Dynamics 365 Field Service er installert) | Når du bruker Project Operations, settes verdien for dette feltet automatisk til **Arbeidsbasert**. Dette klassifiserer tilbudet som et prosjektbasert tilbud. Et tilbud må være prosjektbasert for å aktivere alle prosjektspesifikke utvidelser og funksjoner. |
 | Eiende firma | Sammendrag | Den juridiske enheten som skal stå for kostnadene og inntektene som påløper fra dette prosjektet eller prosjektene som er tilknyttet dette tilbudet. Når et tilbud er opprettet fra en salgsmulighet, kopieres dette feltet fra det tilsvarende feltet for salgsmuligheten. | Det eiende firmaet tilsvarer konseptet juridisk enhet i modulen **Prosjektstyring og regnskap** i Project Operations. Alle kostnader og inntekter som påløper fra dette prosjektet, blir regnskapsført i hovedboken til det eiende firmaet. |
@@ -38,7 +38,7 @@ Tabellen nedenfor viser sammendragsinformasjonsfeltene i et prosjekttilbud som e
 
 Nedenfor finner du kategoriene og KPI-ene som er tilgjengelige for et prosjekttilbud som er unikt for Project Operations, eller som har noen viktige endringer i virkemåten fra tilbud:
 
-| **Felt** | **Plassering** | **Relevans, formål og veiledning** |
+| **Felt** | **Plassering** | **Beskrivelse** |
 | --- | --- | --- |
 | Lønnsomhetsanalyse | Fane i tilbudet | Fanen viser følgende måledata:</br>- Total belastbar kostnad</br></br>- Total ikke-belastbar kostnad</br>- Total omsetning</br>- Total omsetning (standardvaluta)</br>- Bruttofortjeneste</br>- Justert bruttofortjeneste|
 | Sammenligning med kundens forventninger | Fane i tilbudet | Denne fanen viser følgende måledata:</br>- Beregnet fullføring</br>- Ønsket fullføring</br>- Kundebudsjett</br>- Tilbudsverdi |

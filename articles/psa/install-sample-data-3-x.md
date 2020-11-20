@@ -3,7 +3,7 @@ title: Installere eksempeldata
 description: Dette emnet inneholder informasjon om hvordan du installerer eksempeldata i Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081685"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132435"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installasjon av eksempeldata for Project Service-programmet
 
@@ -34,7 +34,7 @@ Eksempeldatapakkene for konfigurasjon/referanse er:
 
 - [**V902FPSMasterData** - Field Service 8.x og Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
 
-Den siste **demo** -datapakken er:
+Den siste **demo**-datapakken er:
 
  - [**FPSDemoData** - Field Service 8.x og Project Service 3.x](https://aka.ms/fpsdemodatapackage)
 
@@ -43,15 +43,15 @@ Den siste **demo** -datapakken er:
 Disse eksempeldatapakkene er bare tilgjengelige på engelsk.
 
 > [!IMPORTANT]
-> **Det finnes ingen måte å avinstallere eksempeldataene på.** Du må bare installere disse pakkene for demonstrasjon, evaluering, opplæring og testing av systemer. Merk også det ikke er støtte for å installere en individuell pakke, og deretter installere den andre individuelle pakken. (Du kan med andre ord ikke installere **FSMasterData** etterfulgt av **PSMasterData** , eller omvendt.) Hvis du tror du kommer til å trenge eksempeldata for begge programmene en gang i fremtiden, må du installere **v902FPSMasterData** -pakken.
+> **Det finnes ingen måte å avinstallere eksempeldataene på.** Du må bare installere disse pakkene for demonstrasjon, evaluering, opplæring og testing av systemer. Merk også det ikke er støtte for å installere en individuell pakke, og deretter installere den andre individuelle pakken. (Du kan med andre ord ikke installere **FSMasterData** etterfulgt av **PSMasterData**, eller omvendt.) Hvis du tror du kommer til å trenge eksempeldata for begge programmene en gang i fremtiden, må du installere **v902FPSMasterData**-pakken.
 
 Når du installerer en av eksempeldatapakkene, utfører installasjonsprosessen følgende handlinger:
 
 - Oppretter eller angir standardparametere for å bruke Project Service, Field Service eller begge programmer (hvis aktuelt).
 
-- Importerer eksempeldata for programmene, for eksempel ressurser som kan reserveres, programspesifikke roller, salgs- og kostprislister, organisasjonsenheter, salgsbehandlingsoppføringer og andre enheter for å demonstrere viktige funksjoner.  
+- Importerer eksempeldata for programmene, for eksempel ressurser som kan reserveres, programspesifikke roller, salgs- og kostprislister, organisasjonsenheter, salgsbehandlingsoppføringer og andre enheter for å demonstrere viktige funksjoner.  
 
-Med **demodata** -pakken får du dataene ovenfor og flere transaksjonsdata som arbeidsordrer og prosjekter.
+Med **demodata**-pakken får du dataene ovenfor og flere transaksjonsdata som arbeidsordrer og prosjekter.
 
 Lurer du på hvilke funksjoner du kan demonstrere med eksempeldataene? Se det fiktive scenariet Fabrikam Robotics i [Tekniske merknader](#technical-notes).
 
@@ -80,7 +80,7 @@ Installasjonsprotokollen forutsetter følgende om målforekomsten (organisasjon)
 
 Du må kjøre installasjonsprogrammet på en datamaskin med en ny versjon av Windows (Windows 10 foretrukket).
 
-Du bør planlegge at datamaskinen skal være tilkoblet et nettverk og installasjonen skal kjøre i opptil **1 time** for **konfigurasjons-/referansedata**. (Installasjonen tar vanligvis rundt 30 minutter for **FPSMasterData** , som inneholder eksempeldata for begge programmer.) For **FPSDemoData** tar installasjonen rundt **3 timer**.
+Du bør planlegge at datamaskinen skal være tilkoblet et nettverk og installasjonen skal kjøre i opptil **1 time** for **konfigurasjons-/referansedata**. (Installasjonen tar vanligvis rundt 30 minutter for **FPSMasterData**, som inneholder eksempeldata for begge programmer.) For **FPSDemoData** tar installasjonen rundt **3 timer**.
 
 Skjermbeskytteren på datamaskinen må være deaktivert. Øktlegitimasjonen for installasjonen kan ellers gå tapt når skjermbeskyttelsen aktiveres (med mindre du holder økten aktiv under hele installasjonen).
 
@@ -95,7 +95,7 @@ Når du har lastet ned en pakke, kjører du EXE-filen og godtar vilkårene for �
 
 Avhengig av operativsystemet og sikkerhetsinnstillingene, må du kanskje utføre følgende trinn når pakker ut zip-filen:
 
-1. Finn og høyreklikk **FPSDemoData.dll** -filen i **v902FPSMasterData** / **PackageDeployer_FPSDemoData** -mappen.
+1. Finn og høyreklikk **FPSDemoData.dll**-filen i **v902FPSMasterData** / **PackageDeployer_FPSDemoData**-mappen.
 
 2. Velg **Fjern blokkering**.
 
@@ -106,21 +106,21 @@ Avhengig av operativsystemet og sikkerhetsinnstillingene, må du kanskje utføre
 
 ## <a name="create-or-configure-users"></a>Opprette eller konfigurere brukere
 
-**FPSDemoData** -pakken krever seks brukere mens **FPSMasterData** -pakker krever én bruker. Referer til den riktige for eksempeldatapakken.
+**FPSDemoData**-pakken krever seks brukere mens **FPSMasterData**-pakker krever én bruker. Referer til den riktige for eksempeldatapakken.
 
 ## <a name="create-or-configure-users---setupreference-data-packages"></a>Opprette eller konfigurere brukere - konfigurasjons-/referansedatapakker
 
-**FPSMasterData** -pakken er utformet for å installeres med én bruker kalt Spencer Low med innstillingene som beskrives her. For å installere pakken på riktig måte må du opprette (eller gi nytt navn midlertidig) brukere i miljøet for å samsvare med den innkommende konfigurasjonen av eksempeldataene.
+**FPSMasterData**-pakken er utformet for å installeres med én bruker kalt Spencer Low med innstillingene som beskrives her. For å installere pakken på riktig måte må du opprette (eller gi nytt navn midlertidig) brukere i miljøet for å samsvare med den innkommende konfigurasjonen av eksempeldataene.
 
-Hvis du vil opprette eller konfigurere brukere, kan du gå til **Innstillinger** > **Sikkerhet** > **Brukere** , og gjøre følgende:
+Hvis du vil opprette eller konfigurere brukere, kan du gå til **Innstillinger** > **Sikkerhet** > **Brukere**, og gjøre følgende:
 
-1. Angi UserFullname = "Spencer Low" med brukernavn "spencerl" ( **små bokstaver** ) til rollene prosjektleder og praksisleder.
+1. Angi UserFullname = "Spencer Low" med brukernavn "spencerl" (**små bokstaver**) til rollene prosjektleder og praksisleder.
 
-2. Velg brukeren **Spencer Low** , og velger deretter **Behandle roller**. Finn og velg **Systemadministrator** -rollen, og velg deretter **OK** for å gi fulle administratorrettigheter til Spencer Low. Dette trinnet er nødvendig for å sikre at eksempelpostene opprettes med riktig brukereierskap, og derfor fyller ut visninger på riktig måte.
+2. Velg brukeren **Spencer Low**, og velger deretter **Behandle roller**. Finn og velg **Systemadministrator**-rollen, og velg deretter **OK** for å gi fulle administratorrettigheter til Spencer Low. Dette trinnet er nødvendig for å sikre at eksempelpostene opprettes med riktig brukereierskap, og derfor fyller ut visninger på riktig måte.
 
-3. Fra den nedlastede pakken må du oppdatere en fil for datatilordning med e-postadressene til standard brukerkonteksten. Dette gjør du ved åpne **PkgFolder** og deretter finne og åpne **ImportUserMapFile.xml** -filen i Notisblokk (eller Visual Studio eller et annet redigeringsprogram for XML). Angi **DefaultUserToMapTo=** -feltet til e-postadressen til Spencer Low-brukeren.
+3. Fra den nedlastede pakken må du oppdatere en fil for datatilordning med e-postadressene til standard brukerkonteksten. Dette gjør du ved åpne **PkgFolder** og deretter finne og åpne **ImportUserMapFile.xml**-filen i Notisblokk (eller Visual Studio eller et annet redigeringsprogram for XML). Angi **DefaultUserToMapTo=**-feltet til e-postadressen til Spencer Low-brukeren.
 
-4. Hvis du ikke bruker Spencer Low med brukernavn **spencerl** , må du oppdatere en ekstra fil. Åpne **DemoDataPreImportConfig.xml** -filen, og finn deretter **userstocreateandconfigure** -merket. Oppdater **\<login\>** -merket med brukernavnet til Spencer Low-brukeren. Hvis du vil ha mer informasjon, kan du se [Tekniske merknader](#technical-notes).
+4. Hvis du ikke bruker Spencer Low med brukernavn **spencerl**, må du oppdatere en ekstra fil. Åpne **DemoDataPreImportConfig.xml**-filen, og finn deretter **userstocreateandconfigure**-merket. Oppdater **\<login\>**-merket med brukernavnet til Spencer Low-brukeren. Hvis du vil ha mer informasjon, kan du se [Tekniske merknader](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Opprette eller konfigurere brukere - demodatapakke
 
@@ -138,20 +138,20 @@ Demodatapakken krever seks brukere. For at pakken skal installeres på riktig m�
   
 2. For demodataimportformål tilordner du de seks brukerne ovenfor administratorrollen slik at eksempeloppføringene importeres på riktig måte. 
 
-3. Åpne **PkgFolder** og finn og åpne **ImportUserMapFile.xml**. Oppdater **Ny=** -feltene til e-postadressene for tilsvarende brukere i systemet.
+3. Åpne **PkgFolder** og finn og åpne **ImportUserMapFile.xml**. Oppdater **Ny=**-feltene til e-postadressene for tilsvarende brukere i systemet.
 
    > [!div class="mx-imgBorder"]
    > ![Skjermbilde av UserMapFile](media/sample-data-7.png)
 
-4. Hvis brukeren med fullt navn "Spencer Low" har en annen bruker-ID enn **"spencerl"** , må du oppdatere en ekstra fil. Åpne **DemoDataPreImportConfig.xml** , og finn **userstocreateandconfigure** -merket. Oppdater **\<login\>** -merket med loginId (skilles mellom små og store bokstaver). 
+4. Hvis brukeren med fullt navn "Spencer Low" har en annen bruker-ID enn **"spencerl"**, må du oppdatere en ekstra fil. Åpne **DemoDataPreImportConfig.xml**, og finn **userstocreateandconfigure**-merket. Oppdater **\<login\>**-merket med loginId (skilles mellom små og store bokstaver). 
 
-5. Den første brukerens kalender (i **userstocreateandconfigure** -merket) brukes til å fylle ut arbeidstimene for alle reserverbare ressurser ved import av demonstrasjonsdata. Gå til **Innstillinger** > **Sikkerhet** > **Brukere** , finn brukeren "Spencer Low", og åpne Arbeidstimer-alternativet. Rediger eksisterende arbeidstimer, og velg **Hele den regelmessige ukeplanen fra begynnelse til slutt** -alternativet. Sikre at **arbeidstimer er satt til 8 AM - 5 PM (9 timer), mandag til fredag og tidssonen angitt til Stillehavskysten (USA og Canada)**. Dette er nødvendig for å sikre at prosjekt- og planleggingstavlen vises som forventet.
+5. Den første brukerens kalender (i **userstocreateandconfigure**-merket) brukes til å fylle ut arbeidstimene for alle reserverbare ressurser ved import av demonstrasjonsdata. Gå til **Innstillinger** > **Sikkerhet** > **Brukere**, finn brukeren "Spencer Low", og åpne Arbeidstimer-alternativet. Rediger eksisterende arbeidstimer, og velg **Hele den regelmessige ukeplanen fra begynnelse til slutt**-alternativet. Sikre at **arbeidstimer er satt til 8 AM - 5 PM (9 timer), mandag til fredag og tidssonen angitt til Stillehavskysten (USA og Canada)**. Dette er nødvendig for å sikre at prosjekt- og planleggingstavlen vises som forventet.
 
 **Anbefaling:** Vurder å opprette en sikkerhetskopi av organisasjonen din nå, i tilfelle du må gå tilbake til startpunktet hvis noe går galt under installeringen av eksempeldata. Hvis du vil ha mer informasjon, kan du se [Sikkerhetskopiere og gjenopprette forekomster](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Kjør Package Deployer
 
-1. Finn og kjør **PackageDeployer.exe** i **v902FPSMasterData** - ELLER **PackageDeployer_FPSDemoData** -mappen.
+1. Finn og kjør **PackageDeployer.exe** i **v902FPSMasterData**- ELLER **PackageDeployer_FPSDemoData**-mappen.
 
 2. Godta vilkårene.
 
@@ -187,7 +187,7 @@ Etter at eksempeldataene er ferdig lastet, logger du på som Spencer Low-brukere
 
 - Hvis Project Service-appen er installert, går du til **Universal Resource Scheduling** > **Innstillinger** > **Organisasjonsenheter**. Kontroller at en kostprisliste med riktig valuta er knyttet til hver organisasjonsenhet (unntatt oppføringer for poststed). Hvis noen mangler, finn og tilknytt den riktige kostprislisten.
 
-- Hvis Field Service -programmet er installert, kan du gå til **Project Service** > **Innstillinger** > **Prislister**. Kontroller at faktura- og kostnadssatser finnes. Gå til **Field Service** > **Innstillinger** > **Prislister** , og kontroller at faktura- og kostnadssatsene finnes med riktig valuta for hvert land/område i datasettet.
+- Hvis Field Service -programmet er installert, kan du gå til **Project Service** > **Innstillinger** > **Prislister**. Kontroller at faktura- og kostnadssatser finnes. Gå til **Field Service** > **Innstillinger** > **Prislister**, og kontroller at faktura- og kostnadssatsene finnes med riktig valuta for hvert land/område i datasettet.
 
   > [!div class="mx-imgBorder"]
   > ![Skjermbilde av aktive prislister](media/sample-data-4.png)
@@ -203,7 +203,7 @@ Nedenfor finner du mer teknisk informasjon om installasjon av dataene.
 
 Hvis du må installere eksempeldataene på en eksisterende prøveversjon eller et demonstrasjonsmiljø for Field Service eller Project Service som allerede har data (anbefales ikke), må du først oppheve sikkerhetskontrollene som er utført av installasjonsprogrammet.
 
-Hvis du vil gjøre dette, kan du gå til **PkgFolder** -mappen for å søke etter og åpne filen **DemoDataPreImportConfig.xml** med Notisblokk (eller et annet redigeringsprogram for XML).
+Hvis du vil gjøre dette, kan du gå til **PkgFolder**-mappen for å søke etter og åpne filen **DemoDataPreImportConfig.xml** med Notisblokk (eller et annet redigeringsprogram for XML).
 
 Finn den følgende verdien, og endre deretter innstillingen fra sann til usann:
 
@@ -213,11 +213,11 @@ Finn den følgende verdien, og endre deretter innstillingen fra sann til usann:
 
 Denne endringen fører til at installasjonsprogrammet hopper over noen viktige sikkerhetskontroller, inkludert:
 
-- Bekrefter at det ikke er mer enn én aktiv **Organisasjonsenhet** -oppføring, og endrer deretter navn til **Fabrikam US**.
+- Bekrefter at det ikke er mer enn én aktiv **Organisasjonsenhet**-oppføring, og endrer deretter navn til **Fabrikam US**.
 
-- Bekrefter at det ikke er mer enn én aktiv **Arbeidsmal** -oppføring.
+- Bekrefter at det ikke er mer enn én aktiv **Arbeidsmal**-oppføring.
 
-- Bekrefter at det ikke er mer enn én aktiv **Prosjektparameter** -oppføring, og endrer deretter oppføringen til **Parametere**.
+- Bekrefter at det ikke er mer enn én aktiv **Prosjektparameter**-oppføring, og endrer deretter oppføringen til **Parametere**.
 
 ### <a name="configuration-components"></a>Konfigurasjonskomponenter
 
@@ -235,13 +235,13 @@ Det finnes en rekke andre konfigurasjonskomponenter i denne konfigurasjonsfilen 
 
 - **\<EntitiesToEnableScheduling\>** angir hvilke enheter som skal aktiveres for booking i Microsoft Dynamics Scheduling (aka Universal Resource Scheduling).
 
-- **\<UsersToCreateAndConfigure\>** angir ressurser som kan reserveres, som opprettes (hvis de ikke allerede finnes) før eksempeldataimporten utføres. Merk at ressursen som kan reserveres i kildesystemets eksempeldata samsvarer med målsystemets oppføringer for ressurs som kan reserveres, på FullName og påloggingen for hver ressurs. Det er derfor IKKE mulig å endre navnene i denne forhåndskonfigurasjonsfilen med mindre du først importerer eksempeldata til et målsystem ved hjelp av disse navnene, og deretter endrer navn på ressursene som reserveres, til ønsket navnsett sammen med de aktiverte brukeroppføringene, og deretter eksporterer dataene på nytt for import til de endelige målsystemet (ved å oppdatere gamle og nye **ImportUserMapFile.xml** -oppføringer tilsvarende).
+- **\<UsersToCreateAndConfigure\>** angir ressurser som kan reserveres, som opprettes (hvis de ikke allerede finnes) før eksempeldataimporten utføres. Merk at ressursen som kan reserveres i kildesystemets eksempeldata samsvarer med målsystemets oppføringer for ressurs som kan reserveres, på FullName og påloggingen for hver ressurs. Det er derfor IKKE mulig å endre navnene i denne forhåndskonfigurasjonsfilen med mindre du først importerer eksempeldata til et målsystem ved hjelp av disse navnene, og deretter endrer navn på ressursene som reserveres, til ønsket navnsett sammen med de aktiverte brukeroppføringene, og deretter eksporterer dataene på nytt for import til de endelige målsystemet (ved å oppdatere gamle og nye **ImportUserMapFile.xml**-oppføringer tilsvarende).
 
 - **\<PluginsToDisable\>** angir svært diskrete linjeelement-plugin-moduler som må være deaktivert under eksempeldataimporten, og deretter aktiveres på nytt etterpå.
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Det fiktive scenarioet Fabrikam Robotics
 
-Eksempelreferansedatapakkene for Field Service og Project Service installerer **Fabrikam Manufacturing Master Data (v3.0.0.0)-løsningen** , sammen med omtrent 4 000 oppføringer og omtrent 40 forskjellige enheter. De separate eksempeldatapakkene for Field Service eller Project Service inneholder et delsett av **v902FPSMasterData** -eksempeldataene for programmet. **Demodata** -pakken installerer **Fabrikam Manufacturing Demo Data (v3.0.0.7)-løsningen** med omtrent 22 000 oppføringer i 148 enheter.
+Eksempelreferansedatapakkene for Field Service og Project Service installerer **Fabrikam Manufacturing Master Data (v3.0.0.0)-løsningen**, sammen med omtrent 4 000 oppføringer og omtrent 40 forskjellige enheter. De separate eksempeldatapakkene for Field Service eller Project Service inneholder et delsett av **v902FPSMasterData**-eksempeldataene for programmet. **Demodata**-pakken installerer **Fabrikam Manufacturing Demo Data (v3.0.0.7)-løsningen** med omtrent 22 000 oppføringer i 148 enheter.
 
 Det fiktive selskapet Fabrikam Robotics er produsent av elektroniske samlebåndsroboter og er kjent for sin produktkvalitet, innovasjon og gode kundeservice, inkludert installasjonsplanlegging, implementering og pågående vedlikeholdstjenester. Fabrikam har hovedkvarter i USA (Fabrikam US), og har prosjektbaserte serviceoperasjoner i Frankrike, India, Storbritannia og Sveits.
 
@@ -283,7 +283,7 @@ En avansert oversikt over eksempeldataene er som følger:
 
     - 9 hendelsestyper med en rekke tilknyttede ressursegenskaper (9), tjenester (13) og serviceoppgaver (13)
    
-**Demodata** -pakken installerer omtrent 179 arbeidsordrer 12 prosjekter og tilknyttede transaksjonsdata. 
+**Demodata**-pakken installerer omtrent 179 arbeidsordrer 12 prosjekter og tilknyttede transaksjonsdata. 
 
 ### <a name="change-the-work-hours-for-sample-resources"></a>Endre arbeidstimene for eksempelressurser
 
@@ -291,7 +291,7 @@ Som standard har alle ressurser som kan reserveres, en arbeidstidskalender på 2
 
 Hvis du må endre arbeidstimer for eksempelressurser som kan reserveres, går du til **Universal Resource Scheduling** > **Planlegging** > **Ressurser**.
 
-Velg en bruker (for eksempel Spencer Low), og endre Spencers arbeidstimer til timene du vil bruke for flere brukere. Gå til **Universal Resource Scheduling** > **Innstillinger** > **Arbeidstidsmaler** og rediger **Standard arbeidsmal** -oppføringen. I **Malressurs** -feltet velger du en bruker med arbeidstimer du vil bruke for andre ressurser. Gå til **Universal Resource Scheduling** > **Planlegging** > **Ressurser** > **Aktive ressurser som kan bestilles**. Velg ressursene du vil endre, og velg deretter **Angi kalender**. På **Arbeidsmal** -rullegardinlisten velger du **Standard arbeidstimer** eller en annen mal med riktig malressurs. Når du går til planleggingstavlen, skal du kunne se at ressursene nå har oppdaterte arbeidstimer.
+Velg en bruker (for eksempel Spencer Low), og endre Spencers arbeidstimer til timene du vil bruke for flere brukere. Gå til **Universal Resource Scheduling** > **Innstillinger** > **Arbeidstidsmaler** og rediger **Standard arbeidsmal**-oppføringen. I **Malressurs**-feltet velger du en bruker med arbeidstimer du vil bruke for andre ressurser. Gå til **Universal Resource Scheduling** > **Planlegging** > **Ressurser** > **Aktive ressurser som kan bestilles**. Velg ressursene du vil endre, og velg deretter **Angi kalender**. På **Arbeidsmal**-rullegardinlisten velger du **Standard arbeidstimer** eller en annen mal med riktig malressurs. Når du går til planleggingstavlen, skal du kunne se at ressursene nå har oppdaterte arbeidstimer.
 
 > [!div class="mx-imgBorder"]
 > ![Skjermbilde av aktive ressurser som kan reserveres](media/sample-data-6.png)

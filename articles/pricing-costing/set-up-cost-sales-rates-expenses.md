@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081539"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180294"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurere kostnads- og salgspriser for utgifter
 
@@ -24,17 +24,17 @@ Du kan sette opp kostnads- og salgspriser for transaksjonskategorier i Dynamics 
 Følg fremgangsmåten nedenfor for å konfigurere kost- og salgspriser for transaksjonskategorier. 
 
 1. Opprett en prisliste basert på prislistehodet. 
-2. På delrutenettmenyen i **Kategoripriser** velger du **+ Ny kategoripris**. 
-3. Angi transaksjonskategorien og enheten du oppretter den nye prisen for, på **Hurtigopprett** -siden.
+2. I **Kategoripriser**, på delrutenettmenyen, velger du **+ Ny kategoripris**. 
+3. Angi transaksjonskategorien og enheten du oppretter den nye prisen for, på **Hurtigopprett**-siden.
 
-Tabellen nedenfor viser feltene i kategorien **Generelt** og på **Hurtigopprett** -siden for en kategoriprislinje som du bør huske på når du oppretter kategoripriser i en salgs- eller kostprisliste.
+Tabellen nedenfor viser feltene i kategorien **Generelt** og på **Hurtigopprett**-siden for en kategoriprislinje som du bør huske på når du oppretter kategoripriser i en salgs- eller kostprisliste.
 
-| Felt | Sted | Relevans, formål og veiledning | Nedstrøms påvirkning |
+| Felt | Sted | Beskrivelse | Nedstrøms påvirkning |
 | --- | --- | --- | --- |
 | Transaksjonskategori | Sidene **Generelt** og **Hurtigoppretting** | Velg transaksjonskategorien du oppretter en salgs- eller kostpris for. | Transaksjonskategorien i det innkommende estimatet eller den faktiske verdien for utgift samsvares mot denne linjen for å angi standard kost- eller salgssats for transaksjonskategorien. |
 | Tidsplan for enhet | Sidene **Generelt** og **Hurtigoppretting** | Enhetsplanen kommer som standard fra enhetsplanen til transaksjonskategorien. | Dette feltet har ingen nedstrøms påvirkning. |
 | Enhet | Sidene **Generelt** og **Hurtigoppretting** | Velg enheten som satsene opprettes for. | Enheten i det innkommende estimatet eller den faktiske verdien samsvares mot enheten på denne linjen for å standardisere satsen for utgiftsestimatet eller den faktiske verdien. |
-| Prismodell | Sidene **Generelt** og **Hurtigoppretting** | Mulige verdier i feltet **Prismodell** er **Pris per enhet** , **Kostpris** og **Påslag over kostnad**. | Under prisoppsettet låser **Pris per enhet** feltet **Prosent** på kategoriprislinjen. Hvis **Kostpris** er valgt, er feltene **Pris** og **Prosent** låst i salgsprislisten. Hvis du velger **Påslag over kostnad** , låses **Pris** -feltet i salgsprislisten. På en innkommende faktisk linje for utgift fører prismodellen **Kostpris** og **Påslag over kostnad** til at den tilsvarende, ikke-fakturerte salgslinjen blir tilordnet en pris som er lik den faktiske kostprisen, eller som beregnes som påslag over prisen. |
+| Prismodell | Sidene **Generelt** og **Hurtigoppretting** | Mulige verdier i feltet **Prismodell** er **Pris per enhet**, **Kostpris** og **Påslag over kostnad**. | Under prisoppsettet låser **Pris per enhet** feltet **Prosent** på kategoriprislinjen. Hvis **Kostpris** er valgt, er feltene **Pris** og **Prosent** låst i salgsprislisten. Hvis du velger **Påslag over kostnad**, låses **Pris**-feltet i salgsprislisten. På en innkommende faktisk linje for utgift fører prismodellen **Kostpris** og **Påslag over kostnad** til at den tilsvarende, ikke-fakturerte salgslinjen blir tilordnet en pris som er lik den faktiske kostprisen, eller som beregnes som påslag over prisen. |
 | Pris | Sidene **Generelt** og **Hurtigoppretting** | Angi en sats per enhet for transaksjonskategorien og enhetskombinasjonen. Satsen for kjøregodtgjørelse er for eksempel 10 USD per mile og 8 USD per kilometer. | Kjøregodtgjørelsen er satsen som angis soom standard for pris eller kostnad per enhet for det innkommende estimatet eller den faktiske linjen for en utgiftstransaksjonsklasse.|
 | Prosent | Sidene **Generelt** og **Hurtigoppretting** | Angi en prosent over kostnad for transaksjonskategorien og enhetskombinasjonen. Salgsprisen for flybilletter kan for eksempel merkes som 10 prosent av kostnaden av den påløpte flyreiseutgiften. | Denne prosenten over kostnad er bare relevant i en salgsprisliste når den valgte prismetoden er **Påslag over kostnad**. |
 | Valuta | Sidene **Generelt** og **Hurtigoppretting** | Som standard kommer denne verdien fra valutaen i hodet i i prislisten. For transaksjonskategoripriser kan ikke valutaen overstyres. | Denne valutaen settes som standard på prisen per enhet på den innkommende faktiske linjen i utgiftstransaksjonsklassen for kostnader og salg. |

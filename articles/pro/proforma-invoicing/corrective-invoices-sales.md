@@ -1,21 +1,21 @@
 ---
-title: Kredittee og korrigerte fakturaer
+title: Korrigerte fakturaer – Lite
 description: Dette emnet gir informasjon om korrigerte fakturaer i Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081731"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176443"
 ---
-# <a name="credits-and-corrected-invoices"></a>Kredittee og korrigerte fakturaer
+# <a name="corrected-invoices---lite"></a>Korrigerte fakturaer – Lite
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
@@ -35,7 +35,7 @@ Det opprettes en ny utkastfaktura fra den bekreftede fakturaen. Alle fakturalinj
 - Avstemminger av honorarer og forskudd kan korrigeres hvis et feilaktig beløp ble brukt til å avstemme mot kostnadene på en tidligere bekreftet faktura.
 
 > [!IMPORTANT]
-> Fakturalinjedetaljer som er rettelser i andre allerede fakturerte gebyrer,har feltet **Korrigering** angitt til **Ja**. Fakturaer som har korrigerte fakturalinjedetaljer, har et felt kalt **Har rettelser** , som også er angitt til **Ja**.
+> Fakturalinjedetaljer som er rettelser i andre allerede fakturerte gebyrer,har feltet **Korrigering** angitt til **Ja**. Fakturaer som har korrigerte fakturalinjedetaljer, har et felt kalt **Har rettelser**, som også er angitt til **Ja**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiske verdier opprettet ved bekreftelse av en korrigert faktura:
 
