@@ -3,7 +3,7 @@ title: Konfigurere ressursroller
 description: Slik konfigurerer du ressursroller i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,42 +18,42 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081618"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129150"
 ---
-# <a name="configure-resource-roles-project-service"></a><span data-ttu-id="b328c-103">Konfigurere ressursroller (Project Service)</span><span class="sxs-lookup"><span data-stu-id="b328c-103">Configure resource roles (Project Service)</span></span>
+# <a name="configure-resource-roles-project-service"></a><span data-ttu-id="eaed5-103">Konfigurere ressursroller (Project Service)</span><span class="sxs-lookup"><span data-stu-id="eaed5-103">Configure resource roles (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="b328c-104">Roller spiller er en viktig del av prosjektplanleggingen når ressurskrav og kostnadene for et prosjekt skal fastsettes.</span><span class="sxs-lookup"><span data-stu-id="b328c-104">Roles play an important part in project planning, when determining resource requirements or costs of a project.</span></span> <span data-ttu-id="b328c-105">For hver rolle prosjektene krever, må du opprette en ressursrolle og knytte ferdigheter og kompetanser til denne rollen.</span><span class="sxs-lookup"><span data-stu-id="b328c-105">For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role.</span></span> <span data-ttu-id="b328c-106">Du vil for eksempel opprette en rolle for utvikler, prosjektleder eller spilltester.</span><span class="sxs-lookup"><span data-stu-id="b328c-106">For example, you might want to create roles for developer, project manager, or game tester.</span></span> <span data-ttu-id="b328c-107">Du må også angi ferdighetene og kunnskapsnivåene som er nødvendig for rollen.</span><span class="sxs-lookup"><span data-stu-id="b328c-107">You’ll also set the skills and proficiency levels required for the role.</span></span>  
+<span data-ttu-id="eaed5-104">Roller spiller er en viktig del av prosjektplanleggingen når ressurskrav og kostnadene for et prosjekt skal fastsettes.</span><span class="sxs-lookup"><span data-stu-id="eaed5-104">Roles play an important part in project planning, when determining resource requirements or costs of a project.</span></span> <span data-ttu-id="eaed5-105">For hver rolle prosjektene krever, må du opprette en ressursrolle og knytte ferdigheter og kompetanser til denne rollen.</span><span class="sxs-lookup"><span data-stu-id="eaed5-105">For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role.</span></span> <span data-ttu-id="eaed5-106">Du vil for eksempel opprette en rolle for utvikler, prosjektleder eller spilltester.</span><span class="sxs-lookup"><span data-stu-id="eaed5-106">For example, you might want to create roles for developer, project manager, or game tester.</span></span> <span data-ttu-id="eaed5-107">Du må også angi ferdighetene og kunnskapsnivåene som er nødvendig for rollen.</span><span class="sxs-lookup"><span data-stu-id="eaed5-107">You’ll also set the skills and proficiency levels required for the role.</span></span>  
   
- <span data-ttu-id="b328c-108">Konfigurer ressursroller for å sikre effektiv prosjektberegning for organisasjonen.</span><span class="sxs-lookup"><span data-stu-id="b328c-108">Configure resource roles to ensure effective project estimation for your organization.</span></span>  <span data-ttu-id="b328c-109">Pass også på at du angir faktureringstypen nøyaktig.</span><span class="sxs-lookup"><span data-stu-id="b328c-109">Also make sure you accurately set the billing type.</span></span> <span data-ttu-id="b328c-110">Et element som er angitt med en ikke-belastbar faktureringstype vises ikke på kontrakten eller tilbudslinjene.</span><span class="sxs-lookup"><span data-stu-id="b328c-110">An item set with a non-chargeable billing type doesn’t show up on contract or quote lines.</span></span>  
+ <span data-ttu-id="eaed5-108">Konfigurer ressursroller for å sikre effektiv prosjektberegning for organisasjonen.</span><span class="sxs-lookup"><span data-stu-id="eaed5-108">Configure resource roles to ensure effective project estimation for your organization.</span></span>  <span data-ttu-id="eaed5-109">Pass også på at du angir faktureringstypen nøyaktig.</span><span class="sxs-lookup"><span data-stu-id="eaed5-109">Also make sure you accurately set the billing type.</span></span> <span data-ttu-id="eaed5-110">Et element som er angitt med en ikke-belastbar faktureringstype vises ikke på kontrakten eller tilbudslinjene.</span><span class="sxs-lookup"><span data-stu-id="eaed5-110">An item set with a non-chargeable billing type doesn’t show up on contract or quote lines.</span></span>  
   
- <span data-ttu-id="b328c-111">Når du har konfigurert ressursrollene, kan du definere kostpriser og salgspriser med en prisliste.</span><span class="sxs-lookup"><span data-stu-id="b328c-111">Once you’ve set up resource roles, you can set up cost and sales prices with a price list.</span></span>  
+ <span data-ttu-id="eaed5-111">Når du har konfigurert ressursrollene, kan du definere kostpriser og salgspriser med en prisliste.</span><span class="sxs-lookup"><span data-stu-id="eaed5-111">Once you’ve set up resource roles, you can set up cost and sales prices with a price list.</span></span>  
   
- <span data-ttu-id="b328c-112">For hver rolle du vil legge til, gjør du følgende:</span><span class="sxs-lookup"><span data-stu-id="b328c-112">For each role you want to add, do the following:</span></span>  
+ <span data-ttu-id="eaed5-112">For hver rolle du vil legge til, gjør du følgende:</span><span class="sxs-lookup"><span data-stu-id="eaed5-112">For each role you want to add, do the following:</span></span>  
   
-1.  <span data-ttu-id="b328c-113">Gå til **Project Service > Ressursroller**.</span><span class="sxs-lookup"><span data-stu-id="b328c-113">Go to **Project Service > Resource Roles**.</span></span>  
+1.  <span data-ttu-id="eaed5-113">Gå til **Project Service > Ressursroller**.</span><span class="sxs-lookup"><span data-stu-id="eaed5-113">Go to **Project Service > Resource Roles**.</span></span>  
   
-2.  <span data-ttu-id="b328c-114">Klikk **Ny**.</span><span class="sxs-lookup"><span data-stu-id="b328c-114">Click **New**.</span></span>  
+2.  <span data-ttu-id="eaed5-114">Klikk **Ny**.</span><span class="sxs-lookup"><span data-stu-id="eaed5-114">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="b328c-115">I **Generelt** -området angir du et navn for rollen i **Navn** , og fyller deretter ut de andre feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="b328c-115">In the **General** area, enter a name for the role in **Name** , and then fill in the other fields as necessary.</span></span>  
+3.  <span data-ttu-id="eaed5-115">I **Generelt**-området angir du et navn for rollen i **Navn**, og fyller deretter ut de andre feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="eaed5-115">In the **General** area, enter a name for the role in **Name**, and then fill in the other fields as necessary.</span></span>  
   
-4.  <span data-ttu-id="b328c-116">Klikk **Lagre** for å opprette oppføringen slik at du kan fortsette å redigere den.</span><span class="sxs-lookup"><span data-stu-id="b328c-116">Click **Save** to create the record so you can continue editing it.</span></span>  
+4.  <span data-ttu-id="eaed5-116">Klikk **Lagre** for å opprette oppføringen slik at du kan fortsette å redigere den.</span><span class="sxs-lookup"><span data-stu-id="eaed5-116">Click **Save** to create the record so you can continue editing it.</span></span>  
   
-5.  <span data-ttu-id="b328c-117">Hvis du vil legge til en ny ferdighet, klikker du **+** i **Ferdigheter** -området.</span><span class="sxs-lookup"><span data-stu-id="b328c-117">In the **Skills** area, click **+** to add a skill.</span></span>  
+5.  <span data-ttu-id="eaed5-117">Hvis du vil legge til en ny ferdighet, klikker du **+** i **Ferdigheter**-området.</span><span class="sxs-lookup"><span data-stu-id="eaed5-117">In the **Skills** area, click **+** to add a skill.</span></span>  
   
-6.  <span data-ttu-id="b328c-118">I ruten **Rollekompetansekrav** klikker du i **Ferdighet** -feltet, og klikker **Søk** -knappen, og velger deretter en ferdighet.</span><span class="sxs-lookup"><span data-stu-id="b328c-118">In the **Role competency requirement** pane, click in the **Skill** field, click the **Search** button, and then select a skill.</span></span>  
+6.  <span data-ttu-id="eaed5-118">I ruten **Rollekompetansekrav** klikker du i **Ferdighet**-feltet, og klikker **Søk**-knappen, og velger deretter en ferdighet.</span><span class="sxs-lookup"><span data-stu-id="eaed5-118">In the **Role competency requirement** pane, click in the **Skill** field, click the **Search** button, and then select a skill.</span></span>  
   
-7.  <span data-ttu-id="b328c-119">Velg et kompetansenivå for ferdigheten, og klikk deretter **Lagre**.</span><span class="sxs-lookup"><span data-stu-id="b328c-119">Select a proficiency for that skill, and then click **Save**.</span></span>  
+7.  <span data-ttu-id="eaed5-119">Velg et kompetansenivå for ferdigheten, og klikk deretter **Lagre**.</span><span class="sxs-lookup"><span data-stu-id="eaed5-119">Select a proficiency for that skill, and then click **Save**.</span></span>  
   
-8.  <span data-ttu-id="b328c-120">Fortsett å legge til ferdigheter etter behov.</span><span class="sxs-lookup"><span data-stu-id="b328c-120">Continue adding skills as necessary.</span></span> <span data-ttu-id="b328c-121">Når du er ferdig, klikker du **Lagre** nederst til høyre på skjermen.</span><span class="sxs-lookup"><span data-stu-id="b328c-121">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
+8.  <span data-ttu-id="eaed5-120">Fortsett å legge til ferdigheter etter behov.</span><span class="sxs-lookup"><span data-stu-id="eaed5-120">Continue adding skills as necessary.</span></span> <span data-ttu-id="eaed5-121">Når du er ferdig, klikker du **Lagre** nederst til høyre på skjermen.</span><span class="sxs-lookup"><span data-stu-id="eaed5-121">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
   
-9. <span data-ttu-id="b328c-122">Klikk **Aktiver** for å gjøre denne ressursrollen tilgjengelig for bruk i prosjekter.</span><span class="sxs-lookup"><span data-stu-id="b328c-122">To make this resource role available for projects to use, click **Activate**.</span></span>  
+9. <span data-ttu-id="eaed5-122">Klikk **Aktiver** for å gjøre denne ressursrollen tilgjengelig for bruk i prosjekter.</span><span class="sxs-lookup"><span data-stu-id="eaed5-122">To make this resource role available for projects to use, click **Activate**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="b328c-123">Se også</span><span class="sxs-lookup"><span data-stu-id="b328c-123">See Also</span></span>  
- [<span data-ttu-id="b328c-124">Definere ressurser</span><span class="sxs-lookup"><span data-stu-id="b328c-124">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="eaed5-123">Se også</span><span class="sxs-lookup"><span data-stu-id="eaed5-123">See Also</span></span>  
+ [<span data-ttu-id="eaed5-124">Definere ressurser</span><span class="sxs-lookup"><span data-stu-id="eaed5-124">Set up resources</span></span>](../psa/set-up-resources.md)

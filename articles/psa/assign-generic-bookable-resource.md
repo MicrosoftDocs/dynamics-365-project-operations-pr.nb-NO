@@ -3,7 +3,7 @@ title: Tilordne generelt bestillbare ressurser til en oppgave og et prosjektteam
 description: Dette emnet gir informasjon om bestilling av generelle ressurser for aktiviteter og prosjektteam.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,42 +18,42 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081635"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127080"
 ---
-# <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a><span data-ttu-id="4d957-103">Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav</span><span class="sxs-lookup"><span data-stu-id="4d957-103">Assign generic bookable resources to a task and generate resource requirements</span></span> 
+# <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a><span data-ttu-id="68e0f-103">Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav</span><span class="sxs-lookup"><span data-stu-id="68e0f-103">Assign generic bookable resources to a task and generate resource requirements</span></span> 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="4d957-104">I tillegg til å bestille og tilordne navngitte eller faktiske ressurser i prosjektet kan du tilordne generelle ressurser til prosjektoppgaver.</span><span class="sxs-lookup"><span data-stu-id="4d957-104">In addition to booking and assigning named or real resources to your project, you can assign generic resources to project tasks.</span></span> <span data-ttu-id="4d957-105">Disse ressursene kan fungere som plassholdere for navngitte ressurser til du er klar til å bemanne prosjektet med navngitte ressurser.</span><span class="sxs-lookup"><span data-stu-id="4d957-105">These resources can serve as placeholders for named resources until you are ready to staff your project with named resources.</span></span> 
+<span data-ttu-id="68e0f-104">I tillegg til å bestille og tilordne navngitte eller faktiske ressurser i prosjektet kan du tilordne generelle ressurser til prosjektoppgaver.</span><span class="sxs-lookup"><span data-stu-id="68e0f-104">In addition to booking and assigning named or real resources to your project, you can assign generic resources to project tasks.</span></span> <span data-ttu-id="68e0f-105">Disse ressursene kan fungere som plassholdere for navngitte ressurser til du er klar til å bemanne prosjektet med navngitte ressurser.</span><span class="sxs-lookup"><span data-stu-id="68e0f-105">These resources can serve as placeholders for named resources until you are ready to staff your project with named resources.</span></span> 
 
-1. <span data-ttu-id="4d957-106">I Project Service Automation (PSA) åpner du **Prosjekt** -siden, og i kategorien **Tidsplan** angir du posisjonsnavnet til den generelle ressursen i **Ressurs** -cellen i tidsplanen.</span><span class="sxs-lookup"><span data-stu-id="4d957-106">In Project Service Automation (PSA), open the **Project** page and on the **Schedule** tab, enter the position name of the generic resource in the **Resource** cell of the schedule.</span></span> <span data-ttu-id="4d957-107">Du kan også klikke **Ressurs** -ikonet i cellen for å åpne ressursvelgeren og deretter skrive inn navnet på den generelle ressursen du vil opprette.</span><span class="sxs-lookup"><span data-stu-id="4d957-107">Or, click the **Resource** icon in the cell to open the resource picker and then enter the name of the generic resource that you want to create.</span></span>
+1. <span data-ttu-id="68e0f-106">I Project Service Automation (PSA) åpner du **Prosjekt**-siden, og i kategorien **Tidsplan** angir du posisjonsnavnet til den generelle ressursen i **Ressurs**-cellen i tidsplanen.</span><span class="sxs-lookup"><span data-stu-id="68e0f-106">In Project Service Automation (PSA), open the **Project** page and on the **Schedule** tab, enter the position name of the generic resource in the **Resource** cell of the schedule.</span></span> <span data-ttu-id="68e0f-107">Du kan også klikke **Ressurs**-ikonet i cellen for å åpne ressursvelgeren og deretter skrive inn navnet på den generelle ressursen du vil opprette.</span><span class="sxs-lookup"><span data-stu-id="68e0f-107">Or, click the **Resource** icon in the cell to open the resource picker and then enter the name of the generic resource that you want to create.</span></span>
 
 ![Opprette og tilordne et generelt teammedlem](media/RM-how-to-9.png)
 
-<span data-ttu-id="4d957-109">Dette åpner panelet **Hurtigoppretting: Prosjektteammedlem**.</span><span class="sxs-lookup"><span data-stu-id="4d957-109">This will open the **Quick Create: Project Team Member** panel.</span></span> 
+<span data-ttu-id="68e0f-109">Dette åpner panelet **Hurtigoppretting: Prosjektteammedlem**.</span><span class="sxs-lookup"><span data-stu-id="68e0f-109">This will open the **Quick Create: Project Team Member** panel.</span></span> 
 
-2. <span data-ttu-id="4d957-110">Angi rollen og organisasjonsenheten for det generelle ressursteammedlemmet, og klikk deretter **Lagre**.</span><span class="sxs-lookup"><span data-stu-id="4d957-110">Enter the role and organization unit of the generic resource team member and then click **Save**.</span></span>
+2. <span data-ttu-id="68e0f-110">Angi rollen og organisasjonsenheten for det generelle ressursteammedlemmet, og klikk deretter **Lagre**.</span><span class="sxs-lookup"><span data-stu-id="68e0f-110">Enter the role and organization unit of the generic resource team member and then click **Save**.</span></span>
 
 ![Hurtigoppretting av generelt teammedlem](media/RM-how-to-10.png)
 
-3. <span data-ttu-id="4d957-112">Når du har opprettet det nye medlemmet i det generelle ressursteamet, blir det tilordnet til oppgaven.</span><span class="sxs-lookup"><span data-stu-id="4d957-112">After you have created the new generic resource team member, it is assigned to the task.</span></span> <span data-ttu-id="4d957-113">Du kan fortsette å tilordne den generelle ressursen til andre oppgaver i oppgavetidsplanen.</span><span class="sxs-lookup"><span data-stu-id="4d957-113">You can continue to assign that generic resource to other tasks in the task schedule.</span></span>
+3. <span data-ttu-id="68e0f-112">Når du har opprettet det nye medlemmet i det generelle ressursteamet, blir det tilordnet til oppgaven.</span><span class="sxs-lookup"><span data-stu-id="68e0f-112">After you have created the new generic resource team member, it is assigned to the task.</span></span> <span data-ttu-id="68e0f-113">Du kan fortsette å tilordne den generelle ressursen til andre oppgaver i oppgavetidsplanen.</span><span class="sxs-lookup"><span data-stu-id="68e0f-113">You can continue to assign that generic resource to other tasks in the task schedule.</span></span>
 
 ![Tilordne eksisterende generelle teammedlemmer til oppgaver](media/RM-how-to-11.png)
 
-4. <span data-ttu-id="4d957-115">Når du har tilordnet den generelle ressursen, kan du generere et ressurskrav og fullføre det ved å bestille eller sende en ressursforespørsel til en ressursleder direkte.</span><span class="sxs-lookup"><span data-stu-id="4d957-115">After you have assigned the generic resource, you can generate a resource requirement and fulfill it by directly booking or submitting a resource request to a resource manager.</span></span>
+4. <span data-ttu-id="68e0f-115">Når du har tilordnet den generelle ressursen, kan du generere et ressurskrav og fullføre det ved å bestille eller sende en ressursforespørsel til en ressursleder direkte.</span><span class="sxs-lookup"><span data-stu-id="68e0f-115">After you have assigned the generic resource, you can generate a resource requirement and fulfill it by directly booking or submitting a resource request to a resource manager.</span></span>
 
 ![Generere et krav for et generelt teammedlem](media/RM-how-to-12.png)
 
-<span data-ttu-id="4d957-117">I rutenettet for teammedlemmer, i tillegg til å kunne bruke ressursvelgeren som nevnt ovenfor, kan du legge til generelle ressurser direkte.</span><span class="sxs-lookup"><span data-stu-id="4d957-117">On the team member grid, in addition to being able to use the resource picker as mentioned above, you can add generic resources directly.</span></span> <span data-ttu-id="4d957-118">Ressursene legges til med et ressurskrav som er basert på start- og sluttdatoene og fordelingsmetoden som er angitt i panelet **Hurtigoppretting: Prosjektteammedlem**.</span><span class="sxs-lookup"><span data-stu-id="4d957-118">The resources are added with a resource requirement that is based on the start/end dates and allocation method specified in the **Quick Create: Project Team Member** panel.</span></span>
+<span data-ttu-id="68e0f-117">I rutenettet for teammedlemmer, i tillegg til å kunne bruke ressursvelgeren som nevnt ovenfor, kan du legge til generelle ressurser direkte.</span><span class="sxs-lookup"><span data-stu-id="68e0f-117">On the team member grid, in addition to being able to use the resource picker as mentioned above, you can add generic resources directly.</span></span> <span data-ttu-id="68e0f-118">Ressursene legges til med et ressurskrav som er basert på start- og sluttdatoene og fordelingsmetoden som er angitt i panelet **Hurtigoppretting: Prosjektteammedlem**.</span><span class="sxs-lookup"><span data-stu-id="68e0f-118">The resources are added with a resource requirement that is based on the start/end dates and allocation method specified in the **Quick Create: Project Team Member** panel.</span></span>
 
-<span data-ttu-id="4d957-119">Du kan se en forskjell hvis du legger til det generelle teammedlemmet direkte og deretter tildeler flere oppgaver til den generelle ressursen enn antallet det er nødvendig å dekke.</span><span class="sxs-lookup"><span data-stu-id="4d957-119">You can see a difference if you add the generic team member directly and then assign more tasks to the generic resource than they have required hours to cover.</span></span> <span data-ttu-id="4d957-120">Klikk **Generer krav** for å generere kravet på nytt for å balansere de nødvendige timene mot tildelinger.</span><span class="sxs-lookup"><span data-stu-id="4d957-120">Click **Generate Requirement** to regenerate the requirement to balance the required hours against assignments.</span></span>
+<span data-ttu-id="68e0f-119">Du kan se en forskjell hvis du legger til det generelle teammedlemmet direkte og deretter tildeler flere oppgaver til den generelle ressursen enn antallet det er nødvendig å dekke.</span><span class="sxs-lookup"><span data-stu-id="68e0f-119">You can see a difference if you add the generic team member directly and then assign more tasks to the generic resource than they have required hours to cover.</span></span> <span data-ttu-id="68e0f-120">Klikk **Generer krav** for å generere kravet på nytt for å balansere de nødvendige timene mot tildelinger.</span><span class="sxs-lookup"><span data-stu-id="68e0f-120">Click **Generate Requirement** to regenerate the requirement to balance the required hours against assignments.</span></span>
 
-<span data-ttu-id="4d957-121">Du kan også klikke **Ressurskrav** -koblingen i rutenettet for teamet for å åpne kravet og legge til kvalifikasjoner, foretrukne ressurser og så videre.</span><span class="sxs-lookup"><span data-stu-id="4d957-121">You can also click the **Resource requirement** link in the team grid to open the requirement and add skills, preferred resources, etc.</span></span>
+<span data-ttu-id="68e0f-121">Du kan også klikke **Ressurskrav**-koblingen i rutenettet for teamet for å åpne kravet og legge til kvalifikasjoner, foretrukne ressurser og så videre.</span><span class="sxs-lookup"><span data-stu-id="68e0f-121">You can also click the **Resource requirement** link in the team grid to open the requirement and add skills, preferred resources, etc.</span></span>
 
 ![Ressurskrav](media/RM-how-to-13.png)
 

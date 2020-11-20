@@ -3,7 +3,7 @@ title: Hva er nytt eller endret i Project Service Automation Update Release 23, 
 description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 23, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -17,51 +17,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eaae9cc62c449695cb2e999be48c57075aadbb21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07f1a274914d7e641ddf2fd42f377dce1da7f815
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081567"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131130"
 ---
-# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="59f69-103">Project Service Automation, Update Release 23, V3</span><span class="sxs-lookup"><span data-stu-id="59f69-103">Project Service Automation Update Release 23, V3</span></span>
+# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="bb54a-103">Project Service Automation, Update Release 23, V3</span><span class="sxs-lookup"><span data-stu-id="bb54a-103">Project Service Automation Update Release 23, V3</span></span>
 
-<span data-ttu-id="59f69-104">Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="59f69-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="59f69-105">Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet.</span><span class="sxs-lookup"><span data-stu-id="59f69-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="59f69-106">Denne versjonen er kompatibel med Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="59f69-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="59f69-107">Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen.</span><span class="sxs-lookup"><span data-stu-id="59f69-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="59f69-108">For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="59f69-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="bb54a-104">Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="bb54a-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="bb54a-105">Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet.</span><span class="sxs-lookup"><span data-stu-id="bb54a-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="bb54a-106">Denne versjonen er kompatibel med Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="bb54a-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="bb54a-107">Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen.</span><span class="sxs-lookup"><span data-stu-id="bb54a-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="bb54a-108">For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="bb54a-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="59f69-109">Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Project Service Automation V3, Update Release 23.</span><span class="sxs-lookup"><span data-stu-id="59f69-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="59f69-110">Denne versjonen har buildnummer V3.10.34.30 og er generelt tilgjengelig via en egen oppdatering i august 2020.</span><span class="sxs-lookup"><span data-stu-id="59f69-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
+<span data-ttu-id="bb54a-109">Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Project Service Automation V3, Update Release 23.</span><span class="sxs-lookup"><span data-stu-id="bb54a-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="bb54a-110">Denne versjonen har buildnummer V3.10.34.30 og er generelt tilgjengelig via en egen oppdatering i august 2020.</span><span class="sxs-lookup"><span data-stu-id="bb54a-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
 
-## <a name="update-release-23"></a><span data-ttu-id="59f69-111">Update Release 23</span><span class="sxs-lookup"><span data-stu-id="59f69-111">Update Release 23</span></span>
+## <a name="update-release-23"></a><span data-ttu-id="bb54a-111">Update Release 23</span><span class="sxs-lookup"><span data-stu-id="bb54a-111">Update Release 23</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="59f69-112">Feilrettinger</span><span class="sxs-lookup"><span data-stu-id="59f69-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="bb54a-112">Feilrettinger</span><span class="sxs-lookup"><span data-stu-id="bb54a-112">Bug fixes</span></span>
 
-<span data-ttu-id="59f69-113">**Tid og utgift**</span><span class="sxs-lookup"><span data-stu-id="59f69-113">**Time and Expense**</span></span>
+<span data-ttu-id="bb54a-113">**Tid og utgift**</span><span class="sxs-lookup"><span data-stu-id="bb54a-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="59f69-114">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="59f69-114">The following issues have been fixed:</span></span>
-- <span data-ttu-id="59f69-115">Håndtering av kantsak i **Slett prosjektteammedlem** for å gi et meningsfullt unntak.</span><span class="sxs-lookup"><span data-stu-id="59f69-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
-- <span data-ttu-id="59f69-116">Import av tilordning fører til et tomt fjerningsskjermbilde.</span><span class="sxs-lookup"><span data-stu-id="59f69-116">Assignment import results in a blank remove screen.</span></span>
+<span data-ttu-id="bb54a-114">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="bb54a-114">The following issues have been fixed:</span></span>
+- <span data-ttu-id="bb54a-115">Håndtering av kantsak i **Slett prosjektteammedlem** for å gi et meningsfullt unntak.</span><span class="sxs-lookup"><span data-stu-id="bb54a-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
+- <span data-ttu-id="bb54a-116">Import av tilordning fører til et tomt fjerningsskjermbilde.</span><span class="sxs-lookup"><span data-stu-id="bb54a-116">Assignment import results in a blank remove screen.</span></span>
 
-<span data-ttu-id="59f69-117">**Ressursbehandling**</span><span class="sxs-lookup"><span data-stu-id="59f69-117">**Resource Management**</span></span>
+<span data-ttu-id="bb54a-117">**Ressursbehandling**</span><span class="sxs-lookup"><span data-stu-id="bb54a-117">**Resource Management**</span></span>
 
-<span data-ttu-id="59f69-118">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="59f69-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="bb54a-118">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="bb54a-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="59f69-119">**Rutenettet for ressursutnyttelse** viser feil data når tidsskalane er mer enn fem dager.</span><span class="sxs-lookup"><span data-stu-id="59f69-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
-- <span data-ttu-id="59f69-120">Når kunder oppretter en ressurs som kan reserverer, kan ikke plugin-modulen automatisk legge til ressursen i en Microsoft Office 365-gruppe.</span><span class="sxs-lookup"><span data-stu-id="59f69-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
-- <span data-ttu-id="59f69-121">**Avstemming** -visningen viser manuelle konturer i **Uke** - eller **Måned** -visningen.</span><span class="sxs-lookup"><span data-stu-id="59f69-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
+- <span data-ttu-id="bb54a-119">**Rutenettet for ressursutnyttelse** viser feil data når tidsskalane er mer enn fem dager.</span><span class="sxs-lookup"><span data-stu-id="bb54a-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
+- <span data-ttu-id="bb54a-120">Når kunder oppretter en ressurs som kan reserverer, kan ikke plugin-modulen automatisk legge til ressursen i en Microsoft Office 365-gruppe.</span><span class="sxs-lookup"><span data-stu-id="bb54a-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
+- <span data-ttu-id="bb54a-121">**Avstemming**-visningen viser manuelle konturer i **Uke**- eller **Måned**-visningen.</span><span class="sxs-lookup"><span data-stu-id="bb54a-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
 
-<span data-ttu-id="59f69-122">**Prosjektledelse**</span><span class="sxs-lookup"><span data-stu-id="59f69-122">**Project Management**</span></span>
+<span data-ttu-id="bb54a-122">**Prosjektledelse**</span><span class="sxs-lookup"><span data-stu-id="bb54a-122">**Project Management**</span></span>
 
-<span data-ttu-id="59f69-123">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="59f69-123">The following issues have been fixed:</span></span>
+<span data-ttu-id="bb54a-123">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="bb54a-123">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="59f69-124">Et stort antall **RetrieveMultiple for usersettings** -enheter forårsaker redusert ytelse for prosjektgodkjenninger og andre operasjoner.</span><span class="sxs-lookup"><span data-stu-id="59f69-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
-- <span data-ttu-id="59f69-125">Ressursoppslaget for rutenettet **Oppgaveplanlegging** er begrenset til bare å vise opptil fem teammedlemmer fra prosjektteamet.</span><span class="sxs-lookup"><span data-stu-id="59f69-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
-- <span data-ttu-id="59f69-126">Ressursoppslaget for rutenettet **Oppgaveplanlegging** filtrerer ikke inaktive ressurser.</span><span class="sxs-lookup"><span data-stu-id="59f69-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
-- <span data-ttu-id="59f69-127">Manuell modus fungerer ikke som forventet i arbeidsnedbrytingsstrukturen for prosjektplanlegging.</span><span class="sxs-lookup"><span data-stu-id="59f69-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
-- <span data-ttu-id="59f69-128">Rutenettet **Oppgaveplanlegging** viser **inaktive transaksjonskategorier**.</span><span class="sxs-lookup"><span data-stu-id="59f69-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
-- <span data-ttu-id="59f69-129">Rutenettet **Ressurstilordning** runder av på feil måte når en oppgave har flere tilordninger.</span><span class="sxs-lookup"><span data-stu-id="59f69-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
-- <span data-ttu-id="59f69-130">Avrundingsverdier er forskjellige mellom planlagt kostnad og faktisk kostnad for én enkelt oppgave.</span><span class="sxs-lookup"><span data-stu-id="59f69-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
+- <span data-ttu-id="bb54a-124">Et stort antall **RetrieveMultiple for usersettings**-enheter forårsaker redusert ytelse for prosjektgodkjenninger og andre operasjoner.</span><span class="sxs-lookup"><span data-stu-id="bb54a-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
+- <span data-ttu-id="bb54a-125">Ressursoppslaget for rutenettet **Oppgaveplanlegging** er begrenset til bare å vise opptil fem teammedlemmer fra prosjektteamet.</span><span class="sxs-lookup"><span data-stu-id="bb54a-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
+- <span data-ttu-id="bb54a-126">Ressursoppslaget for rutenettet **Oppgaveplanlegging** filtrerer ikke inaktive ressurser.</span><span class="sxs-lookup"><span data-stu-id="bb54a-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
+- <span data-ttu-id="bb54a-127">Manuell modus fungerer ikke som forventet i arbeidsnedbrytingsstrukturen for prosjektplanlegging.</span><span class="sxs-lookup"><span data-stu-id="bb54a-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
+- <span data-ttu-id="bb54a-128">Rutenettet **Oppgaveplanlegging** viser **inaktive transaksjonskategorier**.</span><span class="sxs-lookup"><span data-stu-id="bb54a-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
+- <span data-ttu-id="bb54a-129">Rutenettet **Ressurstilordning** runder av på feil måte når en oppgave har flere tilordninger.</span><span class="sxs-lookup"><span data-stu-id="bb54a-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
+- <span data-ttu-id="bb54a-130">Avrundingsverdier er forskjellige mellom planlagt kostnad og faktisk kostnad for én enkelt oppgave.</span><span class="sxs-lookup"><span data-stu-id="bb54a-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
 
-<span data-ttu-id="59f69-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="59f69-131">**Sales**</span></span>
+<span data-ttu-id="bb54a-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="bb54a-131">**Sales**</span></span>
 
-<span data-ttu-id="59f69-132">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="59f69-132">The following issues have been fixed:</span></span>
+<span data-ttu-id="bb54a-132">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="bb54a-132">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="59f69-133">Dobbeltklikk på **Hent alle transaksjonskategorier** oppretter flere linjer.</span><span class="sxs-lookup"><span data-stu-id="59f69-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+- <span data-ttu-id="bb54a-133">Dobbeltklikk på **Hent alle transaksjonskategorier** oppretter flere linjer.</span><span class="sxs-lookup"><span data-stu-id="bb54a-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
