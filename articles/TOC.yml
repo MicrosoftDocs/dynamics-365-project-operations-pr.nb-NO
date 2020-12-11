@@ -1,6 +1,6 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Start
+- name: Komme i gang
   items:
     - name: Fastslå distribusjonstypen
       href: environment/determine-deployment-type.md
@@ -8,7 +8,7 @@
       href: whats-new/project-operations-updates.md
 - name: Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
   items:
-    - name: Start
+    - name: Komme i gang
       items:
         - name: Distribusjonsoversikt for Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: environment/project-operations-integrated-deployment-overview.md
@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nyheter
       items:
+        - name: Desember 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Salgsprosess for prosjekt
@@ -87,7 +89,7 @@
                 - name: Administrere flere kunder på prosjektbaserte tilbudslinjer
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Konfigurere de belastbare komponentene i en prosjekttilbudslinje
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Opprette estimater på en tilbudslinje
                   href: sales/create-estimate-quote-line.md
                 - name: Importere estimater fra et prosjekt til en prosjektbasert tilbudslinje
@@ -109,7 +111,7 @@
             - name: Administrere prosjektprislister i prosjektkontrakter
               href: sales/contracts-manage-project-price-lists.md
             - name: Administrere flere kunder på prosjektkontrakter
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Prosjektbaserte kontraktlinjer
               items:
                 - name: Oversikt over prosjektbaserte kontraktlinjer
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Kopiere en prosjektkontrakt
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Forskudd og honorarer
+              items:
+                - name: Forskudd og honorarbaserte kontrakter – Lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Konfigurere en tidsplan for honorarer – Lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Opprette et adhoc-forskudd på en kontrakt – Lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prissetting og kostberegning
       items:
         - name: Prislisteoppsett
@@ -158,11 +168,19 @@
           items:
             - name: Oversikt over prisdimensjoner
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Opprette en løsning for egendefinerte prisdimensjoner
+              href: sales/create-solution-custompd.md
             - name: Bruke eksisterende felter som prisdimensjoner
               items:
                 - name: Project Operations-felter som prisdimensjoner
                   href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Egendefinerte felter som prisdimensjoner
+                - name: 'Bruke en ressurs som kan reserveres, som en prisdimensjon'
+                  href: sales/use-br-as-pd.md
+                - name: Bruke transaksjonskategori som en prisdimensjon
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Ressurs som kan reserveres, med flere roller i et prosjekt'
+                  href: sales/br-playing-multiple-roles.md
+            - name: Egendefinerte felt som prisdimensjoner
               items:
                 - name: Opprett egendefinerte felt og enheter som prisdimensjoner
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Konfigurere egendefinerte felt som prisdimensjoner
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Oppdatere attributter for plugin-modul for å inkludere nye prisdimensjoner
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Deaktivere en prisdimensjon
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Prosjektledelse
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administrasjon av ressurser
           items:
+            - name: Opprette ressurser
+              href: resource-management/create-resources.md
             - name: Definere ferdigheter og kompetanser
               href: resource-management/define-skills-proficiencies.md
+            - name: Definere roller
+              href: resource-management/define-roles.md
             - name: Definere ressurskalendere
               href: resource-management/define-resource-calendars.md
         - name: Metoder for bestillingstildeling
           href: resource-management/booking-allocation-methods.md
+        - name: Bestillingsstatuser
+          href: resource-management/booking-status.md
         - name: Ferdighets- og kompetansemodeller
           href: resource-management/skills-proficiency-models.md
         - name: Ressursavstemming
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Behandle en proforma prosjektfaktura
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Fakturere et honorar eller forskudd
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Bekrefte en proforma prosjektfaktura
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Konfigurere automatisering av prosjektfaktura
@@ -370,9 +398,35 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Journal for Project Operations-integrering
           href: project-accounting/project-operations-integration-journal.md
+        - name: Konsernintern fakturering
+          items:
+            - name: Oversikt over konsernintern fakturering
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurere konsernintern fakturering
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Opprette konserninterne kunde- og leverandørfakturaer
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Opprette konserninterne transaksjoner
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Inntektsføring
+      items:
+        - name: Oversikt over inntektsføring
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Konfigurere inntektsføring
+          items:
+            - name: Konfigurere periodetyper
+              href: project-accounting/period-types.md
+            - name: Konfigurere kostnadsmaler
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Behandle omberegning av inntekter
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Estimatprosjekter for fastprisomsetning
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Metoder for kostnad som skal fullføres
+          href: revenue-recognition/cost-complete-methods.md
 - name: Lite-distribusjon – avtale til proformafakturering
   items:
-    - name: Start
+    - name: Komme i gang
       items:
         - name: Oversikt over Lite-distribusjon
           href: pro/project-operations-overview-lite.md
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
+        - name: Nyheter desember 2020 – Lite-distribusjon – avtale til proformafakturering
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Nyheter november 2020 – Lite-distribusjon – avtale til proformafakturering
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Salgsprosess for prosjekt
@@ -538,11 +594,19 @@
           items:
             - name: Oversikt over prisdimensjoner
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Opprette en løsning for egendefinerte prisdimensjoner
+              href: sales/create-solution-custompd.md
             - name: Bruke eksisterende felter som prisdimensjoner
               items:
-                - name: Bruk et eksisterende felt som prisdimensjon
+                - name: Project Operations-felter som prisdimensjoner
                   href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Egendefinerte felter som prisdimensjoner
+                - name: 'Bruke en ressurs som kan reserveres, som en prisdimensjon'
+                  href: sales/use-br-as-pd.md
+                - name: Bruke transaksjonskategori som en prisdimensjon
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Ressurs som kan reserveres, med flere roller i et prosjekt'
+                  href: sales/br-playing-multiple-roles.md
+            - name: Egendefinerte felt som prisdimensjoner
               items:
                 - name: Opprett egendefinerte felt og enheter som prisdimensjoner
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Konfigurere egendefinerte felt som prisdimensjoner
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Oppdatere attributter for plugin-modul for å inkludere nye prisdimensjoner
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Deaktivere en prisdimensjon
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Prosjektledelse
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administrasjon av ressurser
           items:
+            - name: Opprette ressurser
+              href: resource-management/create-resources.md
             - name: Definere ferdigheter og kompetanser
               href: resource-management/define-skills-proficiencies.md
+            - name: Definere roller
+              href: resource-management/define-roles.md
             - name: Definere ressurskalendere
               href: resource-management/define-resource-calendars.md
         - name: Metoder for bestillingstildeling
           href: resource-management/booking-allocation-methods.md
+        - name: Bestillingsstatuser
+          href: resource-management/booking-status.md
         - name: Ferdighets- og kompetansemodeller
           href: resource-management/skills-proficiency-models.md
         - name: Ressursavstemming
@@ -832,35 +904,37 @@
       href: psa/overview.md
     - name: Nyheter
       items:
-        - name: Update Release-plan for Project Service 3.x
+        - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Nyheter eller endringer i Update Release 25, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 26, V3'
+          href: psa/whats-new-ur-26.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 25, V3'
           href: psa/whats-new-ur-25.md
-        - name: 'Nyheter eller endringer i Update Release 24, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 24, V3'
           href: psa/whats-new-ur-24.md
-        - name: 'Nyheter eller endringer i Update Release 23, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 23, V3'
           href: psa/whats-new-ur-23.md
-        - name: 'Nyheter eller endringer i Update Release 22, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 22, V3'
           href: psa/whats-new-ur-21.md
-        - name: 'Nyheter eller endringer i Update Release 20, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 20, V3'
           href: psa/whats-new-ur-20.md
-        - name: 'Nyheter eller endringer i Update Release 19, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 19, V3'
           href: psa/whats-new-ur-19.md
-        - name: 'Nyheter eller endringer i Update Release 18, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 18, V3'
           href: psa/whats-new-ur-18.md
-        - name: 'Nyheter eller endringer i Update Release 17.5, hurtigreparasjon, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 17.5, hurtigreparasjon, V3'
           href: psa/whats-new-ur-17-5.md
-        - name: 'Nyheter eller endringer i Update Release 17, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 17, V3'
           href: psa/whats-new-ur-17.md
-        - name: 'Nyheter eller endringer i Update Release 16, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 16, V3'
           href: psa/whats-new-ur-16.md
-        - name: 'Nyheter eller endringer i Update Release 15, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 15, V3'
           href: psa/whats-new-ur-15.md
-        - name: 'Nyheter eller endringer i Update Release 14, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 14, V3'
           href: psa/whats-new-ur-14.md
-        - name: 'Nyheter eller endringer i Update Release 13, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 13, V3'
           href: psa/whats-new-ur-13.md
-        - name: 'Nyheter eller endringer i Update Release 12, V3'
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 12, V3'
           href: psa/whats-new-ur-12.md
         - name: Nyheter eller endringer i bølge 1 2020 for Project Service Automation V3.x
           href: psa/whats-new-v3-2020-wave1.md
