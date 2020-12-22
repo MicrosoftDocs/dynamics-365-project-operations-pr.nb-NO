@@ -3,17 +3,17 @@ title: Utgiftsoppføring (Lite)
 description: Dette emnet gir informasjon om hvordan du arbeider medutgifts registrering i en Lite-distribusjon.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121095"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590958"
 ---
 # <a name="expense-entry-lite"></a>Utgiftsoppføring (Lite)
 
@@ -21,7 +21,7 @@ _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 Basic-, eller Lite-utgiftsbehandling er muligheten til å registrere enkle utgifter. Du kan registrere utgifter mot et prosjekt, og deretter vil prosjektgodkjenneren se gjennom og godkjenne dem.
 
-Hvis du vil ha mer informasjon om utgiftsfunksjonene i Dynamics 365 Project Operations, kan du se [Oversikt over utgifter](expense-overview.md).
+Hvis du vil ha mer informasjon om utgiftsmuligheter i Dynamics 365 Project Operations, kan du se [Utgiftsoversikt](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Registrere en grunnleggende utgift
 
@@ -36,6 +36,10 @@ Når du er ferdig med å registrere alle utgiftene, og du er klar til å få dem
 
 1. Gå til **Utgifter**, og velg en utgift. Du kan også velge alle utgiftene ved hjelp av avmerkingsboksen i hodet.
 2. Velg **Send inn**. Systemet behandler de valgte oppføringene og oppretter deretter forespørsler om utgiftsgodkjenning.
+
+## <a name="add-an-attachment"></a>Legg til et vedlegg
+
+Det kan hende du må gi godkjenneren tilleggsdokumentasjon om utgiftene dine. Du kan legge ved en kvittering på tidslinjen for utgiftsoppføringen. Velg **Rediger** i **Tidslinje**-seksjonen, og velg deretter bindersikonet for å legge ved kvitteringen.
 
 ## <a name="recall-a-basic-expense"></a>Tilbakekalle en grunnleggende utgift
 

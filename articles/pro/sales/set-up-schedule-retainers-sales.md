@@ -1,5 +1,5 @@
 ---
-title: Konfigurere en tidsplan for honorarer – Lite
+title: Konfigurer en honorarplan
 description: Dette emnet gir informasjon om hvordan du konfigurerer en honorarplan i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181284"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596384"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Konfigurere en tidsplan for honorarer – Lite
+# <a name="set-up-a-retainer-schedule"></a>Konfigurer en honorarplan
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-En honorarplan konfigureres på siden **Prosjektkontrakt** i Dynamics 365 Project Operations.
+Honorarplaner konfigureres på **Prosjektkontrakt**-siden i Dynamics 365 Project Operations.
 
 1. På siden **Prosjektkontrakt**, i kategorien **Forskudd og honorarer**, velger du **Konfigurere en tidsplan for honorarer**.
 2. På dialogsiden som åpnes, vises feltene i følgende tabellen. Tabellen gir deg en idé om hvordan de angitte verdiene påvirker eller har innvirkning på honorartidsplanen som blir opprettet.

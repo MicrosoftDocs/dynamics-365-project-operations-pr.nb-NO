@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129690"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642780"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Bruke tillegget Project Service Automation til å planlegge arbeidet i Microsoft Project
 
@@ -173,6 +173,59 @@ Prosjektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 4. Klikk **Publiser**.  
 
 Når prosjektfilen kobles til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] gjøres den til hovedfilen og angir arbeidsnedbrytningsstrukturen i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-malen til skrivebeskyttet.  Hvis du vil gjøre endringer i prosjektplanen, må du gjøre dem i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] og publisere dem som oppdateringer til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Les en ressursrik tidsplan
+
+Når du leser et prosjekt fra Project Service Automation, synkroniseres ikke ressursens kalender til skrivebordsklienten. Hvis det er forskjeller i oppgavevarighetene, innsatsen eller slutten, er det sannsynlig at ressursene og skrivebordsklienten ikke har samme malkalender for arbeidstid som brukes på prosjektet.
+
+
+## <a name="data-synchronization"></a>Datasynkronisering
+
+Tabellen nedenfor oppsummerer hvordan data synkroniseres mellom Project Service Automation og Microsoft Project-tilleggsprogrammet.
+
+| **Enhet** | **Felt** | **Microsoft Project til Project Service Automation** | **Project Service Automation til Microsoft Project** |
+| --- | --- | --- | --- |
+| Prosjektoppgave | Forfallsdato | ● | - |
+| Prosjektoppgave | Beregnet innsats | ● | - |
+| Prosjektoppgave | Klient-ID for MS Project | ● | - |
+| Prosjektoppgave | Overordnet oppgave | ● | - |
+| Prosjektoppgave | Project | ● | - |
+| Prosjektoppgave | Prosjektoppgave | ● | - |
+| Prosjektoppgave | Navn på prosjektoppgave | ● | - |
+| Prosjektoppgave | Ressursenhet (avskrevet i versjon 3.0) | ● | - |
+| Prosjektoppgave | Planlagt varighet | ● | - |
+| Prosjektoppgave | Startdato | ● | - |
+| Prosjektoppgave | WBS-ID | ● | - |
+
+| **Enhet** | **Felt** | **Microsoft Project til Project Service Automation** | **Project Service Automation til Microsoft Project** |
+| --- | --- | --- | --- |
+| Teammedlem | Klient-ID for MS Project | ● | - |
+| Teammedlem | Stillingsnavn | ● | - |
+| Teammedlem | prosjekt | ● | ● |
+| Teammedlem | Prosjektteam | ● | ● |
+| Teammedlem | Ressursenhet | - | ● |
+| Teammedlem | Rolle | - | ● |
+| Teammedlem | Arbeidstid | Ikke synkronisert | Ikke synkronisert |
+
+| **Enhet** | **Felt** | **Microsoft Project til Project Service Automation** | **Project Service Automation til Microsoft Project** |
+| --- | --- | --- | --- |
+| Ressurstilordning | Fra dato | ● | - |
+| Ressurstilordning | timer | ● | - |
+| Ressurstilordning | Klient-ID for MS Project | ● | - |
+| Ressurstilordning | Planlagt arbeid | ● | - |
+| Ressurstilordning | Project | ● | - |
+| Ressurstilordning | Prosjektteam | ● | - |
+| Ressurstilordning | Ressurstilordning | ● | - |
+| Ressurstilordning | Oppgave | ● | - |
+| Ressurstilordning | Til dato | ● | - |
+
+| **Enhet** | **Felt** | **Microsoft Project til Project Service Automation** | **Project Service Automation til Microsoft Project** |
+| --- | --- | --- | --- |
+| Avhengigheter for prosjektoppgaver | Avhengighet for prosjektoppgaver | ● | - |
+| Avhengigheter for prosjektoppgaver | Koblingstype | ● | - |
+| Avhengigheter for prosjektoppgaver | Foregående oppgave | ● | - |
+| Avhengigheter for prosjektoppgaver | Project | ● | - |
+| Avhengigheter for prosjektoppgaver | Etterfølgende oppgave | ● | - |
 
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)

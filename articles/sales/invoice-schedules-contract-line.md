@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180789"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513936"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Opprette en fakturaplan på en prosjektbasert kontraktlinje 
 
@@ -49,7 +49,7 @@ Fullfør fremgangsmåten nedenfor for å generere en milepælbasert fakturaplan 
 3. Åpne **Fast pris**-kontraktlinjen som du oppretter milepælplanen for. I kategorien **Faktureringsmilepæler** velger du startdatoen for fakturering og fakturafrekvensen. 
 4. I delrutenettet velger du **Generer periodiske milepæler**. Fakturaplanen genereres med feltene **Navn på milepæl**, **Milepældato** og **Milepælbeløp** angitt som følger:
 
-    - **Navn på milepæl**: Denne datoen er diktert av fakturafrekvensen.
+    - **Navn på milepæl**: Dette navnet bestemmes av fakturafrekvensen.
     - **Milepældato**: Denne datoen er diktert av fakturafrekvensen.
     - **Milepælbeløp**: Dette beløpet beregnes ved å dele kontraktbeløpet på kontraktlinjen etter antall milepæler som diktert etter frekfvensen og datoene for faktureringsstart og ønsket levering.
 

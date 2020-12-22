@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180519"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513801"
 ---
 # <a name="manage-leads---lite"></a>Behandle kundeemner – Lite
 
@@ -23,7 +23,7 @@ Prosjektrelaterte kundeemner kan administreres og kvalifiseres i Project Operati
 
 ## <a name="list-of-project-sales-leads"></a>Liste over salgsmuligheter for prosjekt
 
-I **Salg**-delen, i den venstre navigasjonsruten, åpner du listesiden **Kundeemner** for å vise en liste over alle kundeemneoppføringer i systemet. Listen over kundeemner som vises, er arbeidsbasert, og andre typer kundeemner kan opprettes hvis du også har Dynamics 365 Sales eller Dynamics 365 Field Service.
+I **Salg**-delen, i den venstre navigasjonsruten, åpner du listesiden **Kundeemner** for å vise en liste over alle kundeemneoppføringer i systemet. Kundeemnene i listen er arbeidsbaserte og andre typer kundeemner som kan opprettes hvis du også har Dynamics 365 Sales- eller Dynamics 365 Field Service-applikasjoner.
 
 Du kan opprette en filtrert visning for å se bare kundeemner som er basert på prosjekter, ved å opprette et filter på **Type**-verdien. Du kan for eksempel velge å vise bare arbeidsbaserte kundeemner.
 
@@ -53,9 +53,9 @@ Kundeemner som har **Type**-verdien satt til **Arbeidsbasert**, kalles for prosj
 
 - En forretningsforbindelse som bruker **Firma**-feltet fra emnet.
 - En kontaktoppføring som er knyttet til forretningsforbindelsen basert på verdiene i feltene **Fornavn** og **Etternavn** for kundeemnet.
-- En prosjektbasert salgsmulighet som har **Type**-feltet satt til **Arbeidsbasertert**.
+- En prosjektbasert salgsmulighet som har **Type**-feltet satt til **Arbeidsbasert**.
 
-Hvis du vil ha mer detaljert informasjon om kvalifisering av kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Hvis du vil ha mer detaljert informasjon om kvalifiserende kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Forretningsprosessflyt for prosjekt baserte avtaler
 

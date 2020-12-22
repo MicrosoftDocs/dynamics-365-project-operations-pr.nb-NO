@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081754"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642645"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisere prosjektkontrakter og prosjekter direkte fra Project Service Automation til Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dette emnet beskriver malen og de underliggende oppgavene som brukes til å synkronisere prosjektkontrakter og prosjekter direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Illustrasjonen nedenfor viser hvordan dataene synkroniseres mellom Project Servi
 
 ## <a name="templates-and-tasks"></a>Maler og oppgaver
 
-Hvis du vil ha tilgang til de tilgjengelige malene, går du til Microsoft Power Apps og velger **Prosjekter** , og deretter velger du **Nytt prosjekt** i øverste høyre hjørne for å velge offentlige maler.
+Hvis du vil ha tilgang til de tilgjengelige malene, går du til Microsoft Power Apps og velger **Prosjekter**, og deretter velger du **Nytt prosjekt** i øverste høyre hjørne for å velge offentlige maler.
 
 Følgende maler og underliggende oppgaver brukes til å synkronisere prosjektkontrakter og prosjekter fra Project Service Automation til Finance:
 
@@ -109,7 +111,7 @@ Når integrasjonsløsningen Project Service Automation til Finance brukes, angir
 - I tilkoblingssettet legger du til en integreringnøkkelfelttilordning for **msdyn\_organizationalunits** i **msdyn\_name \[navn\]**. Du må kanskje først legge til et prosjekt i tilkoblingssettet. Hvis du vil ha mer informasjon, kan du se [Integrere data i Common Data Service for apper](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - I tilkoblingssettet legger du til en integreringnøkkelfelttilordning for **msdyn\_projects** til **msdynce\_projectnumber \[prosjektnummer\]**. Du må kanskje først legge til et prosjekt i tilkoblingssettet. Hvis du vil ha mer informasjon, kan du se [Integrere data i Common Data Service for apper](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** for prosjektkontrakter og prosjekter kan oppdateres til en annen verdi eller fjernes fra tilordningen. Standardmalverdien er **Project Service Automation**.
-- **PaymentTerms** -tilordningen må oppdateres slik at den gjenspeiler gyldige betalingsbetingelser i Finance. Du kan også fjerne tilordningen fra prosjektoppgaven. Standardverdien for tilordningen inneholder standardverdier for demonstrasjonsdata. Tabellen nedenfor viser verdiene i Project Service Automation.
+- **PaymentTerms**-tilordningen må oppdateres slik at den gjenspeiler gyldige betalingsbetingelser i Finance. Du kan også fjerne tilordningen fra prosjektoppgaven. Standardverdien for tilordningen inneholder standardverdier for demonstrasjonsdata. Tabellen nedenfor viser verdiene i Project Service Automation.
 
     | Value | Beskrivelse   |
     |-------|---------------|
@@ -133,9 +135,9 @@ Hvis du må bruke Power Query, følger du retningslinjene nedenfor:
 ## <a name="template-mapping-in-data-integration"></a>Maltilordning i dataintegrering
 
 > [!NOTE] 
-> Feltene **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** og **AddressZipCode** inkluderes ikke i standardtilordningen for prosjektkontrakter. Du kan legge til tilordningene hvis du krever at disse dataene synkroniseres for prosjektkontrakter.
+> Feltene **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** og **AddressZipCode** inkluderes ikke i standardtilordningen for prosjektkontrakter. Du kan legge til tilordningene hvis du krever at disse dataene synkroniseres for prosjektkontrakter.
 >
-> Feltene **Beskrivelse** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** og **ProjectType** er ikke med i standardtilordningen for prosjekter. Du kan legge til tilordningene hvis du krever at disse dataene synkroniseres for prosjekter.
+> Feltene **Beskrivelse**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** og **ProjectType** er ikke med i standardtilordningen for prosjekter. Du kan legge til tilordningene hvis du krever at disse dataene synkroniseres for prosjekter.
 
 Illustrasjonene nedenfor viser eksempler på maloppgavetilordningene i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 

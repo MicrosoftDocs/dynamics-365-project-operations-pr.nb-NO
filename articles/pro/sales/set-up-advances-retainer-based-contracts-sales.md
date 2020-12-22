@@ -1,5 +1,5 @@
 ---
-title: Forskudd og honorarbaserte kontrakter – Lite
+title: Forskudd og honorarbaserte kontrakter
 description: Dette emnet gir information om hvordan honorarbaserte kontraktmodeller og forskudd i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180879"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596114"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Forskudd og honorarbaserte kontrakter – Lite
+# <a name="advances-and-retainer-based-contracts"></a>Forskudd og honorarbaserte kontrakter
 
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 Dynamics 365 Project Operations støtter honorarbaserte kontrakter. En honorarbasert kontrakt er et forhandlet sett med likt fordelte betalinger som kunden faktureres for, i løpet av prosjektets varighet. Denne typen kontrakt brukes vanligvis til faktureringsmodeller for tid og materiale eller forbruksbaserte faktureringsmodeller, der det er nødvendig å gi kunden en forutsigbar faktura- og betalingsplan. Faktiske påløpte inntekter for hver periode blir avstemt mot betalingen som er mottatt fra kunden i begynnelsen av perioden. I henhold til konseptet for faktureringsmodellen for tid og materialer kan omsetningsverdiene som påløper i hver periode, variere etter de påløpte kostnadene. Hvis den påløpte omsetningen er større enn beløpet som er mottatt i begynnelsen av perioden, kan firmaet som leverer prosjektet, gjøre følgende:
 

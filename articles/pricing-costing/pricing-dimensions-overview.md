@@ -1,28 +1,20 @@
 ---
 title: Oversikt over prisdimensjoner
-description: Dette emnet gir information om prisdimensjonene i Dynamics 365 Project Operations.
+description: Dette emnet gir informasjon om prisdimensjonene i Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128475"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650215"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversikt over prisdimensjoner
 
@@ -42,7 +34,19 @@ På grunn av dette er to typer prisdimensjonsverdier tilgjengelige:
 
 Dynamics 365 Project Operations leveres med et standardsett med prisdimensjoner. Du kan vise disse prisdimensjonene ved å gå til **Project Operations** > **Parametere**. i parameteroppføringen, i kategorien **Beløpsbaserte prisdimensjoner** kontrollerer du at rollen **msdyn_resourcecategory** og ressursorganisasjonsenheten **msdyn_organizationalunit** har feltene **Gjelder salg** og **Gjelder kostnad** satt til **Ja**. Når disse feltene er aktivert, kan du konfigurere prisen og kostnaden for hver kombinasjon av rolle og organisasjonsenhet.
 
-Hvis du har behov for pris eller kostnad for ressursene ved hjelp av flere attributter, kan du opprette egendefinerte felt, enheter og dimensjoner.
+![Skjermbilde av Project Service-parametere med "Gjelder salg" uthevet](media/PS-OOB-parameters.png)
+
+Hvis du har behov for pris eller kostnad for ressursene ved hjelp av flere attributter, kan du opprette egendefinerte felt, enheter og dimensjoner. Hvis du vil ha mer informasjon, kan du se følgende emner. 
+  
+  > [!NOTE]
+  > Prosedyrene må fullføres i den rekkefølgen de vises.
+
+1. [Opprette en løsning for egendefinerte prisdimensjoner](../sales/create-solution-custompd.md)
+2. [Opprette egendefinerte felt og enheter](create-custom-fields-entities-pricing-dimensions.md)
+3. [Legge til egendefinerte felt i prisoppsett og transaksjonsenheter ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Konfigurere egendefinerte felt som prisdimensjoner ](set-up-custom-fields-pricing-dimensions.md)
+5. [Oppdater plugin-attributter slik at de inkluderer nye prisdimensjoner](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Prising av personaltid
 Hvordan en organisasjon priser personaltid er ofte en viktig strategisk betraktning som direkte påvirker lønnsomheten i organisasjonen. Du kan arbeide med økonomiteamene og øve på når organisasjonen er klar til å identifisere hvordan de vil sette opp faktura- og kostnadssatser for personale.

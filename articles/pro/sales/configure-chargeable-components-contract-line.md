@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177163"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513891"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje – Lite
 
@@ -34,7 +34,7 @@ Et delsett av de inkluderte komponentene kan merkes som belastbarte ved hjelp av
 
 Belastbare komponenter kan defineres for oppgaver, roller og transaksjonskategorier.
 
-Belastbar er definert i oppgaver for en prosjektkontraktlinje og gjelder for alle transaksjonsklasser som finnes på linjen. Hvis feltet **Inkluder oppgaver** på en kontraktlinje er tomt eller satt til **Hele prosjektet**, er ikke **Belastbare oppgaver**-fanen tilgjengelig.
+Belastbar er definert i oppgaver for en prosjektkontraktlinje og gjelder for alle transaksjonsklasser som finnes på linjen. Hvis **Inkluder oppgaver**-feltet på en kontraktlinje er tomt eller satt til ***Hele prosjektet***, er ikke **Belastbare oppgaver**-fanen tilgjengelig.
 
 Belastbarhet definert for roller for en prosjektkontraktlinje gjelder bare transaksjonsklassen **Tid**. Hvis feltet **Inkluder td** på en kontraktlinje er satt til **Nei**, er ikke **Belastbare roller**-fanen tilgjengelig.
 

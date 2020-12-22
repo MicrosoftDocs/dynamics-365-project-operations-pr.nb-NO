@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130860"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672243"
 ---
 # <a name="override-project-sales-price-lists"></a>Overstyre salgsprislister for prosjekt
 
@@ -21,13 +22,13 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 ## <a name="customer-specific-project-price-lists"></a>Kundespesifikke prosjektprislister
 
-Kundespesifikke prisavtaler kan defineres som prosjektprislister i en oppføring for forretningsforbindelse i Dynamics 365 Project Operations.
+Kundespesifikke prisavtaler kan konfigureres som prosjektprislister på en forretningsforbindelsesoppføring i Dynamics 365 Project Operations.
 
 Hvis du vil definere en kundespesifikk prosjektprisliste, navigerer du til forretningsforbindelsesoppføringen i **Salg**-området.
 
 1. Åpne listesiden **Forretningsforbindelser**.
 2. Finn og dobbeltklikk en kundeoppføring for å åpne detaljsiden **Forretningsforbindelse**.
-3. I kategorien **Prosjektprislister** velger du **+ Ny prosjektprisliste^^.
+3. På **Prosjektprislister**-fanen velger du **+ Ny prosjektprisliste**.
 4. På siden **Ny prosjektprisliste** velger du en prisliste fra rullegardinlisten. Bare prislister som har konteksten satt til **Salg**, og der valutaen samsvarer med valutaen for forretningsforbindelsen, er inkludert.
 5. Angi et navn på tilknytningen, og velg **Lagre**. En kundespesifikk prosjektprisliste opprettes. Denne prislisten blir brukt til å angi standard prosjektpriser i prosjekttilbud eller kontrakter som er opprettet for denne kunden, der datoen for opprettelsen av tilbud eller prosjektkontrakt faller innenfor datogyldigheten for prislisten.
 

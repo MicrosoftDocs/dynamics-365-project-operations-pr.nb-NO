@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121185"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642995"
 ---
 # <a name="provision-a-new-environment"></a>Klargjør et nytt miljø
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dette emnet gir informasjon om hvordan du klargjør et nytt Dynamics 365 Project Operations-miljø for ressursbaserte/ikke-lagerbaserte scenarioer.
 
@@ -120,7 +122,7 @@ Behandling av miljøet kan ta litt tid. Når det er ferdig, går miljøet tilbak
 
 ![Bruk løsninger](./media/13ApplySolutions.png)
 
-5. Velg begge løsningene, **Enhetstilordning for dobbel skriving i Dynamics 365 Finance and Operations** og **Enhetstilordninger for dobbel skriving i Dynamics 365 Project Operations**, og velg deretter **Bruk**.
+5. Velg begge løsningene, **Dynamics 365 Finance and Operations Enhetstilordning for dobbel skriving** og **Dynamics 365 Project Operations Enhetstilordning for dobbel skriving**, og velg deretter **Bruk**.
 
 ![Bekreft løsninger](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Oppdateringen tar ca. 20 minutter. Du mottar et varsel når den er fullført.
 | --- | --- | --- | --- | --- | --- |
 | **Prosjektressursroller for alle selskaper (bookableresourcecategories)** | No | Ja | Common Data Service | No | Ikke tilgjengelig |
 | **Juridiske enheter (cdm\_selskaper)** | No | Ja | Finance and Operations-apper | No | Ikke tilgjengelig |
+| **Finans (msdyn_ledgers)** | No | Ja | Finance and Operations-apper | Ja | Ja, Finance and Operations-apper |
 | **Faktiske verdier for Project Operations-integrering (msdyn\_faktiske verdier)** | No | No | Ikke tilgjengelig | Ja | No |
 | **Prosjektkontraktlinjer (salgsordredetaljer)** | No | No | Ikke tilgjengelig | No | No |
 | **Integreringsenhet for prosjekttransaksjonsrelasjoner (msdyn\_transactionconnections)** | No | No | Ikke tilgjengelig | No | Ikke tilgjengelig |

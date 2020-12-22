@@ -2,8 +2,9 @@
 title: Oppdater utgivelsesplan for Project Service 3.x
 description: Dette emnet gir informasjon om tilgjengelige og kommende versjoner av Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 11/01/2020
+ms.date: 12/07/2020
 ms.reviewer: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -23,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf1203884cb4e49e0982bffb3092730122b2be9c
-ms.sourcegitcommit: 2848a8a654df601911593da8e2f9b6ffd6adc702
+ms.openlocfilehash: 8e9a29b05e07bb59ade00c8f4acdf0275538d5bd
+ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "4404827"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689467"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Oppdater utgivelsesplan for Project Service 3.x
 
@@ -36,7 +37,7 @@ ms.locfileid: "4404827"
 
 | Løsning  | Nyeste versjon |
 |-------|----|
-| Project Service Automation    | 3.10.43.76 |
+| Project Service Automation    | 3.10.44.59 |
 | Skrivebordstilleggsprogrammet for Project Service Automation                | 3.15          |
 
 Hvis du vil ha informasjon om oppdateringer for Project Service, kan du gå til [Dynamics 365-utgivelsesplanene](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -44,27 +45,27 @@ Hvis du vil ha informasjon om oppdateringer for Project Service, kan du gå til 
 | Stasjon  | Område | Gjeldende versjon | Neste versjon |  Planlagt dato
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stasjon 1</strong> | |  |  | |
-| | <i>Første versjon</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 20. november 2020
+| | <i>Første versjon</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 8. januar 2021
 |<strong>Stasjon 2</strong> | |  |  | |
-| | <i>Sør-Amerika</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27. november 2020
-| | <i>Canada</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27. november 2020 
-| | <i>India</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27. november 2020
-| | <i>Frankrike</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27. november 2020
-| | <i>Forente arabiske emirater</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27. november 2020
-| | <i>Sør-Afrika</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27. november 2020
-| | <i>Tyskland</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27. november 2020
+| | <i>Sør-Amerika</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15. januar 2021
+| | <i>Canada</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15. januar 2021
+| | <i>India</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15. januar 2021
+| | <i>Frankrike</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15. januar 2021
+| | <i>Forente arabiske emirater</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15. januar 2021
+| | <i>Sør-Afrika</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15. januar 2021
+| | <i>Tyskland</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15. januar 2021
 |<strong>Stasjon 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11. desember 2020
-| | <i>Asia/Stillehavskysten</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11. desember 2020
-| | <i>Storbritannia</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11. desember 2020
-| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11. desember 2020
+| | <i>Japan</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11. desember 2020
+| | <i>Asia/Stillehavskysten</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11. desember 2020
+| | <i>Storbritannia</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11. desember 2020
+| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11. desember 2020
 |<strong>Stasjon 4</strong> | |  |  | |
-| | <i>Europa</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 13. november 2020
+| | <i>Europa</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 18. desember 2020
 |<strong>Stasjon 5</strong> | |  |  | |
-| | <i>Nord-Amerika</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20. november 2020
+| | <i>Nord-Amerika</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8. januar 2021
 |<strong>Stasjon 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20. november 2020
-| | <i>Dedikerte skaleringsgrupper</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 27. november 2020
+| | <i>Government Community Cloud</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8. januar 2021
+| | <i>Dedikerte skaleringsgrupper</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 15. januar 2021
 
 >[!Note]
 > - Datoer i alle områder unntatt Government Community Cloud (GCC) angir tiden for neste automatiske oppdatering. Datoer i GCC angir versjonstilgjengelighet. Det finnes for øyeblikket ingen automatisk oppdatering for disse områdene.

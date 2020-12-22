@@ -1,5 +1,5 @@
 ---
-title: Fakturere et honorar eller forskudd – Lite
+title: Fakturere et honorar eller forskudd
 description: Dette emnet gir information om hvordan du fakturerer et honorar eller forskudd i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180564"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596204"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturere et honorar eller forskudd – Lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Fakturere et honorar eller forskudd
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 Dynamics 365 Project Operations støtter honorarbaserte kontrakter og engangsforskudd. I en prosjektkontrakt kan du registrere en plan for honorarer eller et engangsforskudd. Hvis du registrerer på prosjektkontraktnivået, blir imidlertid ikke et honorar eller forskudd umiddelbart tilgjengelig for bruk. Hvis du vil bruke et honorar eller forskudd på en faktura som faktisk belaster kunden, må honoraret eller forskuddet faktureres først.
 

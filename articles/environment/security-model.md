@@ -1,6 +1,6 @@
 ---
 title: Sikkerhetsmodellen
-description: Dette emnet gir information om sikkerhetsmodellen i Dynamics 365 Project Operations.
+description: Dette emnet gir informasjon om sikkerhetsmodellen i Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124380"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642915"
 ---
 # <a name="security-model"></a>Sikkerhetsmodell
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Microsoft Dynamics 365 Project Operations inneholder en unik sikkerhetsmodell som gjør det mulig med en rollebasert sikkerhetsmodell for bedrifter som samarbeider med Microsoft Office-grupper. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations inneholder en unik sikkerhetsmodell som tillater en rollebasert forretningssikkerhetsmodell som samarbeider med Microsoft Office-grupper. 
 
 
 ## <a name="security-roles"></a>Sikkerhetsroller

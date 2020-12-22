@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181779"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513846"
 ---
 # <a name="manage-leads"></a>Behandle kundeemner
 
@@ -53,9 +53,9 @@ Kundeemner som har **Type**-verdien satt til **Arbeidsbasert**, kalles for prosj
 
 - En forretningsforbindelse som bruker **Firma**-feltet fra emnet.
 - En kontaktoppføring som er knyttet til forretningsforbindelsen basert på verdiene i feltene **Fornavn** og **Etternavn** for kundeemnet.
-- En prosjektbasert salgsmulighet som har **Type**-feltet satt til **Arbeidsbasertert**.
+- En prosjektbasert salgsmulighet som har **Type**-feltet satt til **Arbeidsbasert**.
 
-Hvis du vil ha mer detaljert informasjon om kvalifisering av kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Hvis du vil ha mer detaljert informasjon om kvalifiserende kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Informasjon om emnekvalifisering og juridisk enhet 
 

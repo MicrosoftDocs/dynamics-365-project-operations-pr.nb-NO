@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121230"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642285"
 ---
 # <a name="currency"></a>Valuta
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Valutaer bestemmer prisen på produktene i produktkatalogen og kostnaden for transaksjoner, for eksempel salgsordrer. Hvis kundene dine er spredt over ulike områder, kan du legge til valutaene deres for å behandle transaksjonene. Legg til valutaene som er mest aktuelle for dine gjeldende og fremtidige forretningsbehov.  
 

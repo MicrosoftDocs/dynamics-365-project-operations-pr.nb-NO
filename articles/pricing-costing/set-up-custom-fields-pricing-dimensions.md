@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119430"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650234"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurere egendefinerte felt som prisdimensjoner
 
@@ -41,9 +41,15 @@ Dette emnet gir informasjon om hvordan du konfigurerer egendefinerte prisdimensj
 For at et felt skal bli en prismodell, må det være følgende:
 
 - Opprettet som et felt i enhetene **Rollepris** og **Rolleprispåslag**. For mer informasjon om hvordan du gjør dette, se [Legge til egendefinerte felt i prisoppsett og transaksjonsenheter](add-custom-fields-price-setup-transactional-entities.md).
+
 - Opprettet som en rad i tabellen **Prisdimensjon**. Legg for eksempel til prisdimensjonsrader som vises i grafikken nedenfor. 
 
+![Rader for beløpsbaserte prisdimensjoner](media/Amt-based-PD.png)
+
 Arbeidstimer for ressurs (**msdyn_resourceworkhours**) er lagt til som en påslagsbasert dimensjon og er lagt til i rutenettet i kategorien **Påslagsbasert prisdimensjon**.
+
+![Rader for påslagsbaserte prisdimensjon](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Alle endringer i prisdimensjonsdata i denne tabellen, eksisterende eller nye, overføres bare til prisforretningslogikken når hurtigbufferen er oppdatert. Oppdateringstiden for bufferen kan ta opptil 10 minutter. Vent denne tiden for å se endringene i standardlogikken for priser som må resultere fra endringer i prisdimensjonsdata.
