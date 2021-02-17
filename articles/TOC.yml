@@ -1,6 +1,6 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Komme i gang
+- name: Kom i gang
   items:
     - name: Fastslå distribusjonstypen
       href: environment/determine-deployment-type.md
@@ -8,7 +8,7 @@
       href: whats-new/project-operations-updates.md
 - name: Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
   items:
-    - name: Komme i gang
+    - name: Kom i gang
       items:
         - name: Distribusjonsoversikt for Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: environment/project-operations-integrated-deployment-overview.md
@@ -20,24 +20,26 @@
           items:
             - name: Starte et nytt LCS-prosjekt
               href: environment/create-lcs-project.md
-            - name: Legge til et Azure-abonnement i et LCS-prosjekt
+            - name: Legg til et Azure-abonnement i et LCS-prosjekt
               href: environment/resource-add-azure-subscription-lcs-project.md
-        - name: Bruke demodata
+        - name: Bruk demodata
           items:
-            - name: Bruke demodata i et skybasert Finance-miljø
-              href: environment/resource-apply-finance-demo-data.md
-            - name: Bruke konfigurasjonsdata i Common Data Service
+            - name: Bruk konfigurasjonsdata i Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
-        - name: Distribuere miljøer
+        - name: Distribuer miljøer
           items:
-            - name: Klargjøre et nytt miljø
+            - name: Klargjør et nytt miljø
               href: environment/resource-provision-new-environment.md
             - name: Sikkerhetsmodell
               href: environment/security-model.md
-            - name: Konfigurere Project Operations-integrering per juridisk enhet
+            - name: Konfigurer Project Operations-integrering per juridisk enhet
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nyheter
       items:
+        - name: Februar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Januar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: Desember 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -132,17 +134,17 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Forskudd og honorarer
               items:
-                - name: Forskudd og honorarbaserte kontrakter – Lite
+                - name: Forskudd og honorarbaserte kontrakter
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfigurere en tidsplan for honorarer – Lite
+                - name: Konfigurer en honorarplan
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Opprette et adhoc-forskudd på en kontrakt – Lite
+                - name: Opprett et adhoc-forskudd på en kontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prissetting og kostberegning
       items:
         - name: Prislisteoppsett
           items:
-            - name: Sette opp prislister
+            - name: Sett opp prislister
               href: pricing-costing/price-list-setup.md
             - name: Produktprislister
               href: pricing-costing/product-price-list.md
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Planlegging av arbeidsnedbrytningsstruktur
           items:
+            - name: Opprett en arbeidsnedbrytningsstruktur
+              href: project-management/create-wbs.md
             - name: Opprett tilordninger
               href: project-management/create-assignments.md
         - name: Estimatprosjekter
@@ -230,8 +234,10 @@
           items:
             - name: Oversikt over prosjektteammedlemmer
               href: project-management/project-team-members-overview.md
-            - name: Opprettholde teammedlemmer
+            - name: Oppretthold teammedlemmer
               href: project-management/maintain-team-members.md
+        - name: Feilsøk arbeid i oppgaverutenettet
+          href: project-management/projectplanningUIFAQ.md
         - name: Samarbeid
           items:
             - name: Samarbeid med Office-grupper
@@ -256,15 +262,17 @@
               href: resource-management/define-resource-requirements.md
             - name: Oppdatere ressurskrav
               href: resource-management/update-resource-requirements.md
-            - name: Sende en ressursforespørsel
+            - name: Send en ressursforespørsel
               href: resource-management/submit-resource-requirements.md
-            - name: Bestille til et prosjekt
+            - name: Bestill til et prosjekt
               href: resource-management/book-project.md
             - name: Se gjennom foreslåtte ressurser
               href: resource-management/review-proposed-resources.md
+            - name: Rediger bestillinger
+              href: resource-management/edit-existing-bookings.md
         - name: Bestilling av desentralisert ressurs (hybrid)
           items:
-            - name: Legge til teammedlemmer fra rutenettet for teammedlemmer
+            - name: Legg til teammedlemmer fra rutenettet for teammedlemmer
               href: resource-management/add-team-members-grid.md
             - name: Oppfylle generelle ressurskrav
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -320,13 +328,15 @@
                   href: expense/set-up-workflows.md
                 - name: Behandle delegering
                   href: expense/manage-delegation.md
-                - name: Konfigurere parametere for utgiftshåndtering
+                - name: Konfigurer parametere for utgiftshåndtering
                   href: expense/configure-expense-management-parameters.md
-                - name: Konfigurere kredittkortintegrering
+                - name: Konfigurer kredittkortintegrering
                   href: expense/set-up-credit-card-integration.md
-                - name: Konfigurere utgiftskategorier
+                - name: Konfigurer utgiftskategorier
                   href: expense/set-up-expense-categories.md
-            - name: Opprette utgiftsrapporter
+            - name: Arbeid med personlige utgifter i en utgiftsrapport
+              href: expense/personal-expenses-expense-report.md
+            - name: Opprett utgiftsrapporter
               items:
                 - name: Distribusjoner i en utgiftsrapport
                   href: expense/distributions-expense-report.md
@@ -368,24 +378,30 @@
           href: actuals/actuals-overview.md
         - name: Korrigeringsjournaler
           items:
-            - name: Opprette og bekrefte korrigeringsjournaler
+            - name: Opprett og bekreft korrigeringsjournaler
               href: actuals/create-confirm-correction-journals.md
-    - name: Proformafakturering
+    - name: Fakturering
       items:
-        - name: Administrere faktureringsrestanse for prosjekt
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Administrere Må ikke overskrides-status og valideringer
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Opprette en proforma prosjektfaktura manuelt
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Behandle en proforma prosjektfaktura
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Fakturere et honorar eller forskudd
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Bekrefte en proforma prosjektfaktura
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Konfigurere automatisering av prosjektfaktura
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Oversikt over faktureringsprosess
+          href: invoicing/post-project-invoices.md
+        - name: Behandle prosjektfakturaforslag
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Proformafakturering
+          items:
+            - name: Administrer faktureringsrestanse for prosjekt
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Administrer Må ikke overskrides-status og valideringer
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Opprette en proforma prosjektfaktura manuelt
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Behandle en proforma prosjektfaktura
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Fakturere et honorar eller forskudd
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Bekrefte en proforma prosjektfaktura
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Konfigurere automatisering av prosjektfaktura
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Prosjektregnskap
       items:
         - name: Standardverdier for finansdimensjon
@@ -402,31 +418,31 @@
           items:
             - name: Oversikt over konsernintern fakturering
               href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfigurere konsernintern fakturering
+            - name: Konfigurer konsernintern fakturering
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Opprette konserninterne kunde- og leverandørfakturaer
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
-            - name: Opprette konserninterne transaksjoner
+            - name: Opprett konserninterne transaksjoner
               href: project-accounting/create-intercompany-transactions.md
+            - name: Opprett konserninterne kunde- og leverandørfakturaer
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Inntektsføring
       items:
         - name: Oversikt over inntektsføring
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: Konfigurere inntektsføring
+        - name: Konfigurer inntektsføring
           items:
-            - name: Konfigurere periodetyper
+            - name: Konfigurer periodetyper
               href: project-accounting/period-types.md
-            - name: Konfigurere kostnadsmaler
+            - name: Konfigurer kostnadsmaler
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Behandle omberegning av inntekter
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Estimatprosjekter for fastprisomsetning
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Metoder for kostnad som skal fullføres
           href: revenue-recognition/cost-complete-methods.md
+        - name: Behandle omberegning av inntekter
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Lite-distribusjon – avtale til proformafakturering
   items:
-    - name: Komme i gang
+    - name: Kom i gang
       items:
         - name: Oversikt over Lite-distribusjon
           href: pro/project-operations-overview-lite.md
@@ -434,15 +450,19 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Distribuere Project Operations – Lite
           href: environment/lite-deployment.md
-        - name: Bruke demonstrasjonsoppsett og konfigurasjonsdata – Lite
+        - name: Bruk demonstrasjonsoppsett og konfigurasjonsdata – Lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Sikkerhetsmodell
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Nyheter desember 2020 – Lite-distribusjon – avtale til proformafakturering
+        - name: Nyheter februar 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Nyheter januar 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Nyheter desember 2020 – Lite-distribusjon
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Nyheter november 2020 – Lite-distribusjon – avtale til proformafakturering
+        - name: Nyheter november 2020 – Lite-distribusjon
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Salgsprosess for prosjekt
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Planlegging av arbeidsnedbrytningsstruktur
           items:
+            - name: Opprett en arbeidsnedbrytningsstruktur
+              href: project-management/create-wbs.md
             - name: Opprett tilordninger
               href: project-management/create-assignments.md
         - name: Estimatprosjekter
@@ -656,12 +678,18 @@
           items:
             - name: Oversikt over prosjektteammedlemmer
               href: project-management/project-team-members-overview.md
-            - name: Opprettholde teammedlemmer
+            - name: Oppretthold teammedlemmer
               href: project-management/maintain-team-members.md
+        - name: Feilsøk arbeid i oppgaverutenettet
+          href: project-management/projectplanningUIFAQ.md
         - name: Samarbeid
           items:
             - name: Samarbeid med Office-grupper
               href: project-management/collaboration-groups.md
+        - name: Notater for utviklere
+          items:
+            - name: Utvikle prosjektmaler med Kopier prosjekt
+              href: project-management/dev-copy-project.md
     - name: Ressursstyring
       items:
         - name: Nøkkelkonsepter
@@ -678,15 +706,17 @@
               href: resource-management/define-resource-requirements.md
             - name: Oppdatere ressurskrav
               href: resource-management/update-resource-requirements.md
-            - name: Sende en ressursforespørsel
+            - name: Send en ressursforespørsel
               href: resource-management/submit-resource-requirements.md
-            - name: Bestille til et prosjekt
+            - name: Bestill til et prosjekt
               href: resource-management/book-project.md
             - name: Se gjennom foreslåtte ressurser
               href: resource-management/review-proposed-resources.md
+            - name: Rediger bestillinger
+              href: resource-management/edit-existing-bookings.md
         - name: Bestilling av desentralisert ressurs (hybrid)
           items:
-            - name: Legge til teammedlemmer fra rutenettet for teammedlemmer
+            - name: Legg til teammedlemmer fra rutenettet for teammedlemmer
               href: resource-management/add-team-members-grid.md
             - name: Oppfylle generelle ressurskrav
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -748,7 +778,7 @@
           href: actuals/actuals-overview.md
         - name: Korrigeringsjournaler
           items:
-            - name: Opprette og bekrefte korrigeringsjournaler
+            - name: Opprett og bekreft korrigeringsjournaler
               href: actuals/create-confirm-correction-journals.md
     - name: Proformafakturering
       items:
@@ -772,6 +802,10 @@
   items:
     - name: Nyheter
       items:
+        - name: Nyheter januar 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Nyheter desember 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: Nyheter november 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Distribusjonsoversikt for Project Operations for lagerførte/produksjonsbaserte scenarioer
@@ -906,6 +940,14 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 28.5, hurtigreparasjon, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 27.5, hurtigreparasjon, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 25, V3'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: Nyheter eller endringer i bølge 1 2021 for Project Service Automation V3.x
+          href: psa/whats-new-2021-wave1.md
         - name: Nyheter eller endringer i bølge 1 2020 for Project Service Automation V3.x
           href: psa/whats-new-v3-2020-wave1.md
         - name: Nyheter eller endringer i Project Service Automation V3
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Prosjektinnstillinger
               href: psa/project-settings.md
+            - name: Planlegg arbeidet i Microsoft Project med Project Service-tilleggsprogrammet
+              href: psa/add-in-plan-work-projects.md
         - name: Prissettings- og kostnadsdimensjoner
           items:
             - name: Startside for prissettings- og kostnadsdimensjoner
@@ -1070,7 +1116,7 @@
               href: psa/book-named-resource.md
             - name: Ressursbestillinger og hvordan de relaterer til oppgavetilordninger
               href: psa/FAQ-bookings-and-assignments.md
-            - name: Sende en ressursforespørsel
+            - name: Send en ressursforespørsel
               href: psa/submit-resource-request.md
             - name: Godta eller avvise en foreslått ressurs
               href: psa/accept-reject-proposed-resource.md
