@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176398"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764515"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Opprette en manuell proformafaktura – Lite
 
@@ -31,6 +32,6 @@ Alle de opprettede prosjektfakturaene er tilgjengelige på **Faktura**-siden i *
 
 ## <a name="project-contract-details-page"></a>Detaljsiden Prosjektkontrakt
 
-En proforafaktura kan også opprettes fra detaljsiden **Prosjektkontrakt**, som oppretter fakturaen for den bestemte prosjektkontrakten. Systemet verifiserer at prosjektkontrakten har en **Klar for fakturering**-restanse som er datert før dagens dato. Fra disse kontraktene oppretter systemet utkast til proformafakturaer basert på antall kunder på hver kontraktlinje.
+En proformafaktura kan også opprettes fra detaljsiden **Prosjektkontrakt**. Systemet verifiserer at prosjektkontrakten har en **Klar for fakturering**-restanse datert før dagens dato. Fra disse kontraktene oppretter systemet utkast til proformafakturaer basert på antall kunder på hver kontraktlinje.
 
-Når det er opprettet én enkelt proformafaktura, åpnes **Faktura**-siden. Hvis det finnes flere fakturaer som er opprettet for den aktuelle prosjektkontrakten åpnes listesiden **Fakturaer** for å vise alle fakturaene som er opprettet.
+Når det er opprettet én enkelt proformafaktura, åpnes **Faktura**-siden. Hvis det opprettes flere fakturaer for den prosjektkontrakten, åpnes listesiden **Fakturaer** for å vise alle opprettede fakturaer.

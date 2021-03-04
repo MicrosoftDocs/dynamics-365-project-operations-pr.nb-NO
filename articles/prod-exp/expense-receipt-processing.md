@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081778"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960304"
 ---
 # <a name="expense-receipt-processing"></a>Behandling av utgiftskvittering
-
-[!include [banner](../includes/banner.md)]
 
 Utgiftsregistrering er forbedret gjennom innføringen av optisk tegngjenkjenning (OCR) for kvitteringer. Denne funksjonen er utformet for å forbedre brukeropplevelsen når reiseregninger opprettes.
 
@@ -49,23 +47,23 @@ Gjør følgende for å opprette en utgift eller samsvare en utgift fra en kvitte
   2. Under det opplastede bildet av kvitteringen legger du merke til alternativene **Opprett** og **Samsvar**.
 
       - Velg **Opprett** for å opprette en manuelt angitt utgiftstransaksjon, og fyll ut verdiene som trekkes ut fra kvitteringen.
-      - Hvis du velger **Samsvar** , prøver systemet å samsvare en eksisterende utgift med kvitteringen.
+      - Hvis du velger **Samsvar**, prøver systemet å samsvare en eksisterende utgift med kvitteringen.
 
 ## <a name="installation"></a>Installasjon
 
-Denne funksjonen fungerer sammen med funksjonen **Nyskapte utgiftsrapporter** , noe som forenkler utgiftsopplevelsen. Denne funksjonen er bare tilgjengelig for nivå 2+-miljøer, som er sandkasse og produksjon.
+Denne funksjonen fungerer sammen med funksjonen **Nyskapte utgiftsrapporter**, noe som forenkler utgiftsopplevelsen. Denne funksjonen er bare tilgjengelig for nivå 2+-miljøer, som er sandkasse og produksjon.
 
 Hvis du vil bruke disse avanserte utgiftsfunksjonene, installerer du tilleggsprogrammet for reiseregning og utlegg for Microsoft Dynamics 365 Finance, og deretter aktiverer du funksjonene i forekomsten. Du kan få tilgang til tillegget fra prosjektet i Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Logg på LCS, og åpne ønsket miljø.
 2. Gå til **Detaljert informasjon**.
-3. Velg **Vedlikehold** , eller rull ned til hurtigfanen **Tilleggsprogrammer for miljø**.
+3. Velg **Vedlikehold**, eller rull ned til hurtigfanen **Tilleggsprogrammer for miljø**.
 4. Velg **Installer et nytt tillegg**.
 5. Velg **Expense Management Service**.
 6. Følg installasjonsveiledningen, og godta vilkårene.
 7. Velg **Installer**.
 
-Aktiver følgende funksjoner i arbeidsområdet **Funksjonsbehandling** :
+Aktiver følgende funksjoner i arbeidsområdet **Funksjonsbehandling**:
 
 - Nyskapte utgiftsrapporter
 - Automatisk samsvar og opprette utgift fra kvittering

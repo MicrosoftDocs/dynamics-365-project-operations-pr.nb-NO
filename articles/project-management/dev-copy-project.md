@@ -3,17 +3,17 @@ title: Utvikle prosjektmaler med Kopier prosjekt
 description: Dette emnet gir informasjon om hvordan du oppretter prosjektmaler ved hjelp av den egendefinerte handlingen Kopier prosjekt.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642420"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045021"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Utvikle prosjektmaler med Kopier prosjekt
 
@@ -48,3 +48,67 @@ For mer informasjon om handlinger, se [Bruke web-API-handlinger](https://docs.mi
 
 ## <a name="specify-fields-to-copy"></a>Angi felt som skal kopieres 
 Når handlingen kalles, ser **Kopier prosjekt** på prosjektvisningen **Kopier prosjektkolonner** for å finne ut hvilke felter som skal kopieres når prosjektet kopieres.
+
+
+### <a name="example"></a>Eksempel
+Følgende eksempel viser hvordan du kaller den egendefinerte handlingen **CopyProject** med parameteren **removeNamedResources** angitt.
+```C#
+{
+    using System;
+    using System.Runtime.Serialization;
+    using Microsoft.Xrm.Sdk;
+    using Newtonsoft.Json;
+
+    [DataContract]
+    public class ProjectCopyOption
+    {
+        /// <summary>
+        /// Clear teams and assignments.
+        /// </summary>
+        [DataMember(Name = "clearTeamsAndAssignments")]
+        public bool ClearTeamsAndAssignments { get; set; }
+
+        /// <summary>
+        /// Replace named resource with generic resource.
+        /// </summary>
+        [DataMember(Name = "removeNamedResources")]
+        public bool ReplaceNamedResources { get; set; }
+    }
+
+    public class CopyProjectSample
+    {
+        private IOrganizationService organizationService;
+
+        public CopyProjectSample(IOrganizationService organizationService)
+        {
+            this.organizationService = organizationService;
+        }
+
+        public void SampleRun()
+        {
+            // Example source project GUID
+            Guid sourceProjectId = new Guid("11111111-1111-1111-1111-111111111111");
+            var sourceProject = new Entity("msdyn_project", sourceProjectId);
+
+            Entity targetProject = new Entity("msdyn_project");
+            targetProject["msdyn_subject"] = "Example Project";
+            targetProject.Id = organizationService.Create(targetProject);
+
+            ProjectCopyOption copyOption = new ProjectCopyOption();
+            copyOption.ReplaceNamedResources = true;
+
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            Console.WriteLine("Done ...");
+        }
+
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        {
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            req["SourceProject"] = sourceProject;
+            req["Target"] = TargetProject;
+            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+            OrganizationResponse response = organizationService.Execute(req);
+        }
+    }
+}
+```

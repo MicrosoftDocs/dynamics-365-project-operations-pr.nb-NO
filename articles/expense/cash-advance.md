@@ -3,19 +3,19 @@ title: Kontantforskudd
 description: Dette emnet inneholder informasjon om kontantforskudd.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122761"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098896"
 ---
 # <a name="cash-advance"></a>Kontantforskudd
 
@@ -24,8 +24,9 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Et kontantforskudd gjør det mulig for ansatte å låne penger fra selskapet før de pådrar seg eventuelle utgifter. Når et forespurt kontantforskudd er godkjent og betalt, kan den ansatte bruke pengene til forretningsutgiftene de kan være i ferd med å pådra seg. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Opprette og sende inn en forespørsel om kontantforskudd
+Gjør følgende for å opprette et nytt forskudd og sende en forespørsel om forskudd: 
 
-1. Under **Mine utgifter** velger du **Kontantforskudd** > **Ny** for å opprette et nytt kontantforskudd. 
+1. Under **Mine utgifter** velger du **Kontantforskudd** > **Nytt**. 
 2. På siden **Forespørsel om nytt kontantforskudd** angir du utgiftsformålet og velger plasseringen der utgiften skal påløpe.
 3. Angi ønsket beløp og valuta, og velg deretter **Lagre**. 
 4. Når du er klar til å sende inn forespørselen om kontantforskudd, går du til siden **Forespørsel om kontantforskudd** og velger **Arbeidsflyt** > **Send inn**.
@@ -57,7 +58,8 @@ Fremgangsmåten nedenfor fullføres vanligvis av en regnskapsfører eller en bru
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Sende inn en reiseregning mot et betalt forskudd 
 
-Når du oppretter og sender inn en reiseregning for kontantforskuddet du allerede har mottatt, justeres utgiftene automatisk mot dette forskuddet. Hvis kontantforskuddet er større enn utgiftsbeløpet, må du returnere saldoen til firmaet ved hjelp av utgiftskategorien **Tilbakebetal kontanter**. Hvis forskuddet som firmaet har betalt, er mindre enn beløpet du har ført som utgift, må selskapet refundere saldoen til deg. 
+Når du oppretter og sender en utgiftsrapport for kontantforskuddet du allerede har mottatt, justeres utgiftene automatisk mot det forskuddet. Hvis kontantforskuddet er større enn utgiftsbeløpet, må du returnere saldoen til firmaet ved hjelp av utgiftskategorien **Tilbakebetal kontanter**. Hvis kontantforskuddet som er betalt for selskapet, er mindre enn beløpet du utbetalte, må firmaet betale deg saldoen. 
 
 ### <a name="example"></a>Eksempel
-Du planlegger å reise til en konferanse fra Bergen til Oslo. Du oppretter en forespørsel om kontantforskudd på 10 000 kroner, siden du har beregnet kostnadene til konferansebilletten, flyreiser, hotell, måltider og drosje til å bli omtrent dette beløpet. Du blir ikke betalt med mindre din overordnede har godkjent denne forespørselen. Når din overordnede godkjenner, betales det forespurte kontantforskuddet som 10 000 kroner til bankkontoen din. Deretter deltar du på konferansen. Når du har fullført reisen, oppdager du at den totale utgiften bare ble 8000 kroner. Velg **Kontanter** i feltet **Betalingsmåte**, og send inn utgiften på 8000 kroner. Det sendte utgiftsbeløpet justeres automatisk mot forskuddet på 10 000 kroner som ble utlånt til deg. Nå skylder du en balanse på 2000 kroner (10 000 minus 8000) til firmaet, som du kan tilbakebetale til firmaet ved hjelp av utgiftskategorien **Tilbakebetal kontanter**. 
+Du planlegger å reise fra Bergen til New York City på en konferanse. Du oppretter en forespørsel om kontantforskudd for 3000.00 USD basert på den beregnede kostnaden for konferansebilletten, flyreiser, overnatting, måltider og taxiutgifter. Du får ikke betalt med mindre din overordnede godkjenner denne forespørselen. Når din overordnede godkjenner, betales det forespurte kontantforskuddet som 10 000 kroner til bankkontoen din. Deretter deltar du på konferansen. Når du har fullført reisen, oppdager du at den totale utgiften bare ble 8000 kroner. Velg **Kontant** i feltet **Betalingsmåte**, og send inn utgifter for 2790.00 USD. Det sendte utgiftsbeløpet justeres automatisk mot forskuddet på 10 000 kroner som ble utlånt til deg. Nå er du skyldig 210.00 USD (3000.00 - 2790.00), som du kan returnere til selskapet ved hjelp av utgiftskategorien **Returner kontanter**.
+

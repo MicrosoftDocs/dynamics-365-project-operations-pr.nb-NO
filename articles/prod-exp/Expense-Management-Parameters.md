@@ -16,18 +16,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 454d3f6feb46b28762a6a1249df2336f1aa5e91a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081664"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960394"
 ---
 # <a name="expense-management-parameters"></a>Parametere for utgiftshåndtering
 
-[!include [banner](../includes/banner.md)]
-
------------------------------
 
 Parameterne styrer den generelle funksjonaliteten i utgiftshåndtering.
 
@@ -44,7 +41,7 @@ Parameterne styrer den generelle funksjonaliteten i utgiftshåndtering.
 |**Tillat konserninterne utgiftslinjer**                         | Velg om det skal være tillatt å registrer utgifter for andre juridiske enheter i en reiseregning.                                                                                                          |
 |**Tillat redigering av valutakursen for kredittkortutgifter** | Velg dette alternativet hvis du vil at brukeren skal kunne redigere valutakursen for importerte kredittkortutgifter.                                                                        |
 |**Felt med flernivåhierarkier som skal vises**                  | Velg hvilke felt for godkjennere som skal vises når typen arbeidsflyttilordning for reiseregning er satt til å være hierarki, og når hierarkivalget er angitt for å bruke hierarkiet for godkjenning av utgifter i flere nivåer. Når godkjenningshierarkiet med flere nivåer brukes for en arbeidsflyt, vises de valgte feltene i reiseregningen og kan redigeres. |
-|**Angi kredittkortnummer for ansatt (oppdateringen fra juli 2017)**     | Velg om et 15-tegns eller 16-tegns nummer kan registreres og lagres i feltet **Kort-ID** på **Kredittkort** -siden for en ansatt.                                                                          |
+|**Angi kredittkortnummer for ansatt (oppdateringen fra juli 2017)**     | Velg om et 15-tegns eller 16-tegns nummer kan registreres og lagres i feltet **Kort-ID** på **Kredittkort**-siden for en ansatt.                                                                          |
 
 ### <a name="financial"></a>Finansielle tjenester
 
@@ -80,7 +77,7 @@ Parameterne styrer den generelle funksjonaliteten i utgiftshåndtering.
 
 | **Felt**                      | **Beskrivelse**            |
 |--------------------------------|-----------------------------------------------------------------------------|
-| **Instruksjoner**                   | Angi instruksjonene som ansatte må følge når de oppretter en forside for en telefaks som brukes til å sende kvitteringer som er relatert til en reiseregning. Klikk på **Oversettelser** -knappen for å angi språkspesifikk tekst som skal vises, basert på brukerspråket. |
+| **Instruksjoner**                   | Angi instruksjonene som ansatte må følge når de oppretter en forside for en telefaks som brukes til å sende kvitteringer som er relatert til en reiseregning. Klikk på **Oversettelser**-knappen for å angi språkspesifikk tekst som skal vises, basert på brukerspråket. |
 |**Bruker-ID (strekkodeinformasjon)** | Velg dette alternativet for å lagre en ansatts unike identifikator i strekkoden som brukes på forsiden av telefaksen.                 |
 |**Strekkode**                      | Velg strekkoden som brukes på forsiden av telefaksen. Strekkodene 39 og 128 støttes i utgiftshåndtering.               |
 

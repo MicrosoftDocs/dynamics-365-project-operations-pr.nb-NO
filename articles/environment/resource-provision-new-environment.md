@@ -3,17 +3,18 @@ title: Klargjør et nytt miljø
 description: Dette emnet gir informasjon om hvordan du klargjør et nytt Project Operations-miljø.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642995"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727802"
 ---
 # <a name="provision-a-new-environment"></a>Klargjør et nytt miljø
 
@@ -60,17 +61,15 @@ Bruk fremgangsmåten nedenfor for å aktivere den automatiserte klargjøringsfly
 
 ![Distribusjonssamtykke](./media/2DeploymentConsent.png)
 
-7. Fyll ut de gjenstående nødvendige feltene i veiviseren, og bekreft distribusjonen. Tiden det tar å klargjøre miljøet, varierer avhengig av miljøtypen. Klargjøring kan ta opptil seks timer.
+7. Valgfritt – Bruk demodata i miljøet. Gå til **Avanserte innstillinger**, velg **Tilpass konfigurasjon av SQL-database**, og sett **Angi et datasett for applikasjonsdatabase** til **Demo**.
+
+8. Fyll ut de gjenstående nødvendige feltene i veiviseren, og bekreft distribusjonen. Tidspunktet for klargjøring av miljøet varierer basert på miljøtypen. Klargjøring kan ta opptil seks timer.
 
   Når distribusjonen er fullført, viser miljøet som **Distribuert**.
 
-8. For å bekrefte at miljøet er distribuert velger du **Logg på** og logger deg på miljøet for å bekrefte.
+9. Velg **Logg på** og logg på miljøet for å bekrefte at det er installert.
 
 ![-miljødetaljer](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Bruk Project Operations Finance-demodata (valgfritt trinn)
-
-Bruk Project Operations Finance-demodata for det skydriftede miljøet i versjon 10.0.13, som beskrevet i [denne artikkelen](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Bruk oppdateringer i Finance-miljøet
 
@@ -151,6 +150,21 @@ Når enhetene er brukt, vises alle tilgjengelige tilordninger i miljøet.
 Oppdateringen tar ca. 20 minutter. Du mottar et varsel når den er fullført.
 
 ![Bekreftelse på oppdatering](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Oppdatere sikkerhetsinnstillinger for Project Operations i Dataverse
+
+1. Gå til Project Operations i Dataverse-miljøet. 
+2. Gå til **Innstillinger** > **Sikkerhet** > **Sikkerhetsroller**. 
+3. På siden **Sikkerhetsroller** velger du **appbruker med dobbeltskriving** i listen over roller og velger kategorien **Egendefinerte enheter**.  
+4. Kontroller at rollen har tillatelsene **Lese** og **Tilføye i** for følgende:
+      
+      - **Valutakurstype**
+      - **Plan over kontoer**
+      - **Regnskapskalender**
+      - **Finans**
+
+5. Etter at sikkerhetsrollen er oppdatert, går du til **Innstillinger** > **Sikkerhet** > **Team** og velger standardteamet i teamvisningen **Lokale forretningseier**.
+6. Velg **Administrer roller** og bekreft at sikkerhetsrettigheten **appbruker med dobbeltskriving** gjelder for dette teamet.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Kjøre tilordninger med dobbel skriving for Project Operations
 

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6a001cea56411865599a5c0a41fe47682dad35c2
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
+ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700828"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4707685"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nyheter desember 2020 – Project Operations Lite-distribusjon – avtale til proformafakturering
 
@@ -24,7 +24,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 
   - Project Operations på Dataverse-miljø versjon 4.5.0.134 
 
-Tabellen nedenfor viser oppdateringene for Project Operations på Dataverse-miljø versjon 4.4.0.70.
+Tabellen nedenfor viser oppdateringene for Project Operations på Dataverse-miljø versjon 4.5.0.134.
 
 | **Funksjonsområdet** | **Referansenummer** | **Kvalitetsoppdatering** |
 | --- | --- | --- |

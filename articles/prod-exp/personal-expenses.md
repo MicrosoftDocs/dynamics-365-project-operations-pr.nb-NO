@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 825b6c131c8a65b99d5b7ebdadcd6389886f2d11
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d6b9d4fa0f69b4b0fe4bd1786958d22e5580a321
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081769"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960889"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>Personlige utgifter i en utgiftsrapport
-
-[!include [banner](../includes/banner.md)]
 
 I løpet av en forretningsreise kan arbeidere noen ganger bli belastet for personlige utgifter på firmaets kredittkort. Hvis du ikke definerer en prosess for håndtering av personlige utgifter, kan det hende at godkjennings prosessen for reiseregninger blir forstyrret når de ansatte sender inn de spesifiserte reiseregningene. 
 

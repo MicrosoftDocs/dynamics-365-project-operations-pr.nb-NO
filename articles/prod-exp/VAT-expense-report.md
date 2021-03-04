@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49397592ea002b9da872ac1aa455719b6ca2292e
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081662"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960214"
 ---
 # <a name="vat-recovery"></a>MVA-gjenoppretting 
-
-[!include [banner](../includes/banner.md)]
 
 For å motta refusjoner fra berettigede mva-transaksjoner må et firma eller en organisasjon identifisere, samle inn, kontrollere og sende inn nøyaktig informasjon. Denne prosessen inkluderer flere oppgaver og, avhengig av størrelsen på firmaet, kan inkludere flere ansatte eller roller.
 

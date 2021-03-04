@@ -1,6 +1,6 @@
 ---
 title: Behandle utgiftsdelegering
-description: En utgiftsrepresentantbruker kan opprette og administrere reiseregninger på vegne av en annen ansatt i organisasjonen.
+description: En utgiftsrepresentant kan opprette og administrere kostnadsrapporter for en annen ansatt i organisasjonen.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081772"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960799"
 ---
 # <a name="manage-expense-delegation"></a>Behandle utgiftsdelegering
 
-[!include [banner](../includes/banner.md)]
+En utgiftsrepresentant kan opprette og administrere reiseregninger for en annen ansatt.
 
-En utgiftsrepresentantbruker kan opprette og administrere reiseregninger på vegne av en annen ansatt i organisasjonen.
+## <a name="configure-expense-delegation"></a>Konfigurere utgiftsdelegering
 
-## <a name="configuring-expense-delegation"></a>Konfigurere utgiftsdelegering
+1. Hvis du vil konfigurere en bruker som utgiftsrepresentant, går du til **Utgiftshåndtering > Oppsett > Generelt > Representanter**.
+2. På **Representanter**-siden velger du **Ny**.
+3. Velg den ansatte som skal ha en representant definert. 
+4. Skriv inn aliaset til representantbrukeren og start- og sluttdatoen for delegeringsperioden.
 
-Hvis du vil definere en bruker som en utgiftsrepresentant, går du til **Utgiftshåndtering > Oppsett > Generelt > Representanter** for å åpne **Representanter** -siden. Velg **Ny** , og velg deretter den ansatte som skal ha en representant definert. Skriv inn aliaset til representantbrukeren og start- og sluttdatoen for delegeringsperioden.
+## <a name="manage-expense-delegation-for-another-employee"></a>Administrere utgiftsdelegasjon for en annen ansatt
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Administrere utgiftsdelegering på vegne av en annen ansatt
+Når funksjonsbehandlingsnøkkelen **Aktiver listeside for utgiftsrepresentanter** er aktivert, vil listesiden **Utgifter som er delegert til meg**, væåre tilgjengelige. Gå til **Utgiftshåndtering** > **Mine utgifter** > **Utgifter delegert til meg**.
 
-Hvis funksjonsbehandlingsnøkkelen **Aktiver listeside for utgiftsrepresentanter** er aktivert, blir listesiden **Utgifter delegert til meg** tilgjengelig ved å gå til **Utgiftshåndtering > Mine utgifter > Utgifter delegert til meg**.
+En representantbruker kan raskt filtrere og søke etter eksisterende utgiftsrapporter som er delegert til dem. De kan også opprette en ny utgiftsrapport for andre brukere ved å velge **Ny utgiftsrapport**.
 
-En representantbruker kan raskt filtrere og søke etter eksisterende reiseregninger som er delegert til brukeren. Brukeren kan også raskt opprette en ny reiseregning på vegne av andre brukere ved å klikke på **Ny reiseregning**.
-
-Representantbrukere kan også opprette og administrere reiseregninger på vegne av andre ansatte ved å gå til **Utgiftshåndtering > Mine utgifter > Reiseregninger** og klikke på knappen **Åpne andre brukeres utgifter**.
+Representantbrukere kan også opprette og administrere utgiftsrapporter for andre ansatte ved å gå til **Utgiftshåndtering** > **Mine utgifter** > **Utgiftsrapporter** og velge **Åpne andre brukeres utgifter**.

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6cec15e436bc699e361577c970dd5845c6c68908
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bf75c13bb190c7b992aa516f1593d886dfa604d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081773"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960439"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importere og vedlikeholde kredittkorttransaksjoner
-
-[!include [banner](../includes/banner.md)]
 
 Utgiftsrelaterte kredittkorttransaksjoner kan konfigureres slik at de importeres automatisk etter en regelmessig tidsplan. Transaksjonene kan også importeres manuelt etter behov. Kredittkorttransaksjonene importeres via dataenheten for kredittkorttransaksjoner.
 
@@ -36,9 +34,9 @@ Hvis du vil ha mer informasjon om dataenheter, kan du se [Dataenheter](https://d
 ## <a name="import-credit-card-transactions"></a>Importere kredittkorttransaksjoner
 
 1. På siden **Kredittkorttransaksjoner** velger du **Importer transaksjoner**. Hvis du åpner databehandling for første gang, må systemet oppdatere listen over dataenheter før du kan fortsette.
-2. I **Navn** -feltet angir du en unik beskrivelse av importjobben.
+2. I **Navn**-feltet angir du en unik beskrivelse av importjobben.
 3. I feltet **Kildedataformat** velger du formatet til filen som inneholder kredittkorttransaksjonene som skal importeres.
-4. Velg **Last opp** , og finn og velg deretter filen som skal importeres.
+4. Velg **Last opp**, og finn og velg deretter filen som skal importeres.
 5. Når du har lastet opp filen, validerer du tilordningen av kredittkorttransaksjonsfilen og kolonnene for dataenheten for kredittkorttransaksjoner ved å velge koblingen **Vis tilordning** på flisen. Hvis det finnes tilordningsfeil, eller hvis du må endre tilordningen, må du gjøre tilordningen fra kategorien **Tilordningsvisualisering** eller kategorien **Tilordningsdetaljer**.
 6. Hvis du vil automatisere kredittkorttransaksjonene, velger du **Opprett regelmessig datajobb**. Deretter kan du angi regelmessigheten som definerer hvor ofte kredittkorttransaksjoner skal importeres. Velg **OK** når du er ferdig.
 7. Hvis du vil importere den valgte filen nå, velger du **Importer**.
