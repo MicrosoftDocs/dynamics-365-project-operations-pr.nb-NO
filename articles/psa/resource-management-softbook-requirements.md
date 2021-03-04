@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124110"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147395"
 ---
 # <a name="soft-book-requirements"></a>Foreta en ikke-forpliktende bestilling på krav
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Et ressurskrav kan være forpliktende. En forpliktende bestilling oppretter et forslag som bruker kapasiteten til en ressurs. Forslaget sendes deretter tilbake til anmoderen for godkjenning. En ikke-forpliktende bestilling legger foreløpig til en ressurs i et prosjektteam og har en annen status på planleggingstavlen, men den forbruker ikke kapasiteten til ressursen. Hvis du vil legge inn en ikke-forpliktende bestilling på en ressurs fra planleggingtavlen, setter du feltet **Bestillingsstatus** til **Ikke-forpliktende**.
 
