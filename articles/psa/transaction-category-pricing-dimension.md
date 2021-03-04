@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081704"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150770"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Bruke transaksjonskategori som en prisdimensjon
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Dette emnet gir informasjon om hvordan du bruker en transaksjonskategori som en prisingsdimensjon. Hvis du ikke allerede har opprettet en løsning for prisdimensjon før du begynner, må du opprette en ny. Hvis du allerede har en løsning for prisingsdimensjon, kan du gjøre endringene i den løsningen. Hvis du ikke har opprettet en ny løsning for prisdimensjon for organisasjonen, må du fullføre prosedyrene i emnet [Opprette egendefinerte felt og enheter](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Legge til transaksjonskategori i skjemaer og visninger
@@ -47,6 +50,6 @@ Tabellen nedenfor er en omfattende liste over de medfølgende skjemaene og visni
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Konfigurere transaksjonskategori som en prisdimensjon
 
 1. I webgrensesnittet går du til **Project Service** > **Innstillinger** > **Parametere**. 
-2. På **Parametere** -siden i kategorien **Beløpsbaserte prisdimensjoner** kan du legge merke til at rutenettet i kategorien viser oppføringene i **Prisdimensjoner** -enheten.
+2. På **Parametere**-siden i kategorien **Beløpsbaserte prisdimensjoner** kan du legge merke til at rutenettet i kategorien viser oppføringene i **Prisdimensjoner**-enheten.
 3. Legg til **Transaksjonskategori** i denne listen, og angi feltene **Gjelder kostnad** og **Gjelder salg** til **Ja**.
-4. I **Dimensjonstype** -feltet velger **Beløpsbasert** , og deretter velger du prioritet for **Transaksjonskategori** relatert til kostnad og salg.
+4. I **Dimensjonstype**-feltet velger **Beløpsbasert**, og deretter velger du prioritet for **Transaksjonskategori** relatert til kostnad og salg.

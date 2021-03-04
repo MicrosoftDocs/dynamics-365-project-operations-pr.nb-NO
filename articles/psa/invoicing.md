@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081684"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151400"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturering i Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -48,7 +50,7 @@ Fra listesiden **Prosjektkontrakter** kan du opprette prosjektfakturaer separat 
 
 Følg dette trinnet for å opprette en faktura for en bestemt prosjektkontrakt.
 
-- Åpne en prosjektkontrakt på listesiden **Prosjektkontrakter** , og velg deretter **Opprett faktura**.
+- Åpne en prosjektkontrakt på listesiden **Prosjektkontrakter**, og velg deretter **Opprett faktura**.
 
     ![Opprette prosjektfakturaer for en bestemt prosjektkontrakt](media/CreateProjectInvoicesOneByOne.png)
 
@@ -74,21 +76,21 @@ Følg denne fremgangsmåten for å konfigurere en automatisk fakturakjøring i P
 
 1. Gå til **Project Service** \> **Innstillinger** \> **Satsvise jobber**.
 2. Opprett en satsvis jobb, og gi den navnet **Opprette fakturaer i PSA**. Navnet på den satsvise jobben må inneholde begrepet "Opprette fakturaer".
-3. I **Jobbtype** -feltet velger du **Ingen**. Som standard er **Daglig intervall** og **Er aktiv** satt til **Ja**.
+3. I **Jobbtype**-feltet velger du **Ingen**. Som standard er **Daglig intervall** og **Er aktiv** satt til **Ja**.
 4. Velg **Kjør arbeidsflyt**. I dialogboksen **Oppslagsoppføring** vises tre arbeidsflyter:
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. Velg **ProcessRunCaller** , og velg deretter **Legg til**.
+5. Velg **ProcessRunCaller**, og velg deretter **Legg til**.
 6. Velg **OK** i den neste dialogboksen. Arbeidsflyten **Hvile** følges av arbeidsflyten **Prosess**.
 
-    Du kan også velge **ProcessRunner** i trinn 5. Når du deretter velger **OK** , etterfølges en **Prosess** -arbeidsflyt av en **Hvile** -arbeidsflyt.
+    Du kan også velge **ProcessRunner** i trinn 5. Når du deretter velger **OK**, etterfølges en **Prosess**-arbeidsflyt av en **Hvile**-arbeidsflyt.
 
 Arbeidsflytene **ProcessRunCaller** og **ProcessRunner** oppretter fakturaer. **ProcessRunCaller** kaller **ProcessRunner**. **ProcessRunner** er arbeids flyten som faktisk oppretter fakturaene. Det går gjennom alle kontraktslinjene som fakturaer må opprettes for, og det opprettes fakturaer for disse linjene. For å finne ut hvilke kontraktslinjer fakturaer må opprettes for, ser jobben på fakturakjøredatoer for kontraktslinjene. Hvis kontraktslinjer som tilhører én kontrakt, har samme fakturakjøringsdato, kombineres transaksjonene til én faktura som har to fakturalinjer. Hvis det ikke finnes transaksjoner for å opprette fakturaer for, hopper jobben over fakturaopprettelsen.
 
-Når **ProcessRunner** har kjørt ferdig, kaller den **ProcessRunCaller** , angir sluttidspunktet og lukkes. **ProcessRunCaller** starter deretter en tidtaker som kjører i 24 timer, fra det angitte sluttidspunktet. Når tidtakeren er ferdig, lukkes **ProcessRunCaller**.
+Når **ProcessRunner** har kjørt ferdig, kaller den **ProcessRunCaller**, angir sluttidspunktet og lukkes. **ProcessRunCaller** starter deretter en tidtaker som kjører i 24 timer, fra det angitte sluttidspunktet. Når tidtakeren er ferdig, lukkes **ProcessRunCaller**.
 
 Den satsvise prosessjobben for oppretting av fakturaer er en gjentakende jobb. Hvis denne satsvise prosessen kjører mange ganger, opprettes flere forekomster av jobben, og det fører til feil. Derfor bør du starte den satsvise prosessen bare én gang, og du bør bare starte den på nytt hvis den slutter å kjøre.
 
@@ -103,13 +105,13 @@ Når du oppretter et fakturautkast for et prosjekt, trekkes alle ikke-fakturerte
 - Redigere og justere antallet og faktureringstypen.
 - Legge til tid, utgifter og avgifter direkte som transaksjoner på fakturaen. Du kan bruke denne funksjonen hvis fakturalinjen er tilordnet til en kontraktslinje som tillater disse transaksjonsklassene.
 
-Velg **Bekreft** for å bekrefte en faktura. Bekreftelseshandlingen er en énveishandling. Når du velger **Bekreft** , blir fakturaen skrivebeskyttet, og det opprettes faktiske verdier for fakturert salg fra hver fakturalinjedetalj for hver fakturalinje. Hvis fakturalinjedetaljene refererer til en faktisk salgsordre, tilbakefører systemet også faktisk fakturert salg. (Alle fakturalinjedetaljer som ble opprettet fra en tids- eller utgiftsoppføring, vil referere til et ikke-fakturert salg.) Integrasjonssystemer for hovedboken kan bruke denne tilbakeføringen til å tilbakeføre prosjektarbeid som pågår, for regnskapsformål.
+Velg **Bekreft** for å bekrefte en faktura. Bekreftelseshandlingen er en énveishandling. Når du velger **Bekreft**, blir fakturaen skrivebeskyttet, og det opprettes faktiske verdier for fakturert salg fra hver fakturalinjedetalj for hver fakturalinje. Hvis fakturalinjedetaljene refererer til en faktisk salgsordre, tilbakefører systemet også faktisk fakturert salg. (Alle fakturalinjedetaljer som ble opprettet fra en tids- eller utgiftsoppføring, vil referere til et ikke-fakturert salg.) Integrasjonssystemer for hovedboken kan bruke denne tilbakeføringen til å tilbakeføre prosjektarbeid som pågår, for regnskapsformål.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Korrigere en bekreftet PSA-faktura
 
 Bekreftede PSA-fakturaer kan redigeres (korrigeres). Når du korrigerer en bekreftet faktura, opprettes det et nytt korrigert fakturautkast. Fordi det antas at du vil tilbakeføre alle transaksjonene og antallene fra den opprinnelige fakturaen, inneholder denne korrigerte fakturaen alle transaksjonene fra den opprinnelige fakturaen, og alle antallene i den er 0 (null).
 
-Hvis noen av transaksjonene ikke krever rettelser, kan du fjerne dem fra det korrigerte fakturautkastet. Hvis du vil tilbakeføre eller bare returnere et delvis antall, kan du redigere **Antall** -feltet i linjedetaljene. Hvis du åpner fakturalinjedetaljene, kan du se det opprinnelige fakturaantallet. Du kan deretter redigere det gjeldende fakturaantallet slik at det blir mindre enn eller større enn det opprinnelige fakturaantallet.
+Hvis noen av transaksjonene ikke krever rettelser, kan du fjerne dem fra det korrigerte fakturautkastet. Hvis du vil tilbakeføre eller bare returnere et delvis antall, kan du redigere **Antall**-feltet i linjedetaljene. Hvis du åpner fakturalinjedetaljene, kan du se det opprinnelige fakturaantallet. Du kan deretter redigere det gjeldende fakturaantallet slik at det blir mindre enn eller større enn det opprinnelige fakturaantallet.
 
 Når du bekrefter en korrigert faktura, tilbakeføres det opprinnelige faktiske fakturerte salget, og et nytt faktisk fakturert salg opprettes. Hvis antallet ble redusert, vil forskjellen føre til at et nytt, ikke-fakturert faktisk salg også opprettes. Hvis det opprinnelige fakturerte salget for eksempel var på åtte timer, og den korrigerte fakturalinjedetaljen har et redusert antall på seks timer, tilbakefører PSA den opprinnelige, fakturerte salgs linjen, og det opprettes to nye faktiske verdier:
 
