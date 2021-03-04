@@ -1,0 +1,40 @@
+---
+title: Nyheter februar 2021 – Project Operations Lite-distribusjon
+description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i februar 2021-versjonen av Project Operations Lite-distribusjon.
+author: sigitac
+manager: tfehr
+ms.date: 02/08/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: bfc4c622c423e689938e58666ae47abbe3c23d48
+ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141338"
+---
+# <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Nyheter februar 2021 – Project Operations Lite-distribusjon
+
+Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
+
+  - Project Operations på Dataverse-miljø versjon 4.7.0.95
+
+## <a name="quality-updates"></a>Kvalitetsoppdateringer
+
+| **Funksjonsområde** | **Referansenummer** | **Kvalitetsoppdatering** |
+| --- | --- | --- |
+| **Fakturering og prising** | 2053736 | Fakturalinjedetaljer er nå tilgjengelige ved å gå til **Faktura** > **Relatert informasjon**. |
+| **Fakturering og prising** | 2122613 | Handlingene **Aktiver** og **Deaktiver** ble fjernet fra tilknytningsenhetene for **Prisliste**. |
+| **Fakturering og prising** | 2128606 | Løste problemet med **ullReferenceException** i plugin-modulen **GetEstimatesForProject**. |
+| **Distribusjon og konfigurasjon** | 2140569 | Prosjektløsningen må ikke installeres i Dataverse Teams-miljøene. |
+| **Distribusjon og konfigurasjon** | 2086991 | Begrenset tilpassing av lokalisering av webressurser. |
+| **Administrasjon av salgsmulighet** | 2136794 | Vis riktig feilmelding når prosessen **Bekreft faktura** eller **Merk faktura som betalt** mislykkes, |
+| **Administrasjon av salgsmulighet** | 2146376 | Korrigert avgiftsbeløp i en ikke-belastbar faktisk verdi opprettes fra fakturabekreftelsen. |
+| **Prosjektplanlegging og sporing** | 2099879 | Distribusjonen i Dataverse-miljøet må opprette en standard transaksjonskategori med en statisk ID og ikke generere én tilfeldig per miljø. |
+| **Prosjektplanlegging og sporing** | 2128577 | Løste brukerrettighetene for prosjektservice for å oppdatere transaksjonskategorien for en ressurstilordning. |
+| **Prosjektplanlegging og sporing** | 2164035 | Løste problemer med funksjonen **Kopier prosjekt**. |
+| **Tidsoppføring** | 2129161 | Begrensninger for inntasting brukes for å sikre at brukere ikke kan endre og oppdatere en tidsoppføring som er sendt eller godkjent. |
+| **Tidsoppføring** | 2103572 | Tidsgodkjenning for ikke-prosjekttidsoppføringer kan ikke se etter prosjektgodkjennelsesrolle. |

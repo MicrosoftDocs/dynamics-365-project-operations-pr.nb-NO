@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081814"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144605"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Legg til nye egendefinerte enhetsskjemaer (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Felttype 
 
-Dynamics 365 Project Service Automation avhenger av feltet **Type** ( **msdyn\_ordertype** ) i enhetene for salgsmulighet, tilbud, ordre og faktura for å skille **arbeidsbaserte** versjoner av disse enhetene fra **varebasert** og **tjenestebaserte** versjoner. Arbeidsbaserte versjoner av disse entitetene håndteres av PSA. Mye forretningslogikk på klientsiden og serversiden av løsningen avhenger av **Type** -feltet. Derfor er det viktig at feltet initialiseres med en korrekt verdi når enhetene opprettes. Feil verdi kan føre til feil funksjonalitet, og det kan hende at noe av forretningslogikken ikke kjører på riktig måte.
+Dynamics 365 Project Service Automation avhenger av feltet **Type** (**msdyn\_ordertype**) i enhetene for salgsmulighet, tilbud, ordre og faktura for å skille **arbeidsbaserte** versjoner av disse enhetene fra **varebasert** og **tjenestebaserte** versjoner. Arbeidsbaserte versjoner av disse entitetene håndteres av PSA. Mye forretningslogikk på klientsiden og serversiden av løsningen avhenger av **Type**-feltet. Derfor er det viktig at feltet initialiseres med en korrekt verdi når enhetene opprettes. Feil verdi kan føre til feil funksjonalitet, og det kan hende at noe av forretningslogikken ikke kjører på riktig måte.
 
 ## <a name="automatic-form-switching"></a>Automatisk skjemabytting
 
@@ -37,7 +39,7 @@ Den automatiske logikken for skjemabytting er avhengig av tilordningen mellom ve
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Legge til egendefinerte skjemaer og aktivere logikken for skjemabytting
 
-Følgende eksempel viser hvordan du legger til et egendefinert skjema, **Min prosjektinformasjon** , slik at det fungerer med arbeidsbaserte salgsmuligheter. Den samme prosessen brukes til å legge til egendefinerte skjemaer, slik at de kan fungere med tilbud, ordrer og fakturaer.
+Følgende eksempel viser hvordan du legger til et egendefinert skjema, **Min prosjektinformasjon**, slik at det fungerer med arbeidsbaserte salgsmuligheter. Den samme prosessen brukes til å legge til egendefinerte skjemaer, slik at de kan fungere med tilbud, ordrer og fakturaer.
 
 Følg fremgangsmåten nedenfor for å opprette en egendefinert versjon av skjemaet **Prosjektinformasjon**.
 
@@ -47,19 +49,19 @@ Følg fremgangsmåten nedenfor for å opprette en egendefinert versjon av skjema
     > [!IMPORTANT]
     > Ikke fjern skriptene. Ellers kan enkelte data bli initialisert feil.
 
-3. Kontroller at feltet **Type** ( **msdyn\_ordertype** ) finnes i skjemaet. 
+3. Kontroller at feltet **Type** (**msdyn\_ordertype**) finnes i skjemaet. 
 
     > [!IMPORTANT]
     > Ikke fjern dette feltet. Ellers vil initialiseringsprosessen mislykkes.
 
-4. Finn **formId** -verdien for det nye skjemaet. Du kan gjøre dette på to forskjellige måter:
+4. Finn **formId**-verdien for det nye skjemaet. Du kan gjøre dette på to forskjellige måter:
 
-    - Eksporter skjemaet **Min prosjektinformasjon** som en del av en uadministrert løsning, og slå deretter opp **formId** -verdien i filen customization.xml i den eksporterte løsningen.
-    - Åpne skjemaet **Min prosjektinformasjon** i skjemaredigeringsprogrammet, og se etter den globalt unike identifikatoren (GUID) ved siden av **fromId** -parameteren i URL-adressen, som vist i følgende illustrasjon.
+    - Eksporter skjemaet **Min prosjektinformasjon** som en del av en uadministrert løsning, og slå deretter opp **formId**-verdien i filen customization.xml i den eksporterte løsningen.
+    - Åpne skjemaet **Min prosjektinformasjon** i skjemaredigeringsprogrammet, og se etter den globalt unike identifikatoren (GUID) ved siden av **fromId**-parameteren i URL-adressen, som vist i følgende illustrasjon.
 
     ![Verdien formId for det nye skjemaet i URL-adressen.](media/how-to-add-custom-forms-in-v2.0.png)
 
-5. Opprett en **msdyn\_ordertype** -tilordning for **formId** -verdien ved å redigere nettressursen msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Fjern koden fra ressursen, og erstatt den med følgende kode.
+5. Opprett en **msdyn\_ordertype**-tilordning for **formId**-verdien ved å redigere nettressursen msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Fjern koden fra ressursen, og erstatt den med følgende kode.
 
     ```javascript
     define(["require", "exports"], function (require, exports) {

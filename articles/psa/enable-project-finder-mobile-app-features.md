@@ -3,6 +3,7 @@ title: Aktivere funksjonene i Project Finder Mobile-appen
 description: Slik aktiverer du funksjonene i Project Finder Mobile-appen for Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132975"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144560"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Aktivere funksjonene i Project Finder Mobile-appen (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Ressursene dine kan bruke Project Finder Mobile-appen på telefoner med [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] for å finne nye prosjekter å arbeide med og oppdatere ferdighetssett.  
+Ressursene dine kan bruke Project Finder Mobile-appen på telefoner med [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] for å finne nye prosjekter å arbeide med og oppdatere sine ferdigheter.  
   
  Appen er tilgjengelig for [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)]-telefoner og [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Du må angi et par alternativer i parameterinnstillingen organisasjonsenheten, slik at brukerne kan vise prosjektenes ressurskrav og oppdatere sine kunnskaper.  
+    
+ Hvis du vil tillate at brukere viser prosjektressurskrav og oppdaterer ferdigheter, må alternativer velges i parameterinnstillingene for organisasjonsenheten.
   
 > [!NOTE]
 >  Project Finder Mobile-appen fungerer bare med [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], ikke med lokale installasjoner.  
@@ -57,8 +60,8 @@ Ressursene dine kan bruke Project Finder Mobile-appen på telefoner med [!INCLUD
   
 |Mottaker|Seminar/konferanse|  
 |---------------|-----------|  
-|Prosjektleder|-   Når en ressurs registrerer seg for et prosjekt med Project Finder Mobile-appen.|  
-|Ressurs|-   Når prosjektarbeidet ressursen har registrert seg for, allerede er utført av en annen ressurs.<br />-   Når forespørselen om kompetansegodkjenning er godkjent eller avvist.<br />-   Når forespørselen om prosjektregistrering er godkjent eller avvist.|  
+|Prosjektleder|- En ressurs registrerer seg for et prosjekt med Project Finder Mobile-appen.|  
+|Ressurs|- Prosjektarbeidet som ressursen har registrert seg for, er allerede utført av en annen ressurs.<br />- Forespørselen om ferdighetsgodkjenning er godkjent eller avvist.<br />- Forespørselen om prosjektregistrering er godkjent eller avvist.|  
   
 ## <a name="privacy-notice"></a>Personvernerklæring  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

@@ -2,6 +2,7 @@
 title: Hensyn ved oppgradering – Microsoft Dynamics 365 Project Service Automation versjon 2.x eller 1.x til versjon 3
 description: Dette emnet gir informasjon om hensyn du må ta når du oppgraderer fra Project Service Automation versjon 2.x eller 1.x til versjon 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121725"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144186"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Hensyn ved oppgradering – PSA-versjon 2.x eller 1.x til versjon 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation og Field Service
-Både Dynamics 365 Project Service Automation og Dynamics 365 Field Service bruker løsningen Universal Resourcing Scheduling (URS) for ressursplanlegging. Hvis du har både Project Service Automation and Field Service i forekomsten, må du planlegge å oppgradere begge løsningene til den nyeste versjonen (versjon 3.x for Project Service Automation, versjon 8.x for Field Service). Oppgradering av Project Service Automation eller Field Service installerer den nyeste versjonen av URS, noe som betyr at inkonsekvent funksjonalitet er mulig hvis både Project Service Automation- og Field Service-løsningen i samme forekomst ikke oppgraderes til nyeste versjon.
+Både Dynamics 365 Project Service Automation og Dynamics 365 Field Service bruker løsningen Universal Resourcing Scheduling (URS) for ressursplanlegging. Hvis du har Project Service Automation og Field Service på din forekomst, oppgraderer du begge løsninger til den nyeste versjonen. For Project Service Automation blir det versjon 3.x. For Field Service blir det versjon 8.x. Oppgradering av Project Service Automation eller Field Service installerer den nyeste versjonen av URS. Hvis både Project Service Automation- og Field Service-løsningen i samme forekomst ikke oppgraderes til den nyeste versjonen, kan det hende det finnes inkonsekvent virkemåte.
 
 ## <a name="resource-assignments"></a>Ressurstilordninger
 I Project Service Automation versjon 2 og versjon 1 ble oppgavetilordninger lagret som underordnede oppgaver (også kalt linjeoppgaver) i **Oppgaveenhet** og var indirekte relatert til **Ressurstilordning**-enheten. Linjeoppgaven var synlig i popup-vinduet for tilordningen i arbeidsnedbrytningsstrukturen (WBS).
@@ -40,9 +44,9 @@ I versjon 3 av Project Service Automation er det underliggende skjemaet for tilo
 Disse endringene påvirker oppgraderingen av eventuelle eksisterende prosjekter som har ressurstilordninger for navngitte reserverbare ressurser og generelle ressurser i et prosjektteam. Dette emnet gir deg vurderingene du må ta hensyn til for prosjektene dine når du oppgraderer til versjon 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Oppgaver tilordnet til navngitte ressurser
-Ved hjelp av den underliggende oppgaveenheten kunne teammedlemmer ved hjelp av oppgaver i versjon 2 og versjon 1 ha en annen rolle enn standardrollen som er definert. For eksempel kunne Sigrid Hammeren, som var tilordnet rollen som Programbehandler som standard, tilordnes en oppgave med rollen utvikler. I versjon 3 er rollen for et navngitt teammedlem alltid standard, slik at alle oppgaver som Sigrid Hammeren er tilordnet, bruker standardrollen som Programbehandler.
+Ved hjelp av den underliggende oppgaveenheten kunne teammedlemmer ved hjelp av oppgaver i versjon 2 og versjon 1 ha en annen rolle enn standardrollen som er definert. For eksempel kunne Sigrid Hammeren, som var tilordnet rollen som Programbehandler som standard, tilordnes en oppgave med rollen utvikler. I versjon 3 er rollen for et navngitt teammedlem alltid standard, slik at alle oppgaver som Sigrid Hammeren er tilordnet, bruker hennes standardrolle som Programbehandler.
 
-Hvis du har tilordnet en ressurs til en aktivitet utenfor standardrollen i versjon 2 og versjon 1, tilordnes den navngitte ressursen til standardrollen for alle oppgavetilordninger når du oppgraderer, uavhengig av rolletilordning i versjon 2. Dette vil føre til forskjeller i de beregnede beregningene fra versjon 2 eller versjon 1 til versjon 3, fordi estimater beregnes basert på rollen til ressursen og ikke tilordning av linjeoppgaver. I versjon 2 er eksempelvis to oppgaver tilordnet til Aurora Tharaldsen. Rollen på linjeoppgaven for oppgave 1 er Utvikler og Programbehandler for oppgave 2. Aurora Tharaldsen har standardrollen som Programbehandler.
+Hvis du har tilordnet en ressurs til en aktivitet utenfor standardrollen i versjon 2 og versjon 1, tilordnes den navngitte ressursen til standardrollen for alle oppgavetilordninger når du oppgraderer, uavhengig av rolletilordning i versjon 2. Denne tilordningen vil føre til forskjeller i de beregnede beregningene fra versjon 2 eller versjon 1 til versjon 3, fordi estimater beregnes basert på rollen til ressursen og ikke tilordning av linjeoppgaver. I versjon 2 er eksempelvis to oppgaver tilordnet til Aurora Tharaldsen. Rollen på linjeoppgaven for oppgave 1 er Utvikler og Programbehandler for oppgave 2. Aurora Tharaldsen har standardrollen som Programbehandler.
 
 ![Flere roller som er tilordnet én ressurs](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Når du oppgraderer til versjon 3, blir linjeoppgaver erstattet med ressurstilor
 
 ![Ressurstilordninger](media/resource-assignment-v2-05.png)
 
-I og med at estimatene er basert på standardrollen for ressursen, kan det hende at salgs- og kostnadsberegningene endres. Vær oppmerksom på at du ikke lenger kan se rollen **Utvikler** i grafikken nedenfor, fordi rollen nå hentes fra den bestillbare ressursens standardrolle.
+I og med at estimatene er basert på standardrollen for ressursen, kan det hende at salgs- og kostnadsberegningene endres. I grafikken nedenfor kan du ikke lenger se rollen **Utvikler**, fordi rollen nå hentes fra den bestillbare ressursens standardrolle.
 
 ![Kostnadsestimater for standardroller](media/resource-assignment-cost-estimate-06.png)
 ![Salgsestimater for standardroller](media/resource-assignment-sales-estimate-07.png)
 
-Når oppgraderingen er fullført, kan du redigere rollen til et teammedlem til noen annet enn den tilordnede standarden. Hvis du imidlertid endrer teammedlemmers rolle, blir den endret på alle de tilordnede oppgavene, fordi teammedlemmer ikke lenger kan tilordnes flere roller i versjon 3.
+Når oppgraderingen er fullført, kan du redigere rollen til et teammedlem til noen annet enn den tilordnede standarden. Hvis du imidlertid endrer teammedlemmers rolle, blir den endret på alle de tilordnede oppgavene, fordi teammedlemmer ikke kan tilordnes flere roller i versjon 3.
 
 ![Oppdatere en ressursrolle](media/resource-role-assignment-08.png)
 

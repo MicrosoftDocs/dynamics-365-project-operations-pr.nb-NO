@@ -18,14 +18,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081796"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144965"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Massekorrigeringer av faktiske verdier som er opprettet av godkjente tids- og utgiftsoppføringer
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Noen ganger kan en tids- eller utgiftsoppføring være angitt feil. En konsulent kan for eksempel velge feil dato ved oppretting av en tidsoppføring, eller de kan transponere tallene ved angivelse av en utgift. Hvis en konsulent ikke kan gjøre oppdateringene til de sendte oppføringene, kan en administrator direkte korrigere oppføringen for et prosjekt.
 
@@ -35,7 +37,7 @@ Hvis du vil fullføre fremgangsmåtene i dette emnet, må du ha administratortil
 
 Fullfør fremgangsmåten nedenfor for å rette én eller flere tidsoppføringer for et prosjekt.
 
-1. I **Salg** -området velger du **Transaksjoner** og velger deretter **Godkjent tid**. 
+1. I **Salg**-området velger du **Transaksjoner** og velger deretter **Godkjent tid**. 
 
 2. I listen **Godkjent tid** finner og velger du én eller flere godkjente tidsoppføringer som skal korrigeres. Du kan bruke filteret til å finne relaterte oppføringer. Du kan for eksempel filtrere på en prosjekt-ID og velge alle godkjente tidsoppføringer med denne prosjekt-ID-en.
 
@@ -51,9 +53,9 @@ Fullfør fremgangsmåten nedenfor for å rette én eller flere tidsoppføringer 
 
 7. Hvis korrigeringene vises som forventet, velger du **Bekreft**. Velg **OK** i dialogboksen.
 
-8. Gå tilbake til **Salg** -området, velg **Prosjekter** , og åpne deretter prosjektet som du akkurat oppdaterte tidsoppføringene for. 
+8. Gå tilbake til **Salg**-området, velg **Prosjekter**, og åpne deretter prosjektet som du akkurat oppdaterte tidsoppføringene for. 
 
-9. På **Prosjekter** -siden i kategorien **Faktiske verdier** kan du vise endringene du har utført. 
+9. På **Prosjekter**-siden i kategorien **Faktiske verdier** kan du vise endringene du har utført. 
 
 > [!NOTE]
 > Hvis kategorien **Faktiske verdier** ikke vises, velger du **Relatert** > **Faktiske verdier**.  
@@ -68,11 +70,11 @@ I følgende grafikk er det for eksempel to linjeelementer med et antall på 8,00
 
 Fullfør fremgangsmåten nedenfor for å korrigere én eller flere utgiftsoppføringer. 
 
-1. I **Salg** -området, i den venstre navigasjonsruten, under **Transaksjoner** , velger du **Godkjente utgifter**.
+1. I **Salg**-området, i den venstre navigasjonsruten, under **Transaksjoner**, velger du **Godkjente utgifter**.
 
 2. I listen **Godkjente utgifter** velger du prosjektet du vil korrigere, og deretter velger du **Korriger oppføringer**. En ny korrigeringsjournal opprettes automatisk med den angitte typen **Utgiftskorrigering**. 
 
-3. På siden **Ny journal** skriver du en **beskrivelse** for korrigeringen, og i kategorien **Utgiftskorrigering** , i delen **Nye verdier for utgifter** velger du datafeltene du vil korrigere for de valgte utgiftslinjene. Du kan for eksempel tilordne utgiften til et annet **prosjekt** eller korrigere verdiene for **Utgiftskategori** , **Utgiftsdato** eller **Ressurs som kan reserveres**.
+3. På siden **Ny journal** skriver du en **beskrivelse** for korrigeringen, og i kategorien **Utgiftskorrigering**, i delen **Nye verdier for utgifter** velger du datafeltene du vil korrigere for de valgte utgiftslinjene. Du kan for eksempel tilordne utgiften til et annet **prosjekt** eller korrigere verdiene for **Utgiftskategori**, **Utgiftsdato** eller **Ressurs som kan reserveres**.
 
 4. Velg **Forhåndsvisning**. Velg **OK** i dialogboksen. 
 
@@ -85,6 +87,6 @@ Fullfør fremgangsmåten nedenfor for å korrigere én eller flere utgiftsoppfø
 
 7. Etter at du har bekreftet korrigeringsjournalen, navigerer du tilbake til prosjektet eller prosjektene du oppdaterte, for å vise endringene.  
 
-8. På prosjektsiden, i kategorien **Faktiske verdier** , går du gjennom **Tilknyttet visning for faktiske data**. De opprinnelige oppføringene og de korrigerte oppføringene vises. Følgende grafikk viser opprinnelige utgiftsoppføringsbeløp og tilhørende korrigerte utgiftsoppføringsbeløp. 
+8. På prosjektsiden, i kategorien **Faktiske verdier**, går du gjennom **Tilknyttet visning for faktiske data**. De opprinnelige oppføringene og de korrigerte oppføringene vises. Følgende grafikk viser opprinnelige utgiftsoppføringsbeløp og tilhørende korrigerte utgiftsoppføringsbeløp. 
 
 ![Faktiske verdier for utgifter](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)

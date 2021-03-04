@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081689"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144875"
 ---
 # <a name="create-custom-fields-and-entities"></a>Opprette egendefinerte felt og enheter 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Fullfør fremgangsmåten nedenfor når du vil opprette et egendefinert alternativsett eller enhet på Power Apps-plattformen.  
 Fremgangsmåtene i dette emnet bør fullføres ved hjelp av nettgrensesnittet i PSA (Project Service Automation).
@@ -47,7 +49,7 @@ En prisdimensjon kan være et alternativsett eller en enhet. Begge må opprettes
 
 
 ### <a name="option-set-based-dimensions"></a>Alternativsettbaserte dimensjoner 
-Du kan opprette to alternativsettbaserte dimensjoner. Bruk **Arbeidssted for ressurs** til å spore prisen på arbeid **hjemme** og **på stedet** , og bruk **Arbeidstimer for ressurs** med verdiene **Vanlig** og **Overtid** til å bruke et påslag når arbeid er fullført.
+Du kan opprette to alternativsettbaserte dimensjoner. Bruk **Arbeidssted for ressurs** til å spore prisen på arbeid **hjemme** og **på stedet**, og bruk **Arbeidstimer for ressurs** med verdiene **Vanlig** og **Overtid** til å bruke et påslag når arbeid er fullført.
 
 
 1. I PSA klikker du på **Innstillinger** > **Løsninger** og dobbeltklikker deretter på **\<your organization name>-prisdimensjoner**. 
@@ -61,10 +63,10 @@ Du kan opprette to alternativsettbaserte dimensjoner. Bruk **Arbeidssted for res
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Opprette data for enhetsbaserte dimensjoner
 
-Du kan opprette data for en enhetsbasert dimensjon manuelt eller ved å bruke import- eller servicekall i Microsoft Excel. Følg trinnene i denne prosedyren for å opprette to standardtitler, **systemingeniør** og **overordnet systemingeniør** , fra den enhetsbaserte dimensjonen **Standardtittel**. Hvis dataene du vil opprette, er små, som i følgende eksempel, kan du bruke et standardskjema.
+Du kan opprette data for en enhetsbasert dimensjon manuelt eller ved å bruke import- eller servicekall i Microsoft Excel. Følg trinnene i denne prosedyren for å opprette to standardtitler, **systemingeniør** og **overordnet systemingeniør**, fra den enhetsbaserte dimensjonen **Standardtittel**. Hvis dataene du vil opprette, er små, som i følgende eksempel, kan du bruke et standardskjema.
 
-1. Klikk **Avansert søk** i PSA. Velg enheten **Standardtittel** , og klikk deretter **Resultater**. Alle radene i enheten **Standardtittel** vises.
-2. Klikk **Ny**. I **Navn** -feltet angir du "Systemingeniør" og klikker deretter **Lagre**.
+1. Klikk **Avansert søk** i PSA. Velg enheten **Standardtittel**, og klikk deretter **Resultater**. Alle radene i enheten **Standardtittel** vises.
+2. Klikk **Ny**. I **Navn**-feltet angir du "Systemingeniør" og klikker deretter **Lagre**.
 3. Lukk skjemaet. 
 4. Gjenta trinn 1-3 for å opprette en ny standardtittel for "Overordnet systemingeniør".
 
