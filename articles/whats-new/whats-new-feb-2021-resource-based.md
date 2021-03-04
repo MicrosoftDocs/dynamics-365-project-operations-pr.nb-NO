@@ -54,3 +54,6 @@ Hvis du vil ha mer informasjon om prosjektbehandling og regnskapsvirksomhet i Dy
 ## <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
 
 Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). En annen måte å lære om regelverksoppdateringer på, er å logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av problemsøkverktøyet. Problemsøk lar deg søke etter land, type funksjon og utgave.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

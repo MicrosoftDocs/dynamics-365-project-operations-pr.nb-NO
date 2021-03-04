@@ -44,3 +44,6 @@ Project Operations støtter flere distribusjonsmodeller. Hvis du vil finne den b
 2. Installer **Microsoft Dynamics 365 Project Operations** fra distribusjonslisten over Dynamics 365-apper. Hvis du vil ha mer informasjon, kan du se [Administrere Dynamics 365-apper](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

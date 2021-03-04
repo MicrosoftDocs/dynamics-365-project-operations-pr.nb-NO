@@ -76,3 +76,6 @@ Du kan bruke én av følgende metoder til å opprette en bestilling i Prosjektst
 
 Hvis du vil ha mer informasjon, kan du se [Motta varer på bestilling fra varebehov](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

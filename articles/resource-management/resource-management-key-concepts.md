@@ -35,3 +35,6 @@ Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon. Muligheten
 
 
 Du kan bemanne prosjektet med et team med generelle eller navngitte ressurser i Project Operations. Du kan bruke forskjellige metoder til å legge til og tilordne teammedlemmer og til å administrere bestillinger og tilordninger. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

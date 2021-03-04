@@ -69,3 +69,6 @@ Når du kopierer på tvers av prosjektestimatlinjer, oppdateres prislistene. For
 ### <a name="copying-a-project-team"></a>Kopiere et prosjektteam
 
 Når et prosjektteam kopieres fra en prosjektmal til et prosjekt, kopieres de generelle ressursene, sammen med ferdighetene og kompetansene som er definert i malen. Tildeling av generelle ressurser blir også vedlikeholdt slik som i prosjektmalen. Navngitte ressurser støttes ikke i prosjektmaler.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

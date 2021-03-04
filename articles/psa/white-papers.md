@@ -45,3 +45,6 @@ Disse hvitbøkene er utformet for å gi detaljert informasjon for automatisering
 
 ### <a name="see-also"></a>Se også
  [Oversikt over Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Hvis du vil eliminere et estimatprosjekt, må det være fullført. Fremgangsmåt
 5. Når elimineringsprosessen er fullført, vises det eliminerte estimatprosjektet med en negativ verdi. 
 
 Hvis du ikke har tenkt å eliminere et estimat, kan du velge det eliminerte estimatet og velge **Gjør om eliminering**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

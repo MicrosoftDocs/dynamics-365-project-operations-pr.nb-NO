@@ -101,3 +101,6 @@ Hvis du ikke ser belastbar utnyttelse, er det noen ting du kan kontrollere:
   - Rollen på prosjektkontraktlinjen som støtter prosjektet, er satt til ikke-belastbar.
   - Prosjektet har ingen tilknyttet kontraktlinje.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

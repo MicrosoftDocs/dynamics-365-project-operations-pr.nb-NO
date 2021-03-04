@@ -43,3 +43,5 @@ Ved å legge til karakteristikker for ressurskrav kan du dokumentere kunnskapen 
 3. I delrutenettet **Ferdigheter** velger du **+Legg til nytt kravkjennetegn.**
 4. Finn og velg de nødvendige egenskapene i hurtigopprettingsruten, og legg til en **rangeringsverdi**.
 5. Velg **Lagre og lukk**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

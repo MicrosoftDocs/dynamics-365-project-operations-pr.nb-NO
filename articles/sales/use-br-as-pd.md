@@ -78,3 +78,6 @@ Prisdimensjonsoppføringen for **msydn_bookableresource** må varsles om denne f
 5. Legg  **Msdyn_bookableresourceid** til i **Feltnavn**.
 
  ![Skjema for nytt feltnavn for prisdimensjon](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

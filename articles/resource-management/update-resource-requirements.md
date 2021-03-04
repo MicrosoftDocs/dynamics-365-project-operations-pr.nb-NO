@@ -37,3 +37,5 @@ Som prosjektleder fullfører du fremgangsmåten nedenfor for å redigere ressurs
 ## <a name="edit-resource-assignment-contours"></a>Rediger profiler for ressurstilordning
 
 I tillegg til å redigere detaljene for ressurskravene kan en prosjektleder oppdatere profilene for ressurskravet ved hjelp av funksjonen **Angi mønster**. Når **Angi mønster** er valgt, åpnes en side der du kan vise profiler for tidsskalaen dag, uke eller måned. Hver profil kan justeres for starttidspunkt, sluttidspunkt og total innsats i en bestemt periode.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

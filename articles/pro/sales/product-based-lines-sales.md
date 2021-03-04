@@ -28,3 +28,6 @@ Produktbaserte linjer kan være katalogelementer eller produkter som ikke er i p
 
 Når omsetningsmetoden for salgsmulighetssammendraget er **Systemberegnet**, oppsummeres kundebudsjettverdiene på tvers av salgsmulighetslinjene for å beregne beregnet omsetning. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

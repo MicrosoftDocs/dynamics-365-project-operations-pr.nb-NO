@@ -50,3 +50,6 @@ Tabellen nedenfor viser hvilke typer arbeidsflyter du kan opprette i **Utgift**.
 |      <strong>Forespørsel om kontantforskudd</strong>      |         Opprette arbeidsflyter for godkjenning av forespørsler om kontantforskudd.          |
 |        <strong>Mva-fradrag</strong>        | Opprette arbeidsflyter for godkjenning av Mva-fradrag.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

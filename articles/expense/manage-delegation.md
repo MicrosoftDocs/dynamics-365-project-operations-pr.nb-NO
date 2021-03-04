@@ -39,3 +39,6 @@ Hvis funksjonsbehandlingsnøkkelen **Aktiver listeside for utgiftsrepresentanter
 En representant kan raskt filtrere og søke etter eksisterende reiseregninger som er delegert til dem. Representanten kan også raskt opprette en ny reiseregning for andre brukere ved å velge **Ny reiseregning**.
 
 Representanter kan opprette og administrere reiseregninger for andre ansatte ved å gå til **Utgiftshåndtering** > **Mine utgifter** > **Reiseregninger** og velge **Åpne andre brukeres utgifter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

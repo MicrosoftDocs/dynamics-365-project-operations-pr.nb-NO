@@ -57,3 +57,6 @@ Du kan vise en liste over medlemmene i prosjektteamet, og derfra kan du vedlikeh
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

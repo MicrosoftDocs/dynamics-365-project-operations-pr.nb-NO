@@ -53,3 +53,6 @@ Du kan bemanne prosjektet med et team med generelle eller navngitte ressurser i 
 - [Bestille navngitte ressurser fra ressurskrav](book-named-resource.md)
 - [Send en ressursforespørsel](submit-resource-request.md)
 - [Godta eller avvise en foreslått prosjektressurs fra en ressursforespørsel](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

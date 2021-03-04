@@ -61,3 +61,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Proj
     - Fikset: Duplikate objekt-IDer ble funnet i hovedskjemaet for **Kontrakt**.
     - Fikset: Logikken er oppdatert slik at kategorien **Tilbudsanalyse** blir synlig og viser metadataoppsettet for kategorien.
     - Fikset: Regnskapsdato på den faktiske oppføringen kommer nå fra datoen for tids-/utgiftsoppføring og ikke fra godkjenningsdatoen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

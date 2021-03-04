@@ -41,3 +41,6 @@ Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon. Muligheten
 - [Foreta en ikke-forpliktende bestilling på krav](resource-management-softbook-requirements.md)
 - [Ferdighets- og kunnskapsmodeller](resource-management-skills-proficiency.md)
 - [Vanlige spørsmål om ressursbehandling](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

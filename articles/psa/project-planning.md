@@ -52,3 +52,6 @@ Følgende emner inneholder informasjon som hjelper prosjektledere med å estimer
 - [Prosjektmaler](project-templates.md)
 - [Prosjektfaser](project-stages.md)
 - [Prosjektinnstillinger](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Når du arbeider med den enheten **Faktisk verdi**, er det viktig at du forstår
 Enheten **Transaksjonsopprinnelse** registrerer opprinnelsen til oppføringen **Faktisk verdi**, og enheten **Transaksjonstilkobling** registrerer de relaterte oppføringene for oppføringen **Faktisk verdi**. I tillegg inneholder oppføringen **Faktisk verdi** referanser til prosjektet, prosjektkontrakten (ordre), den bestillbare ressursen og kunden.
 
 ![Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner](media/PS-Reporting-image6.png "Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

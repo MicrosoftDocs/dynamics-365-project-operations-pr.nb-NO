@@ -62,3 +62,6 @@ Android er kompatibelt med Platform update 16 når den blir tilgjengelig.
 13. Valgfritt: Angi flere timeregistreringslinjer.
 
 14. Når du er ferdig med å legge inn timeregistreringslinjene, velger du **Arbeidsflyt** \> **Send** -handlingen for å sende timeregistreringen til arbeidsflytgodkjenningsprosessen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

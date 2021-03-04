@@ -106,3 +106,6 @@ Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at syst
 
 8. Gjenta trinn 1 til 7 for den andre plugin-modulen.
 9. Lukk PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

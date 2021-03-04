@@ -45,3 +45,6 @@ I tillegg må en standardrolle tilordnes til hver bestillbare ressurs. Gå til *
 I kategorien **Project Service** kan du også angi en individuell målutnyttelse for ressursen. Beregningen av utnyttelsen bruker deretter denne målutnyttelsen til å evaluere ressursens mål i stedet for målet for standardrollen for ressursen.
 
 Utnyttelse vises bare for en ressurs hvis ressursen har godkjent, belastbar tid i perioden som vises i rutenettet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

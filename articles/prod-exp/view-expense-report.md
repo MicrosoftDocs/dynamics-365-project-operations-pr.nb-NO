@@ -32,3 +32,6 @@ For reiseregninger kan du drille ned fra en transaksjon til den opprinnelige rap
 Hvis du vil drille ned til den opprinnelige reiseregningen som en transaksjon ble vist i, velger du transaksjonen, og deretter velger du **Opprinnelig dokument**.
 
 Når du viser individuelle transaksjoner, kan du også vise eventuelle tilleggsdata som er knyttet til en transaksjon. For en spesifisert hotellutgift kan du for eksempel vise en detaljert liste over utgifter, som Internett-tilgang, telefonsamtaler og romservice.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

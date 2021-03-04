@@ -74,3 +74,6 @@ Følgende problemer har blitt løst:
 - Når du velger en prosjektbasert linje i tilbud eller kontrakt, skal **Forslag**-knappen kun være synlig når du velger en produktbasert linje som er tilknyttet et eksisterende produkt.
 - Dele **Create_Product**-rettighet fra **Create_ProjectContracts**-rettighet.
 - Sletting av en fakturalinje forårsaker nullreferansefeil på **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

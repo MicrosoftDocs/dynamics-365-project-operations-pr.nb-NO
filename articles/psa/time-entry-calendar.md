@@ -42,3 +42,6 @@ Kalenderen støtter ikke handlinger for individuelle kalenderelementer, og du ka
 ## <a name="extensibility"></a>Utvidbarhet
 
 På siden **Tidsoppføringer** som har tidsoppføringsrutenettet, kan du legge til egendefinerte felt, konfigurere oppslagsfelt og opprette egendefinerte visninger. Du kan også konfigurere egendefinert forretningslogikk som er basert på verdiene som er valgt eller angitt i egendefinerte felt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

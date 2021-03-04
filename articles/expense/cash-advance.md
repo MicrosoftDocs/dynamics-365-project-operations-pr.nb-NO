@@ -63,3 +63,6 @@ Når du oppretter og sender en utgiftsrapport for kontantforskuddet du allerede 
 ### <a name="example"></a>Eksempel
 Du planlegger å reise fra Bergen til New York City på en konferanse. Du oppretter en forespørsel om kontantforskudd for 3000.00 USD basert på den beregnede kostnaden for konferansebilletten, flyreiser, overnatting, måltider og taxiutgifter. Du får ikke betalt med mindre din overordnede godkjenner denne forespørselen. Når din overordnede godkjenner, betales det forespurte kontantforskuddet som 10 000 kroner til bankkontoen din. Deretter deltar du på konferansen. Når du har fullført reisen, oppdager du at den totale utgiften bare ble 8000 kroner. Velg **Kontant** i feltet **Betalingsmåte**, og send inn utgifter for 2790.00 USD. Det sendte utgiftsbeløpet justeres automatisk mot forskuddet på 10 000 kroner som ble utlånt til deg. Nå er du skyldig 210.00 USD (3000.00 - 2790.00), som du kan returnere til selskapet ved hjelp av utgiftskategorien **Returner kontanter**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

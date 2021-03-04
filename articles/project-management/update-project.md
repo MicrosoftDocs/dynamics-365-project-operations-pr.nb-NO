@@ -48,3 +48,6 @@ Nedenfor vises et sammendrag av feltene som kan oppdateres i et prosjekt etter a
 - **Generell prosjektstatus**: Den generelle prosjekttilstanden oppgitt av prosjektlederen.
 - **Kommentarer**: Informasjon om gjeldende tilstand for prosjektet fra prosjektlederen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

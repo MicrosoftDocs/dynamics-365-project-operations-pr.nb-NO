@@ -70,3 +70,6 @@ Du kan importere data fra prosjektbestillinger og -tilordninger. Når du importe
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funksjoner for å gruppere etter, sortere, søke og filtrere
 
 Du kan gruppere og filtrere tidsoppføringer etter dimensjonene som er angitt i kolonnene. I feltet **Grupper etter** velger du dimensjonen som skal brukes til å filtrere tidsoppføringer. Du kan også sortere tidsoppføringsregistreringer i stigende eller synkende rekkefølge ved å bruke sorteringspilen i kolonneoverskriftene. Du kan også vise eller skjule oppføringer ved å velge **Filter**-knappen på kolonneoverskriftene og deretter, i **Søk**-boksen, angi teksten som skal brukes til å søke etter tidsoppføringer etter prosjektnavn, prosjektoppgave, tidsoppføring eller ressurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

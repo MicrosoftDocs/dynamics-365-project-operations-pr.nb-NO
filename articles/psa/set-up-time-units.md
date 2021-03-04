@@ -47,3 +47,6 @@ Konfigurer tidsenhetene i produktkatalogen som du vil bruke som grunnlag for pla
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

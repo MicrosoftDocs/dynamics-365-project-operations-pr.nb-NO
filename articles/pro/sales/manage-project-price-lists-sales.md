@@ -67,3 +67,6 @@ Når du har angitt organisasjonens og de kundespesifikke standard prosjektprisli
 
 1. Under **Prosjekttilbud** i kategorien **Prosjektprisliste** verifiserer du i delrutenettet at ingen spesifikk prislisteoppføring er valgt.
 2. Velg **Opprett egendefinert prising**. Dette vil lage kopier av alle standardprislistene som er knyttet til tilbudet, og knytte disse kopiene til tilbudet. De eksisterende tilknytningene til standardprislistene blir fjernet. Selgeren kan deretter begynne å gjøre endringer i prisene på disse kopiene. Disse endrede prisene gjelder bare for dette prosjekttilbudet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

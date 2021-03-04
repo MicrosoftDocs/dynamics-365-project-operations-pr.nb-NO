@@ -55,3 +55,6 @@ Bare følgende regnskapsattributter kan oppdateres i journallinjene for Project 
 Integreringsjournallinjer kan slettes, men eventuelle ikke-bokførte linjer settes inn i kladden på nytt etter at du har kjørt den periodiske prosessen **Import fra oppsamling** på nytt.
 
 Når du posterer integreringsjournalen, opprettes det en underfinansjournal for prosjekt og transaksjoner i økonomimodulen. Disse brukes i nedstøms kundefakturering, inntektsføring og finansrapportering.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

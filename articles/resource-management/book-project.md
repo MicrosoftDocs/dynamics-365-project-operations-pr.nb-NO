@@ -66,3 +66,6 @@ Som prosjektleder må du kanskje reservere en ressurs til et prosjekt, men du kj
 
 > [!NOTE]
 > Denne metoden oppretter ingen bestillinger for ressursen. I stedet legges ressursen til for teamet. Når teammedlemmene er lagt til i prosjektet, kan prosjektlederen bruke vedlikehold av bestillinger eller utvide bestillinger til å legge til de nødvendige bestillingerne i ressursen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

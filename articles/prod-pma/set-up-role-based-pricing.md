@@ -34,3 +34,6 @@ Alle kostnader, salg og overføringspriser kan konfigureres for roller. Fullfør
 1. På siden **Salgspris (time)** velger du **Ny** , og angi deretter en ikrafttredelsesdato.
 2. I kolonnen **Rolle** velger du en rolle.
 3. I kolonnen **Priser** angir du en pris for den valgte ressursrollen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

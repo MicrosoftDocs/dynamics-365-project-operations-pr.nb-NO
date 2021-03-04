@@ -257,3 +257,6 @@ Følgende grafikk er etter egendefinerte prislister er opprettet.
 
 > [!NOTE]
 > En kort forsinkelse kan oppstå mellom når du klikker **Opprett egendefinert prising**, og når den egendefinerte prislisten opprettes. Vi anbefaler at du oppdaterer rutenettet i stedet for å klikke flere ganger. En egendefinert prisliste er opprettet hvis det tilknyttede prislistenavnet har tilbudsnavnet eller prosjektkontraktnavnet tilknyttet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

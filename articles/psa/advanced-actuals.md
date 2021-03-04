@@ -34,3 +34,6 @@ ms.locfileid: "5145730"
 Alle finansielle transaksjoner som inntreffer under et prosjekt, registreres. Disse transaksjonene registreres som **faktiske verdier**. Følgende tabell viser de forskjellige typene faktiske verdier som opprettes, avhengig av om prosjektet er et tids-og-materiale-prosjekt, fastprisprosjekt eller internt prosjekt, eller om det er i forsalgsfasen.
 
 > ![Tabell som viser hvordan faktiske verdier registreres](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Du kan sjekke ressurstilgjengeligheten for å få en oversikt over bestillingene
 
 ### <a name="see-also"></a>Se også  
  [Håndbok for ressursansvarlig](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

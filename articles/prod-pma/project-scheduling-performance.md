@@ -69,3 +69,6 @@ Følg fremgangsmåten nedenfor for å aktivere ytelsesforbedring for ressursplan
 
 > [!NOTE]
 > Dette distribuerer generelle data til **ResRollup** -tabellen i alle selskaper i miljøet, slik at den satsvise jobben bare må kjøres i én juridisk enhet. Denne satsvise jobben er nødvendig for alle **Ressurstilgjengelighet** -visninger. Hvis denne satsvise jobben ikke kjøres, genereres **ResRollup** -dataene direkte, noe som kan ta tid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

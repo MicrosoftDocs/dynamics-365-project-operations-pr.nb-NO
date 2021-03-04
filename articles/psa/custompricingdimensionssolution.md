@@ -68,3 +68,6 @@ Du må legge til følgende Project Service-enheter i prisløsningen. Fullfør tr
 > ![Ikke ta med alle relaterte komponenter](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

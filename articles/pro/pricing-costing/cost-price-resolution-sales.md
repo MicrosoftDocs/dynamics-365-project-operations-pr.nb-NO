@@ -36,3 +36,6 @@ Etter at en kostprisliste er løst, blir feltene **Rolle** og **Ressursenhet** p
 Estimatlinjer for utgift refererer til tilbuds- og kontraktlinjedetaljene for utgifter og utgiftsestimatlinjene i et prosjekt.
 
 Når en kostprisliste er løst, bruker systemet en kombinasjon av feltene **Kategori** og **Enhet** på utgiftsestimatlinjen til å samsvare mot linjene for **Kategoripris** i den løste prislisten. Hvis systemet finner en kategoriprislinje som har en kostnadssats for kombinasjonen av feltene **Kategori** og **Enhet**, brukes kostnadssatsen som standard. Hvis systemet ikke kan samsvare verdiene for **Kategori** og **Enhet**, eller hvis systemet finner en samsvarende kategoriprislinje, men prissettingsmetoden ikke er **Pris per enhet**, brukes som standard en kostnadssats på null(0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

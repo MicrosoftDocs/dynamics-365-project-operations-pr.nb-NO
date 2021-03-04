@@ -43,3 +43,6 @@ Hvis du i tillegg har egendefinerte apper som inneholder alle skjemaer for enhet
 
 ### <a name="currently-extended-time-entry-changes"></a>Aktuelle endringer i utvidet tidsregistrering
 For å minimere påvirkningen for gjeldende brukere av tidsoppføring er denne rolleendringen det eneste kjernekravet som kreves for å fortsette å bruke tidsoppføring. Hvis du har opprettet egendefinerte visninger eller separate timeregistreringsopplevelser, må du angi feltene **Innstilling for tidsoppføring** til riktig PSA-verdi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

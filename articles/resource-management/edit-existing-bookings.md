@@ -33,3 +33,6 @@ Fra rutenettet **Teammedlem** kan en prosjektleder utheve en bestemt ressurs og 
 ## <a name="schedule-board"></a>Planleggingstavle
 
 Fra **planleggingstavlen** har ressursansvarlig en porteføljevisning for alle bestillinger i en organisasjon. Fra denne visningen kan ressursansvarlig utvide, forkorte eller flytte eksisterende bestillinger lik funksjonene som tilbys i **Oppretthold bestillinger**. Ressursansvarlig kan også erstatte eksisterende ressurser som er tildelt en bestemt bestilling, ved å høyreklikke bestillingen og velge **Erstatt ressurs**. Ressursansvarlige kan også redigere eksisterende bestillinger ved å høyreklikke bestillingen og velge **Rediger**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

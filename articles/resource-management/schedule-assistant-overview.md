@@ -57,3 +57,6 @@ Filterruten viser arbeidsrelaterte alternativer, blant annet følgende:
 -   Ressursstyringsfirma
 -   Ressurstyper
 -   Foretrukne ressurser
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

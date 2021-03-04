@@ -33,3 +33,6 @@ ms.locfileid: "5148970"
 
 Project Service Automation (PSA) tillater ikke sletting av faktiske verdier fordi de fungerer som kilden til sannheten for transaksjoner som har finansielle implikasjoner, til systemer på lavere nivåer, for eksempel hovedboken. Hvis faktiske verdier kan slettes, kan det være det blir stilt spørsmål om integriteten til regnskapstransaksjoner. Kunder bør bruke journaler til å opprette kompenserende transaksjoner for å etablere et revisjonsspor.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

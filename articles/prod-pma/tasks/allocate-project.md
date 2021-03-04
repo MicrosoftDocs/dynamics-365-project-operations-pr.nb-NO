@@ -44,3 +44,6 @@ Når et budsjett eller budsjettendring er tilordnet, kan du se gjennom fordeling
 10. Når tildelingen er slik du ønsker, klikker du Send på siden Prosjektbudsjett for å sende budsjettet eller budsjettendringene til flyten for godkjenning.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

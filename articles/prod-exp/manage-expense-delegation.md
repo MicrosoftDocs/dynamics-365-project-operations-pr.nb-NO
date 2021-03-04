@@ -41,3 +41,6 @@ Når funksjonsbehandlingsnøkkelen **Aktiver listeside for utgiftsrepresentanter
 En representantbruker kan raskt filtrere og søke etter eksisterende utgiftsrapporter som er delegert til dem. De kan også opprette en ny utgiftsrapport for andre brukere ved å velge **Ny utgiftsrapport**.
 
 Representantbrukere kan også opprette og administrere utgiftsrapporter for andre ansatte ved å gå til **Utgiftshåndtering** > **Mine utgifter** > **Utgiftsrapporter** og velge **Åpne andre brukeres utgifter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

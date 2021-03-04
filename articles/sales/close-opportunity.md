@@ -24,3 +24,6 @@ Prosjektmuligheter kan lukkes som vunnet eller tapt. I dialogboksen **Lukk salgs
 Du kan ikke lukke salgsmuligheten hvis den har aktive tilbud knyttet til seg. Du kan lukke alle aktive tilbud og tilbudsutkast som er knyttet til en salgsmulighet samtidig. Deretter kan du lukke salgsmuligheten.
 
 Hvis du vil ha mer generell informasjon om lukking av salgsmuligheter, kan du se [Lukke salgsmuligheter som vunnet eller tapt](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

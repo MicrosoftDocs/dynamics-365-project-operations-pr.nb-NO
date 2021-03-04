@@ -41,3 +41,6 @@ Du kan sende et generert ressurskrav som en ressursforespørsel. Forespørselen 
 Forespørselsstatusen for det generelle teammedlemmet blir endret **Sendt**.
 
 Når forespørselen er utført av ressurslederen, erstattes den generelle ressursen av en navngitt ressurs hvis ressurslederen utfører forespørselen med bestilling av en navngitt ressurs. Ellers blir den generelle ressursen værende i teamet, og forespørselsstatusen endres til **Må gjennomgås** hvis ressurslederen har foreslått en navngitt ressurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

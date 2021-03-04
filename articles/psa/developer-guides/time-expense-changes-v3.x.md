@@ -32,3 +32,6 @@ I Dynamics 365 Project Service Automation versjon 3.0 ble visningene for tid og 
 Tidligere ble kalender- og rutenettvisninger for tid og utgift implementert som DHTMLX-kontroller. Artefaktene som er relatert til den implementeringen av kalender- og rutenettvisninger, er nå foreldet (avskrevet).
 
 Hvis du vil ha en fullstendig liste over avskrevne ressurser, se [Avskrevne nettressurser i Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

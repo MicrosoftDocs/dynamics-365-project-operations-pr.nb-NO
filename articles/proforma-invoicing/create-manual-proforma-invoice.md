@@ -111,3 +111,6 @@ Når du bekrefter en korrigert faktura, tilbakeføres det opprinnelige faktiske 
 
 - Et fakturert faktisk salg på seks timer.
 - Et ikke-fakturert faktisk salg for de resterende to timene. Denne transaksjonen kan enten faktureres senere eller merkes som ikke-belastbar, avhengig av forhandlingene med kunden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Følg disse trinnene for å bruke veiviseren.
 1. Gå til **Prosjektstyring og regnskap** > **Tilbud** > **Prosjekttilbud**.
 2. Velg tilbudet du vil overføre, gå til **Oppfølging** -fanen i **Endre** -gruppen, og velg **Overfør til prosjekt**.
 3. Følg veiviseren for **overføring av tilbud til prosjekt** for å knytte til og overføre tilbudet til et prosjekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

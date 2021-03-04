@@ -57,3 +57,6 @@ Tabellen nedenfor viser oppdateringene for Project Operations på Dataverse-milj
 | Tid og utgifter | 2034882 | **Ny**-knappen vises to ganger på kommandolinjen for tidsoppføringer når Dynamics 365 Field Service er installert. |
 | Tid og utgifter | 2056028 | Oppdater **Rediger tid**-siden for å inkludere tidslinje. |
 | Tid og utgifter | 1983747 | Diagrammet for tidsoppføring viser flere data. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

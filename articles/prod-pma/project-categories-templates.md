@@ -124,3 +124,6 @@ Illustrasjonen nedenfor viser et eksempel på maloppgavetilordningen i datainteg
 > Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 
 [![Tilordning av mal for Project Service Automation til Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ I Project Operations kan du ikke spore endringer som er gjort i et tilbud. I ste
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Spore kommentarer og godkjenninger av tilbud og prosjektkontrakter
 Du kan administrere gjennomgang og godkjenning av tilbud og prosjektkontrakter ved hjelp av oppføringsveggen og innlegg. Organisasjonen kan opprette egendefinerte arbeidsflyter og plugin-moduler for å tilordne, omdirigere, videresende og administrere varslinger om arbeidselementer for gjennomgang og godkjenning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

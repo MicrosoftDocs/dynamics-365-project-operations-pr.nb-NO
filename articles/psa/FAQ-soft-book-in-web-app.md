@@ -87,3 +87,6 @@ Når du er klar til å endre en teammedlemsressurs med ikke-forpliktende bestill
 2. Utvid ressursen når planleggingstavlen åpnes for å vise bestillingene. Du kan se bestillingen merket som Ikke-forpliktende.
 3. Høyreklikk på bestillingen og velg Forpliktende bestilling under Endre status, og deretter Forpliktende. Bestillingsstatusen er nå Forpliktende.
 4. Når du har lukket planleggingstavlen, ser du at timene for ressursen er endret fra Ikke-forpliktende til Forpliktende i teammedlemsrutenettet. Du kan nå tilordne ressursen til oppgaver (forutsatt at det er samsvar mellom timene med forpliktende bestilling og innsatstimene for oppgaven for tilordningen). Vær oppmerksom på at hvis du fulgte fremgangsmåten for generell ressursfullføring i nr. 3 ovenfor, og du endrer statusen for ressursen som kan bestilles med ikke-forpliktende bestilling, til forpliktende, fjernes det generelle teammedlemmet fra teamet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

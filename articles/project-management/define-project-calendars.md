@@ -49,3 +49,6 @@ Hvis du vil opprette en prosjektplan, må du opprette en prosjektkalendermal som
 8. Skriv inn et navn på arbeidsmalen i dialogboksen **Arbeidsmal**, og velg deretter **Bruk**. 
 
 Du kan nå knytte arbeidsmalen til en prosjektkKalendermal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

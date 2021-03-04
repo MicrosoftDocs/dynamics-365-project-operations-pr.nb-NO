@@ -30,3 +30,6 @@ Ettersom Gjertrud fungerte på to separate prosjekter mens hun var i Frankfurt, 
 | Togbilletter   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hotell        | EUR 725              | EUR 557                         | EUR 168                         |
 | Måltider        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

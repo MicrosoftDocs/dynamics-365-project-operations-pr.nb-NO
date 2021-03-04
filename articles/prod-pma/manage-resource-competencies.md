@@ -53,3 +53,6 @@ Hvis du vil definere kompetanse for en arbeider, kan du bruke listesiden **Arbei
 5. I feltet **Nivådato** velger du **1-/14/2014**.
 6. I feltet **År med erfaring** velger du **10**.
 7. Velg **Lagre** , og lukk deretter siden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

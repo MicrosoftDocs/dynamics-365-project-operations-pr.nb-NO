@@ -68,3 +68,6 @@ Etter at du har brukt funksjonen for å forlenge bestillingen til hver ressurs, 
 Legg merke til at en nærmere kikk på detaljene i bestillingene viser forskjeller i starttidspunktet for bestillingene. Bestillingene starter tidligst på starttidspunktet til tilordningsprofilen, og ikke senere enn den tilgjengelige starttiden til ressursen.
 
 ![Nye bestillinger for ressursene på planleggingstavlen](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

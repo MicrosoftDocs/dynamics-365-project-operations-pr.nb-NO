@@ -59,3 +59,6 @@ Du kan også klikke **Ressurskrav**-koblingen i rutenettet for teamet for å åp
 
 ![Ressurskrav](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

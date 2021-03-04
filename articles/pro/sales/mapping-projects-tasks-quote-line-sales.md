@@ -90,3 +90,6 @@ Du kan oppheve tilknytning av prosjektoppgaver til tilbudslinjer fra kategorien 
 
 >[!NOTE]
 > Denne prosedyren sletter ikke oppgaven fra prosjektet. Den fjerner bare oppgavetilknytningen fra den prosjektbaserte tilbudslinjen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

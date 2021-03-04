@@ -82,3 +82,6 @@ Dette er ikke den mest optimale opplevelsen for fjerning av tilordning til oppga
 4. På dialogsiden som åpnes, velger du en kontraktlinje fra rullegardinlisten.
 5. Merk av i avmerkingsboksen for å angi om tilknytningen også skal fjernes fra eventuelle underordnede oppgaver for de valgte oppgavene. Hvis du merker av i boksen, vil også fjerne tilknytningen av de underordnede oppgavene til de valgte oppgavene fra kontraktlinjen.
 6. Velg **OK**. En varselmelding angir at fjerning av denne tilordningen kan føre til at eventuelle faktiske verdier som tidligere er registrert på oppgaven, blir annullert. Velg **OK** i advarselsdialogboksen for å fjerne tilknytningen mellom oppgaven og den prosjektrelaterte kontraktlinjen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

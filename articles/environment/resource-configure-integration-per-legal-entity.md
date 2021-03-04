@@ -51,3 +51,6 @@ Hver juridiske enhet som bruker Project Operations i Dynamics 365 Customer Engag
   - **Faktureringstypestandarder**: Project Operations bruker et fast sett med faktureringstypestandarder som må tilordnes til linjeegenskaper i Finance. Opprett en oppføring for hver faktureringstype: **Ikke angitt**, **Belastbar**, **Ikke-belastbar**, **Gratis** og **Ikke tilgjengelig**.
   - **Prosjektkategoristandarder**: Velg standard prosjektkategorier som skal brukes for hver transaksjonstype. Disse standardene brukes i **Journal for Project Operations-integrering** og i beregninger der det ikke er angitt en transaksjonskategori for det faktiske prosjektet.
   - **Prognoser**: Velg prognosemodellen som skal brukes for tids- og utgiftsestimater.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

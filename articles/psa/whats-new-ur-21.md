@@ -77,3 +77,6 @@ Følgende problemer har blitt løst:
 - **Salgsprislisteoppløsning**-logikken håndterer tidssoner på feil måte, noe som resulterer i feil valg av prislister.
 - En prosjekts **Total faktisk kostnad** kan avvike med en brøkdel når én enkelt tidsoppføring er godkjent.
 - Logikken for **prisløsning** gir ikke en brukervennlig feilmelding hvis **innhentet rollepris** ikke har verdier i feltene **Primærenhet** og **Pris i primærenhet**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

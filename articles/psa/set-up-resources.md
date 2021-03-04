@@ -55,3 +55,6 @@ Før du ber om eller tilordner ressurser i [!INCLUDE[pn_project_service_auto](..
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

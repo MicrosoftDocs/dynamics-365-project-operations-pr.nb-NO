@@ -107,3 +107,6 @@ Det er lagt til flere alternativer i WBS for å bruke ressursfunksjonaliteten be
     > Du får ingen advarsel om at den angitte ressursen nå er 2, fordi antallet ressurser forblir 1.
 
 14. På siden **Arbeidsnedbrytningsstruktur** validerer du ressurstilordningen på WBS, og deretter velger du **Lagre**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

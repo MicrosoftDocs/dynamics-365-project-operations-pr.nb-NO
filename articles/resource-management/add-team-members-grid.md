@@ -200,3 +200,6 @@ Når du viser tid på høyere nivåer, har celler i **Avstemming**-kategorien en
 Hvis du har oppgavetildelinger for en ressurs, men ingen bestillinger, går du til **Prosjekter**-skjemaet, i kategorien **Avstemming** og velger **Utvid bestilling**. Dialogboksen **Utvid bestilling** vises med bestillingen som er nødvendig for å løse ressursens underskudd. Dialogboksen viser også ressursens eksisterende bestillinger på tvers av alle prosjekter eller andre enheter som kan planlegges. Hvis du velger **OK** for å opprette en bestilling for ressursen, uavhengig av om ressursen er tilgjengelig, kan det oppstå overbestilling.
 
 Prosjektlederen eller ressurslederen kan deretter bruke planleggingstavlen til å behandle eventuelle situasjoner der en ressurs er overbestilt utover dens kapasitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

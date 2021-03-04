@@ -67,3 +67,6 @@ Når du er klar til å endre en teammedlemsressurs med ikke-forpliktende bestill
 2. Høyreklikk på bestillingen og under **Endre status** velger du **Forpliktende bestilling** \> **Forpliktende**. Bestillingsstatusen er nå **Forpliktende**.
 3. Når du har lukket planleggingstavlen og går tilbake til prosjektet og åpner kategorien **Team**, ser du at timene for ressursen har flyttet fra kolonnen **Timer med ikke-forpliktende bestillinger** til kolonnen **Timer med forpliktende bestillinger** i kategorien **Team**, i visningen **Navngitte teammedlemmer**. Hvis ressursen ble tilordnet til oppgaver, vil de ikke lenger vise et bestillingsunderskudd i kategorien **Avstemming** ettersom bestillingene nå er forpliktende.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

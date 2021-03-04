@@ -51,3 +51,6 @@ Kundeansvarlige og prosjektledere ber regelmessig om ressurser for sine prosjekt
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for ressursansvarlig](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

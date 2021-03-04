@@ -61,3 +61,6 @@ Angi timene minst ukentlig, eller så ofte forespurt av ledere, for å sikre at 
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

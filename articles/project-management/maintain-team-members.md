@@ -42,3 +42,6 @@ Når du tar et valg, legges ressursen til i prosjektteamet og tildeles oppgaven,
 Du kan bruke funksjonen for å utvide bestillingen i kategorien **Avstemming** eller **planleggingstavlen** til å reservere ressursens kapasitet til prosjektet.
 
 Når et teammedlem er bestilt i prosjektet, kan du bruke **Vedlikehold bestillinger**, eller du kan bruke **planleggingstavlen** direkte til å behandle bestillingene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

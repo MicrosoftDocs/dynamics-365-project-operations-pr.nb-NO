@@ -72,3 +72,6 @@ Hvis prisoppsettet for utgiftskategorien ikke er gyldig, har du fastslått probl
 Hvis du fremdeles ikke ser en gyldig pris i de faktiske salgsutgiftene når du har gjort de tre kontrollene ovenfor, logger du en støtteforespørsel.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

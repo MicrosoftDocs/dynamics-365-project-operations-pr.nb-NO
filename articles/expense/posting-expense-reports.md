@@ -31,3 +31,6 @@ Hvis utgifter i en reiseregning belastes et annet selskap enn selskapet som anse
 Hvis du vil postere en reiseregning, velger du reiseregningen på siden **Godkjente reiseregninger**, og deretter velger du **Bokfør** i handlingsruten.
 
 Du kan også bokføre alle reiseregningene i listen samtidig. Velg alle reiseregningene, og velg deretter **Bokfør**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

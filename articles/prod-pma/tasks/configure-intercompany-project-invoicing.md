@@ -64,3 +64,6 @@ Dette emnet viser hvordan du definerer prosjektfakturering mellom to selskaper i
 32. Angi et tall i **Priser** -feltet.
 33. Velg **Lagre**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

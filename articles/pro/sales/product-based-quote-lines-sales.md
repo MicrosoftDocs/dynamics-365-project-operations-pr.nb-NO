@@ -46,3 +46,6 @@ Når en tilbudslinje er basert på en produktkatalog, kan du overstyre salgspris
 Hvis du velger **Overstyr pris**, blir ikke standardprisen angitt. I stedet må du angi en pris for produktet på tilbudslinjen. Hvis du velger **Bruk standard**, brukes standard salgspris, og feltet låses for redigering.
 
 Standard salgspriser angis på de produktbasert linjene i et tilbud. **Pris**-feltet angis deretter til **Overstyr pris**, slik at du kan redigere standardprisen på tilbudslinjene. Dette er en Project Operations-spesifikk overstyring til den produktbaserte linjefunksjonaliteten i Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Før du kan bestille fra planleggingstavlen, må du opprette eller generere ress
 Kravet gjennomføres ved hjelp av den valgte ressursen. I ruten **Bestillingskrav** kan du legge merke til at kravet er oppdatert, og at ressursen vises som bestilt på prosjektet.
 
 ![Ressurs bestilt i prosjektet](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

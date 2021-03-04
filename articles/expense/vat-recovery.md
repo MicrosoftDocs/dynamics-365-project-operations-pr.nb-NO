@@ -66,3 +66,6 @@ Når Arne er klar til å sende reiseregningsdataene til tredjepartsleverandøren
 Arne må kontrollere at reiseregningstransaksjonene er kvalifisert for mva-fradrag, og at de digitale kvitteringene er vedlagt rapportene. For å begynne å behandle berettigede utgifter for innenlands fradrag åpner Arne siden **Avgiftsfradrag for utgifter** og velger reiseregningen som krever verifisering. Han verifiserer at kvitteringene står i navnet på firmaet i stedet for den ansatte. (For mva-fradrag må kvitteringer være i firmaets navn.) Arne kontrollerer deretter at riktig mva-gruppe og mva-koder for varen er angitt.
 
 Når Arne mottar papirkvitteringene, endrer han statusen for reiseregningen til **Klar til fradrag**. Han kan deretter arkivere returen med de aktuelle skattemyndighetene. I dette tilfellet er de aktuelle skattemyndighetene i Norge Altinn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

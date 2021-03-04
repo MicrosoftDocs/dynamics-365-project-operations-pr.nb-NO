@@ -96,3 +96,6 @@ For å sikre en vellykket oppgradering må følgende relasjoner vedlikeholdes p�
 
 - Alle avhengigheter for prosjektoppgaver må være relatert til samme prosjekt.
 - En oppgave kan ikke referere til samme avhengighet mer enn én gang.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

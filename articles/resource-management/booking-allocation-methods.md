@@ -81,3 +81,6 @@ Følgende tildelingsmetoder fører altså til overbestilling hvis ressursen alle
 - Distribuer timer jevnt
 
 Når du bruker en av disse tildelingsmetodene, blir du ikke varslet om at ressursen er overbestilt. Hvis du vil rette opp overbestillingen, må du bruke planleggingstavlen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

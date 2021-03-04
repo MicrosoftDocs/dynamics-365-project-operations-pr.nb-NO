@@ -43,3 +43,6 @@ Hver bestillbare ressurs som arbeider i et prosjekt, må ha en kalender for arbe
 2. I rutenettvisningen kan du velge opptil 25 **bestillbare ressurser** som skal oppdateres.
 3. Velg **Angi kalender**, og en dialogboks vil be om en liste over tilgjengelige arbeidstidsmaler.
 4. Velg malen malen du vil bruke, og velg deretter **Bruk**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

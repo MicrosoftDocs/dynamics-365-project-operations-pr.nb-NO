@@ -81,3 +81,6 @@ Project Operations inkluderer følgende roller:
 Hvis du vil ha mer informasjon om sikkerhet i Finance, kan du se [Rollebasert sikkerhet](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

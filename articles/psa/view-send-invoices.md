@@ -58,3 +58,6 @@ Når du oppretter et prosjekt, kan du angi hyppigheten for å generere fakturaer
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

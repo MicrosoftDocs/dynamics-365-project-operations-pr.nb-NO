@@ -152,3 +152,6 @@ Når du oppretter en arbeidsnedbrytningsstruktur, skal du bruke følgende typer 
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederveiledning](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

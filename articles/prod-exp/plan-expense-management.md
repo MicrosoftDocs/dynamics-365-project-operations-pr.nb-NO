@@ -160,3 +160,6 @@ Ved å opprette reise regningspolicyer kan du bidra til at organisasjonen sparer
 - Når utløper policyen?
 - Hva er policyregelen?
 - Hva er resultatet av policyregelen?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -124,3 +124,6 @@ Hvis det for eksempel finnes følgende egenskaper:
 - **Produkt-SKU** 
 
 Egenskapene **Antall brukere** og **Antall måneder** kan flagges som antallsfaktorer ved å redigere egenskapene for produktlinjen. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

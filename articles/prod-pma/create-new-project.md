@@ -104,3 +104,6 @@ Under ressursreservasjon kan prosjektledere filtrere rolleressursene som er tilg
 
 3. Velg **Lagre** , og lukk deretter siden.
 4. I kategorien **Kompetanser** legger du til ferdigheten **ProjectMgmt** og sertifikatet **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

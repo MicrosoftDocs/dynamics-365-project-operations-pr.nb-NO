@@ -106,3 +106,6 @@ Når det gjøres én eller flere oppdateringer i arbeidsnedbrytningsstrukturen, 
   - Project Operations-system
   - Prosjektsystem
   - Dobbel skriving for Project Operations (Denne rollen kreves hvis du distribuerer det ressursbaserte/ikke-lagerbeholdte scenarioet for Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

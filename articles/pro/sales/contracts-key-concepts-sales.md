@@ -93,3 +93,6 @@ Project Operations-kontrakter blir utformet basert på Dynamics 365 Sales-kontra
 - Project Operations-kontrakter har sitt eget format og sine egne UI-elementer, forretningsregler, plugin-moduler for forretningslogikk og skript på klientsiden som gjør dem unike fra salgskontrakter.
 
 Av disse grunnene bør du ikke bruke en salgskontrakt og en prosjektkontrakt om hverandre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

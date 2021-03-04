@@ -35,3 +35,6 @@ Alle de opprettede prosjektfakturaene er tilgjengelige på **Faktura**-siden i *
 En proformafaktura kan også opprettes fra detaljsiden **Prosjektkontrakt**. Systemet verifiserer at prosjektkontrakten har en **Klar for fakturering**-restanse datert før dagens dato. Fra disse kontraktene oppretter systemet utkast til proformafakturaer basert på antall kunder på hver kontraktlinje.
 
 Når det er opprettet én enkelt proformafaktura, åpnes **Faktura**-siden. Hvis det opprettes flere fakturaer for den prosjektkontrakten, åpnes listesiden **Fakturaer** for å vise alle opprettede fakturaer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

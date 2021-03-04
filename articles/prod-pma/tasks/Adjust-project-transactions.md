@@ -44,3 +44,6 @@ Denne oppgaveveiledningen viser deg hvordan du justerer en transaksjon i et pros
 13. Merk den valgte raden i listen. 
 14. Angi et tall i Kostpris-feltet. 
 15. Klikk Publiser. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Du kan bruke to metoder for å arbeide med personlige utgifter for en ansatt:
   - **Betalt av firma**: Organisasjonen betaler hele regningen for bedriftskredittkortet, og deretter belaster arbeiderens konto for de personlige utgiftene.
 
 Du kan velge metoden organisasjonen bruker, på siden **Parametere for utgiftshåndtering**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

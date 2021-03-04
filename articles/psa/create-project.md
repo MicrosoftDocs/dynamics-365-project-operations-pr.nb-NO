@@ -48,3 +48,6 @@ Deretter oppretter du en arbeidsnedbrytingsstruktur for prosjektet for å define
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

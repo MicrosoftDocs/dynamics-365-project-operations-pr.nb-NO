@@ -170,3 +170,6 @@ Følgende felt for planlagt, faktisk og gjenstående kostnad og salg er uendret 
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

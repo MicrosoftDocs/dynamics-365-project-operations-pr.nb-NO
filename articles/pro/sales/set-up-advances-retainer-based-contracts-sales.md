@@ -37,3 +37,6 @@ Honoraret i Project Operations er ikke tilgjengelig for bruk før det er fakture
 | --- | --- | --- |
 | Tilgjengelig beløp | Beløpet som er tilgjengelig for bruk i honorar- eller forskuddsoppføringen. | Før forskuddet eller honoraret er fakturert, er det ikke tilgjengelig for bruk, noe som betyr at det tilgjengelige beløpet vil være null. |
 | Brukt beløp | Beløpet som allerede er brukt for honoraret eller forskuddet. | Et forskudd eller honorar kan avstemmes delvis på en faktura med faktiske kostnader, der en del av det er merket som allerede brukt. Resten av forskudds- eller honorarbeløpet er tilgjengelig for avstemming på en fremtidig faktura med faktiske kostnader. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

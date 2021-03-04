@@ -55,3 +55,6 @@ Salgsmuligheter er varme kundeemner fra kunder som er interessert i å inngå av
   
 ### <a name="see-also"></a>Se også  
  [Veiledning for kontoadministrator](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

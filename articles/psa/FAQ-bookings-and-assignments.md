@@ -68,3 +68,6 @@ Med **avstemmingsvisningen** kan prosjektlederen se bestillinger og tilordninger
 > [!NOTE]
 > Hvis du flytter en oppgave du har opprettet omfang for selv, kan ikke dette omfanget opprettholdes. Omfanget genereres på nytt i henhold til prosjektkalenderen for å ta hensyn til endringer i arbeidstimer og ferier. Dette er fordi systemet ikke vet hensikten med det opprinnelige omfanget og kan ikke avgjøre om det er fornuftig å beholde dette omfanget i en ny tidsperiode. Siden bestillinger og tilordninger ikke er knyttet sammen, beholder bestillingene de opprinnelige bestillingsomfangene. I dette tilfellet må du annullere og bestille på nytt til det nye tilordningsomfanget.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

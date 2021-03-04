@@ -73,3 +73,6 @@ Du kan utføre en ny masseevaluering av Må ikke overskrides-statusen. Det kan v
 Hvis du vil evaluere Må ikke overskrides-statusen på nytt, velger du én eller flere faktiske verdier fra visningen **Faktureringsrestanse for Tid og materiale** eller **Faktiske verdier**, og deretter velger du **Evaluere statusen Må ikke overskrides på nytt**.
 
 Alle de relevante valgte faktiske verdiene med en Må ikke overskrides-grense evalueres mot grensen som ikke må overskrides. Faktiske verdier som er relevante for ny evaluering av Må ikke overskrides-statusen, er ikke-fakturert faktisk salg som ikke allerede er fakturert, ikke på en utkastfaktura, og er merket som belastbare. Alle andre utvalgte faktiske verdier er valgt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

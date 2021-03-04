@@ -73,3 +73,6 @@ Hvis du vil ha informasjon om oppdateringer for Project Service, kan du gå til 
 >[!Note]
 > - Datoer i alle områder unntatt Government Community Cloud (GCC) angir tiden for neste automatiske oppdatering. Datoer i GCC angir versjonstilgjengelighet. Det finnes for øyeblikket ingen automatisk oppdatering for disse områdene.
 > - For alle andre områder, mens de fleste oppdateringer skal fullføres i løpet av den planlagt kvelden, kan oppdateringer som krever mer tid, bli fullført på nattestid i løpet av helgen som er angitt i kolonnen **Planlagt dato**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

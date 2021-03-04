@@ -57,3 +57,6 @@ Planlegg ferie eller permisjon omtrent på samme måte som når du angir tid for
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

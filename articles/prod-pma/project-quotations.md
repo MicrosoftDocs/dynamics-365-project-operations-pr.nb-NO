@@ -41,3 +41,6 @@ Hvis kunden godkjenner prosjekttilbudet, kan du kopiere informasjonen i prosjekt
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

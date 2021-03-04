@@ -105,3 +105,6 @@ Dynamics 365 håndterer automatisk verdier i forskjellige valutaer. Her er et ek
 | Utgift           | Ufakturert salg   | 17. juni | Noah  | Leiebil           | 1 per stk.     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Hvis du vil beregne den totale verdien for ufakturert salg i prosjektet, kan du opprette et verdifelt felt for **Beløp**-feltet i alle de relaterte, ufakturerte salgsbeløpene. Verdifeltet er en konstruksjon i Dynamics 365, som gjør det mulig å bruke hurtigformler på relaterte oppføringer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

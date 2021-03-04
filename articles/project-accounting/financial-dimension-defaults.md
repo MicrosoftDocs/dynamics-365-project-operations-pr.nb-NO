@@ -62,3 +62,6 @@ Prosjekter opprettes og vedlikeholdes i CDS. Regnskapsattributter for prosjekter
 4. Angi finansdimensjonsstandarder. Legg merke til at finansdimensjonene angis som standard fra kundekontoen. Hvis prosjektet er knyttet til en kontraktlinje med flere prosjektkontraktkunder, brukes hovedkunden som standard for finansdimensjoner.
 
 Standardfinansdimensjoner for prosjekt brukes til å angi standarder for journallinje for tid, utgift og avgiftstransaksjoner i **Journal for Project Operations-integrering** og på relaterte prosjektfakturalinjer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

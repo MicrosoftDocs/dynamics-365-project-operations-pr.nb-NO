@@ -116,3 +116,6 @@ Velg **Bestill** for den generelle ressursen, og deretter kan du bruke planleggi
 Når den generelle ressursen er fullført med en navngitt ressurs, fjernes den generelle ressursen fra teamet og oppgavetilordningene for den generelle ressursen tilordnes til den navngitte ressursen som fullførte ressurskravet for den generelle ressursen.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Hver utgiftskategori kan ha sin egen enhetsgruppe og enhet. Du kan definere pris
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

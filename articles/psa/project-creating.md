@@ -149,3 +149,6 @@ Hvis en bladnodeoppgave ikke har foregående oppgaver, settes startdatoen som st
 ### <a name="manual-scheduling"></a>Manuell planlegging
 
 Hvis reglene for automatisk planlegging ikke oppfyller kravene dine, kan du angi at oppgavemodusen skal være **Planlagt manuelt**. Denne innstillingen stopper planleggingsmotoren fra å beregne verdier for andre planleggingsattributter. Hvis du angir foregående oppgaver, vil du alltid ha bruk for den avhengige oppgavens startdato, uavhengig av oppgavemodusen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

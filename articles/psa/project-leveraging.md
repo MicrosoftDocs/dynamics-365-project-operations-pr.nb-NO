@@ -54,3 +54,6 @@ Du kan definere arbeidsinnsatsen og tidsplanestimatene ved hjelp av feltene i ka
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importere estimater fra et prosjekt til et tilbud
 
 Når du har definert prosjektestimater, kan du importere dem til tilbudslinjen. På siden **Tilbudslinjedetaljer** velger du **Importer fra estimater** på båndet for å oppsummere prosjektestimater etter transaksjonstype, rolle eller oppgavenivå.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

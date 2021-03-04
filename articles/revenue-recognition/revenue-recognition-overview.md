@@ -60,3 +60,6 @@ I Dynamics 365 Project Operations kan det være forskjellige prinsipper for innt
 [Administrer inntektsestimater](rev-rec-completed-contract-method.md)
 
 [Metoder for ferdigstillingskostnad](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

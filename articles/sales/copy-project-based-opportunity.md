@@ -34,3 +34,6 @@ Salgsmuligheter for prosjekter kan enkelt kopieres for å opprette nye salgsmuli
     | Kopier pris | En Ja/Nei-verdi som angir om prisingen for salgsmuligheten skal kopieres fra kildesalgsmuligheten. | Hvis **Ja** er valgt, kopieres prislistene fra kilde- til målsalgsmuligheten. Hvis du velger **Nei**, blir prislistene standard på nytt basert på de siste prislistene som ble definert. |
 
 3. Velg **OK**. Systemet oppretter en kopi av prosjektsalgsmuligheten basert på de valgte parameterne, og den nye salgsmuligheten for prosjektet åpnes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

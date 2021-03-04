@@ -48,3 +48,6 @@ Følgende tabell definerer nøkkelkonseptene som brukes i Dynamics 365 Project S
 | Profil                    | Oppgave, krav eller tilordningstimer, brutt ned til daglig fordeling. En 5-dagers oppgave på 40 timer kan for eksempel profileres til åtte timer per dag over fem dager. |
 | Avstemmingsvisning        | En visning som viser bestillinger og tilordninger for hvert prosjektgruppemedlem. I denne visningen kan prosjektlederen se etter eventuelle manglende samsvar mellom bestillinger og tildelinger, og utføre korrigerende handlinger hvis det oppstår uoverensstemmelser. |
 | Arbeidstider                 | En enhet som brukes til å identifisere ressurskapasitet og arbeidstid og ikke-arbeidstid. Denne enheten kalles også ressurskalenderen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

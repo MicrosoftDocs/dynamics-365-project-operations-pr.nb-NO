@@ -85,3 +85,6 @@ Når det er opprettet noen få oppføringer, kan brukerne opprette flere tidsopp
 
 ## <a name="import"></a>Import
 Den samme grunnleggende prosessen brukes til å importere fra bestillinger, tilordninger og utvekslinger. Du kan angi datointervallet som bestillinger importeres fra, og deretter eksplisitt velge bestillinger som skal kopieres til Utkast-tidsoppføringer. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

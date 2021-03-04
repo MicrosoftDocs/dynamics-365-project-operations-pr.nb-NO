@@ -65,3 +65,6 @@ Når du har opprettet tilbakeholdelsesvilkår for en leverandør, kan du bruke v
 6. Hvis prosjektet også har PWP-betingelser (betal når betalt) satt opp for leverandøren, angir du terskelprosenten for prosjektet i feltet **PWP-terskelprosent**.
 
 Tilbakeholdelsesbetingelsene for leverandører vises også i bestillinger som du oppretter for leverandøren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

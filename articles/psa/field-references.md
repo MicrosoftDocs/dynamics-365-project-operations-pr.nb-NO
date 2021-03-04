@@ -150,3 +150,6 @@ Tabellen nedenfor er en omfattende liste over de medfølgende skjemaene og visni
 |  Faktisk|• Informasjon<br>• Aktive faktiske data|• Tilknyttet visning for faktiske data|
 
 Egendefinerte felt må også legges til i forretningsregler, avhengig av hva du har definert. Et typisk eksempel er for forretningsregelen **Redigerbarhet for tidsoppføring basert på status**. Denne regelen definerer hvilke felt som må låses når tidsoppføringen er i en status som ikke kan redigeres, for eksempel **Godkjent**. Legg til felt i denne forretningsregelen, slik at feltene låses for redigering når tidsoppføringen er i en annen status enn **Utkast** eller **Returnert**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

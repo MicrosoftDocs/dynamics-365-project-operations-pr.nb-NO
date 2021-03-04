@@ -45,3 +45,6 @@ Følgende informasjon kopieres ikke fra **kilde**- til **målkontrakten**:
   - Kundebudsjettinformasjon
 
 Ettersom denne informasjonen er spesifikk for hver kontrakt, kopieres ikke disse feltene og oppføringene. Kontraktlinjer for prosjekter og produkter, estimater på kontraktlinjedetaljer og verdier på kontraktnivå som ikke må overskrides, kopieres. Standarder for pris og kostnadssats avhenger av valget i feltet **Kopier pris** på dialogsiden **Kopier parametere**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

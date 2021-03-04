@@ -38,3 +38,6 @@ Disse vanlige spørsmålene gjelder for faktiske utgifter der transaksjonsklasse
 Gå til oppføringen for relaterte utgifter, og kontroller at det er et beløp i feltet utgiftsoppføring. Hvis den opprinnelige utgiftsoppføringen ikke har fylt ut beløpsfeltet, har du identifisert problemet.
  
 Hvis du vil løse dette problemet, oppretter du utgiftsposten på nytt med et gyldig beløp og godkjenner det.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

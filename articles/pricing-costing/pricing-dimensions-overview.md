@@ -71,3 +71,6 @@ Følgende eksempel viser kostnadssatser som er definert basert på rollen og org
 | ----------------|-------------|----------|----------:|----------|
 | Mitt firma_Band1 | Contoso US  |Hour | 145|USD     |
 | Mitt firma_Band2 | Ekeli India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

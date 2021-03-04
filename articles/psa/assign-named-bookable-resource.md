@@ -68,3 +68,6 @@ Du kan bruke funksjonen for å utvide bestillingen i kategorien **Avstemming** e
 ![Utvide bestillinger for et teammedlem i kategorien Ressursavstemming](media/RM-how-to-7.png)
 
 Når et teammedlem er bestilt i prosjektet, kan du bruke vedlikehold av bestillinger, eller du kan bruke planleggingstavlen direkte til å behandle bestillingene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Egenskapene **Antall brukere** og **Antall måneder** kan flagges som antallsfak
 
 > ![Flagge Antall brukere og Antall måneder som kvalitetsfaktorer](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

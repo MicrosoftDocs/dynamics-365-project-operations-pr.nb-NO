@@ -59,3 +59,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Proj
      - Fikset: Ekstra knapper for **Ny salgsmulighet**, **Tilbud**, **Ordrelinjer** og **Legg til produkt** vises i kommandoer for salgsmuligheter, tilbud, ordreprodukter og prosjektbaserte linjedelrutenettet.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

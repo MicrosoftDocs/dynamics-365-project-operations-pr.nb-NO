@@ -68,3 +68,6 @@ Når brukeren velger å oppsummere etter transaksjonsklasse, kategori og bladnod
 | Oppgave A | Flybilletter | 1. oktober 2020 | 4 | 400 | 1600 |
 | Oppgave B | Hotell | 1. oktober 2020 | 4 | 200 | 800 |
 | Oppgave C | Hotell | 1. november 2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

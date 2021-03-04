@@ -344,3 +344,6 @@ I løpet av den første måneden registreres totalt 800 timer av konsulentene i 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

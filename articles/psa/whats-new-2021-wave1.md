@@ -43,3 +43,6 @@ Følgende problemer har blitt løst:
 
 - Sluttdatoer fylles automatisk ut når det opprettes en tidsoppføring hvis varigheten er null.
 - Brukere kan endre oppgaven i en tidsoppføring som er godkjent eller sendt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

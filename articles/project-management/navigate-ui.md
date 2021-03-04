@@ -102,3 +102,6 @@ Nedenfor vises en kort oversikt over vanlige kontroller som finnes på de forskj
 **Legg til kolonne**: Gjør det mulig for brukeren å definere de synlige kolonnene i rutenettet. Bare medfølgende kolonner kan legges til i rutenettet på skjemaet **Prosjektplanlegging**.
 
 ![Legg til kolonne-knappen](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

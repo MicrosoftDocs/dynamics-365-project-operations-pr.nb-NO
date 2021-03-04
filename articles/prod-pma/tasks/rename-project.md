@@ -35,3 +35,6 @@ Prosjektstadier kan fungere som en veiledning for prosjektlivssyklusen. Du kan d
 4. I listen velger du den forhåndsdefinerte eller brukerdefinerte fasen du vil endre. 
 5. I feltet Prosjektfase angir du det nye navnet.
 6. Klikk Lagre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

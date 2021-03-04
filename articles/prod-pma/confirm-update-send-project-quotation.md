@@ -57,3 +57,6 @@ Hvis du vil endre et eksisterende prosjekttilbud, må tilbudsstatusen være **Op
 
 > [!NOTE]
 > Du kan ikke endre et prosjekttilbud etter at statusen er endret til **Sendt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

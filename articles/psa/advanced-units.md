@@ -112,3 +112,6 @@ Nr. Tidsplanestimering er for øyeblikket begrenset til timer og kan ikke endres
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kan enheter og enhetsgrupper redigeres, slettes og legges til?
 Ja. Med unntak av **Tid**-enhetsgruppen og **Time**-enheten kan alle enheter slettes eller redigeres, og det kan legges til nye enheter. I PSA kan **Tid**-enhetsgruppen og **Time**-enheten ikke slettes. De kan imidlertid oppdateres med en oversatt tekst for **Navn**-feltet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

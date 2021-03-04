@@ -52,3 +52,6 @@ Denne veiledningen tar deg gjennom prosessen med å installere og konfigurere:
  [Veiledning for kontoadministrator](../psa/account-manager-guide.md) [Prosjektlederhåndbok](../psa/project-manager-guide.md)   
  [Håndbok for ressursansvarlig](../psa/resource-manager-guide.md)   
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

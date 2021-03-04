@@ -209,3 +209,6 @@ Hvis du har brukt demonstrasjonsdata i Finance-miljøet, kan du se [Konfigurere 
 
 
 Project Operations-miljøet ditt er nå klargjort og konfigurert. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

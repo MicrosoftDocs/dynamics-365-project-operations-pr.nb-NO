@@ -45,3 +45,6 @@ Hold prosjektrelaterte dokumenter organisert ved å legge dem til i prosjektet.
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

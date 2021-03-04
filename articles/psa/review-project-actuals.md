@@ -35,3 +35,6 @@ Naviger til de faktiske prosjektdataen, og kontroller at kostnader og ufakturert
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederveiledning](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

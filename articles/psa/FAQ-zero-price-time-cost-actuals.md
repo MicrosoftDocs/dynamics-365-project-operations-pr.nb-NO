@@ -66,3 +66,6 @@ Hvis du fremdeles ikke ser en gyldig pris i de faktiske tidskostnadene når du h
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

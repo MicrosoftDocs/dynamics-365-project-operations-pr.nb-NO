@@ -53,3 +53,6 @@ Et estimat eller faktisk opprettet for en utgift, blir bare betraktet som belast
 | No | Ja | Kan ikke angis | Ikke-belastbar | Fakturering på en faktisk tidsverdi: Ikke tilgjengelig </br>Faktureringstype for en faktisk utgiftsverdi: Ikke-belastbar |
 | Ja | No | Belastbar | Kan ikke angis | Fakturering på en faktisk tidsverdi: Belastbar </br>Faktureringstype for en faktisk utgiftsverdi: Ikke tilgjengelig |
 | Ja | No | Ikke-belastbar | Kan ikke angis | Fakturering på en faktisk tidsverdi: Ikke-belastbar </br> Faktureringstype for en faktisk utgiftsverdi: Ikke tilgjengelig |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

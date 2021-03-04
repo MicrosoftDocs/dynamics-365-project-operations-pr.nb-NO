@@ -63,3 +63,6 @@ Når arbeidet for prosjektet er fullført, kan prosjekt lederen oppdatere fasen 
 
 Når alle transaksjoner er registrert for prosjektet, kan prosjektlederen oppdatere fasen til **Lukk**. På dette tidspunktet kan det ikke registreres noen transaksjoner, og prosjektet er skrivebeskyttet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

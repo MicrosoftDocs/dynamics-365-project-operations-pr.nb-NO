@@ -89,3 +89,6 @@ Project Operations-tilbud blir utformet basert på Dynamics 365 Sales-tilbud. De
 - Project Operations-tilbud har sitt eget format og sine egne UI-elementer, forretningsregler, plugin-moduler for forretningslogikk og skript på klientsiden som gjør dem unike fra Sales-tilbud.
 
 Av disse grunnene anbefales det at du ikke bruker et Sales-tilbud og et Project Operations-tilbud om hverandre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

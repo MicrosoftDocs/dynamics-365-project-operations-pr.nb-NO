@@ -45,3 +45,6 @@ Når du vil se hva du skal arbeide med i uken, kan du ta en titt på tidsplanen.
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

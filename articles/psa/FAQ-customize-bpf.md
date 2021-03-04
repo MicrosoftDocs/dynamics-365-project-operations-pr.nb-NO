@@ -107,3 +107,6 @@ Slik oppretter du din egen forretningsprosessflyt for prosjektenheten:
 
    ![Skjermbilde av endring av visninger i prosjektenheten](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

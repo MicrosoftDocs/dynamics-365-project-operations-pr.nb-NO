@@ -59,3 +59,6 @@ Hvert prosjekt har flere prosjektteammedlemmer. Du kan angi hvilke teammedlemmer
 3. Velg **Lagre**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

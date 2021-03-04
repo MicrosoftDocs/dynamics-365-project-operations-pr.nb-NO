@@ -46,3 +46,6 @@ Planleggingsassisten vises og filtreres etter kravene. Velg ressursen, og velg d
 > ![Ressurs valgt](media/Resource-Management-image61.png)
 
 Det generelle teammedlemmet erstattes av den navngitte ressursen i prosjektteamet og oppgavetilordningene i prosjektplanen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

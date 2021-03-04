@@ -34,3 +34,6 @@ Fullfør fremgangsmåten nedenfor for å opprette og arbeide med periodetyper:
 4. Velg oppføring for periodetype, og velg deretter **Generer perioder** for å opprette perioder for periodetypen. Avhengig av periodefrekvensen du valgte, kan det hende at du har mulighet til å spesifisere en startdato eller antall perioder som skal genereres.
 5. Velg **Perioder** for å gjennomgå genererte perioder.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Ferdigheter for ressurser er rangert av kompetansemodeller. De enkelte klassifis
 
 
 Disse vurderingsverdiene vises på filtrene **Ressurskrav**, **Planleggingstavle** og **Planleggingsassistent**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

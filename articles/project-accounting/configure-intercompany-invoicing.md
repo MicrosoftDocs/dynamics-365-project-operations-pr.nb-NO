@@ -101,3 +101,6 @@ I eksemplet nedenfor er Contoso Robotics USA (USPM) den juridiske enheten som lÃ
           - **Ressursfirma** = **Contoso Robotics UK**
           - **Fakturasats** = **200 USD**
       9. GÃ¥ til **Salg** > **Prosjektkontrakter** og knytt **Fakturasatser for Brusefoss industrier**-prislisten til Brusefoss industrier-prosjektprislisten for prosjektkontrakten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Du kan generere milepæler med fastpris manuelt når de ikke deles regelmessig. 
 | Avgift | Hurtigoppretting | Avgiftsbeløpet som brukes på milepælen. | Dette overføres til milepælen for prosjektkontraktlinjen og fakturaen. |
 
 3. Velg **Lagre og lukk**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Nedenfor vises feltene på kontraktlinjekundeoppføringen for en prosjektbasert 
 Delingsprosent for fakturering kan redigeres i rutenettet. Når delingsprosentene for fakturering ikke er totalt 100 prosent, oppstår det en feil. Når du har redigert delingsprosentene for fakturering, oppdaterer du siden for å fjerne feilen.
 
 Du kan også prøve å velge **Fordel jevnt** i delrutenettetet for kontraktlinjekunde. Denne handlingen fordeler faktureringsdelingene til alle kontraktlinjekunder. Hvis det finnes en avrundingsfaktor, blir den lagt til i avrundingskunden. Én kontraktlinjekunde er alltid merket som **Avrunding**-kunden med **Avrunding**-flagget satt til **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

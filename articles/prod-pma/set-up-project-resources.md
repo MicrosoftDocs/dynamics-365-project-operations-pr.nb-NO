@@ -75,3 +75,6 @@ Når de foregående oppgavene er fullført, kan du utføre følgende oppgaver sl
 - Oppfyll ressursforespørsler.
 - Be om en bemannet ressurs fra en WBS.
 - Reserver ressurser til et prosjekt uten å ha en forespørsel om en bemannet ressurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

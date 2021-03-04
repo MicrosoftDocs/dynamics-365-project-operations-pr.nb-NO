@@ -43,3 +43,6 @@ Nedenfor finner du kategoriene og KPI-ene som er tilgjengelige for et prosjektti
 | Lønnsomhetsanalyse | Fane i tilbudet | Fanen viser følgende måledata:</br>- Total belastbar kostnad</br></br>- Total ikke-belastbar kostnad</br>- Total omsetning</br>- Total omsetning (standardvaluta)</br>- Bruttofortjeneste</br>- Justert bruttofortjeneste|
 | Sammenligning med kundens forventninger | Fane i tilbudet | Denne fanen viser følgende måledata:</br>- Beregnet fullføring</br>- Ønsket fullføring</br>- Kundebudsjett</br>- Tilbudsverdi |
 | Tilbudsanalyse | Fane i tilbudet | Denne kategorien oppsummerer følgende topo KPI-er for et prosjekttilbud</br>- Sammenligning med kundens forventninger for budsjett og tidsplan</br>- Bruttofortjeneste</br>- Justert bruttofortjeneste |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

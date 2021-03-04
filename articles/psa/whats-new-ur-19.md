@@ -66,3 +66,6 @@ Følgende problemer har blitt løst:
 - Kunder kan oppleve redusert ytelse ved oppretting av et prosjekt fordi **GetBookableResourceIdFromUser** henter alle kolonner med ressurser som kan reserveres, i stedet for bare primær-ID-en.
 - **TransactionType**-enheten mangler plugin-modulen for oppdatering av forhåndsvalidering for å hindre brukere i å skrive inn **Enheter** og **UnitGroups** som ikke er gyldige for transaksjonstyper.
 - **Fjern**-trinnet fungerer ikke for import av tidsoppføringer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

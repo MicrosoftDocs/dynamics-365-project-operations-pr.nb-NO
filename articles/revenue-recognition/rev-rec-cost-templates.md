@@ -79,3 +79,6 @@ Følg denne fremgangsmåten for å opprette kostnadsmaler:
 7. På **Kategorier**-fanen velger du prosjektkategoriene som skal tas med på kostnadsmallinjen.
 8. På **Generelt**-fanen velger du om denne linjen skal tas med i beregningen av fullføringsprosent.
 9. Velg ferdigstillelseskostnad-metoden ved beregning av fullføringsprosenten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

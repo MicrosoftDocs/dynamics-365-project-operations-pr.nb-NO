@@ -57,3 +57,6 @@ Dette emnet beskriver hvordan du oppretter en prognosemodell for gjenstående bu
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

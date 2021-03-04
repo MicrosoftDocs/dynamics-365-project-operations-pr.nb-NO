@@ -242,3 +242,6 @@ Tabellen nedenfor oppsummerer hvordan data for enhet for prosjektoppgaveavhengig
 
 ### <a name="additional-resources"></a>Ytterligere ressurser
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

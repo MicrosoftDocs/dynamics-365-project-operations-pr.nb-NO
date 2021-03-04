@@ -49,3 +49,6 @@ Vi anbefaler at du bruker en bunke. Alternativene er tilgjengelige under synkron
     | Sluttdato    | Angi sluttdatoen for synkroniseringsprosessen for opprullering av ressurskapasitet. |
 
 [![Synkroniseringsfremdrift](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

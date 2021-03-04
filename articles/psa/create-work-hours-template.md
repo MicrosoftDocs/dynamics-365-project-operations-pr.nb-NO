@@ -65,3 +65,6 @@ Før du kan opprette prosjekttidsplaner, må du sette opp en prosjektkalender so
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

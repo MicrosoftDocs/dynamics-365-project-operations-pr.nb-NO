@@ -91,3 +91,6 @@ Den satsvise prosessjobben for oppretting av fakturaer er en gjentakende jobb. H
 
 > [!NOTE]
 > Satsvis fakturering i Project Operations kjører bare for prosjektkontraktlinjer som er konfigurert ved hjelp av fakturaplaner. En kontraktlinje med en faktureringsmetode for fast pris må ha milepæler konfigurert. Det må konfigureres en datobasert fakturaplan for en prosjektkontraktlinje med en faktureringsmetode for tid og materialer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

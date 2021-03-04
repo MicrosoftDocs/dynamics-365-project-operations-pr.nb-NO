@@ -144,3 +144,6 @@ Hvis du har faktiske verdier som kom inn etter at du har opprettet fakturaen, ka
 I Project Operations kan du opprette fakturalinjer for produkter som ikke gjelder for noe prosjekt eller for alle prosjekter sammen med prosjektbaserte fakturalinjer. Disse fakturalinjene opprettes som produktbaserte kontraktlinjer, og etter at de er merket som klare til fakturering, blir de lagt til som produktbaserte fakturalinjer.
 
 Når du har lagt til produktbasert fakturalinjer, kan de ikke endres. De kan imidlertid slettes fra kladdeproformafakturaen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

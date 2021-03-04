@@ -132,3 +132,6 @@ Du bør bruke plugin-modulvalideringer for valideringer som krever mer kontekst 
 
 > [!IMPORTANT] 
 > For øyeblikket hindrer et kjent problem på TBX-sidene at brukere retter informasjon og velger Fullført på nytt når en oppdatering mislykkes med en plugin-modulvalidering. Du kan omgå dette problemet ved å konfigurere forretningsregelvalideringer for å unngå denne situasjonen så mye som mulig.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

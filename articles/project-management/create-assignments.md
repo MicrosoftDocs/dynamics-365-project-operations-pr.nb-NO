@@ -42,3 +42,6 @@ Du kan bruke søkeboksen i **ressursvelgeren** for å søke i alle aktive ressur
 1. Naviger til cellen **Tilordnet til** fra oppgaverutenettet, tavlen eller tidslinjen.
 2. Begynn å skrive inn et navn i søkeboksen. Søkeresultater for navnet vises i **ressursvelgeren** under **Andre ressurser**.
 3. Velg ressursen du vil tilordne til oppgaven, eller velg navnet på ressursen under **Andre teamressurser**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

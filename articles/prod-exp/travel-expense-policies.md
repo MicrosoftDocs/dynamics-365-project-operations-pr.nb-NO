@@ -51,3 +51,6 @@ Her er noen forslag som kan hjelpe deg når du oppretter nye policyer for håndt
 ## <a name="when-to-evaluate-policies"></a>Når policyer skal evalueres
 
 I parametere for reiseregning og utlegg er det et alternativ for å evaluere policyer for reiseregning og utlegg når en linje lagres, eller når en reiseregning sendes. Hvis du velger å evaluere når en linje lagres, sørger dette for at brukere får tidligere innsyn i hva de må gjøre for å fullføre reiseregningen samtidig. Hvis ikke kan du utsette policyevalueringen og spare tid under innsending til arbeidsflyten hvis valideringen foregår på slutten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

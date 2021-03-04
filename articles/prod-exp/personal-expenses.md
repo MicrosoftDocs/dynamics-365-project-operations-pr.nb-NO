@@ -33,3 +33,6 @@ Det finnes to metoder for håndtering av en arbeiders personlige utgifter:
 - **Betalt av firma** – organisasjonen din betaler hele regningen for firmaets kredittkort, og debiterer deretter arbeiderens konto for de personlige utgiftene.
 
 Du kan velge metoden organisasjonen bruker, på siden **Parametere for utgiftshåndtering**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

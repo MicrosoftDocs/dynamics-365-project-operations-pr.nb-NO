@@ -62,3 +62,6 @@ Fremgangsmåten nedenfor forklarer hvordan du oppretter et prosjektteam.
 ## <a name="monitor-project-teams"></a>Overvåke prosjektteam
 1. På siden **Alle prosjekter** velger du koblingen **Prosjekt-ID** for prosjektet **XYZ-oppgraderingsfase 2**.
 2. På hurtigfanen **Prosjektteam og planlegging** kontrollerer du at prosjektressursene som vises, er riktige.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

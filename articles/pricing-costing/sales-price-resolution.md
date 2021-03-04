@@ -54,3 +54,6 @@ Når en prisliste for salg er løst, fullfører systemet følgende trinn for ang
     | &nbsp; | Påslag over kostnad | Ved å bruke en markering som definert av kategoriprislinjen for enhetskostnadssasten for den relaterte faktiske kostnaden |
 
 4. Hvis systemet ikke kan samsvare verdiene i feltene **Kategori** og **Enhet**, settes salgssatsen til null (0) som standard.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

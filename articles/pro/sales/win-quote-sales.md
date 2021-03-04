@@ -40,3 +40,6 @@ Hvis prosjekttilbudet som lukkes som Tapt, refererer til et prosjekt på noen av
 
 > [!NOTE]
 > I Project Operations vil lukking av et tilbud som vunnet eller tapt ikke virke inn på statusen for salgsmuligheten, som forblir åpen til den lukkes manuelt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

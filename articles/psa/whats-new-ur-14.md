@@ -64,3 +64,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA 
      - Fikset: Total salgspris beregnes ikke før brukeren også har angitt en kostpris for utgiftsestimater i et prosjekt.
      - Fikset: Lukking av et tilbud som **Vunnet** mislykkes hvis den tilknyttede prosjektkontrakten ikke er i **Utkast**-tilstand.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

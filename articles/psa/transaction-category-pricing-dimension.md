@@ -53,3 +53,6 @@ Tabellen nedenfor er en omfattende liste over de medfølgende skjemaene og visni
 2. På **Parametere**-siden i kategorien **Beløpsbaserte prisdimensjoner** kan du legge merke til at rutenettet i kategorien viser oppføringene i **Prisdimensjoner**-enheten.
 3. Legg til **Transaksjonskategori** i denne listen, og angi feltene **Gjelder kostnad** og **Gjelder salg** til **Ja**.
 4. I **Dimensjonstype**-feltet velger **Beløpsbasert**, og deretter velger du prioritet for **Transaksjonskategori** relatert til kostnad og salg.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

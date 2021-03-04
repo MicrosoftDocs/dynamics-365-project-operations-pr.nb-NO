@@ -70,3 +70,6 @@ Autorisasjonen er nå fullført.
 Du har koblet til Azure-abonnementet. Du kan nå distribuere skydriftede Dynamics 365 Finance-miljøer.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

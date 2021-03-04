@@ -40,3 +40,6 @@ Instrumentbordet i **Practice Manager** gir opplæringsansvarlige et grafisk ins
 ## <a name="resource-manager"></a>Resource Manager 
 
 Instrumentbordet **Resource Manager** gir ressursansvarlige et grafisk instrumentbord for overvåkning av ressursforespørsler og ressurskrav og -utnyttelse. Det er også mulig for ressurslederne å dele opp informasjonen som er overvåket, etter forskjellige dimensjoner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

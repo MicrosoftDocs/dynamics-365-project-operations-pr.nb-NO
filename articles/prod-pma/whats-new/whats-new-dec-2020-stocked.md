@@ -142,3 +142,6 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 ## <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
 
 Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). En annen måte å lære om regelverksoppdateringer på, er å logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av problemsøkverktøyet. Problemsøk lar deg søke etter land, type funksjon og utgave.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

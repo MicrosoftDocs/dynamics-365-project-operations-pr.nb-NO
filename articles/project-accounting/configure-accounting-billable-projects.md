@@ -125,3 +125,6 @@ Fast pris – fullføringsprosent
 Regler for prosjektkostnads- og omsetningsprofiler avgjør prosjektkostnads- og omsetningsprofilen som må brukes ved behandling av eventuelle fakturerbare prosjekttransaksjoner. Definer reglene ved å gå til **Prosjektstyring og regnskap** \> **Oppsett** \> **Bokføring** \> **Regler for prosjektkostnads- og omsetningsprofiler**.
 
 Regler kan defineres av prosjektkontrakten, prosjektgruppen eller etter et bestemt prosjekt. Systemet vil alltid velge regelen med høyeste detaljnivå først.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

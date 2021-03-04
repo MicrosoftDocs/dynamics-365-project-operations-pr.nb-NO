@@ -61,3 +61,6 @@ Før du kan starte oppsettsprosessen, må følgende avgjørelser tas for hver ut
 
     - Er noen av underkategoriene utelukket fra avgiftsfradrag?
     - Hva er mva-gruppen for varesalg for underkategoriene?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

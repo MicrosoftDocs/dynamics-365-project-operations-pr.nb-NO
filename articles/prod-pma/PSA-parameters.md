@@ -47,3 +47,6 @@ Hvis du vil åpne siden **Integrasjonsparametere for Project Service Automation*
 | Faktureringstypestandarder  | Faktureringstype         | Klikk **Ny** for å legge til en rad der du kan velge faktureringstypen du vil angi standard linjeegenskap for. En bestemt faktureringstype kan bare velges én gang i konfigurasjonen. |
 |                        | Linjeegenskap        | Velg standard linjeegenskap for den valgte faktureringstypen. Når nye timeoverslag, nye utgiftsoverslag eller nye faktiske verdier synkroniseres fra Project Service Automation, settes **Linjeegenskap** -feltet til standardverdien for faktureringstypen. |
 | Låsing av funksjoner  | Ikke aktuelt       | Velg funksjonaliteten for å deaktivere i Finance for prosjekter og kontrakter som opprinnelig kommer fra Project Service Automation. Du kan for eksempel deaktivere muligheten til å redigere kontrakter og prosjekter, opprette arbeidsnedbrytningsstrukturer og legge inn timeregistreringer i Finance. Regnskapsrelaterte felt vil fortsatt være aktivert, selv om de gjøres utilgjengelige av parameterinnstillingen. Alle funksjonene er aktivert som standard. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

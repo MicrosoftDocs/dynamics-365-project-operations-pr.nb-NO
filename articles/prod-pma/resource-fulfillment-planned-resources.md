@@ -40,3 +40,6 @@ En prosjektleder kan planlegge nødvendige ressursroller for et prosjekt. Ressur
 7. Velg en arbeider, og velg deretter **Tilordne**.
 8. Kontroller at linjen for **Programvareutvikler 1** er fjernet for **XYZ-oppgraderingsprosjekt fase 2** -prosjektet.
 9. I kategorien **Prosjektteam og planlegging** for prosjektet **XYZ-oppgraderingsfase 2** kontrollerer du at arbeideren du valgte i forrige trinn, er lagt til som **Programvareutvikler**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

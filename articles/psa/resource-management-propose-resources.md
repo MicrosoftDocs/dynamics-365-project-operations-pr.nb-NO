@@ -113,3 +113,6 @@ Ettersom Dynamics 365 Project Service Automation bruker Universal Resource Sched
 Hvis du vil vise flere detaljer om en individuell ressurs, høyreklikker du den for å åpne ressurskortet.
 
 ![Ressurskort](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

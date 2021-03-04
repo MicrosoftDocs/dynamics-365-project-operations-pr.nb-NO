@@ -56,3 +56,6 @@ Et eksisterende tilbud kan kobles til en salgsmulighet. Fullfør fremgangsmåten
    Når du flytter en salgsmulighet til denne fasen, kan du velge dette tilbudet fra en liste over tilbud som er knyttet til denne salgsmuligheten. Hvis du velger dette tilbudet, angir du at det skal flyttes fremover.
 
    Alle de andre tilbudene som er knyttet til salgsmuligheten, vil fremdeles være tilgjengelig eog aktivee til ett av dem er vunnet. Du kan flytte salgsprosessen tilbake til den forrige fasen, **Kvalifiser**, og velge et nytt tilbud å flytte fremover med.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

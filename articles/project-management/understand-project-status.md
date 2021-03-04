@@ -29,3 +29,6 @@ Delen **Status** på siden **Prosjektenhet** inneholder et sammendrag over tilst
 - Med **Kommentarer**-feltet kan prosjektlederen angi spesifikke kommentarer om statusen. 
 - Feltet **Statusen oppdatert** kan ikke redigeres. Verdien i dette feltet er et tidsstempel som angir når statusen sist ble oppdatert.
 - Feltene **Tidsplanytelse** og **Kostnadsytelse** angis fra sporingsrutenettet. Når tidsplan- og kostnadsavviket for rotnoden i visningen **Innsatssporing** er positive, oppdateres disse feltene til **Foran**. Når tidsplan- og kostnadsavviket for rotnoden er negativt, angis disse feltene til **Bak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

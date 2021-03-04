@@ -40,3 +40,6 @@ Hvis du bestemmer deg for å kreve flere godkjennere av reiseregninger, kan du l
 
     1. Den ansattes overordnede godkjenner reiseregningen.
     2. Budsjetteieren godkjenner reiseregningen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

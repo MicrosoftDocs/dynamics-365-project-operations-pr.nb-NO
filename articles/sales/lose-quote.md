@@ -45,3 +45,6 @@ Når du velger **OK** på dialogsiden, oppretter systemet en kopi av prosjekttil
 > - Prosjektreferanse på prosjektbaserte tilbudslinjer – informasjon om kundebudsjett
 >
 >Ettersom denne informasjonen er svært spesifikk for hvert tilbud, kopieres ikke disse feltene og oppføringene. Tilbudslinjer for prosjekter og produkter, estimater på tilbudslinjedetaljer og verdier på tilbudsnivå som ikke må overskrides, kopieres. Standarder for pris og kostnadssats avhenger av alternativet **Kopier pris** som er valgt på dialogsiden **Kopier parametere**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

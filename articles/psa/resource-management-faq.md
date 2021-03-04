@@ -54,3 +54,6 @@ Når ressursene er bestilt, velger du **Vedlikehold bestillinger** for å gjøre
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Hva er forskjellen mellom en tilordning og en bestilling?
 
 Tildelinger er tilordningen av ressurser til prosjektoppgaver i prosjektplanen. Ressursene kan være enten reelle ressurser eller generelle ressurser. Bestillinger er forpliktende eller ikke-forpliktende tildeling av ressurser i et prosjekt. Forpliktende bestillinger bruker kapasiteten til en ressurs. Ideelt sett bør bestillinger og tildelinger for reelle ressurser være de samme, fordi de ikke er forskjellige. PSA håndhever imidlertid ikke denne avtalen. Avstemming-visningen viser en prosjektleder steder der bestillingene og tildelingene til en ressurs ikke er de samme.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

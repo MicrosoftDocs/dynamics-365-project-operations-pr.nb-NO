@@ -57,3 +57,6 @@ Hvis det ikke er noen rad i rutenettet Rollepriser for prisdimensjonene i det fa
 
 Hvis du fremdeles ikke ser en gyldig pris i det faktiske tidssalget når du har gjort de tre kontrollene ovenfor, logger du en støtteforespørsel. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

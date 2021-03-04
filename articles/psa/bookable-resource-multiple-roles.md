@@ -74,3 +74,6 @@ Når du utvider raden for denne teammedlemsoppføringen, kan du se forskjellige 
 Når du navigerer til rutenettet **Estimater**, vil du legge merke til at begge tilordningene for den samme ressursen har forskjellig pris.
 Tilordningen for ressursen i oppgave A er priset ved hjelp av **Rolle**-attributtverdien for **Sjefskonsulent**. Tilordningen for den samme ressursen i oppgave B er priset ved hjelp av **Rolle**-attributtverdien for **Nettverkstekniker**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

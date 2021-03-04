@@ -44,3 +44,6 @@ Hvis du vil ha mer informasjon, kan du se [Utgiftsregistrering (Lite)](basic-exp
 
 ## <a name="determine-your-expense-deployment"></a>Fastslå utgiftsdistribusjonen
 For å finne ut om du kjører standard distribusjon av utgiftshåndtering, må du kontrollere at URL-adressen for adressen slutter på **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

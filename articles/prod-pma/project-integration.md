@@ -127,3 +127,6 @@ Følg denne fremgangsmåten for å opprette en ny arbeidsnedbrytningsstruktur me
 8.  Velg **Kalenderen** som skal brukes for ressurser.
 
 11. Klikk **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

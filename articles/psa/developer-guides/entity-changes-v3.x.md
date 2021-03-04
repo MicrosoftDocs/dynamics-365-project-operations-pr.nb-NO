@@ -84,3 +84,6 @@ Følgende nettressurser er avskrevet:
 > Hvis du vil ha en fullstendig liste over avskrevne ressurser, se [Avskrevne nettressurser i Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

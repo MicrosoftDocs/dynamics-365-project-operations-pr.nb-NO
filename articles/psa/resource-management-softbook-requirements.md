@@ -63,3 +63,6 @@ Du kan bruke samme metode til å annullere en forpliktende bestilling eller en i
 Hvis du vil konvertere en ressurs som er ikke-forpliktende, til forpliktende, går du til kategorien **Team** for prosjektet og velger ressursen, og deretter velger du **Bekreft**.
 
 ![Bekreft-kommandoen](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

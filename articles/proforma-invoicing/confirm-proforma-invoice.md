@@ -198,3 +198,6 @@ En fakturert faktisk salgsverdi for milepælbeløpet på den opprinnelige milep�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

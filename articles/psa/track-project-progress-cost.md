@@ -40,3 +40,6 @@ Noen ganger må du endre de opprinnelige beregningene for en aktivitet. Oppgaven
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA 
   - Fikset: Feilmelding vises ikke lenger i **Prosjektoppslag** i skjemaet **Tilbudslinje** når det er mer enn 1000 prosjekter.
   - Fikset: **Estimater**-rutenett for arbeidsberegninger og utgiftsoverslag viser nå riktig valutasymbol.
   - Fikset: Når en organisasjon oppdaterer PSA fra Update Release 14 til Update Release 15, vises ikke lenger kategorien **Planlegg** som tom i skjemaet **Prosjekt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Følgende problemer har blitt løst:
 - Det genereres et nullreferanseunntak når plugin-modulen **GetEstimatesForProject** startes.
 - **Merk som klar for fakturering** i milepælrutenettet oppdaterer bare attributter delvis, med unntak av attributtet **InvoiceStatus**, som blir oppdatert.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

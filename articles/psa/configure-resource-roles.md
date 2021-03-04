@@ -59,3 +59,6 @@ Roller spiller er en viktig del av prosjektplanleggingen når ressurskrav og kos
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

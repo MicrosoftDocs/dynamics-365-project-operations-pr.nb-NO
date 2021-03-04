@@ -98,3 +98,6 @@ Følg veiledningen i emnet [Klargjør et nytt miljø](resource-provision-new-env
 
 Installer CDS-oppsett og konfigurasjonsdata slik det er beskrevet i emnet [Konfigurer og bruk konfigurasjonsdata i Common Data Service](resource-apply-pro-setup-config-data.md).
 Utfør dette trinnet bare etter at demomiljøet i Finance er distribuert, og når demodataene i FO er klare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

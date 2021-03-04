@@ -83,3 +83,6 @@ Dette emnet beskriver parameterne som kontrollerer den generelle virkemåten i u
 | Vis anti-korrupsjonsattest   | Velg dette alternativet for å vise anti-korrupsjonsteksten når det opprettes en reiseregning. Bestemte utgiftskategorier kan aktiveres som krever at anti-korrupsjonsattestering velges i reiseregningen. En gavekategori som er relatert til en utgift for en offisiell myndighetsperson, kan for eksempel kreve at den ansatte må bekrefte at utgiften overholder i firmaets retningslinjer som er relatert til offisielle myndighetspersoner. |
 | Anti-korrupsjonsmelding for innsender | Skriv inn teksten som skal vises for en ansatt som oppretter en reiseregning. Hvis du vil angi språkspesifikk tekst som skal vises, basert på brukerspråket, velger du **Oversettelser**. |
 | Anti-korrupsjonsmelding for godkjenner  | Skriv inn teksten som skal vises til godkjenneren når en reiseregning opprettes. Hvis du vil angi språkspesifikk tekst som skal vises, basert på brukerspråket, velger du **Oversettelser**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

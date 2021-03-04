@@ -61,3 +61,6 @@ Du kan opprette flere konserninterne fakturaer samtidig for alle juridiske enhet
 ## <a name="post-the-intercompany-vendor-invoice"></a>Postere den konserninterne leverandørfakturaen
 
 En prosjektrevisor i den juridiske enheten som låner kan gjennomgå ventende konserninterne leverandørfakturaer når den korresponderende konserninterne kundefakturaen er postert. I Finance, i den juridiske enheten som låner, går du til **Leverandørgjeld** > **Fakturaer** > **Ventende leverandørfaktura**. Det ventende fakturanummeret vil samsvare med det konserninterne kundefakturanummeret. Kontroller at fakturaen er riktig, og poster deretter fakturaen. Postering av konsernintern leverandørfaktura oppretter en underfinans- og en økonomimodultransaksjon for prosjektet som gjenspeiler transaksjonskostnadene i den juridiske enheten låner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

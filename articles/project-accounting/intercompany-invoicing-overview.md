@@ -43,3 +43,6 @@ Følgende diagram illustrerer konsernintern fakturering som det relaterer til re
 - [Konfigurere konsernintern fakturering](configure-intercompany-invoicing.md)
 - [Registrere konserninterne transaksjoner](create-intercompany-transactions.md)
 - [Opprette konserninterne kunde- og leverandørfakturaer](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Dette tar noen minutter å fullføre. Du skal få en bekreftelsesmelding om at a
 18. Lukk den eksterne skrivebordsøkten, og bruk LCS-siden **Miljødetaljer** til å logge deg på miljøet for å bekrefte at det fungerer som forventet.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

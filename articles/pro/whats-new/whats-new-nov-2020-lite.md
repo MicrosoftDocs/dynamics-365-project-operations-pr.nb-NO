@@ -37,3 +37,6 @@ Tabellen nedenfor viser oppdateringene for Project Operations på CDS-miljø ver
 | Hurtigregistrering av tid og utgifter | 2047499          | **Ny**-knappen på siden Tidsoppføring åpner siden **Ny e-postsignatur**.                                                                                               |
 | Hurtigregistrering av tid og utgifter | 2059859          | Uventet popup-vindu åpnes når du oppretter en utgiftsoppføring.                                                                                                                         |
 | Andre                        | 2044181          | [PO-avinstallasjon] – Feilen "Oppføringen er utilgjengelig" vises når du prøver å avinstallere **msdyn_ProjectServiceCore_Patch** og msdyn for Project Service-kjerneløsninger.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

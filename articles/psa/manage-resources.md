@@ -344,3 +344,6 @@ Hvis du har oppgavetildelinger for en ressurs, men ingen bestillinger, går du t
 ![Dialogboksen Utvid bestilling](media/Resource-Management-image58.png)
 
 Prosjektlederen eller ressurslederen kan deretter bruke planleggingstavlen til å behandle eventuelle situasjoner der en ressurs er overbestilt utover dens kapasitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

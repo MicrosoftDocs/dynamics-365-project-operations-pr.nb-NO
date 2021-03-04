@@ -53,3 +53,6 @@ Nå som du har lagt til ferdigheter for kundenes prosjekter, trenger du en måte
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

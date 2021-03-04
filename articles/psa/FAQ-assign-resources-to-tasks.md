@@ -82,3 +82,6 @@ Ressurser som er tilordnet på denne måten, blir lagt til i teamet uten bestill
 
 3. Velg ressursen som du vil tilordne til oppgaven.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

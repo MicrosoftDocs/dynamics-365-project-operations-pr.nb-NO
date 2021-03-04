@@ -167,3 +167,6 @@ Hvis firmaet fungerer som én enhet som har én kostprisliste, trenger du ikke �
 Når et prosjekt opprettes alene, er standard kontraktsenheten for prosjektet basert på brukeren som oppretter det. Denne brukeren er også standard prosjektleder. Hvis prosjektet er tilordnet en salgsenhet, for eksempel et tilbud eller en prosjektkontrakt, er kontraktsenheten i prosjektet basert på salgsenheten i stedet. I dette tilfellet kan det hende at prosjektestimater beregnes på nytt, fordi kostprislisten brukes til å beregne kostestimatendringer hvis kontraktsenheten endres. Salgsprislisten brukes til å beregne salgsestimatene som vil bli endret, slik at de er synkronisert med prosjektprislisten i tilbudet.
 
 Feltene **Kontraktsenhet** og **Valuta** i prosjektet er låst for redigering fordi de må være synkronisert med verdiene i salgsenheten (tilbud eller prosjektkontrakt) som prosjektet er tilordnet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Tabellen nedenfor viser feltene på oppføringen av en tilbudslinjekunde for en 
 Du kan redigere delingsprosenter for fakturering på linjen. Hvis delingsprosentandelen for fakturering ikke er totalt 100 %, oppstår det en feil. Når du har redigert delingsprosentene for fakturering, oppdaterer du tilbudslinjesiden for å fjerne feilen.
 
 Bruk handlingen for jevn fordeling i delrutenettet for tilbudslinjekunder til å fordele fakturingsandeler på alle tilbudslinjekunder. Hvis det finnes en avrundingsfaktor, blir denne lagt til for avrundingskunden. Én av tilbudslinjekundene er alltid merket som avrundingskunde, som betyr at oppføringen av tilbudslinjekunden har avrundingsflagget angitt til **Ja**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

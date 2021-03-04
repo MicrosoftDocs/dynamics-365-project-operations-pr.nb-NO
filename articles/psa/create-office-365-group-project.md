@@ -43,3 +43,6 @@ Gir deg et sted der gruppemedlemmer for et prosjekt kan samarbeide om prosjektdo
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

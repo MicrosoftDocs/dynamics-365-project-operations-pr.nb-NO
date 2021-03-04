@@ -55,3 +55,6 @@ Du kan tildele ressurser til organisasjonsenheter hvis du må ha forskjellig ett
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

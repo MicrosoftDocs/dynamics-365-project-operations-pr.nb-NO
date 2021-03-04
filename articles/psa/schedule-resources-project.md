@@ -83,3 +83,6 @@ Hvis du bruker en eldre versjon, kan du sjekke ressurstilgjengelighet under [Vis
   
 ### <a name="additional-resources"></a>Ytterligere ressurser  
  [Veiledning for ressursansvarlig](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

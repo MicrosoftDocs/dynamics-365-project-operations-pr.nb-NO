@@ -41,3 +41,6 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | **Administrasjon av salgsmulighet** | 2040713 | Løste skriptfeilen som oppstår når du oppretter en faktura fra en kontrakt, og Field Service er installert. |
 | **Prosjektplanlegging og sporing** | 2090202 | Merket forretningsregler som ikke lenger brukes, som **Avskrevet**. |
 | **Tid og utgift** | 2091249 | Innsnevret kontroller slik at brukere ikke kan endre oppgaven på en innsendt eller godkjent tidsoppføring. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

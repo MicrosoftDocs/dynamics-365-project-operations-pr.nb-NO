@@ -60,3 +60,6 @@ Du kan analysere tilbud og generere diagrammer for kundeforventninger om tidspla
 Analyse av kundeforventninger om tidsplanen utføres ved å sammenligne den siste sluttdatoen for tilbudslinjedetaljene med den ønskede leveringsdatoen i alle tilbudslinjene i tilbudet.
 
 Analyse av kundeforventninger til budsjettet gjøres ved å sammenligne summen av det totale kundebudsjettet med det tilbudte beløpet på tvers av alle tilbudslinjer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

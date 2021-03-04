@@ -45,3 +45,6 @@ PDF-koblingen som tidligere var i dette emnet, er fjernet, og innholdet er flytt
 
 > [!NOTE]
 > Dette emnet blir fjernet i en fremtidig oppdatering av dokumentasjonen. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

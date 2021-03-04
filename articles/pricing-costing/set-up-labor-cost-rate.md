@@ -84,3 +84,6 @@ I kostprislisten for Fabrikam UK - robot kan kostnadssatser uttrykkes som følge
 | Developer | Fabrikam UK | 115 GBP |
 
 Kostprislisten kan levere arbeidssatser i flere valutaer. Ved generering av et kostnadsestimat på prosjektet, konverterer Project Operations disse kostnadskostnadene til prosjektvalutaen, og den vises for brukeren. Når en tidsoppføring godkjennes og det blir opprettet en faktisk kostnad, er den faktiske kostnaden priset i valutaen for den tilsvarende rolleprislinjen i kostprislisten. Faktiske kostnader for tid i ett enkelt prosjekt kan registreres i flere valutaer. Ved beregning eller oppsummering av faktiske arbeidskostnader på prosjektnivå vil imidlertid Project Operations konvertere alle kostnadsbeløp for arbeid til prosjektvalutaen, som brukeren kan vise.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

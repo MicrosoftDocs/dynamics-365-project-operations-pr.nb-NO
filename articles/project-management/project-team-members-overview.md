@@ -60,3 +60,6 @@ Følgende handlinger kan utføres fra rutenettet for teammedlemmer:
 
 - **Ny**: I tillegg til å legge til ressurser direkte fra tidsplanen kan prosjektledere legge til nye eller generelle teammedlemmer fra rutenettet for teammedlemmer.
 - **Slett**: Ved å velge ett eller mange teammedlemmer kan prosjektlederen slette ressurser som ikke lenger skal være med i prosjektet. Ved sletting av et teammedlem slettes også alle tilknyttede ressurstildelinger, og alle eksisterende bestillinger blir annullert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Mine timeregistreringer (optimalisert for mobil) og Timeregistreringer for min g
 - [Tidsoppføring for prosjekt]( project-time-entry-mobile-workspace.md)
 - [Timeregistreringer for prosjekter på en mobil enhet](Mobile-timesheets.md)
 - [Implementere egendefinerte felt for Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

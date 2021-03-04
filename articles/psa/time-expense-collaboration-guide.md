@@ -73,3 +73,6 @@ Klikk på en kobling nedenfor for å lære mer om hva du kan gjøre med [!INCLUD
  [Veiledning for kontoadministrator](../psa/account-manager-guide.md)   
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)   
  [Håndbok for ressursansvarlig](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

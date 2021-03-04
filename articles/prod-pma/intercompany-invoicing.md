@@ -113,3 +113,6 @@ Når den juridiske utlånsenheten, USSI, legger inn den konserninterne kundefakt
 Hvis du vil ha mer informasjon, kan du se [Konfigurere konsernintern prosjektfakturering](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

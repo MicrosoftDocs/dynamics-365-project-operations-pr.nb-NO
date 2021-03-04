@@ -57,3 +57,6 @@ Kostprislister er ikke standard for noen som helst enhet i Project Operations. D
 5. Deretter ser systemet på datogyldigheten for prislistene som samsvarer med datoen for det innkommende estimatet eller den faktiske linjen. 
 6. Hvis det finnes flere prislister som gjelder for datoen i det innkommende estimatet eller de faktiske verdien, velges den sist opprettede prislisten.
 7. Hvis det ikke er knyttet noen kostprislister til prosjektparameterne som samsvarer med valutaen og den gyldige datoen, settes kostnadssatsen til null (0) på det innkommende estimatet eller den faktiske linjen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

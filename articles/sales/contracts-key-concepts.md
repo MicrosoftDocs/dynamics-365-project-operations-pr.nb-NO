@@ -88,3 +88,6 @@ Fakturaplaner er spesifikke for hver kontraktlinje, og de kreves for at automati
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Endringer fra Dynamics 365 Sales-tilbud
 
 Kontrakter i Project Operations blir utformet basert på tilbud i Dynamics 365 Sales. Det er imidlertid noen viktige avvik og forskjeller i funksjonaliteten. Kontrakter har sitt eget format og sine egne UI-elementer, forretningsregler, plugin-moduler for forretningslogikk og skript på klientsiden som gjør dem unike fra tilbud. Av disse grunnene må du ikke bruke en salgsordre og en Project Operations-kontrakt om hverandre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

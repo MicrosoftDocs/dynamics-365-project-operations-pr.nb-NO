@@ -89,3 +89,6 @@ Parameterne styrer den generelle funksjonaliteten i utgiftshåndtering.
 | <strong>Anti-korrupsjonsmelding for innsender</strong> |                                                                                             Skriv inn teksten som skal vises for den ansatte, når det opprettes en ny reiseregning. Klikk på <strong>Oversettelser</strong>-knappen for å angi språkspesifikk tekst som skal vises, basert på brukerspråket.                                                                                             |
 | <strong>Anti-korrupsjonsmelding for godkjenner</strong>  |                                                                                             Skriv inn teksten som skal vises for godkjenneren, når det opprettes en ny reiseregning. Klikk på <strong>Oversettelser</strong>-knappen for å angi språkspesifikk tekst som skal vises, basert på brukerspråket.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

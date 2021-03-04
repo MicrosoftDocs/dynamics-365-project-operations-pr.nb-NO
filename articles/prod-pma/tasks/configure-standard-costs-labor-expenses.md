@@ -54,3 +54,6 @@ Dette emnet forklarer hvordan du definerer standardkostnader for arbeid og utgif
 22. Angi et tall i **Priser** -feltet. Den faktiske salgsprisen, som brukes når en arbeider angir transaksjoner i en utgiftsjournalen, er salgsprisen med høyest detaljnivå. Hvis det for eksempel er angitt både en generell og en arbeidsspesifikk salgspris, brukes den arbeidsspesifikke salgsprisen.  
 23. Velg **Lagre**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

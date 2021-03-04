@@ -68,3 +68,6 @@ Milepæler med fastpris kan også genereres manuelt når de ikke deles regelmess
 | Fakturastatus | Hurtigoppretting | Når en milepæl opprettes, er denne statusen alltid satt til **Ikke klar for fakturering**. | Dette overføres til milepælen for prosjektkontraktlinjen og til fakturaen. |
 | Linjebeløp | Hurtigoppretting | Beløpet eller verdien for milepælen som skal faktureres til kunden. | Dette overføres til milepælen for prosjektkontraktlinjen og til fakturaen. |
 | Avgift | Hurtigoppretting | Avgiftsbeløpet som skal brukes på milepælen. | Dette overføres til milepælen for prosjektkontraktlinjen og til fakturaen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

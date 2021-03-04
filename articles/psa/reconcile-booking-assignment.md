@@ -101,3 +101,6 @@ Når funksjonen for Utvid bestilling er utført på hver ressurs, blir bestillin
 
 En nærmere titt på detaljene i bestillinger viser imidlertid forskjellene i starttidspunktet for bestillinger. Bestillinger starter ikke tidligere enn starttidspunktet for tildelingsomfanget og ikke tidligere enn det tilgjengelige starttidspunktet for ressursen.
  ![Nye bestillinger for ressursene på planleggingstavlen](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

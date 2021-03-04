@@ -440,3 +440,6 @@ Når utdraget er beregnet, kan du vise følgende informasjon i de forskjellige k
 -   **Forbruk** – Informasjon om forbruket av timer, varer, utgifter og lønnstransaksjoner.
 -   **Faktura** – Informasjon om fakturaer og a konto-fakturering.
 -   **Timepris** – Timeprisen for timer som blir postert til inntekts- og kostnadskontoer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

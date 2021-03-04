@@ -56,3 +56,6 @@ Når du logger deg på Dynamics 365-apper, må du ha følgende informasjon fra a
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

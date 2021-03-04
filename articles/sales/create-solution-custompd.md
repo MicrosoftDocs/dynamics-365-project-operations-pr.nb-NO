@@ -64,3 +64,6 @@ Legg til følgende Project Service-enheter i prisløsningen for å gjøre viktig
 5.  Når du blir bedt om å inkludere avhengige enheter for de valgte enhetene, velger du **Nei, ikke ta med nødvendige komponenter.**
 
     ![Inkludere avhengige enheter](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

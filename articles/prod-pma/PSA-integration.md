@@ -75,3 +75,6 @@ Hvis du vil bruke Project Service Automation til Finance-integreringsløsningen,
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Installer Project Service Automation til Finance-integreringsløsningen i Project Service Automation-forekomsten
 
 Last ned Project Service Automation til Finance-integreringsløsningen fra [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=57016), og følg instruksjonene som er inkludert i løsningen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

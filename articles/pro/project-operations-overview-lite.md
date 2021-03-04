@@ -37,3 +37,6 @@ Bruk denne distribusjonstypen hvis dine forventninger fra Project Operations er 
 - Et integrert system som håndterer interne og fakturerbare prosjekter for tidsplaner og økonomi, fra prosjektsalg til fakturering.
 - Et tredjeparts bedriftsressursplanleggingssystem (ERP/finansregnskapssystem) for å integrere med Project Operations.
 - Et tredjepartssystem til å arbeide med merverdiavgift, valutakurser, utgiftsrefusjoner og ikke-prosjektutgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

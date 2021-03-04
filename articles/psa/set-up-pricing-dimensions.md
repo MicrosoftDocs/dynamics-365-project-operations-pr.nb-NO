@@ -94,3 +94,6 @@ Ved å angi dimensjonsprioriteten kan Project Service-prisingen produsere en pri
 
 - **Kostnadsprioritet**: Verdien for dimensjonens kostnadsprioritet angir vekten på denne dimensjonen når den samsvares med oppsettet for kostpriser. Verdien for **Kostnadsprioritet** må være unik på tvers av dimensjoner som **Gjelder kostnad**.
 - **Salgsprioritet**: Verdien for dimensjonens salgsprioritet angir vekten på denne dimensjonen når den samsvares med oppsettet for salgspriser eller fakturasatser. Verdien for **Salgsprioritet** må være unik på tvers av dimensjoner som **Gjelder salg**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

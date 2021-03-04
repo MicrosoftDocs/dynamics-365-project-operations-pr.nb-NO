@@ -49,3 +49,6 @@ Instrumentbord og rapporter gir deg en forståelse av hvor bedriften står. Inst
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

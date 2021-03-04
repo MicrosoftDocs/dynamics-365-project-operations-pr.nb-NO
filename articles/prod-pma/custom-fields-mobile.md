@@ -429,3 +429,6 @@ Angivelse av en standard prosjektkategori på timeregistreringsoppføringer på 
 1. Appen prøver å angi standardkategorien fra prosjektressursen. Denne standardkategorien angis i metodene **getCurrentUserResource** og **getDelegatedResourcesForCurrentUser** i klassen **TSTimesheetSettingsService**.
 2. Hvis standardkategorien ikke er angitt på ressursnivået for prosjektet, prøver appen å hente den fra prosjektaktiviteten. Denne standardkategorien angis i metoden **getActivitiesForProject** i klassen **TSTimesheetProjectService**.
 3. Hvis standardkategorien ikke er angitt på aktivitetsnivået for prosjektet, hentes standardkategorien fra prosjektparameterne. Denne standardkategorien angis i metoden **getProjectDetailsbyRule** i klassen **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

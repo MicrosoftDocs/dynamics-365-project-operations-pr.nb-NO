@@ -68,3 +68,6 @@ Fremgangsmåten nedenfor forklarer hvordan du registrerer plugin-modulene.
 
 9. Lukk registreringsverktøyet for plugin-modul.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

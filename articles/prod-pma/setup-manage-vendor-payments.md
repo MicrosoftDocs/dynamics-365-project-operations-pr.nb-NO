@@ -80,3 +80,6 @@ Når en leverandør fullfører arbeidet på et prosjekt, og sender deg en faktur
 2. I søkefeltet på siden **Leverandørfakturaer med Betal når betalt** angir du verdier for å finne leverandørfakturaen du vil se gjennom, og deretter velger du **Søk**.
 3. Velg linjene du vil endre, på hurtigfanen **Leverandørfakturalinjer**.
 4. Hvis betingelsene for **Betal når betalt** er oppfylt for fakturalinjen, velger du **Frigi leverandørbetaling**. Merket for **Betal når betalt** fjernes, og verdien i feltet **Klar for betaling** endres til **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

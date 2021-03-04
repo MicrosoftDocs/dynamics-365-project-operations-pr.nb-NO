@@ -20,3 +20,6 @@ ms.locfileid: "4514565"
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 Du kan bruke funksjonaliteten gitt i Dynamics 365 Field Service for å definere rollene i Dynamics 365 Project Operations-miljøet. For å fullføre denne konfigurasjonen kan du se [Konfigurere kategorier for ressurser som kan reserveres](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

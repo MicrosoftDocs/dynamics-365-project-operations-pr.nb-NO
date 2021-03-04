@@ -26,3 +26,6 @@ I motsetning til bestillinger er tilordninger ressursforpliktelser til prosjekto
 Vanligvis vil summen av bestillinger for en ressurs tilsvare summen av ressursens tilordninger på tvers av én eller flere oppgaver. Project Operations håndhever imidlertid ikke denne avtalen. **Avstemming**-visningen viser en prosjektleder steder der bestillingene og tildelingene til en ressurs ikke er de samme.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

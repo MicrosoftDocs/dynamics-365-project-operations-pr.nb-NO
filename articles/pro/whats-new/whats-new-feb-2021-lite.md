@@ -38,3 +38,6 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | **Prosjektplanlegging og sporing** | 2164035 | Løste problemer med funksjonen **Kopier prosjekt**. |
 | **Tidsoppføring** | 2129161 | Begrensninger for inntasting brukes for å sikre at brukere ikke kan endre og oppdatere en tidsoppføring som er sendt eller godkjent. |
 | **Tidsoppføring** | 2103572 | Tidsgodkjenning for ikke-prosjekttidsoppføringer kan ikke se etter prosjektgodkjennelsesrolle. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

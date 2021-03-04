@@ -45,3 +45,6 @@ Når du har opprettet en mal for arbeidstid, må du tilordne den til ressurser s
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

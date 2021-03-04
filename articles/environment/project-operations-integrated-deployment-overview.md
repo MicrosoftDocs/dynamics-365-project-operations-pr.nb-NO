@@ -43,3 +43,6 @@ Denne distribusjonen bør velges når forventningene til Project Operations er p
 - Krever en rik mva- og valutakursmotor i bedriftsklassen for å generere kunderettede fakturaer for prosjekter.
 - Et IFRS-kompatibelt system (International Financial Reporting Standards) for prosjektregnskap og inntektsføring.
 - Finance- eller Supply Chain Management-programmer og integrasjon av prosjektrelaterte transaksjoner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

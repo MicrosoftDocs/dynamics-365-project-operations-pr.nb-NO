@@ -91,3 +91,6 @@ Fullfør fremgangsmåten nedenfor for å bestille fra et nytt ressurskrav.
 
 4. Nå som ressursen er bestilt, må du tilordne oppgaver manuelt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

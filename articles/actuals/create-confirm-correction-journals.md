@@ -89,3 +89,6 @@ Fullfør fremgangsmåten nedenfor for å korrigere én eller flere utgiftsoppfø
 8. På prosjektsiden, i kategorien **Faktiske verdier**, går du gjennom **Tilknyttet visning for faktiske data**. De opprinnelige oppføringene og de korrigerte oppføringene vises. Følgende grafikk viser opprinnelige utgiftsoppføringsbeløp og tilhørende korrigerte utgiftsoppføringsbeløp. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

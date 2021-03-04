@@ -73,3 +73,6 @@ Du kan opprette data for en enhetsbasert dimensjon manuelt eller ved å bruke im
 > ![Eksempeldata for enheten Standardtittel ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ I både rutenettvisningen og den tidsinndelte visningen kan du velge hvilke felt
 ## <a name="expense-estimates"></a>Utgiftsestimater
 
 Med knappen **Legg til nytt utgiftsestimat** i rutenettvisningen kan du registrere eventuelle utgifter som er påløpt i prosjektet, men som ikke er direkte relatert til arbeid. Du kan registrere utgiftsestimatene for en bestemt oppgave eller for hele prosjektet. Velg utgiftskategorier og den foreløpige datoen da utgiften forventes å påløpe. Hvis den tilknyttede kostprislisten og salgsprislisten har standardpriser (eller hvis påslagsprosenter er definert for utgiftskategorier), angis de automatisk på estimatlinjen ved når tilknytningen skjer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

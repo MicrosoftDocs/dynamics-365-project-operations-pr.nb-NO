@@ -64,3 +64,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA 
 
     -   Løst: Når brukere oppgraderer fra 2.X til 3.X, blir prosjekter med NULL-verdi for prosjektnavn tillatt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

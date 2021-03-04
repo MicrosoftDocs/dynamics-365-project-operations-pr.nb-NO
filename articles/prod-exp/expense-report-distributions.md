@@ -37,3 +37,6 @@ Ettersom Gjertrud fungerte på to separate prosjekter mens hun var i Frankfurt, 
 |Hotell         |EUR 725              |EUR 557                        |EUR 168                          |
 |Måltider         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

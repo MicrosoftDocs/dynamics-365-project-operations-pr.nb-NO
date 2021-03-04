@@ -52,3 +52,6 @@ Fullfør fremgangsmåten nedenfor for å oppdatere og registrere programtillegge
 7. Velg **OK** for å lukke siden, og velg deretter **Oppdater trinn**.
 8. Gjenta trinn 2 til 7 for det andre programtillegget, **PreOperationQuoteLineDetail**. For dette programtillegget må du oppdatere, **Oppdatering av msdyn_quotelinetransaction**-trinnet.
 9. Lukk **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

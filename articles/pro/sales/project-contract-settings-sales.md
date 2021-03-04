@@ -57,3 +57,6 @@ Følgende KPI-er er tilgjengelige i kategorien **Kontraktytelse** for en prosjek
 | Påløpt kostnad | Produktbaserte linjer | Summen av alle faktiske kostnader som er logget for den produktbaserte kontraktlinjen. |
 | Bruttofortjeneste | Prosjektbaserte linjer | Fakturert beløp – kostnad påløpt til dato / fakturert beløp |
 | Forventet margin | Produktbaserte linjer | (Kontraktlinjeverdi – estimerte kostnader for kontraktlinjen) / kontraktlinjeverdi |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

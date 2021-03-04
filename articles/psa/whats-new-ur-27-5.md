@@ -42,3 +42,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Proj
 Følgende problemer har blitt løst:
 
 - Planlegge ytelsesreduksjon for assistansesøk
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

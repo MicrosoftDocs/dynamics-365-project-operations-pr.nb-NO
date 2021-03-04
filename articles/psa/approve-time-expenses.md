@@ -47,3 +47,6 @@ Når konsulenter angir tid og utgifter for et prosjekt, må du godkjenne dem sli
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Når du utvider raden for teammedlemsoppføringen, kan du se spesifikke tildelin
 ### <a name="estimates-grid"></a>Rutenett for estimater 
 
 På **Estimater**-rutenettet er begge tilordningene for den samme ressursen priset forskjellig. Tilordningen for ressursen i **Oppgave A** er priset ved hjelp av **Rolle**-attributtverdien for **Sjefskonsulent**. Tilordningen for den samme ressursen i **Oppgave B** er priset ved hjelp av **Rolle**-attributtverdien for **Nettverkstekniker**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

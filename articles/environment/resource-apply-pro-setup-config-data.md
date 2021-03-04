@@ -134,3 +134,6 @@ Før du begynner å konfigurere data i Common Data Service (CDS), må følgende 
 13. Velg **Lagre**. 
 
 ![Oppdaterte prosjektparametere](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

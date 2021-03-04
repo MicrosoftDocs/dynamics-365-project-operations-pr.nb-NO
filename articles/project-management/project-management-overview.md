@@ -26,3 +26,6 @@ Verktøyene for prosjektstyring i Dynamics 365 Project Operations hjelper deg me
 - Bruke prosjektestimater under salgsprosessen.
 - Forutsi ressurskrav for prosjekter som er i forløpet.
 - Levere prosjekter ved å spore fremdrift og kostnadsforbruk.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

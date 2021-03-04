@@ -62,3 +62,6 @@ Følgende problemer har blitt løst:
 - **Kostpris for organisasjonsenhet**-lister tillater overlapping i ikrafttredelsesdato.
 - Brukere har ikke tillatelse til å endre **Organisasjonsenhet** når ordretypen ikke er arbeidsbasert fordi den vil føre til en unntaksfeil med nullreferanse.
 - Når du prøver å navigere fra skjemaet **Tilbudslinjedetaljer** tilbake til **Tilbud**-fanen, oppdateres skjemaet og viser **Sammendrag**-fanen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

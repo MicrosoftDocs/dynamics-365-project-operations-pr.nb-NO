@@ -63,3 +63,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Proj
 **Sales**
 
 - Løst: Når tidsoppføringer godkjennes på nytt (**Godkjenn > Avbryt >** godkjenn på nytt), blir det opprettet en duplikat faktisk ikke-belastbar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

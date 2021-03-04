@@ -36,3 +36,6 @@ Det er to måter en prosjektleder kan reprojisere innsats på aktiviteter:
 - Overstyr standard fremdriftsprosent med ny beregning av den virkelige fremdriften for aktiviteten.
 
 Hver av disse metodene forårsaker en ny beregning av aktivitetens ETC, EAC og fremdriftsprosent samt beregnet innsatsavvik for en aktivitet. EAC, ETC- og fremdriftsprosenten på aktivitetssammendragene beregnes på nytt, og det lages en ny projisering av innsatsavvik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

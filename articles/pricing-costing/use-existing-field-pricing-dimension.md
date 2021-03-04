@@ -31,3 +31,6 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 **Faktiske verdier**-enheten har mange felt som kan brukes som prisdimensjoner for ressursbasert prissetting. Ett felles felt er for eksempel **Ressurs som kan bestilles**. Mindre selskaper som har færre enn 20–30 fakturerbare ressurser, kan oppdage at det å ha spesifikke fakturerings- og kostnadssatser for hver ressurs, er en enklere måte. Men etter hvert som den fakturerbare arbeidsstyrken vokser, kan imidlertid ressursspesifikke priser bli urealistisk å vedlikeholde. Ressurskostnader og fakturasatser begynner å variere etter hvert som ressursene blir forfremmet, får mer erfaring eller oppnår et ulikt sett med ferdigheter. 
 
 Et annet eksempel er en transaksjonskategori. Kunder og implementerere har brukt transaksjonskategorien til å klassifisere arbeid og bruke feltet til pris og kostnad basert på arbeidskategorien.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

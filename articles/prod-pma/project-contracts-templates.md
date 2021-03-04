@@ -153,3 +153,6 @@ Illustrasjonene nedenfor viser eksempler på maloppgavetilordningene i datainteg
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Milepæltilordning for prosjektkontraktlinje i Prosjekter og kontrakter (PSA 3.x til Dynamics) – v2-malen:
 
 [![Tilordning av milepæl for prosjektkontraktlinjer med malen av versjon to](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

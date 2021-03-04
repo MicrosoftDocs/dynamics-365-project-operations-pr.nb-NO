@@ -38,3 +38,6 @@ Ikke-fakturerte faktiske salgsverdier med **Må ikke overskride**-statusen **Mis
 Når det gjelder kontraktlinjer for flere kunder som har en faktureringsmetode for tid og materialer, når tid og utgifter er godkjent, opprettes det en ikke-fakturert faktisk salgsverdi for hver kunde på kontraktlinjen i henhold til del faktureringsprosentdelingen som er definert for hver kunde på kontraktlinjen. I visningen **Faktureringsrestanse for Tid og materiale** kan du se disse individuelle, kundespesifikke, ikke-fakturerte faktiske salgsverdiene. Hver av disse oppføringene av ikke-fakturerte faktiske salgsverdier kan merkes som **Klar for fakturering** atskilt fra denne visningen.
 
 En ikke-fakturert faktisk salgsverdi på et fakturautkast vises i denne visningen med en **Faktureringsstatus** som er **Kundefaktura opprettet**. Når fakturautkastet er bekreftet, oppdateres fakturastatusen for denne oppføringen til **Kundefaktura postert**. Det anbefales ikke å oppdatere denne statusverdien ved hjelp av egendefinert kode, når den er i denne tilstanden. Project Operations fungerer ikke riktig når disse statusverdiene oppdateres med egendefinert kode.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ For oppgaver som er tilordnet til en rolle med en organisasjonsenhet som er fors
  
 Endring av standarden for de ulike ressursorganisasjonsenhetene på ikke-genererte teammedlemmer er årsaken til at vi anbefaler at du genererer eller genererer teamet på nytt for hvert prosjekt som inneholder generelle ressurser, før oppgraderingen, slik at organisasjonsenhetstilordningene ikke går tapt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

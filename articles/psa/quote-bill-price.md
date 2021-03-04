@@ -44,3 +44,6 @@ Følgende emner gir mer informasjon om funksjonene for tilbudsgivning, prising o
 - [Enhetsgrupper og enheter](advanced-units.md)
 - [Valuta for flere enheter](advanced-currency.md)
 - [Registrere faktiske verdier](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

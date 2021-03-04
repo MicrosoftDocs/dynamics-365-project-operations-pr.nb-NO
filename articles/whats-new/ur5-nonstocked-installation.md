@@ -125,3 +125,6 @@ Følgende oppdateringer av sikkerhetsrettighetene for enheter nedenfor kreves so
  
  ![Synkronisering av finanstilordning](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

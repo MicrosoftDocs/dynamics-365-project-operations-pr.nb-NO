@@ -68,3 +68,6 @@ Alle organisasjoner må konfigurere disse rollene på siden **Aktive ressurskate
 ## <a name="price-lists"></a>Prislister
 
 Med prislister kan du angi kostpriser og salgspriser for ressursroller, utgiftskategorier, produkter og andre elementer i en organisasjon. Før du angir økonomiske estimater for arbeid som må leveres for et prosjekt, bør du opprette en støttekostnads- og salgsprisliste. I Parametere-delen bør du også konfigurere en standard kostnads- og salgsprisliste som gjelder for alle prosjekter som opprettes i organisasjonen. På siden **Aktive prosjektparametere** sørger du for at du angir en standard kostnads- og salgsprisliste.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

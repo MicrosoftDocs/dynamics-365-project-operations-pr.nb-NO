@@ -43,3 +43,6 @@ Med [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] kan du samarbeid
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

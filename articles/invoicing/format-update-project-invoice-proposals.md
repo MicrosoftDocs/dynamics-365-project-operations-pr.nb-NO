@@ -143,3 +143,6 @@ Hvis du vil vise fakturaen før du publiserer, fjerner du merket for **Publiseri
 I tillegg til siden **Fakturaforslag** kan fakturaforslag også publiseres ved å kjøre den periodiske jobben, **Publisere fakturaforslag**. Du finner denne jobben ved å gå til **Prosjektbehandling og regnskap** > **Periodisk** > **Prosjektfakturaer** > **Publiser fakturaforslag**.
 
 Denne siden viser alle fakturaforslagene som er klare til publisering. Du kan planlegge publisering av fakturaforslag ved å velge **Batch**. Sett **Parameter for satsvis behandling** til **Ja**, og angi regelmessigheten for satsvis behandling ved å velge **Regelmessighet**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

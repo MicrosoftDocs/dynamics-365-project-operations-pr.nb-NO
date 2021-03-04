@@ -96,3 +96,6 @@ Klikk **Send** for å sende timeregistreringen til godkjenningsarbeidsflyten.
 ## <a name="review-timesheets"></a>Gå gjennom timeregistreringer
 
 En liste over timeregistreringene som må gjennomgås, er tilgjengelig på menyen. Dette alternativet er bare tilgjengelig hvis du er angitt som en arbeidsflytgodkjenner. Både overskrifts- og linjegodkjenning støttes. Godkjenning på linjenivå gir mulighet til å merke én eller flere linjer for godkjenning. Når du har gått gjennom timeregistreringsinformasjonen, klikker du **Godkjenn** , **Deleger** eller **Retur** for å fortsette arbeidsflyten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

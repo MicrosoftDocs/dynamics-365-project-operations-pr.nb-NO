@@ -48,3 +48,6 @@ Hvis du har oppgavetildelinger for en ressurs, men ingen bestillinger, velger du
 Bestillinger som opprettes via handlingen **Utvid bestilling**, er knyttet til det primære prosjektkravet. Når en utvidelse startes, kan ikke det spesifikke kravet som må utvides, fastsettes, fordi ressursen kan være knyttet til mer enn ett krav for prosjektet.
 
 Prosjektlederen eller ressurslederen kan deretter bruke planleggingstavlen til å behandle eventuelle situasjoner der en ressurs er overbestilt utover dens kapasitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

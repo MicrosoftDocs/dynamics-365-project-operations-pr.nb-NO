@@ -43,3 +43,6 @@ Du kan kontrollere ressursutnyttelse for å bestemme utnyttelsesnivåer for ress
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for ressursansvarlig](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Oppgavemodusen har ingen innvirkning på oppdateringer som utføres på start- o
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tilgjengelighet og hurtigtaster
 
 Rutenettet **Tidsplan** er fullt tilgjengelig og kan brukes med skjermlesere, for eksempel Narrator, JAWS eller NVDA. Du kan bla gjennom rutenettområdet ved hjelp av piltastene (som i Microsoft Excel), du kan bruke TAB-tasten til å gå gjennom de interaktive brukergrensesnittelementene, og du kan bruke pil ned-tasten, ENTER-tasten eller mellomromstasten til å velge og åpne rullegardinmenyene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

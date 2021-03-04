@@ -47,3 +47,6 @@ Angi målutnyttelsesgrad for hver rolle. Disse innstillingene bestemmer ressurst
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

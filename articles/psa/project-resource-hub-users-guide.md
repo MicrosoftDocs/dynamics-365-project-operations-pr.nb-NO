@@ -105,3 +105,6 @@ Angi utgiftene minst ukentlig, eller så ofte forespurt av ledere, for å sikre 
  [Oversikt over Project Service](../psa/overview.md)   
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Bruk plugin-modulvalideringer for valideringer som krever mer kontekst enn det s
 
 ### <a name="copying-time-entries"></a>Kopiere tidsoppføringer
 Bruk visningen **Kopier tidsoppføringskolonner** for å definere listen over felter som skal kopieres under tidsoppføring. **Dato** og **Varighet** er obligatoriske felter som ikke bør fjernes fra visningen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for V3, 
 - Løst: 24-timers arbeidstidsmaler som unøyaktig la til en ekstra dag i aktiviteter.
 - Løst: +13 GMT arbeidstidsmaler som unøyaktig forskjøv oppgavene én dag fremover.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

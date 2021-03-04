@@ -55,3 +55,6 @@ Når denne prismodellen er valgt på kategoriprislinjen som er koblet til en sal
 
 ### <a name="markup-over-cost"></a>Påslag over kostnad
 Når denne prismodellen er valgt på kategoriprislinjen som er koblet til en salgsprisliste, blir prisen som standard angitt for kategori- og enhetskombinasjonen bare for en faktisk utgift. Det kan for eksempel være ikke-fakturerte salgsverdier for utgiftstransaksjonsklassen. Denne enhetsprisen er satt til den ikke-fakturerte salgsverdien til en beregnet verdi fra enhetsprisen på den faktiske kostnaden for den aktuelle utgiften etter at den definerte påslagsprosenten er brukt. Prisstandarden basert på kostnad utføres ikke i prosjektestimater for utgifter eller tilbudslinje- og kontraktlinjedetaljer for utgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

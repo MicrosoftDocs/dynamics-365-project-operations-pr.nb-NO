@@ -31,3 +31,6 @@ En kostgodtgjørelse er en godtgjørelse som betales til en arbeider som er på 
     
 ## <a name="submit-expenses-using-per-diem"></a>Sende utgifter med kostgodtgjørelse
 Hvis du vil sende utgifter ved hjelp av kostgodtgjørelse, bruker du utgiftskategorien **Kostgodtgjørelse** når du oppretter en reiseregning. Angi **Kostgodtgjørelse fra dato**, **Kostgodtgjørelse til dato** og **Sted for kostgodtgjørelse**. Beløpet beregnes basert på kostgodtgjørelsessatsene for den valgte lokasjonen, og måltidsreduksjonen beregnes basert på kostgodtgjørelsesnivåene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

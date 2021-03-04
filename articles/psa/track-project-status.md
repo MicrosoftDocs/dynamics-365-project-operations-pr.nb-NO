@@ -58,3 +58,6 @@ Senere i engasjementet oppdateres prosjektfasene for å gjenspeile fasen i engas
 
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

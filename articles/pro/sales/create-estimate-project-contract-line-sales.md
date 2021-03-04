@@ -68,3 +68,6 @@ Beregning av fortjeneste konverterer beløpene for kontraktlinjedetaljer for **K
 
 > [!NOTE]
 > Det kan oppstå valutaavrundingsfeil og endrede marginer på grunn av manglende datoeffektivitet for vekslingskurs. Bruk bare disse beregningene på prosjektkontrakter som har estimater, og ikke for faktisk lovpålagt eller annen rapportering som krever høyere nøyaktighet for avrunding og bevissthet om datoeffektivitet for valutakurser.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

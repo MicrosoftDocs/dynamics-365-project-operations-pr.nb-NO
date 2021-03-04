@@ -45,3 +45,6 @@ Hvis du vil avvise tilbudet, klikker du på **Avvis ressurs**.
 ![Godta et ressursforslag](media/RM-how-to-20.png) 
 
 På samme måte som ved direkte fullføring av en generisk ressursforespørsel med en navngitt ressurs, blir den generelle ressursen erstattet, og de tilordnede oppgavene blir oppdatert med det navngitte teammedlemmet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

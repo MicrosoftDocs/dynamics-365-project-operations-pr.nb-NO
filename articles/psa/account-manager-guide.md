@@ -48,3 +48,6 @@ ms.locfileid: "5146091"
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)   
  [Håndbok for ressursansvarlig](../psa/resource-manager-guide.md)   
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

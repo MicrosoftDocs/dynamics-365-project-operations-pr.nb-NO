@@ -81,3 +81,6 @@ Alle utgifter som vil påløpe i prosjektet som ikke er direkte relatert til arb
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

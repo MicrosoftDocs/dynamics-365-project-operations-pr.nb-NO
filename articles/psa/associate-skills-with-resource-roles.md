@@ -47,3 +47,6 @@ Mens du var å legge til roller for ressursen, har du sannsynligvis allerede kny
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

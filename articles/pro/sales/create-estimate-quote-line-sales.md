@@ -67,3 +67,6 @@ Valuta på tilbudslinjedetaljene for kostnad kommer som standard fra kontraktenh
 Beregning av lønnsomhet konverter beløpet på tilbudslinjendetaljene for kostnader og salg til standardvalutaen for miljøet for å rapportere den totale beregnede marginen i tilbudet.
 
 Dette kan føre til valutaavrundingsfeil og endrede marginger på grunn av manglende valutakurser for gjeldende dato. Bruk disse beregningene bare på prosjekttilbud som estimater og ikke faktiske lovpålagte eller annen rapportering som krever høyere presisjon ved avrunding, og vær oppmerksomm på gyldig dato for valutakurser.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

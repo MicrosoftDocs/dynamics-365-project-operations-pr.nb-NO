@@ -96,3 +96,6 @@ Følg fremgangsmåten nedenfor for å opprette en egendefinert versjon av skjema
     ```
 
 6. Lagre og publiser tilpassingene.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

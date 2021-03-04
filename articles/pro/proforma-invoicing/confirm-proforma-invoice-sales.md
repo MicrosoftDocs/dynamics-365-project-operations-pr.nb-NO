@@ -273,3 +273,6 @@ En fakturert faktisk salgsverdi for produktlinjen med antallet og beløpet som k
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

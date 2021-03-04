@@ -45,3 +45,6 @@ Følg denne fremgangsmåten for å opprette antallsfaktorer fra produktegenskape
 6. Lagre og lukk skjemaet. Gjenta disse trinnene for alle egenskaper som skal brukes til å beregne antallet for den produktbaserte tilbudslinjen.
 
 Når du oppretter en produktbasert tilbudslinje for et produkt, blir antallet på tilbudslinjen låst. Antallet beregnes som et produkt av egenskapsverdiene som du har lagt inn for tilbudslinjen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Budsjettkategorier brukes til å automatisk beregne fakturabeløpene for prosent
 8. Valgfritt: Tilordne faktureringsregelen til flere prosjekter. På hurtigfanen **Prosjekt** , i delen **Tilgjengelige prosjekter** , velger du et prosjekt, og deretter velger du pil høyre for å legge til prosjektet i delen **Valgte prosjekter**.
 9. Valgfritt: Beregne prosentbeløpet som kunden tilbakeholder fra betalinger på en faktura. På hurtigfanen **Tilbakeholdelsesbetingelser for betaling** velger du finansieringskilden, og deretter angir du tilbakeholdelsesprosenten i feltet **Tilbakeholdelsesprosent**.
 10. Gjenta disse trinnene for å opprette flere faktureringsregler for prosjektkontrakten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

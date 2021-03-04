@@ -149,3 +149,6 @@ Tabellen nedenfor viser oppføringene i Transaksjonstilkobling-enheten for den f
 | Korrigering av fakturautkast       | GUID for fakturalinjetransaksjon | Erstatning          | msdyn_invoicelinetransaction | GUID for fakturert salg            | Opprinnelig           | msdyn_actual       |
 | Bekreft fakturakorreksjon     | GUID for tilbakeføring av fakturert salg    | Tilbakeføring          | msdyn_actual                 | GUID for fakturert salg            | Opprinnelig           | msdyn_actual       |
 | GUID for nytt ufakturert faktisk salg | Erstatning                     | msdyn_actual       | GUID for fakturert salg            | Opprinnelig                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

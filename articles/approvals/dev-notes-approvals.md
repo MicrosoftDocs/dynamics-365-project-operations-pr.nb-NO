@@ -23,3 +23,6 @@ Dynamics 365 Project Operations inkluderer valideringslogikk som sikrer riktig o
 
   - Alle støtterader opprettes i relaterte tabeller, for eksempel journaler og faktiske verdier.
   - Godkjenneren merkes som en **Prosjektgodkjenner** i prosjektet før du fortsetter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

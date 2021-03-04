@@ -90,3 +90,6 @@ Estimatet endrer statusen til **Eliminert**.
 Bruk denne siden til å tilbakeføre alle elimineringer med en bestemt estimatdato og med estimatstatusen **Eliminert**. Transaksjonsstatusen endres etter at du har valgt de riktige feltene.
 
 Dette endrer også prosjektstatusen til **Pågår** hvis prosjektfasen er satt til ferdig. Estimatstatusen for prosjektperioden endres tilbake til **Postert**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

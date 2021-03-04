@@ -52,3 +52,6 @@ En kontraktkunde kan opprettes, oppdateres eller slettes fra kategorien **Kunder
 Delingsprosent for fakturering kan redigeres i rutenettet. Når delingsprosentene for fakturering ikke er totalt 100 prosent, oppstår det en feil. Når du har redigert delingsprosentene for fakturering, oppdaterer du siden for å lukke feilen.
 
 Du kan også velge **Fordel jevnt** i rutenettet **Kontraktkunder** for å fordele fakturadelingene jevnt til alle kontraktkunder. Hvis det finnes en avrundingsfaktor, blir den lagt til i avrundingskunden. En av kontraktskundene blir alltid merket som kunde for **avrunding**, noe som betyr at avrundingsflagget er satt til **Ja** i kontraktkundeoppføringen. Dette er vanligvis hovedkunden til kontrakten, men den kan også endres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

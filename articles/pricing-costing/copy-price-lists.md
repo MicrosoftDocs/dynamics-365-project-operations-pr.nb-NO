@@ -43,3 +43,6 @@ Fullfør fremgangsmåten nedenfor for å lage en kopi av en prisliste.
 1. I kategoriene **Rolle**, **Kategori** og **Prislisteelement** for en prisliste kan du velge **Oppdater priser** for å angi et påslag for alle prisene i delrutenettet. 
 2. Angi et påslag på dialogsiden som åpnes. Du kan også angi en negativ påslagsprosent for å redusere prisen etter en bestemt prosentsats. 
 3. Velg **OK** på dialogsiden, og kontroller deretter at prisene i delrutenettet reflekterer endringene du har gjort.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

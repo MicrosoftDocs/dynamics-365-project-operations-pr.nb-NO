@@ -43,3 +43,6 @@ Velg denne distribusjonstypen for å bruke Dynamics 365 Project Operations for h
 - En mva- og valutakursmotor for bedriftsklassen for å generere kunderettet fakturaer for prosjekter.
 - Et IFRS-kompatibelt system (International Financial Reporting Standards) for prosjektregnskap og inntektsføring.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -330,3 +330,6 @@ PSA registrerer de finansielle transaksjonene som inntreffer under et prosjekt. 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

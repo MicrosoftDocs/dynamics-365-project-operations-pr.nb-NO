@@ -38,3 +38,6 @@ Følgende attributter defineres for hvert utgiftslinjeelement:
 - **Kostpris for enhet**: Enhetsprisen som brukes til å beregne kostnad for utgiften.
 - **Salgspris for enhet**: Enhetsprisen som brukes til å beregne salgsprisen for utgiften.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

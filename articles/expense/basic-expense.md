@@ -55,3 +55,6 @@ Utgifter som ennå ikke er sendt, kan slettes. Hvis du vil slette en utgift som 
 ## <a name="see-also"></a>Se også
 
 - [Oversikt over godkjenninger](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

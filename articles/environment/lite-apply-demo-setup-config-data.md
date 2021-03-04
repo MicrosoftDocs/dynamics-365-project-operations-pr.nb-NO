@@ -74,3 +74,6 @@ Før du begynner å konfigurere, må du ha et Common Data Service (CDS)-miljø k
     -   Kjennetegn for ressurs som kan reserveres
 
     ![Fullført import](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

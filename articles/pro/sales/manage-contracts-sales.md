@@ -33,3 +33,6 @@ En liste over alle prosjektkontrakter kan ses på listesiden **Kontrakter**.
 2. Velg **Vis bryter** (rullegardinpilen ved siden av navnet på visningen) for å velge andre filtrerte visninger. Du kan opprette dine egne visninger med egendefinerte filterkriterier.
 
 Kontrakter kan opprettes eller slettes fra denne listesiden eller detaljsider.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

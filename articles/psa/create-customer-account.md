@@ -47,3 +47,6 @@ Opprett en forretningsforbindelse for hver klient du arbeider med, enten du lage
   
 ### <a name="see-also"></a>Se også  
  [Veiledning for kontoadministrator](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

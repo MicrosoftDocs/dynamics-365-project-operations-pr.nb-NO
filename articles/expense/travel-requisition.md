@@ -56,3 +56,6 @@ Velg reiserekvisisjonen du vil godkjenne, og velg deretter **Arbeidsflyt** > **G
 
 > [!NOTE]
 > Når du tilordner en reiseregning til en godkjent reiserekvisisjon, kan ikke transaksjonsbeløpet være større enn det godkjente beløpet. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

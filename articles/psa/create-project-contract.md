@@ -47,3 +47,6 @@ Nå som du har vunnet tilbudet for prosjektet, er det på tide å opprette en ko
   
 ### <a name="see-also"></a>Se også  
  [Veiledning for kontoadministrator](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

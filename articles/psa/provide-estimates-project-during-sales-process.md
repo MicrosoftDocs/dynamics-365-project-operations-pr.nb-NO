@@ -54,3 +54,6 @@ Under salgsprosessen, kan du arbeide ut salgsestimater fra grunnen med tilbudsli
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

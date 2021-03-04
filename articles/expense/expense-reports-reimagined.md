@@ -78,3 +78,6 @@ Følgende funksjoner finnes på den eksisterende siden, men fortsatt ikke på de
 - Arbeidsflyt på linjenivå
 - Midlertidig godkjennerstøtte
 - Avansert spesifisering
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

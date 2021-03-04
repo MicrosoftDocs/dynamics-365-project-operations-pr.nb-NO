@@ -81,3 +81,6 @@ Følgende problemer har blitt løst:
 - Knappen **Oppdater faktiske verdier** beregner aktivitetssammendrag på feil måte.
 - Microsoft Project-tillegg: Reparer nullreferansefeil hvis et teammedlem har en tom ressursenhet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

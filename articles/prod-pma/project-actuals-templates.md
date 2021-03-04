@@ -140,3 +140,6 @@ Illustrasjonene nedenfor viser eksempler på maloppgavetilordningene i datainteg
 [![Maltilordning – oppdatering av faktiske verdier](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Maltilordning – oppdatering av transaksjon](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

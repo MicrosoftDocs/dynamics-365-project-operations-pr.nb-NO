@@ -39,3 +39,6 @@ ms.locfileid: "4081597"
 10. Klikk OK. 
 
 Etter dette trinnet blir kreditnotaen tilgjengelig for fakturaforslag.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

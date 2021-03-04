@@ -35,3 +35,6 @@ Følg fremgangsmåten nedenfor for å gjennomgå inntektsestimater for fastprisp
 
   Prosjektkostnad, inntektsprofil, kostnadsmal og periodekode kan angis manuelt. Hvis de ikke angis manuelt, blir verdiene som angitt som standard i den første estimatberegningen for prosjektet ved hjelp av reglene som er konfigurert for prosjektkostnad og inntektsprofiler.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

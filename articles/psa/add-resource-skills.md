@@ -47,3 +47,6 @@ Prosjektene til klientene dine trenger uten tvil en rekke forskjellige ferdighet
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

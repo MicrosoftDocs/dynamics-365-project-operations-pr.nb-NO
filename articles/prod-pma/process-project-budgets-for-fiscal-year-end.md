@@ -98,3 +98,6 @@ Når du behandler gjenstående budsjettbeløper, kan du opprette transaksjoner i
 5. For hvert prosjekt du vil behandle, velger du alternativet i begynnelsen av linjen for prosjektet. 
 6. Velg **Behandle** for å overføre de gjenstående budsjettbeløpene for de valgte prosjektene til det valgte regnskapsåret.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

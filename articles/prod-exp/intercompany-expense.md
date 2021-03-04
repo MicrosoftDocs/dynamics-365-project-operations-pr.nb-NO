@@ -35,3 +35,6 @@ Før en arbeider kan opprette og sende inn selskapets utgifter, må du aktivere 
 
 Før du kan bruke avgiftsgrupper som er knyttet til den juridiske enheten for utlån (kilde) i stedet for den juridiske enheten (målet) i reiseregningen, må du aktivere funksjonaliteten i oppsettet av salgsavgift i økonomimodulen. Når parameteren **Juridisk enhet for konsernintern avgiftsbokføring** er satt til **Kilde** og **Bruk avgiftsregler for mva** er satt til **Nei**, brukes avgiftskombinasjonen for den juridisk enheten for utlån. Når den samme parameteren er satt til **Mål**, brukes avgiftskombinasjonen for den lånende juridiske enheten. Når det gjelder juridiske enheter i USA, når parameteren er angitt til **Kilde**, må feltet **Mva-fordringer** også konfigureres på den nye siden **Bokføringsgrupper i hovedbok**. Regnskapsmotoren bruker informasjonen fra dette feltet for avgiftsrelatert regnskapsregistrering.   
 Funksjonaliteten er konsekvent for utgiftslinjer som er bokført med eller uten et prosjekt.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

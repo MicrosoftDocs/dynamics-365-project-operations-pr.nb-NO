@@ -55,3 +55,6 @@ En utvikler fra Fabrikam India som arbeider med et prosjekt i USA, blir for ekse
     | Developer | Fabrikam USA | $150 |
 
 3. Legg ved salgsprislisten, **Fakturasatser for Fabrikam USA** i prosjektprislisten for prosjektkontrakten eller en bestemt forretningsforbindelse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

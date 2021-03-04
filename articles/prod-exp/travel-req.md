@@ -32,3 +32,6 @@ Organisasjonen din kan kreve at en reiserekvisisjon sendes inn før ansatte påd
 Reiserekvisisjoner og policyer kan brukes til å få hjelp med budsjettkontroll. Hvis for eksempel organisasjonen din arbeider med et fastprisprosjekt som krever reise, må reiseutgiftene for prosjektets teammedlemmer være innenfor budsjettet til prosjektet. Ved å kreve at reiseutgifter godkjennes før de påløper, kan organisasjonen bidra til å sikre at prosjektet holder seg innenfor budsjettet.
 
 Du kan definere policyer for reiserekvisisjoner fra siden **Reiserekvisisjon**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

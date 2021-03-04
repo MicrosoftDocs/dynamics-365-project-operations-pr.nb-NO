@@ -80,3 +80,6 @@ Forretningsprosessen for kundeemne til salgsmulighet støtter følgende faser:
 | Utarbeid | Salgsmulighet | Utvikle salgsmuligheten for å legge til mer informasjon om arbeidet som er involvert, viktige interessenter og konkurranse. |
 | Foreslå | Salgsmulighet | Utvikle forslaget, og få godkjennelse fra det interne gjennomgangsteamet. |
 | Lukk | Salgsmulighet | Vinn salgsmuligheten for å lukke avtalen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

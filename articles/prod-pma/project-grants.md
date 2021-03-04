@@ -79,3 +79,6 @@ Du kan opprette et tilskudd ved å angi alle detaljene i en ny oppføring, eller
 2. Velg tilskuddet du vil endre.
 3. I handlingsruten i kategorien **Tilskudd** i gruppen **Vedlikehold** velger du **Rediger**.
 4. Se gjennom tilskuddsdetaljene, og gjør de nødvendige endringene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

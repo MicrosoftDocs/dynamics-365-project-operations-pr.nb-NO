@@ -74,3 +74,6 @@ Faste prismilepæler kan genereres manuelt når de ikke deles periodisk. Følg f
 | Avgift | Hurtigoppretting | Avgiftsbeløpet som brukes på milepælen. | Dette er inkludert på milepælen for prosjektkontraktlinjen og fakturaen. |
 
 4. Velg **Lagre og lukk**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Hvis en kontraktlinje er basert på en produktkatalog, kan du overstyre salgspri
 Hvis du angir **Priser**-feltet til **Overstyr pris**, angis ikke standardprisen. Angi en pris for produktet på kontraktlinjen. Hvis du setter feltet til **Bruk standard**, brukes standard salgspris, og feltet kan ikke redigeres.
 
 Når du har installert Project Operations, blir standard salgspriser angitt på de produktbasert linjene i en kontrakt. **Priser**-feltet angis til **Overstyr pris**, slik at du kan redigere standardprisen på kontraktlinjene. Dette er en spesifikk overstyring i Project Operations av virkemåten for produktbaserte linjer i Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

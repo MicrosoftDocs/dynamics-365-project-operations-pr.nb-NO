@@ -71,3 +71,6 @@ Før du starter denne prosedyren, må du kontrollere at sikkerhetsrollen innehol
 
 > [!IMPORTANT]
 >  Du kan ikke slette valutaer som brukes av andre oppføringer. Du kan bare deaktivere dem. Du fjerner ikke valutainformasjonen som er lagret i eksisterende oppføringer, for eksempel salgsmuligheter eller ordrer, ved å deaktivere valutaoppføringene. Du vil imidlertid ikke kunne velge den deaktiverte valutaen for nye transaksjoner.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

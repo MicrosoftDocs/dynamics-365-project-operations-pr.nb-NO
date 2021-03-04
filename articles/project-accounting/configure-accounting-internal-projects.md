@@ -32,3 +32,6 @@ Alle prosjekter som ikke er knyttet til en kontrakt i Dynamics 365 Project Opera
 Når transaksjoner er bokført til prosjektet, tilbakefører systemet alle akkumulerte transaksjoner og oppretter nye fakturerbare transaksjoner hvis prosjektet er tilknyttet en prosjektkontrakt. De fakturerbare transaksjonene følger regnskapsreglene som er definert i den respektive kostnads- og omsetningsprofilen for prosjektet.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

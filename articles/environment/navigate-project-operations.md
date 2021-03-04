@@ -38,3 +38,6 @@ Velg **Logg på** > **Logg på miljøet** for å navigere til modulen **Prosjekt
 
 > [!NOTE]
 > Du kan få tilgang til Project Operations i Common Data Service og modulen **Prosjektstyring og regnskap** direkte ved å bruke de respektive URL-adressene. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

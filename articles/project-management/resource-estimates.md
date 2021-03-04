@@ -34,3 +34,6 @@ Salgspriser brukes én gang per avtale. Hierarkiet for salgsprisliste er som sta
 1. Organisasjonen
 2. Kunde
 3. Tilbud/kontrakt
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

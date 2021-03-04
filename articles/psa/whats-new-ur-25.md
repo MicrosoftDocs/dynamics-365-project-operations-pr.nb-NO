@@ -70,3 +70,6 @@ Følgende problemer har blitt løst:
 - Forbedret feilbehandling for å løse nullreferanseunntak generert fra **Kopier prosjekt: estimering av administrasjon av hjelperessurser**.
 - **Ikke klar til fakturering** på en **Faktureringsrestanse for Tid og materiale** fjerner ikke faktureringsstatus.
 - Korrigerte **Pris**-knapper med feiletikett i kategorien **Rollepris** og **Katalogelementer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

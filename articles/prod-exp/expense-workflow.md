@@ -55,3 +55,6 @@ Fremgangsmåten nedenfor er et eksempel på arbeidsflyten for en reiseregning i 
 Når disse kravene er bekreftet oppfylt, blir reiseregningen postert.
 
 Når reiseregningen er postert, blir betalingen godkjent for reiseregningen, og den ansatte blir refundert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Følg fremgangsmåten nedenfor for å opprette antallsfaktorer fra produktegensk
 7. Gjenta trinn 2-6 for alle egenskapene som samlet utgjør antallet for den produktbaserte kontraktlinjen.
 
 Når antallsfaktorer er konfigurert og brukeren oppretter en kontraktlinje for dette produktet, blir antallet for kontraktlinjen låst. Antallet beregnes deretter som et produkt av egenskapsverdiene for denne kontraktlinjen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

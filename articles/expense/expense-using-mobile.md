@@ -236,3 +236,6 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 22. Velg **Send inn**.
 23. Skriv inn eventuelle kommentarer til godkjenneren.
 24. Velg **Ferdig**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

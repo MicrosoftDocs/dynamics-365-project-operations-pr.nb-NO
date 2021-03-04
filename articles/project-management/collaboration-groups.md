@@ -26,3 +26,6 @@ Ved hjelp av Office-grupper kan du dele et prosjekt med andre gruppemedlemmer i 
 > [!NOTE] 
 > Brukere blir bare lagt til i gruppen hvis du trykker på **Grupper** og legger dem til. Dette er forskjellig fra virkemåten til Project for Internett. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

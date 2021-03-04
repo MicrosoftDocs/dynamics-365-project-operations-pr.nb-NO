@@ -20,3 +20,6 @@ ms.locfileid: "4514564"
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 Du kan bruke funksjonaliteten i Universal Resource Scheduling for Dynamics 365 Field Service til å konfigurere bestillingsstatuser for organisasjonen. Hvis du vil ha informasjon om hvordan du fullfører denne konfigurasjonen, kan du se [Konfigurere bestillingsstatuser](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

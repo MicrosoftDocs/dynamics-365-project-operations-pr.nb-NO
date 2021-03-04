@@ -45,3 +45,6 @@ I det forrige trinnet har du allerede tilknyttet noen ferdigheter til en ny ress
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

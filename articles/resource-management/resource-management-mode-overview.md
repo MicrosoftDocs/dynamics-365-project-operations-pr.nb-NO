@@ -48,3 +48,6 @@ Bestill en ressurs direkte til et prosjekt:
 Bestill en ressurs fra et ressurskrav:
 - [Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Bestille navngitte ressurser fra ressurskrav](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

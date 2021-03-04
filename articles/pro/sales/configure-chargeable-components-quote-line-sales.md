@@ -77,3 +77,6 @@ Et estimat eller en faktisk verdi som er opprettet for utgift, blir bare betrakt
 | No | Ja | Hele prosjektet | Kan ikke angis | Ikke-belastbar | Kan ikke angis | Fakturering på en faktisk tidsverdi: Ikke tilgjengelig </br>Faktureringstype for en faktisk utgiftsverdi: Ikke-belastbar |
 | Ja | No | Hele prosjektet | Belastbar | Kan ikke angis | Kan ikke angis | Fakturering på en faktisk tidsverdi: Belastbar</br>Faktureringstype for en faktisk utgiftsverdi: Ikke tilgjengelig |
 | Ja | No | Hele prosjektet | Ikke-belastbar | Kan ikke angis | Kan ikke angis | Fakturering på en faktisk tidsverdi: Ikke-belastbar </br>Faktureringstype for en faktisk utgiftsverdi: Ikke tilgjengelig |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

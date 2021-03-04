@@ -55,3 +55,6 @@ Følgende emner gir informasjon om oppgavene som må fullføres når du arbeider
 - [Planleggingsytelse for prosjektressurs](project-scheduling-performance.md)
 - [Konfigurere roller i maler for arbeidsnedbrytningsstruktur](set-up-roles-wbs-template.md)
 - [Ressursfullføring for planlagte ressurser](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

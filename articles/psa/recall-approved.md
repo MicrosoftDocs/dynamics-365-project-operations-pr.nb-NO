@@ -107,3 +107,6 @@ Illustrasjonen nedenfor viser endringene som utføres for godkjente tidsoppføri
 Illustrasjonen nedenfor viser endringene som utføres for godkjente utgiftsoppføringer når de tilbakekalles.
 
 ![Overganger for utgiftsoppføringstilstand](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Følgende eksempel viser hvordan du kaller den egendefinerte handlingen **CopyPr
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

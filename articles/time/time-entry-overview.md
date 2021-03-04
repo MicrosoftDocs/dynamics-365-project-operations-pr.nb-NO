@@ -27,3 +27,6 @@ Prosjektteammedlemmer oppretter og sender tidsoppføringer for godkjenning, og p
 
 Hvis du vil ha informasjon om hvordan du oppretter, sender inn eller tilbakekaller en oppføring, og om andre verktøy som hjelper deg å fullføre rapporteringen, kan du se [Virkemåte for bruker for tidsoppføring](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

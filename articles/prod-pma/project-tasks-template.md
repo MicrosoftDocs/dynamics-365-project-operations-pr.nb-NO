@@ -83,3 +83,6 @@ Hvis du må bruke Power Query, følger du denne retningslinjen:
 Illustrasjonen nedenfor viser et eksempel på maloppgavetilordningene i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 
 [![Maltilordning](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Anna Pilskog, en utvikler som er ansatt i GBPM, fører opp 10 timer med arbeid m
     - Kredit: Prosjekt – påløpte inntekter 120 USD
 
     Systemet er nå klart til å opprette en konsernintern kundefaktura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

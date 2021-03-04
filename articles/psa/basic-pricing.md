@@ -131,3 +131,6 @@ På samme måte som fakturasatser defineres kostnadssatser for personale også v
     1. Kostnadsprislisten som er knyttet til organisasjonsenheten.
     2. Kostnadsprislisten som er knyttet til Project Service-parameterne. Siden kostnadsprislister i mange ulike valutaer kan knyttes til Project Service-parametere, utføres det et valutasamsvar i PSA mellom valutaen til organisasjonsenheten med kontrakten i prosjektet, kontrakten eller tilbudet samt valutaen for kostnadsprislisten.
     3. For utgifter, gjelder ikke prisingsmetodene per kostnad og påslag over kostnad for kostnadsprislister. Selv om disse prisingsmetodene brukes på kostnadsprislistelinjer til å definere kostnad for transaksjonskategorier, ignorerer systemet dem, og det angis ingen standard kostpris.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

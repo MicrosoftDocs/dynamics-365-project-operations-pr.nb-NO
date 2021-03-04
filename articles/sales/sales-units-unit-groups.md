@@ -46,3 +46,6 @@ Hvis du vil fullføre trinnene i dette emnet, må du sørge for at du er tilordn
 3. I **Antall**-feltet angir du antallet som enheten skal inneholde. Hvis en boks inneholder for eksempel 2 deler, ville du skrevet "2". 
 4. I **Basisenhet**-feltet velger du en basisenhet for å fastsette den laveste målenheten for enheten. Du kan for eksempel velge "Stykk".
 5. Velg **Lagre**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

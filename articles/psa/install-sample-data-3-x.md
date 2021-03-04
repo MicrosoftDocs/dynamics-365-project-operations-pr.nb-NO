@@ -297,3 +297,6 @@ Velg en bruker (for eksempel Spencer Low), og endre Spencers arbeidstimer til ti
 
 > [!div class="mx-imgBorder"]
 > ![Skjermbilde av aktive ressurser som kan reserveres](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
