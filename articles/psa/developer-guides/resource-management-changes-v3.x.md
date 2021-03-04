@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081811"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148655"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Endringer i ressursbehandling (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Delene i dette emnet gir informasjon om endringene som er gjort i ressursbehandling i Dynamics 365 Project Service Automation versjon 3.x.
 
 ## <a name="project-estimates"></a>Prosjektestimater
 
-I stedet for å være basert på enheten **msdyn\_projecttask** ( **Prosjektoppgave** ) er prosjektestimater basert på enheten **msdyn\_resourceassignment** ( **Ressurstilordning** ). Ressurstilordningene har blitt "kilden til sannheten" for oppgaveplanlegging og prising.
+I stedet for å være basert på enheten **msdyn\_projecttask** (**Prosjektoppgave**) er prosjektestimater basert på enheten **msdyn\_resourceassignment** (**Ressurstilordning**). Ressurstilordningene har blitt "kilden til sannheten" for oppgaveplanlegging og prising.
 
 ## <a name="line-tasks"></a>Linjeoppgaver
 
@@ -58,14 +60,14 @@ Følgende eksempel viser hvordan en oppgave med navnet "Testoppgave" er tilordne
 
 ## <a name="unassigned-assignment"></a>Ikke-tilordnet tilordning
 
-I PSA 3.x er en ikke-tilordnet tilordning en tilordning som er tilordnet til et **NULLl** -teammedlem og en **NULL** -ressurs. Ikke-tilordnede tilordninger kan forekomme i noen scenarioer:
+I PSA 3.x er en ikke-tilordnet tilordning en tilordning som er tilordnet til et **NULLl**-teammedlem og en **NULL**-ressurs. Ikke-tilordnede tilordninger kan forekomme i noen scenarioer:
 
 - Hvis en oppgave er opprettet, men ennå ikke er tilordnet til noen teammedlemmer, opprettes det alltid en tilordning som ikke er tilordnet. 
 - Hvis alle tilordnede ressurser i en oppgave blir fjernet, blir en ikke-tilordnet tilordning opprettet på nytt for den oppgaven.
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Planlegge felt i Prosjektoppgave-enheten
 
-Feltene i enheten **msdyn\_projecttask** er avskrevet eller flyttet til enheten **msdyn\_resourceassignment** , eller de blir referert til fra enheten **msdyn\_projectteam** ( **Prosjektteammedlem** ).
+Feltene i enheten **msdyn\_projecttask** er avskrevet eller flyttet til enheten **msdyn\_resourceassignment**, eller de blir referert til fra enheten **msdyn\_projectteam** (**Prosjektteammedlem**).
 
 | Avskrevet felt i msdyn\_projecttask (Prosjektoppgave) | Nytt felt i msdyn\_resourceassignment (Ressurstilordning) | Kommentar |
 |---|---|---|
@@ -77,7 +79,7 @@ Feltene i enheten **msdyn\_projecttask** er avskrevet eller flyttet til enheten 
 
 ## <a name="schedule-contour"></a>Tidsplankontur
 
-Tidsplankonturen er lagret i feltet **Planlagt arbeid** ( **msdyn\_plannedwork** ) i hver **Ressurstilordning** -enhet ( **msdyn\_resourceassignment** ).
+Tidsplankonturen er lagret i feltet **Planlagt arbeid** (**msdyn\_plannedwork**) i hver **Ressurstilordning**-enhet (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktur
 
@@ -139,7 +141,7 @@ I dette eksemplet er oppgaven tilordnet to ressurser og planlagt automatisk i 36
 
 ## <a name="pricing-dimensions"></a>Prisdimensjoner
 
-I PSA 3.x er ressursspesifikke prisdimensjonsfelt (for eksempel **Rolle** og **Organisasjonsenhet** ) fjernet fra enheten **msdyn\_projecttask**. Disse feltene kan nå hentes fra det tilsvarende prosjektteammedlemmet ( **msdyn\_projectteam** ) til ressurstilordningen ( **msdyn\_resourceassignment** ) når prosjektestimater genereres. Et nytt felt, **msdyn\_organizationalunit** , er lagt til i enheten **msdyn\_projectteam**.
+I PSA 3.x er ressursspesifikke prisdimensjonsfelt (for eksempel **Rolle** og **Organisasjonsenhet**) fjernet fra enheten **msdyn\_projecttask**. Disse feltene kan nå hentes fra det tilsvarende prosjektteammedlemmet (**msdyn\_projectteam**) til ressurstilordningen (**msdyn\_resourceassignment**) når prosjektestimater genereres. Et nytt felt, **msdyn\_organizationalunit**, er lagt til i enheten **msdyn\_projectteam**.
 
 | Avskrevet felt i msdyn\_projecttask (Prosjektoppgave) | Felt fra msdyn\_projectteam (Prosjektteammedlem) som brukes i stedet |
 |---|---|
@@ -155,12 +157,12 @@ Feltene for prising og estimeringsprofil er avskrevet i enheten **msdyn\_project
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Følgende felt er lagt til i enheten **msdyn\_resourceassignment** :
+Følgende felt er lagt til i enheten **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Følgende felt for planlagt, faktisk og gjenstående kostnad og salg er uendret i enheten **msdyn\_projecttask** :
+Følgende felt for planlagt, faktisk og gjenstående kostnad og salg er uendret i enheten **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b1ad011b2d78dd85023be7cf380ce19c3b2b8441
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125145"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150005"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Tilordne en ressurs til en oppgave
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Det er tre måter å tilordne en ressurs til en oppgave på i Microsoft Dynamics 365 Project Service Automation.
 
