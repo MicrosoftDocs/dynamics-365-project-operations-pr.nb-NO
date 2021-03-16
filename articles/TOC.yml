@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nyheter
       items:
+        - name: Mars 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Februar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: Januar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -312,58 +314,58 @@
               href: time/ui-behavior-time.md
         - name: Notater for utviklere
           items:
-            - name: Tilpasse det ukentlige tidsoppføringsrutenettet
+            - name: Tilpass det ukentlige tidsoppføringsrutenettet
               href: time/customize-weekly-time-entry-grid.md
     - name: Utgift
       items:
         - name: Oversikt over utgifter
           href: expense/expense-overview.md
-        - name: Utgiftshåndteringsopplevelse for prosjekter
+        - name: Ny utgiftsopplevelse
           items:
-            - name: Konfigurasjon og oppsett
-              items:
-                - name: Konfigurere policyer
-                  href: expense/set-up-policies.md
-                - name: Konfigurere arbeidsflyter
-                  href: expense/set-up-workflows.md
-                - name: Behandle delegering
-                  href: expense/manage-delegation.md
-                - name: Konfigurer parametere for utgiftshåndtering
-                  href: expense/configure-expense-management-parameters.md
-                - name: Konfigurer kredittkortintegrering
-                  href: expense/set-up-credit-card-integration.md
-                - name: Konfigurer utgiftskategorier
-                  href: expense/set-up-expense-categories.md
-            - name: Arbeid med personlige utgifter i en utgiftsrapport
-              href: expense/personal-expenses-expense-report.md
-            - name: Opprett utgiftsrapporter
-              items:
-                - name: Distribusjoner i en utgiftsrapport
-                  href: expense/distributions-expense-report.md
-            - name: Godkjenne utgiftsrapporter
-              items:
-                - name: Utgiftsrapporter og flere godkjennere
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Bokføre utgiftsrapporter
-              href: expense/posting-expense-reports.md
-            - name: Reiserekvisisjon
-              href: expense/travel-requisition.md
-            - name: Kontantforskudd
-              href: expense/cash-advance.md
-            - name: Kostgodtgjørelser
-              href: expense/per-diems.md
-            - name: Finansadministrasjon
-              items:
-                - name: MVA-gjenoppretting
-                  href: expense/vat-recovery.md
-            - name: Ny utgiftsopplevelse
-              items:
-                - name: Nyskapte utgiftsrapporter
-                  href: expense/expense-reports-reimagined.md
-                - name: Samsvare mottak med utgift ved hjelp av OCR (optisk tegngjenkjenning)
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Håndtering av Mobile-utgift
-              href: expense/expense-using-mobile.md
+            - name: Nyskapte utgiftsrapporter
+              href: expense/expense-reports-reimagined.md
+            - name: Registrer en kvittering ved hjelp av OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfigurasjon og oppsett
+          items:
+            - name: Konfigurer policyer
+              href: expense/set-up-policies.md
+            - name: Konfigurer arbeidsflyter
+              href: expense/set-up-workflows.md
+            - name: Behandle delegering
+              href: expense/manage-delegation.md
+            - name: Konfigurer parametere for utgiftshåndtering
+              href: expense/configure-expense-management-parameters.md
+            - name: Konfigurer kredittkortintegrering
+              href: expense/set-up-credit-card-integration.md
+            - name: Konfigurer utgiftskategorier
+              href: expense/set-up-expense-categories.md
+        - name: Personlige utgifter
+          href: expense/personal-expenses-expense-report.md
+        - name: Konserninterne utgifter
+          href: prod-exp/intercompany-expense.md
+        - name: Opprett utgiftsrapporter
+          items:
+            - name: Distribusjoner i en utgiftsrapport
+              href: expense/distributions-expense-report.md
+        - name: Godkjenne utgiftsrapporter
+          items:
+            - name: Utgiftsrapporter og flere godkjennere
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Bokfør utgiftsrapporter
+          href: expense/posting-expense-reports.md
+        - name: Reiserekvisisjon
+          href: expense/travel-requisition.md
+        - name: Kontantforskudd
+          href: expense/cash-advance.md
+        - name: Kostgodtgjørelser
+          href: expense/per-diems.md
+        - name: Utgiftsapp for mobil
+          href: expense/expense-using-mobile.md
+        - name: Finansadministrasjon
+          items:
+            - name: Mva-gjenoppretting
+              href: expense/vat-recovery.md
     - name: Godkjenninger
       items:
         - name: Oversikt over godkjenninger
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
+        - name: Nyheter mars 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Nyheter februar 2021 – Lite-distribusjon
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: Nyheter januar 2021 – Lite-distribusjon
@@ -756,7 +760,7 @@
               href: time/ui-behavior-time.md
         - name: Notater for utviklere
           items:
-            - name: Tilpasse det ukentlige tidsoppføringsrutenettet
+            - name: Tilpass det ukentlige tidsoppføringsrutenettet
               href: time/customize-weekly-time-entry-grid.md
     - name: Utgift
       items:
@@ -888,50 +892,58 @@
           href: prod-pma/custom-fields-mobile.md
     - name: Prosjektstøtte
       href: prod-pma/project-grants.md
-    - name: Eliminere et prosjektestimat
+    - name: Eliminer et prosjektestimat
       href: prod-pma/eliminate-project-estimate.md
 - name: Utgiftshåndtering
   items:
     - name: Oversikt over utgiftshåndtering
       href: prod-exp/expense-management.md
-    - name: Nyskapte utgiftsrapporter
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Planlegge utgiftshåndtering
-      href: prod-exp/plan-expense-management.md
-    - name: Parametere for utgiftshåndtering
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Mobilt arbeidsområde for utgiftshåndtering
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Konfigurere arbeidsflyter for utgiftshåndtering
-      href: prod-exp/expense-workflows.md
-    - name: Arbeidsflyt for utgiftshåndtering
-      href: prod-exp/expense-workflow.md
-    - name: Behandle utgiftsdelegering
-      href: prod-exp/manage-expense-delegation.md
-    - name: Behandling av utgiftskvittering
-      href: prod-exp/expense-receipt-processing.md
-    - name: Importere og vedlikeholde kredittkorttransaksjoner
-      href: prod-exp/import-credit-card.md
-    - name: Distribusjoner i en utgiftsrapport
-      href: prod-exp/expense-report-distributions.md
+    - name: Ny utgiftsopplevelse
+      items:
+        - name: Nyskapte utgiftsrapporter
+          href: expense/expense-reports-reimagined.md
+        - name: Registrer en kvittering ved hjelp av OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: Konfigurasjon og oppsett
+      items:
+        - name: Konfigurer policyer
+          href: expense/set-up-policies.md
+        - name: Konfigurer arbeidsflyter
+          href: expense/set-up-workflows.md
+        - name: Behandle delegering
+          href: expense/manage-delegation.md
+        - name: Konfigurer parametere for utgiftshåndtering
+          href: expense/configure-expense-management-parameters.md
+        - name: Konfigurer kredittkortintegrering
+          href: expense/set-up-credit-card-integration.md
+        - name: Konfigurer utgiftskategorier
+          href: expense/set-up-expense-categories.md
+    - name: Personlige utgifter
+      href: expense/personal-expenses-expense-report.md
     - name: Konserninterne utgifter
       href: prod-exp/intercompany-expense.md
-    - name: Definere utgiftspolicyer
-      href: prod-exp/travel-expense-policies.md
-    - name: Vise en utgiftsrapport
-      href: prod-exp/view-expense-report.md
-    - name: Bokføre en utgiftsrapport
-      href: prod-exp/post-expense.md
-    - name: Utgiftsrapporter og flere godkjennere
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: Mva-fradrag i utgiftshåndtering
-      href: prod-exp/VAT-expense-report.md
-    - name: Regler for kostgodtgjørelse
-      href: prod-exp/per-diem.md
-    - name: Reiserekvisisjoner
-      href: prod-exp/travel-req.md
-    - name: Personlige utgifter i en utgiftsrapport
-      href: prod-exp/personal-expenses.md
+    - name: Opprett utgiftsrapporter
+      items:
+        - name: Distribusjoner i en utgiftsrapport
+          href: expense/distributions-expense-report.md
+    - name: Godkjenne utgiftsrapporter
+      items:
+        - name: Utgiftsrapporter og flere godkjennere
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Bokfør utgiftsrapporter
+      href: expense/posting-expense-reports.md
+    - name: Reiserekvisisjon
+      href: expense/travel-requisition.md
+    - name: Kontantforskudd
+      href: expense/cash-advance.md
+    - name: Kostgodtgjørelser
+      href: expense/per-diems.md
+    - name: Utgiftsapp for mobil
+      href: expense/expense-using-mobile.md
+    - name: Finansadministrasjon
+      items:
+        - name: Mva-gjenoppretting
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 29, V3'
+          href: psa/whats-new-ur-29.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 28.6, hurtigreparasjon, V3'
+          href: psa/whats-new-ur-28-6.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 28.5, hurtigreparasjon, V3'
           href: psa/whats-new-ur-28-5.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 28, V3'
           href: psa/whats-new-ur-28.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 27.6, hurtigreparasjon, V3'
+          href: psa/whats-new-ur-27-6.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 27.5, hurtigreparasjon, V3'
           href: psa/whats-new-ur-27-5.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 27, V3'
