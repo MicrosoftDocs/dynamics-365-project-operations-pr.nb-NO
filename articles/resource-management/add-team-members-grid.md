@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280095"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Legg til teammedlemmer fra rutenettet for teammedlemmer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Dynamics 365 Project Operations inkluderer et Resource Manager-instrumentbord som gir en visuell oversikt over ressursbehov og -utnyttelse gjennom hele organisasjonen. Du kan bruke diagrammene på dette instrumentbordet til å visualisere følgende informasjon:
+Dynamics 365 Project Operations inkluderer et instrumentbord for ressursledere som gir en visuell oversikt over ressursbehov og -utnyttelse gjennom hele organisasjonen. Du kan bruke diagrammene på dette instrumentbordet til å visualisere følgende informasjon:
 
 - **Ressursbehov**: Diagrammet **Aktive ressursforespørsler** viser ressurser som er sendt. Ressursene samles av rolle eller prosjekt.
 - **Ressursbehov som ikke er sendt**: Diagrammet **Ikke-tilordnet ressursbehov** viser alle ressursbehovene som ikke er sendt. Dette diagrammet hjelper ressursansvarlige med å vise behov som ikke er fast, og kan sendes via en ressursforespørsel.

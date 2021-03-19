@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147125"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280680"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, Update Release 20, V3
 
@@ -42,7 +42,7 @@ Følgende problemer har blitt løst:
 
 - Import av prosjektteammedlemmer med en tildelingsmetode som krever timer, fører til en uklar feilmelding når de angitte timene er null.
 - Brukere får en feilaktig feilmelding når maksimalt antall tegn er angitt i **Beskrivelse**-feltet for en prosjektoppgave.
-- Siden for **nedlasting av Microsoft Dynamics 365 Project Service Automation-tillegg** omdirigeres til den engelske nedlastingssiden når brukerens språkinnstillinger er satt til japansk.
+- Siden for **nedlasting av Microsoft Dynamics 365 Project Service Automation-tillegg** omdirigerer til den engelske nedlastingssiden når brukerens språkinnstillinger er satt til japansk.
 - Når det oppstår en serverfeil, blir synkroniseringsetiketten i **Planlegg**-fanen i **Prosjekter**-skjema noen ganger forblir.
 - Overflødige oppgaveoppdateringer blir sendt til serveren når en oppgave blir endret.
 

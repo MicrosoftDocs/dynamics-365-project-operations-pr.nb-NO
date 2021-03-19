@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282075"
 ---
 # <a name="customize-weekly-time-entry"></a>Tilpasse ukentlige tidsoppføringer 
 
@@ -31,7 +31,7 @@ ms.locfileid: "5149645"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-I Microsoft Dynamics 365 Project Service Automation versjon 3.3 har Microsoft satt opp et moderne rutenett som gjør det enkelt å angi tid for opptil én uke om gangen. Det nye rutenettet for ukentlige tidsoppføringer viser totaler for oppføringer etter dato, rad eller uke. Ressurser kan lage kopier av tidsoppføringer i uken og også massekopiere fra tidligere uker. Systemtilpassere kan tilpasse visningen ved å legge til felt, legge til oppslag til andre entiteter og implementere egendefinerte forretningsregler for å støtte organisasjonens fremgangsmåter.
+I Microsoft Dynamics 365 Project Service Automation, versjon 3.3 har Microsoft satt opp et moderne rutenett som gjør det enkelt å angi tid for opptil én uke om gangen. Det nye rutenettet for ukentlige tidsoppføringer viser totaler for oppføringer etter dato, rad eller uke. Ressurser kan lage kopier av tidsoppføringer i uken og også massekopiere fra tidligere uker. Systemtilpassere kan tilpasse visningen ved å legge til felt, legge til oppslag til andre entiteter og implementere egendefinerte forretningsregler for å støtte organisasjonens fremgangsmåter.
 
 Du får tilgang til tidsoppføringen og det nye rutenettet for ukentlige tidsoppføringer. Den ikke-utvidbare opplevelsen av egendefinert tidsoppføring som var en del av tidligere PSA-versjoner, er erstattet av det utvidbare rutenettet for ukentlige tidsoppføringer, og også av en alternativ opplevelse i det skrivebeskyttede rutenettet og kalenderen. På grunn av denne endringen kan brukerne angi tid i ukentlige tidsoppføringer.
 
