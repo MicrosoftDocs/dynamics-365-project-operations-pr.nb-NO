@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133406"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287250"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal for Project Operations-integrering
 
@@ -28,9 +28,9 @@ Tid og utgifter-oppføringer oppretter **Faktisk**-transaksjoner, som represente
 Oppføringer i journalen for Project Operations-integrering opprettes ved hjelp av periodisk prosess, **Import fra oppsamlingstabell**. Du kan kjøre denne prosessen ved å gå til **Dynamics 365 Finance** > **Prosjektstyring og regnskap** > **Periodisk** > **Project Operations-integrering** > **Import fra oppsamlingstabell**. Du kan kjøre prosessen interaktivt eller konfigurere prosessen til å kjøre i bakgrunnen etter behov.
 
 Når den periodiske prosessen kjører, blir faktiske verdier som ennå ikke er lagt til i journalen for Project Operations-ingetrering, funnet. Det opprettes en journallinje for hver faktiske transaksjon.
-Systemet grupperer journallinjer i separate journaler basert på verdien som er valgt i feltet **Periodenhet på journal for Project Operations-integrering** (**Finance** > **Prosjektstyring og regnskap** > **Oppsett** > **Prosjektstyring og regnskapsparametre**, **Project Operations i kategorien Dynamics 365 Customer Engagement**). Mulige verdier for dette feltet inkluderer følgende:
+Systemet grupperer journallinjer i separate journaler basert på verdien som er valgt i feltet **Periodenhet på journal for Project Operations-integrering** (**Finance** > **Prosjektstyring og regnskap** > **Oppsett** > **Prosjektstyring og regnskapsparametre**, **Project Operations i fanen Dynamics 365 Customer Engagement**). Mulige verdier for dette feltet inkluderer følgende:
 
-  - _*Dager**: Faktiske verdier er gruppert etter transaksjonsdato. Det opprettes en separat journal for hver dag.
+  - **Dager**: Faktiske verdier er gruppert etter transaksjonsdato. Det opprettes en separat journal for hver dag.
   - **Måneder**: Faktiske verdier grupperes etter kalendermåned. Det opprettes en separat journal for hver måned.
   - **År**: Faktiske verdier grupperes etter kalenderår. Det opprettes en separat journal for hvert år.
   - **Alle**: Alle faktiske transaksjoner er inkludert i samme integreringsjournal. Hvis journalen ikke er tilgjengelig når den periodiske prosessen kjører, for eksempel hvis journalen er i ferd med å postere transaksjoner, opprettes det en ny journal.
