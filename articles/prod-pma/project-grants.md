@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081801"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289381"
 ---
 # <a name="project-grants"></a>Prosjektstøtte
 
@@ -42,9 +42,9 @@ Du kan opprette et tilskudd ved å angi alle detaljene i en ny oppføring, eller
 
 1. Gå til **Prosjektstyring og regnskap** \> **Tilskudd** \> **Tilskudd**.
 2. Velg **Nytt** \> **Tilskudd**.
-3. På siden med tilskuddsdetaljer, på hurtigfanen **Generelt** , i feltet **Tilskudds-ID** , angir du en alfanumerisk identifikator for tilskuddet.
+3. På siden med tilskuddsdetaljer, på hurtigfanen **Generelt**, i feltet **Tilskudds-ID**, angir du en alfanumerisk identifikator for tilskuddet.
 4. Skriv inn et navn på tilskuddet i feltet **Navn på tilskudd**.
-5. I **Beskrivelse** -feltet legger du til detaljer om det nye tilskuddet.
+5. I **Beskrivelse**-feltet legger du til detaljer om det nye tilskuddet.
 
     De fleste av de andre feltene på siden er valgfrie, og du kan angi så lite eller så mye informasjon som du ønsker.
 
@@ -53,7 +53,7 @@ Du kan opprette et tilskudd ved å angi alle detaljene i en ny oppføring, eller
     - **Generelt** – Angi navnet på tilskuddet, status, beskrivelse, formål og beløp.
     - **Kontaktinformasjon** – Angi detaljer om ansatte, avdelingen som håndterer tilskuddet, og tilskuddskunden eller organisasjonskilden for tilskuddet. Du kan også angi om organisasjonen er et mellomledd som mottar tilskuddet og deretter sender det til en annen mottaker. Velg **Legg til** for å legge til kontaktinformasjon, for eksempel telefonnumre og e-postadresser, for organisasjonen som gir tilskuddet.
     - **Datoer og tidsfrister** – Angi datoer som er relatert til tilskuddet og tilskuddsprogrammet. Eksempler inkluderer søknadens forfallsdato, sendedatoen og datoen for når tilskuddet er godkjent eller avvist.
-    - **Tilknyttede prosjekter og prosjektkontrakter** – Du kan angi informasjon på denne hurtigfanen bare hvis **Tilskuddsstatus** -feltet på hurtigfanen **Generelt** er angitt til **Aktiv** eller **Tildelt**. Velg blant følgende alternativer for å fullføre den relaterte oppgaven:
+    - **Tilknyttede prosjekter og prosjektkontrakter** – Du kan angi informasjon på denne hurtigfanen bare hvis **Tilskuddsstatus**-feltet på hurtigfanen **Generelt** er angitt til **Aktiv** eller **Tildelt**. Velg blant følgende alternativer for å fullføre den relaterte oppgaven:
 
         - **Legg til finansieringskilde** – Legg til en ny finansieringskilde for tilskuddet. Du kan skrive inn alle detaljene nå, eller du kan bruke standardinformasjonen og deretter oppdatere den senere.
         - **Legg til prosjektkontrakt** – Legg til eller oppdater informasjon om prosjektkontrakten.

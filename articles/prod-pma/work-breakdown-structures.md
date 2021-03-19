@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081595"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287970"
 ---
 # <a name="work-breakdown-structures-overview"></a>Oversikt over arbeidsnedbrytningsstrukturer
 
@@ -50,7 +50,7 @@ Hvis du vil bruke de fullstendige planleggingsfunksjonene i WBS-funksjonene, fyl
 
 1.  Opprette en standardkalender og en prosjektkalender:
     1.  Klikk **Prosjektstyring og regnskap** &gt; **Oppsett** &gt; **Parametere for prosjektstyring og regnskap** &gt; **Planlegging**. Angi en standardkalender i feltet **Standard arbeidskalender**. Dette blir standard arbeidskalender for eventuelle nye prosjekter som opprettes.
-    2.  Du kan endre standardkalenderen for et bestemt prosjekt. Klikk detaljsiden for prosjektet, og deretter, på hurtigkategorien **Prosjektteam og planlegging** , oppdaterer du feltet **Planleggingskalender** ved å velge en annen kalender.
+    2.  Du kan endre standardkalenderen for et bestemt prosjekt. Klikk detaljsiden for prosjektet, og deretter, på hurtigkategorien **Prosjektteam og planlegging**, oppdaterer du feltet **Planleggingskalender** ved å velge en annen kalender.
 
 2.  Angi standard arbeidsdager og arbeidstid. Kalenderen som du angir som arbeidskalender for prosjektet, blir brukt i WBS for å finne følgende informasjon:
 
@@ -98,11 +98,11 @@ Du kan ikke tilpasse WBS-nummereringen for øyeblikket.
 
 **Reduser innrykk for aktivitet** Når du reduserer innrykket for en aktivitet, er den ikke lenger en del av den overordnede aktiviteten. WBS-nummeret for denne oppgaven beregnes automatisk på nytt for å vise det nye nivået til aktiviteten i hierarkiet. Innsats, kostnader og datoer for oppgavens forrige overordnede oppgave beregnes på nytt for å utelukke oppgaven. 
 
-**Flytt opp og Flytt ned** Når du klikker **Flytt opp** og **Flytt ned** , endrer du plasseringen til en oppgave innenfor det overordnede hierarkiet. Plasseringen til en oppgave påvirker ikke oppgavens innsats, kostnader, datoer eller varighet. WBS-nummeret for denne oppgaven beregnes imidlertid automatisk på nytt for å vise oppgavens nye posisjon.
+**Flytt opp og Flytt ned** Når du klikker **Flytt opp** og **Flytt ned**, endrer du plasseringen til en oppgave innenfor det overordnede hierarkiet. Plasseringen til en oppgave påvirker ikke oppgavens innsats, kostnader, datoer eller varighet. WBS-nummeret for denne oppgaven beregnes imidlertid automatisk på nytt for å vise oppgavens nye posisjon.
 
 ### <a name="schedule-estimation"></a>Tidsplanestimat
 
-Tidsplanestimat er vanligvis det andre trinnet i opprettelsen av en WBS. Som en god fremgangsmåte bør du fullføre planleggingsberegningen etter at du har opprettet oppgavene. Siden **Arbeidsnedbrytningsstruktur** i Finance har to deler. Den øvre ruten er beregnet på tidsplananslag, og den nedre ruten inneholder kategorien **Beregnede kostnader og inntekter** , som du kan bruke til kostnadsberegning. 
+Tidsplanestimat er vanligvis det andre trinnet i opprettelsen av en WBS. Som en god fremgangsmåte bør du fullføre planleggingsberegningen etter at du har opprettet oppgavene. Siden **Arbeidsnedbrytningsstruktur** i Finance har to deler. Den øvre ruten er beregnet på tidsplananslag, og den nedre ruten inneholder kategorien **Beregnede kostnader og inntekter**, som du kan bruke til kostnadsberegning. 
 **Aktivitetsavhengigheter** I en WBS-aktivitet kan du opprette en foregående relasjon mellom aktiviteter. Når du tilordner foregående oppgaver til en oppgave, kan oppgaven bare starte etter at de foregående oppgavene er fullført. Planlagt startdato for aktiviteten angis automatisk til siste dato for alle forgjengere. 
 
 **Oppgaveplanlegging** Følgende faktorer avgjør planleggingen av bladnodeoppgaver:
@@ -151,9 +151,9 @@ Som var nevnt tidligere i dette dokumentet angir du kostnadsestimeringen for hve
 -   Vare eller materiell
 -   Utgifter
 
-En **Gebyr** -transaksjonstype brukes til å beregne gebyrbasert omsetning. Denne transaksjonstypen har ikke en kostnadskomponent og vurderes derfor ikke når kostnader beregnes. 
+En **Gebyr**-transaksjonstype brukes til å beregne gebyrbasert omsetning. Denne transaksjonstypen har ikke en kostnadskomponent og vurderes derfor ikke når kostnader beregnes. 
 
-En **A konto** -transaksjonstype brukes til å registrere den avtalte salgsverdien i en prosjekttype med fast verdi. Denne transaksjonstypen tas heller ikke med når kostnader beregnes. 
+En **A konto**-transaksjonstype brukes til å registrere den avtalte salgsverdien i en prosjekttype med fast verdi. Denne transaksjonstypen tas heller ikke med når kostnader beregnes. 
 
 Når du beregner kostnader for arbeid, materialer og utgifter for hver aktivitet, må du tilordne en prosjektkategori til den beregnede kostnaden. 
 

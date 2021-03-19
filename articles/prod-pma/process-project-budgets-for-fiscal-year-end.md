@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081753"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289741"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Overføre prosjektbudsjetter ved regnskapsårets slutt
 
@@ -36,8 +36,8 @@ Når du arbeider med et prosjekt over flere år, kan det hende at gjenstående b
 Fullfør fremgangsmåten nedenfor for å se gjennom budsjettbeløpene ved årets slutt for prosjekter, men ikke overføre beløpene.
 
 1. Gå til **Prosjektstyring og regnskap** > **Periodisk** > **Budsjetter** > **Viderefør budsjetter**. 
-2. På siden **Videreføringsprosess for prosjektbudsjett** , på fanen **Alternativer for årsavslutning** , verifiserer du at **Viderefør gjenstående prosjektbudsjettbeløp** ikke er aktivert.
-3. På **Parametere** -fanen, i **Prosjektbudsjettår** -feltet, velger du regnskapsåret du vil vise det resterende budsjettbeløpet for. 
+2. På siden **Videreføringsprosess for prosjektbudsjett**, på fanen **Alternativer for årsavslutning**, verifiserer du at **Viderefør gjenstående prosjektbudsjettbeløp** ikke er aktivert.
+3. På **Parametere**-fanen, i **Prosjektbudsjettår**-feltet, velger du regnskapsåret du vil vise det resterende budsjettbeløpet for. 
 4. I feltet **Første regnskapsår** velger du regnskapsåret du vil vise det resterende budsjettbeløpet for. 
 5. I feltet **Fra prognosemodell** velger du **Gjenstående budsjett**. 
 6. Hvis du vil inkludere prosjekter som oppfyller de valgte vilkårene, og som ikke har noe gjenstående budsjett, velger du **Vis null gjenstående**.  
@@ -56,13 +56,13 @@ Når du behandler gjenstående budsjettbeløper, kan du opprette transaksjoner i
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Videreføre budsjettbeløp og opprette hovedboktransaksjoner
 
 1.  Velg **Prosjektstyring og regnskap** > **Periodisk** > **Budsjetter** > **Viderefør budsjetter**. 
-2. På siden **Videreføringsprosess for prosjektbudsjett** velger du **Årsavslutning** , og aktiver deretter **Viderefør gjenstående prosjektbudsjettbeløp** og **Opprett budsjettregisteroppføringer i hovedbok**. 
-3. På **Parametere** -fanen, i feltgruppen **Prosjektparametere** , velger du følgende:
+2. På siden **Videreføringsprosess for prosjektbudsjett** velger du **Årsavslutning**, og aktiver deretter **Viderefør gjenstående prosjektbudsjettbeløp** og **Opprett budsjettregisteroppføringer i hovedbok**. 
+3. På **Parametere**-fanen, i feltgruppen **Prosjektparametere**, velger du følgende:
 
-   - **Prosjektbudsjettår** : Velg begynnelsen for regnskapsåret du vil vise de resterende budsjettbeløpene for. 
-   - **Resultat** : Opprett resultattransaksjoner i hovedboken. 
-   -  **VIA** : Opprett VIA-transaksjoner (varer i arbeid) i hovedboken.
-   -  **Lønn** : Opprett lønnstildelingstransaksjoner i hovedboken. 
+   - **Prosjektbudsjettår**: Velg begynnelsen for regnskapsåret du vil vise de resterende budsjettbeløpene for. 
+   - **Resultat**: Opprett resultattransaksjoner i hovedboken. 
+   -  **VIA**: Opprett VIA-transaksjoner (varer i arbeid) i hovedboken.
+   -  **Lønn**: Opprett lønnstildelingstransaksjoner i hovedboken. 
 
 5. I feltgruppen **Hovedbok** oppgir du følgende informasjon: 
 
@@ -87,8 +87,8 @@ Når du behandler gjenstående budsjettbeløper, kan du opprette transaksjoner i
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Videreføre budsjettbeløp uten å opprette hovedboktransaksjoner
 
 1. Gå til **Prosjektstyring og regnskap** > **Periodisk** > **Budsjetter** > **Viderefør budsjetter**.
-2. På siden **Videreføringsprosess for prosjektbudsjett** , i feltet **Alternativer for årsavslutning** , velger du **Viderefør gjenstående prosjektbudsjettbeløp**.
-3. I **Parametere** -gruppen, i **Prosjektbudsjettår** -feltet, velger du regnskapsåret du vil vise de resterende budsjettbeløpene for.
+2. På siden **Videreføringsprosess for prosjektbudsjett**, i feltet **Alternativer for årsavslutning**, velger du **Viderefør gjenstående prosjektbudsjettbeløp**.
+3. I **Parametere**-gruppen, i **Prosjektbudsjettår**-feltet, velger du regnskapsåret du vil vise de resterende budsjettbeløpene for.
 4. I gruppen **Kopier fra/til** oppgir du følgende informasjon:
 
    - I feltet **Fra prognosemodell** velger du prosjektbudsjettprognosemodellen som er knyttet til de gjenstående budsjettbeløpene du vil overføre for prosjektene. 

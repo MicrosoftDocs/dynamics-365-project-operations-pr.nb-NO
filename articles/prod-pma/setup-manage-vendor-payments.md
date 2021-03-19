@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081599"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288615"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurere og bruke Betal når betalt-leverandørbetalinger
 
@@ -50,11 +50,11 @@ Når du definerer PWP-betingelser for et prosjekt, må du angi, som en prosentan
 1. Gå til **Prosjektstyring og regnskap** \> **Prosjekter** \> **Alle prosjekter**.
 2. Finn og åpne prosjektet du vil angi PWP-termer for.
 3. På hurtigfanen **Leverandøravtaler** velger du **Legg til linje**.
-3. Velg ett av følgende alternativer i feltet **Kontokode** :
+3. Velg ett av følgende alternativer i feltet **Kontokode**:
 
     - **Tabell** – PWP-betingelsene gjelder for én enkelt leverandør.
-    - **Gruppe** – PWP-betingelsene gjelder for alle leverandører i en leverandørgruppe.
-    - **Alle** – PWP-betingelsene gjelder for alle leverandører.
+    - **Gruppe**– PWP-betingelsene gjelder for alle leverandører i en leverandørgruppe.
+    - **Alle**– PWP-betingelsene gjelder for alle leverandører.
 
 4. Hvis du valgte **Tabell** eller **Gruppe** i forrige trinn, velger du leverandøren eller leverandørgruppen som PWP-termene gjelder for, i feltet **Leverandør/leverandørgruppe**. Hvis du valgte **Alle** i forrige trinn, kan ikke feltet **Leverandør/leverandørgruppe** redigeres.
 5. Hvis du har angitt tilbakeholdelsesbetingelser for leverandøren i prosjektet, velger du regel-ID-en for tilbakeholdelsesbetingelsene i feltet **Tilbakeholdelsesbetingelser for leverandør**.
@@ -65,11 +65,11 @@ Når du definerer PWP-betingelser for et prosjekt, må du angi, som en prosentan
 Hvis leverandøren er underlagt PWP-betingelser når du bokfører en faktura fra en leverandør, vises disse betingelsene på bestillingslinjene. Følg fremgangsmåten nedenfor for å opprette en bestilling som har PWP-termer.
 
 1. Gå til **Innkjøp og leverandør** \> **Bestillinger** \> **Alle bestillinger**.
-2. Velg **Ny** i handlingsruten. Deretter angir du den nødvendige informasjonen i dialogboksen **Opprett bestilling** , og deretter velger du **OK**.
+2. Velg **Ny** i handlingsruten. Deretter angir du den nødvendige informasjonen i dialogboksen **Opprett bestilling**, og deretter velger du **OK**.
 
     Du kan også åpne en eksisterende bestilling på listesiden **Alle bestillinger**.
 
-4. Gå gjennom detaljene på bestillingslinjen for leverandøren på siden **Bestilling** på hurtigfanen **Bestillingslinjer**. Alternativet **Betal når betalt** velges automatisk, og verdien i feltet **PWP-terskelprosent** kopieres automatisk fra feltet **PWP-terskelprosent** på **Prosjekter** -siden.
+4. Gå gjennom detaljene på bestillingslinjen for leverandøren på siden **Bestilling** på hurtigfanen **Bestillingslinjer**. Alternativet **Betal når betalt** velges automatisk, og verdien i feltet **PWP-terskelprosent** kopieres automatisk fra feltet **PWP-terskelprosent** på **Prosjekter**-siden.
 6. Hvis du ikke vil bruke PWP-termer for leverandøren på en bestillingslinje, fjerner du merket for **Betal når betalt**. I dette tilfellet blir feltet **PWP-terskelprosent** for bestillingslinjen tilbakestilt til 0 (null).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Oppdatere en kundebetaling og betale leverandøren

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081763"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289786"
 ---
 # <a name="project-management-and-accounting-overview"></a>Oversikt over prosjektstyring og regnskap
 
@@ -205,8 +205,8 @@ Du kan bestille varer fra firmaets lager for forbruk på et prosjekt. Du kan ogs
 
 Måten du bestiller varer på, avhenger av hvor du skal bestille dem fra:
 
--   Hvis du vil bestille varer fra selskapets lager, må du angi ordren som et varebehov. Hvis du bruker siden **Varebehov** , kan du konfigurere behovet slik at du mottar varer som delleveringer.Derfor kan du utsette forbruk av et antall av varene til varene er obligatoriske.
--   Hvis du vil bestille varer fra en ekstern leverandør, må du opprette ordren som en bestilling på **Bestilling** -siden.
+-   Hvis du vil bestille varer fra selskapets lager, må du angi ordren som et varebehov. Hvis du bruker siden **Varebehov**, kan du konfigurere behovet slik at du mottar varer som delleveringer. Derfor kan du utsette forbruk av et antall av varene til varene er obligatoriske.
+-   Hvis du vil bestille varer fra en ekstern leverandør, må du opprette ordren som en bestilling på **Bestilling**-siden.
 
 > [!NOTE] 
 > Følgeseddelen for en prosjektrelatert salgsordre kan ikke avbrytes hvis varene allerede er merket for emballasje. 
@@ -232,7 +232,7 @@ Hvis du vil ha mer informasjon om hvordan du behandler prosjektfakturaer, kan du
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Beregne kostnaden for å fullføre et prosjekt
 
-Når du oppretter et estimat, kan du velge metoden som brukes til å beregne kostnaden for å fullføre prosjektet. Du velger en metode i feltet **Metode for kostnad som skal fylles ut** på siden **Opprett estimat**. Metoden du velger, brukes separat for hver kostnadslinje i kostnadsestimatet. Når en linje har statusen **Opprettet** , kan du endre metoden som brukes på den på siden **Kostnadsestimat**. 
+Når du oppretter et estimat, kan du velge metoden som brukes til å beregne kostnaden for å fullføre prosjektet. Du velger en metode i feltet **Metode for kostnad som skal fylles ut** på siden **Opprett estimat**. Metoden du velger, brukes separat for hver kostnadslinje i kostnadsestimatet. Når en linje har statusen **Opprettet**, kan du endre metoden som brukes på den på siden **Kostnadsestimat**. 
 
 Tabellen nedenfor beskriver metodene for beregning av kostnaden for å fullføre et prosjekt.
 
@@ -300,12 +300,12 @@ Basert på oppsettet kan du beregne kontantinnflytene for et valgt prosjekt. Hvi
 -   **Prosjektdato:** 5. mars 2012.
 -   **Fakturadato:** 31. mars 2012. Denne datoen er fastsatt basert på fakturahyppigheten. I dette eksemplet angir du fakturafrekvensen til gjeldende måned. Derfor faktureres alle transaksjoner som er postert i mars måned, på den siste dagen i måneden.
 -   **Forfallsdato:** 14. april 2012. Denne datoen blir fastsatt basert på betalingsbetingelsene som ble angitt for prosjektet. I dette eksemplet har du valgt betalingsbetingelser på 14 dager. Det blir derfor lagt til 14 dager på fakturadatoen for å komme til en forfallsdato, 14. april 2012.
--   **Forventet salgsbetalingsdato:** 27. april 2012. Denne datoen beregnes ved å legge til antall dager i feltet **Generelle bufferdager** på siden **Parametere for prosjektstyring og regnskap** til antallet dager i feltet **Individuelle bufferdager** på siden **Prosjektkontrakter** , og deretter legger du til summen til antallet dager i feltet **Forfallsdato**. I dette eksemplet angir du **3** i feltet **Generelle bufferdager** og **10** i feltet **Individuelle bufferdager**. Det blir derfor lagt til 13 dager på forfallsdatoen for å komme til en forventet salgsbetalingsdato, 27. april 2012.
+-   **Forventet salgsbetalingsdato:** 27. april 2012. Denne datoen beregnes ved å legge til antall dager i feltet **Generelle bufferdager** på siden **Parametere for prosjektstyring og regnskap** til antallet dager i feltet **Individuelle bufferdager** på siden **Prosjektkontrakter**, og deretter legger du til summen til antallet dager i feltet **Forfallsdato**. I dette eksemplet angir du **3** i feltet **Generelle bufferdager** og **10** i feltet **Individuelle bufferdager**. Det blir derfor lagt til 13 dager på forfallsdatoen for å komme til en forventet salgsbetalingsdato, 27. april 2012.
 
 De generelle bufferdagene kan enten erstatte de individuelle bufferdagene eller legges til de individuelle bufferdagene:
 
 -   Hvis du vil bruke de generelle bufferdagene som erstatning for de individuelle bufferdagene, angir du det gjennomsnittlige antallet dager mellom forfallsdatoen og den faktiske betalingsdatoen for kunder.
--   Hvis du vil legge til de generelle bufferdagene i de individuelle bufferdagene, går du til feltet **Generelle bufferdager** , angir estimatet for antall dager mellom dagen kunden sender betalingen, og dagen da organisasjonen din mottar betalingen.
+-   Hvis du vil legge til de generelle bufferdagene i de individuelle bufferdagene, går du til feltet **Generelle bufferdager**, angir estimatet for antall dager mellom dagen kunden sender betalingen, og dagen da organisasjonen din mottar betalingen.
 
 Konfigurere individuelle bufferdager i prosjektets kontrakt. Dagene beregnes basert på både forfallsdatoen for salgsfakturaen og organisasjonens erfaring med kundebetalingsmønsteret.
 
@@ -323,9 +323,9 @@ Betalingsdatoen for kostnader kan være forskjellig fra prosjektdatoen basert p�
 
 Prosjektdatoen for transaksjonen er for eksempel 5. mars 2012, og følgende betalingsbetingelser er angitt:
 
--   **Timer:** Gjeldende måned ( **M** )
--   **Utgifter:** 14 dager ( **D14** )
--   **Elementer:** 30 dager ( **D30** )
+-   **Timer:** Gjeldende måned (**M**)
+-   **Utgifter:** 14 dager (**D14**)
+-   **Elementer:** 30 dager (**D30**)
 
 På grunnlag av disse innstillingene, her er kostnadsbetalingsdato for hver transaksjonstype:
 
@@ -364,14 +364,14 @@ Du kan overvåke kostnadene som organisasjonen påløper seg under et prosjekt, 
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Vise de gjenstående budsjetterte beløpene
 
-Hvis **Gjenstående budsjett** er valgt som kostnadsstyringsmetode på siden **Parametere for prosjektstyring og regnskap** , beregner siden **Kostnadskontroll** kostnadene som ikke er postert som faktiske eller merket som igangsatt. Beløpene i kategorien **Generelt** i den nedre ruten på siden **Kostnadskontroll** beregnes spesifikt på følgende måter:
+Hvis **Gjenstående budsjett** er valgt som kostnadsstyringsmetode på siden **Parametere for prosjektstyring og regnskap**, beregner siden **Kostnadskontroll** kostnadene som ikke er postert som faktiske eller merket som igangsatt. Beløpene i kategorien **Generelt** i den nedre ruten på siden **Kostnadskontroll** beregnes spesifikt på følgende måter:
 
 -   **Faktisk kostnad** – Total beløpet som er brukt på prosjektet for den valgte kostnadslinjen. Det faktiske kostnadsbeløpet beregnes på siden **Finansoppdateringer**.
 -   **Igangsatt kost** – Tilleggsbeløpet som den juridiske enheten har forpliktet seg til å betale. De spesifikke forpliktede kostnadsbeløpene blir beregnet på siden **Faktiske kostnader**.
 -   **Gjenstående budsjett** – Beløpet for det opprinnelige budsjetterte beløpet som fremdeles er tilgjengelig for den valgte kostnadslinjen. Det gjenstående budsjettbeløpet beregnes på siden **Forhåndsvisning av økonomimodul**.
 -   **Totale kostnader** – Summen av de faktiske kostnadene, de igangsatte kostnadene og de gjenstående budsjettbeløpene.
 
-På siden **Kostnadskontroll** i kategorien **Avvik** kan du vise en sammenligning av den totale forventede kostnaden med det opprinnelige budsjettet. Denne sammenligningen viser forskjeller mellom disse beløpene. Derfor kan du se hvor dataene ikke samsvarer. Avviksbeløpene beregnes på følgende måter:
+På siden **Kostnadskontroll** i fanen **Avvik** kan du vise en sammenligning av den totale forventede kostnaden med det opprinnelige budsjettet. Denne sammenligningen viser forskjeller mellom disse beløpene. Derfor kan du se hvor dataene ikke samsvarer. Avviksbeløpene beregnes på følgende måter:
 
 -   **Opprinnelig budsjett** – Beløpet som opprinnelig ble budsjettert for den valgte kostnadslinjen. Det opprinnelige budsjettbeløpet beregnes på siden **Forhåndsvisning av økonomimodul**.
 -   **Totale kostnader** – Summen av de faktiske kostnadene, de igangsatte kostnadene og gjenstående budsjett, som rapportert i kategorien **Generelt**.
@@ -381,7 +381,7 @@ På siden **Kostnadskontroll** i kategorien **Avvik** kan du vise en sammenligni
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Vise de totale budsjetterte beløpene
 
-Hvis **Totalt budsjett** er valgt som kostnadskontrollmetoden på siden **Parametere for prosjektstyring og regnskap** , beregner siden **Kostnadskontroll** de faktiske kostnadene og de totale kostnader for prosjektet, slik at du får hjelp til å oppdage eventuelle differanser mellom de to. På siden **Kostnadskontroll** beregnes beløpene i kolonnen i nederste rute i kategorien **Generelt** på følgende måter:
+Hvis **Totalt budsjett** er valgt som kostnadskontrollmetoden på siden **Parametere for prosjektstyring og regnskap**, beregner siden **Kostnadskontroll** de faktiske kostnadene og de totale kostnader for prosjektet, slik at du får hjelp til å oppdage eventuelle differanser mellom de to. På siden **Kostnadskontroll** beregnes beløpene i kolonnen i nederste rute i fanen **Generelt** på følgende måter:
 
 -   **Total budsjettert kostnad** – Det totale budsjetterte beløpet for den valgte kostnadslinjen.
 -   **Faktisk kostnad** – Det totale kostnadsbeløpet som er pådratt på prosjektet til dato for de valgte kostnadslinjene.
@@ -414,7 +414,7 @@ Du beregner utnyttelsesratene på siden **Timeutnyttelse**. Beregningene er base
 -   **Ifølge linjeegenskap** – Linjeegenskapene for en bestemt timetransaksjon avgjør om timene vurderes for fakturerbar utnyttelse eller effektivitetsutnyttelse.
 -   **Ikke inkludert** – Timer blir ikke omregnet til beregning av fakturerbar utnyttelse eller effektivitetsutnyttelse.
 
-På **Timeutnyttelse** -siden kan du vise antall timer som ble brukt til beregning av utnyttelsesraten for hver av de følgende timetypene, i tillegg til den totale prosentandelen av utnyttelsesraten for en arbeider eller et prosjekt:
+På **Timeutnyttelse**-siden kan du vise antall timer som ble brukt til beregning av utnyttelsesraten for hver av de følgende timetypene, i tillegg til den totale prosentandelen av utnyttelsesraten for en arbeider eller et prosjekt:
 
 -   **Ikke-inkluderte timer** – Disse timene tas ikke med i timeutnyttelsesraten.
 -   **Inkluderte timer** – Disse timene beregnes ved å legge til utnyttelsestimer og belastningstimer. Disse timene er inkludert i utnyttelsesraten.
@@ -432,7 +432,7 @@ Du kan opprette et prosjektutdrag for å vise et hurtig øyeblikksbilde av fremd
 -   Prosjektdato/hovedbokdato
 -   Data
 
-Når utdraget er beregnet, kan du vise følgende informasjon i de forskjellige kategoriene på siden **Prosjektoppgaver** :
+Når utdraget er beregnet, kan du vise følgende informasjon i de forskjellige kategoriene på siden **Prosjektoppgaver**:
 
 -   **Generelt** – Generell informasjon om den grunnleggende resultatstrukturen i prosjektet.
 -   **Resultat** – Informasjon om påløpte inntekter.

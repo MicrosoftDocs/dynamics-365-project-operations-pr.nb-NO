@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081748"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289471"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisere prosjektestimater direkte fra Project Service Automation til Finance and Operations
 
@@ -46,7 +46,7 @@ Illustrasjonen nedenfor viser hvordan dataene synkroniseres mellom Project Servi
 
 ### <a name="template-and-tasks"></a>Mal og oppgaver
 
-Hvis du vil ha tilgang til de tilgjengelige malene, går du til Microsoft Power Apps og velger **Prosjekter** , og deretter velger du **Nytt prosjekt** i øverste høyre hjørne for å velge offentlige maler.
+Hvis du vil ha tilgang til de tilgjengelige malene, går du til Microsoft Power Apps og velger **Prosjekter**, og deretter velger du **Nytt prosjekt** i øverste høyre hjørne for å velge offentlige maler.
 
 Følgende mal og underliggende oppgaver brukes til å synkronisere estimater for prosjekttime fra Project Service Automation til Finance:
 
@@ -80,18 +80,18 @@ I malen for estimat av prosjekttime må du bruke Microsoft Power Query for Excel
 
 #### <a name="set-the-default-forecast-model-id"></a>Angi standard prognosemodell-ID
 
-Hvis du vil oppdatere standard prognosemodell-ID i malen, klikker du **Tilordne** -pilen for å åpne tilordningen. Deretter velger du koblingen **Avansert spørring og filtrering**.
+Hvis du vil oppdatere standard prognosemodell-ID i malen, klikker du **Tilordne**-pilen for å åpne tilordningen. Deretter velger du koblingen **Avansert spørring og filtrering**.
 
-- Hvis du bruker standardmalen for estimater for prosjekttime (PSA til Fin og OPS), velger du **Innsatt betingelse** i listen **Brukte trinn**. I **Funksjon** -oppføringen erstatter du **O\_prognose** med navnet på prognosemodell-ID-en som skal brukes med integrasjonen. Standardmalen har en prognosemodell-ID fra demonstrasjonsdataene.
+- Hvis du bruker standardmalen for estimater for prosjekttime (PSA til Fin og OPS), velger du **Innsatt betingelse** i listen **Brukte trinn**. I **Funksjon**-oppføringen erstatter du **O\_prognose** med navnet på prognosemodell-ID-en som skal brukes med integrasjonen. Standardmalen har en prognosemodell-ID fra demonstrasjonsdataene.
 - Hvis du oppretter en ny mal, må du legge til denne kolonnen. Velg **Legg til betinget kolonne** i Power Query, og skriv inn et navn for den nye kolonnen, for eksempel **Modell-ID**. Angi betingelsen for kolonnen, der hvis prosjektoppgaven ikke er null, så \<enter the forecast model ID\>. Ellers null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrere ut ressursspesifikke oppføringer
 
-Malen Estimater for prosjekttimer (PSA til Fin og OPS) har et standardfilter som fjerner eventuelle ressursspesifikke oppføringer. Hvis du oppretter din egen mal, må du legge til dette filteret. Velg koblingen **Avansert spørring og filtrering** for å filtrere etter kolonnen **msdyn\_islinetask** , slik at bare **Usann** oppføringer tas med.
+Malen Estimater for prosjekttimer (PSA til Fin og OPS) har et standardfilter som fjerner eventuelle ressursspesifikke oppføringer. Hvis du oppretter din egen mal, må du legge til dette filteret. Velg koblingen **Avansert spørring og filtrering** for å filtrere etter kolonnen **msdyn\_islinetask**, slik at bare **Usann** oppføringer tas med.
 
 #### <a name="filter-out-empty-transaction-category-rows"></a>Filtrer ut tomme rader for transaksjonskategorier.
 
-Du må legge til et filter for å fjerne alle rader som har tomme transaksjonskategorier. Denne oppgaven er obligatorisk, uansett om du bruker standardmalen eller oppretter en egen mal. Dette filteret fjerner alle sammendragsrader fra Project Service Automation som kan føre til at timeprognoser i Finance blir feil. Velg **Avansert spørring og filtrering** -koblingen for å filtrere ut null-oppføringer i kolonnen **msdyn\_transactioncategory\_value**.
+Du må legge til et filter for å fjerne alle rader som har tomme transaksjonskategorier. Denne oppgaven er obligatorisk, uansett om du bruker standardmalen eller oppretter en egen mal. Dette filteret fjerner alle sammendragsrader fra Project Service Automation som kan føre til at timeprognoser i Finance blir feil. Velg **Avansert spørring og filtrering**-koblingen for å filtrere ut null-oppføringer i kolonnen **msdyn\_transactioncategory\_value**.
 
 ### <a name="template-mapping-in-data-integration"></a>Maltilordning i dataintegrering
 
@@ -137,18 +137,18 @@ I malen for estimat av prosjektutgifter må du bruke Power Query til å utføre 
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filter for å inkludere bare linjer for utgiftsestimater.
 
-Malen for estimater for prosjektutgifter (PSA til fin og OPS) har et standardfilter som bare inkluderer utgiftslinjer i integrasjonen. Hvis du oppretter din egen mal, må du legge til dette filteret. Velg oppgaven **Transaksjonsrelasjoner** , og klikk deretter **Tilordne** -pilen for å åpne tilordningen. Velg koblingen **Avansert spørring og filtrering**. Filtrer kolonnen **msdyn\_transactiontype1** , slik at den bare inkluderer **msdyn\_estimateline**.
+Malen for estimater for prosjektutgifter (PSA til fin og OPS) har et standardfilter som bare inkluderer utgiftslinjer i integrasjonen. Hvis du oppretter din egen mal, må du legge til dette filteret. Velg oppgaven **Transaksjonsrelasjoner**, og klikk deretter **Tilordne**-pilen for å åpne tilordningen. Velg koblingen **Avansert spørring og filtrering**. Filtrer kolonnen **msdyn\_transactiontype1**, slik at den bare inkluderer **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Angi standard prognosemodell-ID
 
-Hvis du vil oppdatere standard prognosemodell-ID i malen, velger du oppgaven **Utgiftsestimater** , og deretter klikker du **Tilordne** -pilen for å åpne tilordningen. Velg koblingen **Avansert spørring og filtrering**.
+Hvis du vil oppdatere standard prognosemodell-ID i malen, velger du oppgaven **Utgiftsestimater**, og deretter klikker du **Tilordne**-pilen for å åpne tilordningen. Velg koblingen **Avansert spørring og filtrering**.
 
-- Hvis du bruker standardmalen for estimater for prosjektutgifter (PSA til Fin og OPS) i Power Query, velger du først **Innsatt betingelse** fra delen **Brukte trinn**. I **Funksjon** -oppføringen erstatter du **O\_prognose** med navnet på prognosemodell-ID-en som skal brukes med integrasjonen. Standardmalen har en prognosemodell-ID fra demonstrasjonsdataene.
+- Hvis du bruker standardmalen for estimater for prosjektutgifter (PSA til Fin og OPS) i Power Query, velger du først **Innsatt betingelse** fra delen **Brukte trinn**. I **Funksjon**-oppføringen erstatter du **O\_prognose** med navnet på prognosemodell-ID-en som skal brukes med integrasjonen. Standardmalen har en prognosemodell-ID fra demonstrasjonsdataene.
 - Hvis du oppretter en ny mal, må du legge til denne kolonnen. Velg **Legg til betinget kolonne** i Power Query, og skriv inn et navn for den nye kolonnen, for eksempel **Modell-ID**. Angi betingelsen for kolonnen, der hvis ID-en for estimatlinjen ikke er null, så \<enter the forecast model ID\>. Ellers null.
 
 #### <a name="transform-the-billing-types"></a>Transformer faktureringstypene
 
-Malen for estimater for prosjektutgifter (PSA til Fin og OPS) inkluderer en betinget kolonne som brukes til å transformere faktureringstypene som er mottatt fra Project Service Automation under integreringen. Hvis du oppretter din egen mal, må du legge til denne betinget-kolonnen. Velg **Avanserte spørring og filtrering** -koblingen, og velg deretter **Legg til betinget kolonne**. Angi et navn for den nye kolonnen, for eksempel **Faktureringstype**. Skriv deretter inn følgende betingelse:
+Malen for estimater for prosjektutgifter (PSA til Fin og OPS) inkluderer en betinget kolonne som brukes til å transformere faktureringstypene som er mottatt fra Project Service Automation under integreringen. Hvis du oppretter din egen mal, må du legge til denne betinget-kolonnen. Velg **Avanserte spørring og filtrering**-koblingen, og velg deretter **Legg til betinget kolonne**. Angi et navn for den nye kolonnen, for eksempel **Faktureringstype**. Skriv deretter inn følgende betingelse:
 
 Hvis **msdyn\_billingtype** = 192350000, er den **Ikke-belastbar**  
 Hvis **msdyn\_billingtype** = 192350001, er den **Belastbar**  
@@ -157,7 +157,7 @@ Hvis ikke **Ikke tilgjengelig**
 
 #### <a name="transform-the-transaction-types"></a>Transformer transaksjonstypene
 
-Malen for estimater for prosjektutgifter (PSA til Fin og OPS) inkluderer en betinget kolonne som brukes til å transformere transaksjonstypene som er mottatt fra Project Service Automation under integreringen. Hvis du oppretter din egen mal, må du legge til denne betinget-kolonnen. Velg **Avanserte spørring og filtrering** -koblingen, og velg deretter **Legg til betinget kolonne**. Angi et navn for den nye kolonnen, for eksempel **Transaksjonstype**. Skriv deretter inn følgende betingelse:
+Malen for estimater for prosjektutgifter (PSA til Fin og OPS) inkluderer en betinget kolonne som brukes til å transformere transaksjonstypene som er mottatt fra Project Service Automation under integreringen. Hvis du oppretter din egen mal, må du legge til denne betinget-kolonnen. Velg **Avanserte spørring og filtrering**-koblingen, og velg deretter **Legg til betinget kolonne**. Angi et navn for den nye kolonnen, for eksempel **Transaksjonstype**. Skriv deretter inn følgende betingelse:
 
 Hvis **msdyn\_transactiontypecode** = 192350000, er det **Kostnad**  
 Hvis **msdyn\_transactiontypecode** = 192350005, er det **Salg**  

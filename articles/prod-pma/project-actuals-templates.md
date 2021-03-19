@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081752"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289696"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronisere faktiske prosjektdata direkte fra Project Service Automation til prosjektintegreringsjournalen for postering i Finance and Operations
 
@@ -50,7 +50,7 @@ Illustrasjonen nedenfor viser hvordan dataene synkroniseres mellom Project Servi
 
 ### <a name="template-and-tasks"></a>Mal og oppgaver
 
-Hvis du vil ha tilgang til de tilgjengelige malene, går du til Microsoft Power Apps og velger **Prosjekter** , og deretter velger du **Nytt prosjekt** i øverste høyre hjørne for å velge offentlige maler.
+Hvis du vil ha tilgang til de tilgjengelige malene, går du til Microsoft Power Apps og velger **Prosjekter**, og deretter velger du **Nytt prosjekt** i øverste høyre hjørne for å velge offentlige maler.
 
 Følgende mal og underliggende oppgaver brukes til å synkronisere faktiske prosjektdasta fra Project Service Automation til Finance:
 
@@ -86,10 +86,10 @@ I malen for faktiske prosjektdata må du bruke Microsoft Power Query for Excel t
 - Hvis de faktiske verdiene for konsernintern tid eller konserninterne utgifter ikke skal synkroniseres til Finance, må du slette den sist innsatte betingelseskolonnen fra malen. Ellers kan det oppstå en integreringsfeil, eller feil faktiske transaksjoner kan importeres til Finance.
 
 #### <a name="contract-organizational-unit"></a>Kontraktorganisasjonsenhet
-Hvis du vil oppdatere den innsatte betingelseskolonnen i malen, klikker du **Tilordne** -pilen for å åpne tilordningen. Velg koblingen **Avansert spørring og filtrering** for å åpne Power Query.
+Hvis du vil oppdatere den innsatte betingelseskolonnen i malen, klikker du **Tilordne**-pilen for å åpne tilordningen. Velg koblingen **Avansert spørring og filtrering** for å åpne Power Query.
 
-- Hvis du bruker standardmalen for faktiske prosjektdata (PSA til Fin og OPS) i Power Query, velger du siste **Innsatt betingelse** fra delen **Brukte trinn**. I **Funksjon** -oppføringen erstatter du **USSI** med navnet på den juridiske enheten som skal brukes med integrasjonen. Legg til flere betingelser i **Funksjon** -oppføringen slik du ønsker, og oppdater **hvis ikke** -betingelsen fra **USMF** til riktig juridisk enhet.
-- Hvis du oppretter en ny mal, må du legge til kolonnen for å støtte konserninterne tid og utgifter. Velg **Legg til betinget kolonne** , og skriv inn et navn på den nye kolonnen, for eksempel **Juridisk enhet**. Angi en betingelse for kolonnen, der hvis **msdyn\_contractorganizationalunitid.msdyn\_name** er \<organizational unit\>, så \<enter the legal entity\>. Hvis ikke null.
+- Hvis du bruker standardmalen for faktiske prosjektdata (PSA til Fin og OPS) i Power Query, velger du siste **Innsatt betingelse** fra delen **Brukte trinn**. I **Funksjon**-oppføringen erstatter du **USSI** med navnet på den juridiske enheten som skal brukes med integrasjonen. Legg til flere betingelser i **Funksjon**-oppføringen slik du ønsker, og oppdater **hvis ikke**-betingelsen fra **USMF** til riktig juridisk enhet.
+- Hvis du oppretter en ny mal, må du legge til kolonnen for å støtte konserninterne tid og utgifter. Velg **Legg til betinget kolonne**, og skriv inn et navn på den nye kolonnen, for eksempel **Juridisk enhet**. Angi en betingelse for kolonnen, der hvis **msdyn\_contractorganizationalunitid.msdyn\_name** er \<organizational unit\>, så \<enter the legal entity\>. Hvis ikke null.
 
 ### <a name="template-mapping-in-data-integration"></a>Maltilordning i dataintegrering
 

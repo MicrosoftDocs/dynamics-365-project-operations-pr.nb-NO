@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287700"
 ---
 # <a name="manage-a-proforma-invoice"></a>Behandle en proformafaktura
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Proformafakturaer i Dynamics 365 er bygget som en forlengelse til fakturaene i Dynamics 365 Sales. Det er imidlertid mange forskjeller i faktureringsprosessen mellom Salg og Project Operations når det gjelder fakturering. Det er for eksempel ikke mulig å opprette en ny faktura fra siden **Fakturaliste** i Project Operations, men det er mulig å gjøre dette i Salg. Disse forskjellene og utvidelsene er på plass for å støtte faktureringsprosesser for prosjekter som er forskjellige fra en vanlig faktura for en salgsordre.
+Proformafakturaer i Dynamics 365 Project Operations er bygget som en forlengelse til fakturaene i Dynamics 365 Sales. Det er imidlertid mange forskjeller i faktureringsprosessen mellom Salg og Project Operations når det gjelder fakturering. Det er for eksempel ikke mulig å opprette en ny faktura fra siden **Fakturaliste** i Project Operations, men det er mulig å gjøre dette i Salg. Disse forskjellene og utvidelsene er på plass for å støtte faktureringsprosesser for prosjekter som er forskjellige fra en vanlig faktura for en salgsordre.
 
 > [!IMPORTANT]
 > På grunn av forskjellene må du ikke bruke fakturaer i Salg og Project Operations om hverandre.

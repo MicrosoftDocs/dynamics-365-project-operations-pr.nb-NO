@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081681"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289336"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasjon med Microsoft Project Client
 
@@ -39,17 +39,17 @@ Hvis du vil aktivere integreringen med Microsoft Project Client, må et Microsof
 
 •   Klikk **Konfigurer prosjektklienttillegg** fra delen **Koblinger** > **Oppsett** i arbeidsområdet.
 
-•   Klikk **Åpne** , og klikk deretter **Kjør** når du blir bedt om det.
+•   Klikk **Åpne**, og klikk deretter **Kjør** når du blir bedt om det.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Åpne og rediger et eksisterende utkast for en arbeidsnedbrytningsstruktur i Microsoft Project Client
-Hvis et prosjekt i Dynamics 365 Finance allerede har opprettet en arbeidsnedbrytningsstruktur, kan arbeidsnedbrytningsstrukturen åpnes i Microsoft Project Client-programmet hvis arbeidsnedbrytningsstrukturen er i utkaststatus. Hvis du vil åpne fra **Prosjekt** -siden, klikker du **Åpne i Microsoft Project** -koblingen i kategorien **Plan**. Du kan også åpne denne siden i Microsoft Project Client-programmet ved å klikke **Åpne** i kategorien **Microsoft Dynamics 365**. Velg **Juridisk enhet** og **Prosjekt** fra listen.
+Hvis et prosjekt i Dynamics 365 Finance allerede har opprettet en arbeidsnedbrytningsstruktur, kan arbeidsnedbrytningsstrukturen åpnes i Microsoft Project Client-programmet hvis arbeidsnedbrytningsstrukturen er i utkaststatus. Hvis du vil åpne fra **Prosjekt**-siden, klikker du **Åpne i Microsoft Project**-koblingen i kategorien **Plan**. Du kan også åpne denne siden i Microsoft Project Client-programmet ved å klikke **Åpne** i kategorien **Microsoft Dynamics 365**. Velg **Juridisk enhet** og **Prosjekt** fra listen.
 
 > [!NOTE]
 > Hvis du bruker Internet Explorer som webleser, må du klikke **Lagre** for å åpne manuelt fra plasseringen som filen er lastet ned til. Du kan også klikke **Lagre og åpne** for å åpne filen i Microsoft Project Client. Ikke gi nytt navn til filen når du lagrer.
 
 Før du redigerer filen ved hjelp av Microsoft Project Client, må du sjekke den ut. Klikk **Sjekk ut** i kategorien **Microsoft Dynamics 365**. Dette hindrer at andre brukere kan redigere arbeidsnedbrytningsstrukturen fra Finance samtidig. Hvis du vil publisere arbeidsnedbrytningsstruktur etter at du har fullført eventuelle redigeringer, klikker du **Sjekk inn** i kategorien **Microsoft Dynamics 365**.
 
-Hvis et prosjektteam allerede er lagt til i prosjektet i Finance, vil ressurslisten fylles ut med teammedlemmene. Hvis et prosjektteam ennå ikke er lagt til i prosjektet, kan du velge ressurser og bygge teamet i Microsoft Project Client ved å klikke **Ressurser** -knappen i kategorien **Microsoft Dynamics 365**. 
+Hvis et prosjektteam allerede er lagt til i prosjektet i Finance, vil ressurslisten fylles ut med teammedlemmene. Hvis et prosjektteam ennå ikke er lagt til i prosjektet, kan du velge ressurser og bygge teamet i Microsoft Project Client ved å klikke **Ressurser**-knappen i kategorien **Microsoft Dynamics 365**. 
 
 Følgende data blir synkronisert til Finance som en del av innsjekkingsprosessen:
 
@@ -122,7 +122,7 @@ Følg denne fremgangsmåten for å opprette en ny arbeidsnedbrytningsstruktur me
 
 6.  Angi **Produktnavn**.
 
-7.  Velg **Prosjekttype** , **Prosjektgruppe** og **Prosjektkontrakt-ID**. Du kan også opprette en ny prosjektkontrakt ved å klikke **Ny**.
+7.  Velg **Prosjekttype**, **Prosjektgruppe** og **Prosjektkontrakt-ID**. Du kan også opprette en ny prosjektkontrakt ved å klikke **Ny**.
 
 8.  Velg **Kalenderen** som skal brukes for ressurser.
 

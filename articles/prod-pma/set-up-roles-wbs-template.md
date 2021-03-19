@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081600"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288661"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Konfigurere roller i maler for arbeidsnedbrytningsstruktur
 
@@ -33,7 +33,7 @@ Prosjektledere kan konfigurere WBS-maler (arbeidsnedbrytingsstruktur) som de kan
 
 1. Velg **Prosjektstyring og regnskap** > **Oppsett** > **Prosjekter** > **Maler for arbeidsnedbrytningsstruktur**.
 2. Velg **Detaljer** for en valgt WBS-mal.
-3. Velg en oppgave i listen, og deretter, i feltet **Rolle** , velger du en rolle for å tilordne oppgaven.
+3. Velg en oppgave i listen, og deretter, i feltet **Rolle**, velger du en rolle for å tilordne oppgaven.
 
 ## <a name="work-with-a-wbs"></a>Arbeide med en WBS
 
@@ -79,7 +79,7 @@ Det er lagt til flere alternativer i WBS for å bruke ressursfunksjonaliteten be
 </tbody>
 </table>
 
-1. På siden **Alle prosjekter** velger du **XYZ-oppgraderingsfase 2** -prosjektet.
+1. På siden **Alle prosjekter** velger du **XYZ-oppgraderingsfase 2**-prosjektet.
 2. Velg **Plan** > **Aktiviteter** > **Arbeidsnedbrytningsstruktur**.
 3. Velg **Ny** for å legge til følgende nivå én-aktiviteter i WBS:
 
@@ -93,11 +93,11 @@ Det er lagt til flere alternativer i WBS for å bruke ressursfunksjonaliteten be
 
     [![Angi datoer og innsats](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Velg oppgavelinjen **Innledende** , og deretter, i feltet **Rolle** , velger du **Overordnet prosjektleder**.
+5. Velg oppgavelinjen **Innledende**, og deretter, i feltet **Rolle**, velger du **Overordnet prosjektleder**.
 6. Velg **Publiser**.
-7. På samme linje, i feltet **Ressurs** , velger du **Daniel Goldschmidt** , og deretter velger du **Godta**.
-8. Velg oppgavelinjen **Planlegging** , og deretter, i feltet **Rolle** , velger du **Forretningsanalytiker**.
-9. Velg **Publiser** , og velg deretter **Generere team automatisk**.
+7. På samme linje, i feltet **Ressurs**, velger du **Daniel Goldschmidt**, og deretter velger du **Godta**.
+8. Velg oppgavelinjen **Planlegging**, og deretter, i feltet **Rolle**, velger du **Forretningsanalytiker**.
+9. Velg **Publiser**, og velg deretter **Generere team automatisk**.
 10. Velg **Ja** i meldingsboksen som vises.
 11. I feltet **Ressurser** kontrollerer du at verdien er **Forretningsanalytiker 1**.
 12. For ressursen **Forretningsanalytiker 1** åpner du oppslaget og velger **Start ressurstilordninger**. Velg deretter en arbeider for oppgaven.

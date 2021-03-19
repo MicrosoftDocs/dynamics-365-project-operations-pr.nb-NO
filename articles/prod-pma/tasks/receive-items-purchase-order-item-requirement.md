@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081787"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288240"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Motta varer på bestilling fra varebehov
 
@@ -39,13 +39,13 @@ Denne oppgaven bruker USSI-datasett.
 4. Velg **Elementkrav**.
 5. Velg **Ny**.
 6. Skriv inn eller velg en verdi i feltet **Varenummer**.
-7. Angi et tall i **Antall** -feltet.
+7. Angi et tall i **Antall**-feltet.
 8. Velg **Lagre**.
 9. Velg **Behandle** i handlingsruten.
 10. Velg **Funksjoner**.
 11. Velg **Opprett bestilling**.
 12. Merk av for **Inkluder alle**.
-13. Skriv inn eller velg en verdi i **Leverandørkonto** -feltet.
+13. Skriv inn eller velg en verdi i **Leverandørkonto**-feltet.
 14. Velg **OK**.
 15. I navigasjonsruten går du til **Moduler > Leverandørgjeld > Bestillinger > Alle bestillinger**.
 16. I listen velger du koblingen i den ønskede raden.

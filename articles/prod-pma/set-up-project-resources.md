@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081792"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288751"
 ---
 # <a name="set-up-project-resources"></a>Definere prosjektressurser
 
 [!include [banner](../includes/banner.md)]
 
-Du må sette opp en kalender og knytte den til en ansatt eller en arbeider. Kalenderen brukes til å planlegge prosjektet og arbeidstiden for ressursene som er reservert for prosjektet. Under kalenderinstallasjonen kan prosjektledere utføre ressursutjevning som en del av ressursoptimaliseringen. Restriksjoner kan brukes på ressurser basert på kalendertidsplanen. Du kan sette opp en kalender på **Kalenderere** -siden.
+Du må sette opp en kalender og knytte den til en ansatt eller en arbeider. Kalenderen brukes til å planlegge prosjektet og arbeidstiden for ressursene som er reservert for prosjektet. Under kalenderinstallasjonen kan prosjektledere utføre ressursutjevning som en del av ressursoptimaliseringen. Restriksjoner kan brukes på ressurser basert på kalendertidsplanen. Du kan sette opp en kalender på **Kalenderere**-siden.
 
 Når du definerer en arbeider som en prosjektressurs, kan du velge blant arbeidere som arbeider i firmaet som du konfigurerer ressurser for. Du kan også velge arbeidere fra andre selskaper i organisasjonen. Disse arbeiderne kalles konserninterne ressurser.
 
@@ -54,12 +54,12 @@ Når du definerer en arbeider som en konsernintern ressurs, må du fullføre opp
 3. I feltet **ID for juridisk enhet** velger du utlånsselskapet. Fyll ut de gjenværende feltene etter behov, og velg **Lagre**.
 4. På siden **Overføringspris** velger du **Ny**.
 5. I feltet **Juridisk enhet som låner** velger du riktig selskap.
-6. Hvis du vil låne låneselskapet bare ressursen du opprettet i begynnelsen av denne delen, velger du navnet på ressursen du opprettet, i **Ressurs** -feltet. Hvis du vil gjøre alle ressursene i utlånsfirmaet tilgjengelige for lånefirmaet, lar du **Ressurs** -feltet stå tomt.
-7. På siden **Parametere for prosjektstyring og regnskap** , i kategorien **Konsernintern** , setter du **Aktiver konsernintern ressursplanlegging og timeregistreringer** til **Ja**.
+6. Hvis du vil låne låneselskapet bare ressursen du opprettet i begynnelsen av denne delen, velger du navnet på ressursen du opprettet, i **Ressurs**-feltet. Hvis du vil gjøre alle ressursene i utlånsfirmaet tilgjengelige for lånefirmaet, lar du **Ressurs**-feltet stå tomt.
+7. På siden **Parametere for prosjektstyring og regnskap**, i kategorien **Konsernintern**, setter du **Aktiver konsernintern ressursplanlegging og timeregistreringer** til **Ja**.
 
 ### <a name="in-the-borrowing-company"></a>I lånefirmaet
 
-- På siden **Ressursliste** , i søkefilteret, skriver du inn navnet på ressursen du opprettet for utlånsfirmaet, for å kontrollere at navnet er inkludert i ressurslisten for lånefirmaet.
+- På siden **Ressursliste**, i søkefilteret, skriver du inn navnet på ressursen du opprettet for utlånsfirmaet, for å kontrollere at navnet er inkludert i ressurslisten for lånefirmaet.
 
 ## <a name="request-project-resources"></a>Be om prosjektressurser
 Funksjonaliteten for planlegging av prosjektressurser gjør det bare for ressursledere å distribuere bemannede ressurser på engasjementer eller prosjekter. Hvis du vil aktivere denne funksjonaliteten, må du utføre følgende oppgaver eller kontrollere at de er fullført:

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289516"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Opprette avanserte kontrakter for fakturering basert på fremdrift
 [!include [banner](../includes/banner.md)]
@@ -51,7 +51,7 @@ Budsjettsjefen oppretter et budsjett for prosjektkategoriene. Mengden fullført 
 Før du oppretter et prosjekt som bruker faktureringsregler, må du angi nummersekvensene for faktureringsregler og en gebyrjournal som brukes til å postere fremdriftsfakturaer.
 
 1. Gå til **Prosjektstyring og regnskap** \> **Oppsett** \> **Parametere for prosjektstyring og regnskap**.
-2. På siden **Parametere for prosjektstyring og regnskap** , i kategorien **Nummersekvenser** , setter du opp nummersekvensen du vil bruke når faktureringsregler opprettes.
+2. På siden **Parametere for prosjektstyring og regnskap**, i kategorien **Nummersekvenser**, setter du opp nummersekvensen du vil bruke når faktureringsregler opprettes.
 3. Gå til **Prosjektstyring og regnskap** \> **Journaler** \> **Gebyr**.
 4. På siden **Gebyrjournal** velger du **Ny** og angir journalnavnet.
 
@@ -68,8 +68,8 @@ Følg denne prosedyren for å opprette en prosjektkontrakt for et fastprisprosje
     - **Finansieringskilde**
     - **Salgsvaluta** – som standard brukes denne valutaen til kundefakturaer som er knyttet til prosjektkontrakten. Du kan imidlertid endre salgsvalutaen for en bestemt kundefaktura.
 
-4. Velg **OK**. Informasjonen kopieres til overskriften på **Prosjektkontrakter** -siden.
-5. På **Prosjektkontrakter** -siden fyller du ut resten av den nødvendige informasjonen for prosjektet.
+4. Velg **OK**. Informasjonen kopieres til overskriften på **Prosjektkontrakter**-siden.
+5. På **Prosjektkontrakter**-siden fyller du ut resten av den nødvendige informasjonen for prosjektet.
 
 ## <a name="create-a-project-for-progress-billings"></a>Opprette et prosjekt for fremdriftsfaktureringer
 
@@ -77,7 +77,7 @@ Følg fremgangsmåten nedenfor for å opprette et prosjekt og eventuelle delpros
 
 1. Gå til **Prosjektstyring og regnskap** \> **Prosjekter** \> **Alle prosjekter**.
 2. På siden **Alle prosjekter** velger du **Ny**.
-3. I dialogboksen **Nytt prosjekt** , i **Prosjekttype** -feltet, velger du **Tid og materiale**.
+3. I dialogboksen **Nytt prosjekt**, i **Prosjekttype**-feltet, velger du **Tid og materiale**.
 4. Velg en prosjektgruppe. En prosjektgruppe definerer bokføringsinformasjonen for prosjektene som er tilordnet gruppen.
 5. Velg **Opprett prosjekt**.
 6. Etter at du har opprettet prosjektet, setter du prosjektstadiet til **Pågår**.
@@ -88,19 +88,19 @@ Budsjettkategorier brukes til å automatisk beregne fakturabeløpene for prosent
 
 1. Gå til **Prosjektstyring og regnskap** \> **Prosjekter** \> **Alle prosjekter**.
 2. På siden **Alle prosjekter** velger du og åpner det ønskede prosjektet.
-3. På **Prosjekter** -siden, i handlingsruten, i **Planlegg** -kategorien, i **Budsjett** -gruppen velger du **Prosjektbudsjett**.
-4. På **Prosjektbudsjett** -siden angir du en estimert kostnad for hver kategori i prosjektet.
+3. På **Prosjekter**-siden, i handlingsruten, i **Planlegg**-kategorien, i **Budsjett**-gruppen velger du **Prosjektbudsjett**.
+4. På **Prosjektbudsjett**-siden angir du en estimert kostnad for hver kategori i prosjektet.
 
 ## <a name="create-billing-rules-for-progress-billings"></a>Opprette faktureringsregler for fremdriftsfaktureringer
 
 1. Gå til **Prosjektstyring og regnskap** \> **Prosjekter** \> **Prosjektkontrakter**.
-2. Velg en prosjektkontrakt på siden **Prosjektkontrakter** , og åpne den.
-3. På siden med prosjektkontrakter, på hurtigfanen **Faktureringsregler** , velger du **Legg til**.
-4. På siden **Faktureringsregel** , i **Linjetype** -feltet, velger du **Fremdrift**.
-5. På hurtigfanen **Linjedetaljer for faktureringsregel** , i **Kontraktverdi** -feltet, angir du totalverdien for kontrakten.
-6. I **Kategori** -feltet velger du kategorien der gebyrtransaksjonen skal bokføres.
-7. I **Prosjekt** -feltet velger du prosjektet som bruker denne faktureringsregelen.
-8. Valgfritt: Tilordne faktureringsregelen til flere prosjekter. På hurtigfanen **Prosjekt** , i delen **Tilgjengelige prosjekter** , velger du et prosjekt, og deretter velger du pil høyre for å legge til prosjektet i delen **Valgte prosjekter**.
+2. Velg en prosjektkontrakt på siden **Prosjektkontrakter**, og åpne den.
+3. På siden med prosjektkontrakter, på hurtigfanen **Faktureringsregler**, velger du **Legg til**.
+4. På siden **Faktureringsregel**, i **Linjetype**-feltet, velger du **Fremdrift**.
+5. På hurtigfanen **Linjedetaljer for faktureringsregel**, i **Kontraktverdi**-feltet, angir du totalverdien for kontrakten.
+6. I **Kategori**-feltet velger du kategorien der gebyrtransaksjonen skal bokføres.
+7. I **Prosjekt**-feltet velger du prosjektet som bruker denne faktureringsregelen.
+8. Valgfritt: Tilordne faktureringsregelen til flere prosjekter. På hurtigfanen **Prosjekt**, i delen **Tilgjengelige prosjekter**, velger du et prosjekt, og deretter velger du pil høyre for å legge til prosjektet i delen **Valgte prosjekter**.
 9. Valgfritt: Beregne prosentbeløpet som kunden tilbakeholder fra betalinger på en faktura. På hurtigfanen **Tilbakeholdelsesbetingelser for betaling** velger du finansieringskilden, og deretter angir du tilbakeholdelsesprosenten i feltet **Tilbakeholdelsesprosent**.
 10. Gjenta disse trinnene for å opprette flere faktureringsregler for prosjektkontrakten.
 
