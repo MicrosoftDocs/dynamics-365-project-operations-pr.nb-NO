@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120825"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275910"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations kobler sammen team under salg, ressurser, prosjektledelse og finans i ett enkelt program for å vinne flere avtaler, akselerere prosjektlevering og maksimere lønnsomhet.
+Microsoft Dynamics 365 Project Operations kobler salgs-, ressurs- og prosjektstyring og finansteam i ett enkelt program for å vinne flere avtaler, akselerere prosjektlevering og maksimere lønnsomheten.
 
 -   **Ledere får bedrifts innsikt** for å øke synligheten på tvers av alle team, data og prosesser, samt AI-funksjoner for bedre og raskere forretningsavgjørelser.
 -   **Salg er aktivert** for å vinne flere avtaler og akselerere salgssyklusen med raske og nøyaktige tilbud, fleksibel prissetting og sømløse overganger fra estimat til kjøring.
@@ -40,7 +40,7 @@ Project Operations er et avansert verktøy i seg selv, men kan utvides av kunden
 Hvis du vil ha mer informasjon, kan du se følgende:
 
 - [Oversikt over Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Oversikt over lanseringsbølge 1 i 2020 for Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Oversikt over lanseringsbølge 1 for 2020 for Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

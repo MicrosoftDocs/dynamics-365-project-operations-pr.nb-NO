@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180294"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274920"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurere kostnads- og salgspriser for utgifter
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Du kan sette opp kostnads- og salgspriser for transaksjonskategorier i Dynamics 365 Project Operations. Fordi kostnads- og salgspriser er utformet for utgifter, må hver transaksjonskategori som inkluderer disse, også være definert som en utgiftskategori. Dette oppsettet sørger for nøyaktigheten i funksjonaliteten nedstrøms. Kost- og salgspriser for transaksjonskategorier kan bare vises i én valuta, som må være valutaen i prislistehodet.
+Du kan definere kostnader og salgspriser for transaksjonskategorier i Dynamics 365 Project Operations. Fordi kostnads- og salgspriser er utformet for utgifter, må hver transaksjonskategori som inkluderer disse, også være definert som en utgiftskategori. Dette oppsettet sørger for nøyaktigheten i funksjonaliteten nedstrøms. Kost- og salgspriser for transaksjonskategorier kan bare vises i én valuta, som må være valutaen i prislistehodet.
 
 Følg fremgangsmåten nedenfor for å konfigurere kost- og salgspriser for transaksjonskategorier. 
 

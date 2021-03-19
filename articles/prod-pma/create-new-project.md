@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081755"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270735"
 ---
 # <a name="create-a-new-project"></a>Opprett et nytt prosjekt
 
@@ -31,7 +31,7 @@ ms.locfileid: "4081755"
 
 Fullfør fremgangsmåten nedenfor for å opprette et nytt prosjekt.
 
-1. På siden **Prosjektledelse** velger du **Nytt prosjekt** , og angi følgende verdier:
+1. På siden **Prosjektledelse** velger du **Nytt prosjekt**, og angi følgende verdier:
 
     - **Prosjekttype:** Tid og materiale
     - **Prosjektnavn:** XYZ-oppgraderingsfase 2
@@ -59,13 +59,13 @@ En prosjektleder kan bruke prosjektbemanningsfunksjonaliteten til å opprette ro
 
 Fremgangsmåten nedenfor viser hvordan ressurslederen kan konfigurere rollen som overordnet prosjektleder og knytte ressursegenskaper til den. Senere kan rollen brukes til å søke etter tilgjengelige ressurser som samsvarer med de nødvendige ressurskompetansene.
 
-1. På siden **Konfigurer roller** velger du **Ny** , og angi følgende verdier:
+1. På siden **Konfigurer roller** velger du **Ny**, og angi følgende verdier:
 
     - **Rolle-ID:** Overordnet prosjektleder
     - **Beskrivelse:** Overordnet prosjektleder
 
 2. Velg **Opprett**.
-3. Velg rollen **Overordnet prosjektleder** , og velg deretter **Konfigurer egenskaper**.
+3. Velg rollen **Overordnet prosjektleder**, og velg deretter **Konfigurer egenskaper**.
 4. I feltet for **Type kjennetegn** velger du **Ferdighet**.
 5. I feltet **Tilgjengelige kjennetegn** angir du ferdigheten du vil søke etter.
 6. I feltet for **Type kjennetegn** velger du **Sertifikat**.
@@ -73,12 +73,12 @@ Fremgangsmåten nedenfor viser hvordan ressurslederen kan konfigurere rollen som
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Tilordne en prosjektressurs til et prosjekt
 
-1. På siden **Alle prosjekter** velger du **XYZ-oppgraderingsfase 2** -prosjektet.
+1. På siden **Alle prosjekter** velger du **XYZ-oppgraderingsfase 2**-prosjektet.
 2. I kategorien **Prosjektteam og planlegging** velger du **Legg til**.
 3. I feltet **Rolle** velger du **Teammedlem**.
 4. Velg **Bestill fra kalender**.
 5. På siden **Ressurstilgjengelighet** velger du **Visningsinnstillinger**.
-6. Angi følgende verdier på siden **Juster visningsinnstillinger** :
+6. Angi følgende verdier på siden **Juster visningsinnstillinger**:
 
     - **Format for visning av datoområde:** Dag
     - **Vis tilgjengelighetsbeskrivelser:** Ja
@@ -96,13 +96,13 @@ Under ressursreservasjon kan prosjektledere filtrere rolleressursene som er tilg
 **Scenario:** Et godkjent prosjekt har startet, og rollen overordnet prosjektleder er reservert som en planlagt ressurs i løpet av prosjektplanleggingsfasen. Ressursbehandleren har nå hentet en ressurs for å fullføre rollen overordnet prosjektleder.
 
 1. På siden **Ressursliste** velger du **Daniel Goldschmidt**.
-2. På siden **Ressursrolle** velger du **Ny** , og angi følgende verdier:
+2. På siden **Ressursrolle** velger du **Ny**, og angi følgende verdier:
 
     - **Gyldig:** ngi gjeldende dato.
     - **Utløp:** Angi **Aldri**.
-    - **Rolle-ID** : Angi **Overordnet prosjektleder**.
+    - **Rolle-ID**: Angi **Overordnet prosjektleder**.
 
-3. Velg **Lagre** , og lukk deretter siden.
+3. Velg **Lagre**, og lukk deretter siden.
 4. I kategorien **Kompetanser** legger du til ferdigheten **ProjectMgmt** og sertifikatet **PMP**.
 
 

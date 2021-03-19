@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: c84d3aaf7cd7577dcd15311f225c82b538586445
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514010"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274605"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Bruke Transaksjonskategori som en prisdimensjon
 
@@ -38,7 +38,7 @@ Tabellen nedenfor viser alle de medfølgende skjemaene og visningene etter enhet
 |  Tilbudslinjedetalj|- Prosjektinformasjon<br>- Hurtigoppretting av prosjekt| - Aktiv tilbudslinjedetalj<br>- Kombinerte tilbudslinjedetaljer<br>- Tilknyttet tilbudslinjedetalj |
 |  Detalj for prosjektkontraktlinjer|- Prosjektinformasjon<br>- Hurtigoppretting av prosjekt|- Kombinerte kontraktlinjedetaljer<br>- Aktive kontraktlinjedetaljer<br>- Tilknyttede kontraktlinjedetaljer |
 |  Prosjektoppgave|- Informasjon<br>- Nytt skjema| &nbsp; |
-|  Prosjektteammedlem|- Informasjon<br>- Nytt skjema|- Aktive prosjektteammedlemmer<br>- Prosjektteammedlemmer<br>- Tilknyttede prosjektteammedlemmer |
+|  Prosjektteammedlem|-Informasjon<br>- Nytt skjema|- Aktive prosjektteammedlemmer<br>- Prosjektteammedlemmer<br>- Tilknyttede prosjektteammedlemmer |
 |  Tidsoppføring|- Informasjon<br>- Opprett tidsoppføring|- Mine tidsoppføringer etter dato<br>- Mine tidsoppføringer for denne uken<br>- Tidsoppføringer til godkjenning|
 |  Journallinje|- Informasjon<br>- Hurtigoppretting|- Aktive journallinjer<br>- Tilknyttet journallinje|
 |  Fakturalinjedetalj|- Informasjon<br>- Hurtigoppretting|- Aktive fakturalinjedetaljer<br>- Belastbare fakturatransaksjoner<br>- Gratis fakturatransaksjoner<br>- Tilknyttet fakturalinjedetalj <br>- Ikke-belastbare fakturatransaksjoner|

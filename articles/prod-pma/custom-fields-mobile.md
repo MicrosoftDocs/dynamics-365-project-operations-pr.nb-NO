@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081674"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271005"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementere egendefinerte felt for Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
 
@@ -42,14 +42,14 @@ Dette emnet er ment for utviklere som integrerer sine egendefinerte felt i Micro
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Datakontrakt – klassen TSTimesheetCustomField X++
 
-**TSTimesheetCustomField** -klassen er X++-datakontraktklassen som representerer informasjon om et egendefinert felt for timeregistreringsfunksjonalitet. Det blir sendt lister over de egendefinerte feltobjektene både for TSTimesheetDetails-datakontrakten og TSTimesheetEntry-datakontrakten for å vise egendefinerte felt i mobilappen.
+**TSTimesheetCustomField**-klassen er X++-datakontraktklassen som representerer informasjon om et egendefinert felt for timeregistreringsfunksjonalitet. Det blir sendt lister over de egendefinerte feltobjektene både for TSTimesheetDetails-datakontrakten og TSTimesheetEntry-datakontrakten for å vise egendefinerte felt i mobilappen.
 
 - **TSTimesheetDetails** – Kontrakten for timeregistreringshodet.
-- **TSTimesheetEntry** – Kontrakten for timeregistreringstransaksjonen. Grupper av disse objektene som har samme prosjektinformasjon og **timesheetLineRecId** -verdi, utgjør en linje.
+- **TSTimesheetEntry** – Kontrakten for timeregistreringstransaksjonen. Grupper av disse objektene som har samme prosjektinformasjon og **timesheetLineRecId**-verdi, utgjør en linje.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (typer)
 
-Egenskapen **FieldBaseType** i **TsTimesheetCustom** -objektet bestemmer typen av feltet som vises i appen. Følgende **Typer** -verdier som støttes.
+Egenskapen **FieldBaseType** i **TsTimesheetCustom**-objektet bestemmer typen av feltet som vises i appen. Følgende **Typer**-verdier som støttes.
 
 | Typer-verdi | Type              | Notater |
 |-------------|-------------------|-------|
@@ -61,22 +61,22 @@ Egenskapen **FieldBaseType** i **TsTimesheetCustom** -objektet bestemmer typen a
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Hvis egenskapen **stringOptions** ikke er angitt på **TSTimesheetCustomField** -objektet, gis det et fritekstfelt til brukeren.
+- Hvis egenskapen **stringOptions** ikke er angitt på **TSTimesheetCustomField**-objektet, gis det et fritekstfelt til brukeren.
 
     Egenskapen **stringLength** kan brukes til å angi maksimal strenglengde som brukere kan angi.
 
-- Hvis **stringOptions** er angitt på **TSTimesheetCustomField** -objektet, er disse listeelementene de eneste verdiene brukerne kan velge ved å bruke alternativknapper (alternativknapper).
+- Hvis **stringOptions** er angitt på **TSTimesheetCustomField**-objektet, er disse listeelementene de eneste verdiene brukerne kan velge ved å bruke alternativknapper (alternativknapper).
 
     I dette tilfellet kan strengfeltet fungere som en opplistingsverdi for formålet med brukeroppføringen. Hvis du vil lagre verdien i databasen som en opplisting, må du manuelt tilordne strengverdien tilbake til opplistingsverdien før du lagrer databasen ved hjelp av kommandokjede (se "Bruke kommandokjede i TSTimesheetEntryService-klassen for å lagre en timeregistreringsoppføring fra appen tilbake til databasen" senere i dette emnet for å se et eksempel).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
-Du kan bruke denne egenskapen til å formatere reelle verdier som valuta. Denne metoden gjelder bare når **fieldBaseType** -verdien er **Reell**.
+Du kan bruke denne egenskapen til å formatere reelle verdier som valuta. Denne metoden gjelder bare når **fieldBaseType**-verdien er **Reell**.
 
 - **TSCustomFieldExtendedType:None** – Ingen formatering brukes.
 - **TSCustomFieldExtendedType::Currency** – Formaterer verdien som valuta.
 
-    Når valutaformatering er aktiv, kan **stringValue** -feltet brukes til å sende valutakoden som skal vises i appen. Verdien er en skrivebeskyttet verdi.
+    Når valutaformatering er aktiv, kan **stringValue**-feltet brukes til å sende valutakoden som skal vises i appen. Verdien er en skrivebeskyttet verdi.
 
     Feltet **realValue** inneholder pengebeløpet som skal lagres i databasen.
 
@@ -179,9 +179,9 @@ Nedenfor vises et skjermbilde fra Visual Studio av programobjekttreet. Den viser
 
 Denne koden kontrollerer visningsinnstillingene for feltet i appen. Feltet angir for eksempel felttypen, etiketten, om feltet er obligatorisk, og hvilken del feltet vises i.
 
-Følgende eksempel viser et strengefelt for tidsoppføringer. Dette feltet har to alternativer, **Første alternativ** og **Andre alternativ** , som er tilgjengelige via alternativknapper. Feltet i appen er knyttet til **TestLineString** -feltet som legges til i TSTimesheetLine-tabellen.
+Følgende eksempel viser et strengefelt for tidsoppføringer. Dette feltet har to alternativer, **Første alternativ** og **Andre alternativ**, som er tilgjengelige via alternativknapper. Feltet i appen er knyttet til **TestLineString**-feltet som legges til i TSTimesheetLine-tabellen.
 
-Legg merke til bruken av metoden **TSTimesheetCustomField::newFromMetatdata()** for å forenkle initialiseringen av egenskapene for det egendefinerte feltet: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** og **numberOfDecimals**. Du kan også angi disse parameterne manuelt, i henhold til hva du foretrekker.
+Legg merke til bruken av metoden **TSTimesheetCustomField::newFromMetatdata()** for å forenkle initialiseringen av egenskapene for det egendefinerte feltet: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** og **numberOfDecimals**. Du kan også angi disse parameterne manuelt, i henhold til hva du foretrekker.
 
 ```xpp
 ...
@@ -245,10 +245,10 @@ Hvis du vil lagre et egendefinert felt tilbake til databasen i vanlig bruk, må 
 
 - Metoden **timesheetLineNeedsUpdating** brukes til å finne ut om linjeoppføringen har blitt endret av brukeren i appen og må lagres i databasen. Hvis ytelse ikke er problematisk, kan denne metoden forenkles, slik at den alltid returnerer **sann**.
 - Metodene **PopulateTimesheetLineFromEntryDuringCreate** og **populateTimesheetLineFromEntryDuringUpdate** kan utvides slik at de registrerer verdier i TSTimesheetLine-databaseoppføringen fra TSTimesheetEntry-datakontraktoppføringen som tilbys. I eksemplet nedenfor ser du hvordan tilordningen mellom databasefeltet og oppføringsfeltet utføres manuelt via X++-kode.
-- Metoden **PopulateTimesheetWeekFromEntry** kan også utvides hvis det egendefinerte feltet som er tilordnet til **TSTimesheetEntry** -objektet, må skrive tilbake til TSTimesheetLineweek-databasetabellen.
+- Metoden **PopulateTimesheetWeekFromEntry** kan også utvides hvis det egendefinerte feltet som er tilordnet til **TSTimesheetEntry**-objektet, må skrive tilbake til TSTimesheetLineweek-databasetabellen.
 
 > [!NOTE]
-> Følgende eksempel lagrer **firstOption** - eller **secondOption** -verdien som brukeren velger for databasen som en rå strengverdi. Hvis databasefeltet er et felt av typen **Enum** , kan disse verdiene tilordnes manuelt til en opplistingsverdi og deretter lagres i et opplistingsfelt i databasetabellen.
+> Følgende eksempel lagrer **firstOption**- eller **secondOption**-verdien som brukeren velger for databasen som en rå strengverdi. Hvis databasefeltet er et felt av typen **Enum**, kan disse verdiene tilordnes manuelt til en opplistingsverdi og deretter lagres i et opplistingsfelt i databasetabellen.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Eksisterende logikk for timeregistreringsfunksjonalitet på databasenivået vil 
 
 - Hvis **validateWrite** i TSTimesheetLine-tabellen returnerer **usann** under en lagringsoperasjon for en timeregistreringslinje, vises det en feilmelding i mobilappen.
 - Hvis **validateSubmit** i TSTimesheetTable-tabellen returnerer **usann** under en sending av timeregistrering i appen, vises det en feilmelding for brukeren.
-- Logikk som fyller ut feltene (for eksempel **Linjeegenskap** ) under **innsetting** -metoden i TSTimesheetLine-tabellen, kjører fremdeles.
+- Logikk som fyller ut feltene (for eksempel **Linjeegenskap**) under **innsetting**-metoden i TSTimesheetLine-tabellen, kjører fremdeles.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Skjule og merke standardfelt som skrivebeskyttet via konfigurasjon
 

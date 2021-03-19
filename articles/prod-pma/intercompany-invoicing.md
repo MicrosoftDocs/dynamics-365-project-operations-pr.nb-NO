@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081646"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270780"
 ---
 # <a name="intercompany-invoicing"></a>Konsernintern fakturering
 
@@ -31,7 +31,7 @@ ms.locfileid: "4081646"
 
 Denne artikkelen inneholder informasjon og eksempler på konsernintern fakturering for prosjekter.
 
-Det kan hende at organisasjonen har flere divisjoner, datterselskaper og andre juridiske enheter som overfører produkter og servicer til hverandre for prosjekter. Den juridiske enheten som leverer tjenesten eller produktet, kalles den *juridiske utlånsenheten* , og den juridiske enheten som mottar tjenesten eller produktet, kalles den *juridiske låneenheten*. 
+Det kan hende at organisasjonen har flere divisjoner, datterselskaper og andre juridiske enheter som overfører produkter og servicer til hverandre for prosjekter. Den juridiske enheten som leverer tjenesten eller produktet, kalles den *juridiske utlånsenheten*, og den juridiske enheten som mottar tjenesten eller produktet, kalles den *juridiske låneenheten*. 
 
 Illustrasjonen nedenfor viser et typisk scenario der to juridiske enheter, SI FR (den juridiske låneenheten), og SI USA (den juridiske utlånsenheten) deler ressurser for å levere et prosjekt til kunde A. I dette scenarioet skal SI FR brukes til å levere arbeidet til kunde A. 
 
@@ -44,12 +44,12 @@ Målet er å gjøre kostnadskontroll, inntektsføring, avgifter og overføringsp
 -   Utsett inntektsføring i en juridisk utlånsenhet og når en juridisk låneenhet skal gjenkjenne kostnaden.
 -   Akkumuler VIA-inntekter i juridisk utlånsenhet.
 -   Angi overføringspriser som kan være basert på forskjellige prismodeller. Her er noen eksempler:
-    -   **Antall** – Beløpet du angir i feltet **Priser** , er faktisk kostnad per antall eller enhet.
-    -   **Gebyrbeløp** – Prisen/kostnaden per transaksjon pluss gebyrbeløpet du skriver inn i **Pris** -feltet.
-    -   **Gebyrprosent** – Overføringsprisen er prisen/kostnaden per transaksjon multiplisert med gebyrprosenten du har angitt i **Pris** -feltet.
+    -   **Antall** – Beløpet du angir i feltet **Priser**, er faktisk kostnad per antall eller enhet.
+    -   **Gebyrbeløp** – Prisen/kostnaden per transaksjon pluss gebyrbeløpet du skriver inn i **Pris**-feltet.
+    -   **Gebyrprosent** – Overføringsprisen er prisen/kostnaden per transaksjon multiplisert med gebyrprosenten du har angitt i **Pris**-feltet.
     -   **Prosent av salgspris** – Prosentandelen av salgsprisen som er overført til den juridiske utlånsenheten.
     -   **Beløp under salgspris** – Beløpet som den juridiske låneenheten holder tilbake fra salgsprisene før overføringen til den juridiske utlånsenheten.
-    -   **Dekningsgrad** – Antallet du skriver inn i **Pris** -feltet, er dekningsgraden, som uttrykkes som en prosentandel av salgsprisen.
+    -   **Dekningsgrad** – Antallet du skriver inn i **Pris**-feltet, er dekningsgraden, som uttrykkes som en prosentandel av salgsprisen.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Eksempel 1: Konfigurere parametere for konsernintern fakturering
 I dette eksemplet er USSI en juridisk utlånsenhet, og ressursene rapporterer tid mot den juridiske låneenheten, FRSI, som eier kontrakten med sluttkunden. Timer og utgifter som USSI-ansatte rapporterer om, kan inkluderes i prosjektfakturaen som FRSI genererer. I tillegg finnes det en tredje kilde over transaksjoner som kan være hentet fra den juridiske utlånsenheten (USSI i dette eksemplet) når den leverer delte leverandørtjenester til datterselskaper (for eksempel FRSI), og deretter sender disse kostnadene til prosjekter innenfor disse datterselskapene. Alle samsvarende fakturadokumenter og avgiftsberegninger fullføres i Finance. 
@@ -65,13 +65,13 @@ I dette eksemplet må FRSI være en kunde i den juridiske enheten USSI, og USSI 
    |  C   |                                  Åpne leverandøroppføringen du nettopp opprettet, i FRSI.                                  | I handlingsruten i kategorien <strong>Generelt</strong> i gruppen <strong>Oppsett</strong> velger du <strong>Konsernintern</strong>. På siden <strong>Konsernintern</strong> i kategorien <strong>Handelsforbindelse</strong> setter du glidebryteren <strong>Aktiv</strong> til <strong>Ja</strong>. I feltet <strong>Kundefirma</strong> velger du kundeoppføringen du opprettet i trinn A. |
 
 
-2. Klikk **Prosjektstyring og regnskap** &gt; **Oppsett** &gt; **Parametere for prosjektstyring og regnskap** , og klikk deretter kategorien **Konsernintern**. Måten du angir parametere på, avhenger av om du er den juridiske låneenheten eller den juridiske utlånsenheten.
+2. Klikk **Prosjektstyring og regnskap** &gt; **Oppsett** &gt; **Parametere for prosjektstyring og regnskap**, og klikk deretter kategorien **Konsernintern**. Måten du angir parametere på, avhenger av om du er den juridiske låneenheten eller den juridiske utlånsenheten.
    -   Hvis du er en juridisk låneenhet, velger du innkjøpskategorien som skal brukes til å samsvare med leverandørfakturaer, som genereres automatisk.
    -   Hvis du er juridisk utlånsenhet, velger du en standard prosjektkategori for hver av transaksjonstypene for hver utlånsenhet. Prosjektkategorier brukes for avgiftskonfigurasjon når den fakturerte kategorien i konserninterne transaksjoner bare eksisterer i den juridiske låneenheten. Du kan velge å avsette omsetning for konserninterne transaksjoner. Denne avsetningen utføres når transaksjonene blir postert, og da tilbakeføres den når den konserninterne fakturaen bokføres.
 
 3. Klikk **Prosjektstyring og regnskap** &gt; **Oppsett** &gt; **Priser** &gt; **Overføringspris**.
 4. Velg en valuta, transaksjonstype og modell for overføringspris. Valutaen som brukes på fakturaen, er valutaen som konfigureres i kundeoppføringen for den juridiske låneenheten i den juridiske utlånsenheten. Valutaen brukes til å samsvare oppføringer i tabellen overføringspris.
-5. Klikk **Økonomimodul** &gt; **Bokføringsoppsett** &gt; **Konserninternt regnskap** , og angi en relasjon for USSI og FRSI.
+5. Klikk **Økonomimodul** &gt; **Bokføringsoppsett** &gt; **Konserninternt regnskap**, og angi en relasjon for USSI og FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Eksempel 2: Opprette og postere konserninterne timeregistreringer
 USSI, den juridiske utlånsenheten, må opprette og postere timeregistreringen for et prosjekt fra FRSI, som er den juridiske låneenheten. Det finnes to startpunkter for trinnene som kreves for denne oppgaven.
@@ -87,7 +87,7 @@ USSI, den juridiske utlånsenheten, må opprette og postere den konserninterne l
 | Trinn | Startpunkt                                                                                      | Beskrivelse                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Leverandør** &gt; **Fakturaer** &gt; **Åpne leverandørfakturaer** &gt; **Ny leverandørfaktura** | Opprett en ny leverandørfaktura, og angi tjenestene som ble skaffet på vegne av FRSIens prosjekt.                                                                                                                                                                                  |
-| F    | Siden **Leverandørfaktura**                                                                      | Angi linjer som representerer de utsatte tjenestene på vegne av FRSI. På hurtigfanen **Linjedetaljer** i kategorien **Prosjekt** for fakturalinjen, i feltet **Prosjektselskap** , angir du **FRSI**. Angi prosjektet og tilhørende informasjon. Deretter bokfører du leverandørfakturaen. |
+| F    | Siden **Leverandørfaktura**                                                                      | Angi linjer som representerer de utsatte tjenestene på vegne av FRSI. På hurtigfanen **Linjedetaljer** i kategorien **Prosjekt** for fakturalinjen, i feltet **Prosjektselskap**, angir du **FRSI**. Angi prosjektet og tilhørende informasjon. Deretter bokfører du leverandørfakturaen. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Eksempel 4: Opprette og postere den konserninterne fakturaen
 USSI, den juridiske utlånsenheten, må opprette og postere den konserninterne fakturaen. Det finnes to startpunkter for trinnene som kreves for denne oppgaven.

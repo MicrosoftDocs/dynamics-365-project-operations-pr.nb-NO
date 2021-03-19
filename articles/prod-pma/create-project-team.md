@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081785"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270870"
 ---
 # <a name="create-a-project-team"></a>Opprette et prosjektteam
 
 [!include [banner](../includes/banner.md)]
 
-Hvis du vil bruke rollene som ble opprettet tidligere i et prosjekt, må en prosjektleder knytte rollene til prosjektet. Det kan tilordnes flere roller for et prosjekt. Disse rollene blir automatisk merket under reservering for å unngå forvirring. Hvis prosjektlederen for eksempel krever tre ingeniører, genereres det automatisk tre programvareingeniørroller som har **programvareingeniør 1** , **programvareingeniør 2** og **programvareingeniør 3** som etikett. Hvis rolleegenskaper er angitt tidligere for rollen, brukes de som et filter under søk etter en ressurs. Du kan legge til flere karakteristikker som kreves for å presisere søket ytterligere.
+Hvis du vil bruke rollene som ble opprettet tidligere i et prosjekt, må en prosjektleder knytte rollene til prosjektet. Det kan tilordnes flere roller for et prosjekt. Disse rollene blir automatisk merket under reservering for å unngå forvirring. Hvis prosjektlederen for eksempel krever tre ingeniører, genereres det automatisk tre programvareingeniørroller som har **programvareingeniør 1**, **programvareingeniør 2** og **programvareingeniør 3** som etikett. Hvis rolleegenskaper er angitt tidligere for rollen, brukes de som et filter under søk etter en ressurs. Du kan legge til flere karakteristikker som kreves for å presisere søket ytterligere.
 
 Visningsinnstillinger kan også tilpasses for å gi en bedre visning av ressurstilgjengelighet. Det finnes alternativer for å vise tilgjengelighet for time, dag, uke, måned, kvartal og år. Det finnes også et alternativ for å vise tilgjengelig og gjenstående kapasitet på ressurser. Dette alternativet er nyttig for tidsstyring når du beregner tilgjengelig tid for aktiviteter eller ressurstilgjengelighet.
 
@@ -37,7 +37,7 @@ Prosjektlederen kan velge en rolle på siden og deretter velge å reservere en r
 
 [![Prosjektteamoppføring som inkluderer både roller og faktiske ressurser](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Prosjektlederen har forskjellige alternativer for bestilling av en ressurs for et prosjekt, for eksempel **Gjenstående kapasitet** , **Full kapasitet** , **Kapasitet i prosent** og **Angi timer**. Disse bestillingsalternativene kan kanselleres når som helst hvis ressurstilordningene endres. To typer bestillinger støttes:
+Prosjektlederen har forskjellige alternativer for bestilling av en ressurs for et prosjekt, for eksempel **Gjenstående kapasitet**, **Full kapasitet**, **Kapasitet i prosent** og **Angi timer**. Disse bestillingsalternativene kan kanselleres når som helst hvis ressurstilordningene endres. To typer bestillinger støttes:
 
 - **Forpliktende bestilling** – Ressursreservasjonen ble godkjent og bekreftet til å fungere på avtalene for den angitte varigheten.
 - **Ikke-forpliktende bestilling** – Ressursreservasjonene ble foreløpig angitt til å fungere på avtalene for den angitte varigheten.
@@ -52,8 +52,8 @@ Fremgangsmåten nedenfor forklarer hvordan du oppretter et prosjektteam.
 4. I ruten **Legg til roller i prosjektet** i feltet **Rolle** velger du **Overordnet prosjektleder**.
 5. Velg **Nødvendige kompetanser**.
 6. På siden **Velg egenskaper** velges egenskapene som du tidligere har angitt for rollen overordnet prosjektleder, som standard. Velg **OK**.
-7. På siden **Legg til roller i prosjektet** , i feltet **Antall ressurser** , angir du **1**.
-8. I **Ressurs** -feltet viser oppslaget alle ressurser som har de nødvendige kompetansene. Velg **Daniel Goldschmid** , og velg deretter **Opprett**.
+7. På siden **Legg til roller i prosjektet**, i feltet **Antall ressurser**, angir du **1**.
+8. I **Ressurs**-feltet viser oppslaget alle ressurser som har de nødvendige kompetansene. Velg **Daniel Goldschmid**, og velg deretter **Opprett**.
 9. Velg **Legg til** på siden **Prosjekt**.
 10. I ruten **Legg til roller i prosjektet** i feltet **Rolle** velger du **Teammedlem**. I feltet **Antall ressurser** angir du **5**.
 11. Velg **Opprett**.

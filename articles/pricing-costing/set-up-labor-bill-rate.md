@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274830"
 ---
 # <a name="set-up-labor-bill-rates"></a>Konfigurere fakturasatser for arbeid
 
 _ **Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
-Hver prisliste har et sett med rollepriser, eller arbeidssatser, som gjelder for konteksten og datogyldigheten som er inkludert i prislistehodet. Fakturasatser for tid i Dynamics 365 Project Operations kan defineres i bare én valuta, som er valutaen i prislistehodet.
+Hver prisliste har et sett med rollepriser, eller arbeidssatser, som gjelder for konteksten og datogyldigheten som er inkludert i prislistehodet. Fakturasatser for tidspunkt i Dynamics 365 Project Operations kan bare angis i én valuta, som er valutaen i Prisliste-hodet.
 
 1. Hvis du vil definere fakturasatser for en salgsprisliste, oppretter du en prisliste basert på prislistehodet. 
 2. I delrutenettet i kategorien **Rollepriser** velger du **+ Ny rollepris**. 

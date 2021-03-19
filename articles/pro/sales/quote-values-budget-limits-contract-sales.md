@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180968"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272445"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Sammendragsinformasjon om et prosjekttilbud – Lite
 
@@ -21,7 +21,7 @@ _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 Denne artikkelen forklarer informasjonen som gjelder for et prosjekttilbud. Dette omfatter innstillingene som påvirker alle tilbudslinjene, og informasjon om tilbudet som oppsummeres på tvers av alle linjeelementene, for å drive KPI-ene til prosjekttilbudet.
 
-Tabellen nedenfor viser sammendragsinformasjonsfeltene i et prosjekttilbud som er unike for Dynamics 365 Project Operations, eller har noen viktige endringer i virkemåten fra Dynamics 365 Sales-tilbud.
+Tabellen nedenfor viser sammendragsinformasjonsfeltene i et prosjekttilbud som er unike for Dynamics 365 Project Operations, eller som har noen viktige endringer i virkemåten fra Dynamics 365 Sales-tilbud.
 
 | **Felt** | **Plassering** | **Beskrivelse** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |

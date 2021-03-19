@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180928"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272490"
 ---
 # <a name="project-contract-settings---lite"></a>Innstillinger for prosjektkontrakt – Lite
 
@@ -21,7 +21,7 @@ _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 Dette emnet gir informasjon om felt som gjelder for hele prosjektkontrakten, inkludert innstillinger som påvirker alle kontraktlinjene. Informasjon om kontrakten som er oppsummert på tvers av alle linjeelementene for å drive KPI-er for prosjektkontrakten, er også inkludert.
 
-Tabellen nedenfor viser feltene i en prosjektkontrakt som er unike for Dynamics 365 Project Operations, eller har noen viktige endringer i virkemåten fra salgsordrer i Dynamics 365 Sales.
+Tabellen nedenfor viser feltene i en prosjektkontrakt som er unike for Dynamics 365 Project Operations, eller som har noen viktige endringer i virkemåten fra salgsordre i Dynamics 365 Sales.
 
 | Felt | Sted | Beskrivelse | Nedstrøms påvirkning |
 | --- | --- | --- | --- |

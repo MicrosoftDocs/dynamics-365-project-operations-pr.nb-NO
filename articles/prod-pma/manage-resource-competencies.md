@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270645"
 ---
 # <a name="manage-resource-competencies"></a>Administrere ressurskompetanser
 
@@ -35,24 +35,24 @@ Ressurskompetanser er en viktig del av ressursbehandlingen. Kompetanser kan bruk
 
 Fremgangsmåtene nedenfor forklarer hvordan du konfigurerer noen av kompetansene for en ressurs.
 
-Hvis du vil definere kompetanse for en arbeider, kan du bruke listesiden **Arbeidere** i Human resources eller **Ressurser** -listesiden i Prosjektstyring og regnskap. For fremgangsmåtene nedenfor brukes **Arbeidere** -listesiden i Human resources.
+Hvis du vil definere kompetanse for en arbeider, kan du bruke listesiden **Arbeidere** i Human resources eller **Ressurser**-listesiden i Prosjektstyring og regnskap. For fremgangsmåtene nedenfor brukes **Arbeidere**-listesiden i Human resources.
 
 ## <a name="set-up-competencies-certificates"></a>Konfigurere kompetanser: sertifikater
 
 1. På listesiden **Arbeidere** velger du linjen for arbeideren du vil legge til sertifikatinformasjon for.
 2. I handlingsruten i kategorien **Arbeider** i gruppen **Kompetanser** velger du **Sertifikater**.
-3. Velg **Ny** og deretter, i feltet **Sertifikattype** , velger du **PMP**.
-4. I feltet **Startdato** velger du **10/1/2015** , og deretter velger du **Lagre**.
+3. Velg **Ny** og deretter, i feltet **Sertifikattype**, velger du **PMP**.
+4. I feltet **Startdato** velger du **10/1/2015**, og deretter velger du **Lagre**.
 
 ## <a name="set-up-competencies-skills"></a>Konfigurere kompetanser: ferdigheter
 
-1. På listesiden **Arbeidere** må du kontrollere at arbeideren du brukte i forrige prosedyre, fremdeles er valgt. Deretter, i handlingsruten i kategorien **Arbeider** i gruppen **Kompetanser** , velger du **Ferdigheter**.
+1. På listesiden **Arbeidere** må du kontrollere at arbeideren du brukte i forrige prosedyre, fremdeles er valgt. Deretter, i handlingsruten i kategorien **Arbeider** i gruppen **Kompetanser**, velger du **Ferdigheter**.
 2. Velg **Ny**.
 3. I feltet **Ferdigheter** velger du **Prosjektledelse**.
 4. I feltet **Nivå** velger du **5 Ekspert**.
 5. I feltet **Nivådato** velger du **1-/14/2014**.
 6. I feltet **År med erfaring** velger du **10**.
-7. Velg **Lagre** , og lukk deretter siden.
+7. Velg **Lagre**, og lukk deretter siden.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

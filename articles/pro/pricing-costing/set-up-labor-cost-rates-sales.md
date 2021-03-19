@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180738"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274380"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Konfigurere kostnadssatser for arbeid – Lite
 
@@ -38,7 +38,7 @@ Tabellen nedenfor inneholder noen av feltene som er viktige når du oppretter ar
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Overføre prising og kostnader for ressurser utenfor divisjonen eller den juridiske enheten
 
-I prosjektbaserte selskaper er det vanlig å bruke ansatte fra ulike juridiske enheter eller divisjoner på prosjekter. Et prosjekt kan utføres av én juridisk enhet, men de ansatte eller konsulenter som arbeider med prosjekt, kan komme fra samme juridiske enhet eller fra en annen, eller en kombinasjon av begge deler. I Dynamics 365 Project Operations kalles den juridiske enheten som eier leveringen av prosjektet, for det **eiende selskapet**, og divisjonen som eier leveringen, kalles for en **kontraktenheten**. Andre juridiske enheter som leverer ressurser, kalles for **ressursselskaper**, og divisjonene som leverer ressurser, kalles for **ressursenheter**. I de fleste land kreves det at selskaper må forsikre seg om at den juridiske ressursenheten eller divisjonen, belaster det eiende firmaet og kontraktenheten for bruk av ressurser.
+I prosjektbaserte selskaper er det vanlig å bruke ansatte fra ulike juridiske enheter eller divisjoner på prosjekter. Et prosjekt kan utføres av én juridisk enhet, men de ansatte eller konsulenter som arbeider med prosjekt, kan komme fra samme juridiske enhet eller fra en annen, eller en kombinasjon av begge deler. I Dynamics 365 Project Operations er den juridiske enheten som eier leveringen av prosjektet, **Eierfirmaet**, og divisjonen som eier leveringen, er **Kontraktsenhet**. Andre juridiske enheter som leverer ressurser, kalles for **ressursselskaper**, og divisjonene som leverer ressurser, kalles for **ressursenheter**. I de fleste land kreves det at selskaper må forsikre seg om at den juridiske ressursenheten eller divisjonen, belaster det eiende firmaet og kontraktenheten for bruk av ressurser.
 
 Fabrikam Corporation må for eksempel sikre at Fabrikam India - robot har et forhandlet et kostnadssatskort med Fabrikam USA - robot eller Fabrikam UK - robot
 
