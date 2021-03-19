@@ -3,18 +3,18 @@ title: Project Operations-oppdateringer
 description: Dette emnet gir informasjon om de publiserte versjonene av Dynamics 365 Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 12/07/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.openlocfilehash: 07ba97377841b1a2d8f96b60a926dc7499e345f1
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141219"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556590"
 ---
 # <a name="project-operations-updates"></a>Project Operations-oppdateringer
 
@@ -29,13 +29,16 @@ Dynamics 365 Project Operations består av to komponenter:
 - Project Operations i Dataverse-miljøet dekker funksjoner fra salgsmulighet til proformafakturering. Dataverse brukes i Lite-distribusjon og distribusjon av ressursbaserte/ikke-lagerførte scenarioer av Project Operations.
 - Prosjektstyring og regnskap i Dynamics 365 Finance-miljøet dekker funksjoner for reiseutgiftsadministrasjon, prosjektregnskap og inntektsføring. Finance and Operations-appmiljøet brukes i Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer og Project Operations for lagerførte/produksjonsbaserte scenarioer.
 
+## <a name="project-operations-release-notes"></a>Produktmerknader for Project Operations
+- Nyeste produktmerknader for Project Operations for scenarioet [Ressursbasert/ikke-lagerført](whats-new-mar-2021-resource-based.md).
+- Nyeste produktmerknader for Project Operations for scenarioet [Lite-distribusjon](../pro/whats-new/whats-new-mar-2021-lite.md).
+- Nyeste produktmerknader for Project Operations for scenarioet [lagerført/produksjon](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+
 ## <a name="project-operations-latest-version"></a>Nyeste versjon av Project Operations
 
 | Project Operations i Dataverse-miljø | Prosjektstyring og regnskap i Finance and Operations-appmiljøer |
 | --- | --- |
-| 4.7.0.95 | 10.0.16 |
-
-Produktmerknader for januar 2021 for Project Operations for [Ressursbaserte/ikke-lagerførte](whats-new-feb-2021-resource-based.md) scenarioer, scenarioer med [Lite-distribusjon](../pro/whats-new/whats-new-feb-2021-lite.md) og [lagerførte/produksjonsbaserte](../prod-pma/whats-new/whats-new-jan-2021-stocked.md) scenarioer.
+| 4.8.0.91 | 10.0.16 |
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Lanseringsplan for Project Operations i Dataverse-miljø
 
@@ -44,22 +47,23 @@ Oppdateringer for Project Operations i Dataverse-miljø er tilgjengelige månedl
 | Stasjon   | Område        | Gjeldende versjon | Neste versjon | Generelt tilgjengelig |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Stasjon 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Første versjon |  4.7.0.95       | TBD     | 19-feb-21           |
+|   &nbsp;  | Første versjon |  4.8.0.91       | TBD     | 02-apr-21           |
 | Stasjon 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Sør-Amerika |  4.7.0.95       | TBD     | 19-feb-21           |
-|    &nbsp; | Canada        |  4.7.0.95       | TBD     | 19-feb-21           |
-|   &nbsp;  | India         |  4.7.0.95       | TBD     | 19-feb-21           |
-|   &nbsp;  | Frankrike         |  4.7.0.95       | TBD     | 19-feb-21           |
-|   &nbsp;  | Forente arabiske emirater         |  4.7.0.95       | TBD     | 19-feb-21           |
+|   &nbsp;  | Sør-Amerika |  4.8.0.91       | TBD     | 02-apr-21           |
+|    &nbsp; | Canada        |  4.8.0.91       | TBD     | 02-apr-21           |
+|   &nbsp;  | India         |  4.8.0.91       | TBD     | 02-apr-21           |
+|   &nbsp;  | Frankrike         |  4.8.0.91       | TBD     | 02-apr-21           |
+|   &nbsp;  | Forente arabiske emirater         |  4.8.0.91       | TBD     | 02-apr-21           |
+|   &nbsp;  | Sør-Afrika         |  4.8.0.91       | TBD     | 02-apr-21           |
 | Stasjon 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.7.0.95       | TBD     | 26-feb-21           |
-|   &nbsp;  | Asia/Stillehavskysten  |  4.7.0.95       | TBD     | 26-feb-21           |
-|   &nbsp;  | Storbritannia |  4.7.0.95       | TBD     | 26-feb-21           |
-|   &nbsp;  | Oseania       |  4.7.0.95       | TBD     | 26-feb-21           |
+|   &nbsp;  | Japan         |  4.8.0.91       | TBD     | 09-apr-21           |
+|   &nbsp;  | Asia/Stillehavskysten  |  4.8.0.91       | TBD     | 09-apr-21           |
+|   &nbsp;  | Storbritannia |  4.8.0.91       | TBD     | 09-apr-21           |
+|   &nbsp;  | Oseania       |  4.8.0.91       | TBD     | 09-apr-21           |
 | Stasjon 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.6.0.161       | 4.7.0.95     | 12-feb-21           |
+|   &nbsp;  | Europa        |  4.8.0.91       | TBD     | 16-apr-21           |
 | Stasjon 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Nord-Amerika |  4.6.0.161       | 4.7.0.95     | 19-feb-21           |
+|   &nbsp;  | Nord-Amerika |  4.7.0.96       | 4.8.0.91     | 12-mar-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lanseringsplan for Prosjektstyring og regnskap i Finance and Operations-appmiljøet
 

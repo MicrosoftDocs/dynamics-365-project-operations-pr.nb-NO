@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401230"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479576"
 ---
 # <a name="determine-your-deployment-type"></a>Fastslå distribusjonstypen
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 > [!IMPORTANT]
-> Når du har kjøpt lisensen, starter du her for å finne den beste distribusjonsmodellen for Dynamics 365 Project Operations ved å bruke den [veiledede installasjonsflyten](https://aka.ms/provisionprojectoperations).
+> Når du har kjøpt lisensen, starter du her for å finne den beste distribusjonsmodellen for Dynamics 365 Project Operations ved å bruke [flyten for veiledet installasjon](https://aka.ms/provisionprojectoperations).
 > Når du har fullført den veiledede installasjonsflyten, blir du dirigert til riktig administrasjonsportal for å fullføre installasjonen. Se distribusjonsdetaljene for å fullføre installasjonen.
 
 
@@ -31,6 +31,9 @@ Prosjekt Operations inkluderer funksjonene som leveres med Project Service Autom
 
 Eksisterende kunder av Finance som bruker Prosjektstyring og regnskap-funksjonaliteten, kan fortsette å bruke den som den er. Se [Project Operations for lagerførte scenarioer / produksjonsordrescenarioer](#pma).
 
+
+## <a name="deployment-regions"></a>Distribusjonsområder
+Hvis du vil finne ut hvilke områder som støtter Project Operations-distribusjon, kan du se [Geografisk tilgjengelighet for Dynamics 365 og Power Platform-rapport](https://dynamics.microsoft.com/en-us/geographic-availability/). Velg **Vis rapport** og utvid **Dynamics 365 > Operations-apper > Dynamics 365 Project Operations** for å vise de støttede områdene.
 
 ## <a name="deployment-types"></a>Distribusjonstyper
 Project Operations støtter flere distribusjonsalternativer for å dekke dine behov. Enten du er en ny eller eksisterende Dynamics 365-kunde, kan Project Operations støtte dine behov.

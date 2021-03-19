@@ -3,17 +3,17 @@ title: Virkemåte i brukergrensesnitt for tidsoppføring
 description: Dette emnet gir informasjon om virkemåten i brukergrensesnittet for tidsoppføring.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124515"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499626"
 ---
 # <a name="time-entry-ui-behavior"></a>Virkemåte i brukergrensesnitt for tidsoppføring
 
@@ -21,6 +21,19 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 
 Rutenettet **Ukentlig tidsoppføring** er en egendefinert kontroll som har to hoveddeler, **Dimensjoner** og **Varighet**.
+
+## <a name="keyboard-shortcuts"></a>Hurtigtaster
+| Handling        | Snarvei                  |
+|------------   |------------------------   |
+| Ny           | Alt + Skift + n           |
+| Kopier rad      | Alt + Skift + c           |
+| Rediger oppføring    | Alt + Skift + e           |
+| Rediger rad      | Alt + Skift + Ctrl + e    |
+| Åpne oppføring    | Alt + Skift + o           |
+| Start        | Alt + Skift + s           |
+| Tilbakekall        | Alt + Skift + r           |
+| Delete        | Alt + Skift + d           |
+| Kopier uke     | Alt + Skift + w           |
 
 ## <a name="dimensions"></a>Dimensjoner
 **Dimensjoner**-delen viser dimensjonene som tiden kan angis i. Følgende dimensjoner støttes som standard:

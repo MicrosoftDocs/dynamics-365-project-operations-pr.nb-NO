@@ -1,9 +1,9 @@
 ---
 title: Nyskapte utgiftsrapporter
-description: Dette emnet gir informasjon om den nyutformede og nyskapte opplevelsen for oppføring av reiseregninger.
+description: Denne emne forklarer den nye utformingen og nyskapte opplevelsen for innlegging av utgiftsrapport.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122808"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499728"
 ---
 # <a name="expense-reports-reimagined"></a>Nyskapte utgiftsrapporter
 
@@ -59,25 +59,22 @@ Hvis du vil aktivere den nye opplevelsen, bruker du arbeidsområdet **Funksjonsb
 | Reduksjon i meldinger på meldingslinjen| Antallet infologg-meldinger ble redusert, og det ble gjort et forsøk på å forhindre at duplikate meldinger vises i mange tilfeller. |
 | Vanlige handlinger gruppert sammen | Grensesnittet ble renset da det ble lagt til en ny handlingsknapp for de fleste vanlige handlinger på linjenivå, og tillegging av en ellipseknapp (...) for hodet og andre sjeldnere handlinger. |
 | Nytt arbeidsområde for å øke synligheten | Et nytt arbeidsområde ensretter funksjoner og koblinger som gjør det mulig for brukerne å flytte til forskjellige områder. |
-| Legg til eksisterende utgifter og kvitterringer under oppretting av utgift | Når du oppretter reiseregninger, kan du legge til alle eller valgte utgifter og kvitteringer. |
+| Legg til eksisterende utgifter og kvitterringer under oppretting av utgift | Når du oppretter utgiftsrapporter, kan du legge til alle utgifter eller velge ikke-tilknyttede utgifter. Ikke-tilknyttede utgifter er utgifter som ble importert fra feeden for bedriftskredittkortet, eller utgifter som ble manuelt opprettet av brukeren, men som ikke er knyttet til en utgiftsrapport.|
 | Valutakalkulator | En valutakalkulator er lagt til, slik at du kan beregne valutakursen for direkte transaksjoner med flere valutaer. |
 | Lagre og legg til nye utgiftslinjer | Knappene **Lagre** og **Ny** er tilgjengelige når nye utgifter angis, for å hjelpe deg med å angi utgiftslinjer raskt. |
 | Bedre oversikt over delte og spesifiserte linjer | Spesifiserte og delte linjer blir lagt til direkte i listen over utgifter for å øke synligheten og hjelpe deg med å avgjøre om det er noen feil. |
 | Vis kvitteringer under spesifisering | Kvitteringer kan vises under spesifisering. |
+| Kontantforskuddvalg | Velg ett eller flere forskudd for å utføre én enkelt utgiftstransaksjon. |
+| Kontantforskuddsaldo | Gå gjennom forskuddssaldoen i sanntid når du oppretter en utgiftsoppføring mot godkjente og betalte forskudd. |
 
 Den første lanseringen er fokusert på scenarioer for utgiftsregistrering. Et gjennomgangs- eller godkjenningsscenario av reiseregninger vil fortsette å bruke den eksisterende siden for utgiftsoppføring.
 
-Følgende funksjoner finnes på den eksisterende siden, men fortsatt ikke på den nye siden. Disse funksjonene vil bli innført på nytt i de neste utgivelsene:
+Følgende funksjoner støttes ikke i det nyskapte utgiftsarbeidsområdet:
 
-- Godkjenninger
-- Godkjenning av leverandørgjelde og muligheten til å redigere regnskapet
-- Flere oppføringspunkter
 - Integrering av reiserekvisisjon
-- Dataenhet for synlighet av utgiftsfelt
-- Oppføring for kostgodtgjørelsesutgifter
-- Arbeidsflyt på linjenivå
+- Utgiftsoppføring for kostgodtgjørelse
 - Midlertidig godkjennerstøtte
-- Avansert spesifisering
+- Mulighet til å vise arbeidsflytlogg
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
