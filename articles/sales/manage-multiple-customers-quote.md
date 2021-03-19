@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182004"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277890"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Administrere flere kunder i et prosjekttilbud
 
@@ -23,7 +23,7 @@ Prosjekttilbud støtter scenarioet der forslaget omfatter flere kunder som vil f
 
 Alle tilbudskunder i kategorien **Kunder** i prosjekttilbudet blir som standard tilbudslinjekunder på **nye** prosjektbaserte tilbudslinjer som er opprettet for tilbudet. Eksisterende prosjektbaserte tilbudslinjer arver ikke nye tilbudskundeoppføringer som er opprettet etter dem.
 
-Tilbudskunder og tilbudslinjekunder kan når som helst legges til, oppdateres eller slettes før tilbudet er vunnet. En gyldig kunde i tilbudet må være definert som en kunde i det eiende firmaet eller den juridiske enheten på **Kunder**-siden. Juridiske enheter konfigureres i modulen **Prosjektstyring og regnskap** i Dynamics 365 Project Operations og blir gjort tilgjengelig som firmaer i modulen **Prosjektsalg og levering** i Project Operations.
+Tilbudskunder og tilbudslinjekunder kan når som helst legges til, oppdateres eller slettes før tilbudet er vunnet. En gyldig kunde i tilbudet må være definert som en kunde i det eiende firmaet eller den juridiske enheten på **Kunder**-siden. Juridiske enheter konfigureres i **Prosjektstyring og regnskaps**-modulen for Dynamics 365 Project Operations, og de er tilgjengelige som firmaer i **Prosjektsalg- og Levering**-modulene i Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Konseptet primær kunde
 

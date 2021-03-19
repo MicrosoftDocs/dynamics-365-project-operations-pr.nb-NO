@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180249"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277575"
 ---
 # <a name="project-quote-settings"></a>Innstillinger for prosjekttilbud
 
@@ -22,7 +22,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Denne artikkelen forklarer informasjonen som gjelder for et prosjekttilbud. Dette omfatter innstillingene som påvirker alle tilbudslinjene, og informasjon om tilbudet som oppsummeres på tvers av alle linjeelementene, for å drive KPI-ene til prosjekttilbudet.
 
-Tabellen nedenfor viser sammendragsinformasjonsfeltene i et prosjekttilbud som er unike for Dynamics 365 Project Operations, eller har noen viktige endringer i virkemåten fra Dynamics 365 Sales-tilbud.
+Tabellen nedenfor viser sammendragsinformasjonsfeltene i et prosjekttilbud som er unike for Dynamics 365 Project Operations, eller som har noen viktige endringer i virkemåten fra Dynamics 365 Sales-tilbud.
 
 | **Felt** | **Plassering** | **Beskrivelse** | **Nedstrøms påvirkning** |
 | --- | --- | --- | --- |

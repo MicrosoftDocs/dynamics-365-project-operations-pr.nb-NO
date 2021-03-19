@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177613"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277395"
 ---
 # <a name="sales-process-overview"></a>Oversikt over salgsprosess
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Salgsprosessene som brukes i en prosjektbasertert organisasjon, er forskjellig fra salgsprosessene som brukes i en produktbasert organisasjon. Dette oppstår fordi salgssyklusene for prosjektrelaterte organisasjoner er lengre og krever egendefinerte forkalkuleringsteknikker for å analysere og opprette tilbud for hver avtale. Dynamics 365 Project Operations bruker noe av den følgende funksjonaliteten som brukes i en salgsprosess:
+Salgsprosessene som brukes i en prosjektbasertert organisasjon, er forskjellig fra salgsprosessene som brukes i en produktbasert organisasjon. Dette oppstår fordi salgssyklusene for prosjektrelaterte organisasjoner er lengre og krever egendefinerte forkalkuleringsteknikker for å analysere og opprette tilbud for hver avtale. Dynamics 365 Project Operations bruker noe av følgende funksjonalitet som brukes i en salgsprosess:
 
 - En kundeemneoppføring brukes til å spore salgsprosessen.
 - Kvalifiserte kundeemner spores som salgsmuligheter.

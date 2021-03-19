@@ -1,6 +1,6 @@
 ---
 title: Oversikt over modi for ressursstyring
-description: Dette emnet gir information om ressursstyringsfunksjonaliteten i Dynamics 365 Project Operations.
+description: Dette emnet gir informasjon om ressursstyringsfunksjonaliteten i Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118530"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279465"
 ---
 # <a name="resource-management-modes-overview"></a>Oversikt over modi for ressursstyring
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 
-Dynamics 365 Project Operations støtter to moduser for at du skal kunne kjøre den generelle bestillingsflyten. Administrasjonsmodusen defineres som en prosjektparameter og kan endres hvis forretningsbehovene endres.    
+Dynamics 365 Project Operations støtter to moduser for at du skal kunne kjøre den totale bestillingsflyten. Administrasjonsmodusen defineres som en prosjektparameter og kan endres hvis forretningsbehovene endres.    
 
 ## <a name="central-mode"></a>Sentral modus
 Organisasjoner som sentraliserer fordelingen av ressurser til prosjekter, kan bruke sentral modus til å sørge for at prosjektledere kan definere ressurskrav på prosjektnivå. Innfrielse av ressurskravene er delegert til en ressursleder. Prosjektledere kan godta eller avvise ressurser som er foreslått av ressurslederen.

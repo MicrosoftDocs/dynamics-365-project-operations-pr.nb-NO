@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123885"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279510"
 ---
 # <a name="resource-management-key-concepts"></a>Nøkkelkonsepter for ressursstyring
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon. Muligheten til å finne de riktige ressursene til rett tid, bestille disse ressursene på prosjekter og sørge for at ressurser blir brukt, hjelper organisasjoner med å oppfylle omsetningsmål og kundetilfredshetsmål. Du kan bruke prosjektbemanningsfunksjonaliteten i Dynamics 365 Project Operations til følgende oppgaver:
+Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon. Muligheten til å finne de riktige ressursene til rett tid, bestille disse ressursene på prosjekter og sørge for at ressurser blir brukt, hjelper organisasjoner med å oppfylle omsetningsmål og kundetilfredshetsmål. Du kan bruke prosjektbemanningsfunksjonaliteten i Dynamics 365 Project Operations til å gjøre følgende oppgaver:
 
 - Danne prosjektteam ved å bestille tilgjengelige og kvalifiserte ressurser.
 - Opprette generelle teammedlemsoppføringer og definere rollene og ressursorganisasjonsenheten.
