@@ -1,6 +1,6 @@
 ---
-title: Oversikt over prosjektbaserte tilbudslinjer
-description: Dette emnet gir informasjon om hvordan du bruker prosjektbaserte tilbudslinjer for prosjektarbeid.
+title: Oversikt over prosjekttilbudslinjer
+description: Dette emnet inneholder informasjon om bruk av prosjekttilbudslinjer for prosjektarbeid.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277800"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858044"
 ---
-# <a name="project-based-quote-lines-overview"></a>Oversikt over prosjektbaserte tilbudslinjer
+# <a name="project-quote-lines-overview"></a>Oversikt over prosjekttilbudslinjer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 

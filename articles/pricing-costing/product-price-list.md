@@ -3,7 +3,7 @@ title: Produktprislister
 description: Dette emnet gir informasjon om prislistene i katalogprising som brukes for prosjekttilbud og kontrakter.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275370"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877502"
 ---
 # <a name="product-price-lists"></a>Produktprislister
 
-_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-Prislister og prislisteelementer støtter produktkatalogprising. Denne funksjonaliteten brukes for det meste av katalogbaserte linjer i prosjekttilbud og prosjektkontrakter.
-
-For prosjektbaserte linjer representerer en kontrakt avtalen etter at den ble vunnet. Fordi forhandlingen vanligvis kommer før kontrakten er vunnet, kopieres prisene som er knyttet til tilbudet, alltid til en ny prisliste og knyttes til kontrakten. Den nye prislisten kan ikke endres utenfor kontraktsområdet. Denne begrensningen bidrar til å beskytte rangeringskortet som ble forhandlet ut fra alle prisendringer som forekommer i hovedprislisten.
+ I Project Operations støtter **Produktprislister** og relaterte prislisteelementenheter funksjonalitet for prising av produkter på produktbaserte tilbuds- og kontraktlinjer. For produkter som brukes i prosjekter, brukes prislisteelementoppføringene for prosjektprislister. 
 
 Produkter bør settes opp slik at de har standard kostnads- og prislister i produkt katalogen. Bruk listeprisen, standardkostnaden og gjeldende kostnad for å konfigurere standard kostnader og listepriser. Standard listeprisene brukes på en tilbudslinje eller en prosjektkontraktlinje når systemet ikke finner en prislistelinje for produktet i produktprislisten for tilbudet eller prosjektkontrakten.
 
@@ -40,9 +38,7 @@ Kostprisen for produktkataloglinjer kan endres mellom tilbud. Denne funksjonen e
 
 Du kan legge til produkter fra en produktkatalog i forskjellige prislister. Prislistelinjer for produkter refererer alltid til en bestemt enhet. Priser for et produkt i prislisteelementer kan konfigureres som et valutabeløp. De kan også konfigureres som en funksjon av listepris, løpende kostnad eller standardkostnad.
 
-PSA støtter ulike avrundingsalternativer når priser konfigureres som en funksjon av listepris, standardkostnad eller løpende kostnad. I tillegg til å dra nytte av flere prisingsmetoder og avrundingsalternativer kan du knytte rabattlister til prislisteelementer. 
-
-Når du oppretter en ny egen definert prisliste for et tilbud ved **Opprett egendefinert prising** på siden **Prosjekttilbud**, lages det en kopi av prislisten, og **Enhet**-feltet i overskriften i den nye prislisten settes til **Salgsenhet**. Navnet på den nye prislisten føyes til med navnet på tilbudet og et tidsstempel. Du kan også bruke navnet på den nye prislisten og navnet på tilbudet i egendefinerte arbeidsflyter for å utløse ytterligere gjennomsyn og godkjenninger for tilbud som bruker et egendefinert pris.
+Prisingsfunksjonalitet støtter ulike avrundingsalternativer når produktpriser konfigureres som en funksjon av listepris, standardkostnad eller løpende kostnad. I tillegg til å dra nytte av flere prisingsmetoder og avrundingsalternativer kan du knytte rabattlister til prislisteelementer. 
 
  
 ## <a name="default-product-price-list"></a>Standard produktprisliste
@@ -57,7 +53,7 @@ Enhetene Salgsmulighet, Tilbud og Prosjektkontrakt bruker følgende rekkefølge 
 
 **Produkt**-feltet på tilbudslinjen viser som standard alle de aktive produktene i produktprislisten for tilbudet. Hvis et produkt er deaktivert, eller det er et utkastprodukt, vises det ikke, selv om det er i prislisten. 
 
-Produktkataloglinjer legges til som fakturalinjer på den første fakturaen som opprettes for en prosjektkontrakt. Disse fakturalinjene kan slettes på et fakturautkast. I slike tilfeller vil linjene vises på en etterfølgende faktura til de faktureres eller til fakturaen sendes til kunden. Du kan ikke fakturere et delvist antall av en produktfakturalinje. Når produktlinjene fra prosjektkontrakten faktureres, opprettes faktiske verdier. De faktiske verdiene blir imidlertid ikke koblet til den relaterte prosjektenheten. Med andre ord er produktbaserte prosjektkontraktlinjer uavhengige av prosjektbasert forbruk. Materialforbruk spores ikke på prosjekter.
+Produktkataloglinjer legges til som fakturalinjer på den første fakturaen som opprettes for en prosjektkontrakt. Disse fakturalinjene kan slettes på et fakturautkast. I slike tilfeller vil linjene vises på en etterfølgende faktura til de faktureres eller til fakturaen sendes til kunden. Du kan ikke fakturere et delvist antall av en produktfakturalinje. Når produktlinjene fra prosjektkontrakten faktureres, opprettes faktiske verdier. De faktiske verdiene blir imidlertid ikke koblet til den relaterte prosjektenheten. Med andre ord er produktbaserte prosjektkontraktlinjer uavhengige av prosjektbasert forbruk. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

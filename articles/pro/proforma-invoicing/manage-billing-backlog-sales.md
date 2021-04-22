@@ -1,6 +1,6 @@
 ---
-title: Administrere faktureringsrestansen – Lite
-description: Dette emnet gir informasjon om de ulike visningene som er tilgjengelige for bruk ved administrasjon av faktureringsrestansen.
+title: Administrer faktureringsrestanse for prosjekt
+description: Dette emnet inneholder informasjon om de ulike visningene som er tilgjengelige for bruk ved behandling av faktureringsreserve på prosjekter.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274110"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867008"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Administrere faktureringsrestansen – Lite
+# <a name="manage-project-billing-backlog"></a>Administrer faktureringsrestanse for prosjekt 
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 

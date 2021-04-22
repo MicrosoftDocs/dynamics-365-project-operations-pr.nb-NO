@@ -3,17 +3,17 @@ title: Konfigurere regnskap for fakturerbare prosjekter
 description: Dette emnet gir informasjon om regnskapsalternativene for fakturerbare prosjekter.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287655"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858665"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurere regnskap for fakturerbare prosjekter
 
@@ -58,13 +58,25 @@ Fullfør fremgangsmåten nedenfor for å opprette en ny prosjektkostnads- og oms
 
          - **Saldo**: Ved postering av Project Operations-integreringsjournalen debiteres kostnaden for utgiftstransaksjonen til kontotypen *VIA – kostverdi* i hovedboken, slik det er definert på **Kostnad**-fanen på siden **Finansposteringsoppsett**, og den krediteres mot forskyvningskontoen på journallinjen. Standard forskyvningskontoer for utgifter er definert under **Prosjektstyring og regnskap** > **Oppsett** \> **Bokføring** \> **Standard forskyvningskonto for utgifter**. Regnskapsføreren bruker funksjonen **Poster kostnader** til å flytte denne kostnaden fra denne saldokontoen til resultatkontoen regelmessig.
         - **Resultat**: Ved postering av Project Operations-integreringsjournalen debiteres kostnaden for utgiftstransaksjonen til kontotypen *Kostnad* i hovedboken, slik det er definert på **Kostnad**-fanen på siden **Finansposteringsoppsett**, og den krediteres mot forskyvningskontoen på journallinjen. Standard forskyvningskontoer for utgifter er definert under **Prosjektstyring og regnskap** \> **Oppsett** \> **Bokføring** \> **Standard forskyvningskonto for utgifter**.
+      
+    - **Poster kostnader – vare**:
+
+         - **Saldo**: Når du posterer journalen for Project Operations-integrering, blir varetransaksjonskostnaden debitert til hovedbokkontotypen *VIA – Kostnadsverdi – vare* som definert på **Kostnad**-fanen på siden **Oppsett av hovedbokpostering** og kreditert til følgende:
+    
+              - For dokumenttypebruk: Kontoen **Kostnad – vare** i **Oppsett av hovedbokpostering**.  
+              - For dokumenttypekjøp: **Integrasjonskonto for innkjøp** i **Prosjektstyring og regnskapsparametere**.
+           Regnskapsføreren bruker funksjonen **Poster kostnader** til å flytte denne kostnaden fra denne saldokontoen til resultatkontoen regelmessig.
+        - **Resultat**: Når du posterer journalen for Project Operations-integrering, blir varetransaksjonskostnaden debitert til hovedbokkontotypen *Kostnad* som definert på **Kostnad**-fanen på siden **Oppsett av hovedbokpostering** og kreditert til følgende:
+         
+             - For dokumenttypebruk: Kontoen **Kostnad – vare** i **Oppsett av hovedbokpostering**.  
+             - For dokumenttypekjøp: **Integrasjonskonto for innkjøp** i **Prosjektstyring og regnskapsparametere**.
        
     - **A konto fakturering**:
 
         - **Saldo**: Ved postering av prosjektfakturaforslaget blir en a konto-transaksjon (faktureringsmilepæl) kreditert til finanskontotypen *VIA fakturert – a konto*, slik det er definert i kategorien **Omsetning** på siden **Finansposteringsoppsett**, og debitert til kundesaldokontoen.
          - **Resultat**: Ved postering av prosjektfakturaforslaget blir en a konto-transaksjon (faktureringsmilepæl) kreditert til finanskontotypen *Fakturert omsetning – a konto*, slik det er definert i kategorien **Omsetning** på siden **Finansposteringsoppsett**, og debitert til kundesaldokontoen. Kundesaldokontoer defineres i **Utestående fordringer** \> **Oppsett** \> **Kundebokføringsprofiler**.
 
-   Når du definerer posteringsprofilene for faktureringsmetoder for tid og materiale, har du mulighet til å avsette omsetning per transaksjonstype (time, utgift og gebyr). Hvis alternativet **Avsett inntekt** er satt til **Ja**, registreres ikke-fakturerte salgstransaksjoner i Project Operations-integreringsjournalen til hovedboken. Salgsverdien debiteres til **VIA – salgsverdikonto** og krediteres til kontoen **Påløpte inntekter – salgsverdi** som ble konfigurert på siden **Finansposteringsoppsett**, i kategorien **Omsetning**. 
+   Når du definerer posteringsprofilene for faktureringsmetoder for tid og materialer, kan du velge å påløpe omsetning per transaksjonstype (time, utgifter, vare og avgift). Hvis alternativet **Avsett inntekt** er satt til **Ja**, registreres ikke-fakturerte salgstransaksjoner i Project Operations-integreringsjournalen til hovedboken. Salgsverdien debiteres til **VIA – salgsverdikonto** og krediteres til kontoen **Påløpte inntekter – salgsverdi** som ble konfigurert på siden **Finansposteringsoppsett**, i kategorien **Omsetning**. 
   
   > [!NOTE]
   > Alternativet **Avsett omsetning** er bare tilgjengelig når den tilsvarende kostnaden for transaksjonstypen **Kostnad** er postert til resultatkontoen.

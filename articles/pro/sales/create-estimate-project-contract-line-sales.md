@@ -3,17 +3,17 @@ title: Estimere en prosjektbasert kontraktlinje – Lite
 description: Dette emnet inneholder informasjon om estimering av en prosjektbasert kontraktlinje.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273549"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858107"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Estimere en prosjektbasert kontraktlinje – Lite
 
@@ -28,28 +28,33 @@ For å beregne en prosjektbasert kontraktlinje går du til kategorien **Kontrakt
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Opprette et estimat direkte på en prosjektbasert kontraktlinje
 
+Gjør følgende for å opprette et estimat direkte på en prosjektbasert kontraktlinje:
+
 1. Gå til kontraktlinjen, og velg kategorien **Kontraktlinjedetaljer**. Linjene du oppretter i denne kategorien, oppsummeres og vises som **Kontraktverdi** for denne **Kontraktlinjen**. 
-2. I underrutenettet **Kontraktlinjedetaljer** velger du **+ Ny kontraktlinjedetalj**. Det åpnes en glidebryter for hurtigopprettelse. Følgende felt er tilgjengelige i skjemaet **Kontraktlinjedetaljer**:
+2. I underrutenettet **Kontraktlinjedetaljer** velger du **Ny kontraktlinjedetalj**. Det åpnes en glidebryter for hurtigopprettelse. Følgende felter er tilgjengelige på siden **Kontraktlinjedetaljer**.
 
 | Felt | Sted | Beskrivelse | Nedstrøms påvirkning |
 | --- | --- | --- | --- |
-| **Beskrivelse** | **Hurtigoppretting** | En beskrivelse av det spesifikke estimatet. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. |
-| **Transaksjonsklasse** | **Hurtigoppretting** | Denne rullegardinlisten er en liste over transaksjonsklasser som er inkludert i kategorien **Generelt** på den prosjektbaserte kontraktlinjen. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. |
-| **Rolle** | **Hurtigoppretting** | Rollen til personen som utfører dette arbeidet eller oppretter utgiften. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. |
-| **Kategori** | **Hurtigoppretting** | Kategorien for arbeidet eller utgiften. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. |
-| **Startdato** | **Hurtigoppretting** | Arbeidets startdato. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. |
-| **Sluttdato** | **Hurtigoppretting** | Arbeidets sluttdato. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
-| **Ressursenhet** | **Hurtigoppretting** | Ressursenheten som oppretter denne kostnaden og angir ressursen som skal arbeide med den. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. Dette feltet brukes også ved henting av kostpris. |
-| **Tidsplan for enhet** | **Hurtigoppretting** | Enhetsgruppen for arbeidet eller utgiften. Enhetene tilhører en enhetsplan eller en gruppe enheter. Eksempelvis er *Mil* og *Kilometer (KMS)* enheter som tilhører en gruppe enheter som beskriver avstand. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. |
-| **Enhet** | **Hurtigoppretting** | Enheten for arbeid eller utgift. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. |
-| **Antall** | **Hurtigoppretting** | Mengden for arbeid eller utgift. | Dette feltet brukes som standard for den relaterte kontraktlinjedetaljen for kostnader som opprettes automatisk. |
-| **Enhetspris** | **Hurtigoppretting** | Fakturasats for rollen som utfører arbeidet, eller salgsprisen for utgiftskategorien. Dette feltet er som standard **Tid** basert på kombinasjonen av rolle og ressursenhet på prosjektprislisten som gjelder for startdatoen. For utgifter er dette feltets standard fra prisoppsettet for transaksjonskategorien i prosjektprislisten som gjelder for startdatoen. Hvis prismodellen for transaksjonskategorien ikke er **pris per enhet**, finnes det ingen standard, og dette feltet blir stående tomt. | Kostnadssatsen for rollen som utfører arbeidet, eller kostnad per enhet for utgiftskategorien. Dette feltet er som standard angitt til **Tid basert på rolle** og ressursenhetskombinasjonen på rolleprislinjen for kostprislisten som er knyttet til kontraktsenheten som er gjeldende for startdatoen. For utgifter er dette feltets standard basert på kategoriprislinjen for kostprislisten som er knyttet til kontraktenheten som gjelder for startdatoen. Hvis prismodellen for transaksjonskategorien ikke er pris per enhet, finnes det ingen standard, og dette feltet blir stående tomt. |
-| **Beregnet mva** | **Hurtigoppretting** | Den beregnede avgiften for dette arbeidet eller denne utgiften som inndata fra brukeren. | Den beregnede avgiften for dette arbeidet eller denne utgiften som inndata fra brukeren. |
-| **Beløp** | **Hurtigoppretting** | Verdien i dette feltet kan legges til av brukeren hvis feltene **Antall** og **Pris** står tomme. Hvis **Antall** og **Pris** er utfylt, er feltet **Mengde** skrivebeskyttet, og det beregnes som **(Antall \* Enhetspris) + avgift**. | &nbsp; |
+| **Beskrivelse** | **Hurtigoppretting** | En beskrivelse av det spesifikke estimatet. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Transaksjonsklasse** | **Hurtigoppretting** | Dette er en liste over transaksjonsklasser som er inkludert i kategorien **Generelt** for den prosjektbaserte kontraktlinjen. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Velg produkt** | **Hurtigoppretting** | Gjelder når transaksjonsklassen er **Materiale**. Du kan angi om denne estimatlinjen gjelder et **eksisterende** produkt (i produktkatalogen) eller et produkt som **ikke er** i produktkatalogen. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Produkt** | **Hurtigoppretting** | ID-en for produktet fra produktkatalogen. Dette feltet aktiveres bare når du velger **Eksisterende produkt** i **Velg produkt**-feltet. ID-en brukes til å hente salgsprisen fra prosjektprislisten i kontrakten. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Produkt ikke i produktkatalog** | **Hurtigoppretting** | Et tekstfelt der du kan skrive inn produktnavnet. Dette feltet aktiveres bare når du velger **Ikke i produktkatalog** i **Velg produkt**-feltet.| Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Rolle** | **Hurtigoppretting** | Rollen til personen som utfører dette arbeidet eller oppretter utgiften. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk.|
+| **Kategori** | **Hurtigoppretting** | Kategorien for arbeidet eller utgiften. |Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk.|
+| **Startdato** | **Hurtigoppretting** | Arbeidets startdato. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Sluttdato** | **Hurtigoppretting** | Arbeidets sluttdato. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Ressursenhet** | **Hurtigoppretting** | Ressursenheten som pådrar seg denne kostnaden, og som sørger for ressursen for å arbeide med den. |Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk, og som brukes ved henting av kostpris. |
+| **Tidsplan for enhet** | **Hurtigoppretting** | Enhetsgruppen for arbeidet, produktet eller utgiften. Enhetene tilhører en enhetsplan eller en gruppe enheter. Eksempelvis er *Mil* og *Kilometer (kms)* enheter som tilhører en gruppe enheter som beskriver avstand. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Enhet** | **Hurtigoppretting** | Enheten for arbeidet, produktet eller utgiften. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Antall** | **Hurtigoppretting** | Antallet for arbeidet, produktet eller utgiften. | Denne verdien settes som standard til den relaterte kontraktlinjedetaljen for kostnaden som opprettes automatisk. |
+| **Enhetspris** | **Hurtigoppretting** | Fakturasatsen for rollen som utfører arbeidet, enhetsprisen for produktet eller salgsprisen for produktet eller utgiftskategorien. Dette feltet brukes som standard for **Tid** basert på kombinasjonen av prisdimensjonsverdier på rolleprislinjen i prosjektprislisten som gjelder for startdatoen. For **utgifter** er dette feltets standard fra prisoppsettet for transaksjonskategorien i prosjektprislisten som gjelder for startdatoen. Hvis prismodellen for transaksjonskategorien ikke er **pris per enhet**, finnes det ingen standard, og dette feltet blir stående tomt. For produkter er standardverdien for dette feltet basert på **Prislisteelement**-linjen i prosjektprislisten som gjelder for startdatoen.| Kostnadssatsen for rollen som utfører arbeidet, eller kostnaden per enhet i utgiftskategorien eller enhetskostnaden for produktet. Dette feltet brukes som standard for **Tid** basert på kombinasjonen av prisdimensjonsverdier på kostprislinjen vedlagt kontraktenheten som gjelder for startdatoen. For utgifter er dette feltets standard basert på kategoriprislinjen for kostprislisten som er knyttet til kontraktenheten som gjelder for startdatoen. Hvis prismodellen for transaksjonskategorien ikke er pris per enhet, finnes det ingen standard, og dette feltet blir stående tomt. For produkter er standardverdien for dette feltet basert på **Prislisteelement**-linjen i kostnadsprislisten vedlagt kontraktenheten som gjelder for startdatoen.|
+| **Beregnet mva** | **Hurtigoppretting** | Estimert avgift for dette arbeidet eller denne utgiften. | Estimert avgift for dette arbeidet eller denne utgiften. |
+| **Mengde** | **Hurtigoppretting** | Du kan legge til verdien i dette feltet hvis feltene **Antall** og **Pris** er tomme. Hvis **Antall** og **Pris** er utfylt, er feltet **Mengde** skrivebeskyttet, og det beregnes som **(Antall \*Enhetspris) + avgift**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Oppdatere priser på kontraktlinjedetaljer
 
-Hvis du endrer priser på prosjektprislisten som er knyttet til kontrakten eller kostnadsprislisten for kontraktsenheten, kan du oppdatere prisene i de enkelte kontraktlinjedetaljene for å gjenspeile endringen. På siden **Kontrakt** velger du **Omberegn**. En advarsel vises for å informere deg om at prisene for alle kontraktlinjene på denne kontrakten blir tilbakestilt. Velg **Ja** å oppdatere priser for både salgs- og kostnadskontraktlinjedetaljer.
+Hvis du endrer priser på prosjektprislisten som er knyttet til kontrakten eller kostnadsprislisten for kontraktsenheten, kan du oppdatere prisene i de enkelte kontraktlinjedetaljene for å gjenspeile endringen. På siden **Kontrakt** velger du **Omberegn**. Det vises en advarsel om at prisene for alle kontraktlinjene i denne kontrakten tilbakestilles. Velg **Ja** å oppdatere priser for både salgs- og kostnadskontraktlinjedetaljer.
 
 ## <a name="access-contract-line-details-for-cost"></a>Få tilgang til kontraktlinjedetaljer for kostnad
 
@@ -67,7 +72,7 @@ Kontraktlinjedetaljene for **Kostnad** angir standardvalutaen fra prislisten for
 Beregning av fortjeneste konverterer beløpene for kontraktlinjedetaljer for **Kostnad** og **Salg** til standardvalutaen for miljøet for å rapportere de samlede faktiske og beregnede marginene på kontrakten.
 
 > [!NOTE]
-> Det kan oppstå valutaavrundingsfeil og endrede marginer på grunn av manglende datoeffektivitet for vekslingskurs. Bruk bare disse beregningene på prosjektkontrakter som har estimater, og ikke for faktisk lovpålagt eller annen rapportering som krever høyere nøyaktighet for avrunding og bevissthet om datoeffektivitet for valutakurser.
+> Det kan oppstå valutaavrundingsfeil og endrede marginer på grunn av manglende datoeffektivitet for vekslingskurs. Bruk bare disse beregningene på prosjektkontrakter, da dette er tilnærminger og ikke gjelder faktiske lovpålagte eller annen rapportering som krever høyere presisjon for avrunding og bevissthet om datoeffektivitet for valutakurser.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

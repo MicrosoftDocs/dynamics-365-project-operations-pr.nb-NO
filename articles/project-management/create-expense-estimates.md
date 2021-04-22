@@ -1,28 +1,24 @@
 ---
-title: Utgiftsestimater
+title: Økonomiske estimater for utgifter på prosjekter
 description: Dette emnet gir informasjon om hvordan du definerer eller beregner prosjektrelaterte utgifter.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287070"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701794"
 ---
-# <a name="expense-estimates"></a>Utgiftsestimater
+# <a name="financial-estimates-for-expenses-on-projects"></a>Økonomiske estimater for utgifter på prosjekter
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Sammen med definering av ressursbaserte estimater kan prosjektledere definere prosjektbaserte utgifter for hvert prosjekt i Dynamics 365 Project Operations. Hvert utgiftselement kan tilknyttes en bestemt prosjektoppgave eller utgiftskategori. Utgiftskategorier defineres vanligvis på organisasjonsnivå. Priser for hver utgiftskategori defineres vanligvis i følgende hierarki:
-
-- Organisasjonen
-- Kunde
-- Tilbud/kontrakt
+Dynamics 365 Project Operations gjør det mulig for prosjektledere å definere prosjektbaserte utgifter for hvert prosjekt eller hver oppgave. Hvert utgiftselement kan knyttes til en bestemt prosjektoppgave. Utgifter kategoriseres i ulike utgiftskategorier, som defineres på organisasjonsnivå. Priser og kostnader for hver utgiftskategori defineres i prislisten. 
 
 Fullfør fremgangsmåten nedenfor for å vise, legge til eller slette en prosjektutgift.
 
@@ -30,14 +26,20 @@ Fullfør fremgangsmåten nedenfor for å vise, legge til eller slette en prosjek
 2. Velg kategorien **Prosjektestimater**, og vis listen over prosjektutgifter.
 3. Velg **Ny utgift** for å legge til en utgift. Du kan også velge en utgift som skal slettes, og deretter velge **Slett utgift**.
 
-Følgende attributter defineres for hvert utgiftslinjeelement:
+Tabellen nedenfor inneholder informasjon om feltene på **kostnadsestimatlinjen** for et prosjekt. 
 
-- **Kategori**: Felles grupperinger som brukes til å beskrive alle utgifter som er påløpt i et prosjekt.
-- **Startdato**: Datoen da utgiften er beregnet å påløpe.
-- **Antall**: Det estimerte antallet utgiftselementer for en bestemt kategori.
-- **Kostpris for enhet**: Enhetsprisen som brukes til å beregne kostnad for utgiften.
-- **Salgspris for enhet**: Enhetsprisen som brukes til å beregne salgsprisen for utgiften.
-
+| **Felt** | **Beskrivelse** | **Nedstrøms påvirkning** |
+| --- | --- | --- |
+| Oppgave | En liste over oppgavene i prosjektet. Dette inkluderer sammendrags- og bladnodeoppgaver. | Hvis du velger en oppgave for en kostnadsestimatlinje, vil dette påvirke den beregnede utgiftskostnaden og beregnet utgiftssalg for en oppgave. Hvis dette feltet står tomt, spores kostnadsestimatet og oppsummeres bare på prosjektnivå. |
+| Kategori | En liste over transaksjonskategorier som har koblede utgiftskategorier i programmet. | Hvis du velger en kategori, blir prisene og kostnadene dyrere på estimatlinjen for utgifter. |
+| Startdato | Prognosedatoen for utgiften. | Dette feltet har ingen nedstrøms påvirkning. |
+| Enhetsgruppe | Standardverdien i dette feltet kommer fra enhetsgruppen som er angitt som standard i den valgte kategorien. Du kan oppdatere dette feltet for å velge en annen enhetsgruppe. | Dette feltet har ingen nedstrøms påvirkning. |
+| Enhet | Verdien i dette feltet er standardenheten for den valgte kategorien. Du kan oppdatere dette feltet for å velge en annen enhet. | Endring av enheten fører til en annen standard enhetspris og -kostnad. |
+| Antall | Beløpet for den beregnede utgiften du vil pådra deg. | Dette feltet har ingen nedstrøms påvirkning. |
+| Enhetskost | Kostnaden for den valgte kategorien og enhetskombinasjonen som angitt i den aktuelle kostnadsprislisten | Enhetskostnaden vises alltid i kostnadsvalutaen for prosjektet. |
+| Enhetspris | Prisen for den valgte kategorien og enhetskombinasjonen som satt opp i den aktuelle salgsprislisten. | Enhetsprisen vises alltid i salgsvalutaen for prosjektet. |
+| Totale kostnader | Kostnadsbeløpet som beregnes som antall \* enhetskostnad.| Kostnadsbeløpet vises alltid i kostnadsvalutaen for prosjektet. |
+| Totalt salg | Salgsbeløpet som beregnes som antall \* enhetspris. | Salgsbeløpet vises alltid i salgsvalutaen for prosjektet. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Fastslå distribusjonstypen
 description: Dette emnet gir informasjon som hjelper deg med å bestemme riktig distribusjonstype for prosjektoperasjoner for firmaet ditt.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479576"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663606"
 ---
 # <a name="determine-your-deployment-type"></a>Fastslå distribusjonstypen
 
@@ -44,7 +44,7 @@ Project Operations støtter flere distribusjonsalternativer for å dekke dine be
 - [Project Operations for ressursbaserte/ikke-lagerførte scenarioer](#integrated)
 - [Project Operations for lagerførte scenarioer / produksjonsordrescenarioer](#pma)
 
-Project Operations støtter lagerførte scenarioer / produksjonsordrescenarioer og ordre scenarioer og ikke-lagerbaserte/ressursbaserte scenarioer i samme miljø ved hjelp av konfigurasjoner på juridisk enhetsnivå. Contoso kan for eksempel bruke funksjonene for lagerført/produksjonsordre på produksjonsanlegget i USA (juridisk enhet = Contoso Manufacturing United States). Contoso bruke funksjonene for ikke-lagerflrt/ressursbasert i Contoso Robotics Arms serviceanlegget i UK (juridisk enhet = Contoso Robotics United Kingdom).
+Project Operations støtter lagerførte scenarioer / produksjonsordrescenarioer og ordre scenarioer og ikke-lagerbaserte/ressursbaserte scenarioer i samme miljø ved hjelp av konfigurasjoner på juridisk enhetsnivå. Contoso kan for eksempel bruke kapasiteten for lagerbeholdning/produksjon i produksjonsfasilitetene i USA (juridisk enhet = Contoso Manufacturing i USA). Contoso kan bruke de ikke-lagerbeholdte/ressursbaserte funksjonene i Contosos anlegg for service av robotarmer i Storbritannia (juridisk enhet = Contoso Robotics i Storbritannia).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-distribusjon – avtale til proformafakturering
 
@@ -56,7 +56,7 @@ Lite-distribusjonen omfatter følgende funksjoner:
 - Enhetlig ressursstyring
 - Tidssporing
 - Grunnleggende utgift
-- Proforma og kunderettet fakturering 
+- Proforma fakturering for prosjektleders gjennomgang og redigeringer 
 
 #### <a name="deployment-steps"></a>Trinn for distribusjon
 Finn den beste distribusjonsmodellen for Project Operations ved hjelp av [spørreskjemaet for distribusjon](https://aka.ms/provisionprojectoperations).
@@ -87,14 +87,14 @@ For denne distribusjonen kan du se [Registrering for forhåndsversjonsbonnement]
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations for lagerførte scenarioer / produksjonsordrescenarioer
 
 - Prosjektplanlegging ved hjelp av WBS
-- Ressursbehandling
+- Ressursstyring
 - Tidssporing
 - Fullstendig utgift
 - Mottak av OCR
 - Full fakturering
 - Inntektsføring
 - Produksjonsordrer
-- Støtte for materiell
+- Støtte for lagerførte materialer med beholdning
 
 #### <a name="deployment-steps"></a>Trinn for distribusjon
 Finn den beste distribusjonsmodellen for Project Operations ved hjelp av [spørreskjemaet for distribusjon](https://aka.ms/provisionprojectoperations).

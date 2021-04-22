@@ -3,19 +3,19 @@ title: Kontantforskudd
 description: Dette emnet inneholder informasjon om kontantforskudd.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276720"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715572"
 ---
 # <a name="cash-advance"></a>Kontantforskudd
 
@@ -60,7 +60,22 @@ Fremgangsmåten nedenfor fullføres vanligvis av en regnskapsfører eller en bru
 
 Når du oppretter og sender en utgiftsrapport for kontantforskuddet du allerede har mottatt, justeres utgiftene automatisk mot det forskuddet. Hvis kontantforskuddet er større enn utgiftsbeløpet, må du returnere saldoen til firmaet ved hjelp av utgiftskategorien **Tilbakebetal kontanter**. Hvis kontantforskuddet som er betalt for selskapet, er mindre enn beløpet du utbetalte, må firmaet betale deg saldoen. 
 
-### <a name="example"></a>Eksempel
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Velg kontantforskudd som gjelder for utgiftene dine
+Før du sender en utgiftsrapport, kan du velge kontantforskuddet som er på linje med utgiftstransaksjonene i rapporten. Hvis du vil bruke denne funksjonaliteten, må følgende to funksjoner aktiveres fra arbeidsområdet for **Funksjonsbehandling**:
+
+  - Nyskapte utgiftsrapporter
+  - Mulighet til å tilordne kontantforskudd til utgiftslinjer
+ 
+ Når disse funksjonene er aktivert:
+ 
+  - Du kan legge til ett eller flere kontantforskudd for hver utgiftslinje.
+  - Den tilgjengelige saldoen for et kontantforskudd vises i sanntid når en utgiftsrapport lagres. Dette gjør det mulig å behandle utgiftstransaksjoner og returnere kontanttransaksjonen samtidig.
+  - Du kan velge flere kontantforskudd for én utgiftstransaksjon.
+  - Avstemmingsdata for kontantforskudd er tilgjengelige ved hjelp av en spørring. 
+ 
+Hvis du ikke bruker disse funksjonene, vil funksjonaliteten være den samme, og eksisterende kontantforskudd reduseres automatisk etter at en utgift er sendt.
+
+### <a name="example"></a>Eksempel 
 Du planlegger å reise fra Bergen til New York City på en konferanse. Du oppretter en forespørsel om kontantforskudd for 3000.00 USD basert på den beregnede kostnaden for konferansebilletten, flyreiser, overnatting, måltider og taxiutgifter. Du får ikke betalt med mindre din overordnede godkjenner denne forespørselen. Når din overordnede godkjenner, betales det forespurte kontantforskuddet som 10 000 kroner til bankkontoen din. Deretter deltar du på konferansen. Når du har fullført reisen, oppdager du at den totale utgiften bare ble 8000 kroner. Velg **Kontant** i feltet **Betalingsmåte**, og send inn utgifter for 2790.00 USD. Det sendte utgiftsbeløpet justeres automatisk mot forskuddet på 10 000 kroner som ble utlånt til deg. Nå er du skyldig 210.00 USD (3000.00 - 2790.00), som du kan returnere til selskapet ved hjelp av utgiftskategorien **Returner kontanter**.
 
 

@@ -1,21 +1,21 @@
 ---
-title: Løse salgspriser for estimater og faktiske verdier – Lite
-description: Dette emnet gir informasjon om løsing av salgspriser for estimater og faktiske verdier.
+title: Løs salgspriser for prosjektestimater og faktiske verdier
+description: Dette emnet inneholder informasjon om løsing av salgspriser i prosjektestimater og faktiske verdier.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274515"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877368"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Løse salgspriser for estimater og faktiske verdier – Lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Løs salgspriser for prosjektestimater og faktiske verdier
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
@@ -55,5 +55,14 @@ Når en prisliste for salg er løst, fullfører systemet følgende trinn for ang
 
 4. Hvis systemet ikke kan samsvare verdiene i feltene **Kategori** og **Enhet**, settes salgssatsen til null (0) som standard.
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Løse salgssatser på linjer med faktiske verdier og estimatlinjer for materialer
+
+I Project Operations brukes estimatlinjer for materialer til å angi tilbuds- og kontraktlinjedetaljer for materialer og materialestimatlinjene i et prosjekt.
+
+Når en prisliste for salg er løst, fullfører systemet følgende trinn for angi enhetssalgsprisen som standard.
+
+1. Systemet bruker feltkombinasjonen **Produkt** og **Enhet** på estimatlinjen for materiale for samsvar med prislisteelementlinjene i prislisten som ble løst.
+2. Hvis systemet finner en prislisteelementlinje som har en salgssats for feltkombinasjonen **Produkt** og **Enhet** og prismetoden er **Valutabeløp**, brukes salgsprisen som er angitt på prislinjen.
+3. Hvis verdiene i feltene **Produkt** og **Enhet** ikke samsvarer, blir salgssatsen null som standard.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

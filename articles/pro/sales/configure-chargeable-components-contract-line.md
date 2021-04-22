@@ -1,5 +1,5 @@
 ---
-title: Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje – Lite
+title: Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje
 description: Dette emnet gir informasjon om hvordan du legger til belastbare komponenter i kontraktlinjer i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273930"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858485"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje – Lite
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Lite-distribusjon – avtale til proformafakturering, Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
 En prosjektbasert kontraktlinje har *inkluderte* komponenter og *belastbare* komponenter.
 
@@ -34,7 +34,7 @@ Et delsett av de inkluderte komponentene kan merkes som belastbarte ved hjelp av
 
 Belastbare komponenter kan defineres for oppgaver, roller og transaksjonskategorier.
 
-Belastbar er definert i oppgaver for en prosjektkontraktlinje og gjelder for alle transaksjonsklasser som finnes på linjen. Hvis **Inkluder oppgaver**-feltet på en kontraktlinje er tomt eller satt til ***Hele prosjektet***, er ikke **Belastbare oppgaver**-fanen tilgjengelig.
+Belastbar er definert i oppgaver for en prosjektkontraktlinje og gjelder for alle transaksjonsklasser som finnes på linjen. Hvis **Inkluder oppgaver**-feltet på en kontraktlinje er tomt eller satt til **Hele prosjektet**, er ikke **Belastbare oppgaver**-fanen tilgjengelig.
 
 Belastbarhet definert for roller for en prosjektkontraktlinje gjelder bare transaksjonsklassen **Tid**. Hvis feltet **Inkluder td** på en kontraktlinje er satt til **Nei**, er ikke **Belastbare roller**-fanen tilgjengelig.
 
@@ -62,23 +62,582 @@ Du kan konfigurere faktureringstypen for en transaksjon på **Belastbare kategor
 
 ### <a name="resolve-chargeability"></a>Løse belastbarhet
 
-Et estimat eller en faktisk verdi som er opprettet for tid, blir bare betraktet som belastbar hvis **Tid** er inkludert på kontraktlinjen, og hvis **Oppgave** og **Rolle** er konfigurert som belastbar på kontraktlinjen.
+Et estimat eller en faktisk verdi opprettet for tid regnes bare som belastbar hvis:
 
-Et estimat eller en faktisk verdi som er opprettet for utgift, blir bare betraktet som belastbar hvis **Utgift** er inkludert på kontraktlinjen, og hvis kategoriene **Oppgave** og **Transaksjon** er konfigurert som belastbar på kontraktlinjen.
+   - **Tid** er inkludert på kontraktlinjen.
+   - **Rolle** er konfigurert som belastbar på kontraktlinjen.
+   - **Inkluderte oppgaver** er satt til **Valgte oppgaver** på kontraktlinjen.
+ 
+ Hvis disse tre tingene er oppfylt, er oppgaven konfigurert som belastbar. 
+
+Et estimat eller en faktisk verdi opprettet for utgift regnes bare som belastbar hvis:
+
+   - **Utgift** er inkludert på kontraktlinjen.
+   - **Transaksjonskategori** er konfigurert som belastbar på kontraktlinjen.
+   - **Inkluderte oppgaver** er satt til **Valgt oppgave** på kontraktlinjen.
+  
+ Hvis disse tre tingene er oppfylt, er **oppgaven** konfigurert som belastbar. 
+
+Et estimat eller en faktisk verdi opprettet for materialer regnes bare som belastbar hvis:
+
+   - **Materialer** er inkludert på kontraktlinjen.
+   - **Inkluderte oppgaver** er satt til **Valgte oppgaver** på kontraktlinjen.
+
+Hvis disse to tingene er oppfylt, er **oppgaven** konfigurert som belastbar. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Inkluderer tid</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Inkluderer utgift</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Inkluder materialer</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Inkluderte oppgaver</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rolle</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategori</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Oppgave</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Innvirkning på belastbarhet</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hele prosjektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: <strong>Belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: <strong>Belastbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Bare valgte oppgaver </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: <strong>Belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: <strong>Belastbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Bare valgte oppgaver </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Ikke-belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: Belastbar </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: Belastbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Bare valgte oppgaver </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Ikke-belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: <strong>Ikke-belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Bare valgte oppgaver </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Ikke-belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: <strong>Ikke-belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Bare valgte oppgaver </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Ikke-belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: <strong>Ikke-belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: Belastbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hele prosjektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Belastbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Ikke tilgjengelig</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: Belastbar </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: Belastbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hele prosjektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Ikke tilgjengelig</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: <strong>Ikke-belastbar</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: Belastbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hele prosjektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: Belastbar </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi:<strong> Ikke tilgjengelig</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: Belastbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hele prosjektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Ikke-belastbar </strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi:<strong> Ikke tilgjengelig</strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: Belastbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hele prosjektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Belastbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: Belastbar </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi: Belastbar </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi: <strong>Ikke tilgjengelig</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hele prosjektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ikke-belastbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan ikke angis </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering på en faktisk tidsverdi: <strong>Ikke-belastbar </strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk utgiftsverdi:<strong> Ikke-belastbar </strong>
+                </p>
+                <p>
+Faktureringstype for en faktisk materialeverdi:<strong> Ikke tilgjengelig</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Inkluderer tid | Inkluderer utgift | Inkluderer oppgaver | Rolle           | Fane       | Oppgave                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Ja           | Ja              | Hele prosjektet | Belastbar     | Belastbar     | Fakturering på en faktisk tidsverdi: **Belastbar** </br> Faktureringstype for en faktisk utgiftsverdi: **Belastbar**           |
-| Ja           | Ja              | Valgte oppgaver | Belastbar     | Belastbar     | Fakturering på en faktisk tidsverdi: **Belastbar** </br> Faktureringstype for en faktisk utgiftsverdi: **Belastbar**           |
-| Ja           | Ja              | Valgte oppgaver | Ikke-belastbar | Belastbar     | Fakturering på en faktisk tidsverdi: **Ikke-belastbar** </br> Faktureringstype for en faktisk utgiftsverdi: **Belastbar**       |
-| Ja           | Ja              | Valgte oppgaver | Belastbar     | Belastbar     | Fakturering på en faktisk tidsverdi: **Ikke-belastbar** </br> Faktureringstype for en faktisk utgiftsverdi: **Ikke-belastbar** |
-| Ja           | Ja              | Valgte oppgaver | Ikke-belastbar | Belastbar     | Fakturering på en faktisk tidsverdi: **Ikke-belastbar** </br> Faktureringstype for en faktisk utgiftsverdi: **Ikke-belastbar** |
-| Ja           | Ja              | Valgte oppgaver | Ikke-belastbar | Ikke-belastbar | Fakturering på en faktisk tidsverdi: **Ikke-belastbar** </br> Faktureringstype for en faktisk utgiftsverdi: **Ikke-belastbar** |
-| No            | Ja              | Hele prosjektet | Kan ikke angis   | Belastbar     | Fakturering på en faktisk tidsverdi: **Ikke tilgjengelig**</br>Faktureringstype for en faktisk utgiftsverdi: **Belastbar**          |
-| No            | Ja              | Hele prosjektet | Kan ikke angis   | Ikke-belastbar | Fakturering på en faktisk tidsverdi: **Ikke tilgjengelig**</br> Faktureringstype for en faktisk utgiftsverdi: **Ikke-belastbar**     |
-| Ja           | No               | Hele prosjektet | Belastbar     | Kan ikke angis   | Fakturering på en faktisk tidsverdi: **Belastbar** </br> Faktureringstype for en faktisk utgiftsverdi: **Ikke tilgjengelig**        |
-| Ja           | No               | Hele prosjektet | Ikke-belastbar | Kan ikke angis   | Fakturering på en faktisk tidsverdi: **Ikke-belastbar** </br>Faktureringstype for en faktisk utgiftsverdi: **Ikke tilgjengelig**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

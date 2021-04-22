@@ -3,17 +3,17 @@ title: Løse salgspriser for estimater og faktiske verdier
 description: Dette emnet gir informasjon om hvordan du løser salgspriser for estimater og faktiske beløp.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274965"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877457"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Løse salgspriser for estimater og faktiske verdier
 
@@ -54,6 +54,17 @@ Når en prisliste for salg er løst, fullfører systemet følgende trinn for ang
     | &nbsp; | Påslag over kostnad | Ved å bruke en markering som definert av kategoriprislinjen for enhetskostnadssasten for den relaterte faktiske kostnaden |
 
 4. Hvis systemet ikke kan samsvare verdiene i feltene **Kategori** og **Enhet**, settes salgssatsen til null (0) som standard.
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Løs salgssatser på linjer med faktiske verdier og estimatlinjer for materialer
+
+I Project Operations brukes estimatlinjer for materialer til å angi tilbuds- og kontraktlinjedetaljer for materialer og materialestimatlinjene i et prosjekt.
+
+Når en prisliste for salg er løst, fullfører systemet følgende trinn for angi enhetssalgsprisen som standard.
+
+1. Systemet bruker feltkombinasjonen **Produkt** og **Enhet** på estimatlinjen for materiale for samsvar med prislisteelementlinjene i prislisten som ble løst.
+2. Hvis systemet finner en prislisteelementlinje som har en salgssats for feltkombinasjonen **Produkt** og **Enhet** og prismetoden er **Valutabeløp**, brukes salgsprisen som er angitt på prislinjen.
+3. Hvis verdiene i feltene **Produkt** og **Enhet** ikke samsvarer, blir salgssatsen null som standard.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

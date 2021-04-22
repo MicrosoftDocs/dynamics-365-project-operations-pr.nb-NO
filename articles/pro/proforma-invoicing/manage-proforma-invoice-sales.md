@@ -1,21 +1,21 @@
 ---
-title: Behandle en proformafaktura – Lite
-description: Dette emnet gir informasjon om hvordan du arbeider med proformafakturaer.
+title: Behandle en proforma prosjektfaktura
+description: Dette emnet inneholder informasjon om hvordan du arbeider med proforma prosjektfakturaer.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274060"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866918"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Behandle en proformafaktura – Lite
+# <a name="manage-a-proforma-project-invoice"></a>Behandle en proforma prosjektfaktura 
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
@@ -69,9 +69,9 @@ I Project Operations er det alltid én fakturalinje for hver prosjektkontraktlin
 
 Hver fakturalinje i en prosjektfaktura inkluderer fakturalinjedetaljer. Disse linjedetaljene er relatert til de ufakturerte faktiske verdiene for salg og milepæler som er relatert til kontraktlinjen som fakturalinjen refererer til. Alle disse transaksjonene er merket **Klar for fakturering**.
 
-Når det gjelder linjen **Tid og materiale-linjen**, blir fakturalinjedetaljer gruppert i **Belastbar**, **Ikke-belastbar** og **Gratis** på siden **Fakturalinje**. **Belastbar fakturalinje**-detaljer legges til fakturalinjetotalen. **Gratis** og **Ikke-belastbare faktiske verdier** legges ikke til fakturalinjesummen.
+For en linje på en **Tid og materiale-faktura** er fakturalinjedetaljene gruppert som **Belastbar**, **Ikke-belastbar** og **Gratis** på **Fakturalinje**-siden. **Belastbar fakturalinje**-detaljer legges til fakturalinjetotalen. **Gratis** og **Ikke-belastbare faktiske verdier** bidrar ikke til totalsummen på fakturalinjen.
 
-For linjen **Fast pris-faktura** opprettes fakturalinjedetaljer fra milepæler som er merket som **Klar for fakturering** på den relaterte kontraktlinjen. Når fakturalinjedetaljene er opprettet fra en milepæl, oppdateres faktureringsstatusen på milepælen til **Opprettet kundefaktura**.
+For en linje på en **fastprisfaktura** opprettes fakturalinjedetaljene fra milepæler som er merket som **Klar for fakturering** på den relaterte kontraktlinjen. Når fakturalinjedetaljene er opprettet fra en milepæl, oppdateres faktureringsstatusen på milepælen til **Opprettet kundefaktura**.
 
 ### <a name="edit-invoice-line-details"></a>Redigere fakturalinjedetaljer
 
@@ -98,8 +98,12 @@ Følgende felt er tilgjengelige i en fakturalinjedetalj som er støttet av et ik
 | **Avgift** | Angi som standard fra de faktiske verdikildene. Feltet kan redigeres av brukeren | Feltet kan redigeres av brukeren når du oppretter en ny fakturalinjedetalj som ikke er støttet av en faktisk verdi. |
 | **Samlet beløp** | Et beregnet felt, beregnet som **Beløp + avgift**. Et skrivebeskyttet felt som er låst for redigering. | &nbsp; |
 | **Faktureringstype** | Angi som standard fra de faktiske verdikildene. Feltet kan redigeres av brukeren. | Hvis du velger **Belastbar** legges linjen til fakturalinjetotalen. **Gratis** og **Ikke-belastbar** vil utelate den fra fakturalinjesummen. |
+| **Velg produkt** | Dette feltet er skrivebeskyttet som standard fra den faktiske kilden. | Når du oppretter en ny fakturalinjedetalj uten en understøttende faktisk verdi, kan dette feltet redigeres. |
+| **Produkt** | Dette feltet er skrivebeskyttet som standard fra den faktiske kilden. | Når du oppretter en ny fakturalinjedetalj uten en understøttende faktisk verdi, kan dette feltet redigeres hvis **Velg produkt**-feltet er satt til **Eksisterende produkt**. |
+| **Produktnavn** | Dette feltet er skrivebeskyttet som standard fra den faktiske kilden. | I en ny fakturalinjedetalj der produkt-ID-en velges fra katalogen, settes dette feltet til produktnavnet. For et produkt som ikke er i produktkatalogen, settes feltet til navnet på produktet som ikke er i produktkatalogen. |
+| **Beskrivelse av produkt ikke i produktkatalog** | Dette feltet er skrivebeskyttet som standard fra den faktiske kilden. | Når du oppretter en ny fakturalinjedetalj uten en understøttende faktisk verdi, kan du legge til en skrivebeskrivelse for produktet som ikke er i produktkatalogen. |
 | **Transaksjonstype** | Angi som standard fra de faktiske verdikildene. Et skrivebeskyttet felt som er låst for redigering. | Settes som standard til **Fakturert salg** og låses når du oppretter en ny **Fakturalinjedetalj** som ikke er støttet av en faktisk verdi.  |
-| **Transaksjonsklasse** | Angi som standard fra de faktiske verdikildene. Et skrivebeskyttet felt som er låst for redigering. | Angis som standard basert på om brukeren velger å opprette en **Tid**, **Utgift** eller **Gebyr**-fakturalinje detalj, samtidig som det også opprettes en ny **Fakturalinjedetalj** som ikke er støttet av en faktisk verdi. Låst fra redigering. |
+| **Transaksjonsklasse** | Angi som standard fra de faktiske verdikildene. Et skrivebeskyttet felt som er låst for redigering. | Angi som standard basert på om brukeren velger å opprette en fakturalinjedetalj av typen **Tid**, **Utgift**, **Materiale** eller **Gebyr**, samtidig som det også opprettes en ny **fakturalinjedetalj** uten en understøttende faktisk verdi. Låst fra redigering. |
 
 Følgende felter er tilgjengelige på en fakturalinjedetalj som er støttet av en milepæl:
 

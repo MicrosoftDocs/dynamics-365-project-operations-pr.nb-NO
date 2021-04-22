@@ -3,7 +3,7 @@ title: Faktiske verdier
 description: Denne emne inneholder informasjon om hvordan du arbeider med faktiske verdier i Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291811"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852556"
 ---
 # <a name="actuals"></a>Faktiske verdier 
 
-_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Faktiske verdier er mengden arbeid som er fullført på et prosjekt. De opprettes som et resultat av tids- og utgiftsoppføringer og journaloppføringer og fakturaer.
+Faktiske verdier representerer den gjennomgåtte og godkjente økonomiske og planlagte fremdriften for et prosjekt. De opprettes som et resultat av godkjenning av tid, utgifter, materialbruksoppføringer og loggoppføringer og fakturaer.
 
 ## <a name="journal-lines-and-time-submission"></a>Journallinjer og tidssending
 
@@ -45,7 +45,7 @@ Når en tidsoppføring som er sendt, kobles til et prosjekt som er tilordnet en 
 
 Logikken for oppretting av standardpriser finnes på journallinjen. Feltverdiene fra tidsoppføringen kopieres til journallinjen. Disse verdiene inneholder transaksjonsdatoen, kontraktlinjen som prosjektet er tilordnet, og valutaresultatet i den aktuelle prislisten.
 
-Feltene som påvirker standardprising, for eksempel **Rolle** og **Organisasjonsenhet**, brukes til å bestemme den passende prisen på journallinjen. Du kan legge til et egendefinert felt for tidsoppføringen. Hvis du vil at feltverdien skal overføres til faktiske verdier, oppretter du feltet på den faktiske enheten og bruker felttilordninger til å kopiere feltet fra tidsoppføringen til den faktiske verdien.
+Feltene som påvirker standardpriser, for eksempel **Rolle** og **Ressursenhet**, brukes til å bestemme passende pris på journallinjen. Du kan legge til et egendefinert felt for tidsoppføringen. Hvis du vil at feltverdien skal overføres til faktiske verdier, oppretter du feltet i tabellene **Faktiske verdier** og **Journallinje**. Bruk egendefinert kode til å overføre den valgte feltverdien fra Tidsoppføring til Faktiske verdier via journallinjen ved hjelp av transaksjonsopphav. Hvis du vil ha mer informasjon om transaksjonsopphav og tilkoblinger, kan du se [Koble faktiske verdier til opprinnelige oppføringer](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Journallinjer og sending av grunnleggende utgifter
 
@@ -57,24 +57,42 @@ Når en grunnleggende utgiftsregistrering som er sendt, er koblet til et prosjek
 
 ### <a name="fixed-price"></a>Fast pris
 
-Når en grunnleggende utgiftsoppføring som er sendt, kobles til et prosjekt som er tilordnet en kontraktlinje for fast pris, oppretter systemet én journallinje for kostnad.
+Når en innsendt enkel utgiftsoppføring er knyttet til et prosjekt som er tilordnet en kontraktlinje for fast pris, oppretter systemet én journallinje for kostnad.
 
 ### <a name="default-pricing"></a>Standardprising
 
-Logikken for å angi standardpriser for utgifter er basert på utgiftskategorien. Både transaksjonsdatoen, kontraktlinjen som prosjektet er tilordnet, og valutaresultatet brukes til å bestemme den aktuelle prislisten. Beløpet som er angitt for selve prisen, blir imidlertid som standard angitt direkte på de relaterte utgiftsjournallinjene for kostnad og salg som standard.
+Logikken for å angi standardpriser for utgifter er basert på utgiftskategorien. Både transaksjonsdatoen, kontraktlinjen som prosjektet er tilordnet, og valutaresultatet brukes til å bestemme den aktuelle prislisten. Feltene som påvirker standardpriser, for eksempel **Transaksjonskategori** og **Enhet**, brukes til å bestemme passende pris på journallinjen. Dette fungerer imidlertid bare når prismodellen i prislisten er **Pris per enhet**. Hvis prismetoden er **Kostpris** eller **Påslag over kostnad**, blir prisen som angis når utgiftsoppføringen opprettes, brukt til kostnad, og prisen på salgsjournallinjen beregnes basert på prismetoden. 
 
-Kategoribasert oppføring av standardpriser per enhet på utgiftsoppføringer er ikke tilgjengelig.
+Du kan legge til et egendefinert felt i utgiftsoppføringen. Hvis du vil at feltverdien skal overføres til faktiske verdier, oppretter du feltet i tabellene **Faktiske verdier** og **Journallinje**. Bruk egendefinert kode til å overføre den valgte feltverdien fra Tidsoppføring til Faktiske verdier via journallinjen ved hjelp av transaksjonsopphav. Hvis du vil ha mer informasjon om transaksjonsopphav og tilkoblinger, kan du se [Koble faktiske verdier til opprinnelige oppføringer](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Innsending av journallinjer og materialbrukslogg
+
+Hvis du vil ha mer informasjon om utgiftsregistrering, kan du se [Logg over materialbruk](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Tid og materialer
+
+Når en innsendt loggoppføring for materialbruk er koblet til et prosjekt som er tilordnet en kontraktlinje for tid og materiell, opprettes det to journallinjer, én for kostnad og én for ikke-fakturert salg.
+
+### <a name="fixed-price"></a>Fast pris
+
+Når en innsendt loggoppføring for materialbruk er knyttet til et prosjekt som er tilordnet en kontraktlinje for fast pris, oppretter systemet én journallinje for kostnad.
+
+### <a name="default-pricing"></a>Standardprising
+
+Logikken for å angi standardpriser for materiale er basert på produkt- og enhetskombinasjonen. Både transaksjonsdatoen, kontraktlinjen som prosjektet er tilordnet, og valutaresultatet brukes til å bestemme den aktuelle prislisten. Feltene som påvirker standardpriser, for eksempel **Produkt-ID** og **Ressursenhet**, brukes til å bestemme passende pris på journallinjen. Dette fungerer imidlertid bare for katalogprodukter. Når det gjelder produkter som ikke er i katalogen, brukes prisen som angis når oppføringen i materialbruksloggen opprettes, for kostnad og salgspris på journallinjene. 
+
+Du kan legge til et egendefinert felt i oppføringen **Logg over materialbruk**. Hvis du vil at feltverdien skal overføres til faktiske verdier, oppretter du feltet i tabellene **Faktiske verdier** og **Journallinje**. Bruk egendefinert kode til å overføre den valgte feltverdien fra Tidsoppføring til Faktiske verdier via journallinjen ved hjelp av transaksjonsopphav. Hvis du vil ha mer informasjon om transaksjonsopphav og tilkoblinger, kan du se [Koble faktiske verdier til opprinnelige oppføringer](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Bruk oppføringsjournaler til å registrere kostnader
 
 Du kan bruke oppføringsjournaler til å registrere kostnad eller omsetning i transaksjonsklassene for materialer, gebyr, tid, utgift eller avgift. Journaler kan brukes til følgende formål:
 
-- Registrer de faktiske kostnadene for materialer og salg på et prosjekt.
 - Flytt faktiske verdier for transaksjoner fra et annet system til Microsoft Dynamics 365 Project Operations.
 - Registrer kostnader som er påløpt i et annet system. Disse kostnadene kan omfatte innkjøps- eller underleveransekostnader.
 
 > [!IMPORTANT]
 > Programmet validerer ikke journallinjetypen eller den relaterte prisingen som er angitt på journallinjen. Derfor bør bare en bruker som er fullstendig klar over regnskapsinnvirkningen de faktiske verdiene har på prosjektet, bruke oppføringsjournaler til å opprette faktiske verdier. På grunn av innvirkningen til denne journaltypen bør du være nøye når du skal velge hvem som skal ha tilgang til å opprette oppføringsjournaler.
+
 ## <a name="record-actuals-based-on-project-events"></a>Registrer faktiske verdier basert på prosjekthendelser
 
 Project Operations registrerer de finansielle transaksjonene som inntreffer under et prosjekt. Disse transaksjonene registreres som faktiske verdier. Følgende tabeller viser de forskjellige typene faktiske verdier som opprettes, avhengig av om prosjektet er et tids-og-materiale-prosjekt eller et fastprisprosjekt, er i forsalgsfasen eller er et internt prosjekt.

@@ -1,31 +1,41 @@
 ---
-title: Oversikt over estimatprosjekter
-description: Dette emnet inneholder informasjon om estimater i Dynamics 365 Project Operations.
-author: ruhercul
+title: Konsepter for økonomisk estimat
+description: Dette emnet inneholder informasjon om økonomisk estimat for prosjekter i Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286890"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701748"
 ---
-# <a name="estimate-projects-overview"></a>Oversikt over estimatprosjekter
+# <a name="financial-estimation-concepts"></a>Konsepter for økonomisk estimat
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
+I Dynamics 365 Project Operations kan du økonomisk estimere prosjektene i to faser: 
+1. I fasen før salg før avtalen blir vunnet. 
+2. Under utførelsesfasen etter at prosjektkontrakten er opprettet. 
+
+Du kan opprette et økonomisk estimat for prosjektbasert arbeid på følgende tre sider:
+- **Tilbudslinje**-siden, ved å bruke tilbudslinjedetaljene.  
+- **Prosjektkontraktlinje**-siden, ved å bruke kontraktlinjedetaljene. 
+- **Prosjekt**-siden, ved å bruke fanene **Oppgaver** eller **Utgiftsestimater**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Bruk et prosjekttilbud til å opprette et estimat
 I et prosjektbasert tilbud kan du bruke enheten for **tilbudslinjedetalj** til å estimere arbeidet som kreves for å levere et prosjekt. Deretter kan du dele dette estimatet med kunden.
 
 Prosjektbaserte tilbudslinjer kan ha fra null til mange tilbudslinjedetaljer. Tilbudslinjedetaljer brukes til å beregne tid, utgifter eller gebyrer. Microsoft Dynamics 365 Project Operations tillater ikke materialestimater i tilbudslinjedetaljer. Disse kalles transaksjonsklasser. Estimerte avgiftsbeløp kan også angis i en transaksjonsklasse.
 
 I tillegg til transaksjonsklasser har tilbudslinjedetaljer en transaksjonstype. To transaksjonstyper støttes for tilbudslinjedetaljer: **Kostnad** og **Prosjektkontrakt**.
 
-## <a name="estimate-by-using-a-contract"></a>Beregne ved hjelp av en kontrakt
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Bruk et kontrakttilbud til å opprette et estimat
 
 Hvis du brukte et tilbud da du opprettet en prosjektbasert kontrakt, kopieres estimatet du har utført for hver tilbudslinje i tilbudet, til prosjektkontrakten. Strukturen i en prosjektkontrakt er lik strukturen i prosjekttilbudet som har linjer, linjedetaljer og fakturaplaner.
 
@@ -35,25 +45,19 @@ Kontraktslinjedetaljer kan brukes til å beregne tid, utgifter eller gebyrer. Es
 
 Materialestimater tillates ikke i kontraktslinjedetaljer.
 
-Prosessene som støttes i en prosjektkontrakt, er fakturaopprettelse og -bekreftelse. Fakturaopprettelse oppretter et utkast av en prosjektbasert faktura som inkluderer alle faktiske beløp for fakturaer som ikke er fakturert, frem til gjeldende dato.
+## <a name="use-a-project-to-create-an-estimate"></a>Bruk et prosjekt til å opprette et estimat 
 
-Bekreftelsen gjør kontrakten skrivebeskyttet og endrer statusen fra **Utkast** til **Bekreftet**. Når du har utført denne handlingen, kan du ikke angre den. Ettersom denne handlingen er permanent, er det best å holde kontrakten i en **Utkast**-status.
-
-De eneste forskjellene mellom kontraktutkast og bekreftede kontrakter er statusen og det faktum at kontraktutkast kan redigeres, mens bekreftede kontrakter ikke kan dette. Du kan utføre både fakturaopprettelse og sporing av faktiske verdier både i kontraktutkast og bekreftede kontrakter.
-
-Project Operations støtter ikke endringsordrer i kontrakter eller prosjekter.
-
-## <a name="estimating-projects"></a>Estimere prosjekter
-
-Du kan estimere tid og utgifter på prosjekter. Project Operations tillater ikke estimater av materialer eller gebyrer på prosjekter.
+Du kan estimere tid og utgifter på prosjekter. Project Operations støtter ikke estimater av materiell eller gebyrer for prosjekter.
 
 Tidsestimater genereres når du oppretter en oppgave og identifiserer attributtene for en generisk ressurs som kreves for å utføre oppgaven. Tidsestimater genereres fra planlagte oppgaver. Tidsestimater opprettes ikke hvis du oppretter generiske teammedlemmer utenfor konteksten i tidsplanen.
 
-Utgiftsestimater angis i rutenettet på **Estimater**-siden.
+Utgiftsestimater angis i rutenettet på **Utgiftsestimater**-siden.
 
-## <a name="understanding-estimation"></a>Forstå estimering
+Det å opprette et estimat for et prosjekt anses som en god fremgangsmåte, fordi du kan bygge detaljerte estimater for arbeid eller tid og utgifter for hver oppgave i prosjektplanen. Du kan deretter bruke dette detaljerte estimatet til å opprette estimater for hver tilbudslinje og bygge et mer troverdig tilbud for kunden. Når du importerer eller oppretter et detaljert estimat på tilbudslinjen ved hjelp av prosjektplanen, importerer Project Operations salgsverdiene og kostnadsverdiene for disse estimatene. Etter importen kan du vise lønnsomhet, marginer og metrikkverdier for gjennomførbarhet i prosjekttilbudet.
 
-Bruk tabellen nedenfor som veiledning for å forstå forretningslogikken i estimeringsfasen.
+## <a name="understanding-estimates"></a>Forstå estimater
+
+Bruk tabellen nedenfor som veiledning for å forstå forretningslogikken i estimatfasen.
 
 | Scenario                                                                                                                                                                                                                                                                                                                                          | Enhetsoppføring                                                                                                                                                                                                       | Transaksjonstype | Transaksjonsklasse | Tilleggsinformasjon                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|

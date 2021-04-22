@@ -3,50 +3,53 @@ title: Oversikt over godkjenninger
 description: Dette emnet gir information om å arbeide med godkjenninger i Project Operations.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290371"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852511"
 ---
 # <a name="approvals-overview"></a>Oversikt over godkjenninger
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Tids- og utgiftsoppføringer går gjennom en godkjenningsarbeidsflyt. Når oppføringene er godkjent, registreres transaksjoner i faktisk verdier, eller tiden bestilles i tidsplanen.
+Innsendinger av tids-, utgifts- og materialbruk flyttes gjennom en arbeidsflyt for godkjenning. Når oppføringene er godkjent, registreres transaksjoner i faktisk verdier, eller tiden bestilles i tidsplanen.
 
 ## <a name="approvals-workflow"></a>Godkjenningsarbeidsflyt
-Når du oppretter og sender en tids- eller utgiftsoppføring, opprettes det en godkjenningsoppføring. Prosjektgodkjenneren eller lederen din ser gjennom og godkjenner oppføringen. Hvis oppføringen er relatert til et prosjekt blir de faktiske verdiene opprettet når den er godkjent. På denne måten kan kostnad og fakturering spores. 
+Når du oppretter og sender en oppføring for tids-, utgifts- eller materialbruk, opprettes det en godkjenningsoppføring. Prosjektgodkjenneren eller -lederen ser gjennom og godkjenner oppføringen. Hvis oppføringen er relatert til et prosjekt, opprettes de faktiske dataene når den er godkjent. På denne måten kan kostnad og fakturering spores.
 
 ## <a name="approve-an-entry"></a>Godkjenne en oppføring
-På skjemaet **Godkjenninger** kan du bytte mellom forskjellige visninger, slik at du kan vise de forskjellige godkjenningstypene.
+**Godkjenninger**-siden gjør det mulig å veksle mellom ulike visninger, slik at du kan vise de ulike godkjenningstypene.
   
-1. Gå til **Godkjenninger**-skjemaet, og velg **Utgifter**, **Tid** eller **Tilbakekallinger**.
+1. Gå til **Godkjenninger**-siden, og velg **Utgifter**, **Tid**, **Materialbruk** eller **Tilbakekallinger**.
 2. Gå gjennom hver godkjenning, og velg de du vil godkjenne.
 3. Velg **Godkjenn** for å godkjenne de valgte oppføringene.
-Systemet behandler disse oppføringene og oppretter faktiske verdier eller en bestilling.
+Systemet behandler disse oppføringene og oppretter faktiske data.
 
 ## <a name="reject-an-entry"></a>Avvise en oppføring
 Som prosjektgodkjenner kan det hende du må sende en oppføring tilbake til en bruker for korrigering.
   
-1. Gå til **Godkjenninger**-skjemaet, og velg oppføringen du vil avvise. 
+1. Gå til **Godkjenninger**-siden, og velg oppføringen som skal avvises. 
 2. Velg **Avvis**.
-3. Valgfritt – Legg til en kommentar i dialogboksen **Avvisningskommentarer** for å informere brukeren hvorfor oppføringen blir avvist.
+3. Du kan eventuelt legge til en kommentar i dialogboksen **Avvisningskommentarer** for å informere brukeren om hvorfor oppføringen blir avvist.
 4. Velg **OK**. Oppføringen returneres til brukeren.
   
-## <a name="recall-entries"></a>Tilbakekall oppføringer
-Det kan hende du må kalle tilbake en oppføring som er sendt. Hvis oppføringen ikke er godkjent, returneres den umiddelbart. En godkjent oppføring har imidlertid kanskje en materialinnvirkning. Prosjektgodkjenneren må godkjenne tilbakekallingen for å kunne reversere transaksjonen i faktiske verdier.
+## <a name="cancel-approval"></a>Avbryt godkjenning
+I noen tilfeller kan det hende du må annullere en tidligere godkjent oppføring. Annullering av en tidligere godkjent oppføring vil ha økonomisk innvirkning. 
+
+## <a name="approving-recall-requests"></a>Godkjenning av tilbakekallingsforespørsler
+I noen tilfeller kan det hende at en konsulent må tilbakekalle en tidligere godkjent oppføring. Annullering av en tidligere godkjent oppføring vil ha økonomisk innvirkning. Prosjektgodkjenneren må godkjenne tilbakekallingen for å kunne reversere transaksjonen i Faktiske verdier.
 
 ## <a name="specify-project-approvers"></a>Angi prosjektgodkjennere
 Hvert prosjekt har flere prosjektteammedlemmer. Du kan angi hvilke teammedlemmer som også er prosjektgodkjennere.
 
-1. Gå til **Prosjekter**-skjemaet, og åpne prosjektet fra listen.
+1. Gå til **Prosjekter**-siden, og åpne prosjektet fra listen.
 2. På **Team**-fanen velger du teammedlemmet som skal være en prosjektgodkjenner, og deretter velger du **Rediger**.
 3. Sett feltet **Prosjektgodkjenner** til **Ja**.
 4. Velg **Lagre**.

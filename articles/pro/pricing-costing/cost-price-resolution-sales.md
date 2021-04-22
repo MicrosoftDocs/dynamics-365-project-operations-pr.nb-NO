@@ -1,22 +1,22 @@
 ---
-title: Løse kostpriser for estimater og faktiske verdier – Lite
-description: Dette emnet gir informasjon om hvordan kostpriser for estimater og faktiske beløp løses.
+title: Løse kostpriser for estimater og faktiske verdier i et prosjekt
+description: Dette emnet inneholder informasjon om hvordan kostnadspriser i prosjektestimater og faktiske verdier løses.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274561"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877277"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Løse kostpriser for estimater og faktiske verdier – Lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Løse kostpriser for estimater og faktiske verdier i et prosjekt 
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
@@ -36,6 +36,12 @@ Etter at en kostprisliste er løst, blir feltene **Rolle** og **Ressursenhet** p
 Estimatlinjer for utgift refererer til tilbuds- og kontraktlinjedetaljene for utgifter og utgiftsestimatlinjene i et prosjekt.
 
 Når en kostprisliste er løst, bruker systemet en kombinasjon av feltene **Kategori** og **Enhet** på utgiftsestimatlinjen til å samsvare mot linjene for **Kategoripris** i den løste prislisten. Hvis systemet finner en kategoriprislinje som har en kostnadssats for kombinasjonen av feltene **Kategori** og **Enhet**, brukes kostnadssatsen som standard. Hvis systemet ikke kan samsvare verdiene for **Kategori** og **Enhet**, eller hvis systemet finner en samsvarende kategoriprislinje, men prissettingsmetoden ikke er **Pris per enhet**, brukes som standard en kostnadssats på null(0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Løse kostnadssatser på linjer med faktiske verdier og estimatlinjer for materialer
+
+Estimatlinjer for materialer refererer til tilbuds- og kontraktlinjedetaljer for materialer og materialestimatlinjene i et prosjekt.
+
+Når en kostnadsprisliste er løst, bruker systemet en kombinasjon av feltene **Produkt** og **Enhet** på estimatlinjen for at et materialestimat skal samsvare mot **Prislisteelementer**-linjene i den løste prislisten. Hvis systemet finner en produktprislinje som har en kostnadssats for feltkombinasjonen **Produkt** og **Enhet**, brukes standardkostnadssatsen. Hvis systemet ikke samsvarer med verdiene for **Produkt** og **Enhet**, eller hvis det finner en samsvarende prislisteelementlinje, men prismodellen er basert på standardkostnad eller gjeldende kostnad, og ingen av dem er definert på produktet, angis enhetskostnaden som null.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,27 @@
 ---
-title: Administrer prosjektprislister i prosjekttilbud– Lite
-description: Dette emnet gir information om å arbeide med prosjektprislister i tilbud. (Sales)
+title: Administrer prosjektprislister i prosjekttilbud
+description: Dette emnet gir information om å arbeide med prosjektprislister i tilbud.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273030"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858620"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Administrer prosjektprislister i prosjekttilbud– Lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Administrer prosjektprislister i prosjekttilbud 
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 Prosjekttilbud er utformet for å støtte salgsprislister med flere gyldige datoer. Med Dynamics 365 Project Operations legges det til en ny tilknyttet enhet kalt **Prosjektprislister**. Denne enheten har en én-til-mange-relasjon til et prosjekttilbud.
 
-Prosjektprislister brukes til å pris tids- og utgiftstransaksjoner i et prosjekt. Når et tilbud har én eller flere prosjektprislister, brukes disse prislistene til å prise tids- og utgiftsestimater og faktiske verdier for prosjekter som er knyttet til tilbudet, via tilbudslinjen.
+Prosjektprislister brukes til å prise tids-, material- og utgiftstransaksjoner for et prosjekt. Når et tilbud har en eller flere prosjektprislister, brukes disse prislistene til å prise for tid, materiell, kostnadsestimater og faktiske verdier for prosjekter som er knyttet til tilbudet via tilbudslinjen.
 
 Når det ikke er noen prosjektprislister i et prosjekttilbud, får du en advarsel. Meldingen angir at siden det ikke finnes noen prosjektprislister, vil ikke det estimerte og faktiske prosjektarbeidet og utgiftene være priset. I stedet vil de ha null (0) pris for salgsverdier.
 

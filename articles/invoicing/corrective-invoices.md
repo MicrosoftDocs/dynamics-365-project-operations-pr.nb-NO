@@ -1,23 +1,23 @@
 ---
-title: Korrigerte prosjektfakturaer
-description: Dette emnet inneholder informasjon om hvordan du oppretter og bekrefter korrigerte fakturaer i Project Operations.
+title: Opprette korrigerte prosjektbaserte fakturaer
+description: Dette emnet inneholder informasjon om korrigerte fakturaer i Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866603"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788882"
 ---
-# <a name="corrective-project-invoices"></a>Korrigerte prosjektfakturaer
+# <a name="create-corrective-project-based-invoices"></a>Opprette korrigerte prosjektbaserte fakturaer 
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
 En bekreftet prosjektfaktura kan korrigeres mot prosessendringer eller kreditter som forhandlet med kunden og prosjektlederen.
 
@@ -26,18 +26,17 @@ Hvis du vil redigere en bekreftet faktura, åpner du den bekreftede fakturaen og
 > [!NOTE]
 > Dette valget er ikke tilgjengelig hvis ikke en prosjektfaktura er bekreftet.
 
-Det opprettes en ny utkastfaktura fra den bekreftede fakturaen. Alle fakturalinjedetaljer fra den tidligere bekreftede fakturaen kopieres til det nye utkastet. Her følger noen av nøkkelpunktene for å forstå linjedetaljene i den nye korrigerte fakturaen:
+Det opprettes en ny utkastfaktura fra den bekreftede fakturaen. Alle fakturalinjedetaljer fra den tidligere bekreftede fakturaen kopieres til det nye utkastet. Her er noen viktige punkter som hjelper deg med å forstå mer om linjedetaljene i den nye korrigerte fakturaen:
 
-- Alle antall blir oppdatert til null. Programmet forutsetter at alle fakturerte varer er fullt kreditert. Du kan om nødvendig oppdatere disse antallene manuelt, slik at de gjenspeiler antallet som blir fakturert, og ikke det antallet som krediteres. Basert på antallet du angir, beregner programmet det krediterte antallet. Dette beløpet gjenspeiles i de faktiske verdiene som opprettes når den rettede fakturaen er bekreftet. Hvis du gjør endringer i avgiftsbeløpet, må du angi riktig avgiftsbeløp og ikke avgiftsbeløpet som krediteres.
-- Tidligere bekreftede produktbaserte kontraktlinjer kopieres ikke. Behandling av rettelser i en produktbasert prosjektfaktura støttes ikke.
+- Alle antall blir oppdatert til null. Dette forutsetter at alle fakturerte elementer er kreditert fullt ut. Du kan om nødvendig oppdatere disse antallene manuelt, slik at de gjenspeiler antallet som blir fakturert, og ikke det antallet som krediteres. Basert på antallet du angir, beregner programmet det krediterte antallet. Dette beløpet gjenspeiles i de faktiske verdiene som opprettes når den rettede fakturaen er bekreftet. Hvis du gjør endringer i avgiftsbeløpet, må du angi riktig avgiftsbeløp og ikke avgiftsbeløpet som krediteres.
 - Milepælrettelser behandles alltid som fulle kreditter.
 - Honorar- eller forskuddsbeløp kan korrigeres hvis kunden var fakturert for et feil beløp.
 - Avstemminger av honorarer og forskudd kan korrigeres hvis et feilaktig beløp ble brukt til å avstemme mot kostnadene på en tidligere bekreftet faktura.
 
 > [!IMPORTANT]
-> Fakturalinjedetaljer som er rettelser i andre allerede fakturerte gebyrer,har feltet **Korrigering** angitt til **Ja**. Fakturaer som har korrigerte fakturalinjedetaljer, har et felt kalt **Har rettelser**, som også er angitt til **Ja**.
+> Fakturalinjedetaljer som er rettelser i andre allerede fakturerte omkostnader, har feltet **Korrigering** satt til **Ja**. Fakturaer som har korrigerte fakturalinjedetaljer, har et felt kalt **Har rettelser**, som også er angitt til **Ja**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Faktiske verdier opprettet ved bekreftelse av en korrigert faktura
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiske verdier opprettet ved bekreftelse av en korrigert faktura
 
 Tabellen nedenfor viser de faktiske verdiene som opprettes når en korrigeringsfaktura bekreftes.
 
@@ -214,51 +213,6 @@ En ny ikke-fakturert faktisk salgsverdi som er belastbar for gjenstående antall
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Fakturering av den fulle kreditten for en tidligere fakturert materialtransaksjon.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En fakturert tilbakeføring av salg for antallet og beløpet i den opprinnelige fakturalinjedetaljer for material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ufakturert faktisk salgsverdi for antallet og beløpet i den opprinnelige fakturalinjedetaljer for material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturering av delvis kreditt på en materialtransaksjon.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En fakturert tilbakeføring av salg for antallet og beløpet som var fakturert i den opprinnelige fakturalinjedetaljen for material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ufakturert faktisk salgsverdi som er belastbar for antallet og beløpet på de redigerte fakturalinjedetaljen, en reversering av dette og tilsvarende fakturert faktisk salgsverdi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ikke-fakturert faktisk salgsverdi som er belastbar for gjenstående antall og beløp etter at de korrigerte tallene er trukket fra på fakturalinjedetaljene.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Fakturering av hele kreditten til en tidligere fakturert gebyrtransaksjon.
                 </p>
             </td>
@@ -319,20 +273,9 @@ Fakturering av deler av kreditten til en tidligere fakturert milepæl.
                 <p>
 Støttes ikke </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Kreditter og rettelser for en tidligere fakturert produktbasert kontraktlinje.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Støttes ikke </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

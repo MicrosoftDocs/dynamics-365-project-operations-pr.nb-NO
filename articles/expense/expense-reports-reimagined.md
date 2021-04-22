@@ -3,7 +3,7 @@ title: Nyskapte utgiftsrapporter
 description: Denne emne forklarer den nye utformingen og nyskapte opplevelsen for innlegging av utgiftsrapport.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499728"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717707"
 ---
 # <a name="expense-reports-reimagined"></a>Nyskapte utgiftsrapporter
 
@@ -41,11 +41,7 @@ Hvis du vil aktivere den nye opplevelsen, bruker du arbeidsområdet **Funksjonsb
 - Ingen eksisterende menyelementer for reiseregninger (den eksisterende siden) eller felt for reiseregninger fjernes.
 - Arbeidsflyter og godkjenninger fører deg fremdelses til den eksisterende reiseregningssiden.
 
-## <a name="getting-started-video-for-new-users"></a>Komme-i-gang-video for nye brukere
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Utgiftsopplevelsen i Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0)-videoen (vist ovenfor) er inkludert i [Finance and Operations-spillelisten](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) tilgjengelig på YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nye funksjoner
 
