@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Konfigurer Project Operations-integrering per juridisk enhet
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Konfigurer integrering av dobbel skriving
+          items:
+            - name: Oversikt over integrering av dobbel skriving
+              href: environment/resource-dual-write-overview.md
+            - name: Tilordningsversjoner av dobbel skriving for Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Integrering av Project Operations-oppsett og -konfigurasjonsdata
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integrering av prosjektestimater og faktiske verdier
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integrering av prosjektfaktura
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integrering av utgiftshåndtering
+              href: environment/resource-dual-write-expense.md
+            - name: Integrering av leverandørfaktura
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
         - name: April 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -210,12 +226,14 @@
           href: project-management/project-management-overview.md
         - name: Prosjektfaser
           href: project-management/project-stages.md
-        - name: Navigere i brukergrensesnittet
+        - name: Naviger i brukergrensesnittet
           href: project-management/navigate-ui.md
         - name: Forstå prosjektstatus
           href: project-management/understand-project-status.md
         - name: Definer prosjektkalendere
           href: project-management/define-project-calendars.md
+        - name: Planleggingsmoduser
+          href: project-management/scheduling-modes.md
         - name: Oppdater et prosjekt
           href: project-management/update-project.md
         - name: Kopier et prosjekt
@@ -404,6 +422,12 @@
           items:
             - name: Opprett og bekreft korrigeringsjournaler
               href: actuals/create-confirm-correction-journals.md
+    - name: Innkjøp
+      items:
+        - name: Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer
+          href: procurement/configure-materials-nonstocked.md
+        - name: Anskaffelse av ikke-lagerførte materialer for prosjekter ved hjelp av ventende leverandørfakturaer
+          href: procurement/pending-vendor-invoices.md
     - name: Fakturering
       items:
         - name: Oversikt over faktureringsprosess
@@ -428,11 +452,13 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurer prosjektbasert fakturaautomatisering
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Behandle prosjektfakturaforslag
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Prosjektregnskap
       items:
         - name: Standardverdier for finansdimensjon
           href: project-accounting/financial-dimension-defaults.md
-        - name: Konfigurere prosjektkategorier
+        - name: Konfigurer prosjektkategorier
           href: project-accounting/configure-project-categories.md
         - name: Konfigurere regnskap for interne prosjekter
           href: project-accounting/configure-accounting-internal-projects.md
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Definer prosjektkalendere
           href: project-management/define-project-calendars.md
+        - name: Planleggingsmoduser
+          hreF: project-management/scheduling-modes.md
         - name: Oppdater et prosjekt
           href: project-management/update-project.md
         - name: Kopier et prosjekt
@@ -848,6 +876,8 @@
   items:
     - name: Nyheter
       items:
+        - name: Nyheter april 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nyheter mars 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Nyheter januar 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
@@ -871,9 +901,9 @@
     - name: Konfigurere og bruke Betal når betalt-leverandørbetalinger
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Prosjektkostnadsavsetning på kjøpskvitteringer
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Prosjektfakturering
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Ytelse for prosjektfakturaforslag
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Prosjektkontrakter
@@ -998,6 +1028,8 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 29.5, hurtigreparasjon, V3'
@@ -1327,7 +1359,7 @@
             - name: Vise ressursutnyttelse
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Prosjektlederveiledning
           items:
             - name: Prosjektlederveiledning (Project Service)
