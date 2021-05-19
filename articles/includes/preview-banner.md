@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 3935c8a3dbc56967c88b683317f8214f2cd01e03
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b3accf20fe4f16eabdfa86a33c271ee6663b06bc
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070003"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951131"
 ---
 > [!IMPORTANT]
-> Funksjonaliteten som er angitt i denne artikkelen, er tilgjengelig for målrettede brukere som en del av en forhåndsversjon. Innholdet i og funksjonaliteten kan endres. Hvis du vil ha mer informasjon om forhåndsversjoner, kan du se [Vanlige spørsmål om tjeneste for én versjon](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+> Funksjonaliteten som er angitt i denne artikkelen, er tilgjengelig for målrettede brukere som en del av en forhåndsversjon. Innholdet i og funksjonaliteten kan endres. Hvis du vil ha mer informasjon om forhåndsversjoner, kan du se [Vanlige spørsmål om tjeneste for én versjon](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
