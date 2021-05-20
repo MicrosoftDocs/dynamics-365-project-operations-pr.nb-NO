@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283380"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951536"
 ---
 # <a name="dashboards"></a>Instrumentbord
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation inkluderer to systeminstrumentbord: **Pr
 
 ## <a name="practice-manager"></a>Practice Manager 
 
-Instrumentbordet i **Practice Manager** gir opplæringsansvarlige et grafisk instrumentbord for sporing av kostnader, salg og brutto fortjeneste og utnyttelse. Treningslederne kan også dele informasjonen etter forskjellige dimensjoner, for eksempel kunde, prosjekt eller ressursrolle. Du finner mer informasjon om hvordan du oppretter og tilpasser instrumentbord i [Opprette eller redigere instrumentbord](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Instrumentbordet i **Practice Manager** gir opplæringsansvarlige et grafisk instrumentbord for sporing av kostnader, salg og brutto fortjeneste og utnyttelse. Treningslederne kan også dele informasjonen etter forskjellige dimensjoner, for eksempel kunde, prosjekt eller ressursrolle. Du finner mer informasjon om hvordan du oppretter og tilpasser instrumentbord i [Opprette eller redigere instrumentbord](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Resource Manager 
 

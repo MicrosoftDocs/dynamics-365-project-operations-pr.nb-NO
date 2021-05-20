@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284190"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949646"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Hva er Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ I tillegg til å overvåke og kontrollere kostnader for det prosjektbaserte arbe
 ## <a name="whats-new-in-psa"></a>Nyheter i PSA
 Teamet har gleden av å kunngjøre de nyeste oppdateringene! Disse omfatter forbedringer i brukergrensesnittet, feilrettinger og tilføyelse av viktige nye funksjoner og egenskaper. Du spurte, vi lyttet.
 
-Ta en titt på [produktmerknadene fra oktober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) for å se de nyeste forbedringene og tilleggene våre.
+Ta en titt på [produktmerknadene fra oktober 2019](/dynamics365-release-plan/2019wave2/index) for å se de nyeste forbedringene og tilleggene våre.
 
 ### <a name="in-development"></a>Under utvikling
-Hvis du vil se hva vi har planlagt i nær fremtid, kan du gå til [lanseringsbølge 1 for Dynamics 365: 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Hvis du vil se hva vi har planlagt i nær fremtid, kan du gå til [lanseringsbølge 1 for Dynamics 365: 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Få hjelp med PAS versjon 3.x
 Ser du etter ressurser for å planlegge implementeringen? Se nærmere på disse nedlastbare veiledningene.

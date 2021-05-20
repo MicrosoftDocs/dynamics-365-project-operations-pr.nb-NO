@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291856"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950951"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter november 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -67,7 +67,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | Prosjektregnskap  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Hvis du aktiverer funksjonen, er det ikke mulig å finne flere kontraktlinjer uten CDS-integrering.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

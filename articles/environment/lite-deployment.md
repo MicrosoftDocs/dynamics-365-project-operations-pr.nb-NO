@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290101"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950276"
 ---
 # <a name="deploy-project-operations---lite"></a>Distribuere Project Operations – Lite
 
@@ -34,14 +34,14 @@ Project Operations støtter flere distribusjonsmodeller. Hvis du vil finne den b
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Installer Project Operations i et nytt CDS-miljø
 
-1. Som [global eller Power Platform-administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-lisens oppretter du et nytt CDS-miljø i [administrasjonssenteret for Power Platform](https://admin.powerplatform.com). Kontroller at **CDS-database** og **Dynamics 365-apper** er aktivert. Hvis du vil ha mer informasjon, kan du se [Opprette og administrere miljøer i Power Platform-administrasjonssenteret](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Som [global eller Power Platform-administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-lisens oppretter du et nytt CDS-miljø i [administrasjonssenteret for Power Platform](https://admin.powerplatform.com). Kontroller at **CDS-database** og **Dynamics 365-apper** er aktivert. Hvis du vil ha mer informasjon, kan du se [Opprette og administrere miljøer i Power Platform-administrasjonssenteret](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Velg **Microsoft Dynamics 365 Project Operations** fra distribusjonslisten over Dynamics 365-apper.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Installer Project Operations i et eksisterende CDS-miljø
 
-1. Som [global eller Power Platform-administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-lisens finner du miljøet i [administrasjonssenteret for Power Platform](https://admin.powerplatform.com) der du ønsker å installere Project Operations.
-2. Installer **Microsoft Dynamics 365 Project Operations** fra distribusjonslisten over Dynamics 365-apper. Hvis du vil ha mer informasjon, kan du se [Administrere Dynamics 365-apper](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Som [global eller Power Platform-administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-lisens finner du miljøet i [administrasjonssenteret for Power Platform](https://admin.powerplatform.com) der du ønsker å installere Project Operations.
+2. Installer **Microsoft Dynamics 365 Project Operations** fra distribusjonslisten over Dynamics 365-apper. Hvis du vil ha mer informasjon, kan du se [Administrere Dynamics 365-apper](/power-platform/admin/manage-apps).
 
 
 

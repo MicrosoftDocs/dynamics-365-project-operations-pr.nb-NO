@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291946"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951041"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter desember 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -108,7 +108,7 @@ Følgende funksjoner er inkludert i denne versjonen:
 | Reise og utgift                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Arbeidsflyten med automatisk postering av utgiftsrapport er fullført, men fakturaen er ikke postert                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

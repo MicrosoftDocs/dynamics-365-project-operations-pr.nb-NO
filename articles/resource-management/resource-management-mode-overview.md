@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279465"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949961"
 ---
 # <a name="resource-management-modes-overview"></a>Oversikt over modi for ressursstyring
 
@@ -29,11 +29,11 @@ Organisasjoner som sentraliserer fordelingen av ressurser til prosjekter, kan br
 
 Hvis du vil administrere ressurser med sentral modus, kan du se følgende:
 
-- [Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Bestille navngitte ressurser fra ressurskrav](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Sende en ressursforespørsel](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Oppfyll en ressursforespørsel](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Godta eller avvise en foreslått prosjektressurs fra en ressursforespørsel](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Bestille navngitte ressurser fra ressurskrav](/dynamics365/project-service/book-named-resource)
+- [Sende en ressursforespørsel](/dynamics365/project-service/submit-resource-request)
+- [Oppfyll en ressursforespørsel](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Godta eller avvise en foreslått prosjektressurs fra en ressursforespørsel](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hybrid modus
 Organisasjoner som trenger fleksibilitet ved tildeling av ressurser, kan bruke hybrid modus til å sørge for at både prosjektledere og ressursledere kan bestille ressurser.
@@ -43,11 +43,11 @@ Organisasjoner som trenger fleksibilitet ved tildeling av ressurser, kan bruke h
 I tillegg til de støttede prosessene i sentral modus, kan du se følgende emner for å administrere alle andre støttede bestillingsflyter i hybrid modus:
 
 Bestill en ressurs direkte til et prosjekt:
-- [Bestille navngitte bestillbare ressurser til et prosjektteam og tilordne oppgaver](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Bestille navngitte bestillbare ressurser til et prosjektteam og tilordne oppgaver](/dynamics365/project-service/assign-named-bookable-resource)
 
 Bestill en ressurs fra et ressurskrav:
-- [Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Bestille navngitte ressurser fra ressurskrav](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Bestille navngitte ressurser fra ressurskrav](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

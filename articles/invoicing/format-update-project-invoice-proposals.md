@@ -3,17 +3,17 @@ title: Behandle forslag om prosjektfaktura
 description: Dette emnet inneholder detaljer om behandling av kunderettede fakturaer med Project Operations for ressurs- eller ikke-lagerbaserte scenarier.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275865"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950726"
 ---
 # <a name="manage-project-invoice-proposals"></a>Behandle forslag om prosjektfaktura
 
@@ -80,7 +80,8 @@ Verdiene for **Mva-gruppe** og **Mva-gruppe for element** hentes som standard fr
     - **Kunde** vil alltid bruke gruppen for faktureringsavgift fra kunden som standard.
     - **Søk** vil søke på tvers av alle enhetene i denne listen og velge den første tilgjengelige verdien. Søket starter med **Prosjekt**-enheten, deretter **Prosjektkontrakt**-enheten, og deretter **Kunde**-enheten.
 
-- **Mva-gruppe for fast pris for milepælelement** brukes til å standardisere verdien i feltet **Mva-gruppe for element**.
+- **Mva-gruppe for milepæl for fast pris** brukes som standardverdi i feltet **Mva-gruppe for vare** for faktureringsmilepælen. Regnskapsføreren kan se gjennom og endre denne verdien på **A konto-transaksjoner**-siden. Systemet bruker verdien fra A konto-transaksjonen ved opprettelse av en prosjektfakturaforslagslinje.
+ 
 
 ### <a name="financial-dimensions"></a>Finansdimensjoner
 
@@ -132,7 +133,7 @@ På siden **Formater fakturaforslag** kan egendefinerte grupperingstransaksjoner
 
 Utskriftsbehandling bruker forskjellige rapportfiler til å skrive ut, angi mål og tilpasse bunntekst for fakturaen. Utskriftsbehandling kan konfigureres på modulnivå, men disse innstillingene kan overstyres for et bestemt kunde-, kontrakt- eller fakturaforslag. Hvis du vil ha tilgang til denne funksjonen på siden **Prosjektfakturaforslag**, velger du **Utskrift** > **Utskriftsbehandling**.
 
-Oppsettet for utskriftsbehandling vises som en trevisning, der hvert nodenivå viser de tilgjengelige dokumentene som skal justeres. Du kan tilordne egendefinerte utskrifter på dokumentnivået modul, kunde, kontrakt eller fakturaforslag. Hvis du vil endre utskriften av det opprinnelige dokumentet, utvider du den ønskede noden og velger **Opprinnelig element**. I feltet **Rapportformat** velger du rapportformatet som skal brukes til å skrive ut. Du kan bruke egendefinerte rapportformater ved hjelp av [rammeverket for forretningsdokumentbehandling](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Oppsettet for utskriftsbehandling vises som en trevisning, der hvert nodenivå viser de tilgjengelige dokumentene som skal justeres. Du kan tilordne egendefinerte utskrifter på dokumentnivået modul, kunde, kontrakt eller fakturaforslag. Hvis du vil endre utskriften av det opprinnelige dokumentet, utvider du den ønskede noden og velger **Opprinnelig element**. I feltet **Rapportformat** velger du rapportformatet som skal brukes til å skrive ut. Du kan bruke egendefinerte rapportformater ved hjelp av [rammeverket for forretningsdokumentbehandling](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Publisere fakturaforslag
 

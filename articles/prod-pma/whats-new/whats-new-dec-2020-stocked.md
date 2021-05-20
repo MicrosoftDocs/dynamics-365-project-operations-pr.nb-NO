@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288151"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950231"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nyheter eller endringer i Project Operations, desember 2020, for lagerførte/produksjonsbaserte scenarioer
 
@@ -141,7 +141,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 
 ## <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
 
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). En annen måte å lære om regelverksoppdateringer på, er å logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av problemsøkverktøyet. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). En annen måte å lære om regelverksoppdateringer på, er å logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av problemsøkverktøyet. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

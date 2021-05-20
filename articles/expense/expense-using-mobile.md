@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499908"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950898"
 ---
 # <a name="mobile-expense-app"></a>Utgiftsapp for mobil
 
@@ -72,16 +72,16 @@ Hvis versjon 1611 med plattformoppdatering 3 eller senere er distribuert for org
 <td>Systemadministrator</td>
 <td>KB 4019015 er en X++-oppdatering eller hurtigreparasjon for metadata som inneholder det mobile arbeidsområdet <strong>Utgiftshåndtering</strong>. For å implementere KB 4019015 må systemadministrator følge fremgangsmåten nedenfor.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Last ned oppdateringer fra Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installer hurtigreparasjon for metadata</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Opprett en distribuerbar pakke</a> som inneholder <strong>ApplicationSuite</strong> - og <strong>ExpenseMobile</strong> -modellene, og last deretter opp den distribuerbare pakken til LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Ta i bruk den distribuerbare pakken</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Last ned oppdateringer fra Lifecycle Services</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installer hurtigreparasjon for metadata</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Opprett en distribuerbar pakke</a> som inneholder <strong>ApplicationSuite</strong> - og <strong>ExpenseMobile</strong> -modellene, og last deretter opp den distribuerbare pakken til LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Ta i bruk den distribuerbare pakken</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publiser det mobile arbeidsområdet <strong>Utgiftshåndtering</strong>.</td>
 <td>Systemadministrator</td>
-<td>Se <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publisere et mobilt arbeidsområde</a>.</td>
+<td>Se <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publisere et mobilt arbeidsområde</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 
 1. Åpne det mobile arbeidsområdet **Utgiftshåndtering** på mobilenheten.
 2. Velg **Hurtigoppføring av utgift**.
-3. Velg utgiftskategorien. Du ser en liste over utgiftskategorier som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis kategorien din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter utgiftskategori, eller bytt for å søke etter utgiftstype.
+3. Velg utgiftskategorien. Du ser en liste over utgiftskategorier som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis kategorien din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter utgiftskategori, eller bytt for å søke etter utgiftstype.
 4. Angi transaksjonsdatoen for utgiften.
 5. Valgfritt: Angi forhandleren for utgiften.
 6. Angi beløpet for utgiften.
-7. Velg valutaen for utgiften. Du ser en liste over valutakoder som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 400 valutaer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis valutaen din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter valuta, eller bytt for å søke etter navn.
+7. Velg valutaen for utgiften. Du ser en liste over valutakoder som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 400 valutaer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis valutaen din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter valuta, eller bytt for å søke etter navn.
 8. Velg **Ta bilde** eller **Velg bilde**.
 9. Følg hvilket som helst av disse trinnene:
 
@@ -159,11 +159,11 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 7. Velg én eller flere utgifter i listen.
 8. Velg **Ferdig**.
 9. Hvis du vil legge til en ny utgift i reiseregningen, velger du **Ny utgift**.
-10. Velg utgiftskategorien. Du ser en liste over utgiftskategorier som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis kategorien din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter utgiftskategori, eller bytt for å søke etter utgiftstype.
+10. Velg utgiftskategorien. Du ser en liste over utgiftskategorier som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis kategorien din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter utgiftskategori, eller bytt for å søke etter utgiftstype.
 11. Valgfritt: Angi forhandleren for utgiften.
 12. Angi transaksjonsdatoen for utgiften.
 13. Angi beløpet for utgiften.
-14. Velg valutaen for utgiften. Du ser en liste over valutakoder som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 400 valutaer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis valutaen din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter valuta, eller bytt for å søke etter navn.
+14. Velg valutaen for utgiften. Du ser en liste over valutakoder som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 400 valutaer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis valutaen din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter valuta, eller bytt for å søke etter navn.
 15. Velg **Ferdig**.
 16. Hvis du vil legge til flere detaljer i utgiften, velger du **Legg til flere detaljer**. Hvilke felt som er tilgjengelige, avhenger av konfigurasjonen av utgiftshåndteringen for firmaet.
 17. Hvis firmapolicyen krever en kvittering for utgiftene, velger du **Kvitteringer**, og deretter følger du denne fremgangsmåten:
@@ -209,12 +209,12 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 
         - Hvis du valgte **Tidligere gjester**, følger du denne fremgangsmåten:
 
-            1. Velg én eller flere tidligere gjester i listen. Du ser en liste over tidligere gjester du har lagt til i tidligere reiseregninger som lastes inn i appen for frakoblet bruk. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis de tidligere gjestene dine ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter navn, eller bytt for å søke etter organisasjon, land eller stilling.
+            1. Velg én eller flere tidligere gjester i listen. Du ser en liste over tidligere gjester du har lagt til i tidligere reiseregninger som lastes inn i appen for frakoblet bruk. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis de tidligere gjestene dine ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter navn, eller bytt for å søke etter organisasjon, land eller stilling.
             2. Velg **Ferdig**.
 
         - Hvis du valgte **Medarbeidere**, følger du denne fremgangsmåten:
 
-            1. Velg én eller flere medarbeidere i listen. Du ser en liste over medarbeidere som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis medarbeiderne ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter navn, eller bytt for å søke etter firma eller stilling.
+            1. Velg én eller flere medarbeidere i listen. Du ser en liste over medarbeidere som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis medarbeiderne ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter navn, eller bytt for å søke etter firma eller stilling.
             2. Velg **Ferdig**.
 
     3. Velg **Tilbake**-knappen for å gå tilbake til utgiftsdetaljene.
@@ -223,7 +223,7 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 
     1. Velg første dato som skal spesifiseres.
     2. Velg **Legg til spesifisering**.
-    3. Velg underkategorien for utgiftsspesifiseringen. Du ser en liste over underkategorier for utgift som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis underkategorien din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter navn på underkategori for utgift.
+    3. Velg underkategorien for utgiftsspesifiseringen. Du ser en liste over underkategorier for utgift som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) Hvis underkategorien din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter navn på underkategori for utgift.
     4. Angi transaksjonsbeløpet for spesifiseringen.
     5. Rediger transaksjonsdatoen hvis det er nødvendig.
     6. Velg **Ferdig**.

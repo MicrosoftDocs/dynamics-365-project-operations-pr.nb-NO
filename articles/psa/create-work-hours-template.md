@@ -1,6 +1,6 @@
 ---
 title: Opprette en mal for arbeidstimer
-description: Slik oppretter du en mal for arbeidstimer i Project Service
+description: Dette emnet beskriver hvordan du oppretter en mal for arbeidstimer i Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285045"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981267"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Opprette en mal for arbeidstimer (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Før du kan opprette prosjekttidsplaner, må du sette opp en prosjektkalender som definerer antallet arbeidstimer for hver dag i tidsplanen og eventuelle tidspunkt selskapet holder stengt. Dette gjør du med en mal for arbeidstimer som inneholder detaljer om arbeidstimer per dag, fridager og andre tidspunkt selskapet holder stengt.  
-  
- Når du oppretter et prosjekt, kan du knytte en arbeidsmal til prosjektkalenderen for å bruke tidsplanen for prosjektet.  
-  
- Det er to måter du kan opprette en mal for arbeidstimer på:  
-  
--   Opprette en mal for arbeidstimer basert på en kalenderen til en ressurs.  
-  
--   Opprette en ny mal for arbeidstimer.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Slik oppretter du en mal for arbeidstimer basert på en kalenderen til en ressurs  
-  
-1.  Gå til **Project Service > Ressurser**.  
-  
-2.  Velg ressursen du vil basere arbeidstimene på.  
-  
-3.  Klikk **Lagre kalender som**, skriv inn et navn for malen for arbeidstimer, og klikk deretter **Lagre**.  
-  
-4.  Når du er ferdig med å endre alternativer, klikker du **Lagre og lukk**.  
-  
-5.  Klikk **Lagre** nederst til høyre på skjermen.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Slik oppretter du en ny mal for arbeidstimer  
-  
-1.  Gå til **Project Service > Arbeidstidsmal**.  
-  
-2.  Klikk **Ny**.  
-  
-3.  Angi et navn for malen for arbeidstimer.  
-  
-4.  Velg en ressurs å basere arbeidstiden på, og klikk deretter **Lagre**.  
-  
+Hvis du vil opprette og administrere et prosjekt, må du bruke en kalendermal på prosjektet. Kalendermalen definerer følgende prosjektattributter:
+
+- Arbeidstid, inkludert start- og sluttidspunkt
+- Arbeidsdager
+- Kalenderunntak, for eksempel fridager
+
+Kalendermalen som brukes på et prosjekt, er en kopi av kalendermalen som er definert i organisasjonens innstillinger.
+
+> [!NOTE]
+> Hvis du endrer kalendermalen, overføres ikke disse endringene til arbeidstiden for prosjektet. Hvis du vil endre arbeidstiden for prosjektet, må du bruke en ny mal.
+
+Hvis du vil opprette en kalendermal for organisasjonen, er det to viktige krav:
+
+- Definer ønsket arbeidstid for malen ved hjelp av en ny eller eksisterende ressurs som kan reserveres.
+- Opprett en ny kalendermal, og knytt malen til ressursen som kan reserveres.
+
+**Definer arbeidstimene for malen**
+
+1. Gå til **Ressurser** \> **Ressurser**.
+2. Opprett en ny ressurs som skal refereres til i kalendermalen, eller velg en eksisterende ressurs.
+3. Velg kategorien **Arbeidstimer** for ressursen, og fullfør instruksjonene i [Angi arbeidstimer for en ressurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) for å konfigurere kalenderreglene.
+
+**Opprett en ny kalendermal**
+
+1. Gå til **Innstillinger** \> **Kalendermal**.
+2. Velg **Ny**, og skriv inn et navn, en beskrivelse og en malressurs.
+
+
+> [!NOTE]
+> Når det refereres til en ressurs i en kalendermal, knyttes en kopi av ressursens kalender til kalendermalen. Hvis arbeidstimene for den kopierte malen endres, overføres ikke disse endringene til kalendermalen.
+
+
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
 

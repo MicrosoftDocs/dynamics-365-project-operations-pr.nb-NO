@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282660"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951446"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planlegge ressurser for et prosjekt (Project Service)
 
@@ -35,7 +35,7 @@ Du kan sjekke ressurstilgjengeligheten for å få en oversikt over bestillingene
   
 Planleggingstavlen viser liste over ressurser og deres tilgjengelighet. Velg en visningsmodus for å vise tilgjengelighet etter **timer**, **dag**, **uke** eller **måned**.  
   
-Før du bruker planleggingstavlen, er det viktig å konfigurere den. For mer informasjon, se [Konfigurere tidsplankortet (Field Service eller Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Før du bruker planleggingstavlen, er det viktig å konfigurere den. For mer informasjon, se [Konfigurere tidsplankortet (Field Service eller Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Hvis du bruker en eldre versjon, kan du sjekke ressurstilgjengelighet under [Vise ressurstilgjengelighet](../psa/view-resource-availability.md).  
 

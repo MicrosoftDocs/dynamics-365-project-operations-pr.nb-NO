@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289786"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950456"
 ---
 # <a name="project-management-and-accounting-overview"></a>Oversikt over prosjektstyring og regnskap
 
@@ -227,7 +227,7 @@ Prosjekttypen avgjør hvilken faktureringsprosedyre som skal brukes. Bare de to 
 Før du oppretter en kundefaktura for et prosjekt, kan du opprette en foreløpig faktura eller et fakturaforslag. I et fakturaforslag kan du velge prosjekttransaksjoner som skal tas med i en prosjektfaktura. Du kan deretter se gjennom fakturadetaljene før du bokfører prosjektfakturaen og sender den til kunden eller en annen finansieringskilde. 
 
 
-Hvis du vil ha mer informasjon om hvordan du behandler prosjektfakturaer, kan du se [Prosjektfakturering](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Hvis du vil ha mer informasjon om hvordan du behandler prosjektfakturaer, kan du se [Prosjektfakturering](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Beregne kostnaden for å fullføre et prosjekt
