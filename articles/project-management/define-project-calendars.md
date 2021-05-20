@@ -1,9 +1,9 @@
 ---
-title: Definere prosjektkalendere
-description: Dette emnet gir informasjon om hvordan du bruker en prosjektkalender til å spore prosjektplanen.
+title: Definer prosjektkalendere
+description: Dette emnet gir informasjon om hvordan du bruker en kalendermal på et prosjekt til å følge opp prosjektplanen.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286980"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981312"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="38802-103">Definere prosjektkalendere</span><span class="sxs-lookup"><span data-stu-id="38802-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="5ef52-103">Definer prosjektkalendere</span><span class="sxs-lookup"><span data-stu-id="5ef52-103">Define project calendars</span></span>
 
-<span data-ttu-id="38802-104">_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_</span><span class="sxs-lookup"><span data-stu-id="38802-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="5ef52-104">_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_</span><span class="sxs-lookup"><span data-stu-id="5ef52-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="38802-105">Hvis du vil opprette en prosjektplan, må du opprette en prosjektkalendermal som definerer antallet arbeidstimer for hver dag i tidsplanen og eventuelle tidspunkt selskapet holder stengt.</span><span class="sxs-lookup"><span data-stu-id="38802-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="38802-106">Hvis du vil opprette en prosjektkalendermal, kan du knytte en arbeidsmal til **Kalendermal**-feltet for prosjektet.</span><span class="sxs-lookup"><span data-stu-id="38802-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="38802-107">Følg denne fremgangsmåten for å opprette en arbeidsmal.</span><span class="sxs-lookup"><span data-stu-id="38802-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="5ef52-105">Hvis du vil opprette og administrere et prosjekt, må du bruke en kalendermal på prosjektet.</span><span class="sxs-lookup"><span data-stu-id="5ef52-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="5ef52-106">Kalendermalen definerer følgende prosjektattributter:</span><span class="sxs-lookup"><span data-stu-id="5ef52-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="38802-108">Velg **Ressurser** i venstre navigasjonsrute.</span><span class="sxs-lookup"><span data-stu-id="38802-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="38802-109">På **Ressurser**-listesiden åpner du en brukeroppføring og velger deretter **Vis arbeidstimer**.</span><span class="sxs-lookup"><span data-stu-id="38802-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="5ef52-107">Arbeidstid, inkludert start- og sluttidspunkt</span><span class="sxs-lookup"><span data-stu-id="5ef52-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="5ef52-108">Arbeidsdager</span><span class="sxs-lookup"><span data-stu-id="5ef52-108">Working days</span></span>
+- <span data-ttu-id="5ef52-109">Kalenderunntak, for eksempel fridager</span><span class="sxs-lookup"><span data-stu-id="5ef52-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="38802-110">Sørg for at du tillater popup-vinduer på nettlesersiden.</span><span class="sxs-lookup"><span data-stu-id="38802-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="38802-111">På denne måten kan du se arbeidstimene som er angitt for ressursen.</span><span class="sxs-lookup"><span data-stu-id="38802-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="38802-112">I kategorien **Måndsvisning** klikker du **Konfigurer**.</span><span class="sxs-lookup"><span data-stu-id="38802-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="38802-113">En liste med tre alternativer vises:</span><span class="sxs-lookup"><span data-stu-id="38802-113">A list of three options appears:</span></span> 
+<span data-ttu-id="5ef52-110">Kalendermalen som brukes på et prosjekt, er en kopi av kalendermalen som er definert i organisasjonens innstillinger.</span><span class="sxs-lookup"><span data-stu-id="5ef52-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="38802-114">Ny ukeplan</span><span class="sxs-lookup"><span data-stu-id="38802-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="38802-115">Arbeidstidsplan for én dag</span><span class="sxs-lookup"><span data-stu-id="38802-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="38802-116">Fritid</span><span class="sxs-lookup"><span data-stu-id="38802-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="5ef52-111">Hvis du endrer kalendermalen, overføres ikke disse endringene til arbeidstiden for prosjektet.</span><span class="sxs-lookup"><span data-stu-id="5ef52-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="5ef52-112">Hvis du vil endre arbeidstiden for prosjektet, må du bruke en ny mal.</span><span class="sxs-lookup"><span data-stu-id="5ef52-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="38802-117">Velg **Ny ukeplan**, og angi deretter alternativene for denne ressursplanen.</span><span class="sxs-lookup"><span data-stu-id="38802-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="38802-118">Du kan angi en regelmessig ukeplan, daglige timeparametere, selskapet holder stengt, og så videre.</span><span class="sxs-lookup"><span data-stu-id="38802-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="38802-119">Angi datointervallet, velg **Lagre**, og klikk deretter **Lukk**.</span><span class="sxs-lookup"><span data-stu-id="38802-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="38802-120">Gå tilbake til **Ressurser**-listesiden, og velg ressursen du angir arbeidstimer for.</span><span class="sxs-lookup"><span data-stu-id="38802-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="38802-121">Velg **Angi kalender som** for å angi arbeidsmalen.</span><span class="sxs-lookup"><span data-stu-id="38802-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="38802-122">Skriv inn et navn på arbeidsmalen i dialogboksen **Arbeidsmal**, og velg deretter **Bruk**.</span><span class="sxs-lookup"><span data-stu-id="38802-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="5ef52-113">Hvis du vil opprette en kalendermal for organisasjonen, er det to viktige krav:</span><span class="sxs-lookup"><span data-stu-id="5ef52-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="38802-123">Du kan nå knytte arbeidsmalen til en prosjektkKalendermal.</span><span class="sxs-lookup"><span data-stu-id="38802-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="5ef52-114">Definer ønsket arbeidstid for malen ved hjelp av en ny eller eksisterende ressurs som kan reserveres.</span><span class="sxs-lookup"><span data-stu-id="5ef52-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="5ef52-115">Opprett en ny kalendermal, og knytt malen til ressursen som kan reserveres.</span><span class="sxs-lookup"><span data-stu-id="5ef52-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="5ef52-116">**Definer arbeidstimene for malen**</span><span class="sxs-lookup"><span data-stu-id="5ef52-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="5ef52-117">Gå til **Ressurser** \> **Ressurser**.</span><span class="sxs-lookup"><span data-stu-id="5ef52-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="5ef52-118">Opprett en ny ressurs som skal refereres til i kalendermalen, eller velg en eksisterende ressurs.</span><span class="sxs-lookup"><span data-stu-id="5ef52-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="5ef52-119">Velg kategorien **Arbeidstimer** for ressursen, og fullfør instruksjonene i [Angi arbeidstimer for en ressurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) for å konfigurere kalenderreglene.</span><span class="sxs-lookup"><span data-stu-id="5ef52-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="5ef52-120">**Opprett en ny kalendermal**</span><span class="sxs-lookup"><span data-stu-id="5ef52-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="5ef52-121">Gå til **Innstillinger** \> **Kalendermal**.</span><span class="sxs-lookup"><span data-stu-id="5ef52-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="5ef52-122">Velg **Ny**, og skriv inn et navn, en beskrivelse og en malressurs.</span><span class="sxs-lookup"><span data-stu-id="5ef52-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="5ef52-123">Når det refereres til en ressurs i en kalendermal, knyttes en kopi av ressursens kalender til kalendermalen.</span><span class="sxs-lookup"><span data-stu-id="5ef52-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="5ef52-124">Hvis arbeidstimene for den kopierte malen endres, overføres ikke disse endringene til kalendermalen.</span><span class="sxs-lookup"><span data-stu-id="5ef52-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="5ef52-125">Du kan nå knytte arbeidsmalen til en prosjektkKalendermal.</span><span class="sxs-lookup"><span data-stu-id="5ef52-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
