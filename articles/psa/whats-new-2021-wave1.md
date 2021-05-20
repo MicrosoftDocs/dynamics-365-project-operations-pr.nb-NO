@@ -17,32 +17,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ceba31934f021b4a18766eca314d68b69dd6a8ff
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281175"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949601"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="6b3d5-103">Nyheter eller endringer i bølge 1 for tidlig tilgang til Project Service Automation 2021, V3</span><span class="sxs-lookup"><span data-stu-id="6b3d5-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="2142a-103">Nyheter eller endringer i bølge 1 for tidlig tilgang til Project Service Automation 2021, V3</span><span class="sxs-lookup"><span data-stu-id="2142a-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="6b3d5-104">Bølge 1 for tidlig tilgang til Project Service Automation 2021, V3</span><span class="sxs-lookup"><span data-stu-id="6b3d5-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
+## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="2142a-104">Bølge 1 for tidlig tilgang til Project Service Automation 2021, V3</span><span class="sxs-lookup"><span data-stu-id="2142a-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
-<span data-ttu-id="6b3d5-105">Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="6b3d5-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="6b3d5-106">Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet.</span><span class="sxs-lookup"><span data-stu-id="6b3d5-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="6b3d5-107">Denne versjonen er kompatibel med Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="6b3d5-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="6b3d5-108">Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen.</span><span class="sxs-lookup"><span data-stu-id="6b3d5-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="6b3d5-109">For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="6b3d5-109">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="2142a-105">Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="2142a-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="2142a-106">Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet.</span><span class="sxs-lookup"><span data-stu-id="2142a-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="2142a-107">Denne versjonen er kompatibel med Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="2142a-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="2142a-108">Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen.</span><span class="sxs-lookup"><span data-stu-id="2142a-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="2142a-109">For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="2142a-109">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="6b3d5-110">Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for bølge 1 for tidlig tilgang til Project Service Automation 2021, V3.</span><span class="sxs-lookup"><span data-stu-id="6b3d5-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="6b3d5-111">Denne versjonen har buildnummeret V3.10.49.3, og er generelt tilgjengelig via en egen oppdatering i februar 2021.</span><span class="sxs-lookup"><span data-stu-id="6b3d5-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
+<span data-ttu-id="2142a-110">Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for bølge 1 for tidlig tilgang til Project Service Automation 2021, V3.</span><span class="sxs-lookup"><span data-stu-id="2142a-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="2142a-111">Denne versjonen har buildnummeret V3.10.49.3, og er generelt tilgjengelig via en egen oppdatering i februar 2021.</span><span class="sxs-lookup"><span data-stu-id="2142a-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
 
 
-### <a name="bug-fixes"></a><span data-ttu-id="6b3d5-112">Feilrettinger</span><span class="sxs-lookup"><span data-stu-id="6b3d5-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="2142a-112">Feilrettinger</span><span class="sxs-lookup"><span data-stu-id="2142a-112">Bug fixes</span></span>
 
-<span data-ttu-id="6b3d5-113">**Tid og utgift**</span><span class="sxs-lookup"><span data-stu-id="6b3d5-113">**Time and Expense**</span></span>
+<span data-ttu-id="2142a-113">**Tid og utgift**</span><span class="sxs-lookup"><span data-stu-id="2142a-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="6b3d5-114">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="6b3d5-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="2142a-114">Følgende problemer har blitt løst:</span><span class="sxs-lookup"><span data-stu-id="2142a-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="6b3d5-115">Sluttdatoer fylles automatisk ut når det opprettes en tidsoppføring hvis varigheten er null.</span><span class="sxs-lookup"><span data-stu-id="6b3d5-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
-- <span data-ttu-id="6b3d5-116">Brukere kan endre oppgaven i en tidsoppføring som er godkjent eller sendt.</span><span class="sxs-lookup"><span data-stu-id="6b3d5-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
+- <span data-ttu-id="2142a-115">Sluttdatoer fylles automatisk ut når det opprettes en tidsoppføring hvis varigheten er null.</span><span class="sxs-lookup"><span data-stu-id="2142a-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
+- <span data-ttu-id="2142a-116">Brukere kan endre oppgaven i en tidsoppføring som er godkjent eller sendt.</span><span class="sxs-lookup"><span data-stu-id="2142a-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
