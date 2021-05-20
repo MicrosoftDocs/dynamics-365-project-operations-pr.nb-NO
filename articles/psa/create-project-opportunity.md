@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285225"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948206"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Opprette en prosjektmulighet (Project Service)
 
@@ -39,7 +39,7 @@ Salgsmuligheter er varme kundeemner fra kunder som er interessert i å inngå av
   
 3.  I **Sammendrag**-området angir firma og annen informasjon for salgsmuligheten.  
   
-4.  Legg til eventuelle notater og aktiviteter (for eksempel telefonsamtaler eller e-postmeldinger) relatert til dette kundeemnet. Hvis du vil ha mer informasjon om å legge til notater og aktiviteter, kan du se [Holde oversikt over notater, oppgaver, samtaler eller e-post med aktiviteter](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Legg til eventuelle notater og aktiviteter (for eksempel telefonsamtaler eller e-postmeldinger) relatert til dette kundeemnet. Hvis du vil ha mer informasjon om å legge til notater og aktiviteter, kan du se [Holde oversikt over notater, oppgaver, samtaler eller e-post med aktiviteter](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Hvis du vil legge til interessenter, klikker du **+** i **Interessenter**-området.  
   

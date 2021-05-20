@@ -3,7 +3,7 @@ title: Ytelse for prosjektfakturaforslag
 description: Dette emnet inneholder informasjon om ytelsesforbedringer av prosjektfakturaforslag.
 author: Yowelle
 manager: AnnBe
-ms.date: 03/05/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 78c924cba8107471a5f8e6d6a38265890d32d72b
-ms.sourcegitcommit: 2350c6f3728067a8298adde640e6fdd5984eb077
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573571"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920314"
 ---
 # <a name="project-invoice-proposal-performance"></a>Ytelse for prosjektfakturaforslag
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Når du oppretter et nytt fakturaforslag, kan det oppstå ytelsesproblemer etter hvert som antall prosjekter og delprosjekter øker. For å forbedre ytelsen er en funksjon tilgjengelig som reduserer tiden du trenger for å opprette et nytt fakturaforslag for posterte prosjekttransaksjoner.
 

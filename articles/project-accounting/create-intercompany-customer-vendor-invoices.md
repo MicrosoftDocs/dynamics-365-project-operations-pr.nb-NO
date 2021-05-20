@@ -3,17 +3,17 @@ title: Opprette konserninterne kunde- og leverandørfakturaer
 description: Dette emnet gir informasjon om hvordan du oppretter konserninterne kunde- og leverandørfakturaer.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287475"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948407"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Opprette konserninterne kunde- og leverandørfakturaer
 
@@ -25,7 +25,9 @@ Prosjektregnskapsføreren for den juridiske enheten som låner ut kan konfigurer
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Opprette en konsernintern kundefaktura manuelt for prosjekttransaksjoner 
 
-For å opprette en konsernintern kundefaktura manuelt for prosjekttransaksjoner, bruker du denne fremgangsmåten. Søk etter timer som ble postert av arbeidere på prosjekter i de juridiske enhetene som låner, og for utgifter som var påløpt av den juridiske enheten på vegne av juridiske enheter som låner. Du kan søke etter navn på juridisk enhet, prosjektkontraktnummer, prosjektnummer, datointervall eller en hvilken som helst kombinasjon av disse alternativene. I søkeresultatene velger du transaksjonene som skal legges til på en konsernintern faktura.
+For å opprette en konsernintern kundefaktura manuelt for prosjekttransaksjoner, bruker du denne fremgangsmåten. Søk etter timer som ble postert av arbeidere på prosjekter i de juridiske enhetene som låner, og for utgifter som var påløpt av den juridiske enheten på vegne av juridiske enheter som låner. Du kan søke etter navn på juridisk enhet, prosjektkontraktnummer, prosjektnummer, datointervall eller en hvilken som helst kombinasjon av disse alternativene. I søkeresultatene velger du transaksjonene som skal legges til på en konsernintern faktura. 
+
+Følgende trinn må utføres i den juridiske utlånsenheten. 
 
 1. I Dynamics 365 Finance går du til **Prosjektstyring og regnskap** > **Prosjektfakturaer** > **Konserninterne kundefakturaer**. På **Konserninterne kundefakturaer**-listesiden på Handlingsruten velger du **Ny.**
 2. På **Opprett konsernintern faktura**-siden i **Juridisk enhet**-feltet velger du en juridisk enhet som låner.
@@ -35,9 +37,9 @@ For å opprette en konsernintern kundefaktura manuelt for prosjekttransaksjoner,
 6. I søkeresultatene velger du transaksjonene som skal tas med i det konserninterne fakturaforslaget, og deretter velger du **OK**.
 7. På **Konsernintern kundefaktura**-siden vises de konserninterne prosjekttransaksjonene du har valgt fra søkeresultatene. Hvis du vil endre transaksjonene før du sender fakturaen til den juridiske enheten som låner, gjør du følgende:
   
-    1. Åpne **Opprett fakturaforslag**-siden. Velg flere konserninterne transaksjoner for gjeldende faktura, og velg deretter **Legg til linje**.
+    1. Åpne fakturadetaljene på siden **Konsernintern kundefaktura**, og velg deretter **Legg til linje**.
     2. Du kan fjerne en linje ved å velge den og deretter velge **Fjern**.
-    3. Vis kommentarer, årsaker, finansdimensjoner og annen informasjon om en valgt linje på **Fakturalinjer**-hurtigfanen.
+    3. Vis kommentarer, årsaker, finansdimensjoner og annen informasjon om en valgt linje i fakturalinjedetaljene.
     
 8. Du posterer den konserninterne kundefakturaen på Handlingsruten ved å velge **Poster**.
 
@@ -52,7 +54,7 @@ Du kan opprette flere konserninterne fakturaer samtidig for alle juridiske enhet
 2. På **Opprett konsernintern kundefaktura**-siden i **Firma**-feltet velger du en juridisk enhet som skal faktureres. Hvis du ikke velger et firma, vises alle transaksjoner som oppfyller søkevilkårene, for alle juridiske enheter som låner.
 3. I **Opprett én faktura per** velger du om du vil opprette en faktura for konserninterne transaksjoner basert på et prosjekt, eller basert på en juridisk enhet som låner.
 4. Valgfritt: Hvis du vil velge et bestemt prosjekt og en prosjektkontrakt å opprette konserninterne fakturaer for, klikker du på **Velg**. På **Forespørsel**-siden i **Vilkår**-feltet velger du prosjektkontrakten, prosjektnummeret eller begge, og deretter velger du **OK**.
-5. På **Bunke**-fanen konfigurerer du en partiprosess for å opprette konserninterne fakturaer regelmessig. Hvis du vil ha mer informasjon, kan du se [Sende en satsvis behandlet jobb fra et skjema](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. På **Bunke**-fanen konfigurerer du en partiprosess for å opprette konserninterne fakturaer regelmessig. Hvis du vil ha mer informasjon, kan du se [Sende en satsvis behandlet jobb fra et skjema](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Du posterer de konserninterne fakturaene på Handlingsruten ved å velge **Poster**.
 
 > [!NOTE]

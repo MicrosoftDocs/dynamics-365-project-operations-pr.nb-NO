@@ -3,18 +3,18 @@ title: Nyheter april 2021 – Project Operations for ressursbaserte/ikke-lagerba
 description: Dette emnet inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i april 2021-versjonen av Project Operations for scenarioer basert på ressurer / ikke-lagerførte enheter
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868005"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935486"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter april 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -33,8 +33,26 @@ Følgende funksjoner er inkludert i denne versjonen:
   - Estimering og prising av ikke-lagerført materiell i salgssyklusen for et prosjekt. For mer informasjon, se [Konfigurere kostnads- og salgspriser for katalogprodukter – Lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Sporing av bruken av ikke-lagerført materiell under prosjektlevering. For mer informasjon, se [Registrer materialbruk på prosjekter og prosjektoppgaver](../material/material-usage-log.md).
   - Fakturering av kostnader for ikke-lagerført materiell som er brukt. For mer informasjon, se [Administrere faktureringsrestansen](../proforma-invoicing/manage-billing-backlog.md).
+  - Hvis du vil ha mer informasjon om hvordan du konfigurerer denne funksjonen, kan du se [Konfigurere ikke-lagerførte materialer og ventende leverandørfakturaer](../procurement/configure-materials-nonstocked.md)
 - Oppgavebasert fakturering: Lagt til muligheten til å knytte prosjektoppgaver til prosjektkontraktslinjer, og dermed utsette dem for samme faktureringsmetode, fakturahyppighet og kunder som prosjektoppgavene på kontraktlinjen. Denne tilknytningen sikrer nøyaktig fakturering, regnskapsføring, omsetningsberegning og anerkjennelse for å arbeide i samsvar med dette oppsettet på prosjektoppgaver.
 - Nye API-er i Dynamics 365 Dataverse tillater oppretting, oppdatering og sletting med **planleggingsenheter**. For mere informasjon, se [Bruke API-er for tidsplan til å utføre operasjoner med planleggingsenheter](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Oppdateringer av tilordninger for dobbel skriving for Project Operations
+
+Listen nedenfor viser tilordningene for dobbel skriving som er endret eller lagt til i Project Operations april 2021-versjonen.
+
+| **Enhetstilordning** | **Oppdatert versjon** | **Kommentarer** |
+| --- | --- | --- |
+| Faktiske verdier for Project Operations-integrering (msdyn\_actuals) | 1.0.0.14 | Tilordning endret for å synkronisere faktiske data for materielle prosjekter. |
+| Enhet for utgiftsestimater for Project Operations-integrering (msdyn\_estimateslines) | 1.0.0.2 | Lagt til synkronisering av prosjektkontraktlinje i Finance and Operations-apper for oppgavebasert faktureringsstøtte. |
+| Enhet for timesestimater for Project Operations-integrering (msdyn\_resourceassignments) | 1.0.0.5 | Lagt til synkronisering av prosjektkontraktlinje i Finance and Operations-apper for oppgavebasert faktureringsstøtte. |
+| Project Operations-integreingstabell for materialestimater (msdyn\_estimatelines) | 1.0.0.0 | Ny tabelltilordning for å synkronisere materialestimater fra Dataverse til Finance and Operations-apper. |
+| Project Operations-integrering, prosjektleverandør fakturaeksportenhet (msdyn\_projectvendorinvoices) | 1.0.0.0 | Ny tabelltilordning for å synkronisere leverandørfakturahoder fra Finance and Operations-apper til Dataverse. |
+| Project Operations-integrering, prosjektleverandør fakturalinjeeksportenhet (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Ny tabelltilordning for å synkronisere leverandørfakturalinjer fra Finance and Operations-apper til Dataverse. |
+
+Du bør alltid kjøre den nyeste versjonen av tilordningen i miljøet og aktivere alle relaterte tabelltilordninger når du oppdaterer Project Operations Dataverse-løsningen og Finance and Operations-løsningsversjonen. Enkelte funksjoner fungerer kanskje ikke på riktig måte hvis den nyeste versjonen av tilordningen ikke er aktivert. Du kan se den aktive versjonen av tilordningen i **Versjon**-kolonnen på siden **Dobbel skriving**. Du kan aktivere en ny versjon av tilordningen ved å velge **Tabelltilordningsversjoner**, velge den siste versjonen og deretter lagre den valgte versjonen. Hvis du har tilpasset en medfølgende tabelltilordning, må du bruke endringene på nytt. Hvis du vil ha mer informasjon, se [Administrasjon av programlivssyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Hvis du får problemer med å starte tilordningen, følger du instruksjonene i delen [Problem med manglende tabellkolonner i tilordninger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i feilsøkingsveiledning for dobbel skriving.
 
 ## <a name="quality-updates"></a>Kvalitetsoppdateringer
 
@@ -67,7 +85,7 @@ Følgende funksjoner er inkludert i denne versjonen:
 
 | **Funksjonsområdet** | **Referansenummer** | **Kvalitetsoppdatering** |
 | --- | --- | --- |
-| Prosjektstyring og regnskap | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminering av omvendt estimat fungerer ikke i **Periodisk**.  |
+| Prosjektstyring og regnskap | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminering av omvendt estimat fungerer ikke i delen **Periodisk**.  |
 | Prosjektstyring og regnskap | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Funksjonen **Regnskapsjustering** oppretter et problem med finanskontoer der **Ikke tillat manuell oppføring** er valgt. |
 | Prosjektstyring og regnskap | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Lagt til forretningslogikk for å behandle korrigeringsfakturaer inkludert honorarbeløp eller brukt honorarbeløp. |
 | Prosjektstyring og regnskap | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | VIA-salgsverdipostering i konsernintern prosjektfakturering velger en uventet konto. |

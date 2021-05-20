@@ -3,17 +3,17 @@ title: Legg til et Azure-abonnement i et LCS Project
 description: Dette emnet gir informasjon om hvordan du kobler Azure-abonnementet til et LCS-prosjekt.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289921"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880550"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Legg til et Azure-abonnement i et LCS Project
 
@@ -62,7 +62,7 @@ Autorisasjonen er nå fullført.
 3. I feltet **Konfigurer for å bruke Azure Resource Manager** velger du **Ja**.
 4. Kontroller at Azure-abonnementets AAD-leierdomene samsvarer med det domeneeiende Azure-abonnementet du bruker, og velg **Neste**.
 5. På skjermen **Microsoft Azure-oppsett** velger du **Neste** for å bekrefte. Hvis det vises en feil i skjermbildet, må du gå tilbake til delen [Gi Dynamics Deployment Services tilgang til Azure-abonnementet](#provide) i dette emnet og må kontrollere at du har fullført alle trinnene.
-6. Last ned Azure Management-sertifikatet til en lokal mappe på datamaskinen, og last den deretter opp til Azure Management-portalen ved å gå til **Innstillinger** > **Management-sertifikater**. Dette sertifikatet vil gjøre det mulig for LCS å kommunisere med Azure på dine vegne. Du kan hoppe over dette trinnet hvis brukeren har tilgang til abonnementet.
+6. Last ned Azure Management-sertifikatet til en lokal mappe på datamaskinen. Be administrator for Azure-abonnementet ditt om å laste opp sertifikatet til Azure Management-portalen ved å velge abonnementet og gå til **Innstillinger** > **Administrasjonssertifikater**. Dette sertifikatet gjør det mulig for LCS å kommunisere med Azure på dine vegne. Du kan hoppe over dette trinnet hvis brukeren har tilgang til abonnementet.
 7. Velg **Neste**.
 8. Velg Azure-området du skal distribuere i, og velg et datasenter som er nær stedet der du vil bruke dette systemet.
 9.  Velg **Koble til**.

@@ -3,17 +3,17 @@ title: Opprette konserninterne transaksjoner
 description: Dette emnet gir informasjon om hvordan du oppretter konserninterne transaksjoner.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287430"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880460"
 ---
 # <a name="create-intercompany-transactions"></a>Opprette konserninterne transaksjoner
 
@@ -62,7 +62,7 @@ Anna Pilskog, en utvikler som er ansatt i GBPM, fører opp 10 timer med arbeid m
     4. Angi valuta til **USD**.
     5. Lagre oppføringen.
 3. Gå til **Salg** > **Prosjektkontrakter** og opprett en ny prosjektkontrakt for Brusefoss industrier.
-    1. Angi eierfirmaet til **USPM** og kontraktsenheten til **Contoso Robotics US**.
+    1. Sett det eiende selskapet til **USPM** kontraktsenheten til **Contoso Robotics US**.
     2. Velg Brusefoss industrier som kunden.
     3. Velg en produktprisliste, og lagre oppføringen.
     4. På **Kontraktlinjer**-fanen oppretter du en ny kontraktlinje. Angi hvilket som helst navn, og velg **Tid og materialer** som faktureringsmetoden.
@@ -94,7 +94,7 @@ Anna Pilskog, en utvikler som er ansatt i GBPM, fører opp 10 timer med arbeid m
     Dette ufakturerte salget er nå klart for fakturering. Fakturaen for kunden Brusefoss industrier kan bokføres finansielt når det er nødvendig.
 
 10. Logg på som **GBPM**-regnskapsføreren. Åpne Finance-forekomsten av Project Operations, og åpne firmaet **GBPM**. 
-11. Gå til **Prosjektstying og regnskap** > **Periodisk** > **Project Operations på Customer Engagement** > **Importer fra oppsamling**, og kjør den periodiske prosessen for å fylle inn integreringsjournalen for Project Operations.
+11. Gå til **Prosjektstyring og regnskap** > **Periodisk** > **Project Operations-integrering** > **Importer fra oppsamlingstabell**, og kjør den periodiske prosessen for å fylle ut journalen for Project Operations-integrering.
 12. Gå til **Prosjektstyring og regnskap** > **Journaler** > **Integreringsjournal for Project Operations** og gjennomgå linjene. Systemet oppretter følgende linjer.
 
     | **Transaksjonstype** | **Pris** | **Transaksjonsvaluta** | **Beløp** |

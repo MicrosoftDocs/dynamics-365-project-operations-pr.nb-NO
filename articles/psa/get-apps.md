@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284460"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947981"
 ---
 # <a name="get-the-apps-project-service"></a>Skaffe appene (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284460"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Hvis du vil angi tid og utgifter for den mobile enheten, [hent og installer Dynamics 365 for telefoner og nettbrett](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Hvis du vil angi tid og utgifter for den mobile enheten, [hent og installer Dynamics 365 for telefoner og nettbrett](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Du kan også bruke Project Finder Mobile-appen på telefonen til å finne et nytt prosjekt å arbeide på, og søke om det. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Søk etter neste prosjekt med Project Finder Mobile-appen](../psa/find-next-project-finder-mobile-app.md) 
   

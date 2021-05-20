@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287250"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948342"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal for Project Operations-integrering
 
@@ -38,7 +38,7 @@ Systemet grupperer journallinjer i separate journaler basert på verdien som er 
 Journallinjer opprettes basert på faktiske verdier for prosjekter. Følgende liste inneholder noen av de mer viktige standard- og transformasjonsreglene:
 
   - Hver faktiske transaksjon for prosjekter har en linje i journalen for Project Operations-integrasjon. Kostnader og ikke-fakturerte salgstransaksjoner for tid og material-faktureringstype vises på separate linjer.
-  - **Dato**-feltet representerer transaksjonensdatoen. Feltet **Regnskapsdato** representerer datoen da transaksjonen ble registrert i hovedboken. Hvis regnskapsdatoen er i en [lukket økonomisk periode](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), og parameteren **Angi automatisk regnskapsdato i åpen finansperiode** er satt til kategorien **Økonomisk** på siden for **Prosjektstyring og regnskapsparametere**, blir regnskapsdatoen for transaksjonen justert til den første datoen i neste åpne finansperioden.
+  - **Dato**-feltet representerer transaksjonensdatoen. Feltet **Regnskapsdato** representerer datoen da transaksjonen ble registrert i hovedboken. Hvis regnskapsdatoen er i en [lukket økonomisk periode](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), og parameteren **Angi automatisk regnskapsdato i åpen finansperiode** er satt til kategorien **Økonomisk** på siden for **Prosjektstyring og regnskapsparametere**, blir regnskapsdatoen for transaksjonen justert til den første datoen i neste åpne finansperioden.
   - **Bilag**-feltet viser bilagsnummeret for hver faktiske transaksjon. Bilagsnummerserien defineres i kategorien **Nummersekvenser** på siden for **Prosjektstyring og regnskapsparametre**. Hver linje tilordnes et nytt nummer. Når bilaget er postert, kan du vise hvordan transaksjoner for kostnader og ufakturert salg er relatert ved å velge **Relaterte bilag** på siden **Bilagstransaksjon**.
   - Feltet **Kategori** representerer en prosjekttransaksjon og standarder basert på transaksjonskategorien for det relaterte faktiske prosjektverdien.
     - Hvis **Transaksjonskategori** er angitt i den faktiske verdien for prosjektet og det finnes en relatert **Prosjektkategori** i en gitt juridisk enhet, brukes denne prosjektkategorien som standard.
