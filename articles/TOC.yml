@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
+        - name: Mai 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Mars 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -342,7 +344,7 @@
       items:
         - name: Oversikt over tid
           href: time/time-entry-overview.md
-        - name: Opprette tidsoppføringer
+        - name: Opprett tidsoppføringer
           items:
             - name: Brukergrensesnitt for tidsoppføring
               href: time/ui-behavior-time.md
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Konfigurer utgiftskategorier
               href: expense/set-up-expense-categories.md
+            - name: Konfigurer kjørelengde ved å bruke satsnivåer for kjørelengde
+              href: expense/set-up-mileage.md
         - name: Personlige utgifter
           href: expense/personal-expenses-expense-report.md
         - name: Konserninterne utgifter
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
+        - name: Nyheter mai 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nyheter april 2021 – Lite-distribusjon
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Nyheter mars 2021 – Lite-distribusjon
@@ -818,7 +824,7 @@
       items:
         - name: Oversikt over tid
           href: time/time-entry-overview.md
-        - name: Opprette tidsoppføringer
+        - name: Opprett tidsoppføringer
           items:
             - name: Brukergrensesnitt for tidsoppføring
               href: time/ui-behavior-time.md
@@ -1028,6 +1034,8 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 30, V3'
@@ -1260,12 +1268,14 @@
               href: psa/reports-working-project-service-data-model.md
         - name: Tidsoppføringer
           items:
-            - name: Opprette tidsoppføringer
+            - name: Opprett tidsoppføringer
               href: psa/time-entries.md
             - name: Tidsoppføringskalender
               href: psa/time-entry-calendar.md
-            - name: Tilpasse ukentlige tidsoppføringer
+            - name: Tilpass ukentlige tidsoppføringer
               href: psa/time-entry-extensibility-v3.md
+            - name: Godkjenningssett
+              href: psa/approval-set.md
     - name: Vanlige spørsmål og feilsøking (3.x)
       items:
         - name: Hvorfor settes pris som standard til null i faktiske utgiftskostnader?
