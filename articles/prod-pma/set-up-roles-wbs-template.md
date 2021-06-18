@@ -2,11 +2,9 @@
 title: Konfigurere roller i maler for arbeidsnedbrytningsstruktur
 description: Dette emnet gir informasjon om hvordan du konfigurerer rolleinformasjon i maler for arbeidsnedbrytingsstruktur.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ec952021f9da4d83520d29d68d040675f7933df7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288661"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997613"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Konfigurere roller i maler for arbeidsnedbrytningsstruktur
 
