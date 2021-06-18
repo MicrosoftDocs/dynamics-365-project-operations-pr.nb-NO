@@ -2,8 +2,6 @@
 title: Opprette tidsoppføringer
 description: Dette emnet gir informasjon om hvordan du oppretter tidsoppføringer.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8f86f69090e869bf5e6a7505a4cb1ad1c69b475b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bc8e52fef0aa02505e412c746343ce1410c40ac3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282165"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999278"
 ---
 # <a name="create-time-entries"></a>Opprette tidsoppføringer
 

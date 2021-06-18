@@ -2,18 +2,16 @@
 title: Konfigurere og bruke konfigurasjonsdata i Common Data Service
 description: Dette emnet gir informasjon om hvordan du konfigurerer og bruker konfigurasjonsdata i Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289831"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001303"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurere og bruke konfigurasjonsdata i Common Data Service 
 
@@ -23,7 +21,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 ## <a name="prerequisites"></a>Forutsetninger
 
-Før du begynner å konfigurere data i Common Data Service (CDS), må følgende forhåndskrav være oppfylt:
+Før du begynner å konfigurere data i Common Data Service (CDS), må følgende forhåndskrav oppfylles:
 
 1.  Klargjør et CDS-miljø og et Dynamics 365 Finance-miljø for Project Operations.
 2.  Informasjon om juridisk enhet fra Dynamics 365 Finance deles til CDS-miljøet. Dette betyr at **Firma**-enheten i CDS har følgende firmaoppføringer:
@@ -33,7 +31,7 @@ Før du begynner å konfigurere data i Common Data Service (CDS), må følgende 
 
 ## <a name="install-setup-and-configuration-data"></a>Installer oppsett og konfigurasjonsdata
 
-1. Last ned, fjern blokkeringen og pakk ut [pakken med installasjons- og konfigurasjonsdata](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Last ned, fjern blokkeringen og pakk ut [pakken med installasjons- og konfigurasjonsdata](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Naviger til den utpakkede mappen, og kjør den kjørbare filen *DataMigrationUtility*.
 3. På side 1 i Common Data Service-veiviseren for konfigurasjonsoverføring (CMT) velger du **Importer data** og deretter **Fortsett**.
 
@@ -57,13 +55,20 @@ Før du begynner å konfigurere data i Common Data Service (CDS), må følgende 
 ![Importdata](./media/5ImportData.png)
 
 10. Importen kjører i omtrent 2 til 10 minutter, avhengig av nettverkshastigheten. Når importen er fullført, avslutter du CMT-veiviseren. 
-11. Kontroller organisasjonen for data i følgende 19 enheter:
+11. Kontroller organisasjonen for data i følgende 26 enheter:
 
   - Valuta
+  - Plan over kontoer
+  - Regnskapskalender
+  - Valutakurstyper
+  - Betalingsdag
+  - Betalingsplan
+  - Betalingsbetingelse
   - Organisasjonsenhet
   - Kontakt
   - Avgiftsgruppe
   - Kundegruppe
+  - Leverandørgruppe
   - Enhet
   - Enhetsgruppe
   - Prisliste

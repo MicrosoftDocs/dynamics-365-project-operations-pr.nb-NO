@@ -2,11 +2,9 @@
 title: Definer prosjektkalendere
 description: Dette emnet gir informasjon om hvordan du bruker en kalendermal på et prosjekt til å følge opp prosjektplanen.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981312"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999008"
 ---
 # <a name="define-project-calendars"></a>Definer prosjektkalendere
 
@@ -48,7 +46,7 @@ Hvis du vil opprette en kalendermal for organisasjonen, er det to viktige krav:
 
 1. Gå til **Ressurser** \> **Ressurser**.
 2. Opprett en ny ressurs som skal refereres til i kalendermalen, eller velg en eksisterende ressurs.
-3. Velg kategorien **Arbeidstimer** for ressursen, og fullfør instruksjonene i [Angi arbeidstimer for en ressurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) for å konfigurere kalenderreglene.
+3. Velg kategorien **Arbeidstimer** for ressursen, og fullfør instruksjonene i [Angi arbeidstimer for en ressurs](/dynamics365/field-service/set-work-hours-resource.md) for å konfigurere kalenderreglene.
 
 **Opprett en ny kalendermal**
 
