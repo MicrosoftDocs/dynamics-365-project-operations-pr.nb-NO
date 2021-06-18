@@ -2,18 +2,16 @@
 title: Konfigurere parametere for utgiftshåndtering
 description: Dette emnet beskriver parameterne som kontrollerer den generelle virkemåten i utgiftshåndtering.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 93cb95ffc0348a1ad1905fbf308477d18e589185
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1e1181467c51384c4de7dcda2de29ed531360a0a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276675"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995453"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurere parametere for utgiftshåndtering
 

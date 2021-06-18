@@ -2,11 +2,9 @@
 title: MVA-gjenoppretting
 description: Dette emnet forklarer hvordan du tilbakebetaler refusjoner for mva-transaksjoner.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271939"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993608"
 ---
 # <a name="vat-recovery"></a>MVA-gjenoppretting 
 
@@ -41,25 +39,25 @@ Når forhåndskravene er oppfylt, må de ansatte følge trinnene nedenfor for å
 4. Send data om VAT-fradrag til tredjepartsleverandøren for å søke om internasjonale fradragsreturer.
 5. Behandle utgifter for innenlands mva-fradrag.
 
-Avsnittene nedenfor inneholder eksempler som viser hvordan Contosos ansatte utfører hvert trinn.
+Avsnittene nedenfor inneholder eksempler som viser hvordan Contoso-ansatte fullfører hvert trinn.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>I en reiseregning angir du avgiftsinformasjon om kredittkorttransaksjoner for å identifisere kvalifiserte mva-refusjoner.
 
-Gjertrud, en selger hos Ekeli som er basert i Norge, kom nylig tilbake fra en salgsreise til Storbritannia. I løpet av turen påløpte det noen personlige kredittkortutgifter for måltider for Gjertrud. Gjertrud må nå opprette en reiseregning for å avstemme utgiftene.
+Gjertrud, en Contoso-salgsrepresentant som er basert i USA, returnerte nylig fra en salgsreise til Storbritannia. I løpet av turen påløpte det noen personlige kredittkortutgifter for måltider for Gjertrud. Gjertrud må nå opprette en reiseregning for å avstemme utgiftene.
 
 Når Gjertrud angir informasjon i reiseregningen, velger hun **Storbritannia** i feltet **Land/område** på siden **Rediger reiseregning**. Listen over mva-grupper filtreres, slik at den bare viser gruppene som gjelder for Storbritannia. Gjertrud velger mva-gruppen **Storbritannia 001** og velger deretter mva-gruppen **Måltider**. Deretter legger hun til en ny transaksjon for overnattingen. Fordi det bare er én mva-gruppe og én mva-gruppe for varesalg for overnatting i Storbritannia, fylles denne informasjonen automatisk ut i Gjertruds reiseregning.
 
-I henhold til Ekelis retningslinjer må alle utgifter ha en samsvarende kvittering. Når Gjertrud lagrer reiseregningen, mottar hun derfor en melding om at hun må legge ved en kvittering for hver transaksjon som hun har oppført i reiseregningen. Gjertrud bekrefter at hun har lagt ved et digitalt bilde av hver transaksjonskvittering i reiseregningen, og sender deretter rapporten til godkjenning. Deretter sender hun papirkvitteringene til behandlingsavdelingen på kontoret. Denne avdelingen sender dataene om mva-fradrag til tredjepartsleverandøren, som er arkiverer internasjonale mva-fradragsreturer for Ekeli.
+Alle utgifter må ha en samsvarende kvittering per Contoso-policy. Når Gjertrud lagrer reiseregningen, mottar hun derfor en melding om at hun må legge ved en kvittering for hver transaksjon som hun har oppført i reiseregningen. Gjertrud bekrefter at hun har lagt ved et digitalt bilde av hver transaksjonskvittering i reiseregningen, og sender deretter rapporten til godkjenning. Deretter sender hun papirkvitteringene til behandlingsavdelingen på kontoret. Dette teamet sender dataene for mva-gjenoppretting til tredjepartsleverandøren som arkiverer internasjonale mva-gjenopprettingsreturer for Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Kontroller at all avgiftsinformasjon er utfylt, og bokfør deretter reiseregningen.
 
-Anne, koordinatoren for leverandørgjeld hos Ekelik, må angi eventuell avgiftsinformasjon som mangler i en reiseregning, før den kan bokføres. Hun åpner siden **Detaljer for reiseregning** og ser Gjertruds godkjente reiseregning. Anne åpner deretter reiseregningen for å vise detaljer om transaksjonene. Hun ser at Gjertrud ikke har angitt en mva-gruppe for en vare for én av transaksjonene. I og med at denne informasjonen ikke er oppgitt, kan ikke Anne postere reiseregningen. Anne ser derfor på siden **Avgiftskonfigurasjoner** i Utgiftshåndtering og finner riktig mva-gruppe for varen for landet/området og transaksjons typen. Anne kan nå postere reiseregningen til hovedboken.
+I april må koordinatoren for leverandørgjeld for Contoso angi eventuell avgiftsinformasjon som mangler i en utgiftsrapport, før rapporten kan legges ut. Hun åpner siden **Detaljer for reiseregning** og ser Gjertruds godkjente reiseregning. Anne åpner deretter reiseregningen for å vise detaljer om transaksjonene. Hun ser at Gjertrud ikke har angitt en mva-gruppe for en vare for én av transaksjonene. I og med at denne informasjonen ikke er oppgitt, kan ikke Anne postere reiseregningen. Anne ser derfor på siden **Avgiftskonfigurasjoner** i Utgiftshåndtering og finner riktig mva-gruppe for varen for landet/området og transaksjons typen. Anne kan nå postere reiseregningen til hovedboken.
 
 Når Anne posterer reiseregningen, opprettes det et arbeidselement som er mva-fradragsberettiget. Dette arbeidselementet tilordnes til et medlem i behandlingsavdelingen på kontoret. Anne mottar en melding som bekrefter at bokføringen var vellykket. Denne meldingen viser også antall mva-transaksjoner som ble identifisert for fradrag.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Behandle utgifter som er berettiget til internasjonalt mva-fradrag
 
-Arne, som er medlem av behandlingsavdelingen på Ekelils kontorer, er ansvarlig for å bekrefte at all nødvendig informasjon for mva-fradrag er inkludert i reiseregninger. Han åpner siden **Avgiftsfradrag for utgifter** og velger reiseregningen som Gjertrud har sendt. Arne kontrollerer at alle nødvendige kvitteringer er vedlagt, og at riktig mva-gruppe og mva-koder for varen er angitt.
+Arne, som er medlem av back office-behandlingsteamet hos Contoso, er ansvarlig for å bekrefte at all nødvendig informasjon om gjenfinning av merverdiavgift er inkludert i utgiftsrapporter. Han åpner siden **Avgiftsfradrag for utgifter** og velger reiseregningen som Gjertrud har sendt. Arne kontrollerer at alle nødvendige kvitteringer er vedlagt, og at riktig mva-gruppe og mva-koder for varen er angitt.
 
 Når Arne mottar papirkvitteringer fra Gjertrud, verifiserer han dem mot de digitale kvitteringene og endrer deretter statusen for reiseregningen til **Klar til fradrag**.
 

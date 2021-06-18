@@ -2,19 +2,17 @@
 title: Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer
 description: Dette emnet forklarer hvordan du aktiverer ikkee lagerførte materialer og ventende leverandørfakturaer.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880671"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993923"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer
 
@@ -61,11 +59,11 @@ Hvis du bruker standard demonstrasjonsdata, kan det også hende du må stoppe og
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktiver arbeidsflyt for å opprette forretningsforbindelser basert på leverandørenhet
 
-Ordningsløsningen for dobbel skriving gir [hovedintegrering av leverandører](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Som en forutsetning for denne funksjonen må leverandørdata opprettes i **Forretningsforbindelser**-enheten. Aktiver en arbeidsflytprosess for maler for å opprette leverandører i tabellen **Forretningsforbindelser**, som beskrevet i [Veksle mellom leverandørutforminger](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Ordningsløsningen for dobbel skriving gir [hovedintegrering av leverandører](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Som en forutsetning for denne funksjonen må leverandørdata opprettes i **Forretningsforbindelser**-enheten. Aktiver en arbeidsflytprosess for maler for å opprette leverandører i tabellen **Forretningsforbindelser**, som beskrevet i [Veksle mellom leverandørutforminger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Angi at produkter skal opprettes som aktive
 
-Ikke-lagerført materiell må konfigureres som **Frigitte produkter** i Økonomi. Ordningsløsningen for dobbel skriving gir en standard [frigitt produktintegrering i Dataverse-produktkatalogen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Produkter fra Økonomi synkroniseres som standard til Dataverse i utkasttilstand. Hvis du vil synkronisere produktet til en aktiv tilstand, slik at det kan brukes direkte i materielle bruksdokumenter eller ventende leverandørfakturaer, går du til **System** > **Administrasjon** > **Systemadministrasjon** > **Systeminnstillinger**, og i **Salgs**-kategorien setter du deretter **Opprett produkter i aktiv tilstand** til **Ja**.
+Ikke-lagerført materiell må konfigureres som **Frigitte produkter** i Økonomi. Ordningsløsningen for dobbel skriving gir en standard [frigitt produktintegrering i Dataverse-produktkatalogen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Produkter fra Økonomi synkroniseres som standard til Dataverse i utkasttilstand. Hvis du vil synkronisere produktet til en aktiv tilstand, slik at det kan brukes direkte i materielle bruksdokumenter eller ventende leverandørfakturaer, går du til **System** > **Administrasjon** > **Systemadministrasjon** > **Systeminnstillinger**, og i **Salgs**-kategorien setter du deretter **Opprett produkter i aktiv tilstand** til **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurere krav i Økonomi
 

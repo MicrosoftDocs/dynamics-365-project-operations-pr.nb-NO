@@ -2,8 +2,6 @@
 title: Administratorhåndbok
 description: Trinnvise instruksjoner for Project Service-administrasjon
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b51c484aff032a52a0f0b4986588d95cb58653b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8954964ee5503d338620221c24867d136dd8f217
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285315"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992720"
 ---
 # <a name="administrator-guide-project-service"></a>Administratorveiledning (Project Service)
 

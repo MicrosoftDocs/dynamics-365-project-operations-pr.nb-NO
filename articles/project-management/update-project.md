@@ -2,18 +2,16 @@
 title: Oppdatere et prosjekt
 description: Dette emnet gir informasjon om oppdatering av prosjekter i Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27444b072bdf7de55d6b38c30c1ea5fe66ed46ac
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286395"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993383"
 ---
 # <a name="update-a-project"></a>Oppdatere et prosjekt
 

@@ -2,8 +2,6 @@
 title: Hvorfor settes pris som standard til null i faktiske utgiftskostnader?
 description: Feilsøke hvorfor en pris settes som standard til 0 i faktiske utgiftskostnader.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/22/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 742b0b9c495b4b3ecb4705be3ece5656f0322ca9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 03c958635dec66b0f243872dfb929eba6a20119b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285860"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992798"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-cost-actuals"></a>Hvorfor settes pris som standard til null i faktiske utgiftskostnader
 

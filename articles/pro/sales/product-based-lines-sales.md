@@ -2,19 +2,17 @@
 title: Produktbaserte salgsmulighetslinjer – Lite
 description: Dette emnet gir informasjon om produktbaserte salgsmulighetslinjeelementer i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f7dfabd068e180c7122ede0f79aaebfe220250a1
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7865da682ae607f017bf59ce1ae1addc9fefa60b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949556"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994508"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Produktbaserte salgsmulighetslinjer – Lite
 
