@@ -2,18 +2,16 @@
 title: Kopiere et prosjekt
 description: Denne emnet gir informasjon om kopiering av prosjekter i Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
+ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479531"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6091266"
 ---
 # <a name="copy-a-project"></a>Kopier et prosjekt
 
@@ -21,11 +19,12 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Med Dynamics 365 Project Operations kan du raskt bygge nye prosjekter ved å velge **Kopier prosjekt** i **Prosjekter**-skjemaet. Hvis du vil kopiere et prosjekt, åpner du prosjektet du vil kopiere, og deretter velger du **Kopier prosjekt**. Handlingen kopierer følgende:
 
-- Prosjektegenskaper (Beregnet startdato kopieres fra kildeprosjektet)
-- Arbeidsnedbrytningsstrukturen
+- Prosjektegenskaper 
+- Arbeidsnedbrytningsstruktur
 - Prosjektteammedlemmer
 - Prosjektestimater
 - Prosjektets utgiftsestimater
+- Prosjektmaterialestimater
 
 ## <a name="project-properties"></a>Prosjektegenskaper
 
@@ -42,11 +41,15 @@ Når prosjektet kopieres, blir verdiene i følgende felt kopiert:
 - Generell prosjektstatus
 - Kommentarer
 - Estimater
-- Beregnet startdato
-- Sluttdato
+- Beregnet startdato: Dette er datoen da prosjektet ble opprettet fra kopien.
+- Beregnet sluttdato: Denne datoen justeres basert på startdatoen for det nye prosjektet som ble gjort fra kopien.
 - Innsats (timer)
 - Estimert arbeidskostnad
 - Estimert utgiftskostnad
+- Estimert materialkostnad
+
+> [!NOTE]
+> Kopieringsprosjektet kjører lenge. Prosjektoppføringer, de relevante attributtene og mange relaterte enheter kopieres også. På grunn av hvor lenge operasjonen har kjørt, låses målprosjektsiden for redigering til kopioperasjonen er fullført.
 
 ## <a name="work-breakdown-structure"></a>Arbeidsnedbrytningsstruktur
 
@@ -58,7 +61,7 @@ Når et prosjektteam kopieres fra kildeprosjektet, kopieres de generelle ressurs
 
 ## <a name="estimates"></a>Estimater
 
-Når prosjektet kopieres, blir både ressurs- og kostnadsestimatlinjer kopiert fra kildeprosjektet. 
+Når prosjektet kopieres, kopieres ressurs-, utgifts- og materialestimatlinjer fra kildeprosjektet. 
 
 Hvis du vil ha informasjon om hvordan du programmatisk får tilgang til Kopier Project, kan du se [Utvikle prosjektmaler med Kopier prosjekt](dev-copy-project.md).
 

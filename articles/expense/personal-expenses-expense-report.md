@@ -2,19 +2,17 @@
 title: Arbeide med personlige utgifter i en utgiftsrapport
 description: Dette emnet inneholder informasjon om hvordan du arbeider med personlige utgifter som påløper for ansatte når de reiser i forretningsformål.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276240"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025696"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Arbeide med personlige utgifter i en utgiftsrapport
 
@@ -28,6 +26,15 @@ Du kan bruke to metoder for å arbeide med personlige utgifter for en ansatt:
   - **Betalt av firma**: Organisasjonen betaler hele regningen for bedriftskredittkortet, og deretter belaster arbeiderens konto for de personlige utgiftene.
 
 Du kan velge metoden organisasjonen bruker, på siden **Parametere for utgiftshåndtering**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Aktiver funksjon for delt utgift når personlig beløpsfelt har verdi definert
+
+Funksjonen **Aktiver funksjon for delt utgift når personlig beløpsfelt har verdi definert**, gjelder bare utgiftsrapporter som er godkjent ved hjelp av en arbeidsflyt på linjenivå. Rapporter godkjennes ved å gå til **Behandle kostnadsrapporter** > **Kostnadsrapporter tilordnet til meg** > **Åpne utgiftsrapport**. 
+
+Hvis du vil aktivere denne funksjonen, går du til **Arbeidsområder** > **Funksjonsbehandling**, velger **Aktiver funksjon for delt utgift når personlig beløpsfelt har verdi definert**, og deretter velger du **Aktiver nå**. 
+
+Når funksjonen er aktivert, genererer utgiftslinjer som bruker denne funksjonaliteten, to linjer når rapporten sendes. To linjer genereres, slik at godkjenneren kan godkjenne hver linje separat.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

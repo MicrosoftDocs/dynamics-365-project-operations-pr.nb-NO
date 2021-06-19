@@ -2,18 +2,16 @@
 title: Planleggingsmoduser
 description: Dette emnet inneholder informasjon om planleggingsmoduser.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981447"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116719"
 ---
 # <a name="scheduling-modes"></a>Planleggingsmoduser
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations gjør det mulig for organisasjoner å definere h
 Det er tre planleggingsmoduser tilgjengelig i Project Operations:
 
   - Fast varighet (dette er standardmodusen)
-  - Fast arbeid
+  - Fast innsats (*Arbeid*)
   - Faste enheter
 
 Verdiene som påvirkes av definisjonen av en bestemt planleggingsmodus, bestemmes av følgende formel:
 
-  Innsats (*Arbeid*) = Varighet x Enheter
+  Innsats = Varighet x enheter
 
 Når du definerer planleggingsmodusen for et prosjekt, angir du en av disse verdiene, som da ikke kan endres. Når du holder denne verdien som en konstant, prioriteres verdien, som varsler at systemet ikke skal endre den når de to andre verdiene endres. Tabellen nedenfor inneholder informasjon om virkningene ved valg av en bestemt modus.
 
