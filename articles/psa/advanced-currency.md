@@ -2,8 +2,6 @@
 title: Scenarioer for flere valutaer (versjon 3.x)
 description: Dette emnet inneholder informasjon om scenarioer med flere valutaer.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291721"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014803"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarioer for flere valutaer
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 har to valutakonsepter:
 - **Transaksjonsvaluta** – valutaen som en transaksjon utføres i. 
 - **Standard valuta** – valutaen for Dynamics 365-forekomsten. Denne valutaen konfigureres når en Dynamics 365-forekomst klargjøres. Dette kan ikke endres.
 
-Ekeli solgte for eksempel 100 T-skjorter til en kunde i Storbritannia for 15 pund (GBP) per stykk. Tabellen nedenfor viser hvordan denne transaksjonen registreres i Ordreprodukt-enheten.
+Contoso solgte for eksempel 100 T-skjorter til en kunde i Storbritannia for 15 pund (GBP) per stykk. Tabellen nedenfor viser hvordan denne transaksjonen registreres i Ordreprodukt-enheten.
 
 | Produkt | Antall | Pris per enhet | Valuta | Beløp | Valutakurs | Grunnpris per enhet| Beløp (st.valuta)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA utvider konseptet med transaksjonsvaluta for kostnaden og salget på følgen
 
 ## <a name="multiple-currency-scenario"></a>Scenario for flere valutaer
 
-Denne delen beskriver et eksempel på et prosjekt som har fått navnet Fabrikam, Japan. Slik er scenarioet satt opp:
+Denne delen beskriver et eksempel på et prosjekt som Contoso leverer for en kunde som har fått navnet Fabrikam, Japan. Slik er scenarioet satt opp:
 
 1. GBP og japanske yen (JPY) er angitt under **Innstillinger** \> **Forretningsbehandling** \> **Valutaer**. 
 2. En kundekonto med navnet **Fabrikam - Japan** er satt opp, og JPY er valgt som valuta for forretningsforbindelsen.
-3. En organisasjonsenhet kalt **Ekeli UK** er konfigurert, og GBP er valgt som valuta.
-4. En prosjektkontrakt opprettes, der **Ekeli UK** er angitt som kontraktsenheten, og **Fabrikam – Japan** er angitt som kunden.
+3. En organisasjonsenhet kalt **Contoso UK** er konfigurert, og GBP er valgt som valuta.
+4. En prosjektkontrakt opprettes, der **Contoso UK** er angitt som kontraktsenheten og **Fabrikam – Japan** er angitt som kunden.
 5. Prosjektkontraktlinjer opprettes basert på faktureringsarrangementer for de forskjellige transaksjonsklassene i prosjektet, for eksempel fakturering av tid kontra fakturering av utgifter.
-6. Det opprettes et prosjekt der **Ekeli UK** er angitt som kontraktsenheten. Dette prosjektet opprettes og tilordnes til prosjektkontraktslinjene.
+6. Det opprettes et prosjekt der **Contoso UK** er angitt som kontraktsenheten. Dette prosjektet opprettes og tilordnes til prosjektkontraktslinjene.
 
 
 Under forhåndsberegning som bruker tilbudslinjedetaljene, detaljene for prosjektkontraktslinjen eller på estimatlinjen for tidsplanen, opprettes det alltid to oppføringer i enheten. Den ene oppføringen gjelder kostnad, og den andre oppføringen er for salg.
