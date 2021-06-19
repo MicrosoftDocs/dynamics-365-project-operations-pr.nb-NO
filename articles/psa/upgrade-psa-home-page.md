@@ -1,9 +1,7 @@
 ---
 title: Startsiden for oppgradering
 description: Dette emnet viser hvor du finner viktig informasjon om nye og endrede funksjoner i Dynamics 365 Project Service Automation, og prosessen med å oppgradere til nyeste versjon.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 838eecb1229ea20106c7d5487dc37a81e8df501b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a2e17fbdfb71eb62053236bf6c8a3d1aedf332df
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281715"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012373"
 ---
 # <a name="upgrade-home-page"></a>Startsiden for oppgradering
 

@@ -2,8 +2,6 @@
 title: Hvorfor settes pris som standard til null i faktisk tidssalg?
 description: Feilsøke hvorfor en pris settes som standard til 0 i faktisk tidssalg.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cfb359b4ebd7c1a7a70ffdc2c47cf6291c797566
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e32b4c8113afdc18d9b220b1a8daf5007be93ac8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285765"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011653"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Hvorfor settes pris som standard til null i faktisk tidssalg?
 
