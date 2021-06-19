@@ -2,11 +2,9 @@
 title: Konfigurere egendefinerte felt som prisdimensjoner
 description: Dette emnet gir informasjon om hvordan du konfigurerer prisdimensjoner ved hjelp av egendefinerte felt.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274875"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004723"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurere egendefinerte felt som prisdimensjoner
 
@@ -75,12 +73,12 @@ Det finnes to typer prisdimensjoner:
   
 | Rolle        | Organisasjonsenhet    |Arbeidssted      |Standardtittel      |Arbeidstid for ressurs      |  Påslag|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Ekeli India|På stedet            |                    |Overtid                 |15     |
-|             | Ekeli India|Lokal             |                    |Overtid                 |10     |
-|             | Contoso US   |Lokal             |                    |Overtid                 |20     |
+|             | Contoso India|På stedet            |                    |Overtid                 |15     |
+|             | Contoso India|Lokal             |                    |Overtid                 |10     |
+|             | Contoso – USA   |Lokal             |                    |Overtid                 |20     |
 
 
-Hvis en ressurs fra Ekeli India som har en basispris på 100 USD, arbeider på stedet, og de registrerer 8 timer normal tid og 2 timer overtid i tidsoppføringen, vil prismotoren bruke basisprisen på 100 for de 8 timene for å registrere 800 USD. For de 2 timene overtid brukes et påslag på 15 % på basisprisen på100 for å få en enhetspris på 115 USD, og det registreres en total kostnad på 230 USD.
+Hvis en ressurs fra Contoso India som har en basispris på 100 USD, arbeider på stedet, og de registrerer 8 timer normal tid og 2 timer overtid i tidsoppføringen, vil prismotoren bruke basisprisen på 100 for de 8 timene for å registrere 800 USD. For de 2 timene overtid brukes et påslag på 15 % på basisprisen på100 for å få en enhetspris på 115 USD, og det registreres en total kostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gjelder kostnad 
 Hvis det er satt til **Ja**, indikerer det at dimensjonsverdien fra inndatakonteksten skal brukes til å samsvare **Rollepris** og **Rolleprispåslag** ved henting av kostnads- og påslagsrater.

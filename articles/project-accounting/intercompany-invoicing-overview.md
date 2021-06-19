@@ -2,18 +2,16 @@
 title: Oversikt over konsernintern fakturering
 description: Dette emnet gir informasjon og eksempler på konsernintern fakturering for prosjekter.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287340"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002653"
 ---
 # <a name="intercompany-invoicing-overview"></a>Oversikt over konsernintern fakturering
 
@@ -21,7 +19,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Det kan hende at organisasjonen har flere divisjoner, datterselskaper og andre juridiske enheter som overfører produkter og servicer til hverandre for prosjekter. Den juridiske enheten som tilbyr servicen eller produktet, kalles den *juridiske enheten som låner ut*. Den juridiske enheten som mottar servicen eller produktet, kalles den *juridiske enheten som låner*.
 
-Illustrasjonen nedenfor viser et typisk scenario der to juridiske enheter, Contoso Robotics USA (den juridiske enheten som låner) og Contoso Robotics UK (den juridiske enheten som låner ut) deler ressurser for å levere et prosjekt for kunden, Brusefoss industrier. I dette scenarioet er Contoso Robotics USA kontraktert for å levere arbeidet til Brusefoss industrier.
+Illustrasjonen nedenfor viser et typisk scenario der to juridiske enheter, Contoso Robotics USA (den juridiske enheten som låner) og Contoso Robotics UK (den juridiske enheten som låner ut), deler ressurser for å levere et prosjekt for kunden, Adventure works. I dette scenariet skal Contoso Robotics USA, i henhold kontrakten, levere arbeidet til Adventure Works.
 
 ![Konsernintern fakturering](./media/IntercompanyScenario.png) 
 
