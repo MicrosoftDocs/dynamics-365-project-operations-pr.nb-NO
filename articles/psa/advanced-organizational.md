@@ -2,8 +2,6 @@
 title: Organisasjonsenheter
 description: Dette emnet inneholder informasjon om organisasjonsenheter i Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291676"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009628"
 ---
 # <a name="organizational-units"></a>Organisasjonsenheter 
 
@@ -79,14 +77,14 @@ Når du implementerer Dynamics 365, optimaliserer du sikkerhetsgodkjenningen for
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Eksempel på organisasjonsenheter og forretningsenheter
 
-Ekeli, Ltd. har en fremgangsrik Microsoft-teknologipraksis. Noah og Jenny er begge C\#-utviklere, men Jenny er i USA, mens Noah er i India. De fleste prosjektforhandlinger krever ressurser fra Ekeli India og Ekeli US, og Noah og Jenny trenger samme nivå av sikkerhetstilgang til prosjekter i dette øvelsesområdet. Kostnadene til utviklere fra Ekeli India er imidlertid svært forskjellig fra kostnadene til utviklere fra Ekeli USA.
+Contoso, Ltd. har en fremgangsrik Microsoft-teknologipraksis. Noah og Jenny er begge C\#-utviklere, men Jenny er i USA, mens Noah er i India. De fleste prosjektforhandlinger krever ressurser fra Contoso India og Contoso US, og Noah og Jenny trenger samme nivå av sikkerhetstilgang til prosjekter i dette øvelsesområdet. Kostnadene til utviklere fra Contoso India er imidlertid svært forskjellig fra kostnadene til utviklere fra Contoso US.
 
 Her er en optimal måte å utforme for dette scenarioet på ved hjelp av Dynamics 365 og PSA.
 
 1. Opprett Microsoft-teknologipraksisen som en forretningsenhet, og Knytt Noah og Jenny til den. På denne måten bidrar du til å garantere at begge ansatte har samme sikkerhetstilgangsnivå til prosjekter i øvelsesområdet. Begge kan kontrollere fremdrift og rapportere tid, utgifter og aktivitetsoppdateringer. 
 2. Opprett to organisasjonsenheter for å garantere for at kostnaden til prosjektet gjenspeiles på riktig måte. 
-3. Knytt Jenny til Ekeli US og Noah til Ekeli India.
-4. Tilordne aktuelle kostprislister til begge organisasjonsenhetene. På denne måten bidrar du til å sikre at kostnadene som er registrert i prosjektet for Noah og Jenny, nøyaktig gjenspeiler forskjellen i kostnader mellom Ekeli US og Ekeli India.
+3. Knytt Jenny til Contoso US og Noah til Contoso India.
+4. Tilordne aktuelle kostprislister til begge organisasjonsenhetene. På denne måten bidrar du til å sikre at kostnadene som er registrert i prosjektet for Noah og Jenny, nøyaktig gjenspeiler forskjellen i kostnader mellom Contoso US og Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Er organisasjonsenheter relatert til salgsdistrikter i Dynamics 365?
 
@@ -96,11 +94,11 @@ En organisasjonsenhet er en intern gruppe eller divisjon i firmaet som sporer ko
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Eksempel på organisasjonsenheter og salgsdistrikter
 
-Ekeli, Ltd. har to utviklingssentre: Ekeli US og Ekeli India. Ressurskostnader er svært forskjellige fra disse to utviklingssentrene.
+Contoso, Ltd. har to utviklingssentre: Contoso US og Contoso India. Ressurskostnader er svært forskjellige fra disse to utviklingssentrene.
 
-Ekeli selger sine IT-tjenester i mange internasjonale markeder, for eksempel Latin-Amerika, Nord-Amerika, Asia, Vest-Europa og Midtøsten. Kostnadssatser for de samme prosjektrollene kan variere mye på tvers av disse markedene.
+Contoso selger sine IT-tjenester i mange internasjonale markeder, for eksempel Latin-Amerika, Nord-Amerika, Asia, Vest-Europa og Midtøsten. Kostnadssatser for de samme prosjektrollene kan variere mye på tvers av disse markedene.
 
-Ekeli US og Ekeli India bør settes opp som organisasjonsenheter, og hver organisasjonsenhet må ha sin egen kostprisliste. Asia – Stillehavs kysten, Latin-Amerika, Nord-Amerika, Vest-Europa og Midtøsten må være definert som salgsdistrikter, og hvert salgsdistrikt bør ha sin egen salgsprisliste.
+Contoso US og Contoso India bør settes opp som organisasjonsenheter, og hver organisasjonsenhet må ha sin egen kostprisliste. Asia – Stillehavs kysten, Latin-Amerika, Nord-Amerika, Vest-Europa og Midtøsten må være definert som salgsdistrikter, og hvert salgsdistrikt bør ha sin egen salgsprisliste.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Hvorfor er det begrensninger på tilknytningen mellom prislister og organisasjonsenheter? 
 
@@ -124,7 +122,7 @@ Nr. I den nåværende versjonen av PSA er ikke organisasjonsenheter hierarkiske.
 Når du har et komplekst hierarki av kostsentre, divisjoner, fakturakontorer og så videre, konfigurerer du bladnoder i dette hierarkiet som distinkte organisasjonsenheter.
 Følgende eksempel viser et typisk hierarki:
 
-**Ekeli India**
+**ContosoIndia**
 
   - SAP-praksis 
 
@@ -149,14 +147,14 @@ Følgende eksempel viser et typisk hierarki:
     - Funksjonelle konsulenter 
  
 Hvis hierarkiet er likt, må du konfigurere det som en flat liste, som vist her:
-- Ekeli India – SAP-øvelse – tekniske konsulenter 
-- Ekeli India – SAP-øvelse – funksjonelle konsulenter       
-- Ekeli India – Microsoft-teknologiøvelse – funksjonelle konsulenter 
-- Ekeli India – Microsoft-teknologiøvelse – funksjonelle konsulenter 
-- Ekeli US – SAP-øvelse – tekniske konsulenter  
-- Ekeli US – SAP-øvelse – funksjonelle konsulenter  
-- Ekeli US – Microsoft-teknologiøvelse – tekniske konsulenter 
-- Ekeli US – Microsoft-teknologiøvelse – funksjonelle konsulenter
+- Contoso India – SAP-øvelse – tekniske konsulenter 
+- Contoso India – SAP-øvelse – funksjonelle konsulenter       
+- Contoso India – Microsoft-teknologiøvelse – funksjonelle konsulenter 
+- Contoso India – Microsoft-teknologiøvelse – funksjonelle konsulenter 
+- Contoso US – SAP-øvelse – tekniske konsulenter  
+- Contoso US – SAP-øvelse – funksjonelle konsulenter  
+- Contoso US – Microsoft-teknologiøvelse – tekniske konsulenter 
+- Contoso US – Microsoft-teknologiøvelse – funksjonelle konsulenter
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Vi er et lite profesjonelt tjenestefirma som fungerer som bare én divisjon. Hvordan kan vi best bruke organisasjonsenhetskonseptet i den gjeldende versjonen av PSA?
 

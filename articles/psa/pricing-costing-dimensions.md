@@ -2,12 +2,10 @@
 title: Hjemmeside for pris- og kostnadsdimensjoner
 description: Dette emnet gir en oversikt over prisdimensjoner.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284145"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009268"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hjemmeside for pris- og kostnadsdimensjoner
 
@@ -67,16 +65,16 @@ Følgende eksempel viser kostnadssatser som er definert basert på rollen og org
 
 | Rolle        | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvikler   | Contoso US  |Hour | 200|USD     |
-| Utvikler   | Ekeli India |Hour|   112|USD     |
+| Utvikler   | Contoso – USA  |Time | 200|USD     |
+| Utvikler   | Contoso India |Time|   112|USD     |
 
 
 **Eksempel på kostnadssatser**
 
 | Lønnssats     | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt firma_Band1 | Contoso US  |Hour | 145|USD     |
-| Mitt firma_Band2 | Ekeli India |Hour|   67|USD     |
+| Mitt firma_Band1 | Contoso – USA  |Time | 145|USD     |
+| Mitt firma_Band2 | Contoso India |Time|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
