@@ -2,7 +2,7 @@
 title: Ytelse for prosjektfakturaforslag
 description: Dette emnet inneholder informasjon om ytelsesforbedringer av prosjektfakturaforslag.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999503"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269802"
 ---
 # <a name="project-invoice-proposal-performance"></a>Ytelse for prosjektfakturaforslag
 
@@ -44,4 +44,6 @@ Fullfør fremgangsmåten nedenfor for å deaktivere funksjonen for ytelsesforbed
 3.  Oppdater nettleseren din.
 
 > [!NOTE]
-> Ytelse for fakturaforslag kan ikke brukes når faktureringsregler er aktivert eller satsvise prosesser kjører.
+> Ytelse for fakturaforslag kan ikke brukes når faktureringsregler er aktivert.
+> 
+> I løpet av den satsvise prosessen for å opprette fakturaforslag deler antall delaktiviteter oppgavene til et maksimumsantall basert på antall kontrakter med fakturerbare transaksjoner, uavhengig av hva du har angitt. Hvis du for eksempel angir **3** for antall delaktiviteter for oppretting av fakturaforslaget satsvis, og det bare er to kontrakter med fakturerbare transaksjoner, opprettes det bare to delaktiviteter.

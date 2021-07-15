@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73208b06fbd16b354e845855fc2454b167f4c70c
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213367"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334884"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Oppdater utgivelsesplan for Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "6213367"
 
 | Løsning  | Nyeste versjon |
 |-------|----|
-| Project Service Automation    | 3.10.53.108 |
+| Project Service Automation    | 3.10.54.98 |
 | Skrivebordstilleggsprogrammet for Project Service Automation                | 3.15          |
 
 Hvis du vil ha informasjon om oppdateringer for Project Service, kan du gå til [Dynamics 365-utgivelsesplanene](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Hvis du vil ha informasjon om oppdateringer for Project Service, kan du gå til 
 | Stasjon  | Område | Gjeldende versjon | Neste versjon |  Planlagt dato
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stasjon 1</strong> | |  |  | |
-| | <i>Første versjon</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 02. juli 2021
+| | <i>Første versjon</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | 28. juli 2021
 |<strong>Stasjon 2</strong> | |  |  | |
-| | <i>Sør-Amerika</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 09. juli 2021
-| | <i>Canada</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 09. juli 2021
-| | <i>India</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 09. juli 2021
-| | <i>Frankrike</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 09. juli 2021
-| | <i>Forente arabiske emirater</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 09. juli 2021
-| | <i>Sør-Afrika</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 09. juli 2021
-| | <i>Tyskland</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 09. juli 2021
-| | <i>Sveits</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 09. juli 2021
+| | <i>Sør-Amerika</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. juli 2021
+| | <i>Canada</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. juli 2021
+| | <i>India</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. juli 2021
+| | <i>Frankrike</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. juli 2021
+| | <i>Forente arabiske emirater</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. juli 2021
+| | <i>Sør-Afrika</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. juli 2021
+| | <i>Tyskland</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. juli 2021
+| | <i>Sveits</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. juli 2021
 |<strong>Stasjon 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 11. juni 2021
-| | <i>Asia/Stillehavskysten</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 11. juni 2021
-| | <i>Storbritannia</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 11. juni 2021
-| | <i>Oceana</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 11. juni 2021
+| | <i>Japan</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16. juli 2021
+| | <i>Asia/Stillehavskysten</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16. juli 2021
+| | <i>Storbritannia</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16. juli 2021
+| | <i>Oceana</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16. juli 2021
 |<strong>Stasjon 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 18. juni 2021
+| | <i>Europa</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 23. juli 2021
 |<strong>Stasjon 5</strong> | |  |  | |
-| | <i>Nord-Amerika</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 25. juni 2021
+| | <i>Nord-Amerika</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30. juli 2021
 |<strong>Stasjon 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 25. juni 2021
-| | <i>Dedikerte skaleringsgrupper</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 02. juli 2021
+| | <i>Government Community Cloud</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30. juli 2021
+| | <i>Dedikerte skaleringsgrupper</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 06. august 2021
 
 >[!Note]
 > - Datoer i alle områder unntatt Government Community Cloud (GCC) angir tiden for neste automatiske oppdatering. Datoer i GCC angir versjonstilgjengelighet. Det finnes for øyeblikket ingen automatisk oppdatering for disse områdene.
