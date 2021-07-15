@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Distribuer miljøer
           items:
+            - name: Distribuer Project Operations Dataverse-appen manuelt med støtte for dobbel skriving
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Klargjør et nytt miljø
               href: environment/resource-provision-new-environment.md
             - name: Sikkerhetsmodell
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
+        - name: Juli 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Juni 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Mai 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -282,7 +288,7 @@
           items:
             - name: Utvikle prosjektmaler med Kopier prosjekt
               href: project-management/dev-copy-project.md
-            - name: Bruk API-er for tidsplan (offentlig forhåndsversjon)
+            - name: Bruk API-er for prosjektplan (offentlig forhåndsversjon)
               href: project-management/schedule-api-preview.md
     - name: Ressursstyring
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Oversikt over faktureringsprosess
           href: invoicing/post-project-invoices.md
-        - name: Behandle prosjektfakturaforslag
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proformafakturering
           items:
             - name: Administrer prosjektbasert faktureringsrestanse
@@ -456,20 +460,12 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurer prosjektbasert fakturaautomatisering
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Behandle prosjektfakturaforslag
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: Prosjektregnskap
-      items:
-        - name: Standardverdier for finansdimensjon
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Konfigurer prosjektkategorier
-          href: project-accounting/configure-project-categories.md
-        - name: Konfigurere regnskap for interne prosjekter
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Konfigurere regnskap for fakturerbare prosjekter
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: Journal for Project Operations-integrering
-          href: project-accounting/project-operations-integration-journal.md
+        - name: Kundefakturering
+          items:
+            - name: Behandle prosjektfakturaforslag
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Korriger regnskap på utkast av prosjektfakturaforslag
+              href: invoicing/correct-project-invoice-proposals.md
         - name: Konsernintern fakturering
           items:
             - name: Oversikt over konsernintern fakturering
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Opprett konserninterne kunde- og leverandørfakturaer
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Prosjektregnskap
+      items:
+        - name: Standardverdier for finansdimensjon
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Konfigurere prosjektkategorier
+          href: project-accounting/configure-project-categories.md
+        - name: Konfigurere regnskap for interne prosjekter
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Konfigurer regnskap for fakturerbare prosjekter
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: Journal for Project Operations-integrering
+          href: project-accounting/project-operations-integration-journal.md
     - name: Inntektsføring
       items:
         - name: Oversikt over inntektsføring
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
+        - name: Nyheter juli 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Nyheter juni 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Nyheter mai 2021 – Lite-distribusjon
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nyheter april 2021 – Lite-distribusjon
@@ -762,7 +774,7 @@
           items:
             - name: Utvikle prosjektmaler med Kopier prosjekt
               href: project-management/dev-copy-project.md
-            - name: Bruk API-er for tidsplan (offentlig forhåndsversjon)
+            - name: Bruk API-er for prosjektplan (offentlig forhåndsversjon)
               href: project-management/schedule-api-preview.md
     - name: Ressursstyring
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Nyheter
       items:
+        - name: Nyheter juli 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Nyheter mai 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Nyheter april 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nyheter mars 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
@@ -1034,6 +1050,10 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 31, V3'

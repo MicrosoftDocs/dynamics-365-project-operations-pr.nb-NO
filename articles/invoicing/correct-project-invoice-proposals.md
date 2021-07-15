@@ -1,0 +1,42 @@
+---
+title: Korriger regnskapet på utkast av prosjektfakturaforslag
+description: Dette emnet forklarer hvordan du justerer regnskapsrelatert informasjon i et utkast av fakturaforslag.
+author: sigitac
+ms.date: 06/07/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 387dc9a81db9c22f170b664152cbafeddf72d149
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251252"
+---
+# <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a><span data-ttu-id="3af1b-103">Korriger regnskapet på utkast av prosjektfakturaforslag</span><span class="sxs-lookup"><span data-stu-id="3af1b-103">Correct the accounting on draft project invoice proposals</span></span>
+
+<span data-ttu-id="3af1b-104">_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_</span><span class="sxs-lookup"><span data-stu-id="3af1b-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="3af1b-105">*Operasjonsdetaljer* for prosjektfakturaer vedlikeholdes av prosjektlederen på en promafaktura.</span><span class="sxs-lookup"><span data-stu-id="3af1b-105">*Operational details* for project invoices are maintained by the project manager on a pro forma invoice.</span></span> <span data-ttu-id="3af1b-106">Disse detaljene inkluderer avgjørelsen om timene, utgiftene, materiellet eller milepælene som må faktureres, priser og bruk av beløp for forskudd og honorar.</span><span class="sxs-lookup"><span data-stu-id="3af1b-106">These details include the decision about the hours, expenses, materials, or milestones that must be invoiced, the rates, and the application of advance and retainer amounts.</span></span> <span data-ttu-id="3af1b-107">Når du har kontrollert den opprinnelige promafakturaen, kan du justere operasjonsdetaljene ved å opprette og bekrefte en [korrigerende promafaktura](../proforma-invoicing/corrective-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="3af1b-107">After you confirm the original pro forma invoice, you can adjust the operational details by creating and confirming a [corrective pro forma invoice](../proforma-invoicing/corrective-invoices.md).</span></span>
+
+<span data-ttu-id="3af1b-108">*Regnskapsdetaljer* for prosjektfakturaer vedlikeholdes i et kunderettet fakturadokument.</span><span class="sxs-lookup"><span data-stu-id="3af1b-108">*Accounting details* for project invoices are maintained in a customer-facing invoice document.</span></span> <span data-ttu-id="3af1b-109">Disse detaljene inkluderer beregningen av merverdiavgift og finansdimensjonene som brukes på fakturaen.</span><span class="sxs-lookup"><span data-stu-id="3af1b-109">These details include the sales tax calculation and the financial dimensions that are applied to the invoice.</span></span> <span data-ttu-id="3af1b-110">Dette emnet inneholder detaljer om hvordan disse regnskapsdetaljene kan justeres i et utkast til prosjektfakturaforslag.</span><span class="sxs-lookup"><span data-stu-id="3af1b-110">This topic provides details about how these accounting details can be adjusted on a draft project invoice proposal.</span></span>
+
+## <a name="adjust-sales-tax"></a><span data-ttu-id="3af1b-111">Juster merverdiavgift</span><span class="sxs-lookup"><span data-stu-id="3af1b-111">Adjust sales tax</span></span>
+
+<span data-ttu-id="3af1b-112">Standard mva-grupper for fakturering og mva-grupper for varer kan justeres direkte i fakturaforslagsdokumentet.</span><span class="sxs-lookup"><span data-stu-id="3af1b-112">Default billing sales tax groups and item sales tax groups can be adjusted directly on the invoice proposal document.</span></span> <span data-ttu-id="3af1b-113">Hvis du vil justere disse gruppene, velger du **Rediger**, og deretter angir du en ny verdi i feltet **Mva-gruppe** eller **Mva-gruppe for vare** på hver prosjektfakturaforslagslinje.</span><span class="sxs-lookup"><span data-stu-id="3af1b-113">To adjust these groups, select **Edit**, and then, on each project invoice proposal line, enter a new value in the **Sales tax group** or **Item sales tax group** field.</span></span>
+
+## <a name="adjust-financial-dimensions"></a><span data-ttu-id="3af1b-114">Juster finansdimensjoner</span><span class="sxs-lookup"><span data-stu-id="3af1b-114">Adjust financial dimensions</span></span>
+
+<span data-ttu-id="3af1b-115">Finansdimensjoner kan ikke redigeres direkte på en prosjektfakturaforslagslinje.</span><span class="sxs-lookup"><span data-stu-id="3af1b-115">Financial dimensions can't be edited directly on a project invoice proposal line.</span></span> <span data-ttu-id="3af1b-116">Følg i stedet denne fremgangsmåten for å justere finansdimensjoner i et prosjektfakturaforslag.</span><span class="sxs-lookup"><span data-stu-id="3af1b-116">Instead, follow these steps to adjust financial dimensions on a project invoice proposal.</span></span>
+
+1. <span data-ttu-id="3af1b-117">I prosjektfakturaforslaget velger du **Slett alle** for å fjerne prosjektfakturaforslagslinjene.</span><span class="sxs-lookup"><span data-stu-id="3af1b-117">On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="3af1b-118">Knappen **Slett alle** er bare tilgjengelig når systemadministrator aktiverer funksjonen **Slett fakturaforslagslinjer ved bruk av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer** i arbeidsområdet **Funksjonsbehandling**.</span><span class="sxs-lookup"><span data-stu-id="3af1b-118">The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.</span></span>
+
+2. <span data-ttu-id="3af1b-119">Juster finansdimensjonene:</span><span class="sxs-lookup"><span data-stu-id="3af1b-119">Adjust the financial dimensions:</span></span>
+
+    - <span data-ttu-id="3af1b-120">**A konto-transaksjoner (faktureringsmilepæler):** Gå til **Alle prosjekter** \> **Administrer** \> **A konto-transaksjoner**, og velg milepælen som krever justering.</span><span class="sxs-lookup"><span data-stu-id="3af1b-120">**On-account transactions (billing milestones):** Go to **All projects** \> **Manage** \> **On-account transactions**, and select the milestone that requires adjustment.</span></span> <span data-ttu-id="3af1b-121">Oppdater deretter verdiene etter behov i fanen **Finansdimensjoner**.</span><span class="sxs-lookup"><span data-stu-id="3af1b-121">Then, on the **Financial dimensions** tab, update the values as required.</span></span>
+    - <span data-ttu-id="3af1b-122">**Tids-, utgifts- og materialtransaksjoner:** Velg **Juster regnskap** på siden **Posterte prosjekttransaksjoner** for å oppdatere finansdimensjonene.</span><span class="sxs-lookup"><span data-stu-id="3af1b-122">**Time, expense, and material transactions:** On the **Posted project transactions** page, select **Adjust accounting** to update the financial dimensions.</span></span>
+
+3. <span data-ttu-id="3af1b-123">Når du er ferdig med å justere finansdimensjonsverdiene, går du til **Prosjektstyring og regnskap** \> **Periodisk** \> **Project Operations-integrering** og velger **Importer fra oppsamlingstabell** for å kjøre den periodiske prosessen.</span><span class="sxs-lookup"><span data-stu-id="3af1b-123">After you've finished adjusting the financial dimension values, go to **Project management and accounting** \> **Periodic** \> **Project Operations integration**, and select **Import from staging table** to run the periodic process.</span></span> <span data-ttu-id="3af1b-124">Denne prosessen bruker de oppdaterte finansdimensjonsverdiene til å opprette prosjektfakturaforslagslinjene på nytt.</span><span class="sxs-lookup"><span data-stu-id="3af1b-124">That process uses the updated financial dimension values to re-create the project invoice proposal lines.</span></span> <span data-ttu-id="3af1b-125">De oppdaterte verdiene brukes deretter i underhovedboken for prosjektet og hovedboken når prosjektfakturaen posteres.</span><span class="sxs-lookup"><span data-stu-id="3af1b-125">The updated values are then used in the project subledger and general ledger when the project invoice is posted.</span></span>
