@@ -340,7 +340,7 @@
           items:
             - name: Oversikt over ressursavstemming
               href: resource-management/resource-reconciliation-overview.md
-            - name: Administrere tidssoner
+            - name: Administrer tidssoner
               href: resource-management/manage-multiple-time-zones.md
         - name: Ressursutnyttelse
           items:
@@ -826,12 +826,22 @@
           items:
             - name: Oversikt over ressursavstemming
               href: resource-management/resource-reconciliation-overview.md
-            - name: Administrere tidssoner
+            - name: Administrer tidssoner
               href: resource-management/manage-multiple-time-zones.md
         - name: Ressursutnyttelse
           items:
             - name: Oversikt over ressursutnyttelse
               href: resource-management/resource-utilization-overview.md
+    - name: Administrasjon av underkontrakt i Project Operations
+      items:
+        - name: Oversikt over administrasjon av underkontrakter
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Nøkkelkonsepter i underkontrakter
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Administrasjon av leverandører og prosjektprislister
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Underleverandører som ressurser som kan reserveres
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Tid
       items:
         - name: Oversikt over tid
@@ -1050,6 +1060,8 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 32.5, V3'
