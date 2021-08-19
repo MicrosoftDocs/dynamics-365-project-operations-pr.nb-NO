@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011203"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996268"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Bruke en ressurs som kan reserveres som en prisdimensjon
 
@@ -64,18 +64,18 @@ Prisdimensjonsoppføringen for **msydn_bookableresource** må varsles om denne f
 1. Dobbeltklikk på raden i **Prisdimensjoner**-rutenettet for å åpne dimensjonssiden til **msdyn_bookableresource**.
 2. På dimensjonssiden, på **Relatert**-fanen, velger du **Feltnavn for prisdimensjon**.
 
-  ![Kategorien Feltnavn for prisdimensjon](media/PD-fieldname.png)
+  ![Fanen Feltnavn for prisdimensjon.](media/PD-fieldname.png)
 
 3. I den tilknyttede visningen som åpnes, velger du **Legg til nytt feltnavn for prisdimensjon**.
 
-  ![Legge til nye feltnavn for prisdimensjon](media/Add-NewPD-fieldname.png)
+  ![Legge til nye feltnavn for prisdimensjon.](media/Add-NewPD-fieldname.png)
 
   Dette åpner siden **Nytt feltnavn for prisdimensjon** for **msdyn_bookableresource**. 
 
 4. På **Nytt feltnavn for prisdimensjon**-siden legger du **msdyn_projectteam** til **Logisk navn på enhet**.
 5. Legg  **Msdyn_bookableresourceid** til i **Feltnavn**.
 
- ![Skjema for nytt feltnavn for prisdimensjon](media/PD-fieldname-Added.png)
+ ![Skjema for nytt feltnavn for prisdimensjon.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

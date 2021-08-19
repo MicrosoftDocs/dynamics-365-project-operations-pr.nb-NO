@@ -2,7 +2,7 @@
 title: Nyskapte utgiftsrapporter
 description: Denne emne forklarer den nye utformingen og nyskapte opplevelsen for innlegging av utgiftsrapport.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251016"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997843"
 ---
 # <a name="expense-reports-reimagined"></a>Nyskapte utgiftsrapporter
 
@@ -57,12 +57,13 @@ Hvis du vil aktivere den nye opplevelsen, bruker du arbeidsområdet **Funksjonsb
 | Valutakalkulator | En valutakalkulator er lagt til, slik at du kan beregne valutakursen for direkte transaksjoner med flere valutaer. |
 | Lagre og legg til nye utgiftslinjer | Knappene **Lagre** og **Ny** er tilgjengelige når nye utgifter angis, for å hjelpe deg med å angi utgiftslinjer raskt. |
 | Bedre oversikt over delte og spesifiserte linjer | Spesifiserte og delte linjer blir lagt til direkte i listen over utgifter for å øke synligheten og hjelpe deg med å avgjøre om det er noen feil. |
-| Vis detaljer om underkategori på varelinjer | Varelinjer for en overordnet utgift viser underkategorietikettene i utgiftsrapporten, noe som gjør det enklere å se gjennom de detaljerte detaljene med et raskt blikk.|
+| Vis detaljer om underkategori på varelinjer | Spesifiseringslinjer for en overordnet utgift viser underkategorietikettene i utgiftsrapporten. Med spesifisering kan du raskt se gjennom de detaljerte detaljene.|
 | Vis kvitteringer under spesifisering | Kvitteringer kan vises under spesifisering. |
 | Kontantforskuddvalg | Velg ett eller flere forskudd for å utføre én enkelt utgiftstransaksjon. |
 | Kontantforskuddsaldo | Gå gjennom forskuddssaldoen i sanntid når du oppretter en utgiftsoppføring mot godkjente og betalte forskudd. |
 
 Den første lanseringen er fokusert på scenarioer for utgiftsregistrering. Et gjennomgangs- eller godkjenningsscenario av reiseregninger vil fortsette å bruke den eksisterende siden for utgiftsoppføring.
+
 
 Følgende funksjoner støttes ikke i arbeidsområdet Nyskapte utgiftsrapporter, men er planlagt for fremtidige versjoner: 
 
