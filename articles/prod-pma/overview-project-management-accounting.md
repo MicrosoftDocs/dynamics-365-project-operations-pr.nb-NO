@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369703"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007518"
 ---
 # <a name="project-management-and-accounting-overview"></a>Oversikt over prosjektstyring og regnskap
 
@@ -34,14 +34,14 @@ Et prosjekt er en gruppe aktiviteter som er utformet for å gi en tjeneste, prod
 ## <a name="projects-across-industries"></a>Prosjekter på tvers av bransjer
 Funksjonaliteten for prosjektstyring og regnskap kan brukes i flere bransjer, som vist i følgende illustrasjon.
 
-[![Prosjekter på tvers av bransjer](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Prosjekter på tvers av bransjer.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 I et telefonsenter kan en billett brukes til å beskrive settet med handlinger som kreves for å løse en telefonsamtale. Konsulentfirmaer, for eksempel ledelsen eller tekniske konsulentorganisasjoner eller reklamebyråer, refererer til aktivitetene sine som prosjekter. I markedsføring representerer en kampanje et sett med arbeid som må leveres. I prosjektbasert produksjon relaterer en produksjonsordre de ulike arbeidsoppgavene som må utføres for å produsere ferdige varer. Uansett hvilket navn som brukes for dem, omfatter disse prosjektene ressurser, tidsplaner og kostnader, og funksjonaliteten for prosjektledelse og regnskap kan være til hjelp ved planlegging, utførelse og analyse av disse prosjektene.
 
 ## <a name="project-phases"></a>Prosjektfaser
 Selv om følgende prosessflyt er rettet mot eksterne prosjekter, eller et prosjekt som er fullført for én eller flere kunder, gjelder funksjonaliteten også for interne, bare kostad-prosjekter. 
 
-![3 trinn i et prosjekt](./media/3-stages-of-a-project.png) 
+![3 trinn i et prosjekt.](./media/3-stages-of-a-project.png) 
 
 Som vist i illustrasjonen ovenfor, kan prosjektbehandling og regnskap deles opp i tre faser:
 
@@ -50,7 +50,7 @@ Som vist i illustrasjonen ovenfor, kan prosjektbehandling og regnskap deles opp 
 3.  Analyser
 
 ## <a name="initiate-the-project"></a>Starte prosjektet
-Under prosjektinitiering skjer flere nøkkelprosesser. Du kan bruke et prosjekttilbud til å kommunisere beregnet arbeid, utgifter og materiell til kunden. Du kan registrere faktureringsbetingelser, grenser og avtaler i en prosjektkontrakt. Du kan bruke en arbeidsnedbrytningsstruktur (WBS) til å planlegge og estimere arbeidet. Du kan sette opp prognoser og budsjetter for å veilede prosjektets utførelse. Illustrasjonen nedenfor viser strukturen i et prosjekt.[![prosjektstruktur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Under prosjektinitiering skjer flere nøkkelprosesser. Du kan bruke et prosjekttilbud til å kommunisere beregnet arbeid, utgifter og materiell til kunden. Du kan registrere faktureringsbetingelser, grenser og avtaler i en prosjektkontrakt. Du kan bruke en arbeidsnedbrytningsstruktur (WBS) til å planlegge og estimere arbeidet. Du kan sette opp prognoser og budsjetter for å veilede prosjektets utførelse. Illustrasjonen nedenfor viser strukturen i et prosjekt.[![prosjektstruktur.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Opprette prosjekttilbud
 

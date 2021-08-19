@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000583"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006172"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Legge til obligatoriske egendefinerte felt i prisoppsett og transaksjonsenheter
 
@@ -47,7 +47,7 @@ Når en egendefinert prisdimensjon er basert på alternativsett, legger du den t
 > [!IMPORTANT]
 > Når du legger til et felt i mer enn én enhet, bruker du det samme feltnavnet på tvers av alle enhetene. 
 
-> ![Legge til arbeidssted for ressurs i rollepris](media/RWL-Field.png)
+> ![Legge til arbeidssted for ressurs i rollepris.](media/RWL-Field.png)
 
 I salgs- og estimeringsfasene for et prosjekt brukes en beregning av arbeidsinnsatsen som kreves for å utføre **lokalt** arbeid og **arbeid på stedet**, i **vanlige timer** og **overtidstimer** til å beregne verdien for tilbudet/prosjektet. Feltene **Arbeidssted for ressurs** og **Arbeidstimer for ressurs** legges til i estimatenhetene **Tilbudslinjedetalj**, **kontraktlinjedetalj**, **Prosjektteammedlem** og **Estimatlinje**.
 
@@ -59,7 +59,7 @@ I salgs- og estimeringsfasene for et prosjekt brukes en beregning av arbeidsinns
 6. Gjenta trinn 1-5 for å legge til dette feltet i enhetene **Detalj for prosjektkontraktlinjer**, **Prosjektteammedlem** og **Estimatlinje**.
 7. Gjenta trinn 1-6 for alternativsettet **Arbeidstimer for ressurs**. 
 
-> ![Legge til arbeidssted for ressurs i estimatlinje](media/RWL-Default-Value.png)
+> ![Legge til arbeidssted for ressurs i estimatlinje.](media/RWL-Default-Value.png)
 
 For levering og fakturering må fullført arbeid være nøyaktig priset for å kunne velge om det ble utført **lokalt** eller **på stedet**, og om det ble fullført i **normal tid** eller **overtid** for faktiske verdier for prosjektet. Feltene **Arbeidssted for ressurs** og **Arbeidstimer for ressurs** må legges til i enhetene **Tidsoppføring**, **Faktisk verdi**, **Fakturalinjedetalj** og **Journallinje**.
 
@@ -71,7 +71,7 @@ For levering og fakturering må fullført arbeid være nøyaktig priset for å k
 6. Gjenta trinn 1-5 for å legge til dette feltet i enhetene **Faktiske verdier**, **Fakturalinjedetalj** og **Journallinje**.
 7. Gjenta trinn 1-6 for alternativsettet **Arbeidstimer for ressurs**. 
 
-> ![Legge til arbeidssted for ressurs i tidsoppføring](media/RWL-time-entry.png)
+> ![Legge til arbeidssted for ressurs i tidsoppføring.](media/RWL-time-entry.png)
 
 Dette fullfører skjemaendringene som kreves for egendefinerte dimensjoner basert på alternativsett.
 
@@ -84,7 +84,7 @@ Når den egendefinerte prisdimensjonen er en enhet, legger du til 1:N-relasjoner
 3. Utvid enheten **Standardtittel**, og velg **1:N-relasjoner**.
 4. Klikk **Ny** for å opprette en ny 1:N-relasjon kalt for **Standardtittel til bestillbar ressurs**. Angi den nødvendige informasjonen, og klikk deretter **Lagre**.
 
-> ![Legge til standardtittel som et referansefelt for bestillbar ressurs](media/ST-BR.png)
+> ![Legge til standardtittel som et referansefelt for bestillbar ressurs.](media/ST-BR.png)
 
 Standardtittelen må også legges til i prisenhetene **Rollepris** og **Rolleprispåslåg**. Dette utføres også med 1:N-relasjoner mellom enhetene **Standardtittel** og **Rollepris** og enhetene **Standardtittel** og **Rolleprispåslag**.
 
@@ -102,13 +102,13 @@ I salgs- og estimeringsfasene for prosjektet, for å prise tilbudet/prosjektet, 
 
 5. Gjenta trinn 1-5 for å opprette 1:N-rlasjoner fra **Standardtittel** til **Tilbudslinjedetalj**, **Detalj for prosjektkontraktlinjer**, **Prosjektteammedlem** og **Estimatlinje**.
 
-> ![Legge til standardtittel som et referansefelt for estimatlinje](media/ST-Estimate-Line.png)
+> ![Legge til standardtittel som et referansefelt for estimatlinje.](media/ST-Estimate-Line.png)
 
   I leverings- og faktureringsfasene må arbeidet som er fullført i hver standardtittel, være nøyaktig priset i de faktiske verdiene for prosjektet. Dette betyr at det må være 1:N-relasjoner fra enhetene **Standardtittel** til **Tidsoppføring**, **Faktisk verdi**, **Fakturalinjedetalj** og **Journallinje**.
 
 6. Gjenta trinn 1-6 for å opprette 1:N-relasjoner fra enhetene **Standardtittel** til **Tidsoppføring**, **Faktisk verdi**, **Fakturalinjedetalj** og **Journallinje**.
 
-> ![Legge til standardtittel som et referansefelt for tidsoppføring](media/ST-Mapping.png)
+> ![Legge til standardtittel som et referansefelt for tidsoppføring.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Konfigurere standard dimensjonsverdi ved hjelp av tilordningsfunksjonene på plattformen
 For tidsoppføringer kan det være nyttig å få systemet til å standardisere standardtittelen på tidsoppføringen fra den bestillbare ressursen som registrerer tidsoppføringen. Bruk fremgangsmåten nedenfor for å legge til felttilordninger i 1:N-relasjonen fra **Bestillbar ressurs** til **Tidsoppføring**.
@@ -118,7 +118,7 @@ For tidsoppføringer kan det være nyttig å få systemet til å standardisere s
 3. Dobbeltklikk **Bestillbar ressurs til tidsoppføring**. På **Relasjon**-siden klikker du **Bruk felttilordninger**. 
 4. Klikk **Ny** for å opprette en ny felttilordning mellom feltet **Standardtittel** i enheten **Bestillbar ressurs** til referansefeltet **Standardtittel** i **Tidsoppføring**-enheten. 
 
-> ![Definer felttilordninger for å tillate standardisering av standardtittel fra bestillbar ressurser til tidsoppføring](media/ST-Mapping2.png)
+> ![Definer felttilordninger for å tillate standardisering av standardtittel fra bestillbar ressurser til tidsoppføring.](media/ST-Mapping2.png)
 
 Dette fullfører skjemaendringene som kreves for egendefinerte dimensjoner basert på enheter.
 

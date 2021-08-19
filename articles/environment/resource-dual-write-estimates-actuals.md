@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000043"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006303"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integrering av prosjektestimater og faktiske verdier
 
@@ -30,7 +30,7 @@ Oppretting av estimater krever en gyldig regnskapskonfigurasjon for prosjektet. 
 
 Arbeidestimater opprettes av prosjektlederen eller ressurslederen som også tilordner en generell eller navngitt ressurs til prosjektoppgaven. Du kan se gjennom ressurstilordningsoppføringer i kategorien **Ressurstilordninger** på **Prosjektdetaljer**-siden i Dataverse. Ressurstilordningsoppføringer i Dataverse oppretter timeprognoseoppføringer i Finance and Operations-apper ved hjelp av **Project Operations-integreringsenheten for timeestimater (msdyn\_resourceassignments)**.
 
-   ![Integrering av arbeidsestimater](./Media/DW4LaborEstimates.png)
+   ![Integrering av arbeidsestimater.](./Media/DW4LaborEstimates.png)
 
 Dobbeltskriving synkroniserer ressurstilordningsoppføringer til oppsamlingstabellen (**ProjCDSEstimateHoursImport**), og bruker deretter forretningslogikk til å opprette og oppdatere timeprognoseoppføringer (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Prosjektregnskapsføreren ser gjennom prognosetidsoppføringer som er opprettet 
 
 Kostnadsestimater opprettes av prosjektlederen i kategorien **Kostnadsestimater** på **Prosjektdetaljer**-siden i Dataverse. Oppføringer for kostnadsestimater lagres i enheten **Estimatlinje** i Dataverse. Disse estimatoppføringene har transaksjonsklasse, **Utgift** og synkroniseres til utgiftsprognoseoppføringer i Finance and Operations-apper ved hjelp av **Project Operations-integrasjonsenheten for utgiftsestimater (msdyn\_estimatelines)**.
 
-   ![Integrering av utgiftsestimater](./Media/DW4ExpenseEstimates.png)
+   ![Integrering av utgiftsestimater.](./Media/DW4ExpenseEstimates.png)
 
 Dobbeltskriving synkroniserer utgiftsestimatsoppføringer til oppsamlingstabellen **ProjCDSEstimateExpenseImport)**, og bruker deretter forretningslogikk til å opprette og oppdatere utgiftsprognoseoppføringer (**ProjForecastCost**). Estimatlinjer lagrer oppføringer for salgsestimater og kostnadsestimater separat. Forretningslogikken i Finance and Operations-apper fyller ut én enkelt utgiftsprognoseoppføring ved hjelp av denne detaljen i oppsamlingstabellen.
 
@@ -50,7 +50,7 @@ Prosjektregnskapsføreren kan se gjennom utgiftsprognoseoppføringer i Finance a
 
 Materialestimater opprettes av prosjektlederen i kategorien **Materialestimater** på **Prosjektdetaljer**-siden i Dataverse. Oppføringer for materialestimater lagres i enheten **Estimatlinje** i Dataverse. Disse estimatoppføringene har transaksjonsklassen **Material** og synkroniseres til vareprognoseoppføringer i Finance and Operations-apper ved hjelp av **Project Operations-integrasjonstabellen for materialestimater (msdyn\_estimatelines)**.
 
-   ![Integrering av materialestimater](./Media/DW4MaterialEstimates.png)
+   ![Integrering av materialestimater.](./Media/DW4MaterialEstimates.png)
 
 Dobbeltskriving synkroniserer materialestimatsoppføringer til oppsamlingstabellen **ProjForecastSalesImpor**, og bruker deretter forretningslogikk til å opprette og oppdatere vareprognoseoppføringer (**ForecastSales**). Estimatlinjer lagrer oppføringer for salgsestimater og kostnadsestimater separat. Forretningslogikken i Finance and Operations-apper fyller ut én enkelt vareprognoseoppføring ved hjelp av denne detaljen i oppsamlingstabellen.
 
@@ -60,7 +60,7 @@ Prosjektregnskapsføreren kan se gjennom vareprognoseoppføringer i Finance and 
 
 Faktiske prosjekter opprettes i Dataverse, basert på tid, utgifter, materiell og faktureringsaktivitet. Alle driftsattributter for disse transaksjonene, inkludert antall, kostnadspris, salgspris og prosjekt, registreres i denne Dataverse-enheten. Du finner mer informasjon i [Faktiske verdier](../actuals/actuals-overview.md). Faktiske oppføringer synkroniseres til Finance and Operations-apper ved hjelp av tabelltilordningen for dobbeltskriving **Faktiske verdier for Project Operations-integrering (msdyn\_actuals)** for nedstrømsregnskap.
 
-   ![Integrering av faktiske verdier](./Media/DW4Actuals.png)
+   ![Integrering av faktiske verdier.](./Media/DW4Actuals.png)
 
 Tabelltilordningen for **faktiske verdier for Project Operations-integrering** synkroniserer alle oppføringene fra **Faktiske verdier**-enheten i Dataverse, med attributtet **Hopp over synkronisering (bare internt bruk)** satt til **Usann**. Denne attributtverdien angis automatisk i Dataverse når oppføringen opprettes. Eksempler der dette attributtet er satt til **Sann**, er:
 

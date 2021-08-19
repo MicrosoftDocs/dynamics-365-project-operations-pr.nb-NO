@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008548"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006978"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Se gjennom restansen for fakturering for prosjekter og prosjektkontrakter
 
@@ -40,7 +40,7 @@ Ufakturerte faktiske verdier for salg representerer faktureringsrestansen, og fa
 
 Hvis du vil se gjennom faktureringsrestansen for tid og materialer, går du til **Salg** \> **Fakturering** \> **Faktureringsrestanse for Tid og materiale**. Velg alle ufakturerte faktiske verdier for salg som er klare for fakturering, og velg deretter **Klar for fakturering**. Faktureringsstatusen for disse faktiske verdiene endres til **Klar for fakturering**.
 
-![Faktureringsrestanse for Tid og materiale](media/TMBacklog.png)
+![Faktureringsrestanse for Tid og materiale.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Se gjennom faktureringsrestanse for produkt
 
@@ -48,7 +48,7 @@ Når en prosjektkontrakt i PSA har produktbaserte kontraktlinjer, vurderes disse
 
 Hvis du vil se gjennom faktureringsresistansen for produkter, går du til **Salg** \> **Fakturering** \> **Faktureringsrestanse for produkt**. Merk av for alle de produktbaserte kontraktlinjene som er klare til fakturering, og velg deretter **Klar for fakturering**. Faktureringsstatusen for disse linjene endres til **Klar for fakturering**.
 
-![Faktureringsrestanse for produkt](media/ProductBacklog.png)
+![Faktureringsrestanse for produkt.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Se gjennom faktureringsmilepæler på fastepriskontrakter
 
@@ -56,7 +56,7 @@ Hver prosjektkontraktlinje som har en fastprisfaktureringsmetode, må definere k
 
 Hvis du vil se gjennom faktureringsmilepæler, går du til **Salg** \> **Fakturering** \> **Milepæler for fast pris**. Velg milepælene som er klare for fakturering, og velg deretter **Klar for fakturering**. Faktureringsstatusen for disse milepælene endres til **Klar for fakturering**.
 
-![Milepæler for fast pris](media/FPBacklog.png)
+![Milepæler for fast pris.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

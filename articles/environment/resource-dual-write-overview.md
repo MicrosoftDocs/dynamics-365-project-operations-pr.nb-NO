@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368443"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007923"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Oversikt over integrering av dobbel skriving for Project Operations
 
@@ -23,7 +23,7 @@ Project Operations bruker [funksjoner for dobbel skriving](/dynamics365/fin-ops-
 
 Illustrasjonen nedenfor viser hvordan data synkroniseres som en del av denne integrasjonen mellom Dataverse og Finance.
 
-![Oversikt over dataflyter for Project Operations](./media/ProjectOperationsFlows.jpg)
+![Oversikt over dataflyter for Project Operations.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations i Dataverse gi et moderne brukergrensesnitt (UI) og enkel utvidelse med ingen kode / lav kode ved hjelp av Power Platform-funksjoner. Prosjektledere, ressursledere, prosjektteammedlemmer og andre personer på kontoret utfører aktivitetene sine i Project Operations på Dataverse.
 

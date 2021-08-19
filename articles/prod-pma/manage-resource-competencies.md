@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007428"
 ---
 # <a name="manage-resource-competencies"></a>Administrere ressurskompetanser
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999053"
 
 Ressurskompetanser er en viktig del av ressursbehandlingen. Kompetanser kan brukes som en basis for å avgjøre hvilke ressurser som har riktig balanse mellom ferdigheter, utdanning, sertifisering og prosjekterfaring. Du må angi denne informasjonen for hver ressurs og oppdatere den med jevne mellomrom. På denne måten kan du maksimere funksjonaliteten når bestemte ressurskompetanser samsvares under tildeling av prosjektressurser.
 
-[![Eksempler på ferdigheter, sertifiseringer, utdanning og prosjekterfaring](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Eksempler på ferdigheter, sertifiseringer, utdanning og prosjekterfaring.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Fremgangsmåtene nedenfor forklarer hvordan du konfigurerer noen av kompetansene for en ressurs.
 

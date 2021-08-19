@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009403"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007113"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Tilordne generelt bestillbare ressurser til en oppgave og generere ressurskrav 
 
@@ -33,21 +33,21 @@ I tillegg til å bestille og tilordne navngitte eller faktiske ressurser i prosj
 
 1. I Project Service Automation (PSA) åpner du **Prosjekt**-siden, og i kategorien **Tidsplan** angir du posisjonsnavnet til den generelle ressursen i **Ressurs**-cellen i tidsplanen. Du kan også klikke **Ressurs**-ikonet i cellen for å åpne ressursvelgeren og deretter skrive inn navnet på den generelle ressursen du vil opprette.
 
-![Opprette og tilordne et generelt teammedlem](media/RM-how-to-9.png)
+![Opprette og tilordne et generelt teammedlem.](media/RM-how-to-9.png)
 
 Dette åpner panelet **Hurtigoppretting: Prosjektteammedlem**. 
 
 2. Angi rollen og organisasjonsenheten for det generelle ressursteammedlemmet, og klikk deretter **Lagre**.
 
-![Hurtigoppretting av generelt teammedlem](media/RM-how-to-10.png)
+![Hurtigoppretting av generelt teammedlem.](media/RM-how-to-10.png)
 
 3. Når du har opprettet det nye medlemmet i det generelle ressursteamet, blir det tilordnet til oppgaven. Du kan fortsette å tilordne den generelle ressursen til andre oppgaver i oppgavetidsplanen.
 
-![Tilordne eksisterende generelle teammedlemmer til oppgaver](media/RM-how-to-11.png)
+![Tilordne eksisterende generelle teammedlemmer til oppgaver.](media/RM-how-to-11.png)
 
 4. Når du har tilordnet den generelle ressursen, kan du generere et ressurskrav og fullføre det ved å bestille eller sende en ressursforespørsel til en ressursleder direkte.
 
-![Generere et krav for et generelt teammedlem](media/RM-how-to-12.png)
+![Generere et krav for et generelt teammedlem.](media/RM-how-to-12.png)
 
 I rutenettet for teammedlemmer, i tillegg til å kunne bruke ressursvelgeren som nevnt ovenfor, kan du legge til generelle ressurser direkte. Ressursene legges til med et ressurskrav som er basert på start- og sluttdatoene og fordelingsmetoden som er angitt i panelet **Hurtigoppretting: Prosjektteammedlem**.
 
@@ -55,7 +55,7 @@ Du kan se en forskjell hvis du legger til det generelle teammedlemmet direkte og
 
 Du kan også klikke **Ressurskrav**-koblingen i rutenettet for teamet for å åpne kravet og legge til kvalifikasjoner, foretrukne ressurser og så videre.
 
-![Ressurskrav](media/RM-how-to-13.png)
+![Ressurskrav.](media/RM-how-to-13.png)
 
 
 

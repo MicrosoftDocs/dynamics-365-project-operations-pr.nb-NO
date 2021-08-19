@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006208"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005808"
 ---
 # <a name="create-a-project-team"></a>Opprette et prosjektteam
 
@@ -33,7 +33,7 @@ Visningsinnstillinger kan også tilpasses for å gi en bedre visning av ressurst
 
 Prosjektlederen kan velge en rolle på siden og deretter velge å reservere en ressurs som fyller rollen, hvis det er en tilgjengelig ressurs som passer til kravet. Vær oppmerksom på at ressursene ikke må reserveres på dette tidspunktet i planleggingsfasen. Når du oppretter en WBS, kan du erstatte roller med bemannede ressurser for prosjektet. Hvis roller erstattes med bemannede ressurser i WBS, oppdaterer ressursoppsettet automatisk prosjektgruppens liste og planlegging.
 
-[![Prosjektteamoppføring som inkluderer både roller og faktiske ressurser](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Prosjektteamoppføring som inkluderer både roller og faktiske ressurser.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Prosjektlederen har forskjellige alternativer for bestilling av en ressurs for et prosjekt, for eksempel **Gjenstående kapasitet**, **Full kapasitet**, **Kapasitet i prosent** og **Angi timer**. Disse bestillingsalternativene kan kanselleres når som helst hvis ressurstilordningene endres. To typer bestillinger støttes:
 

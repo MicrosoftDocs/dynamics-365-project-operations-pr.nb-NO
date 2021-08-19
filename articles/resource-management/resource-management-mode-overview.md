@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367903"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008238"
 ---
 # <a name="resource-management-modes-overview"></a>Oversikt over modi for ressursstyring
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations støtter to moduser for at du skal kunne kjøre 
 ## <a name="central-mode"></a>Sentral modus
 Organisasjoner som sentraliserer fordelingen av ressurser til prosjekter, kan bruke sentral modus til å sørge for at prosjektledere kan definere ressurskrav på prosjektnivå. Innfrielse av ressurskravene er delegert til en ressursleder. Prosjektledere kan godta eller avvise ressurser som er foreslått av ressurslederen.
 
-![Sentral modus](./media/resource-management-central.png)
+![Sentral modus.](./media/resource-management-central.png)
 
 Hvis du vil administrere ressurser med sentral modus, kan du se følgende:
 
@@ -37,7 +37,7 @@ Hvis du vil administrere ressurser med sentral modus, kan du se følgende:
 ## <a name="hybrid-mode"></a>Hybrid modus
 Organisasjoner som trenger fleksibilitet ved tildeling av ressurser, kan bruke hybrid modus til å sørge for at både prosjektledere og ressursledere kan bestille ressurser.
 
-![Hybrid modus](./media/resource-management-hybrid.png)
+![Hybrid modus.](./media/resource-management-hybrid.png)
 
 I tillegg til de støttede prosessene i sentral modus, kan du se følgende emner for å administrere alle andre støttede bestillingsflyter i hybrid modus:
 
