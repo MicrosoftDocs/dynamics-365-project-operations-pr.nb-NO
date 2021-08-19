@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007288"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985558"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installasjon av eksempeldata for Project Service-programmet
 
@@ -86,7 +86,7 @@ Du bør planlegge at datamaskinen skal være tilkoblet et nettverk og installasj
 Skjermbeskytteren på datamaskinen må være deaktivert. Øktlegitimasjonen for installasjonen kan ellers gå tapt når skjermbeskyttelsen aktiveres (med mindre du holder økten aktiv under hele installasjonen).
 
 > [!div class="mx-imgBorder"]
-> ![Skjermbilde av skjermbeskytterinnstillinger med skjermbeskytter deaktivert](media/sample-data-1.png)
+> ![Skjermbilde av skjermbeskytterinnstillinger med skjermbeskytter deaktivert.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Laste ned og pakke ut
 
@@ -142,7 +142,7 @@ Demodatapakken krever seks brukere. For at pakken skal installeres på riktig m�
 3. Åpne **PkgFolder** og finn og åpne **ImportUserMapFile.xml**. Oppdater **Ny=**-feltene til e-postadressene for tilsvarende brukere i systemet.
 
    > [!div class="mx-imgBorder"]
-   > ![Skjermbilde av UserMapFile](media/sample-data-7.png)
+   > ![Skjermbilde av UserMapFile.](media/sample-data-7.png)
 
 4. Hvis brukeren med fullt navn "Spencer Low" har en annen bruker-ID enn **"spencerl"**, må du oppdatere en ekstra fil. Åpne **DemoDataPreImportConfig.xml**, og finn **userstocreateandconfigure**-merket. Oppdater **\<login\>**-merket med loginId (skilles mellom små og store bokstaver). 
 
@@ -172,7 +172,7 @@ Demodatapakken krever seks brukere. For at pakken skal installeres på riktig m�
 5. Velg **Neste** til du ser dialogboksen **Oppsett av demonstrasjonsdata**.
 
    > [!div class="mx-imgBorder"]
-   > ![Skjermbilde av statusvinduet for installasjon av demonstrasjonsdata](media/sample-data-3.png)
+   > ![Skjermbilde av statusvinduet for installasjon av demonstrasjonsdata.](media/sample-data-3.png)
 
 6. Før du fortsetter, bør du merke deg at installasjon av eksempeldata kan ta opptil en time (vanligvis ca. 10 minutter). Du må forsikre deg om datamaskinen forblir på og er koblet til et nettverk gjennom hele installasjonsprosessen, og at økten er aktiv.   
 
@@ -191,10 +191,10 @@ Etter at eksempeldataene er ferdig lastet, logger du på som Spencer Low-brukere
 - Hvis Field Service -programmet er installert, kan du gå til **Project Service** > **Innstillinger** > **Prislister**. Kontroller at faktura- og kostnadssatser finnes. Gå til **Field Service** > **Innstillinger** > **Prislister**, og kontroller at faktura- og kostnadssatsene finnes med riktig valuta for hvert land/område i datasettet.
 
   > [!div class="mx-imgBorder"]
-  > ![Skjermbilde av aktive prislister](media/sample-data-4.png)
+  > ![Skjermbilde av aktive prislister.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Skjermbilde av aktive organisasjonsenheter](media/sample-data-5.png)
+  > ![Skjermbilde av aktive organisasjonsenheter.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tekniske merknader
 
@@ -295,7 +295,7 @@ Hvis du må endre arbeidstimer for eksempelressurser som kan reserveres, går du
 Velg en bruker (for eksempel Spencer Low), og endre Spencers arbeidstimer til timene du vil bruke for flere brukere. Gå til **Universal Resource Scheduling** > **Innstillinger** > **Arbeidstidsmaler** og rediger **Standard arbeidsmal**-oppføringen. I **Malressurs**-feltet velger du en bruker med arbeidstimer du vil bruke for andre ressurser. Gå til **Universal Resource Scheduling** > **Planlegging** > **Ressurser** > **Aktive ressurser som kan bestilles**. Velg ressursene du vil endre, og velg deretter **Angi kalender**. På **Arbeidsmal**-rullegardinlisten velger du **Standard arbeidstimer** eller en annen mal med riktig malressurs. Når du går til planleggingstavlen, skal du kunne se at ressursene nå har oppdaterte arbeidstimer.
 
 > [!div class="mx-imgBorder"]
-> ![Skjermbilde av aktive ressurser som kan reserveres](media/sample-data-6.png)
+> ![Skjermbilde av aktive ressurser som kan reserveres.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

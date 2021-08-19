@@ -2,17 +2,17 @@
 title: Feilsøke arbeid i oppgaverutenettet
 description: Dette emnet gir feilsøkingsinformasjon som er nødvendig når du arbeider i oppgaverutenettet.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213412"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989113"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Feilsøke arbeid i oppgaverutenettet 
 
@@ -24,7 +24,7 @@ Dette emnet beskriver hvordan du løser problemer som kan oppstå når du arbeid
 
 Project Operations krever at informasjonskapsler fra tredjeparter aktiveres for å gjengi strukturen i arbeidet. Når informasjonskapsler fra tredjeparter ikke er aktivert, vises en tom side i stedet for oppgaver når du velger kategorien **Oppgaver** på siden **Prosjekt**.
 
-![Tom kategori når informasjonskapsler fra tredjeparter ikke er aktivert](media/blankschedule.png)
+![Tom kategori når informasjonskapsler fra tredjeparter ikke er aktivert.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Løsning
@@ -52,11 +52,22 @@ For nettleserne Microsoft Edge eller Google Chrome beskriver fremgangsmåtene ne
 Project Operations krever at en prosjektparameter refererer til PEX-endepunktet. Dette endepunktet kreves for å kommunisere med tjenesten som brukes til å gjengi strukturen for arbeidsfordelingsarbeid. Hvis parameteren ikke er aktivert, vises feilmeldingen Prosjektparameteren er ikke gyldig. 
 
 ### <a name="workaround"></a>Løsning
- ![Feltet PEX-endepunkt på prosjektparameteren](media/projectparameter.png)
 
 1. Legg til feltet **PEX-endepunkt** på siden **Prosjektparametere**.
-2. Oppdater feltet med følgende verdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Fjern feltet fra siden **Prosjektparametere**.
+2. Finn produkttypen du bruker. Denne verdien brukes når PEX-endepunktet er angitt. Ved er produkttypen allerede definert i PEX-endepunktet. Behold den verdien. 
+   
+    ![Feltet PEX-endepunkt på prosjektparameteren.](media/pex-endpoint.png)
+
+3. Oppdater feltet med følgende verdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Produkttype                         | Typeparameter |
+   |--------------------------------------|----------------|
+   | Project for the Web i standardorganisasjon   | type=0         |
+   | Project for the Web i CDS-navngitt organisasjon | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Fjern feltet fra siden **Prosjektparametere**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Rettigheter for prosjekt for Internett
 
@@ -67,7 +78,7 @@ Project Operations er avhengig av en ekstern planleggingsservice. Servicen kreve
 
 1. Gå til **Innstilling > Sikkerhet > Brukere > Applikasjonsbrukere**.  
 
-   ![Applikasjonsleser](media/applicationuser.jpg)
+   ![Applikasjonsleser.](media/applicationuser.jpg)
    
 2. Dobbeltklikk appbrukeroppføringen for å kontrollere følgende:
 
@@ -76,7 +87,7 @@ Project Operations er avhengig av en ekstern planleggingsservice. Servicen kreve
  
 3. Hvis brukeren ikke finnes, kan du opprette en ny brukeroppføring. Velg **Nye brukere**. Endre oppføringsskjemaet til **Appbruker**, og legg deretter til **App-ID-en**.
 
-   ![Detaljer for appbruker](media/applicationuserdetails.jpg)
+   ![Detaljer for appbruker.](media/applicationuserdetails.jpg)
 
 4. Kontroller at brukeren er tilordnet riktig lisens, og at tjenesten er aktivert i tjenesteplandetaljene for lisensen.
 5. Kontroller at brukeren kan åpne project.microsoft.com.

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001078"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986548"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integrering av Project Operations-oppsett og -konfigurasjonsdata
 
@@ -24,7 +24,7 @@ Dette emnet gir informasjon om dobbeltskrivingsintegrasjon for Project Operation
 
 Prosjektkontrakter, kontraktlinjer og prosjekter opprettes i Dataverse og synkroniseres til Finance and Operations-apper for ekstra regnskap. Oppføringene i disse enhetene kan bare opprettes og slettes i Dataverse. Regnskapsattributter, for eksempel standardverdier for salgsavgiftsgrupper og finansdimensjoner, kan imidlertid legges til i oppføringene i Finance and Operations-appene.
 
-  ![Konsepter for prosjektkontraktintegrering](./media/1ProjectContract.jpg)
+  ![Konsepter for prosjektkontraktintegrering.](./media/1ProjectContract.jpg)
 
 Kundeemner, salgsmuligheter og tilbud for salgsaktiviteter spores i Dataverse og synkroniseres ikke til Finance and Operations-apper fordi det ikke er knyttet nedstrømsregnskap til denne aktiviteten.
 
@@ -51,7 +51,7 @@ Prosjektkontraktlinjer kan gjennomgås av prosjektregnskapsføreren i Finance an
 
 Prosjektkontraktlinjer som bruker faktureringsmetoden med fast pris, faktureres via faktureringsmilepæler. Faktureringsmilepæler synkroniseres for å prosjektere A konto-transaksjoner i Finance and Operations-apper ved hjelp av tabelltilordningen **Kontraktlinjemilepæler for Project Operations-integrering (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integrering av faktureringsmilepæler](./media/2Milestones.jpg)
+  ![Integrering av faktureringsmilepæler.](./media/2Milestones.jpg)
 
 Regnskapsføreren kan gå gjennom transaksjoner på forretningsforbindelse og justere regnskapsattributtene for disse transaksjonene ved å gå til **Prosjektstyring og regnskap** > **Prosjektkontrakter** > **Oppretthold** > **A konto-transaksjoner** eller **Prosjektstyring og regnskap** > **Alle prosjekter** > **Oppretthold** > **A konto-transaksjoner**.
 
@@ -61,13 +61,13 @@ Når du først oppretter en faktureringsmilepæl for en gitt prosjektkontraktlin
 
 Prosjektoppgaver synkroniseres til Finance and Operations-apper via tabelltilordningen **Prosjektoppgaver (msdyn\_projecttasks)** bare for referanseformål. Opprettings-, oppdaterings- og slettingsoperasjoner støttes ikke via Finance and Operations-apper.
 
-  ![Integrasjon av prosjektoppgaver](./media/3Tasks.jpg)
+  ![Integrasjon av prosjektoppgaver.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Prosjektressurser
 
 Enheten **Prosjektressursroller** synkroniseres til Finance and Operations-apper ved hjelp av tabelltilordningen **Prosjektressursroller for alle selskaper (bookableresourcecategories)** bare for referanseformål. Siden ressursroller i Dataverse ikke er firmaspesifikke, oppretter systemet automatisk respektive firmaspesifikke ressursrolleoppføringer i Finance and Operations-apper automatisk for alle juridiske enheter inkludert i integrasjonsomfanget for dobbel skriving.
 
-![Integrasjon av ressursroller](./media/5Resources.jpg)
+![Integrasjon av ressursroller.](./media/5Resources.jpg)
 
 Prosjektressurser i Project Operations vedlikeholdes i Dataverse og synkroniseres ikke til Finance and Operations-apper.
 
@@ -75,6 +75,6 @@ Prosjektressurser i Project Operations vedlikeholdes i Dataverse og synkronisere
 
 Transaksjonskategorier vedlikeholdes i Dataverse og synkroniseres til Finance and Operations-apper ved hjelp av tabelltilordningen **Prosjekttransaksjonskategorier (msdyn\_transactioncategories)**. Når transaksjonskategorioppføringen er synkronisert, oppretter systemet automatisk fire delte kategorioppføringer. Hver oppføring tilsvarer en transaksjonstype i Finance and Operations-apper og kobler dem til transaksjonskategorioppføringen.
 
-![Integrasjon av transaksjonskategorier](./media/4TransactionCategories.jpg)
+![Integrasjon av transaksjonskategorier.](./media/4TransactionCategories.jpg)
 
 Bruk av transaksjonskategorier til estimater og faktiske verdier krever at prosjektregnskapsføreren eller systemadministrator oppretter tilsvarende prosjektkategorier i hver juridiske enhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere prosjektkategorier](../project-accounting/configure-project-categories.md).

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015028"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985153"
 ---
 # <a name="manage-resource-requests-project-service"></a>Administrere ressursforespørsler (Project Service)
 
@@ -43,7 +43,7 @@ Kundeansvarlige og prosjektledere ber regelmessig om ressurser for sine prosjekt
   
    -   Klikk **Filter** for å vise **Filter**-ruten, der du kan filtrere resultatene etter organisasjonsenhet, rolle, ferdighet eller andre attributter.  
   
-       ![Ressursforespørsel-skjermen i Project Service](../psa/media/project-service-resource-request-screen.png "Ressursforespørsel-skjermen i Project Service")  
+       ![Ressursforespørsel-skjermen i Project Service.](../psa/media/project-service-resource-request-screen.png "Ressursforespørsel-skjermen i Project Service")  
   
 3. I kalenderen for ressursen du vil bestille, velger du perioden du vil bestille ressursen, og deretter klikker du **Bestill** for å reservere ressursen eller **Foreslå bestilling** for å foreslå bestillingen og få anmoderen til å godkjenne den. Når du reserverer en ressurs, kan du foreta en ikke-forpliktende eller forpliktende bestilling.  
   

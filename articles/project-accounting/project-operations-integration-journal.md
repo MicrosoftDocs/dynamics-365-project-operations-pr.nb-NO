@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304268"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987943"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal for Project Operations-integrering
 
@@ -19,7 +19,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Tid og utgifter-oppføringer oppretter **Faktisk**-transaksjoner, som representerer driftsvisningen av arbeid som fullføres mot et prosjekt. Dynamics 365 Project Operations gir regnskapsførere et verktøy for å gjennomgå transaksjoner og justere regnskapsattributtene etter behov. Når gjennomgangen og justeringene er fullført, blir transaksjonene postert til prosjektets underfinansjournal og økonomimodulen. En regnskapsfører kan utføre disse aktivitetene ved hjelp av journalen for **Project Operations-integrering** (**Dynamics 365 Finance** > **Prosjektstyring og regnskap** > **Journaler** > **Project Operations-integrering**-journalen.
 
-![Integreringsjournalflyt](./media/IntegrationJournal.png)
+![Integreringsjournalflyt.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Opprette oppføringer i journalen for Project Operations-integrering
 

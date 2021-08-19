@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000628"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986683"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Legg til et Azure-abonnement i et LCS Project
 
@@ -23,35 +23,35 @@ Skydriftede miljøer må distribueres ved hjelp av et eksisterende Azure-abonnem
 
 1. I LCS-prosjektet, i **Miljøer**-delen velger du **Microsoft Azure-innstillinger**.
 
-![Innstillinger for Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Innstillinger for Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. På siden **Prosjektinnstillinger** i kategorien **Azure-kontakter** velger du **Autoriser**. Dette gjør det mulig å distribuere miljøer til dette prosjektet.
 
-![Azure-koblinger](./media/2AzureConnectors.png)
+![Azure-koblinger.](./media/2AzureConnectors.png)
 
 3. Velg **Autoriser** på nytt for å gi administratorsamtykke.
 
-![Gi admin-tillatelse](./media/3GrantAdminConsent.png)
+![Gi admin-tillatelse.](./media/3GrantAdminConsent.png)
 
 4. Godta tillatelsesforespørselen.
 
-![Godta tillatelsesforespørsel](./media/4AcceptPermissionRequest.png)
+![Godta tillatelsesforespørsel.](./media/4AcceptPermissionRequest.png)
 
 Autorisasjonen er nå fullført. 
 
-![Autorisasjon vellykket](./media/5AuthorizationComplete.png)
+![Autorisasjon vellykket.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Gi Dynamics Deployment Services tilgang til Azure-abonnementet
 
 1. Gå til [Microsoft Azure-fakturering](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade), og velg abonnementet ditt. Dynamics Deployment Services må ha tilgang til dette abonnementet for å kunne distribuere miljøer.
 
-![Azure-abonnementsdetaljer](./media/6AzureSubscription.png)
+![Azure-abonnementsdetaljer.](./media/6AzureSubscription.png)
 
 2. Velg **Tilgangskontroll (IAM)** i navigasjonsruten, og velg deretter **Legg til rolletildeling**.
 3. På glidebryteren til høyre velger du **Bidragsyterroller**, og finn og velg **Dynamics Deployment Services** i listen som vises. 
 4. Velg **Lagre**.
 
-![Abonnementstilgang](./media/7SubscriptionAccess.png)
+![Abonnementstilgang.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Legg til en abonnementskontakt i et LCS Project
 

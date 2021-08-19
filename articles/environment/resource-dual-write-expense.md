@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999998"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986593"
 ---
 # <a name="expense-management-integration"></a>Integrering av utgiftshåndtering
 
@@ -28,7 +28,7 @@ I en full utgiftsdistribusjon opprettes og vedlikeholdes utgiftskategorier i Fin
 2. I Økonomi går du til **Utgiftshåndtering** > **Oppsett** > **Delte kategorier** og velger en delt kategori med transaksjonsklassen **Utgift**. Angi **Kan brukes i utgift**-parameteren til **Sann** og definerer utgiftstypen som skal brukes.
 3. Bruk denne delte kategorioppføringen til å opprette en ny utgiftskategori ved å gå til **Utgiftshåndtering** > **Oppsett** > **Utgiftskategorier** og velge **Ny**. Når oppføringen lagres, bruker dobbeltskriving tabelltilordningen **eksportenheten for prosjektutgift for Project Operations-integrering (msdyn\_expensecategories)** til å synkronisere denne oppføringen til Dataverse.
 
-  ![Integrering av utgiftskategorier](./media/DW6ExpenseCategories.png)
+  ![Integrering av utgiftskategorier.](./media/DW6ExpenseCategories.png)
 
 Utgiftskategorier i Finance and Operations-apper er firmaspesifikke eller juridiske. Det finnes separate, tilsvarende juridiske enhetsspesifikke oppføringer i Dataverse. Når en prosjektleder beregner utgifter, kan de ikke velge utgiftskategorier som er opprettet for et prosjekt som eies av et annet firma enn firmaet som eier prosjektet de arbeider med. 
 
@@ -40,7 +40,7 @@ Utgiftsrapporter opprettes og godkjennes i Finance and Operations-apper. Hvis du
   - Dobbeltskriving synkroniseres til Dataverse ved bruk av tabelltilordningen **eksportenheten for prosjektutgift for Project Operations-integrering (msdyn\_expenses)**.
   - Underordnede avgifter, underleverandører og andre finansielle innlegg registreres etter gjeldende tidspunkt for innlegging av utgiftsrapport.
 
-  ![Integrering av utgiftsrapporter](./media/DW6ExpenseReports.png)
+  ![Integrering av utgiftsrapporter.](./media/DW6ExpenseReports.png)
 
 Når en oppføring skrives til **Utgift**-enheten i Dataverse, utløser systemet den automatiske godkjenningsprosessen for oppføringen. Hvis det er nødvendig, kan den automatiserte godkjenningsprosessstatusen gjennomgås i Dataverse ved å gå til **Avanserte innstillinger** > **System** > **Systemjobber**. Når godkjenningen er fullført, opprettes oppføringer for utgiftstransaksjonsklasse i **Faktiske verdier**-enheten.
 

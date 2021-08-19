@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006253"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985963"
 ---
 # <a name="create-a-new-project"></a>Opprett et nytt prosjekt
 
@@ -51,7 +51,7 @@ Du kan også tilordne kategorier for en ressurs slik du ønsker. Kategoritypen e
 
 En prosjektleder kan bruke prosjektbemanningsfunksjonaliteten til å opprette rollene som kreves for prosjektet. Roller kan brukes hvis bekreftede ressurser fremdeles er ukjente når ressurser blir reservert. Roller kan være midlertidig reservert som planlagte ressurser, slik at du kan fortsette planleggingen av prosjektplanlegging.
 
-[![Eksempel på en rolle](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Eksempel på en rolle.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenario:** Contoso ble engasjert for å fullføre et Tids- og materiellprosjekt som har et godkjent prosjektdiagram. Juniorprosjektlederen holder fremdeles på med å ferdigstille prosjektomfanget. Ressurslederen identifiserer for øyeblikket bestemte ressurser som blir reservert for å arbeide med det nye prosjektet. På grunn av den kritiske prosjekttypen ba prosjektsponsoren om at den overordnede prosjektlederen kunne ha én av rollene. Ressurslederen må skaffe den nye ressursen og definere rollen i systemet i tilfelle juniorprosjektlederen krever ressursinformasjon under planleggingen av prosjektet.
 

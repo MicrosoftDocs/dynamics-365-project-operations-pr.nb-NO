@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995498"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988573"
 ---
 # <a name="provision-a-new-environment"></a>Klargjør et nytt miljø
 
@@ -52,12 +52,12 @@ Bruk fremgangsmåten nedenfor for å aktivere den automatiserte klargjøringsfly
 
 6. Velg miljøtypen for distribusjonen din. En abonnementsbasert prøveversjon gjør det mulig å distribuere et CDS-miljø i 30 dager. 
 
-![Distribusjonsinnstillinger](./media/1DeploymentSettings.png)
+![Distribusjonsinnstillinger.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Velg **Godtar** for å bekrefte vilkårene for bruk, og velg deretter **Ferdig** for å gå tilbake til distribusjonsinnstillingene.
 
-![Distribusjonssamtykke](./media/2DeploymentConsent.png)
+![Distribusjonssamtykke.](./media/2DeploymentConsent.png)
 
 7. Valgfritt – Bruk demodata i miljøet. Gå til **Avanserte innstillinger**, velg **Tilpass konfigurasjon av SQL-database**, og sett **Angi et datasett for applikasjonsdatabase** til **Demo**.
 
@@ -67,7 +67,7 @@ Bruk fremgangsmåten nedenfor for å aktivere den automatiserte klargjøringsfly
 
 9. Velg **Logg på** og logg på miljøet for å bekrefte at det er installert.
 
-![-miljødetaljer](./media/3EnvironmentDetails.png)
+![Miljødetaljer.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Bruk oppdateringer i Finance-miljøet
 
@@ -77,19 +77,19 @@ Det kan hende du må bruke kvalitetsoppdateringer i Finance-miljøet for å få 
 
 1. I LCS, på siden **Miljødetaljer**, i delen **Tilgjengelige oppdateringer**, velger du **Vis oppdatering**.
 
-![Vis oppdateringer](./media/5ViewUpdates.png)
+![Vis oppdateringer.](./media/5ViewUpdates.png)
 
 2. På siden **Binære oppdateringer** velger du **Lagre pakke.**
 
-![Lagre pakke](./media/6SavePackage.png)
+![Lagre pakke.](./media/6SavePackage.png)
 
 3. Klikk **Velg alle**, og velg deretter **Lagre pakke**.
 
-![Se gjennom og lagre oppdateringer](./media/7ReviewAndSaveUpdates.png)
+![Se gjennom og lagre oppdateringer.](./media/7ReviewAndSaveUpdates.png)
 
 4. Skriv inn et navn og en beskrivelse av pakken, og velg deretter **Lagre**. Denne prosessen kan ta tid, avhengig av Internett-tilkoblingen.
 
-![Last opp pakke til aktivabibliotek](./media/8UploadPackageToAssetsLibrary.png)
+![Last opp pakke til aktivabibliotek.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Etter at pakken er lagret, velger du **Fullført** og lagrer denne pakken i aktivabiblioteket i LCS-prosjektet.
 
@@ -97,15 +97,15 @@ Lagring og validering av pakken kan ta omtrent 15 minutter.
 
 6. For å bruke oppdateringen går du til siden **Miljødetaljer** i LCS og velger **Vedlikehold** > **Bruk oppdateringer**.
 
-![Vedlikeholde miljøer](./media/9MaintainEnvironment.png)
+![Vedlikeholde miljøer.](./media/9MaintainEnvironment.png)
 
 7. I listen over oppdateringer velger du pakken du opprettet, og deretter velger du **Bruk**.
 
-![Bruke oppdateringer](./media/10ApplyUpdates.png)
+![Bruke oppdateringer.](./media/10ApplyUpdates.png)
 
 Behandling av miljøet kan ta litt tid. Når det er ferdig, går miljøet tilbake til en distribuert tilstand.
 
-![Miljø distribuert](./media/11EnvironmentDeployed.png)
+![Miljø distribuert.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Opprett en tilkobling for dobbel skriving 
 
@@ -113,41 +113,41 @@ Behandling av miljøet kan ta litt tid. Når det er ferdig, går miljøet tilbak
 2. Under **Common Data Service-miljøinformasjon** velger du **Koble til CDS for Apps**.
 3. Når koblingen er fullført, velger du **Koble til CDS for Apps** på nytt. Du vil bli videresendt til dobbel skriving i Finance.
 
-![Kobling til CDS](./media/12LinktoCDS.png)
+![Kobling til CDS.](./media/12LinktoCDS.png)
 
 4. Velg **Bruk løsning** for å få tilgang til enhetene som skal tilordnes i integrasjonen.
 
-![Bruk løsninger](./media/13ApplySolutions.png)
+![Bruk løsninger.](./media/13ApplySolutions.png)
 
 5. Velg begge løsningene, **Dynamics 365 Finance and Operations Enhetstilordning for dobbel skriving** og **Dynamics 365 Project Operations Enhetstilordning for dobbel skriving**, og velg deretter **Bruk**.
 
-![Bekreft løsninger](./media/14ConfirmSolutions.png)
+![Bekreft løsninger.](./media/14ConfirmSolutions.png)
 
 Når løsningene er tatt i bruk, brukes enhetene for dobbel skriving i miljøet.
 
-![Bruke løsninger](./media/15ApplyingSolutions.png)
+![Bruke løsninger.](./media/15ApplyingSolutions.png)
 
 Når enhetene er brukt, vises alle tilgjengelige tilordninger i miljøet.
 
-![Tilordninger for dobbel skriving](./media/15DWMappings.png)
+![Tilordninger for dobbel skriving.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Oppdater dataenhetene etter oppdateringen
 
 1. I Finance går du til arbeidsområdet **Dataadministrasjon**.
 
-![Arbeidsområde for dataadministrasjon](./media/16DataManagement.png)
+![Arbeidsområde for dataadministrasjon.](./media/16DataManagement.png)
 
 2. Velg flisen **Parametere for rammeverk**.
 
-![Parametere for rammeverk](./media/17FrameworkParameters.png)
+![Parametere for rammeverk.](./media/17FrameworkParameters.png)
 
 3. På siden **Enhetsinnstillinger** velger du **Oppdater enhetsliste**.
 
-![Oppdater enhetsliste](./media/18RefreshEntityList.png)
+![Oppdater enhetsliste.](./media/18RefreshEntityList.png)
 
 Oppdateringen tar ca. 20 minutter. Du mottar et varsel når den er fullført.
 
-![Bekreftelse på oppdatering](./media/19RefreshConfirmation.png)
+![Bekreftelse på oppdatering.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Oppdatere sikkerhetsinnstillinger for Project Operations i Dataverse
 
@@ -188,17 +188,17 @@ Oppdateringen tar ca. 20 minutter. Du mottar et varsel når den er fullført.
 4. Hvis du vil oppdatere enheten, velger du tilordningsnavnet, og deretter velger du **Oppdater enhteter**. 
 
 
-![Oppdater tilordning](./media/20RefreshMapping.png)
+![Oppdater tilordning.](./media/20RefreshMapping.png)
 
 5. Kjør tilordningen etter at oppdateringen er fullført. Før du aktiverer den neste tilordningen, må du kontrollere at tilordningen i tabellen er tilstanden **Kjører**. Det kan ta litt tid å kjøre tilordninger med et større antall forhånds krav.
 
 Hvis du vil kjøre en tilordning med forhåndskrav, aktiverer du **Vis relaterte enhetstilordninger**. Hvis tabellen angir at **Forhåndskrav for innledende synkronisering** er **Nei**, må du kontrollere at flagget **Innledende synkronisering** er **Av** i alle tilordninger med forhåndskrav før kjøring.
 
-![Kjør tilordning](./media/21RunMap.png)
+![Kjør tilordning.](./media/21RunMap.png)
 
 6. Valider alle prosjektrelaterte tilordninger er i tilstanden Kjører.
 
-![Alle tilordninger kjører](./media/22AllMapsRunning.png)
+![Alle tilordninger kjører.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Bruk konfigurasjonsdata i CDS for Project Operations (valgfritt)

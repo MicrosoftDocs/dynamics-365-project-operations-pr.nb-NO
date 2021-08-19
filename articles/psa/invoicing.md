@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015073"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985513"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturering i Project Service Automation
 
@@ -50,7 +50,7 @@ Følg dette trinnet for å opprette en faktura for en bestemt prosjektkontrakt.
 
 - Åpne en prosjektkontrakt på listesiden **Prosjektkontrakter**, og velg deretter **Opprett faktura**.
 
-    ![Opprette prosjektfakturaer for en bestemt prosjektkontrakt](media/CreateProjectInvoicesOneByOne.png)
+    ![Opprette prosjektfakturaer for en bestemt prosjektkontrakt.](media/CreateProjectInvoicesOneByOne.png)
 
     Det blir generert en faktura for alle transaksjoner for den valgte prosjektkontrakten som har statusen **Klar for fakturering**. Disse transaksjonene inkluderer tid, utgifter, milepæler og produktbaserte kontraktlinjer.
 
@@ -58,7 +58,7 @@ Følg disse trinnene for å opprette fakturaer samlet.
 
 1. På listesiden **Prosjektkontrakter** velger du en eller flere prosjektkontrakter du må opprette en faktura for, og deretter velger du **Opprett prosjektfakturaer**.
 
-    ![Opprette prosjektfakturaer samlet](media/CreateProjectInvoicesBulk.png)
+    ![Opprette prosjektfakturaer samlet.](media/CreateProjectInvoicesBulk.png)
 
     En varselmelding informerer deg om at det kan være en forsinkelse før fakturaer opprettes. Prosessen vises også.
 

@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997748"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988708"
 ---
 # <a name="manage-time-zones"></a>Administrere tidssoner
 
@@ -32,13 +32,13 @@ For å få nøyaktige og forutsigbare resultater når du bruker **Utvid bestilli
 
 - Brukeren må konfigurere tidssonen for enheten slik at den samsvarer medtids sonen som er angitt i systemets **tilpassingsinnstillinger**.
  
-  ![Tidssoneinnstillinger i Windows 10](media/reconcile-assignments-03.png)
+  ![Tidssoneinnstillinger i Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Tidssoneinnstillinger i innstillinger for personalisering](media/reconcile-assignments-04.png)
+  ![Tidssoneinnstillinger i innstillinger for personalisering.](media/reconcile-assignments-04.png)
  
 - Ressursen som kan bestilles, må ha minst ett minutt med arbeidstid som overlapper med konturene som brukes til å definere den ønskede utvidelsen. Eksempel: Følgende ressurser med arbeidstid som faller mellom 09:00 og 19:00. 
 
-  ![Sammenligning av ressursomfang](media/reconcile-assignments-05.png)
+  ![Sammenligning av ressursomfang.](media/reconcile-assignments-05.png)
 
 Følgende tabell viser:
 
@@ -47,25 +47,25 @@ Følgende tabell viser:
 - Ressurs B: Denne ressursen befinner seg i en annen tidssone enn prosjektet, og starter 07:00 i sin tidssone. Imidlertid vil bestillinger starte på 9:00 som det første starttidspunktet for tilordningsomfanget.
 - Ressurs C og D: Ressursene befinner seg i andre tidssoner, begge forskjellige fra hverandre og prosjektet, og bestillinger startes ikke tidligere enn de respektive starttidspunktene som er tilgjengelige.
 
-|Enhet  |Kalender  |
+|Entity  |Kalender  |
 |-|-|
-|Prosjektkalendermal   | ![prosjektkalender](media/reconcile-assignments-06.png) |
-|Ressurs A  | ![Ressurs A-kalender](media/reconcile-assignments-06.png) |
-|Ressurs B  |  ![Ressurs B-kalender](media/reconcile-assignments-07.png) |
-|Ressurs C  |  ![Ressurs C-kalender](media/reconcile-assignments-08.png) |
-|Ressurs D  | ![Ressurs D-kalender](media/reconcile-assignments-09.png)  |
+|Prosjektkalendermal   | ![prosjektkalender.](media/reconcile-assignments-06.png) |
+|Ressurs A  | ![Ressurs A-kalender.](media/reconcile-assignments-06.png) |
+|Ressurs B  |  ![Ressurs B-kalender.](media/reconcile-assignments-07.png) |
+|Ressurs C  |  ![Ressurs C-kalender.](media/reconcile-assignments-08.png) |
+|Ressurs D  | ![Ressurs D-kalender.](media/reconcile-assignments-09.png)  |
  
 Når du navigerer til **Avstemming**-visningen, vises ressurstilordningene og de tilknyttede bestillingsmanglene.
 
-![Avstemmingsvisning før utvidelse](media/reconcile-assignments-10.png)
+![Avstemmingsvisning før utvidelse.](media/reconcile-assignments-10.png)
 
 Etter at du har brukt funksjonen for å forlenge bestillingen til hver ressurs, blir alle bestillinger utvidet for hver ressurs, fordi arbeidstiden til hver ressurs overlappet med konturene av mangelen.
 
-![Avstemmingsvisning etter bestillingsutvidelse](media/reconcile-assignments-11.png) 
+![Avstemmingsvisning etter bestillingsutvidelse.](media/reconcile-assignments-11.png) 
 
 Legg merke til at en nærmere kikk på detaljene i bestillingene viser forskjeller i starttidspunktet for bestillingene. Bestillingene starter tidligst på starttidspunktet til tilordningsprofilen, og ikke senere enn den tilgjengelige starttiden til ressursen.
 
-![Nye bestillinger for ressursene på planleggingstavlen](media/reconcile-assignments-12.png)
+![Nye bestillinger for ressursene på planleggingstavlen.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

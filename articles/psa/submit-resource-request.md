@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013183"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985018"
 ---
 # <a name="submitting-a-resource-request"></a>Sende en ressursforespørsel
 
@@ -34,7 +34,7 @@ Du kan sende et generert ressurskrav som en ressursforespørsel. Forespørselen 
 1. Klikk kategorien **Team** på siden **Prosjekter** for å vise en liste over bestillbare ressurser i Project Service Automation (PSA). 
 2. Velg den generelle ressursen som har et ressurskrav, fra listen, og klikk deretter **Send forespørsel**.
 
-![Sende en ressursforespørsel](media/RM-how-to-18.png)
+![Sende en ressursforespørsel.](media/RM-how-to-18.png)
 
 Forespørselsstatusen for det generelle teammedlemmet blir endret **Sendt**.
 

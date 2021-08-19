@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988123"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronisere faktiske prosjektdata direkte fra Project Service Automation til prosjektintegreringsjournalen for postering i Finance and Operations
 
@@ -42,7 +42,7 @@ Project Service Automation til Finance-integreringsløsningen bruker funksjonen 
 
 Illustrasjonen nedenfor viser hvordan dataene synkroniseres mellom Project Service Automation og Finance.
 
-[![Dataflyt for Project Service Automation-integrasjon med Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Dataflyt for Project Service Automation-integrasjon med Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Faktiske prosjektdata fra Project Service Automation
 
@@ -93,9 +93,9 @@ Hvis du vil oppdatere den innsatte betingelseskolonnen i malen, klikker du **Til
 
 Illustrasjonene nedenfor viser et eksempel på maloppgavetilordningen i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 
-[![Maltilordning – faktiske verdier](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Maltilordning – faktiske verdier.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Maltilordning – transaksjonstilkoblinger](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Maltilordning – transaksjonstilkoblinger.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importere fra oppsamlingstabell etter integrering fra Project Service Automation
 
@@ -135,9 +135,9 @@ I malen for oppdatering av faktiske prosjektdata må du bruke Power Query til å
 
 Illustrasjonene nedenfor viser eksempler på maloppgavetilordningene i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Finance til Project Service Automation.
 
-[![Maltilordning – oppdatering av faktiske verdier](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Maltilordning – oppdatering av faktiske verdier.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Maltilordning – oppdatering av transaksjon](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Maltilordning – oppdatering av transaksjon.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
