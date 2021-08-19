@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009988"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992803"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisere prosjektoppgaver direkte fra Project Service Automation til Finance and Operations
 
@@ -39,7 +39,7 @@ Project Service Automation til Finance-integreringsløsningen bruker funksjonen 
 
 Illustrasjonen nedenfor viser hvordan dataene synkroniseres mellom Project Service Automation og Finance.
 
-[![Dataflyt for Project Service Automation-integrasjon med Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Dataflyt for Project Service Automation-integrasjon med Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Mal og oppgave
 
@@ -80,7 +80,7 @@ Hvis du må bruke Power Query, følger du denne retningslinjen:
 
 Illustrasjonen nedenfor viser et eksempel på maloppgavetilordningene i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 
-[![Maltilordning](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Maltilordning.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

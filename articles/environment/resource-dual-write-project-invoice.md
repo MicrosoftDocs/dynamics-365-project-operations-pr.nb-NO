@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996578"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993253"
 ---
 # <a name="project-invoice-integration"></a>Integrering av prosjektfaktura
 
@@ -20,7 +20,7 @@ Dette emnet gir informasjon om integrasjon av dobbel skriving for Project Operat
 
 I Project Operations administrerer prosjektlederen prosjektfaktureringsrestansen og oppretter en proformafaktura for kunden i Microsoft Dataverse. Basert på denne proformafakturaen oppretter medarbeideren for utestående fordringer eller prosjektregnskapsføreren en kunderettet faktura. Integrering med dobbel skriving sikrer at proformafakturadetaljene synkroniseres med Finance and Operations-apper. Når den kunderettede fakturaen er postert, oppdaterer systemet de relevante faktiske prosjektdataene i Dataverse med regnskapsdetaljene. Grafikken nedenfor gir en konseptuell oversikt på høyt nivå over denne integreringen.
 
-   ![Integrering av prosjektfaktura](./media/DW5Invoicing.png)
+   ![Integrering av prosjektfaktura.](./media/DW5Invoicing.png)
 
 Når prosjektlederen har bekreftet proformafakturaen i Dataverse, synkroniseres informasjonen om proformafakturahodet til Finance and Operations-apper ved hjelp av tabelltilordningen for dobbel skriving, **Prosjektfakturaforslag V2 (fakturaer)**. Dette er en enveisintegrasjon fra Dataverse til Finance and Operations-apper. Oppretting eller sletting av prosjektfakturaforslag direkte i Finance and Operations-apper støttes ikke.
 

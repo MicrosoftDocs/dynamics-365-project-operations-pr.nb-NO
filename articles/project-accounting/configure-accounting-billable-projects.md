@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012598"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991047"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurere regnskap for fakturerbare prosjekter
 
@@ -101,23 +101,23 @@ Fullfør fremgangsmåten nedenfor for å opprette en ny prosjektkostnads- og oms
 
 Tid og materialer – ingen VIA
 
-![Kostnads- og omsetningsprofil: Tid og materialer – ingen VIA](media/time-material-no-wip.png)
+![Kostnads- og omsetningsprofil: Tid og materialer – ingen VIA.](media/time-material-no-wip.png)
 
 Tid og materialer – VIA (omsetning)
 
-![Kostnads- og omsetningsprofil: Tid og materialer – VIA](media/time-material-with-wip.png)
+![Kostnads- og omsetningsprofil: Tid og materialer – VIA.](media/time-material-with-wip.png)
 
 Fast pris – ingen VIA
 
-![Kostnads- og omsetningsprofil: Fast pris – ingen VIA](media/fixed-price-no-wip.png)
+![Kostnads- og omsetningsprofil: Fast pris – ingen VIA.](media/fixed-price-no-wip.png)
 
 Fast pris – fullført kontrakt
 
-![Kostnads- og omsetningsprofil: Fast pris – fullført kontrakt](media/fixed-price-completed-contract.png)
+![Kostnads- og omsetningsprofil: Fast pris – fullført kontrakt.](media/fixed-price-completed-contract.png)
 
 Fast pris – fullføringsprosent
 
-![Kostnads- og omsetningsprofil: Fast pris – fullføringsprosent](media/fixed-price-completed-percentage.png)
+![Kostnads- og omsetningsprofil: Fast pris – fullføringsprosent.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Eksempler på regnskapshendelser for prosjektkostnads- og omsetningsprofiler.

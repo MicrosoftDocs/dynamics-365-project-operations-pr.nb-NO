@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334794"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991543"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrer deg for et forhåndsversjonsbonnement – Lite 
 
@@ -52,16 +52,16 @@ Før du begynner, må du forsikre deg om at du er logget på en nettleser med br
 
 1. Klargjør et nytt Project Operations Dataverse-distribusjonsmiljø ved å følge instruksjonene i emnet [Dataverse-distribusjonsmodell](lite-deployment.md). Når du velger miljøtypen, må du passe på å bruke **Prøveversjon (abonnementsbasert)**.
 
-  ![Nytt miljø](./media/19CreateEnvironment.png)
+  ![Nytt miljø.](./media/19CreateEnvironment.png)
 
 2. Velg innstillingen **Enable Dynamics 365-apper**, og la **Distribuer disse appene automatisk** stå tomt.  
 3. Velg **Lagre** for å opprette miljøet.
 
-  ![Legg til database](./media/20CreateEnvironment1.png)
+  ![Legg til database.](./media/20CreateEnvironment1.png)
 
 4. Når miljøet er opprettet, installerer du **Microsoft Dynamics 365 Project Operations**-løsningen. 
 
-![Installere løsning](./media/21InstallSolution.png)
+![Installer løsning.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installer en CDS-konfigurasjon og konfigurer demodata
 

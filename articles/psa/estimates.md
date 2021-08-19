@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007603"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992398"
 ---
 # <a name="estimates"></a>Estimater
 
@@ -83,24 +83,24 @@ Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at syst
 1. Åpne PluginRegistrationTool, og koble til forekomsten på nettet.
 2. Velg **Søk**, og søk etter plugin-modulen for å oppdatere.
 
-    ![Dialogboksen Søketre](media/basic-guide-19.png)
+    ![Dialogboksen Søketre.](media/basic-guide-19.png)
 
 3. Velg plugin-modulen, og velg deretter **Velg** på hovedsiden.
 4. Velg trinnet i plugin-modulen som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
 
-    ![Velge et trinn i plugin-modulen](media/basic-guide-20.png)
+    ![Velge et trinn i plugin-modulen.](media/basic-guide-20.png)
 
 5. I dialogboksen **Oppdater eksisterende trinn**, i feltet **Filtreringsattributter** velger du ellipseknappen (**...**):
  
-    ![Dialogboksen Oppdater eksisterende trinn](media/basic-guide-21.png)
+    ![Dialogboksen Oppdater eksisterende trinn.](media/basic-guide-21.png)
 
 6. I dialogboksen **Velg attributter** merker du av i boksene for egendefinerte attributter.
 
-    ![Dialogboksen Velg attributter](media/basic-guide-22.png)
+    ![Dialogboksen Velg attributter.](media/basic-guide-22.png)
 
 7. Velg **OK** for å lukke dialogboksen, og velg deretter **Oppdater trinn**.
  
-    ![Knappen Oppdater trinn](media/basic-guide-23.png)
+    ![Knappen Oppdater trinn.](media/basic-guide-23.png)
 
 8. Gjenta trinn 1 til 7 for den andre plugin-modulen.
 9. Lukk PluginRegistrationTool.

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998963"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992443"
 ---
 # <a name="create-custom-fields-and-entities"></a>Opprette egendefinerte felt og enheter 
 
@@ -43,7 +43,7 @@ En prisdimensjon kan være et alternativsett eller en enhet. Begge må opprettes
 2. I Løsningsutforsker, i den venstre navigasjonsruten, velger du **Enheter**.
 3. Klikk **Ny** for å opprette en ny enhet kalt **Standardtittel**. Angi resten av den nødvendige informasjonen, og klikk deretter **Lagre**.
 
-> ![Standard enhetsdefinisjon for tittel](media/Standard-Title-entity-definition.png)
+> ![Standard enhetsdefinisjon for tittel.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Alternativsettbaserte dimensjoner 
@@ -54,9 +54,9 @@ Du kan opprette to alternativsettbaserte dimensjoner. Bruk **Arbeidssted for res
 2. I Løsningsutforsker, i den venstre navigasjonsruten, velger du **Alternativsett**. 
 3. Klikk **Ny** for å opprette et nytt alternativsett, angi den gjenstående nødvendige informasjonen, og klikk deretter **Lagre**.
 
-> ![Alternativsettbasert prisdimensjon kalt Arbeidssted for ressurs ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Alternativsettbasert prisdimensjon kalt Arbeidssted for ressurs.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Alternativsettbasert prisdimensjon kalt Arbeidstimer for ressurs ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Alternativsettbasert prisdimensjon kalt Arbeidstimer for ressurs.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Opprette data for enhetsbaserte dimensjoner
@@ -68,7 +68,7 @@ Du kan opprette data for en enhetsbasert dimensjon manuelt eller ved å bruke im
 3. Lukk skjemaet. 
 4. Gjenta trinn 1-3 for å opprette en ny standardtittel for "Overordnet systemingeniør".
 
-> ![Eksempeldata for enheten Standardtittel ](media/ST-data.png)
+> ![Eksempeldata for enheten Standardtittel.](media/ST-data.png)
 
 
 
