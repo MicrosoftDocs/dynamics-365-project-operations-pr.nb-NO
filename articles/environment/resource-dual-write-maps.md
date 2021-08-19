@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025786"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003828"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Tilordningsversjoner av dobbel skriving for Project Operations
 
@@ -32,7 +32,7 @@ Følgende tilordninger kreves for Project Operations-løsningen: Sørg for at du
 
 1. Fra listen over tilordninger velger du tilordningen Finans **(msdyn\_ledgers)** med alle dens krav, og deretter merker du av for **Første synkronisering**. I feltet **Hovedoppføring for første synkronisering** verlger du **Finance and Operations-apper** for både finanstilordning og alle nødvendige tilordninger. Velg **Kjør**.
 
-![Synkronisering av finanstilordning](media/DW6.png)
+![Synkronisering av finanstilordning.](media/DW6.png)
 
 2. Følg de samme trinnene for alle gjenværende tabelltilordninger som er oppført i tabellen ovenfor. Ikke merk av for **Første synkronisering** når du kjører disse tilordningene.
 
@@ -65,7 +65,7 @@ Fullfør fremgangsmåten nedenfor for å kjøre de oppførte tilordningene.
 
 1. Aktiver prosjektressursrollene for **alle firmaer (bookableresourcecategories)**-tabelltilordningen siden denne tilordningen krever den første synkroniseringen. I feltet **Hovedoppføring for første synkronisering** velger du **Common Data Service**. 
 
- ![Synkronisering av tabelltilordning for ressursrolle](media/6ResourceInitialSync.jpg)
+ ![Synkronisering av tabelltilordning for ressursrolle.](media/6ResourceInitialSync.jpg)
 
  Vent til statusen for tilordningen **kjører** før du går til neste trinn.
 

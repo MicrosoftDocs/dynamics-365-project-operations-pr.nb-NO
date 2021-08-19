@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008818"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002433"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeide med datamodell for Project Service Automation
 
@@ -53,7 +53,7 @@ PSA legger også til nye tilbudsrelaterte enheter i Dynamics 365-datamodellen. H
 
 Andre enheter som PSA legger til i tilbudene, er **Prosjektprislinje for tilbudslinje**, **Ressurskategori for tilbudslinje** og **Transaksjonskategori for tilbudslinje**.
 
-![Diagram som viser tilbud, tilbudslinje og prosjektrelasjoner](media/PS-Reporting-image2.png "Diagram som viser tilbud, tilbudslinje og prosjektrelasjoner")
+![Diagram som viser tilbud, tilbudslinje og prosjektrelasjoner.](media/PS-Reporting-image2.png "Diagram som viser tilbud, tilbudslinje og prosjektrelasjoner")
 
 ## <a name="reporting-on-project-contracts"></a>Rapportere om prosjektkontrakter
 
@@ -69,7 +69,7 @@ PSA legger også til nye enheter som er utformet for prosjektkontrakter. Her er 
 
 Andre enheter som PSA legger til i kontrakter, er **Prosjektprisliste for prosjektkontraktslinje**, **Ressurskategori for prosjektkontraktslinje** og **Transaksjonskategori for prosjektkontraktslnje**.
 
-![Diagram som viser ordre, ordrelinje og prosjektrelasjoner](media/PS-Reporting-image3.png "Diagram som viser ordre, ordrelinje og prosjektrelasjoner")
+![Diagram som viser ordre, ordrelinje og prosjektrelasjoner.](media/PS-Reporting-image3.png "Diagram som viser ordre, ordrelinje og prosjektrelasjoner")
 
 ## <a name="reporting-on-projects"></a>Rapportere om prosjekter
 
@@ -81,7 +81,7 @@ Andre enheter som PSA legger til i kontrakter, er **Prosjektprisliste for prosje
 - **Ressurskrav** – denne enheten inneholder kravene for alle generelle ressursteammedlemmer.
 - **Estimat** og **Estimatlinje** – disse enhetene har en relasjon mellom overskrift/linje og inneholder utgiftsestimater for prosjektet. Oppgaveestimater lagres i enheten **Ressursestimat**.
 
-![Diagram som viser ressurskrav og prosjektrelasjoner](media/PS-Reporting-image4.png "Diagram som viser ressurskrav og prosjektrelasjoner")
+![Diagram som viser ressurskrav og prosjektrelasjoner.](media/PS-Reporting-image4.png "Diagram som viser ressurskrav og prosjektrelasjoner")
 
 ## <a name="reporting-on-resources"></a>Rapportere om ressurser
 
@@ -92,7 +92,7 @@ Prosjektressurser bruker de **bestillbare ressursenhetene** fra Universal Resour
 - **Kategori for ressurs som kan reserveres** – denne enheten representerer rollen til den bestillbare ressursen.
 - **Bestillinger av ressurs som kan reserveres** – denne enheten representerer tiden som er bestilt til prosjekter for ressursen. Hver bestilling har både en hodeenhet og linjeenheter, og hver linje har en status som representerer statusen for bestillingen.
 
-![Diagram som viser relasjoner for reserverbare ressursegenskaper](media/PS-Reporting-image5.png "Diagram som viser relasjoner for reserverbare ressursegenskaper")
+![Diagram som viser relasjoner for reserverbare ressursegenskaper.](media/PS-Reporting-image5.png "Diagram som viser relasjoner for reserverbare ressursegenskaper")
 
 ## <a name="reporting-on-actual-transactions"></a>Rapportere om faktiske transaksjoner
 
@@ -120,7 +120,7 @@ Når du arbeider med den enheten **Faktisk verdi**, er det viktig at du forstår
 
 Enheten **Transaksjonsopprinnelse** registrerer opprinnelsen til oppføringen **Faktisk verdi**, og enheten **Transaksjonstilkobling** registrerer de relaterte oppføringene for oppføringen **Faktisk verdi**. I tillegg inneholder oppføringen **Faktisk verdi** referanser til prosjektet, prosjektkontrakten (ordre), den bestillbare ressursen og kunden.
 
-![Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner](media/PS-Reporting-image6.png "Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner")
+![Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner.](media/PS-Reporting-image6.png "Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

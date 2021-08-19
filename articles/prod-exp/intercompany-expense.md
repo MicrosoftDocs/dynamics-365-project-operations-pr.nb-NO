@@ -1,8 +1,8 @@
 ---
 title: Konserninterne utgifter
 description: Dette emnet inneholder informasjon om hvordan du bruker selskapets utgifter til å tilordne en arbeiders utgifter til den juridiske enheten som arbeidet ble utført for.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005083"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001218"
 ---
 # <a name="intercompany-expenses"></a>Konserninterne utgifter
 
@@ -34,5 +34,17 @@ Før en arbeider kan opprette og sende inn selskapets utgifter, må du aktivere 
 Før du kan bruke avgiftsgrupper som er knyttet til den juridiske enheten for utlån (kilde) i stedet for den juridiske enheten (målet) i reiseregningen, må du aktivere funksjonaliteten i oppsettet av salgsavgift i økonomimodulen. Når parameteren **Juridisk enhet for konsernintern avgiftsbokføring** er satt til **Kilde** og **Bruk avgiftsregler for mva** er satt til **Nei**, brukes avgiftskombinasjonen for den juridisk enheten for utlån. Når den samme parameteren er satt til **Mål**, brukes avgiftskombinasjonen for den lånende juridiske enheten. Når det gjelder juridiske enheter i USA, når parameteren er angitt til **Kilde**, må feltet **Mva-fordringer** også konfigureres på den nye siden **Bokføringsgrupper i hovedbok**. Regnskapsmotoren bruker informasjonen fra dette feltet for avgiftsrelatert regnskapsregistrering.   
 Funksjonaliteten er konsekvent for utgiftslinjer som er bokført med eller uten et prosjekt.  
 
+## <a name="new-expense-expression-builder"></a>Nytt utgiftsuttrykksverktøy
+
+Den nye utgiftsuttrykksverktøyet løser problemer med scenarioer for selskapets utgifter som bruker prosjekter. Denne funksjonen sikrer at utgiftsregelen valideres riktig mot prosjektet som er valgt på utgiftslinjen, når du oppretter en selskapsutgift, og at utgiftsrapporten kan sendes riktig.
+
+For at utgiftsuttrykksverktøyet skal fungere må den være aktivert. I tillegg bør utgiftspolicyen som har en prosjekt-ID, angis.
+
+Hvis du allerede har konfigurert policyer som validerer prosjekt-ID-en på utgiftslinjen, må disse policyene avvikles. Deretter kan du aktivere funksjonen og konfigurere policyene på nytt.
+
+Følg fremgangsmåten nedenfor for å aktivere denne funksjonen.
+
+1. Gå til **Arbeidsområder** \> **Funksjonsbehandling**.
+2. I listen velger du **Nytt utgiftsuttrykksverktøy for å løse problemer med konserninterne utgiftsscenarioer som bruker prosjekter**. Velg deretter **Aktiver nå**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

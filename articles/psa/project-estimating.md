@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009178"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002568"
 ---
 # <a name="project-costs-and-revenue"></a>Prosjektkostnader og -omsetning
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009178"
 
 Prosjektestimater gir en økonomisk oversikt for arbeid som beregnet og planlagt i prosjektetplanen. Kategorien **Estimater** på **Prosjekter**-siden viser kostnadene og omsetningen for arbeidet du planlegger. Den inneholder også informasjon om mange forhåndsdefinerte dimensjoner. 
 
-> ![Kategorien Estimater](media/project-5.png)
+> ![Fanen Estimater.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Kostnads- og salgsverdier for prosjektet
 
@@ -66,13 +66,13 @@ Hvis systemet ikke finner en pris for rollen, settes salgsprisen på estimatlinj
 
 Kategorien **Estimater** har en rutenettvisning som viser estimatlinjer. Rutenettet inneholder kolonner for enheten, den totale kostprisen og den totalsalgsprisen, som vist i følgende illustrasjon. 
 
-> ![Rutenettvisning i kategorien Estimater](media/project-6.png)
+> ![Rutenettvisning i fanen Estimater.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Tidsinndelt visning av prosjektestimater
 
 Den tidsfasede visningen av prosjektestimater viser estimatdataene fra rutenettvisningen i løpet av tidslinjen, i en tidsskala som du velger. Som standard er estimatdataene pivotert i **Rolle**-dimensjonen.
 
-> ![Tidsinndelt visning for prosjektestimater](media/project-7.png)
+> ![Tidsinndelt visning for prosjektestimater.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Tildele estimert innsats basert på oppgavemodusen
 
