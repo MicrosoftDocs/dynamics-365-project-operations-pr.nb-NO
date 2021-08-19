@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014983"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000588"
 ---
 # <a name="project-pricing"></a>Prosjektprising 
 
@@ -46,7 +46,7 @@ Prislisteenheten har tre relaterte tabeller som lagrer priser:
   - **Transaksjonskategoripris** – denne tabellen lagrer priser etter transaksjonskategori og brukes til å definere utgiftskategoripriser.
   - **Prislisteelementer** – denne tabellen inneholder priser for katalogprodukter.
 
-> ![Konfigurere priser ved hjelp av en prisliste](media/basic-guide-12.png)
+> ![Konfigurere priser ved hjelp av en prisliste.](media/basic-guide-12.png)
  
 Prislisten er et rangeringskort. Et rangeringskort er en kombinasjon av prislisteenheten og relaterte rader i tabellene Rollepris, Transaksjonskategoripris og Prislisteelementer.
 
@@ -58,7 +58,7 @@ Personaltid tilbys vanligvis basert på rollen som en ressurs fyller, i et beste
 
 **Tid**-enhetsgruppen opprettes når PSA installeres. Den har **Time** som standardenhet. Du kan ikke slette, gi nytt navn til eller redigere attributter for **Tid**-enhetsgruppen eller **Time**-enheten. Du kan imidlertid legge til andre enheter i **Tid**-enhetsgruppen. Hvis du prøver å slette **Tid**-enhetsgruppen eller **Time**-enheten, kan det oppstå feil i PSA-forretningslogikken.
 
-> ![Konfigurere priser etter rolle](media/basic-guide-13.png)
+> ![Konfigurere priser etter rolle.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transaksjonskategorier og utgiftskategorier
 
@@ -68,7 +68,7 @@ Reiseutgifter og andre utgifter som påløper for prosjektkonsulenter, blir vanl
 - **Påslagsprosent** – prosentandelen for den faktiske kostnaden som faktureres til kunden. 
 - **Pris per enhet** – en faktureringspris er angitt for hver enhet i utgiftskategorien. Beløpet som blir fakturert til kunden, beregnes basert på antall utgiftsenheter som konsulenten rapporterer. Reisegodtgjørelse bruker pris per enhet. For eksempel kan utgiftskategorien for reisegodtgjørelse konfigureres for 30 USD per dag eller 2 USD per mile. Når en konsulent rapporterer reisegodtgjørelse i et prosjekt, beregnes beløpet til fakturering basert på antall kilometer som er rapportert av konsulenten.
 
-> ![Konfigurere prising for utgiftskategorier](media/basic-guide-14.png)
+> ![Konfigurere prising for utgiftskategorier.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prising og overstyringer av prosjektsalg
 
@@ -114,7 +114,7 @@ Du kan imidlertid bruke en hovedprisliste i et tilbud. Du kan også kopiere en h
 
 Når du oppretter en egendefinert prosjektprisliste, kopieres bare prosjektkomponentene i prislisten. Med andre ord opprettes det en ny prisliste som en kopi av den eksisterende prosjektprislisten som er knyttet til tilbudet, og denne nye prislisten har bare relaterte rollepriser og transaksjonskategoripriser.
 
-> ![Vise og konfigurere egendefinerte priser for en prosjektkontrakt](media/basic-guide-15.png)
+> ![Vise og konfigurere egendefinerte priser for en prosjektkontrakt.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Spore kostnader
 

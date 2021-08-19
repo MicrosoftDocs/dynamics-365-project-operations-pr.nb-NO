@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000093"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Hensyn ved oppgradering – PSA-versjon 2.x eller 1.x til versjon 3
 
@@ -35,7 +35,7 @@ Både Dynamics 365 Project Service Automation og Dynamics 365 Field Service bruk
 ## <a name="resource-assignments"></a>Ressurstilordninger
 I Project Service Automation versjon 2 og versjon 1 ble oppgavetilordninger lagret som underordnede oppgaver (også kalt linjeoppgaver) i **Oppgaveenhet** og var indirekte relatert til **Ressurstilordning**-enheten. Linjeoppgaven var synlig i popup-vinduet for tilordningen i arbeidsnedbrytningsstrukturen (WBS).
 
-![Linjeaktiviteter i WBS i Project Service Automation versjon 2 og versjon 1](media/upgrade-line-task-01.png)
+![Linjeaktiviteter i WBS i Project Service Automation versjon 2 og versjon 1.](media/upgrade-line-task-01.png)
 
 I versjon 3 av Project Service Automation er det underliggende skjemaet for tilordning av bestillbare ressurser til oppgaver endret. Linjeoppgaven er avskrevet, og det er en direkte 1:1-relasjon mellom oppgaven i **Oppgaveenhet** og teammedlemmet i enheten **Ressurstilordning**. Oppgaver som er tilordnet til et prosjektteammedlem, er nå lagret direkte i ressurstilordningsenheten.  
 
@@ -46,26 +46,26 @@ Ved hjelp av den underliggende oppgaveenheten kunne teammedlemmer ved hjelp av o
 
 Hvis du har tilordnet en ressurs til en aktivitet utenfor standardrollen i versjon 2 og versjon 1, tilordnes den navngitte ressursen til standardrollen for alle oppgavetilordninger når du oppgraderer, uavhengig av rolletilordning i versjon 2. Denne tilordningen vil føre til forskjeller i de beregnede beregningene fra versjon 2 eller versjon 1 til versjon 3, fordi estimater beregnes basert på rollen til ressursen og ikke tilordning av linjeoppgaver. I versjon 2 er eksempelvis to oppgaver tilordnet til Aurora Tharaldsen. Rollen på linjeoppgaven for oppgave 1 er Utvikler og Programbehandler for oppgave 2. Aurora Tharaldsen har standardrollen som Programbehandler.
 
-![Flere roller som er tilordnet én ressurs](media/upgrade-multiple-roles-02.png)
+![Flere roller som er tilordnet én ressurs.](media/upgrade-multiple-roles-02.png)
 
 I og med at rollene som Utvikler og Programbehandler er forskjellige, er kostnads- og salgsberegningene som følger:
 
-![Kostnadsestimater for ressursroller](media/upggrade-cost-estimates-03.png)
+![Kostnadsestimater for ressursroller.](media/upggrade-cost-estimates-03.png)
 
-![Salgsestimater for ressursroller](media/upgrade-sales-estimates-04.png)
+![Salgsestimater for ressursroller.](media/upgrade-sales-estimates-04.png)
 
 Når du oppgraderer til versjon 3, blir linjeoppgaver erstattet med ressurstilordninger for oppgaven for ressursteammedlemmet som kan bestilles. Tilordningen bruker standardrollen ressursen som kan reserveres. I grafikken nedenfor har Aurora Tharaldsen rollen som Programbehandler i ressursen.
 
-![Ressurstilordninger](media/resource-assignment-v2-05.png)
+![Ressurstilordninger.](media/resource-assignment-v2-05.png)
 
 I og med at estimatene er basert på standardrollen for ressursen, kan det hende at salgs- og kostnadsberegningene endres. I grafikken nedenfor kan du ikke lenger se rollen **Utvikler**, fordi rollen nå hentes fra den bestillbare ressursens standardrolle.
 
-![Kostnadsestimater for standardroller](media/resource-assignment-cost-estimate-06.png)
-![Salgsestimater for standardroller](media/resource-assignment-sales-estimate-07.png)
+![Kostnadsestimater for standardroller.](media/resource-assignment-cost-estimate-06.png)
+![Salgsestimater for standardroller.](media/resource-assignment-sales-estimate-07.png)
 
 Når oppgraderingen er fullført, kan du redigere rollen til et teammedlem til noen annet enn den tilordnede standarden. Hvis du imidlertid endrer teammedlemmers rolle, blir den endret på alle de tilordnede oppgavene, fordi teammedlemmer ikke kan tilordnes flere roller i versjon 3.
 
-![Oppdatere en ressursrolle](media/resource-role-assignment-08.png)
+![Oppdatere en ressursrolle.](media/resource-role-assignment-08.png)
 
 Dette gjelder også for linjeaktiviteter som er tilordnet navngitte ressurser når du endrer ressursens organisasjonsenhet fra standard til en annen organisasjonsenhet. Når oppgraderingen av versjon 3 er fullført, bruker tilordningen ressursens standard organisasjonsenhet i stedet for den som er angitt i linjeoppgaven.
 
@@ -83,24 +83,24 @@ For oppgaver som er tilordnet til generelle teammedlemmer som ble generert med *
 
 I Prosjekt Z-prosjektet er for eksempel kontraktorganisasjonsenheten Contoso US. I prosjektplanen er testing av oppgaver i implementeringsfasen blitt tilordnet rollen Teknisk konsulent, og den tilordnede organisasjonsenheten er Contoso India.
 
-![Organisasjonstilordning for implementeringsfasen](media/org-unit-assignment-09.png)
+![Organisasjonstilordning for implementeringsfasen.](media/org-unit-assignment-09.png)
 
 Etter implementeringsfasen tilordnes integreringstestoppgaven til den tekniske konsulenten, men organisasjonen er satt til Contoso US.  
 
-![Organisasjonstilordning for integreringstestoppgave](media/org-unit-generate-team-10.png)
+![Organisasjonstilordning for integreringstestoppgave.](media/org-unit-generate-team-10.png)
 
 Når du genererer et team for prosjektet, opprettes det to generiske teammedlemmer på grunn av de forskjellige organisasjonsenhetene i oppgavene. Teknisk konsulent 1 blir tilordnet Contoso India-oppgaver, og Teknisk konsulent 2 får Contoso US-oppgavene.  
 
-![Genererte generelle teammedlemmer](media/org-unit-assignments-multiple-resources-11.png)
+![Genererte generelle teammedlemmer.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > I Project Service Automation versjon 2 og versjon 1 inneholder ikke teammedlemmet organisasjonsenheten som vedlikeholdes på linjeoppgaven.
 
-![Linjeoppgaver i versjon 2 og versjon 1 i Project Service Automation](media/line-tasks-12.png)
+![Linjeoppgaver i versjon 2 og versjon 1 i Project Service Automation.](media/line-tasks-12.png)
 
 Du kan vise organisasjonsenheten i beregningsvisningen. 
 
-![Estimater for organisasjonsenheter](media/org-unit-estimates-view-13.png)
+![Estimater for organisasjonsenheter.](media/org-unit-estimates-view-13.png)
  
 Når oppgraderingen er fullført, blir organisasjonsenheten i linjeoppgaven som tilsvarer det generelle teammedlemmet, lagt til det generelle teammedlemmet, og linjeoppgaven blir fjernet. På grunn av dette anbefaler vi at før du oppgraderer, genererer eller genererer teamet på nytt for hvert prosjekt som inneholder generelle ressurser.
 

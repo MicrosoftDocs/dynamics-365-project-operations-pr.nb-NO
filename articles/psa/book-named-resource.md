@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013408"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000498"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Bestille navngitte ressurser fra ressurskrav
 
@@ -35,29 +35,29 @@ Du kan bestille en navngitt ressurs som erstatter en generisk ressurs som har et
 2. Velg den generelle ressursen som har et ressurskrav, fra listen, og klikk deretter **Bestill**. Du kan også åpne ressurskravet og deretter klikke **Bestill**.
 
 
-![Bestille et generisk teammedlem](media/RM-how-to-14.png)
+![Bestille et generisk teammedlem.](media/RM-how-to-14.png)
 
 
 3. På siden **Planleggingsassistent** velger du en navngitt ressurs som skal reserveres til prosjektteamet, og deretter klikker du **Bestill**.
 
-![Reservere et generisk teammedlem ved hjelp av planleggingsassistenten](media/RM-how-to-15.png)
+![Reservere et generisk teammedlem ved hjelp av planleggingsassistenten.](media/RM-how-to-15.png)
 
 Når bestillingen er fullført og oppfylt med en navngitt ressurs, erstattes den generelle ressursen med den navngitte ressursen.
 
-![Navngitt teammedlem erstatter et generisk teammedlem](media/RM-how-to-16.png)
+![Navngitt teammedlem erstatter et generisk teammedlem.](media/RM-how-to-16.png)
 
 Tilordningene i tidsplanen oppdateres også med den navngitte ressursen.
 
-![Navngitt teammedlem tilordnet til prosjektoppgaver](media/RM-how-to-17.png)
+![Navngitt teammedlem tilordnet til prosjektoppgaver.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Oppfylle en generisk ressurs med flere navngitte ressurser
 Å oppfylle et krav for en generell ressurs med flere navngitte ressurser ligner på å tilordne én enkelt navngitt ressurs. Det er for eksempel en oppgave med en varighet på fem dager, og 120 timer arbeid. Denne oppgaven kan ikke full føres av én ressurs som arbeider med en vanlig 8-timers dag i løpet av en uke på fem dager. 
 
-![En oppgave som krever 120 arbeidstimer over fem dager](media/RM-how-to-21.png)
+![En oppgave som krever 120 arbeidstimer over fem dager.](media/RM-how-to-21.png)
 
 Kravet er for 120 timer i løpet av fem dager, som er 24 timer per dag.
 
-![Krav per dag](media/RM-how-to-22.png)
+![Krav per dag.](media/RM-how-to-22.png)
 
 Dette er et eksempel på når flere navngitte ressurser er nødvendige for å oppfylle en generisk ressursforespørsel. Du må reservere flere ressurser for å oppfylle behovet.
 

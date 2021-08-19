@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009223"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000183"
 ---
 # <a name="product-catalog-pricing"></a>Prising i produktkatalog 
 
@@ -44,7 +44,7 @@ Du kan legge til produkter fra en produktkatalog i forskjellige prislister. Pris
 
 PSA støtter ulike avrundingsalternativer når priser konfigureres som en funksjon av listepris, standardkostnad eller løpende kostnad. I tillegg til å dra nytte av flere prisingsmetoder og avrundingsalternativer kan du knytte rabattlister til prislisteelementer. 
 
-> ![Legge til produkter fra en katalog i forskjellige prislister](media/basic-guide-16.png)
+> ![Legge til produkter fra en katalog i forskjellige prislister.](media/basic-guide-16.png)
 
 Når du oppretter en ny egen definert prisliste for et tilbud ved **Opprett egendefinert prising** på siden **Prosjekttilbud**, lager PSA en kopi av prislisten, og **Enhet**-feltet i overskriften i den nye prislisten settes til **Salgsenhet**. Navnet på den nye prislisten føyes til med navnet på tilbudet og et tidsstempel. Du kan også bruke navnet på den nye prislisten og navnet på tilbudet i egendefinerte arbeidsflyter for å utløse ytterligere gjennomsyn og godkjenninger for tilbud som bruker et egendefinert pris.
 
