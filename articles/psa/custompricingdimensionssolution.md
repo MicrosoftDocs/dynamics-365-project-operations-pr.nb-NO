@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012328"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995278"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Opprette egendefinerte løsninger for prisdimensjoner
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012328"
 1. Velg **Innstillinger** > **Løsninger**, og velg deretter **Ny**. 
 2. Gi løsningen navnet **\<your organization name>-prisdimensjoner**, angi den gjenstående nødvendige informasjonen, og velg deretter **Lagre**.
 
-> ![Opprette en egendefinert løsning for prisdimensjoner](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Opprette en egendefinert løsning for prisdimensjoner.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Legg til alle nødvendige enheter og relaterte komponenter i prisdimensjonsløsningen
 Du må legge til følgende Project Service-enheter i prisløsningen. Fullfør trinnene i denne prosedyren for å gjøre noen viktige skjemaendringer i prisløsningen, slik at enhetene blir klar over de nye prisdimensjonene.
@@ -54,16 +54,16 @@ Du må legge til følgende Project Service-enheter i prisløsningen. Fullfør tr
 - Rollepris 
 - Tidsoppføring 
 
-> ![Legg til eksisterende enheter i prisdimensjonsløsningen](media/Existing-entities-to-PD-solution.png)
+> ![Legg til eksisterende enheter i prisdimensjonsløsningen.](media/Existing-entities-to-PD-solution.png)
 
-> ![Velg løsningskomponenter](media/Dimension-Components.png)
+> ![Velg løsningskomponenter.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Pass på at du inkluderer alle skjemaer og visninger for hver av enhetene som er valgt.
 
 4. Når du blir bedt om å inkludere avhengige enheter for de valgte enhetene, klikker du **Nei**.
 
-> ![Ikke ta med alle relaterte komponenter](media/Do-not-include-required.png)
+> ![Ikke ta med alle relaterte komponenter.](media/Do-not-include-required.png)
 
 
 

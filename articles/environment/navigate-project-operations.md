@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000137"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994603"
 ---
 # <a name="navigate-project-operations"></a>Navigere i Project Operations
 
@@ -28,11 +28,11 @@ Når du har klargjort Project Operations slik det er beskrevet i dette emnet, gi
 
 Bruk miljønavnet i delen **Navn på Common Data Service-miljø** for å navigere til Project Operations på et CDS-miljø. 
 
-  ![Common Data Service-miljønavn](./media/environment-name.PNG)
+  ![Common Data Service-miljønavn.](./media/environment-name.PNG)
 
 Velg **Logg på** > **Logg på miljøet** for å navigere til modulen **Prosjektstyring og regnskap** i Finance.  
 
-   ![Logge på Finance](./media/environment-login.PNG)
+   ![Logg på Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Du kan få tilgang til Project Operations i Common Data Service og modulen **Prosjektstyring og regnskap** direkte ved å bruke de respektive URL-adressene. 

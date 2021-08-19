@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997973"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995053"
 ---
 # <a name="propose-project-resources"></a>Foreslå prosjektressurser
 
@@ -32,21 +32,21 @@ Ressursledere kan foreslå en ressurs til prosjektlederen ved å bruke en ressur
 1. Fra rutenettet med forspørsler eller fra selve forespørselen velger du **Søk etter ressurser**.
 2. På siden **Planleggingsassistent** velger du ressursen, og deretter i ruten **Opprett ressursbestilling**, i feltet **Bestillingsstatus**, velger du **Bestill**.
 
-    ![Foreslått ressurs valgt](media/Resource-Management-image62.png)
+    ![Foreslått ressurs valgt.](media/Resource-Management-image62.png)
 
 Følgende statusoppdateringer inntreffer:
 
 - På siden **Planleggingsassistent** oppdateres statusindikatorene for å indikere at bestillingen er foreslått, ikke forpliktende bestilt.
 
-    ![Statusindikatorer for foreslått bestilling på siden Planleggingsassistent](media/Resource-Management-image63.png)
+    ![Statusindikatorer for foreslått bestilling på siden Planleggingsassistent.](media/Resource-Management-image63.png)
 
 - I ressursforespørselen endres statusen til **Må gjennomgås**.
 
-    ![Status for ressursforespørsel endret til Må gjennomgås](media/Resource-Management-image64.png)
+    ![Status for ressursforespørsel endret til Må gjennomgås.](media/Resource-Management-image64.png)
 
 - I kategorien **Team** i prosjektet endres verdien for det generelle teammedlemmets **Forespørselsstatus** til **Må gjennomgås**.
 
-    ![Generelt teammedlems forespørselsstatus endret til Må gjennomgås i kategorien Team.](media/Resource-Management-image48.png)
+    ![Generelt teammedlems forespørselsstatus endret til Må gjennomgås i fanen Team.](media/Resource-Management-image48.png)
 
 Prosjektlederen kan enten godta eller avvise forslaget.
 
@@ -70,7 +70,7 @@ Følgende formler brukes til å beregne utnyttelse:
 
 Du kan finne visningen **Ressursutnyttelse** i **Ressurser**-ruten.
 
-![Visningen Ressursutnyttelse](media/Resource-Management-image65.png)
+![Visningen Ressursutnyttelse.](media/Resource-Management-image65.png)
 
 Hver celle i rutenettet representerer den fakturerbare utnyttelsesprosenten for ressursen i en periode, for eksempel en dag, uke eller måned. Følgende formler brukes til å fargelegge cellene:
 
@@ -84,7 +84,7 @@ Rutenettet krever at du angir en målutnyttelse for rollen eller den individuell
 
 I tillegg må en standardrolle tilordnes til hver bestillbare ressurs. Gå til **Ressurser** \> **Ressurser**. I kategorien **Project Service** kontrollerer du at det er definert en ressursrolle, og at **Er standard**-feltet er satt til **Ja**. Du kan legge til flere roller der **Er standard = Nei**. Rollen der **Er standard = Ja** brukes til å evaluere ressursens utnyttelse mot målet for den aktuelle rollen.
 
-![Standardrolle angitt](media/Resource-Management-image67.png)
+![Standardrolle angitt.](media/Resource-Management-image67.png)
 
 I kategorien **Project Service** kan du også angi en individuell målutnyttelse for ressursen. Beregningen av utnyttelsen bruker deretter denne målutnyttelsen til å evaluere ressursens mål i stedet for målet for standardrollen for ressursen.
 
@@ -96,21 +96,21 @@ Det er svært viktig at ressurslederne kan vise tilgjengeligheten til ressurser 
 
 Arbeidstimer for ressursen brukes som grunnlag for beregning av tilgjengeligheten for en ressurs. Ressursbestillinger opptar kapasiteten til ressursene.
 
-![Planleggingstavle](media/Resource-Management-image68.png)
+![Planleggingstavle.](media/Resource-Management-image68.png)
 
 Planleggingstavlen bruker farger og skyggelegging til å vise bestillinger, tilgjengelighet og overbestillinger, samt statusen til bestillinger. Ved hjelp av en innstilling for planleggingstavlen kan du vise en forklaring.
 
 Hvis en pil mot høyre vises ved siden av en individuell bestillbar ressurs på planleggingstavlen, kan ressursen utvides for å vise detaljer om arbeidet som er bestilt av ressursen.
 
-![Bestillbar ressurs utvidet på planleggingstavlen](media/Resource-Management-image69.png)
+![Bestillbar ressurs utvidet på planleggingstavlen.](media/Resource-Management-image69.png)
 
 Ettersom Dynamics 365 Project Service Automation bruker Universal Resource Scheduling-motoren, hvis du også har Dynamics 365 Field Service installert, kan du vise detaljene for ressursbestillinger for prosjekter, arbeidsordrer og alle andre enheter du har utvidet planlegging til.
 
-![Detaljer for ressursbestillinger for prosjekter og arbeidsordrer](media/Resource-Management-image70.png)
+![Detaljer for ressursbestillinger for prosjekter og arbeidsordrer.](media/Resource-Management-image70.png)
 
 Hvis du vil vise flere detaljer om en individuell ressurs, høyreklikker du den for å åpne ressurskortet.
 
-![Ressurskort](media/Resource-Management-image71.png)
+![Ressurskort.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
