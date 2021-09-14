@@ -4,6 +4,8 @@
   items:
     - name: Fastslå distribusjonstypen
       href: environment/determine-deployment-type.md
+    - name: Registrer deg for Project Operations-prøveversjoner
+      href: environment/admin-trials.md
     - name: Project Operations-oppdateringer
       href: whats-new/project-operations-updates.md
 - name: Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
+        - name: August 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Juni 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -418,6 +422,8 @@
       items:
         - name: Oversikt over godkjenninger
           href: approvals/approvals-overview.md
+        - name: Godkjenningssett
+          href: approvals/approval-sets.md
         - name: Notater for utviklere
           items:
             - name: Utviklers merknader til godkjenninger
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
+        - name: Nyheter i bølge 2 i 2021 for tidlig tilgang – Lite-distribusjon
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheter august 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Nyheter juli 2021 – Lite-distribusjon
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Nyheter juni 2021 – Lite-distribusjon
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Administrasjon av underkontrakt i Project Operations
       items:
-        - name: Oversikt over administrasjon av underkontrakter
+        - name: Administrasjon av underkontrakt i Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Underkontrakter i tidlig tilgang for oktober 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Nøkkelkonsepter i underkontrakter
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Administrasjon av leverandører og prosjektprislister
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Underleverandører som ressurser som kan reserveres
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Overskriftsdetaljer for underkontrakter
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Underkontraktlinjer for tid
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Underkontraktlinjer for utgift
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Underkontraktlinjer for produkter
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressurser for underkontraktlinje
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milepæler for underkontraktlinje
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Tid
       items:
         - name: Oversikt over tid
@@ -868,6 +892,8 @@
       items:
         - name: Oversikt over godkjenninger
           href: approvals/approvals-overview.md
+        - name: Godkjenningssett
+          href: approvals/approval-sets.md
         - name: Notater for utviklere
           items:
             - name: Utviklers merknader til godkjenninger
@@ -1060,6 +1086,8 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Tilpass ukentlige tidsoppføringer
               href: psa/time-entry-extensibility-v3.md
-            - name: Godkjenningssett
+            - name: Godkjenningssett i Project Service Automation
               href: psa/approval-set.md
     - name: Vanlige spørsmål og feilsøking (3.x)
       items:
