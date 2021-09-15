@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007878"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323428"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrer deg for forhåndsversjonsabonnementer på Project Operations for ressursbaserte/ikke-lagerførte scenarioer
 
@@ -23,7 +23,7 @@ Dette emnet forklarer hvordan du abonnerer på prøveversjonstilbudet og distrib
 
 ## <a name="prerequisites"></a>Forutsetninger
 - Brukeren som distribuerer forhåndsversjonen, må ha globale administratorrettigheter for Azure-leieren. Du kan opprette en leier i løpet av den første innløsningen av tilbudet. 
-- Distribusjon av et Finance-miljø krever et gyldig Azure-abonnement som blir fakturert per miljø. Du kan bruke organisasjonens eksisterende abonnement eller bruke en [Azure-prøveversjon](https://azure.microsoft.com/en-us/free/) for å komme i gang. CDS-miljøet tilbys gratis i en begrenset periode på 30 dager.
+- Distribusjon av et Finance-miljø krever et gyldig Azure-abonnement som blir fakturert per miljø. Du kan bruke organisasjonens eksisterende abonnement eller bruke en [Azure-prøveversjon](https://azure.microsoft.com/free/) for å komme i gang. CDS-miljøet tilbys gratis i en begrenset periode på 30 dager.
 
 > [!IMPORTANT]
 > Bare én person, leieradministratoren, i en organisasjon trenger å utføre denne oppgaven. Hvis det ikke er du som er abonnent for denne versjonen, må du vente til organisasjonen har registrert seg og du har mottatt brukerlegitimasjonen.
