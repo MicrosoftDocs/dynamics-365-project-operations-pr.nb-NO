@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323473"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501383"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter august 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -31,7 +31,7 @@ Følgende funksjoner er inkludert i denne versjonen:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Oppdateringer av tilordninger for dobbel skriving for Project Operations
 
-Det finnes ingen oppdateringer for tilordninger av dobbel skriving i Project Operations i denne versjonen. 
+Det finnes ingen oppdateringer for tilordninger av dobbel skriving i Project Operations i denne versjonen.
 
 Hvis du vil ha en gjeldende liste og versjoner av tilordninger for dobbel skriving i Project Operations, kan du se [Tilordningsversjoner av dobbel skriving for Project Operations](../environment/resource-dual-write-maps.md).
 

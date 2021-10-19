@@ -2,32 +2,38 @@
 title: Feilsøke arbeid i oppgaverutenettet
 description: Dette emnet gir feilsøkingsinformasjon som er nødvendig når du arbeider i oppgaverutenettet.
 author: ruhercul
-ms.date: 08/02/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989113"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547211"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Feilsøke arbeid i oppgaverutenettet 
 
-_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Dette emnet beskriver hvordan du løser problemer som kan oppstå når du arbeider med kostnadsbehandling.
+_**Gjelder:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering, Project for the web_
 
-## <a name="enable-cookies"></a>Aktivere informasjonskapsler
+Oppgaverutenettet som distribueres av Dynamics 365 Project Operations, er en driftet iframe i Microsoft Dataverse. Som et resultat av denne bruken må spesifikke krav oppfylles for å sikre at autorisasjon og godkjenning fungerer som de skal. Dettet emne beskriver de vanlige problemene som kan ha innvirkning på muligheten til å gjengi rutenettet eller administrere oppgaver i arbeidsnedbrytningsstrukturen (WBS).
 
-Project Operations krever at informasjonskapsler fra tredjeparter aktiveres for å gjengi strukturen i arbeidet. Når informasjonskapsler fra tredjeparter ikke er aktivert, vises en tom side i stedet for oppgaver når du velger kategorien **Oppgaver** på siden **Prosjekt**.
+Vanlige problemer omfatter:
 
-![Tom kategori når informasjonskapsler fra tredjeparter ikke er aktivert.](media/blankschedule.png)
+- Fanen **Oppgave** i oppgaverutenettet er tom.
+- Når prosjektet åpnes, lastes ikke prosjektet inn, og brukergrensesnittet (UI) sitter fast på spinneren.
+- Administrasjon av rettigheter for **Project for the Web**.
+- Endringer lagres ikke når du oppretter, oppdaterer eller sletter en oppgave.
 
+## <a name="issue-the-task-tab-is-empty"></a>Problem: Fanen Oppgave er tom
 
-### <a name="workaround"></a>Løsning
+### <a name="mitigation-1-enable-cookies"></a>Løsning 1: Aktiver informasjonskapsler
+
+Project Operations krever at informasjonskapsler fra tredjeparter er aktivert for å gjengi arbeidsnedbrytningsstrukturen. Når informasjonskapsler fra tredjeparter ikke er aktivert, vises en tom side i stedet for oppgaver når du velger kategorien **Oppgaver** på siden **Prosjekt**.
+
 For nettleserne Microsoft Edge eller Google Chrome beskriver fremgangsmåtene nedenfor hvordan du oppdaterer nettleserinnstillingen slik at informasjonskapsler fra tredjeparter aktiveres.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -36,6 +42,7 @@ For nettleserne Microsoft Edge eller Google Chrome beskriver fremgangsmåtene ne
 2. I hjørnet øverst til høyre velger du **ellipsen** (...), og deretter velger du **Innstillinger**.
 3. Under **Informasjonskapsler og tillatelser på nettsteder** velger du **Informasjonskapsler og områdedata**.
 4. Deaktiver **Blokker informasjonskapsler fra tredjeparter**.
+5. Oppdater nettleseren din. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -43,78 +50,101 @@ For nettleserne Microsoft Edge eller Google Chrome beskriver fremgangsmåtene ne
 2. Velg de tre vertikale prikkene øverst i høyre hjørne, og velg deretter **Innstillinger**.
 3. Under **Personvern og sikkerhet** velger du **Informasjonskapsler og andre områdedata**.
 4. Velg **Tillat alle informasjonskapsler**.
+5. Oppdater nettleseren din. 
 
-> [!IMPORTANT]
+> [!NOTE]
 > Hvis du blokkerer informasjonskapsler fra tredjeparter, blokkeres alle informasjonskapsler og områdedata fra andre områder, selv om området er tillatt i unntakslisten.
 
-## <a name="pex-endpoint"></a>PEX-endepunkt
+### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Løsning 2: Valider PEX-endepunkt er riktig konfigurert
 
-Project Operations krever at en prosjektparameter refererer til PEX-endepunktet. Dette endepunktet kreves for å kommunisere med tjenesten som brukes til å gjengi strukturen for arbeidsfordelingsarbeid. Hvis parameteren ikke er aktivert, vises feilmeldingen Prosjektparameteren er ikke gyldig. 
-
-### <a name="workaround"></a>Løsning
+Project Operations krever at en prosjektparameter refererer til PEX-endepunktet. Dette endepunkt kreves for å kommunisere med tjenesten som brukes til å gjengi arbeidsnedbrytningsstrukturen. Hvis parameteren ikke er aktivert, vises feilmeldingen Prosjektparameteren er ikke gyldig. Hvis du vil oppdatere PEX-endepunkt, følger du fremgangsmåten nedenfor.
 
 1. Legg til feltet **PEX-endepunkt** på siden **Prosjektparametere**.
-2. Finn produkttypen du bruker. Denne verdien brukes når PEX-endepunktet er angitt. Ved er produkttypen allerede definert i PEX-endepunktet. Behold den verdien. 
-   
-    ![Feltet PEX-endepunkt på prosjektparameteren.](media/pex-endpoint.png)
+2. Finn produkttypen du bruker. Denne verdien brukes når PEX-endepunktet er angitt. Ved er produkttypen allerede definert i PEX-endepunktet. Behold den verdien.
+3. Oppdater feltet med følgende verdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Tabellen nedenfor inneholder typeparameteren som skal brukes basert på produkttypen.
 
-3. Oppdater feltet med følgende verdi: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+      | **Produkttype**                     | **Typeparameter** |
+      |--------------------------------------|--------------------|
+      | Project for the Web i standardorganisasjon   | type=0             |
+      | Project for the Web i CDS-navngitt organisasjon | type=1             |
+      | Project Operations                   | type=2             |
 
-   
-   | Produkttype                         | Typeparameter |
-   |--------------------------------------|----------------|
-   | Project for the Web i standardorganisasjon   | type=0         |
-   | Project for the Web i CDS-navngitt organisasjon | type=1         |
-   | Project Operations                   | type=2         |
-   
 4. Fjern feltet fra siden **Prosjektparametere**.
 
-## <a name="privileges-for-project-for-the-web"></a>Rettigheter for prosjekt for Internett
+## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Prosjektet lastes ikke inn, og brukergrensesnittet står fast på spinneren
 
-Project Operations er avhengig av en ekstern planleggingsservice. Servicen krever at en bruker har flere roller tilordnet til lese- og skrivetilgang til enheter som er relatert til strukturen for arbeidsinndeling. Disse enhetene omfatter prosjektoppgaver, ressurstilordninger og aktivitetsavhengigheter. Hvis en bruker ikke kan gjengi strukturen for arbeidsinndeling når de går til kategorien **Oppgaver**, skyldes det sannsynligvis at Prosjekt for Project Operations ikke er aktivert. En bruker kan motta en sikkerhetsrolle eller en feil relatert til tilgangsfornektelse.
+For godkjenning må popup-vinduer være aktivert for at oppgaverutenettet skal lastes inn. Hvis popup-vinduer ikke er aktivert, blir skjermen stående fast på innlastingsspinneren. Følgende grafikk viser nettadressen med en blokkert popup-etikett på adresselinjen, som fører til at spinneren blir sittende fast og prøver å laste siden. 
 
+   ![Fast spinner og popup-blokk.](media/popupsblocked.png)
 
-## <a name="workaround"></a>Løsning
+### <a name="mitigation-1-enable-pop-ups"></a>Løsning 1: Aktiver popup-vinduer
 
-1. Gå til **Innstilling > Sikkerhet > Brukere > Applikasjonsbrukere**.  
+Når prosjektet står fast i spinneren, kan det hende at popup-vinduer ikke er aktivert.
+
+#### <a name="microsoft-edge"></a>Microsoft Edge
+
+Popup-vinduer kan aktiveres på to måter i Edge-nettleseren.
+
+1. Velg varselet øverst til høyre i Edge-nettleseren.
+2. Velg **Tillat alltid popup-vinduer og omdirigering fra** det bestemte Dataverse-miljøet.
+ 
+     ![Vinduet Popup-vinduer er blokkert.](media/enablepopups.png)
+
+Alternativt kan du også fullføre følgende trinn.
+
+1. Åpne Edge-nettleseren.
+2. Velg **ellipsen** (...) øverst i høyre hjørne, og velg deretter **Innstillinger** > **Områdetillatelser** > **Popup-vinduer og omdirigeringer**.
+3. Slå på/av **Popup-vinduer og omdirigering** for å blokkere popup-vinduer, eller slå på popup-vinduer på enheten.
+4. Når du har aktivert popup-vinduer, oppdaterer du nettleseren. 
+
+#### <a name="google-chrome"></a>Google Chrome
+1. Åpne Chrome-nettleseren.
+2. Naviger til en side der popup-vinduer er blokkert.
+3. Velg **Popup-vindu blokkert** på adresselinjen.
+4. Velg koblingen for popup-vinduene du vil se.
+5. Når du har aktivert popup-vinduer, oppdaterer du nettleseren. 
+
+> [!NOTE]
+> Hvis du alltid vil vise popup-vinduer for området, velger du **Tillat alltid popup-vinduer og omdirigeringer fra [nettsted]**, og deretter velger du **Ferdig**.
+
+## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problem 3: Administrasjon av rettigheter for Project for the Web
+
+Project Operations er avhengig av en ekstern planleggingsservice. Tjenesten krever at en bruker har flere tilordnede roller som gjør det mulig for vedkommende å lese og skrive til enheter relatert til WBS. Disse enhetene omfatter prosjektoppgaver, ressurstilordninger og aktivitetsavhengigheter. Hvis en bruker ikke kan gjengi WBS-en når vedkommende navigerer til fanen **Oppgaver**, skyldes det sannsynligvis at **Prosjekt** for **Project Operations** ikke er aktivert. En bruker kan motta en sikkerhetsrolle eller en feil relatert til tilgangsfornektelse.
+
+### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Løsning 1: Valider sikkerhetsrollene for programbrukere og sluttbrukere
+
+1. Gå til **Innstilling** > **Sikkerhet** > **Brukere** > **Appbrukere**.  
 
    ![Applikasjonsleser.](media/applicationuser.jpg)
    
 2. Dobbeltklikk appbrukeroppføringen for å kontrollere følgende:
 
- - Brukeren har tilgang til prosjektet. Denne verifiseringen utføres vanligvis ved å sørge for at brukeren har sikkerhetsrollen **Prosjektleder**.
- - Microsoft Project-appbrukeren finnes og er riktig konfigurert.
+     - Brukeren har tilgang til prosjektet. Dette kan du gjøre ved å kontrollere at brukeren har sikkerhetsrollen **Prosjektleder**.
+     - Microsoft Project-appbrukeren finnes og er riktig konfigurert.
  
-3. Hvis brukeren ikke finnes, kan du opprette en ny brukeroppføring. Velg **Nye brukere**. Endre oppføringsskjemaet til **Appbruker**, og legg deretter til **App-ID-en**.
+3. Hvis denne brukeren ikke finnes, oppretter du en ny brukeroppføring. 
+4. Velg **Nye brukere**, endre oppføringsskjemaet til **Appbruker**, og legg deretter til **App-ID-en**.
 
    ![Detaljer for appbruker.](media/applicationuserdetails.jpg)
 
-4. Kontroller at brukeren er tilordnet riktig lisens, og at tjenesten er aktivert i tjenesteplandetaljene for lisensen.
-5. Kontroller at brukeren kan åpne project.microsoft.com.
-6. Kontroller gjennom prosjektparameterne at systemet henviser til riktig endepunkt.
-7. Kontroller at prosjektappbrukeren er opprettet.
-8. Bruk følgende sikkerhetsroller for brukeren:
 
-  - Dataverse-bruker
-  - Project Operations-system
-  - Prosjektsystem
+## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Problem 4: Endringer lagres ikke når du oppretter, oppdaterer eller sletter en oppgave
 
-## <a name="error-when-updating-the-work-breakdown-structure"></a>Feil under oppdatering av arbeidsnedbrytningsstrukturen
+Når du gjør én eller flere oppdateringer for WBS, mislykkes endringene og blir ikke lagret. Det vises en feil i tidsplanrutenettet med meldingen om at endringen du nylig har gjort, ikke kan lagres.
 
-Når det gjøres én eller flere oppdateringer i arbeidsnedbrytningsstrukturen, mislykkes endringene etter hvert og blir ikke lagret. Det vises en feil i tidsplanrutenettet om at nylige endringer du har gjort, kunne ikke lagres.
+### <a name="mitigation-1-validate-the-license-assignment"></a>Løsning 1: Valider lisenstilordningen
 
-### <a name="workaround"></a>Løsning
-
-1. Kontroller at brukeren er tilordnet riktig lisens, og at tjenesten er aktivert i tjenesteplandetaljene for lisensen.
-2. Kontroller at brukeren kan åpne project.microsoft.com.
-3. Kontroller at systemet henviser til det riktige endepunktet.
-4. Kontroller at prosjektappbrukeren er opprettet.
-5. Bruk følgende sikkerhetsroller for brukeren:
+1. Kontroller at brukeren er tilordnet riktig lisens, og at tjenesten er aktivert i tjenesteplandetaljene for lisensen.  
+2. Kontroller at brukeren kan åpne **project.microsoft.com**.
+    
+### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Løsning 2: Valideringskonfigurasjon av prosjektappbrukeren
+1. Kontroller at prosjektappbrukeren er opprettet.
+2. Bruk følgende sikkerhetsroller for brukeren:
   
   - Dataverse-bruker eller basebruker
   - Project Operations-system
   - Prosjektsystem
-  - Dobbel skriving for Project Operations (Denne rollen kreves hvis du distribuerer det ressursbaserte/ikke-lagerbeholdte scenarioet for Project Operations.)
+  - System for dobbel skriving i Project Operations. Denne rollen er obligatorisk for ressursbaserte/ikke-lagerbaserte scenarioer i Project Operations.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

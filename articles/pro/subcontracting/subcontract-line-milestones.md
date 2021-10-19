@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323788"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558514"
 ---
 # <a name="subcontract-line-milestones"></a>Milepæler for underkontraktlinje
 
@@ -50,15 +50,15 @@ Milepæler med fast pris på en underkontraktlinje kan genereres manuelt når de
 3. Velg **+ Ny milepæl for underkontraktlinje** i delskjemaet i fanen **Milepæl for underkontrakt**.
 4. Angi den nødvendige informasjonen på siden **Ny milepæl for underkontraktlinje** basert på følgende tabell.
 
-    | Felt | Beskrivelse |
-    | --- | --- |
-    | Navn på milepæl | Navnet på milepælen. |
-    | Beskrivelse | En beskrivelsen av milepælen.  |
-    | Milepældato | Datoen da prosessen for automatisk fakturaoppretting skal se etter statusen for denne milepælen for å vurdere den for fakturering. Denne verdien inkluderes på leverandørfakturalinjen ved fakturering for denne underkontrakten. |
-    | Mengde | Beløpet eller verdien av milepælen som skal faktureres til kunden. Denne verdien inkluderes på leverandørfakturalinjen ved fakturering for denne underkontrakten. |
-    | Avgift | Avgiftsbeløpet som brukes på milepælen. Denne verdien inkluderes på leverandørfakturalinjen ved fakturering for denne underkontrakten. |
-    | Beløp etter avgift | Dette skrivebeskyttede feltet som beregnes som Beløp + Avgift. Denne verdien inkluderes på leverandørfakturalinjen ved fakturering for denne underkontrakten. |
-    | Fakturastatus | Når milepælen opprettes, settes denne statusen alltid til **Ikke klar for fakturering**.  Når statusen er **Klar til faktura**, inkluderer opprettingen av leverandørfakturaen denne milepælen i leverandørfakturaen. |
+    | Felt | Beskrivelse |Funksjonsinnvirkning|
+    | --- | --- |----------------------|
+    | Navn på milepæl | Navnet på milepælen. |Dette vises som den første kolonnen i alle oppslag basert på milepæler for underkontraktlinjer. Leverandørfakturalinjen som opprettes basert på denne milepælen, bruker også navnet på milepælen for underkontraktlinjen som standardnavnet på leverandørfakturalinjen.|
+    | Beskrivelse | En beskrivelsen av milepælen. |Leverandørfakturalinjen som opprettes basert på denne milepælen, bruker også beskrivelsen av milepælen for underkontraktlinjen som standardbeskrivelse av leverandørfakturalinjen.|
+    | Milepældato | Datoen da prosessen for automatisk fakturaoppretting skal se etter statusen for denne milepælen for å vurdere den for fakturering.| Denne verdien brukes som standarddato for leverandørfakturalinjen ved fakturering for denne underkontraktlinjen. |
+    | Mengde | Beløpet eller verdien av milepælen som skal faktureres til kunden. |Denne verdien brukes som standardbeløp på leverandørfakturalinjen ved fakturering for denne underkontraktlinjen. |
+    | Avgift | Avgiftsbeløpet som brukes på milepælen.| Denne verdien brukes som standard avgiftsbeløp på leverandørfakturalinjen ved fakturering for denne underkontraktlinjen. |
+    | Beløp etter avgift | Dette skrivebeskyttede feltet beregnes som Beløp + Avgift.|Denne verdien brukes som standard på leverandørfakturalinjen ved fakturering for denne underkontraktlinjen. |
+    | Fakturastatus | Når milepælen opprettes, settes denne statusen alltid til **Ikke klar for fakturering**.|  Når statusen er **Klar til faktura**, inkluderer opprettingen av leverandørfakturaen denne milepælen i leverandørfakturaen. |
 
 5. Velg **Lagre og lukk**.
 

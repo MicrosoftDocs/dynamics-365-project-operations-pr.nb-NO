@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323878"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547256"
 ---
 # <a name="subcontract-lines-for-time"></a>Underkontraktlinjer for tid
 
@@ -30,23 +30,22 @@ Hvis du vil opprette en underkontraktlinje for tid i Project Operations, følger
 
   Tabellen nedenfor inneholder informasjon om feltene på siden **Underkontraktlinje** og **Hurtigoppretting**.
 
-| **Felt** | **Beskrivelse** |
-| --- | --- |
-| Navn | Navnet på underkontraktlinjen. |
-| Beskrivelse | En kort beskrivelse av tjenester som blir kjøpt på underkontraktlinjen. | 
-| Linjetype | Dette feltet er en standardverdi.  |
-| Faktureringsmetode | Velg faktureringsmetoden. Basert på faktureringsmetoden til den refererte underkontraktlinjen, gjøres en milepælbasert fakturaplan tilgjengelig for faktureringsmetoden med fast pris. |
-| Transaksjonsklasse | Dette feltet er en standardverdi som angir om underkontraktlinjen brukes til å registrere et kjøp av underleverandørtid. |
-| Rolle | Rollen til underkontraktressursene som det blir kjøpt tid av. Rollen som er tilordnet underkontraktressursene, bestemmer innkjøpskostnaden. |
-| Ønsket start | Datoen når underleverandørressursene skal begynne å arbeide. Ønsket start brukes også til å velge en prosjektprisliste fra prosjektprislistene som er vedlagt underkontrakten. Kostnaden for rollen på underkontraktlinjen brukes deretter som standard fra den prislisten. |
-| Ønsket slutt | Datoen når oppgaven til underleverandøren slutter. Denne datoen brukes til å vise advarsler når en prosjektleder trekker fra denne kapasiteten for ressurskrav som inntreffe etter denne datoen. |
-| Antall bestilt | Antall rolletimer som blir kjøpt fra leverandøren. Denne verdien brukes til å vise advarsler når en prosjektleder overtrekker fra denne kapasiteten for ressurskrav. |
-| Enhetsgruppe | Denne feltverdien er standard for tidsenhetsgruppen og kan ikke endres.  |
-| Enhet | Dette feltet brukes som standard basisenhet for timer fra tidsenhetsgruppen. Du kan endre denne verdien for å kjøpe en hvilken som helst enhet i tidsenhetsgruppen, for eksempel dag eller uke. Kombinasjonen av Rolle og Enhet brukes til å beregne enhetsprisen for underkontraktlinjen. |
-| Enhetspris | Enhetsprisen er standard fra kombinasjonen av Rolle og Enhet fra prosjektprislisten som gjelder for ønsket startdato for underkontraktlinjen. Når den aktuelle prosjektprislisten har satt opp prisen i en annen enhet enn enheten på underkontraktlinjen, bruker systemet enhetskonverteringen til å beregne enhetsprisen. |
-| Delsum | Dette er et skrivebeskyttet felt som automatisk beregnes som **Antall x Enhetspris** hvis både antalls- og enhetsprisverdiene angis. Hvis antall, enhetspris eller begge deler er tomme, kan du angi en verdi i feltet. |
-| Merverdiavgift |  Angi mva-beløpet. |
-| Totalbeløp | Totalbeløpet for underkontraktlinjen etter at avgifter er inkludert. |
-
+| **Felt** | **Beskrivelse** | **Funksjonsinnvirkning** |
+| --- | --- | --- |
+| Navn | Navn på underkontraktlinjen for å hjelpe med identifisering. | Dette vises som den første kolonnen i alle oppslag basert på underkontraktlinjer. |
+| Beskrivelse | En kort beskrivelse av tjenester som blir kjøpt på underkontraktlinjen. |Ingen |
+| Linjetype |   Dette feltet har en standardverdi på **antallsbasert**.| Ingen |
+| Faktureringsmetode | Dette er en alternativsett som representerer de to hovedkontraktsmodellene som støttes av Project Operations: **Fast pris** og **Tid og materiell**. | Basert på faktureringsmetoden som er valgt, gjøres en milepælbasert fakturaplan tilgjengelig for underkontraktslinjer med faktureringsmetoden Fast pris. |
+| Transaksjonsklasse | Standardverdien er **Tid**. | Dette angir at underkontraktlinjen brukes til å registrere et kjøp av underleverandørtid. |
+| Rolle | Velg rollen til underkontraktsressursene som det blir kjøpt tid for. | Rollen som utføres av underkontraktsressursene, bestemmer innkjøpskostnaden. |
+| Ønsket start | Angi datoen da underleverandørressursene kreves for å begynne å arbeide. | Denne brukes til å velge en prosjektprisliste fra prosjektprislistene som er vedlagt underkontrakten. Kostnaden for rollen på underkontraktslinjen kommer fra den prislisten. |
+| Ønsket slutt | Angi datoen da tilordningen av underleverandørressursen slutter. | Denne brukes til å vise advarsler når en prosjektleder trekker fra kapasiteten for ressurskrav som inntreffe etter denne datoen. |
+| Antall bestilt | Angi antall timer for rollen som kjøpes fra leverandøren. | Denne brukes til å vise advarsler når en prosjektleder overtrekker fra kapasiteten for ressurskrav som inntreffe. |
+| Enhetsgruppe | Standardverdien er **Tidsenhetsgruppe**, som ikke kan endres. | Ingen|
+| Enhet | Standarden for dette feltet er basisenheten for timer fra **Tidsenhetsgruppe**. Du kan endre denne verdien for å kjøpe en hvilken som helst enhet i **tidsenhetsgruppen**, for eksempel dag eller uke. | Kombinasjonen av **Rolle** og **Enhet** brukes som standard eller beregnet for enhetsprisen for underkontraktslinjen. |
+| Enhetspris | Standard enhetspris bruker kombinasjonen av **Rolle** og **Enhet** fra prosjektprislisten som gjelder for **ønsket startdato** for underkontraktslinjen. | Når den aktuelle prosjektprislisten har satt opp prisen i en annen enhet enn enheten på underkontraktlinjen, bruker systemet enhetskonverteringen til å beregne enhetsprisen. |
+| Delsum |    Dette er et skrivebeskyttet felt som beregnes som Antall x Enhetspris hvis det angis både antall- og enhetsprisverdier. Hvis antall, enhetspris eller begge deler er tomme, kan du angi en verdi i feltet. | Ingen|
+| Merverdiavgift |   Angi mva-beløpet. |Ingen |
+| Totalbeløp | Totalbeløpet for underkontraktlinjen inkludert avgifter. Dette feltet beregnes som delsum + merverdiavgift.|Ingen |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

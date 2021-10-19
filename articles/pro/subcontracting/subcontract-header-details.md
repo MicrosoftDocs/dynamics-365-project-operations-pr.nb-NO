@@ -2,16 +2,16 @@
 title: Overskriftsdetaljer for underkontrakter
 description: Dettet emne forklarer funksjonaliteten i underkontrakthodet i Project Operations.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323653"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501338"
 ---
 # <a name="header-details-for-subcontracts"></a>Overskriftsdetaljer for underkontrakter
 
@@ -28,26 +28,24 @@ Fullfør fremgangsmåten nedenfor for å opprette en underkontrakt.
 1. Velg **Underkontrakter** i navigasjonsruten, og velg **Ny** på siden **Underkontrakt**.
 2. Angi den nødvendige informasjonen, og klikk deretter **Lagre**.
 
-    Tabellen nedenfor inneholder informasjon om feltene på siden Underkontraktoverskrift.
+    Tabellen nedenfor inneholder informasjon om feltene på siden **Underkontraktoverskrift**.
 
-    | **Felt** | **Beskrivelse** |
-    | --- | --- | 
-    | Navn | Navnet på underkontrakten. |
-    | Beskrivelse | En kort beskrivelse av tjenester og produkter som blir kjøpt på underkontrakten. |
-    | Forhandler | Navnet på firmaet som produktene og tjenester blir kjøpt fra. Denne kontooppføringen har relasjonstypen **Leverandør** eller **Forsyner**. |
-    | Underkontraktdato | Datoen da underkontrakten ble opprettet. |
-    | Statusårsak | Statusen for underkontrakten. |
-    | Valuta | Valutaen som produkter og tjenester kjøpes i. Verdien i dette feltet kommer som standard fra leverandørkontoen, men kan endres. Prosjektprislister som brukes til å prise produkter og tjenester på underkontrakten, må være i denne valutaen. Prislister i andre valutaer kan ikke tilknyttes underkontrakten. Kostnaden for produkter og tjenester som påløper for denne underkontrakten, registreres på prosjektet i denne valutaen. |
-    | Kontraktsenhet | Divisjonen i firmaet som inngår en innkjøpskontrakt eller en underkontrakt med leverandøren. |
-    | Betalingsbetingelser | Betalingsbetingelsene for leverandørfakturaene som er utstedt på denne underkontrakten. Verdien i dette feltet kommer som standard fra leverandørkontooppføringen. |
-    | Betalingsadresse | Adressen der betaling på leverandørfakturaer sendes. Verdien i dette feltet kommer som standard fra leverandørkontooppføringen. |
-    | Fakturanavn | Navnet på personen eller divisjonen i leverandørens firma som skal sende fakturaen. Verdien i dette feltet kommer som standard fra oppføringen for leverandørkontoen, og blir brukt som navnet på hovedkontakten på leverandørfakturaer som er opprettet for denne underkontrakten. |
-    | Fakturaadresse | Adressen som brukes på fakturaer fra denne leverandøren. Verdien i dette feltet kommer som standard fra leverandørkontooppføringen. Denne adressen brukes også som faktura fra adresse på leverandørfakturaer som er opprettet for denne underkontrakten. |
-    | Delsum | Hvis en underkontrakt ikke har noen linjer, angir du en verdi i dette feltet som angir delsummen for ordren før avgifter. Hvis underkontrakten har linjer, er dette feltet skrivebeskyttet. Beløpet som vises, er delsumbeløpet fra alle linjene i underkontrakten. |
-    | Avgifter totalt | Hvis en underkontrakt ikke har noen linjer, angir du en verdi i dette feltet som angir avgiftene på denne underkontrakten. Hvis underkontrakten har linjer, er dette feltet skrivebeskyttet. Beløpet som vises, er summen av avgiftsbeløpet fra alle linjene i underkontrakten. |
-    | Totalbeløp |  Dette beregnede feltet viser totalbeløpet for underkontraktlinjen etter at avgifter er inkludert.  |
-    | Dato bekreftet | Datoen da underkontrakten ble bekreftet.  |
-    | Forespurt av | Verdien i dette feltet bruker som standard navnet på brukeren som oppretter underkontrakten. Denne verdien kan endres av den som opprettet underkontrakten, for å angi denne personen på vegne av hvem vedkommende de oppretter underkontrakten for.  |
-    | Leverandørkontoansvarlig | Navnet på hovedkontakten for leverandørkontoen. Verdien i dette feltet kommer som standard fra leverandørkontooppføringen. Denne feltverdien kan endres av brukeren for å velge en annen kontakt som leverandørkontoleder for underkontrakten. E-postvarsler og prisforhandlinger kan konfigureres og sendes av denne kontakten. |
-
-
+    | Felt | Beskrivelse |Funksjonsinnvirkning |
+    |---|------|---| 
+    | Navn | Navnet på underkontrakten. | I alle rullegardinlister for underkontrakt vises navnet på underkontrakten i den første kolonnen for å hjelpe deg med å identifisere underkontrakten. | 
+    | Beskrivelse | En kort beskrivelse av tjenester og produkter som blir kjøpt på underkontrakten. | Ingen |
+    | Forhandler | Navnet på firmaet som produktene og tjenester blir kjøpt fra. Denne kontooppføringen har relasjonstypen **Leverandør** eller **Forsyner**. | Basert på leverandøren som er valgt, angis det automatisk standardverdier for følgende felter:<br/> **• Valuta** </br> **• Prislister** </br> **• Betalingsbetingelser**</br> **• Betalingsadresse**</br> **• Fakturaadresse**</br> **• Fakturanavn** </br>**• Leverandørkontoansvarlig**|
+    | Underkontraktdato | Datoen da underkontrakten ble opprettet. | Underkontraktsdatoen brukes til å velge riktig innkjøpsprisliste fra prislistene som er knyttet til den relaterte leverandøren eller fra prosjektparameterne. |
+    | Statusårsak | Statusen for underkontrakten. | Statusen avgjør hvor underkontrakten er i forretningsprosessen, og om den kan redigeres. <br/>Verdier inkluderer:<br>• **Utkast**: Underkontrakten kan redigeres. Du kan bare redigere underkontrakter med statusen **Utkast**.<br/>• **Bekreftet**: Forhandlingen med leverandøren er fullført, og underkontrakten er godkjent for levering. <br/>• **Lukket**: Leveringen på underkontrakten er fullført.<br/>• **Annullert**: Underkontrakten ble annullert, og ingen levering er planlagt.  | 
+    | Valuta | Valutaen som produkter og tjeneste kjøpes i. Standardverdien angis automatisk fra leverandørkontoen, men den kan endres. | Valutaen til underkontrakten brukes til å velge innkjøpsprisliste fra prislistene som er knyttet til den relaterte leverandøren eller fra prosjektparameterne. Prislister i en annen valuta kan ikke tilknyttes underkontrakten. Kostnadene for tid, utgifter og materiell som leverandørressursene leverer fra denne underkontrakten, registreres i denne valutaen på prosjektet. Når underkontraktsoppføringen er lagret, kan ikke valutaen for underkontrakten endres.|
+    | Kontraktsenhet | Divisjonen i firmaet som inngår en innkjøpskontrakt eller en underkontrakt med leverandøren. | Ingen |
+    | Betalingsbetingelser | Betalingsbetingelsene på leverandørfakturaer som er utstedt på denne underkontrakten. Standardverdien angis automatisk fra oppføring for leverandørkontoen. | Betalingsbetingelser fra underkontrakten kopieres til alle leverandørfakturaer som er relatert til denne underkontrakten. Betalingsbetingelser kan oppdateres hvis underkontrakten har statusen **Utkast**. | 
+    | Betalingsadresse | Adressen til leverandøren som betalinger må sendes til. Standardverdien angis automatisk fra oppføring for leverandørkontoen. | Betalingsadressen fra underkontrakten kopieres som betalingsadressen til alle leverandørfakturaer som er opprettet for denne underkontrakten. Betalingsadressen kan oppdateres hvis underkontrakten har statusen **Utkast**.|
+    | Fakturanavn | Navnet på personen eller divisjonen i leverandørens firma som skal sende fakturaen. Standardverdien angis automatisk fra oppføring for leverandørkontoen. | Verdien **Fakturanavn** fra underkontrakten kopieres til alle leverandørfakturaer som er relatert til denne underkontrakten. Dette feltet kan oppdateres hvis underkontrakten har statusen **Utkast**.|
+    | Fakturaadresse | Adressen som brukes på fakturaer fra leverandøren. Standardverdien angis automatisk fra oppføring for leverandørkontoen. | Denne adressen er faktura fra-adressen på leverandørfakturaer som er opprettet for denne underkontrakten. |
+    | Delsum | Hvis en underkontrakt ikke har noen linjer, angir du delsummen for ordren før avgifter. Hvis underkontrakten har linjer, er dette feltet skrivebeskyttet. Beløpet som vises, er delsumbeløpet fra alle linjene i underkontrakten. | Ingen |
+    | Avgifter totalt | Hvis en underkontrakt ikke har noen linjer, angir avgifter totalt på denne underkontrakten. Hvis underkontrakten har linjer, er dette feltet skrivebeskyttet. Beløpet som vises, er summen av avgiftsbeløpet fra alle linjene i underkontrakten. | Ingen |
+    | Totalbeløp | Dette beregnede feltet viser totalbeløpet for underkontraktlinjen etter at avgifter er inkludert. | Ingen |
+    | Dato bekreftet | Datoen da underkontrakten ble bekreftet. | Ingen |
+    | Forespurt av | Som standard er dette feltet satt til navnet på brukeren som oppretter underkontrakten. Den som opprettet underkontrakten, kan imidlertid endre verdien for å angi personen som vedkommende oppretter underkontrakten på vegne av. | Ingen |
+    | Leverandørkontoansvarlig | Navnet på hovedkontakten for leverandørkontoen. Standardverdien angis automatisk fra oppføring for leverandørkontoen. Du kan velge en annen kontakt som leverandørkontoleder for underkontrakten. | Du kan konfigurere e-postvarsler for å varsle kontakten når det gjøres endringer i underkontrakten som et resultat av prisforhandlinger. |

@@ -2,17 +2,17 @@
 title: Kjøpe ikke lagerførte materialer ved hjelp av en ventende leverandørfaktura
 description: Dette emnet forklarer hvordan du registrerer ventende leverandørfakturaer.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009048"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547301"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Kjøpe ikke lagerførte materialer ved hjelp av en ventende leverandørfaktura
 
@@ -20,7 +20,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Når et selskap anskaffer ikke-lagerført materiell for et prosjekt, kan kostnadene umiddelbart registreres mot prosjektet. 
 
-For eksempel utfører Contoso Robotics US et prosjekt for fornyelse av utstyr og trenger programvarelisenser. Disse lisensene anskaffes fra en tredjepartsleverandør.  Når du bruker Dynamics 365 Finance, registrerer assistenten for leverandørgjeld et ventende leverandørfakturadokument og attributterer lisenskostnadene direkte mot prosjektet for fornyelse av utstyr. 
+Contoso Robotics US utfører for eksempel et prosjekt for fornyelse av utstyr og trenger programvarelisenser. Disse lisensene anskaffes fra en tredjepartsleverandør.  Når du bruker Dynamics 365 Finance, registrerer assistenten for leverandørgjeld et ventende leverandørfakturadokument og attributterer lisenskostnadene direkte mot prosjektet for fornyelse av utstyr. 
 
 > [!IMPORTANT]
 > Før du bruker funksjonaliteten som er beskrevet i dette emnet, må du se gjennom og bruke de nødvendige konfigurasjonene. Hvis du vil ha mer informasjon, kan du se [Aktivere ikke-lagerførte materialer og ventende leverandørfakturaer](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Ventende leverandørfakturaer kan registreres på siden **Ventende leverandørfa
     - Leverandørsaldobeløpet.
     - Salgsavgiftsbeløpet.
     - Kostnadene mot prosjektet registreres på integrasjonskontoen for innkjøp.
-    - Den faktiske transaksjonen for prosjekt i Dataverse. Denne transaksjonen behandles videre ved hjelp av [journalen for Project Operations-integrering](../project-accounting/project-operations-integration-journal.md). Når du legger inn denne journalen, flyttes beløpet fra integrasjonskontoen for innkjøp til prosjektkostnadskontoen.
+    - Den faktiske kostnadstransaksjonen for prosjektet i Dataverse.  Denne transaksjonen behandles videre ved hjelp av [journalen for Project Operations-integrering](../project-accounting/project-operations-integration-journal.md). Når du legger inn denne journalen, flyttes beløpet fra integrasjonskontoen for innkjøp til prosjektkostnadskontoen. 
+    - Kjøp som faktureres til prosjektkunde ved hjelp av faktureringsmetoden for tid og materiell. I tillegg opprettes det ufakturerte salgstransaksjoner opprettet for bestillinger i Dataverse. Produktprislisten i Dataverse brukes for salgsprisene og beløpene for salgstransaksjon som ikke er fakturert.

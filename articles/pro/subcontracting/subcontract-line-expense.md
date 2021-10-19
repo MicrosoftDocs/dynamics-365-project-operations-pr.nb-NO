@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323833"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506111"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Underkontraktlinjer for utgiftskategorier
 
@@ -29,23 +29,23 @@ Hvis du vil opprette en underkontraktlinje for utgiftskategorier i Project Opera
 
 Tabellen nedenfor inneholder informasjon om feltene på detaljsiden **Underkontraktlinje** og **Hurtigoppretting**.
 
-| **Felt** |  **Beskrivelse** |
-| ----------| ---------------- |
-| Navn | Navnet på underkontraktlinjen. |
-| Beskrivelse | En kort beskrivelse av tjenester eller produktkategorier som blir kjøpt på underkontraktlinjen. |
-| Linjetype | Dette feltet har en standardverdi på **antallsbasert**.  |
-| Faktureringsmetode | Faktureringsmetoden for underkontraktlinjen. Basert på faktureringsmetoden til linjen, gjøres en milepælbasert fakturaplan tilgjengelig for faktureringsmetoden med fast pris.  |
-| Transaksjonsklasse | Dette feltet har en standardverdi på **tid**. Hvis du vil opprette underkontraktlinjer for innkjøp av produkter, angir du **Utgift** i **Transaksjonsklasse**-feltet. Denne feltverdien angir at underkontraktlinjen blir brukt til å registrere et kjøp av en kategori av produkter eller tjenester som skal brukes på prosjekter. |
-| Transaksjonskategori | Velg transaksjonskategorien. |
-| Ønsket start | Datoen da innkjøpskategoriene må være tilgjengelige fra leverandøren. Ønsket start brukes også til å velge en prosjektprisliste fra prosjektprislistene som er vedlagt underkontrakten. Kostnaden for kategorien på underkontraktlinjen brukes som standard fra den prislisten. |
-| Ønsket slutt | Datoen da innkjøpskategoriene ikke lenger er nødvendige. Denne datoen kaller opp en advarsel når en prosjektleder knytter denne underkontraktlinjen til bestemte kostnadsestimater for prosjektene som er datert etter denne datoen. |
-| Antall bestilt | Antall av kategorien som kjøpes fra leverandøren. Når en prosjektleder overtrekker fra kjøpsantallet, vises det en advarsel.  |
-| Enhetsgruppe | Standardverdien for feltet er basert på standard enhetsgruppe som er angitt for den valgte kategorien. |
-| Enhet | Standardverdien for feltet er basert på standardenhet som er angitt for den valgte kategorien. Kombinasjonen av kategori og enhet brukes til standard enhetspris for underkontraktlinjen. |
-| Enhetspris | Standardverdien for enhetsprisen fra kombinasjonen av kategorien og enheten fra kategoriprisene knyttet til prosjektprislisten som gjelder for ønsket start for underkontraktlinjen.  |
-| Delsum | Dette er et skrivebeskyttet felt som automatisk beregnes som antallsenhetspris hvis både antalls- og enhetsprisverdiene angis. Hvis et eller begge feltene er tomme, kan du angi en verdi i dette feltet manuelt.  |
-| Merverdiavgift | Angi mva-beløpet.  |
-| Totalbeløp | Totalbeløpet for underkontraktlinjen inkludert avgifter. Dette feltet beregnes som delsum + merverdiavgift.  |
+| **Felt** | **Beskrivelse** | **Funksjonsinnvirkning** |
+| --- | --- | --- |
+| Navn | Navn på underkontraktlinjen for å hjelpe med identifisering. | Dette vises som den første kolonnen i alle oppslag basert på underkontraktlinjer. |
+| Beskrivelse | En kort beskrivelse av utgiftskategoriene som blir kjøpt på underkontraktlinjen. | Ingen |
+|Linjetype | Dette feltet har en standardverdi på **antallsbasert**. |Ingen |
+| Faktureringsmetode | Dette er en alternativsett som representerer de to hovedkontraktsmodellene som støttes av Project Operations: **Fast pris** og **Tid og materiell**. | En milepælbasert fakturaplan gjøres tilgjengelig for underkontraktlinjer hvis faktureringsmetoden Fast pris er valgt. |
+| Transaksjonsklasse | Dette feltet har en standardverdi på **tid**. Hvis du vil opprette underkontraktlinjer for innkjøp av produkter, angir du **Utgift** i **Transaksjonsklasse**-feltet.  | Dette angir at underkontraktlinjen brukes til å registrere kjøp av en utgiftskategori som skal brukes på prosjekter. |
+| Transaksjonskategori | Viser en liste over aktive transaksjonskategorier i systemet. |Ingen |
+| Ønsket start | Angi datoen da innkjøpskategoriene må være tilgjengelige fra leverandøren. | Ønsket start brukes til å velge en prosjektprisliste fra prosjektprislistene som er vedlagt underkontrakten. Kostnaden for kategorien på underkontraktlinjen kommer fra den prislisten. |
+| Ønsket slutt | Angi datoen da innkjøpskategoriene ikke lenger var nødvendige. | Denne brukes til å vise advarsler når en prosjektleder knytter denne underkontraktlinjen til bestemte kostnadsestimater for prosjektet som kreves etter denne datoen. |
+| Antall bestilt | Antall kategorier som kjøpes fra leverandøren. | Denne brukes til å vise advarsler når en prosjektleder overtrekker fra dette antallet.|
+| Enhetsgruppe | Standardverdien er basert på standard enhetsgruppe som er konfigurert for den valgte kategorien. |Ingen |
+| Enhet | Standardverdien er basert på standardenhet som er konfigurert for den valgte kategorien.  | Kombinasjonen av **Kategori** og **Enhet** brukes som standard eller beregnet for enhetsprisen for underkontraktlinjen.  |
+| Enhetspris | Standardverdien bruker kombinasjonen av **Kategori** og **Enhet** fra kategoriprisene knyttet til prosjektprislisten, som gjelder ønsket startdato for underkontraktlinjen. |Ingen |
+| Delsum | Dette er et skrivebeskyttet felt som beregnes som Antall x Enhetspris hvis det angis både antall- og enhetsprisverdier. Hvis begge feltene er tomme, kan du angi en verdi i dette feltet. |Ingen |
+| Merverdiavgift | Angi mva-beløpet. |Ingen |
+| Totalbeløp | Totalbeløpet for underkontraktlinjen inkludert avgifter. Dette feltet beregnes som delsum + merverdiavgift. |Ingen |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
