@@ -2,16 +2,16 @@
 title: Opprette en arbeidsnedbrytningsstruktur
 description: Dette emnet forklarer hvordan du oppretter en WBS-avtale om arbeidsplass for de grunnleggende kontrollene i det nye planleggingsgrensesnittet.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998743"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655429"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opprette en arbeidsnedbrytningsstruktur (WBS)
 
@@ -117,5 +117,26 @@ Oppgavemodusen har ingen innvirkning på oppdateringer som utføres på start- o
 
 Rutenettet **Tidsplan** er fullt tilgjengelig og kan brukes med skjermlesere, for eksempel Narrator, JAWS eller NVDA. Du kan bla gjennom rutenettområdet ved hjelp av piltastene (som i Microsoft Excel), du kan bruke TAB-tasten til å gå gjennom de interaktive brukergrensesnittelementene, og du kan bruke pil ned-tasten, ENTER-tasten eller mellomromstasten til å velge og åpne rullegardinmenyene.
 
+## <a name="project-limitations"></a>Prosjektbegrensninger 
+Du må være oppmerksom på følgende begrensninger hvis du bruker arbeidsnedbrytningsstrukturen i Project Operations. Disse grensene gjelder for prosjekter og oppgaver. Hvis du vil ha mer informasjon, kan du se [Grenser og begrensninger for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Felt**                                          |  **Grense**           |
+|----------------------------------------------------|----------------------|
+| Maksimalt antall oppgaver for et prosjekt                  | 500                  |
+| Maksimal total varighet for et prosjekt               | 3650 dager (10 år) |
+| Maksimalt antall ressurser for et prosjekt              | 150                  |
+| Maksimalt antall koblinger (bare etterfølgende) for et prosjekt | 600                  |
+| Maksimalt antall egendefinerte felter for et prosjekt          | 10                   |
+
+**Oppgavebegrensninger**
+
+| **Felt**                               |   **Grense**           |
+|-----------------------------------------|-----------------------|
+| Maksimalt antall hierarkinivåer                 | 10 nivåer             |
+| Maksimal antall koblinger (etterfølgene + foregående) | 20                    |
+| Maksimal varighet for bladoppgave           | 1250 dager             |
+| Maksimal varighet for en sammendragsoppgave      | 3650 dager (10 år)  |
+| Maksimalt antall ressurser tilordnet til en oppgave    | 20 ressurser          |
+| Støttet datointervall for en oppgave         | 1/1/2000 til 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

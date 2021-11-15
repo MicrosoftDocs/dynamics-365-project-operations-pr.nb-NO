@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integrering av leverandørfaktura
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Avinstaller Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
         - name: Oktober 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -298,11 +300,13 @@
               href: project-management/dev-copy-project.md
             - name: Bruk API-er for prosjektplan
               href: project-management/schedule-api-preview.md
+            - name: API-ytelse for prosjektplan
+              href: project-management/project-schedule-api-performance.md
     - name: Ressursstyring
       items:
         - name: Nøkkelkonsepter
           href: resource-management/resource-management-key-concepts.md
-        - name: Bestillinger i forhold til tilordninger
+        - name: Bestillinger kontra oppgaver
           href: resource-management/booking-vs-assignment.md
         - name: Oversikt over modi for ressursstyring
           href: resource-management/resource-management-mode-overview.md
@@ -802,11 +806,13 @@
               href: project-management/dev-copy-project.md
             - name: Bruk API-er for prosjektplan
               href: project-management/schedule-api-preview.md
+            - name: API-ytelse for prosjektplan
+              href: project-management/project-schedule-api-performance.md
     - name: Ressursstyring
       items:
         - name: Nøkkelkonsepter
           href: resource-management/resource-management-key-concepts.md
-        - name: Bestillinger i forhold til tilordninger
+        - name: Bestillinger kontra oppgaver
           href: resource-management/booking-vs-assignment.md
         - name: Oversikt over modi for ressursstyring
           href: resource-management/resource-management-mode-overview.md
@@ -1102,6 +1108,8 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 35, V3'

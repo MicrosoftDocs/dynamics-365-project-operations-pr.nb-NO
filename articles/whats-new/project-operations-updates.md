@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623359"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783435"
 ---
 # <a name="project-operations-updates"></a>Project Operations-oppdateringer
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations består av to komponenter:
 
 | Project Operations i Dataverse-miljø | Prosjektstyring og regnskap i Finance and Operations-appmiljøer | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 For et scenario med ressurser / ikke lagerført beholdning i Project Operations anbefaler vi bruk av Dual Write Orchestration versjon 2.2.2.83 eller høyere.
 
@@ -47,23 +47,23 @@ Oppdateringer for Project Operations i Dataverse-miljø er tilgjengelige månedl
 | Stasjon | Område | Gjeldende versjonsnummer | Automatiske oppdateringer for Lite-distribusjon | Automatiske oppdateringer for ressursbasert/ikke-lagerbasert distribusjon | Neste versjonsnummer | Neste versjon er allment tilgjengelig |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stasjon 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Første versjon         |  4.25.0.91      | Fullført           | Fullført            | TBD                 | 29. oktober 2021    |
+|   &nbsp;  | Første versjon         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
 | Stasjon 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sør-Amerika         |  4.25.0.91      | Fullført           | 15. oktober 2021    | TBD                 | 29. oktober 2021    |
-|   &nbsp;  | Canada                |  4.25.0.91      | Fullført           | 15. oktober 2021    | TBD                 | 29. oktober 2021    |
-|   &nbsp;  | India                 |  4.25.0.91      | Fullført           | 15. oktober 2021    | TBD                 | 29. oktober 2021    |
-|   &nbsp;  | Frankrike                |  4.25.0.91      | Fullført           | 15. oktober 2021    | TBD                 | 29. oktober 2021    |
-|   &nbsp;  | Sør-Afrika          |  4.25.0.91      | Fullført           | 15. oktober 2021    | TBD                 | 29. oktober 2021    |
+|   &nbsp;  | Sør-Amerika         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
+|   &nbsp;  | Canada                |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
+|   &nbsp;  | India                 |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
+|   &nbsp;  | Frankrike                |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
+|   &nbsp;  | Sør-Afrika          |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
 | Stasjon 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.25.0.91      | 15. oktober 2021   | 22. oktober 2021    | TBD                 | 05. november 2021   |
-|   &nbsp;  | Asia/Stillehavskysten          |  4.25.0.91      | 15. oktober 2021   | 22. oktober 2021    | TBD                 | 05. november 2021   |
-|   &nbsp;  | Storbritannia         |  4.25.0.91      | 15. oktober 2021   | 22. oktober 2021    | TBD                 | 05. november 2021   |
-|   &nbsp;  | Oseania               |  4.25.0.91      | 15. oktober 2021   | 22. oktober 2021    | TBD                 | 05. november 2021   |
-|   &nbsp;  | Forente arabiske emirater  |  4.25.0.91      | 15. oktober 2021   | 22. oktober 2021    | TBD                 | 05. november 2021   |
+|   &nbsp;  | Japan                 |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Asia/Stillehavskysten          |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Storbritannia         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Oseania               |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Forente arabiske emirater  |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
 | Stasjon 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.14.0.99      | Fullført           | Fullført            | 4.25.0.91           | 15. oktober 2021    |
+|   &nbsp;  | Europa                |  4.25.0.91      | Fullført           | Fullført            | 4.26.0.145          | 12. november 2021   |
 | Stasjon 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nord-Amerika         |  4.14.0.99      | Fullført           | 08. oktober 2021    | 4.25.0.91           | 22. oktober 2021    |
+|   &nbsp;  | Nord-Amerika         |  4.25.0.91      | Fullført           | Fullført            | 4.26.0.145          | 19. november 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lanseringsplan for Prosjektstyring og regnskap i Finance and Operations-appmiljøet
@@ -72,14 +72,15 @@ Oppdateringer for Prosjektstyring og regnskap blir utgitt åtte ganger i året.
 
 |Støttet versjon| Tilgjengelighet for forhåndsversjon (PEAP) | Generelt tilgjengelig (bruker oppdaterer) | Produksjonsstartdato for automatisk oppdatering (via LCS-oppdateringsinnstillinger) |   Slutt på service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3. september 2021      |        22. oktober 2021           |                          5. november 2021                            | 14. januar 2022   |
 |    10.0.21      |         02. august 2021     |           17. september 2021      |                             1. oktober 2021                          |  10. desember 2021 |
-|    10.0.20      |         28. mai 2021        |           16. juli 2021           |                             30. juli 2021                            |  22. oktober 2021  |
+
 
 Angitte frigivelsesdatoer kan endres. Hvis du vil ha mer informasjon, kan du se [Tilgjengelighet for tjenesteoppdatering](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Målversjon | Tilgjengelighet for forhåndsversjon (PEAP) | Generelt tilgjengelig (bruker oppdaterer) | Produksjonsstartdato for automatisk oppdatering (via LCS-oppdateringsinnstillinger) |   Slutt på service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3. september 2021      |          22. oktober 2021         |                           5. november 2021                           |  14. januar 2022  |
 |     10.0.23     |      15. oktober 2021       |        10. desember 2021          |                          31. desember 2021                           | 18. mars 2022     |
+|     10.0.24     |      3. desember 2021       |        14. januar 2022           |                          4. februar 2022                            | 15. april 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
