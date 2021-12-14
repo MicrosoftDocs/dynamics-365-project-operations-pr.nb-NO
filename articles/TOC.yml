@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
+        - name: November 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktober 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: September 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: API-ytelse for prosjektplan
               href: project-management/project-schedule-api-performance.md
+            - name: Logger for prosjektplanlegging
+              href: project-management/schedule-api-logs.md
     - name: Ressursstyring
       items:
         - name: Nøkkelkonsepter
@@ -544,6 +548,8 @@
       items:
         - name: Nyheter i bølge 2 i 2021 for tidlig tilgang – Lite-distribusjon
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheter november 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Nyheter oktober 2021 – Lite-distribusjon
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Nyheter september 2021 – Lite-distribusjon
@@ -952,6 +958,10 @@
   items:
     - name: Nyheter
       items:
+        - name: Nyheter oktober 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Nyheter september 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Nyheter juli 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Nyheter mai 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
@@ -1108,6 +1118,8 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 36, V3'

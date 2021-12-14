@@ -2,17 +2,17 @@
 title: Project Operations-oppdateringer
 description: Dette emnet gir informasjon om de publiserte versjonene av Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783435"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892210"
 ---
 # <a name="project-operations-updates"></a>Project Operations-oppdateringer
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations består av to komponenter:
 - Prosjektstyring og regnskap i Dynamics 365 Finance-miljøet dekker funksjoner for reiseutgiftsadministrasjon, prosjektregnskap og inntektsføring. Finance and Operations-appmiljøet brukes i Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer og Project Operations for lagerførte/produksjonsbaserte scenarioer.
 
 ## <a name="project-operations-release-notes"></a>Produktmerknader for Project Operations
-- Nyeste produktmerknader for Project Operations for scenarioet [Ressursbasert/ikke-lagerført](whats-new-oct-2021-resource-based.md).
-- Nyeste produktmerknader for Project Operations for scenarioet [Lite-distribusjon](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Nyeste produktmerknader for Project Operations for scenarioet [lagerført/produksjon](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Nyeste produktmerknader for Project Operations for scenarioet [Ressursbasert/ikke-lagerført](whats-new-nov-2021-resource-based.md).
+- Nyeste produktmerknader for Project Operations for scenarioet [Lite-distribusjon](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Nyeste produktmerknader for Project Operations for scenarioet [lagerført/produksjon](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Nyeste versjon av Project Operations
 
 | Project Operations i Dataverse-miljø | Prosjektstyring og regnskap i Finance and Operations-appmiljøer | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-For et scenario med ressurser / ikke lagerført beholdning i Project Operations anbefaler vi bruk av Dual Write Orchestration versjon 2.2.2.83 eller høyere.
+Når det gjelder et ressursbasert/ikke-lagerbasert scenario i Project Operations, anbefaler vi bruk av iverksetting med dobbel skriving versjon 2.3.1.15 eller nyere.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Lanseringsplan for Project Operations i Dataverse-miljø
 
@@ -47,23 +47,23 @@ Oppdateringer for Project Operations i Dataverse-miljø er tilgjengelige månedl
 | Stasjon | Område | Gjeldende versjonsnummer | Automatiske oppdateringer for Lite-distribusjon | Automatiske oppdateringer for ressursbasert/ikke-lagerbasert distribusjon | Neste versjonsnummer | Neste versjon er allment tilgjengelig |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stasjon 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Første versjon         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
+|   &nbsp;  | Første versjon         |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 06. desember 2021   |
 | Stasjon 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sør-Amerika         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
-|   &nbsp;  | Canada                |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
-|   &nbsp;  | India                 |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
-|   &nbsp;  | Frankrike                |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
-|   &nbsp;  | Sør-Afrika          |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 03. desember 2021   |
+|   &nbsp;  | Sør-Amerika         |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 06. desember 2021   |
+|   &nbsp;  | Canada                |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 06. desember 2021   |
+|   &nbsp;  | India                 |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 06. desember 2021   |
+|   &nbsp;  | Frankrike                |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 06. desember 2021   |
+|   &nbsp;  | Sør-Afrika          |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 06. desember 2021   |
 | Stasjon 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
-|   &nbsp;  | Asia/Stillehavskysten          |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
-|   &nbsp;  | Storbritannia         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
-|   &nbsp;  | Oseania               |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
-|   &nbsp;  | Forente arabiske emirater  |  4.26.0.145     | 12. november 2021  | 19. november 2021   | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Japan                 |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Asia/Stillehavskysten          |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Storbritannia         |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Oseania               |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 10. desember 2021   |
+|   &nbsp;  | Forente arabiske emirater  |  4.26.0.150     | Fullført           | Fullført            | TBD                 | 10. desember 2021   |
 | Stasjon 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.25.0.91      | Fullført           | Fullført            | 4.26.0.145          | 12. november 2021   |
+|   &nbsp;  | Europa                |  4.26.0.150     | Fullført           | 10. desember 2021   | TBD                 | 17. desember 2021   |
 | Stasjon 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nord-Amerika         |  4.25.0.91      | Fullført           | Fullført            | 4.26.0.145          | 19. november 2021   |
+|   &nbsp;  | Nord-Amerika         |  4.26.0.150     | 10. desember 2021  | 17. desember 2021   | TBD                 | 07. januar 2022    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lanseringsplan for Prosjektstyring og regnskap i Finance and Operations-appmiljøet

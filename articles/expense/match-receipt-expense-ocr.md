@@ -2,7 +2,7 @@
 title: Registrer en kvittering ved hjelp av OCR
 description: Dette emnet gir informasjon om optisk tegngjenkjenning (OCR) for kvitteringer.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007743"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798052"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Registrer en kvittering ved hjelp av OCR
 
@@ -36,7 +36,7 @@ Utgiftsregistrering er forbedret gjennom innføringen av optisk tegngjenkjenning
 
 Hvis du automatisk vil legge ved kvitteringer som inkluderer kredittkorttransaksjoner når en reiseregning opprettes, kan du følge fremgangsmåten nedenfor.
 
-  1. Åpne arbeidsområdet **Utgiftshåndtering**.
+  1. Åpne arbeidsområdet **Reiseregning og utlegg**.
   2. I kategorien **Kvitteringer** kontrollerer du at det finnes ikke-tilknyttede kvitteringer. Du kan også laste opp kvitteringer i kategorien **Kvitteringer**.
   3. I kategorien **Utgifter** kontrollerer du at det finnes ikke-tilknyttede utgifter. Vanligvis importerer utgiftsadministrator disse utgiftene fra kredittkortleverandøren.
   4. Velg **Ny reiseregning**. Legg merke til at du kan ta med utgifter og nå også kvitteringer når du oppretter en reiseregning. Hvis du legger til både utgifter og kvitteringer, utløses automatisk avstemming av kvitteringene mot utgiftene.
@@ -69,9 +69,9 @@ Aktiver følgende funksjoner i arbeidsområdet **Funksjonsbehandling**:
 
 Når du aktiverer disse funksjonene, oppstår følgende handlinger:
 
-- Det eksisterende arbeidsområdet for **utgiftshåndtering** erstattes av det nye arbeidsområdet.
+- Det eksisterende arbeidsområdet for **Reiseregning og utlegg** erstattes av det nye arbeidsområdet.
 - Det legges til et nytt menyelement for synlighet for utgiftsfelt.
-- Du kan fremdeles åpne siden for de tidligere **reiseregningene** ved å gå til **Utgiftshåndtering > Mine utgifter > Reiseregninger**.
+- Du kan fremdeles åpne siden for de tidligere **reiseregningene** ved å gå til **Reiseregning og utlegg > Mine utgifter > Reiseregninger**.
 - Arbeidsflyter og godkjenninger fører deg fremdelses til den eksisterende reiseregningssiden.
 - Kvitteringer blir behandlet gjennom Microsoft Azure Cognitive Services, og metadata blir trukket ut og lagt til.
 - Det legges til et alternativ som du kan bruke til å opprette en reiseregning som inkluderer samsvarte, ikke-tilknyttede kvitteringer.
@@ -85,7 +85,18 @@ Nei, Microsoft har bygget en generell maskinlæringsmodell for tjenesten for mot
 
 **Hvor er denne funksjonen tilgjengelig og behandlet?**
 
-USA støttes for øyeblikket.
+Tabellen nedenfor viser de ulike områdene der denne funksjonen er tilgjengelig. Hvis det ikke er støtte for området ditt for øyeblikket, sender du en forespørsel om at tilgjengeligheten av OCR-tjenesten prioriteres i området ditt. 
+
+| Område | Støttes                         |
+|--------|-----------------------------------|
+| USA    | Ja                               |
+| CAN    | Ja                               |
+| Storbritannia     | Ja                               |
+| AUS    | Ja                               |
+| EU     | Delvis. Bare engelske kvitteringer. |
+| Asia   | No                                |
+| Japan  | No                                |
+| Afrika | No                                |
 
 **Hvor havner kvitteringene mine?**
 
