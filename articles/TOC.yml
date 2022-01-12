@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Project Operations-oppdateringer
       href: whats-new/project-operations-updates.md
+    - name: Funksjoner som er fjernet eller avskrevet
+      items:
+        - name: Fjernede eller avskrevne funksjoner i Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
   items:
     - name: Kom i gang
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
+        - name: Desember 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: November 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktober 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Konfigurer kjørelengde ved å bruke satsnivåer for kjørelengde
               href: expense/set-up-mileage.md
+        - name: Utgiftsspesifisering
+          href: prod-exp/expense-itemization.md
         - name: Personlige utgifter
           href: expense/personal-expenses-expense-report.md
         - name: Konserninterne utgifter
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Behandle omberegning av inntekter
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Feilsøking
+      items:
+        - name: Salgsprosess for prosjekt
+          items:
+            - name: 'Feil om manglende samsvar mellom valuta under oppretting av prosjekt, kontrakt, tilbud eller ressurs som kan reserveres'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Lite-distribusjon – avtale til proformafakturering
   items:
     - name: Kom i gang
@@ -548,6 +562,8 @@
       items:
         - name: Nyheter i bølge 2 i 2021 for tidlig tilgang – Lite-distribusjon
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheter desember 2021 – Lite-distribusjon
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Nyheter november 2021 – Lite-distribusjon
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Nyheter oktober 2021 – Lite-distribusjon
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Milepæler for underkontraktlinje
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Prosjektteammedlemmer for underkontrakter
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Underkontraktalternativer for prosjektteammedlemmer
+          href: pro/subcontracting/subcon-options.md
+        - name: Kostnadsberegning av tilordninger for underleveranseressurs
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurer planleggingstavlen for å vise kontraktarbeidere og underkontraktkapasitet
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Bemanning av et prosjekt med kontraktarbeidere og underkontraktkapasitet
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registrering av tid, utgifter og materialbruk for underkontraktkomponenter'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Tilstandsoverganger på en underkontrakt
+          href: pro/subcontracting/subcon-states.md
     - name: Tid
       items:
         - name: Oversikt over tid
@@ -1118,6 +1148,8 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Rapporteringsveiledning
           href: psa/implementation-guides/reporting-guide.md
+    - name: Oppgrader fra Project Service Automation til Project Operations – Lite
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation-oppgradering (appversjon 3.x)
       items:
         - name: Project Service Automation-oppgradering
