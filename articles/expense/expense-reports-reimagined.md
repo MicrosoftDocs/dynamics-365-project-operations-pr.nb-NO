@@ -1,8 +1,8 @@
 ---
-title: Nyskapte utgiftsrapporter
+title: Nyskapte utgiftsrapporter (inneholder video)
 description: Denne emne forklarer den nye utformingen og nyskapte opplevelsen for innlegging av utgiftsrapport.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997843"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941034"
 ---
 # <a name="expense-reports-reimagined"></a>Nyskapte utgiftsrapporter
 
@@ -58,6 +58,7 @@ Hvis du vil aktivere den nye opplevelsen, bruker du arbeidsområdet **Funksjonsb
 | Lagre og legg til nye utgiftslinjer | Knappene **Lagre** og **Ny** er tilgjengelige når nye utgifter angis, for å hjelpe deg med å angi utgiftslinjer raskt. |
 | Bedre oversikt over delte og spesifiserte linjer | Spesifiserte og delte linjer blir lagt til direkte i listen over utgifter for å øke synligheten og hjelpe deg med å avgjøre om det er noen feil. |
 | Vis detaljer om underkategori på varelinjer | Spesifiseringslinjer for en overordnet utgift viser underkategorietikettene i utgiftsrapporten. Med spesifisering kan du raskt se gjennom de detaljerte detaljene.|
+|Angi regelmessige utgifter raskt | Det nyskapte arbeidsområdet for utgifter gjør det mulig å hurtig spesifisere regelmessige utgifter ved å legge til underkategori, startdato og antall. Antallet refererer til antall ganger utgiften gjentas i en sammenhengende periode. |
 | Vis kvitteringer under spesifisering | Kvitteringer kan vises under spesifisering. |
 | Kontantforskuddvalg | Velg ett eller flere forskudd for å utføre én enkelt utgiftstransaksjon. |
 | Kontantforskuddsaldo | Gå gjennom forskuddssaldoen i sanntid når du oppretter en utgiftsoppføring mot godkjente og betalte forskudd. |

@@ -2,16 +2,16 @@
 title: Opprette en arbeidsnedbrytningsstruktur
 description: Dette emnet forklarer hvordan du oppretter en WBS-avtale om arbeidsplass for de grunnleggende kontrollene i det nye planleggingsgrensesnittet.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655429"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928627"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opprette en arbeidsnedbrytningsstruktur (WBS)
 
@@ -95,7 +95,7 @@ Som en administrator kan du definere egendefinerte felter for oppgaveenheten. Fe
 
 ## <a name="staffing-attributes"></a>Bemanningsattributter
 
-Du får tilgang til attributter for bemanning via **Ressurser**-feltet i tidsplanen. Du kan søke etter en eksisterende ressurs, eller velge **Opprett** og legge til et prosjektteammedlem som en ny ressurs i **Hurtigoppretting**-ruten.
+Du får tilgang til attributter for bemanning via **Ressurser**-feltet i tidsplanen. Du kan søke etter en eksisterende ressurs, eller velge **Opprett** og legge til et prosjektteammedlem som en ny ressurs i **Hurtigoppretting**-ruten.  Når du søker etter en ressurs ved hjelp av ressursvelgeren i oppgaverutenettet, tavlevisningen eller Gantt, returnerer søket enten eksisterende prosjektteammedlemmer eller aktive ressurser som kan reserveres.
 
 Feltene **Rolle**, **Ressursenhet** og **Stillingsnavn** brukes til å beskrive bemanningskravene for oppgaven. Disse bemanningsattributtene sammen med oppgaveplanen brukes til å finne tilgjengelige ressurser for denne oppgaven.
 
@@ -127,6 +127,7 @@ Du må være oppmerksom på følgende begrensninger hvis du bruker arbeidsnedbry
 | Maksimalt antall ressurser for et prosjekt              | 150                  |
 | Maksimalt antall koblinger (bare etterfølgende) for et prosjekt | 600                  |
 | Maksimalt antall egendefinerte felter for et prosjekt          | 10                   |
+| Maksimalt antall sjekklisteelementer per oppgave                   | 20                   |
 
 **Oppgavebegrensninger**
 

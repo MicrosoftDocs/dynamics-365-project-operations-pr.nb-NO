@@ -2,16 +2,16 @@
 title: Registrer deg for Project Operations-prøveversjoner
 description: Dette emnet gir informasjon om hvordan du distribuerer en prøveversjon av Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599225"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901629"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrer deg for Project Operations-prøveversjoner 
 
@@ -90,7 +90,8 @@ Før du begynner logger du på en nettleser med brukerkontoen i leieren der du v
 4.  Velg den respektive Microsoft Dataverse-nettadressen og nettadressene for Finance and Operations-apper for å validere distribusjonen.
 
 ## <a name="configuring-dual-write"></a>Konfigurasjon av dobbel skriving
-Konfigurer tilordninger med dobbel skrivetilgang bare for distribusjoner av ikke lagerført beholdning. Hvis du vil ha mer informasjon, kan du se [Tilordningsversjoner av dobbel skriving for Project Operations](resource-dual-write-maps.md).
+- Hvis du vil konfigurere sikkerhetsroller for dobbeltskriving, kan du se [Oppdatere sikkerhetsinnstillinger for Project Operations i Dataverse](resource-provision-new-environment.md).
+- Hvis du vil konfigurere tilordninger for dobbeltskriving, kan du se [Kjøre Project Operations med tilordninger for dobbel skriving](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Tilordne lisenser
 

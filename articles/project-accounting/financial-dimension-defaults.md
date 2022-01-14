@@ -2,16 +2,16 @@
 title: Standardverdier for finansdimensjon
 description: Dette emnet gir informasjon om hvordan du konfigurerer standardverdier for finansdimensjon.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005448"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922950"
 ---
 # <a name="financial-dimension-defaults"></a>Standardverdier for finansdimensjon
 
@@ -60,6 +60,15 @@ Prosjekter opprettes og vedlikeholdes i CDS. Regnskapsattributter for prosjekter
 4. Angi finansdimensjonsstandarder. Legg merke til at finansdimensjonene angis som standard fra kundekontoen. Hvis prosjektet er knyttet til en kontraktlinje med flere prosjektkontraktkunder, brukes hovedkunden som standard for finansdimensjoner.
 
 Standardfinansdimensjoner for prosjekt brukes til å angi standarder for journallinje for tid, utgift og avgiftstransaksjoner i **Journal for Project Operations-integrering** og på relaterte prosjektfakturalinjer.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Bruke finansdimensjoner for prosjekttidsoppføringer
+Hvis du vil bruke finansdimensjoner for prosjekttidsoppføringer, må du være oppmerksom på at standard dimensjonsverdi er basert på følgende rekkefølge:
+
+1. Ressurs
+2. Project
+3. Finansieringskilde
+
+Hvis standarddimensjonen for eksempel er angitt for en ressurs, brukes den over en standard som er angitt på prosjektet. På samme måte brukes en standard prosjektdimensjon over standardinnstillingen som er angitt i finansieringskilden.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
