@@ -2,9 +2,11 @@
 title: Metoder for bestillingstildeling
 description: Dette emnet gir informasjon om hvordan metoder for bestillingstildeling fungerer i Project-operasjoner.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004143"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121500"
 ---
 # <a name="booking-allocation-methods"></a>Metoder for bestillingstildeling
 
@@ -79,6 +81,3 @@ Følgende tildelingsmetoder fører altså til overbestilling hvis ressursen alle
 - Distribuer timer jevnt
 
 Når du bruker en av disse tildelingsmetodene, blir du ikke varslet om at ressursen er overbestilt. Hvis du vil rette opp overbestillingen, må du bruke planleggingstavlen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

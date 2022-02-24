@@ -2,17 +2,19 @@
 title: Oppdatere Project Operations i Økonomi-miljøet
 description: Dette emnet gir informasjon om hvordan du oppdaterer Project Operations i Dynamics 365 Finance-miljøet.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986773"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816637"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Oppdatere Project Operations i Økonomi-miljøet
 
@@ -33,7 +35,7 @@ Dette emnet gir informasjon om hvordan du oppdaterer Dynamics 365 Project Operat
 4. Bekreft at miljøet kjører. Hvis det ikke er startet, starter du miljøet.
 5. I delen **Ny versjon** under **Tilgjengelige oppdateringer** velger du **Vis oppdatering** for 10.0.15.
 
-![Vis oppdatering, knapp.](media/view-update.png)
+![Vis oppdatering, knapp](media/view-update.png)
 
 6. På siden **Binære oppdateringer** velger du **Lagre pakke**.
 7. På siden **Se gjennom og lagre oppdateringer** velger du **Lagre pakke**.
@@ -47,11 +49,11 @@ Dette emnet gir informasjon om hvordan du oppdaterer Dynamics 365 Project Operat
 2. Velg pakken du lagret tidligere, fra listen, og velg deretter **Bruk**.
 3. Velg **Ja** for å bekrefte at du vil distribuere pakken.
 
-![Dialogboksen Bekreft distribusjon av pakke.](media/confirm-package-deployment.png)
+![Dialogboksen Bekreft distribusjon av pakke](media/confirm-package-deployment.png)
 
 4. Velg **Ja** for å bekrefte at du vil oppdatere appen.
 
-![Dialogboksen Bekreft oppdatering av app.](media/confirm-application-update.png)
+![Dialogboksen Bekreft oppdatering av app](media/confirm-application-update.png)
 
 Distribusjonen og appoppdateringen starter. 
 
@@ -84,7 +86,7 @@ Følgende oppdateringer av sikkerhetsrettighetene for enheter nedenfor kreves so
 
 1. I Dataverse-miljøet går du til **Innstillinger**, og i gruppen **System** velger du **Sikkerhet**.
 
-![Dataverse-miljøinnstillinger.](media/Picture21.png)
+![Innstillinger for Dataverse-miljø](media/Picture21.png)
 
 2. Velg **Sikkerhetsroller**.
 3. Fra listen over roller velger du **appbruker med dobbeltskriving** og velger kategorien **Egendefinerte enheter**. 
@@ -121,8 +123,5 @@ Følgende oppdateringer av sikkerhetsrettighetene for enheter nedenfor kreves so
 6. Fra listen over tilordninger velger du tilordningen **Finans (msdyn_ledgers)** med alle dens krav, og deretter merker du av for **Første synkronisering**. 
 7. I feltet **Hovedoppføring for første synkronisering** velger du **Finance and Operations-apper** og velger deretter **Kjør**.
  
- ![Synkronisering av finanstilordning.](media/DW6.png)
+ ![Synkronisering av finanstilordning](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

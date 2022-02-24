@@ -2,16 +2,18 @@
 title: Nyheter november 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
 description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i november 2020-versjonen av Project Operations for lagerførte/produksjonsbaserte scenarioer.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003198"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365568"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Nyheter november 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
 
@@ -23,7 +25,4 @@ Hvis du vil ha informasjon om hurtigreparasjonene som er inkludert i denne oppda
 
 ## <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
 
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.

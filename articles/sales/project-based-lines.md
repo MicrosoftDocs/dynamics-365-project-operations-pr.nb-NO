@@ -2,16 +2,18 @@
 title: Prosjektbaserte salgsmulighetslinjer
 description: Dette emnet gir informasjon om arbeid med prosjektbaserte salgsmulighetslinjer.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996358"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181959"
 ---
 # <a name="project-based-opportunity-lines"></a>Prosjektbaserte salgsmulighetslinjer
 
@@ -31,6 +33,3 @@ Nedenfor vises feltene på en prosjektbasert salgsmulighetslinje:
 | Navn | Generelt, kategori | Dette er det redigerbar tekstfelt som kan brukes til å gi en kort identitet til dette linjeelementet. | Denne verdien overføres til tilbudslinjen når du oppretter et tilbud fra denne salgsmuligheten |
 | Kundebudsjett | Generelt, kategori | Det redigerbare valutafeltet kan brukes til å spore beløpet som kunden er villig til å bruke for dette linjeelementet. | Denne verdien overføres til det tilsvarende feltet på tilbudslinjen når du oppretter et tilbud fra denne salgsmuligheten |
 | Faktureringsmetode | Generelt, kategori | Dette redigerbare feltet har følgende verdier:</br>- Tid og materiale</br>- Fast pris | Denne verdien overføres til det tilsvarende feltet på tilbudslinjen når du oppretter et tilbud fra denne salgsmuligheten. Når tilbudslinjen er opprettet, er feltet låst og kan ikke endres. Tilordne denne feltverdien så nøyaktig som mulig. Hvis du må endre verdien i dette feltet på tilbudslinjen, sletter du tilbudslinjen og oppretter den på nytt. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

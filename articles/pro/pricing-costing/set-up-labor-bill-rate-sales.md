@@ -2,22 +2,24 @@
 title: Konfigurere fakturasatser for arbeid – Lite
 description: Dette emnet gir informasjon om hvordan du konfigurerer fakturasatser for arbeid i Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007608"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181194"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Konfigurere fakturasatser for arbeid – Lite
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-Hver prisliste har et sett med rollepriser, eller arbeidssatser, som gjelder for konteksten og datogyldigheten som er inkludert i prislistehodet. Fakturasatser for tidspunkt i Dynamics 365 Project Operations kan bare angis i én valuta, som er valutaen i Prisliste-hodet.
+Hver prisliste har et sett med rollepriser, eller arbeidssatser, som gjelder for konteksten og datogyldigheten som er inkludert i prislistehodet. Fakturasatser for tid i Dynamics 365 Project Operations kan defineres i bare én valuta, som er valutaen i prislistehodet.
 
 1. Hvis du vil definere fakturasatser for en salgsprisliste, oppretter du en prisliste basert på prislistehodet. 
 2. I delrutenettet i kategorien **Rollepriser** velger du **+ Ny rollepris**. 
@@ -53,6 +55,3 @@ En utvikler fra Fabrikam India som arbeider med et prosjekt i USA, blir for ekse
     | Developer | Fabrikam USA | $150 |
 
 3. Legg ved salgsprislisten, **Fakturasatser for Fabrikam USA** i prosjektprislisten for prosjektkontrakten eller en bestemt forretningsforbindelse.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

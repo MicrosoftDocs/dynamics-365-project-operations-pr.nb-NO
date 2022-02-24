@@ -2,26 +2,28 @@
 title: Oversikt over arbeidsnedbrytningsstrukturer
 description: En arbeidsnedbrytningsstruktur er en beskrivelse av arbeidet som skal fullføres for et prosjekt. Det er et hierarki av oppgaver som representerer prosjektteamets forståelse av arbeidssammensetningen, og størrelsen, kostnad og varighet for hver enkelt komponent eller oppgave.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081595"
 ---
 # <a name="work-breakdown-structures-overview"></a>Oversikt over arbeidsnedbrytningsstrukturer
 
@@ -314,6 +316,3 @@ Du kan også korrigere planleggingsfeil enkeltvis ved å klikke advarselsikonet 
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

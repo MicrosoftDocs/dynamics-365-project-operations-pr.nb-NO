@@ -2,6 +2,8 @@
 title: Tilbud og tilbudslinjer
 description: Dette emnet inneholder informasjon om tilbud og tilbudslinjer.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995458"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145145"
 ---
 # <a name="quotes-and-quote-lines"></a>Tilbud og tilbudslinjer
 
@@ -84,7 +86,7 @@ Profesjonelle serviceorganisasjoner oppgir og fakturerer vanligvis kundene etter
 
 En eller flere av disse transaksjonsklassifiseringene kan tilknyttes hver tilbudslinje. Når et tilbud er vunnet, blir tilordningen mellom transaksjonsklassifiseringen og tilbudslinjen overført til kontraktlinjen.
  
-> ![Skjermbilde av tilordning av transaksjonstyper til tilbuds- og kontraktlinjer.](media/basic-guide-5.png)
+> ![Skjermbilde av tilordning av transaksjonstyper til tilbuds- og kontraktlinjer](media/basic-guide-5.png)
   
 Et tilbud kan for eksempel inneholde følgende to tilbudslinjer: 
 - Konsulentarbeid som bruker en faktureringsmetode for tid og materialer, der klassifiseringer av tid og gebyrtransaksjoner gjelder. Alle tids- og gebyrtransaksjoner for eksempelprosjektet for **Dynamics AX-implementering** faktureres for eksempel til kunden basert på tiden og materialene som brukes. 
@@ -129,6 +131,3 @@ For en tilbudslinje med fast pris kan du bruke rutenettet **Fakturaplen** til å
 - Hvis du vil opprette faktureringsmilepæler som er likt inndelt, velger du en fakturafrekvens, angir startdatoen for fakturering på tilbudslinjen og velger **Forespurt fullføringsdato** for tilbudet i **Sammendrag**-delen i tilbudshodet. . Deretter velger du **Generer periodiske milepæler** for å opprette likt delte milepæler basert på den valgte fakturafrekvensen. 
 - Hvis du vil opprette en faktureringsmilepæl for et engangsbeløp, oppretter du en milepæl, og deretter angir du tilbudslinjeverdien som milepælbeløpet.
 - Hvis du vil opprette faktureringsmilepæler som er basert på bestemte oppgaver i prosjektplanen, oppretter du en milepæl og tilordner den til prosjektets tidsplanelement i brukergrensesnittet for faktureringsmilepælen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

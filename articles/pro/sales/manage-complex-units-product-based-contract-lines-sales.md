@@ -2,16 +2,18 @@
 title: Administrere komplekse enheter for produktbaserte kontraktlinjer – Lite
 description: Dette emnet inneholder informasjon om hvordan du kan støtte salg av abonnementsbaserte produkter.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003378"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177388"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Administrere komplekse enheter for produktbaserte kontraktlinjer – Lite
 
@@ -44,6 +46,3 @@ Følg fremgangsmåten nedenfor for å opprette antallsfaktorer fra produktegensk
 7. Gjenta trinn 2-6 for alle egenskapene som samlet utgjør antallet for den produktbaserte kontraktlinjen.
 
 Når antallsfaktorer er konfigurert og brukeren oppretter en kontraktlinje for dette produktet, blir antallet for kontraktlinjen låst. Antallet beregnes deretter som et produkt av egenskapsverdiene for denne kontraktlinjen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

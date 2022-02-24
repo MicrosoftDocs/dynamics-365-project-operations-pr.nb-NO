@@ -2,17 +2,18 @@
 title: Oversikt over konsernintern fakturering
 description: Dette emnet gir informasjon og eksempler på konsernintern fakturering for prosjekter.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005403"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595523"
 ---
 # <a name="intercompany-invoicing-overview"></a>Oversikt over konsernintern fakturering
 
@@ -20,9 +21,9 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Det kan hende at organisasjonen har flere divisjoner, datterselskaper og andre juridiske enheter som overfører produkter og servicer til hverandre for prosjekter. Den juridiske enheten som tilbyr servicen eller produktet, kalles den *juridiske enheten som låner ut*. Den juridiske enheten som mottar servicen eller produktet, kalles den *juridiske enheten som låner*.
 
-Illustrasjonen nedenfor viser et typisk scenario der to juridiske enheter, Contoso Robotics USA (den juridiske enheten som låner) og Contoso Robotics UK (den juridiske enheten som låner ut), deler ressurser for å levere et prosjekt for kunden, Adventure works. I dette scenariet skal Contoso Robotics USA, i henhold kontrakten, levere arbeidet til Adventure Works.
+Illustrasjonen nedenfor viser et typisk scenario der to juridiske enheter, Contoso Robotics USA (den juridiske enheten som låner) og Contoso Robotics UK (den juridiske enheten som låner ut) deler ressurser for å levere et prosjekt for kunden, Brusefoss industrier. I dette scenarioet er Contoso Robotics USA kontraktert for å levere arbeidet til Brusefoss industrier.
 
-![Konsernintern fakturering.](./media/IntercompanyScenario.png) 
+![Konsernintern fakturering](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations bruker følgende flyt til å behandle konserninterne transaksjoner:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations bruker følgende flyt til å behandle konsernint
 
 Følgende diagram illustrerer konsernintern fakturering som det relaterer til regnskapshendelser og forventede posteringer til økonomimodulen.
 
-![Konsernintern flyt.](./media/IntercompanyFlow.png)
+![Konsernintern flyt](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Ytterligere ressurser
 
-- [Konfigurer konsernintern fakturering](configure-intercompany-invoicing.md)
+- [Konfigurere konsernintern fakturering](configure-intercompany-invoicing.md)
 - [Registrere konserninterne transaksjoner](create-intercompany-transactions.md)
 - [Opprette konserninterne kunde- og leverandørfakturaer](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

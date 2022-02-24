@@ -2,16 +2,18 @@
 title: Konfigurere Project Operations-integrering per juridisk enhet
 description: Dette emnet gir informasjon om hvordan du konfigurerer integrering per juridisk enhet i Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999418"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122895"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurere Project Operations-integrering per juridisk enhet 
 
@@ -49,6 +51,3 @@ Hver juridiske enhet som bruker Project Operations i Dynamics 365 Customer Engag
   - **Faktureringstypestandarder**: Project Operations bruker et fast sett med faktureringstypestandarder som må tilordnes til linjeegenskaper i Finance. Opprett en oppføring for hver faktureringstype: **Ikke angitt**, **Belastbar**, **Ikke-belastbar**, **Gratis** og **Ikke tilgjengelig**.
   - **Prosjektkategoristandarder**: Velg standard prosjektkategorier som skal brukes for hver transaksjonstype. Disse standardene brukes i **Journal for Project Operations-integrering** og i beregninger der det ikke er angitt en transaksjonskategori for det faktiske prosjektet.
   - **Prognoser**: Velg prognosemodellen som skal brukes for tids- og utgiftsestimater.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

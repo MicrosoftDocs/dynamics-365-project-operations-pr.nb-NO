@@ -2,16 +2,18 @@
 title: Behandle kundeemner – Lite
 description: Denne emnet gir informasjon om behandling av prosjektbaserte kundeemner (Pro).
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991408"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272850"
 ---
 # <a name="manage-leads---lite"></a>Behandle kundeemner – Lite
 
@@ -53,7 +55,7 @@ Kundeemner som har **Type**-verdien satt til **Arbeidsbasert**, kalles for prosj
 - En kontaktoppføring som er knyttet til forretningsforbindelsen basert på verdiene i feltene **Fornavn** og **Etternavn** for kundeemnet.
 - En prosjektbasert salgsmulighet som har **Type**-feltet satt til **Arbeidsbasert**.
 
-Hvis du vil ha mer detaljert informasjon om kvalifiserende kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Hvis du vil ha mer detaljert informasjon om kvalifiserende kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Forretningsprosessflyt for prosjekt baserte avtaler
 

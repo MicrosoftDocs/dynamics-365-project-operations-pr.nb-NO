@@ -2,16 +2,18 @@
 title: Administrere flere kunder i et prosjekttilbud
 description: Dette emnet inneholder informasjon om å arbeide med tilbud som involverer flere kunder som vil finansiere prosjektet.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991993"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182004"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Administrere flere kunder i et prosjekttilbud
 
@@ -21,7 +23,7 @@ Prosjekttilbud støtter scenarioet der forslaget omfatter flere kunder som vil f
 
 Alle tilbudskunder i kategorien **Kunder** i prosjekttilbudet blir som standard tilbudslinjekunder på **nye** prosjektbaserte tilbudslinjer som er opprettet for tilbudet. Eksisterende prosjektbaserte tilbudslinjer arver ikke nye tilbudskundeoppføringer som er opprettet etter dem.
 
-Tilbudskunder og tilbudslinjekunder kan når som helst legges til, oppdateres eller slettes før tilbudet er vunnet. En gyldig kunde i tilbudet må være definert som en kunde i det eiende firmaet eller den juridiske enheten på **Kunder**-siden. Juridiske enheter konfigureres i **Prosjektstyring og regnskaps**-modulen for Dynamics 365 Project Operations, og de er tilgjengelige som firmaer i **Prosjektsalg- og Levering**-modulene i Project Operations.
+Tilbudskunder og tilbudslinjekunder kan når som helst legges til, oppdateres eller slettes før tilbudet er vunnet. En gyldig kunde i tilbudet må være definert som en kunde i det eiende firmaet eller den juridiske enheten på **Kunder**-siden. Juridiske enheter konfigureres i modulen **Prosjektstyring og regnskap** i Dynamics 365 Project Operations og blir gjort tilgjengelig som firmaer i modulen **Prosjektsalg og levering** i Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Konseptet primær kunde
 
@@ -49,6 +51,3 @@ En tilbuds kundekan opprettes, oppdateres eller slettes fra kategorien **Tilbuds
 Du kan redigere delingsprosentene for fakturering ved hjelp av den innebygde redigeringsopplevelsen i rutenettet. Hvis delingsprosentandelen for fakturering ikke er totalt 100 %, oppstår det en feil. Når du har oppdatert delingsprosentene for fakturering, oppdaterer siden for å fjerne feilen.
 
 Du kan også prøve å velge **Fordel jevnt** i delrutenettet til en tilbudskunde. Denne handlingen fordeler fakturadelinger til alle tilbudskunder. Hvis det finnes en avrundingsfaktor, blir denne lagt til for avrundingskunden. Én av tilbudskundene blir alltid merket som avrundingskunden. Dette betyr at oppføringen av tilbudskunden har flagget **Avrunding** satt til **Ja**. Dette er vanligvis den primære kunden i tilbudet, men dette kan endres.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

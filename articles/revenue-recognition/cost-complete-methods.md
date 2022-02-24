@@ -2,16 +2,18 @@
 title: Metoder for ferdigstillelseskostnad
 description: Dette emnet gir informasjon om metodene som brukes til å beregne kostnaden for å fullføre et prosjekt.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997978"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531508"
 ---
 # <a name="cost-to-complete-methods"></a>Metoder for ferdigstillelseskostnad
 
@@ -28,6 +30,3 @@ Når du oppretter et estimat for et prosjekt, kan du velge én av følgende meto
 | Som forrige estimat         | De samme estimatmetodene som ble brukt i den forrige perioden, brukes her. Denne metoden krever en prognosemodell hvis den forrige perioden krever en prognosemodell.                                                                                                                                                                                                                                                                                                                           |
 | Sett ferdigstillelseskostnad til null | Denne metoden brukes vanligvis før estimatprosjektet er eliminert, og samsvarer totale estimater med faktisk posterte transaksjoner og tømmer **Ferdigstillelseskostnader**-kolonnen. Når fullført, er resultatet alltid 100 prosent. For hver kostnadslinje du oppretter, tømmes **Prognose**-avmerkingsboksen og det totale estimatet kopieres fra det forrige kostnadsestimatet. Det faktiske forbruket for estimatperioden er trukket fra ferdigstillelseskostnadene for prosjektet.              |
 | Fra kostnadsmal           | Metoden for ferdigstillelseskostnader som er konfigurert i kostnadsmalen som er tilknyttet det valgte estimatprosjektet.                                                                                                                                                                                                                                                                                                                                                                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

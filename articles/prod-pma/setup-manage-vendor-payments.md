@@ -2,9 +2,11 @@
 title: Konfigurere og bruke Betal når betalt-leverandørbetalinger
 description: Dette emnet forklarer hvordan du oppretter Betal når betalt-betingelser (PWP), slik at du kan frigi delvise leverandørbetalinger basert på kundebetalinger.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008868"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081599"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurere og bruke Betal når betalt-leverandørbetalinger
 
@@ -78,6 +80,3 @@ Når en leverandør fullfører arbeidet på et prosjekt, og sender deg en faktur
 2. I søkefeltet på siden **Leverandørfakturaer med Betal når betalt** angir du verdier for å finne leverandørfakturaen du vil se gjennom, og deretter velger du **Søk**.
 3. Velg linjene du vil endre, på hurtigfanen **Leverandørfakturalinjer**.
 4. Hvis betingelsene for **Betal når betalt** er oppfylt for fakturalinjen, velger du **Frigi leverandørbetaling**. Merket for **Betal når betalt** fjernes, og verdien i feltet **Klar for betaling** endres til **Ja**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

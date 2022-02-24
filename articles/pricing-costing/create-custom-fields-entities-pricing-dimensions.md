@@ -2,9 +2,11 @@
 title: Opprette egendefinerte felt og enheter som prisdimensjoner
 description: Dette emnet gir informasjon om hvordan du oppretter egendefinerte alternativsett eller enheter.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003648"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642825"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Opprette egendefinerte felt og enheter som prisdimensjoner
 
@@ -44,7 +46,7 @@ Følg denne fremgangsmåten for å opprette enhetsbaserte dimensjoner:
 3. Klikk **Ny** for å opprette en ny enhet kalt **Standardtittel**. 
 4. Angi resten av den nødvendige informasjonen, og klikk deretter **Lagre**.
 
-> ![Standard enhetsdefinisjon for tittel.](media/Standard-Title-entity-definition.png)
+> ![Standard enhetsdefinisjon for tittel](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Alternativsettbaserte dimensjoner 
 Du kan opprette to alternativsettbaserte dimensjoner. 
@@ -54,11 +56,11 @@ Du kan opprette to alternativsettbaserte dimensjoner.
 
 Følgende grafikk gir en visning av **Arbeidssted for ressurs**-dimensjonen. 
 
-> ![Alternativsettbasert prisdimensjon kalt Arbeidssted for ressurs.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Alternativsettbasert prisdimensjon kalt Arbeidssted for ressurs](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Følgende grafikk gir en visning av **Arbeidstimer for ressurs**-dimensjonen. 
 
-> ![Alternativsettbasert prisdimensjon kalt Arbeidstimer for ressurs.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Alternativsettbasert prisdimensjon kalt Arbeidstimer for ressurs](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Gå til **Innstillinger** > **Løsninger**, og dobbeltklikk deretter **\<your organization name>-prisdimensjoner**. 
 2. I Løsningsutforsker, i den venstre navigasjonsruten, velger du **Alternativsett**. 
@@ -74,7 +76,4 @@ Du kan opprette data for en enhetsbasert dimensjon manuelt eller ved å bruke im
 4. Lukk siden. 
 5. Gjenta trinn 1-3 for å opprette en ny standardtittel for "Overordnet systemingeniør".
 
-> ![Eksempeldata for enheten Standardtittel.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Eksempeldata for enheten Standardtittel](media/ST-data.png)

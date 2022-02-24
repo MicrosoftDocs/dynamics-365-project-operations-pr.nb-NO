@@ -2,17 +2,18 @@
 title: Distribusjonsoversikt for Project Operations for lagerførte/produksjonsbaserte scenarioer
 description: Dette emnet gir informasjon om distribusjonstypen Project Operations for lagerførte/produksjonsbaserte scenarioer.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009093"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365569"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Distribusjonsoversikt for Project Operations for lagerførte/produksjonsbaserte scenarioer
 
@@ -42,6 +43,3 @@ Velg denne distribusjonstypen for å bruke Dynamics 365 Project Operations for h
 - En mva- og valutakursmotor for bedriftsklassen for å generere kunderettet fakturaer for prosjekter.
 - Et IFRS-kompatibelt system (International Financial Reporting Standards) for prosjektregnskap og inntektsføring.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

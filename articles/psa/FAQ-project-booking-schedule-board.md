@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987628"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992978"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Opprette en prosjektbestilling fra planleggingstavlen
 
@@ -43,7 +43,7 @@ Du kan opprette en generell ressurs og tilordne den til én oppgave eller flere 
 
 1.  På planleggingstavlen vises denne ressursen i **Åpne krav**-kategorien. Du må kanskje bruke kolonnefiltre i rutenettet hvis du har mange åpne krav. 
 
-    ![Fanen Åpne krav på planleggingstavlen.](media/FAQ-Project-Booking-Schedule-Board-1.png "Skjermbilde av tabell med bestillinger og tilordninger")
+    ![Kategorien Åpne krav på planleggingstavlen](media/FAQ-Project-Booking-Schedule-Board-1.png "Skjermbilde av tabell med bestillinger og tilordninger")
 
 2. Velg kravet. **Søk etter tilgjengelighet**-kategorien vises øverst i den valgte raden.
  
@@ -53,7 +53,7 @@ Du kan opprette en generell ressurs og tilordne den til én oppgave eller flere 
 
     Valg av **Bestill** bestiller ressursen til prosjektteamet.
 
-![Panel for å opprette ressursbestilling.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Panel for å opprette ressursbestilling](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Bestille fra det primære kravet
@@ -62,7 +62,7 @@ Når du oppretter et prosjekt i Project Service, opprettes automatisk et ressurs
 
 1. Hvis du vil bestille en ressurs med primærkravet, velger du **Prosjekt**-kategorien på planleggingstavlen. Det kan hende du må bruke kolonnefilteret i **Prosjekt**-kolonnen hvis du har mange prosjekter.
 
-   ![Kolonnefiltre på planleggingstavlen.](media/FAQ-Project-Booking-Schedule-Board-2.png "Skjermbilde av tabell med bestillinger og tilordninger")
+   ![Kolonnefiltre på planleggingstavlen](media/FAQ-Project-Booking-Schedule-Board-2.png "Skjermbilde av tabell med bestillinger og tilordninger")
 
 2. Velg kravet som bare har prosjektnavnet som navn, og som har en varighet på null (0).
 

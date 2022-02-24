@@ -2,17 +2,19 @@
 title: Produktbaserte kontraktlinjer for kostberegning – Lite
 description: Dette emnet gir informasjon om oppretting
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997348"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764471"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Produktbaserte kontraktlinjer for kostberegning – Lite
 
@@ -28,6 +30,3 @@ Når en produktbasert kontraktlinje opprettes for et katalogprodukt, brukes stan
 Ved å ha en enhetskostnad på en produktbasert kontraktlinje er det mulig med ulike produktkostnader for hvert salg av en enhet. Selv om dette ikke alltid er nødvendig, er det enkelte tilfeller der kunden kan få rabatt på kostnaden for produktet av leverandøren. Tenk deg følgende scenario:
 
 Fabrikam Robotics installerer robotarmer på samlebåndene til Adatum Corporation. Fabrikam tilbyr installasjonstjenester, men robotarmene kommer fra Trey Research. Hvis installasjonen av robotarmer hos Adatum Corporation åpner en ny bransjevertikal for Trey Research, kan de tilby en spesiell rabatt på denne avtalen til Fabrikam. I dette tilfellet oppretter Fabrikam en produktbasert kontraktlinje for robotarmer. Det angis en enhetskostnad per for denne kontrakten. Kostnaden er forskjellig fra kostnaden for robotarmer fra Trey Research.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Implementere egendefinerte felt for Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
 description: Dette emnet inneholder vanlige mønstre for bruk av utvidelser for å implementere egendefinerte felt.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005763"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271005"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementere egendefinerte felt for Microsoft Dynamics 365 Project Timesheet-mobilappen på iOS og Android
 
@@ -153,13 +155,13 @@ For felt av typen **Dato** sender denne egenskapen dato-verdien for feltet mello
 
 Nedenfor vises et skjermbilde fra mobilappen av oppretting av en timeregistreringsoppføring. Den viser felt med flere bokser og et egendefinert felt i delen "Tidsregistrering" som kalles "Test streng" der opplistingsverdien "Andre alternativ" allerede er angitt.
 
-![Egendefinerte felt for teststreng i appen.](media/timesheet-entry.jpg)
+![Egendefinerte felt for teststreng i appen](media/timesheet-entry.jpg)
 
 
 
 Nedenfor finner du et skjermbilde fra mobilappen av brukeren som velger et av opplistingsalternativene som er tilgjengelige for det egendefinerte feltet "Teststreng".  De to alternativene er "Første alternativ" og "Andre alternativ" som vises som alternativknapper. Det andre alternativet er allerede valgt.
 
-![Alternativknapper (radioknapper) for det egendefinerte feltet Teststreng.](media/enum-option.jpg)
+![Alternativknapper (radioknapper) for det egendefinerte feltet Teststreng](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Vær oppmerksom på at egendefinerte felt ikke trenger å ha noen sikkerhetskopi
 
 Nedenfor vises et skjermbilde fra Visual Studio av programobjekttreet. Den viser en utvidelse av tabellen TSTimesheetLine med TestLineString-feltet lagt til som et egendefinert felt.
 
-![Linjestreng.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Linjestreng](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Bruke kommandokjede på buildCustomFieldList-metoden i TSTimesheetSettings-klassen for å vise et felt i delen for timeregistreringsoppføring
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Nedenfor vises et skjermbilde fra mobilappen av en bruker som viser en timeregistrering. Knappen "Mer informasjon" er valgt i det øvre høyre hjørnet for å vise alternativet "Vis flere detaljer".  
 
-![Kommandoen Vis flere detaljer.](media/show-more.png)
+![Kommandoen Vis flere detaljer](media/show-more.png)
 
 Nedenfor vises et skjermbilde fra mobilappen som viser delen "Mer" av en timeregistrering. Et egendefinert felt kalt "Utnyttelsesgrad for denne timeregistreringen (beregnet egendefinert felt)" er lagt til i delen for timeregistrering. En skrivebeskyttet verdi på "0,667" er angitt i det egendefinerte feltet.
 
-![Delen Mer.](media/more-section.jpg)
+![Delen Mer](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Utvid TSTimesheetTable-tabellen slik at den inneholder et egendefinert felt
 
@@ -414,7 +416,7 @@ Eksisterende logikk for timeregistreringsfunksjonalitet på databasenivået vil 
 
 Du kan bruke prosjektparameterne til å skrivebeskytte eller skjule standardfelt i mobilappen. Angi alternativene i delen **Mobile timeregistreringer** i kategorien **Timeregistrering** på siden **Parametere for prosjektstyring og regnskap**.
 
-![Prosjektparametere.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Prosjektparametere](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Endre aktivitetene som er tilgjengelige for valg via utvidelser
 

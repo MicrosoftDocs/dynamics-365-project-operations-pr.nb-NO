@@ -2,6 +2,8 @@
 title: Tidsoppføringskalender
 description: Dette emnet gir informasjon om hvordan du bruker tidsregistreringskalenderen.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996763"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150185"
 ---
 # <a name="time-entry-calendar"></a>Tidsoppføringskalender
 
@@ -40,6 +42,3 @@ Kalenderen støtter ikke handlinger for individuelle kalenderelementer, og du ka
 ## <a name="extensibility"></a>Utvidbarhet
 
 På siden **Tidsoppføringer** som har tidsoppføringsrutenettet, kan du legge til egendefinerte felt, konfigurere oppslagsfelt og opprette egendefinerte visninger. Du kan også konfigurere egendefinert forretningslogikk som er basert på verdiene som er valgt eller angitt i egendefinerte felt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

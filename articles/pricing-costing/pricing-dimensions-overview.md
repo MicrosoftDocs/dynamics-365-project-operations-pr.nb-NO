@@ -2,18 +2,19 @@
 title: Oversikt over prisdimensjoner
 description: Dette emnet gir informasjon om prisdimensjonene i Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001983"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650215"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversikt over prisdimensjoner
 
@@ -33,7 +34,7 @@ På grunn av dette er to typer prisdimensjonsverdier tilgjengelige:
 
 Dynamics 365 Project Operations leveres med et standardsett med prisdimensjoner. Du kan vise disse prisdimensjonene ved å gå til **Project Operations** > **Parametere**. i parameteroppføringen, i kategorien **Beløpsbaserte prisdimensjoner** kontrollerer du at rollen **msdyn_resourcecategory** og ressursorganisasjonsenheten **msdyn_organizationalunit** har feltene **Gjelder salg** og **Gjelder kostnad** satt til **Ja**. Når disse feltene er aktivert, kan du konfigurere prisen og kostnaden for hver kombinasjon av rolle og organisasjonsenhet.
 
-![Skjermbilde av Project Service-parametere med Gjelder salg uthevet.](media/PS-OOB-parameters.png)
+![Skjermbilde av Project Service-parametere med "Gjelder salg" uthevet](media/PS-OOB-parameters.png)
 
 Hvis du har behov for pris eller kostnad for ressursene ved hjelp av flere attributter, kan du opprette egendefinerte felt, enheter og dimensjoner. Hvis du vil ha mer informasjon, kan du se følgende emner. 
   
@@ -60,16 +61,13 @@ Følgende eksempel viser kostnadssatser som er definert basert på rollen og org
 
 | Rolle        | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvikler   | Contoso – USA  |Time | 200|USD     |
-| Utvikler   | Contoso India |Time|   112|USD     |
+| Utvikler   | Contoso US  |Hour | 200|USD     |
+| Utvikler   | Ekeli India |Hour|   112|USD     |
 
 
 **Eksempel på kostnadssatser**
 
 | Lønnssats     | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt firma_Band1 | Contoso – USA  |Time | 145|USD     |
-| Mitt firma_Band2 | Contoso India |Time|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Mitt firma_Band1 | Contoso US  |Hour | 145|USD     |
+| Mitt firma_Band2 | Ekeli India |Hour|   67|USD     |

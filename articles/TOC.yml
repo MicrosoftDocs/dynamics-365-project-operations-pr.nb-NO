@@ -4,14 +4,8 @@
   items:
     - name: Fastslå distribusjonstypen
       href: environment/determine-deployment-type.md
-    - name: Registrer deg for Project Operations-prøveversjoner
-      href: environment/admin-trials.md
     - name: Project Operations-oppdateringer
       href: whats-new/project-operations-updates.md
-    - name: Funksjoner som er fjernet eller avskrevet
-      items:
-        - name: Fjernede eller avskrevne funksjoner i Project Operations
-          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
   items:
     - name: Kom i gang
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Distribuer miljøer
           items:
-            - name: Distribuer Project Operations Dataverse-appen manuelt med støtte for dobbel skriving
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Klargjør et nytt miljø
               href: environment/resource-provision-new-environment.md
             - name: Sikkerhetsmodell
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integrering av leverandørfaktura
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Avinstaller Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
-        - name: Desember 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: November 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Oktober 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: September 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: August 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Juli 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Juni 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Mai 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Mars 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -306,17 +280,13 @@
           items:
             - name: Utvikle prosjektmaler med Kopier prosjekt
               href: project-management/dev-copy-project.md
-            - name: Bruk API-er for prosjektplan
+            - name: Bruk API-er for tidsplan (offentlig forhåndsversjon)
               href: project-management/schedule-api-preview.md
-            - name: API-ytelse for prosjektplan
-              href: project-management/project-schedule-api-performance.md
-            - name: Logger for prosjektplanlegging
-              href: project-management/schedule-api-logs.md
     - name: Ressursstyring
       items:
         - name: Nøkkelkonsepter
           href: resource-management/resource-management-key-concepts.md
-        - name: Bestillinger kontra oppgaver
+        - name: Bestillinger i forhold til tilordninger
           href: resource-management/booking-vs-assignment.md
         - name: Oversikt over modi for ressursstyring
           href: resource-management/resource-management-mode-overview.md
@@ -362,7 +332,7 @@
           items:
             - name: Oversikt over ressursavstemming
               href: resource-management/resource-reconciliation-overview.md
-            - name: Administrer tidssoner
+            - name: Administrere tidssoner
               href: resource-management/manage-multiple-time-zones.md
         - name: Ressursutnyttelse
           items:
@@ -372,7 +342,7 @@
       items:
         - name: Oversikt over tid
           href: time/time-entry-overview.md
-        - name: Opprett tidsoppføringer
+        - name: Opprette tidsoppføringer
           items:
             - name: Brukergrensesnitt for tidsoppføring
               href: time/ui-behavior-time.md
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Konfigurer utgiftskategorier
               href: expense/set-up-expense-categories.md
-            - name: Konfigurer kjørelengde ved å bruke satsnivåer for kjørelengde
-              href: expense/set-up-mileage.md
-        - name: Utgiftsspesifisering
-          href: prod-exp/expense-itemization.md
         - name: Personlige utgifter
           href: expense/personal-expenses-expense-report.md
         - name: Konserninterne utgifter
@@ -442,8 +408,6 @@
       items:
         - name: Oversikt over godkjenninger
           href: approvals/approvals-overview.md
-        - name: Godkjenningssett
-          href: approvals/approval-sets.md
         - name: Notater for utviklere
           items:
             - name: Utviklers merknader til godkjenninger
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Anskaffelse av ikke-lagerførte materialer for prosjekter ved hjelp av ventende leverandørfakturaer
           href: procurement/pending-vendor-invoices.md
-        - name: Bestill ikke-lagerføre materialer for prosjekter ved hjelp av prosjektbestillinger
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Leverandøroppbevaring
-          items:
-            - name: Oversikt over leverandøroppbevaring
-              href: procurement/vendor-retention-overview.md
-            - name: Definer leverandøroppbevaring
-              href: procurement/set-up-vendor-retention.md
     - name: Fakturering
       items:
         - name: Oversikt over faktureringsprosess
           href: invoicing/post-project-invoices.md
+        - name: Behandle prosjektfakturaforslag
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proformafakturering
           items:
             - name: Administrer prosjektbasert faktureringsrestanse
@@ -494,12 +452,20 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurer prosjektbasert fakturaautomatisering
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Kundefakturering
-          items:
-            - name: Behandle prosjektfakturaforslag
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Korriger regnskap på utkast av prosjektfakturaforslag
-              href: invoicing/correct-project-invoice-proposals.md
+        - name: Behandle prosjektfakturaforslag
+          href: invoicing/format-update-project-invoice-proposals.md
+    - name: Prosjektregnskap
+      items:
+        - name: Standardverdier for finansdimensjon
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Konfigurer prosjektkategorier
+          href: project-accounting/configure-project-categories.md
+        - name: Konfigurere regnskap for interne prosjekter
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Konfigurere regnskap for fakturerbare prosjekter
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: Journal for Project Operations-integrering
+          href: project-accounting/project-operations-integration-journal.md
         - name: Konsernintern fakturering
           items:
             - name: Oversikt over konsernintern fakturering
@@ -510,18 +476,6 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Opprett konserninterne kunde- og leverandørfakturaer
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
-    - name: Prosjektregnskap
-      items:
-        - name: Standardverdier for finansdimensjon
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Konfigurere prosjektkategorier
-          href: project-accounting/configure-project-categories.md
-        - name: Konfigurere regnskap for interne prosjekter
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Konfigurer regnskap for fakturerbare prosjekter
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: Journal for Project Operations-integrering
-          href: project-accounting/project-operations-integration-journal.md
     - name: Inntektsføring
       items:
         - name: Oversikt over inntektsføring
@@ -538,12 +492,6 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Behandle omberegning av inntekter
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Feilsøking
-      items:
-        - name: Salgsprosess for prosjekt
-          items:
-            - name: 'Feil om manglende samsvar mellom valuta under oppretting av prosjekt, kontrakt, tilbud eller ressurs som kan reserveres'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Lite-distribusjon – avtale til proformafakturering
   items:
     - name: Kom i gang
@@ -560,24 +508,6 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Nyheter i bølge 2 i 2021 for tidlig tilgang – Lite-distribusjon
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Nyheter desember 2021 – Lite-distribusjon
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Nyheter november 2021 – Lite-distribusjon
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Nyheter oktober 2021 – Lite-distribusjon
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Nyheter september 2021 – Lite-distribusjon
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Nyheter august 2021 – Lite-distribusjon
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Nyheter juli 2021 – Lite-distribusjon
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Nyheter juni 2021 – Lite-distribusjon
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Nyheter mai 2021 – Lite-distribusjon
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nyheter april 2021 – Lite-distribusjon
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Nyheter mars 2021 – Lite-distribusjon
@@ -826,15 +756,13 @@
           items:
             - name: Utvikle prosjektmaler med Kopier prosjekt
               href: project-management/dev-copy-project.md
-            - name: Bruk API-er for prosjektplan
+            - name: Bruk API-er for tidsplan (offentlig forhåndsversjon)
               href: project-management/schedule-api-preview.md
-            - name: API-ytelse for prosjektplan
-              href: project-management/project-schedule-api-performance.md
     - name: Ressursstyring
       items:
         - name: Nøkkelkonsepter
           href: resource-management/resource-management-key-concepts.md
-        - name: Bestillinger kontra oppgaver
+        - name: Bestillinger i forhold til tilordninger
           href: resource-management/booking-vs-assignment.md
         - name: Oversikt over modi for ressursstyring
           href: resource-management/resource-management-mode-overview.md
@@ -880,55 +808,17 @@
           items:
             - name: Oversikt over ressursavstemming
               href: resource-management/resource-reconciliation-overview.md
-            - name: Administrer tidssoner
+            - name: Administrere tidssoner
               href: resource-management/manage-multiple-time-zones.md
         - name: Ressursutnyttelse
           items:
             - name: Oversikt over ressursutnyttelse
               href: resource-management/resource-utilization-overview.md
-    - name: Administrasjon av underkontrakt i Project Operations
-      items:
-        - name: Administrasjon av underkontrakt i Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Underkontrakter i tidlig tilgang for oktober 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Nøkkelkonsepter i underkontrakter
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Administrasjon av leverandører og prosjektprislister
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Underleverandører som ressurser som kan reserveres
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Overskriftsdetaljer for underkontrakter
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Underkontraktlinjer for tid
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Underkontraktlinjer for utgiftskategorier
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Underkontraktlinjer for produkter
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Ressurser for underkontraktlinje
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Milepæler for underkontraktlinje
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Prosjektteammedlemmer for underkontrakter
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Underkontraktalternativer for prosjektteammedlemmer
-          href: pro/subcontracting/subcon-options.md
-        - name: Kostnadsberegning av tilordninger for underleveranseressurs
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: Konfigurer planleggingstavlen for å vise kontraktarbeidere og underkontraktkapasitet
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Bemanning av et prosjekt med kontraktarbeidere og underkontraktkapasitet
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Registrering av tid, utgifter og materialbruk for underkontraktkomponenter'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Tilstandsoverganger på en underkontrakt
-          href: pro/subcontracting/subcon-states.md
     - name: Tid
       items:
         - name: Oversikt over tid
           href: time/time-entry-overview.md
-        - name: Opprett tidsoppføringer
+        - name: Opprette tidsoppføringer
           items:
             - name: Brukergrensesnitt for tidsoppføring
               href: time/ui-behavior-time.md
@@ -950,8 +840,6 @@
       items:
         - name: Oversikt over godkjenninger
           href: approvals/approvals-overview.md
-        - name: Godkjenningssett
-          href: approvals/approval-sets.md
         - name: Notater for utviklere
           items:
             - name: Utviklers merknader til godkjenninger
@@ -988,14 +876,6 @@
   items:
     - name: Nyheter
       items:
-        - name: Nyheter oktober 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Nyheter september 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Nyheter juli 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Nyheter mai 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Nyheter april 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nyheter mars 2021 – Project Operations for lagerførte/produksjonsbaserte scenarioer
@@ -1148,24 +1028,6 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 38, V3'
-          href: psa/whats-new-ur-38.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 37.5, V3'
-          href: psa/whats-new-ur-37-5.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 37, V3'
-          href: psa/whats-new-ur-37.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 36, V3'
-          href: psa/whats-new-ur-36.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 35, V3'
-          href: psa/whats-new-ur-35.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 34, V3'
-          href: psa/whats-new-ur-34.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 33, V3'
-          href: psa/whats-new-ur-33.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 32.5, V3'
-          href: psa/whats-new-ur-32-5.md
-        - name: 'Nyheter eller endringer i oppdateringsutgivelse 32, V3'
-          href: psa/whats-new-ur-32.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 30, V3'
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Rapporteringsveiledning
           href: psa/implementation-guides/reporting-guide.md
-    - name: Oppgrader fra Project Service Automation til Project Operations – Lite
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation-oppgradering (appversjon 3.x)
       items:
         - name: Project Service Automation-oppgradering
@@ -1400,14 +1260,12 @@
               href: psa/reports-working-project-service-data-model.md
         - name: Tidsoppføringer
           items:
-            - name: Opprett tidsoppføringer
+            - name: Opprette tidsoppføringer
               href: psa/time-entries.md
             - name: Tidsoppføringskalender
               href: psa/time-entry-calendar.md
-            - name: Tilpass ukentlige tidsoppføringer
+            - name: Tilpasse ukentlige tidsoppføringer
               href: psa/time-entry-extensibility-v3.md
-            - name: Godkjenningssett i Project Service Automation
-              href: psa/approval-set.md
     - name: Vanlige spørsmål og feilsøking (3.x)
       items:
         - name: Hvorfor settes pris som standard til null i faktiske utgiftskostnader?

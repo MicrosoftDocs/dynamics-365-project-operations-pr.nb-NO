@@ -2,6 +2,8 @@
 title: Enhetsgrupper og enheter
 description: Dette emnet inneholder informasjon om enhetsgrupper og enheter.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987583"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145595"
 ---
 # <a name="unit-groups-and-units"></a>Enhetsgrupper og enheter
 
@@ -44,7 +46,7 @@ For eksempel, i en **Tid**-enhetsgruppe, hvis du definerer **Time** som den før
 
 Følgende bilde viser et eksempel på oppsett for **Dag**-enheten, der **Antall**-feltet viser antall timer i løpet av en dag, og i **Uke**, der **Antall**-feltet viser antall dager i uken.
 
-> ![Enhetsgruppe: informasjonsside.](media/advanced-2.png)
+> ![Enhetsgruppe: informasjonsside](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Bruke enheter og enhetsgrupper
 
@@ -86,7 +88,7 @@ Følgende eksempel viser hvordan PSA bruker enhetsgruppen, enhetene og konverter
 
 | Rolle      | Enhetsgruppe | Enhet | Organisasjonsenhet | Pris   |
 |-----------|------------|------|---------------------|---------|
-| Utvikler | Tid       | Dag  | Contoso Storbritannia          | 800 GBP |
+| Utvikler | Time       | Day  | Ekeli UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Tidsoppføring
 
@@ -110,6 +112,3 @@ Nr. Tidsplanestimering er for øyeblikket begrenset til timer og kan ikke endres
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kan enheter og enhetsgrupper redigeres, slettes og legges til?
 Ja. Med unntak av **Tid**-enhetsgruppen og **Time**-enheten kan alle enheter slettes eller redigeres, og det kan legges til nye enheter. I PSA kan **Tid**-enhetsgruppen og **Time**-enheten ikke slettes. De kan imidlertid oppdateres med en oversatt tekst for **Navn**-feltet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

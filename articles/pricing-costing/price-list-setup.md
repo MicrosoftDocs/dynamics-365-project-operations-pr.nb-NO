@@ -2,22 +2,24 @@
 title: Sette opp prislister
 description: Dette emnet gir information om hvordan du setter opp kost- og salgsprislister.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009498"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180204"
 ---
 # <a name="set-up-price-lists"></a>Sette opp prislister
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Prislister i Dynamics 365 Project Operations representerer en katalog med priser. Satsene uttrykker kostnads-, salgs- og fakturasatser. Alt etter om prislisten uttrykker kostnadssatser eller salgs- og fakturasatser, er konteksten til prislisten **Salg** eller **Kostnad**.
+Prislister i Dynamics 365 Project Operations representerer en katalog med satser. Satsene uttrykker kostnads-, salgs- og fakturasatser. Alt etter om prislisten uttrykker kostnadssatser eller salgs- og fakturasatser, er konteksten til prislisten **Salg** eller **Kostnad**.
 
 Følgende utvidelser er spesifikke for Project Operations og brukes på prislister fra Dynamics 365 Sales.
 
@@ -38,6 +40,3 @@ Følgende tabell inneholder feltene i kategoroien **Generelt** for en prisliste 
 | Valuta | Kategorien **Generelt** og **hurtigopprettingsskjemaer** | Dette feltet brukes til å standardisere valutaen for hver rolle, kategori eller prislisteelement som er relatert til denne prislisten. | I **salgsprislister** kan ikke roller, kategorier eler prislisteelementlinjer opprettes i andre valutaer enn denne valutaen. I **kostprislister** kan du rolleprislinje i hvilken som helst valuta. Valutaen som er definert her, brukes som standard. Brukeroppsettet som er relatert til rollepriser, kan overstyre denne verdien for å aktivere oppsett av arbeidskostsatser for en hvilken som helst valuta. Kategorikostnadssataser og prislisteelementkostnader kan bare konfigureres i valutaen som er definert her. |
 | Tidsenhet | Kategorien **Generelt** og **hurtigopprettingsskjemaer** | Dette feltet brukes til å standardisere tidsenheten for hver rollelinje som er relatert til denne prislisten. | Denne feltverdien brukes bare på det relaterte rolleprisoppsettet. I **kost-** og **salgsprislister** kan du opprette en rolleprislinje i hvilken som tidsenhet. Tidsenheten som er definert her, brukes som standard. Brukeroppsettet som er relatert til rollepriser, kan overstyre denne verdien for å aktivere oppsett av arbeidskost- og fakturasatser for en hvilken som helst tidsenhet. |
 | Beskrivelse | Kategorien **Generelt** og **hurtigopprettingsskjemaer** | Dette tekstfeltet gjør det mulig å ha en flerlinjet beskrivelse av prislisten. | Dette feltet vises i de **tilknyttede** visningene i prislisten i ulike enheter som har relaterte prislister. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

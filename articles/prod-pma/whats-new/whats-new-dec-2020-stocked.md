@@ -2,17 +2,19 @@
 title: Nyheter desember 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
 description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i desember 2020-versjonen av Project Operations for lagerførte/produksjonsbaserte scenarioer.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008823"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727999"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nyheter eller endringer i Project Operations, desember 2020, for lagerførte/produksjonsbaserte scenarioer
 
@@ -139,7 +141,4 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 
 ## <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
 
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). En annen måte å lære om regelverksoppdateringer på, er å logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av problemsøkverktøyet. Problemsøk lar deg søke etter land, type funksjon og utgave.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). En annen måte å lære om regelverksoppdateringer på, er å logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av problemsøkverktøyet. Problemsøk lar deg søke etter land, type funksjon og utgave.

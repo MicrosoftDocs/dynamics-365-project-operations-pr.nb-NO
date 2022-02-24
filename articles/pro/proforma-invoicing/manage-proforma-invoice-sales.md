@@ -1,23 +1,25 @@
 ---
-title: Behandle en proforma prosjektfaktura
-description: Dette emnet inneholder informasjon om hvordan du arbeider med proforma prosjektfakturaer.
+title: Behandle en proformafaktura – Lite
+description: Dette emnet gir informasjon om hvordan du arbeider med proformafakturaer.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997438"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181554"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Behandle en proforma prosjektfaktura 
+# <a name="manage-a-proforma-invoice---lite"></a>Behandle en proformafaktura – Lite
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-Proformafakturaer i Dynamics 365 Project Operations er bygget som en forlengelse til fakturaene i Dynamics 365 Sales. Det er imidlertid mange forskjeller i faktureringsprosessen mellom Salg og Project Operations når det gjelder fakturering. Det er for eksempel ikke mulig å opprette en ny faktura fra siden **Fakturaliste** i Project Operations, men det er mulig å gjøre dette i Salg. Disse forskjellene og utvidelsene er på plass for å støtte faktureringsprosesser for prosjekter som er forskjellige fra en vanlig faktura for en salgsordre.
+Proformafakturaer i Dynamics 365 er bygget som en forlengelse til fakturaene i Dynamics 365 Sales. Det er imidlertid mange forskjeller i faktureringsprosessen mellom Salg og Project Operations når det gjelder fakturering. Det er for eksempel ikke mulig å opprette en ny faktura fra siden **Fakturaliste** i Project Operations, men det er mulig å gjøre dette i Salg. Disse forskjellene og utvidelsene er på plass for å støtte faktureringsprosesser for prosjekter som er forskjellige fra en vanlig faktura for en salgsordre.
 
 > [!IMPORTANT]
 > På grunn av forskjellene må du ikke bruke fakturaer i Salg og Project Operations om hverandre.
@@ -67,9 +69,9 @@ I Project Operations er det alltid én fakturalinje for hver prosjektkontraktlin
 
 Hver fakturalinje i en prosjektfaktura inkluderer fakturalinjedetaljer. Disse linjedetaljene er relatert til de ufakturerte faktiske verdiene for salg og milepæler som er relatert til kontraktlinjen som fakturalinjen refererer til. Alle disse transaksjonene er merket **Klar for fakturering**.
 
-For en linje på en **Tid og materiale-faktura** er fakturalinjedetaljene gruppert som **Belastbar**, **Ikke-belastbar** og **Gratis** på **Fakturalinje**-siden. **Belastbar fakturalinje**-detaljer legges til fakturalinjetotalen. **Gratis** og **Ikke-belastbare faktiske verdier** bidrar ikke til totalsummen på fakturalinjen.
+Når det gjelder linjen **Tid og materiale-linjen**, blir fakturalinjedetaljer gruppert i **Belastbar**, **Ikke-belastbar** og **Gratis** på siden **Fakturalinje**. **Belastbar fakturalinje**-detaljer legges til fakturalinjetotalen. **Gratis** og **Ikke-belastbare faktiske verdier** legges ikke til fakturalinjesummen.
 
-For en linje på en **fastprisfaktura** opprettes fakturalinjedetaljene fra milepæler som er merket som **Klar for fakturering** på den relaterte kontraktlinjen. Når fakturalinjedetaljene er opprettet fra en milepæl, oppdateres faktureringsstatusen på milepælen til **Opprettet kundefaktura**.
+For linjen **Fast pris-faktura** opprettes fakturalinjedetaljer fra milepæler som er merket som **Klar for fakturering** på den relaterte kontraktlinjen. Når fakturalinjedetaljene er opprettet fra en milepæl, oppdateres faktureringsstatusen på milepælen til **Opprettet kundefaktura**.
 
 ### <a name="edit-invoice-line-details"></a>Redigere fakturalinjedetaljer
 
@@ -96,12 +98,8 @@ Følgende felt er tilgjengelige i en fakturalinjedetalj som er støttet av et ik
 | **Avgift** | Angi som standard fra de faktiske verdikildene. Feltet kan redigeres av brukeren | Feltet kan redigeres av brukeren når du oppretter en ny fakturalinjedetalj som ikke er støttet av en faktisk verdi. |
 | **Samlet beløp** | Et beregnet felt, beregnet som **Beløp + avgift**. Et skrivebeskyttet felt som er låst for redigering. | &nbsp; |
 | **Faktureringstype** | Angi som standard fra de faktiske verdikildene. Feltet kan redigeres av brukeren. | Hvis du velger **Belastbar** legges linjen til fakturalinjetotalen. **Gratis** og **Ikke-belastbar** vil utelate den fra fakturalinjesummen. |
-| **Velg produkt** | Dette feltet er skrivebeskyttet som standard fra den faktiske kilden. | Når du oppretter en ny fakturalinjedetalj uten en understøttende faktisk verdi, kan dette feltet redigeres. |
-| **Produkt** | Dette feltet er skrivebeskyttet som standard fra den faktiske kilden. | Når du oppretter en ny fakturalinjedetalj uten en understøttende faktisk verdi, kan dette feltet redigeres hvis **Velg produkt**-feltet er satt til **Eksisterende produkt**. |
-| **Produktnavn** | Dette feltet er skrivebeskyttet som standard fra den faktiske kilden. | I en ny fakturalinjedetalj der produkt-ID-en velges fra katalogen, settes dette feltet til produktnavnet. For et produkt som ikke er i produktkatalogen, settes feltet til navnet på produktet som ikke er i produktkatalogen. |
-| **Beskrivelse av produkt ikke i produktkatalog** | Dette feltet er skrivebeskyttet som standard fra den faktiske kilden. | Når du oppretter en ny fakturalinjedetalj uten en understøttende faktisk verdi, kan du legge til en skrivebeskrivelse for produktet som ikke er i produktkatalogen. |
 | **Transaksjonstype** | Angi som standard fra de faktiske verdikildene. Et skrivebeskyttet felt som er låst for redigering. | Settes som standard til **Fakturert salg** og låses når du oppretter en ny **Fakturalinjedetalj** som ikke er støttet av en faktisk verdi.  |
-| **Transaksjonsklasse** | Angi som standard fra de faktiske verdikildene. Et skrivebeskyttet felt som er låst for redigering. | Angi som standard basert på om brukeren velger å opprette en fakturalinjedetalj av typen **Tid**, **Utgift**, **Materiale** eller **Gebyr**, samtidig som det også opprettes en ny **fakturalinjedetalj** uten en understøttende faktisk verdi. Låst fra redigering. |
+| **Transaksjonsklasse** | Angi som standard fra de faktiske verdikildene. Et skrivebeskyttet felt som er låst for redigering. | Angis som standard basert på om brukeren velger å opprette en **Tid**, **Utgift** eller **Gebyr**-fakturalinje detalj, samtidig som det også opprettes en ny **Fakturalinjedetalj** som ikke er støttet av en faktisk verdi. Låst fra redigering. |
 
 Følgende felter er tilgjengelige på en fakturalinjedetalj som er støttet av en milepæl:
 
@@ -146,6 +144,3 @@ Hvis du har faktiske verdier som kom inn etter at du har opprettet fakturaen, ka
 I Project Operations kan du opprette fakturalinjer for produkter som ikke gjelder for noe prosjekt eller for alle prosjekter sammen med prosjektbaserte fakturalinjer. Disse fakturalinjene opprettes som produktbaserte kontraktlinjer, og etter at de er merket som klare til fakturering, blir de lagt til som produktbaserte fakturalinjer.
 
 Når du har lagt til produktbasert fakturalinjer, kan de ikke endres. De kan imidlertid slettes fra kladdeproformafakturaen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Fakturering i Project Service Automation
 description: Dette emnet inneholder informasjon om fakturering.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985513"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151400"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturering i Project Service Automation
 
@@ -50,7 +52,7 @@ Følg dette trinnet for å opprette en faktura for en bestemt prosjektkontrakt.
 
 - Åpne en prosjektkontrakt på listesiden **Prosjektkontrakter**, og velg deretter **Opprett faktura**.
 
-    ![Opprette prosjektfakturaer for en bestemt prosjektkontrakt.](media/CreateProjectInvoicesOneByOne.png)
+    ![Opprette prosjektfakturaer for en bestemt prosjektkontrakt](media/CreateProjectInvoicesOneByOne.png)
 
     Det blir generert en faktura for alle transaksjoner for den valgte prosjektkontrakten som har statusen **Klar for fakturering**. Disse transaksjonene inkluderer tid, utgifter, milepæler og produktbaserte kontraktlinjer.
 
@@ -58,7 +60,7 @@ Følg disse trinnene for å opprette fakturaer samlet.
 
 1. På listesiden **Prosjektkontrakter** velger du en eller flere prosjektkontrakter du må opprette en faktura for, og deretter velger du **Opprett prosjektfakturaer**.
 
-    ![Opprette prosjektfakturaer samlet.](media/CreateProjectInvoicesBulk.png)
+    ![Opprette prosjektfakturaer samlet](media/CreateProjectInvoicesBulk.png)
 
     En varselmelding informerer deg om at det kan være en forsinkelse før fakturaer opprettes. Prosessen vises også.
 
@@ -115,6 +117,3 @@ Når du bekrefter en korrigert faktura, tilbakeføres det opprinnelige faktiske 
 
 - Et fakturert faktisk salg på seks timer.
 - Et ikke-fakturert faktisk salg for de resterende to timene. Denne transaksjonen kan enten faktureres senere eller merkes som ikke-belastbar, avhengig av forhandlingene med kunden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Konfigurere en salgsprisliste
 description: Dette emnet gir information om salgsprislister for prosjektpriser.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997618"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176263"
 ---
 # <a name="set-up-a-sales-price-list"></a>Konfigurere en salgsprisliste
 
@@ -57,6 +59,3 @@ I en prosjektkontrakt brukes følgende prioritetsrekkefølge til automatisk å a
 Når en prosjektprisliste er angitt som standard, validerer systemet at valutaen samsvarer med kundens valuta, og at standardprislistene som er lagt inn, har en kontekst for **Salg**.
 
 Du kan knytte flere prosjektprislister til enhetene Kunde, Salgsmulighet, Tilbud og Prosjektkontrakt. Denne funksjonen støtter datospesifikke standardpriser for en langvarig prosjektkontrakt, der du kan trenge mer enn én prisliste for å ta hensyn til prisoppdateringer som inntreffer på grunn av inflasjonen. Hvis prislistene som du knytter til enheten Kunde, Salgsmulighet, Tilbud eller Prosjektkontrakt, for eksempel har overlappende datogyldighet, kan standard prisene være feil. Derfor bør du sørge for at prosjektprislister som har overlappende datogyldighet, ikke er tilknyttet disse enhetene.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

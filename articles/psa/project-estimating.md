@@ -2,6 +2,8 @@
 title: Prosjektkostnader og -omsetning
 description: Dette emnet gir informasjon om beregning av prosjektkostnader og -omsetning.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002568"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148340"
 ---
 # <a name="project-costs-and-revenue"></a>Prosjektkostnader og -omsetning
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002568"
 
 Prosjektestimater gir en økonomisk oversikt for arbeid som beregnet og planlagt i prosjektetplanen. Kategorien **Estimater** på **Prosjekter**-siden viser kostnadene og omsetningen for arbeidet du planlegger. Den inneholder også informasjon om mange forhåndsdefinerte dimensjoner. 
 
-> ![Fanen Estimater.](media/project-5.png)
+> ![Kategorien Estimater](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Kostnads- og salgsverdier for prosjektet
 
@@ -66,13 +68,13 @@ Hvis systemet ikke finner en pris for rollen, settes salgsprisen på estimatlinj
 
 Kategorien **Estimater** har en rutenettvisning som viser estimatlinjer. Rutenettet inneholder kolonner for enheten, den totale kostprisen og den totalsalgsprisen, som vist i følgende illustrasjon. 
 
-> ![Rutenettvisning i fanen Estimater.](media/project-6.png)
+> ![Rutenettvisning i kategorien Estimater](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Tidsinndelt visning av prosjektestimater
 
 Den tidsfasede visningen av prosjektestimater viser estimatdataene fra rutenettvisningen i løpet av tidslinjen, i en tidsskala som du velger. Som standard er estimatdataene pivotert i **Rolle**-dimensjonen.
 
-> ![Tidsinndelt visning for prosjektestimater.](media/project-7.png)
+> ![Tidsinndelt visning for prosjektestimater](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Tildele estimert innsats basert på oppgavemodusen
 
@@ -95,6 +97,3 @@ I både rutenettvisningen og den tidsinndelte visningen kan du velge hvilke felt
 ## <a name="expense-estimates"></a>Utgiftsestimater
 
 Med knappen **Legg til nytt utgiftsestimat** i rutenettvisningen kan du registrere eventuelle utgifter som er påløpt i prosjektet, men som ikke er direkte relatert til arbeid. Du kan registrere utgiftsestimatene for en bestemt oppgave eller for hele prosjektet. Velg utgiftskategorier og den foreløpige datoen da utgiften forventes å påløpe. Hvis den tilknyttede kostprislisten og salgsprislisten har standardpriser (eller hvis påslagsprosenter er definert for utgiftskategorier), angis de automatisk på estimatlinjen ved når tilknytningen skjer.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

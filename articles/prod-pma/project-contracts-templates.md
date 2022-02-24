@@ -2,9 +2,11 @@
 title: Synkronisere prosjektkontrakter og prosjekter direkte fra Project Service Automation til Økonomi
 description: Dette emnet beskriver malen og de underliggende oppgavene som brukes til å synkronisere prosjektkontrakter og prosjekter direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001083"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764831"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkronisere prosjektkontrakter og prosjekter direkte fra Project Service Automation til Økonomi 
 
@@ -42,7 +44,7 @@ Project Service Automation til Finance-integreringsløsningen bruker funksjonen 
 
 Illustrasjonen nedenfor viser hvordan dataene synkroniseres mellom Project Service Automation og Finance.
 
-[![Dataflyt for Project Service Automation-integrasjon med Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Dataflyt for Project Service Automation-integrasjon med Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Maler og oppgaver
 
@@ -107,8 +109,8 @@ Når integrasjonsløsningen Project Service Automation til Finance brukes, angir
 ## <a name="prerequisites-and-mapping-setup"></a>Oppsett av forhåndskrav og tilordning
 
 - Før synkronisering av prosjektkontrakter og prosjekter kan forekomme, må du synkronisere forretningsforbindelser.
-- I tilkoblingssettet legger du til en integreringnøkkelfelttilordning for **msdyn\_organizationalunits** i **msdyn\_name \[navn\]**. Du må kanskje først legge til et prosjekt i tilkoblingssettet. Hvis du vil ha mer informasjon, kan du se [Integrere data i Common Data Service for apper](/powerapps/administrator/data-integrator).
-- I tilkoblingssettet legger du til en integreringnøkkelfelttilordning for **msdyn\_projects** til **msdynce\_projectnumber \[prosjektnummer\]**. Du må kanskje først legge til et prosjekt i tilkoblingssettet. Hvis du vil ha mer informasjon, kan du se [Integrere data i Common Data Service for apper](/powerapps/administrator/data-integrator).
+- I tilkoblingssettet legger du til en integreringnøkkelfelttilordning for **msdyn\_organizationalunits** i **msdyn\_name \[navn\]**. Du må kanskje først legge til et prosjekt i tilkoblingssettet. Hvis du vil ha mer informasjon, kan du se [Integrere data i Common Data Service for apper](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- I tilkoblingssettet legger du til en integreringnøkkelfelttilordning for **msdyn\_projects** til **msdynce\_projectnumber \[prosjektnummer\]**. Du må kanskje først legge til et prosjekt i tilkoblingssettet. Hvis du vil ha mer informasjon, kan du se [Integrere data i Common Data Service for apper](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** for prosjektkontrakter og prosjekter kan oppdateres til en annen verdi eller fjernes fra tilordningen. Standardmalverdien er **Project Service Automation**.
 - **PaymentTerms**-tilordningen må oppdateres slik at den gjenspeiler gyldige betalingsbetingelser i Finance. Du kan også fjerne tilordningen fra prosjektoppgaven. Standardverdien for tilordningen inneholder standardverdier for demonstrasjonsdata. Tabellen nedenfor viser verdiene i Project Service Automation.
 
@@ -129,7 +131,7 @@ Bruk Microsoft Power Query for Excel til å filtrere data hvis følgende betinge
 Hvis du må bruke Power Query, følger du retningslinjene nedenfor:
 
 - Malen for prosjekter og kontrakter (PSA til Fin og Ops) har et standardfilter som inkluderer bare salgsordrer av typen **Arbeidselement (msdyn\_ordertype = 192350001)**. Dette filteret hjelper deg med å garantere at prosjektkontrakter ikke blir opprettet for salgsordrer i Finance. Hvis du oppretter din egen mal, må du legge til dette filteret.
-- Opprett et Power Query-filter som bare inneholder kontraktorganisasjonene som skal synkroniseres til den juridiske enheten i settet med integreringstilkobling. Prosjektkontrakter du har med kontraktorganisasjonsenheten i Contoso US, må for eksempel synkroniseres med den juridiske enheten USSI, men prosjektkontrakter som du har med kontraktorganisasjonsenheten Contoso Global, må synkroniseres til den juridiske enheten USMF. Hvis du ikke legger til dette filteret i oppgavetilordningen, blir alle prosjektkontrakter synkronisert til den juridiske enheten som er definert for tilkoblingssettet, uavhengig av organisasjonsenheten for kontrakten.
+- Opprett et Power Query-filter som bare inneholder kontraktorganisasjonene som skal synkroniseres til den juridiske enheten i settet med integreringstilkobling. Eksempelvis bør prosjektkontrakter som du har med kontraktorganisasjonsenheten Contoso US, synkroniseres til den juridiske enheten USSI, mens prosjektkontrakter som du har med kontraktorganisasjonsenheten for Contoso Global, skal synkroniseres til den juridiske enheten USMF. Hvis du ikke legger til dette filteret i oppgavetilordningen, blir alle prosjektkontrakter synkronisert til den juridiske enheten som er definert for tilkoblingssettet, uavhengig av organisasjonsenheten for kontrakten.
 
 ## <a name="template-mapping-in-data-integration"></a>Maltilordning i dataintegrering
 
@@ -140,17 +142,14 @@ Hvis du må bruke Power Query, følger du retningslinjene nedenfor:
 
 Illustrasjonene nedenfor viser eksempler på maloppgavetilordningene i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 
-[![Tilordning av prosjektkontraktmal.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Tilordning av prosjektkontraktmal](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Tilordning av prosjektmal.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Tilordning av prosjektmal](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Tilordning av mal for prosjektkontraktlinjer.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Tilordning av mal for prosjektkontraktlinjer](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Tilordning av milepælmal for prosjektkontraktlinjer.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Tilordning av milepælmal for prosjektkontraktlinjer](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Milepæltilordning for prosjektkontraktlinje i Prosjekter og kontrakter (PSA 3.x til Dynamics) – v2-malen:
 
-[![Tilordning av milepæl for prosjektkontraktlinjer med malen av versjon to.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Tilordning av milepæl for prosjektkontraktlinjer med malen av versjon to](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

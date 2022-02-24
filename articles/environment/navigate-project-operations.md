@@ -2,16 +2,18 @@
 title: Navigere i Project Operations
 description: Dette emnet gir informasjon om hvordan du får tilgang til Project Operations fra Lifecycle Services.
 author: sigitac
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994603"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642060"
 ---
 # <a name="navigate-project-operations"></a>Navigere i Project Operations
 
@@ -28,14 +30,11 @@ Når du har klargjort Project Operations slik det er beskrevet i dette emnet, gi
 
 Bruk miljønavnet i delen **Navn på Common Data Service-miljø** for å navigere til Project Operations på et CDS-miljø. 
 
-  ![Common Data Service-miljønavn.](./media/environment-name.PNG)
+  ![Common Data Service-miljønavn](./media/environment-name.PNG)
 
 Velg **Logg på** > **Logg på miljøet** for å navigere til modulen **Prosjektstyring og regnskap** i Finance.  
 
-   ![Logg på Finance.](./media/environment-login.PNG)
+   ![Logge på Finance](./media/environment-login.PNG)
 
 > [!NOTE]
 > Du kan få tilgang til Project Operations i Common Data Service og modulen **Prosjektstyring og regnskap** direkte ved å bruke de respektive URL-adressene. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

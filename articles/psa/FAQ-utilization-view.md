@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007158"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992846"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Vise belastbar utnyttelse for ressurser
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007158"
  
 I **Utnyttelse-visningen** på siden **Ressursutnyttelse i Project Service** vises den belastbare utnyttelsen for hver bestillbare ressurs. Siden visningen er basert på planleggingstavlen, finner du mange av de samme funksjonene.
 
-> ![Skjermbilde av visningen Utnyttelse.](media/FAQ-utilization-1.png)
+> ![Skjermbilde av visningen Utnyttelse](media/FAQ-utilization-1.png)
  
 
 Beregningen av belastbar utnyttelse fungerer som følger:
@@ -48,7 +48,7 @@ Du kan angi målutnyttelse på ressursens standardrolle eller på den individuel
 2. Velg en ressurs for å åpne oppføringen. 
 3. I kategorien **Project Service** kan du angi ressursens målutnyttelse.
 
-> ![Skjermbilde av fanen Project Service for å angi målutnyttelse.](media/FAQ-utilization-2.png)
+> ![Skjermbilde av kategorien Project Service for å angi målutnyttelse](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Angi målutnyttelse for en rolle
 
@@ -56,7 +56,7 @@ Du kan angi målutnyttelse på ressursens standardrolle eller på den individuel
 2. Velg en rolle, og åpne oppføringen. 
 3. Angi målutnyttelsen for rollen.
 
-> ![Skjermbilde av bruk av ressursroller for å angi målutnyttelse.](media/FAQ-utilization-3.png)
+> ![Skjermbilde av bruk av ressursroller for å angi målutnyttelse](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Beregne belastbar utnyttelse for en ressurs
 

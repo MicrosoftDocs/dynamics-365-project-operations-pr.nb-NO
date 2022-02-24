@@ -1,62 +1,40 @@
 ---
-title: Administrere faktureringsrestanse
+title: Administrere faktureringsrestansen
 description: Dette emnet gir informasjon om hvordan du viser og arbeider med faktureringsrestansen i Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991093"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122355"
 ---
-# <a name="manage-billing-backlog"></a>Administrere faktureringsrestanse
+# <a name="manage-the-billing-backlog"></a>Administrere faktureringsrestansen
 
-_ **Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Dynamics 365 Project Operations har dedikerte visninger som bidrar til å administrere faktureringsrestansen. Hvis du vil administrere faktureringsrestansen, velger du koblingene i **Salg**-området under **Fakturering**. 
-
-Følgende visninger er tilgjengelige:
-
-- Honorarer og forskudd
-- Tilgjengelige honorarer og forskudd
-- Milepæler for fast pris
-- Faktureringsrestanse for Tid og materiale
-
-## <a name="retainers-and-advances"></a>Honorarer og forskudd
-
-Visningen **Honorarer og forskudd** viser honorarer og forskudd for alle prosjektkontrakter. Etter at et honorar eller forskudd er fakturert, blir forskuddsbeløpet tilgjengelig for bruk.
-
-## <a name="available-retainers-and-advances"></a>Tilgjengelige honorarer og forskudd
-
-Visningen **Tilgjengelige honorarer og forskudd** viser alle tilgjengelige honorarer og forskudd for alle prosjektkontrakter. Etter at et honorar eller forskudd er fakturert, blir forskuddsbeløpet tilgjengelig for bruk og legges til i listen. Når beløpet for honoraret eller forskuddet er fullstendig brukt, fjernes det fra listen.
+Dynamics 365 Project Operations har to dedikerte visninger som hjelper deg med å arbeide med og administrere faktureringsrestansen. Disse er **Milepæler for fast pris** og **Faktureringsrestanse for Tid og materiale**. Du kan velge en visning ved å gå til **Salg**-området i Project Operations og velge **Fakturering** på den venstre navigasjonssiden. Koblingene til faktureringsrestansen er lagret der.
 
 ## <a name="fixed-price-milestones"></a>Milepæler for fast pris
 
-Visningen **Milepæler for fast pris** viser alle milepæler med fast pris på alle prosjektkontraktslinjer. Fra denne visningen kan én eller flere milepæler merkes som **Klar for fakturering** eller **Ikke klar for fakturering**. Når du merker en milepæl som **Klar for fakturering**, blir den tilgjengelig for å bli lagt til i en kladdefaktura.
+Denne visningen viser alle milepæler for fast pris på tvers av alle prosjektkontraktlinjene i systemet. Én eller flere milepæler kan merkes som **Klar for fakturering** eller **Ikke klar for fakturering** fra denne visningen. Når du merker en milepæl som **Klar for fakturering**, blir milepælen tilgjengelig for et fakturautkast.
 
-Når flerkundekontraktlinjer har en fastprisfaktureringsmetode, opprettes det en milepæl for hver kunde på kontraktlinjen. En milepæl kan opprettes og deretter deles inn i individuelle kundespesifikke milepæloppføringer. Denne delingen er intern og i henhold til faktureringsprosentdelingen som er definert for hver kunde på kontraktlinjen. I visningen **Milepæler for fast pris** vises de enkelte kundespesifikke milepæloppføringene. Hver av disse milepæloppføringene kan merkes som **Klar for fakturering** atskilt fra denne visningen. Når én eller flere av de relaterte milepælsdelingene er merket som **Klar for fakturering**, oppdateres hodestatusen til **Pågår** fra **Ikke startet**. Når alle milepæloppdelingene er fakturert, oppdateres statusen for hodemilepælene til **Fullført**.
+Når kontraktlinjer med flere kunder har en faktureringsmetode for fastpris, opprettes det én milepæl for hver kunde på kontraktlinjen. Brukeren oppretter en milepæl, og denne milepælen deles inn i kunde = spesifikke milepæloppføringer internt, i henhold til den delte prosentandelen for fakturering som er definert for hver kunde på kontraktlinjen. I visningen **Milepæler for fast pris** vises individuelle, kundespesifikke milepæloppføringer. Hver av disse milepæloppføringene kan merkes som **Klar for fakturering** atskilt fra denne visningen. Når én eller flere av de relaterte milepældelene er merket som **Klar for fakturering**, flyttes hodet til statusen **Pågår** fra **Ikke startet**. Når alle milepældelene er fakturert, blir statusen for hodet i milepælen **Fullført**.
 
-En milepæl på et fakturautkast vises i denne visningen med faktureringsstatusen **Kundefaktura opprettet**. Når utkastfakturaen er bekreftet, oppdateres fakturastatusen for oppføringen til **Kundefaktura postert**. 
-
-> [!NOTE] 
-> Ikke oppdater denne statusverdien ved hjelp av egendefinert kode. Project Operations fungerer ikke på riktig måte når disse statusverdiene oppdateres med egendefinert kode.
+En milepæl på et fakturautkast vises i denne visningen med faktureringsstatusen **Kundefaktura opprettet**. Når fakturautkastet er bekreftet, oppdateres fakturastatusen for denne oppføringen til **Faktura postert**. Det anbefales ikke å oppdatere denne statusverdien ved hjelp av egendefinert kode. Project Operations fungerer ikke riktig hvis disse statusverdiene oppdateres med egendefinert kode.
 
 ## <a name="time-and-material-billing-backlog"></a>Faktureringsrestanse for Tid og materiale
 
-Visningen **Faktureringsrestanse for Tid og materiale** viser alt ufakturert faktisk salg på tvers av alle prosjektkontrakter i systemet som ikke er fakturert. Én eller flere faktiske, ikke-fakturerte salgsverdier kan merkes som **Klar for fakturering** eller **Ikke klar for fakturering** fra denne visningen. Hvis du merker en ikke-fakturert faktisk salgsverdi som **Klar for fakturering**, blir den tilgjengelig for å bli lagt inn i et fakturautkast.
+Denne visningen viser alle faktiske salgsverdier som ikke er fakturert, på tvers av alle prosjektkontrakter i systemet. Én eller flere faktiske, ikke-fakturerte salgsverdier kan merkes som **Klar for fakturering** eller **Ikke klar for fakturering** fra denne visningen. Hvis du merker en ikke-fakturert faktisk salgsverdi som **Klar for fakturering**, blir den tilgjengelig for å bli lagt inn i et fakturautkast.
 
-Ufakturerte faktiske verdier for salg med statusen **Må ikke overskrides** satt til **Mislykket** kan ikke merkes som **Klar for fakturering**. Hvis de faktiske verdiene må merkes som **Klar for fakturering**, tilbakestiller du statusen for andre faktiske verdier på kontraktlinjen som er inngått, og deretter evaluerer du statusen **Må ikke overskride** på nytt.
+Ikke-fakturerte faktiske salgsverdier med **Må ikke overskride**-statusen **Mislyktes** kan ikke merkes som **Klar for fakturering**. Hvis disse faktiske verdiene må merkes på denne måten, tilbakestiller du statusen for andre faktiske verdier på kontraktlinjen som er forpliktet, og deretter evaluerer du **Må ikke overskride**-statusen.
 
-Hvis kontraktlinjer for flere kunder har tid og materiale-faktureringsmetode, og når tid og utgifter er godkjent, opprettes det ett ufakturert faktisk salg for hver kunde på kontraktlinjen i henhold til faktureringsprosentdelingen som er definert for hver av kundene. I visningen **Faktureringsrestanse for Tid og materiale** vises disse individuelle kundespesifikke ufakturerte faktiske salgsverdiene. Hver av disse oppføringene av ikke-fakturerte faktiske salgsverdier kan merkes som **Klar for fakturering** atskilt fra denne visningen.
+Når det gjelder kontraktlinjer for flere kunder som har en faktureringsmetode for tid og materialer, når tid og utgifter er godkjent, opprettes det en ikke-fakturert faktisk salgsverdi for hver kunde på kontraktlinjen i henhold til del faktureringsprosentdelingen som er definert for hver kunde på kontraktlinjen. I visningen **Faktureringsrestanse for Tid og materiale** kan du se disse individuelle, kundespesifikke, ikke-fakturerte faktiske salgsverdiene. Hver av disse oppføringene av ikke-fakturerte faktiske salgsverdier kan merkes som **Klar for fakturering** atskilt fra denne visningen.
 
-En ufakturert faktisk salgsverdi som er på et fakturautkast, vises i denne visningen med faktureringsstatusen **Opprettet kundefaktura**. Når fakturautkastet er bekreftet, oppdateres fakturastatusen for denne oppføringen til **Kundefaktura postert**. 
-
-> [!NOTE] 
-> Ikke oppdater denne statusverdien ved hjelp av egendefinert kode. Project Operations fungerer ikke på riktig måte når disse statusverdiene oppdateres med egendefinert kode.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+En ikke-fakturert faktisk salgsverdi på et fakturautkast vises i denne visningen med en **Faktureringsstatus** som er **Kundefaktura opprettet**. Når fakturautkastet er bekreftet, oppdateres fakturastatusen for denne oppføringen til **Kundefaktura postert**. Det anbefales ikke å oppdatere denne statusverdien ved hjelp av egendefinert kode, når den er i denne tilstanden. Project Operations fungerer ikke riktig når disse statusverdiene oppdateres med egendefinert kode.

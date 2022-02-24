@@ -2,9 +2,11 @@
 title: Mobilt arbeidsområde for tidsoppføring for prosjekt
 description: Dette emnet gir informasjon om det mobile arbeidsområdet for tidsoppføring for prosjekt. Dette arbeidsområdet gjør det mulig for brukere å skrive inn og spare tid på et prosjekt ved hjelp av den mobile enheten.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081601"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilt arbeidsområde for tidsoppføring for prosjekt
 
@@ -46,7 +48,7 @@ I det mobile arbeidsområdet **Tidsoppføring for prosjekt** kan brukere utføre
 Forhåndskravene varierer basert på versjonen av Microsoft Dynamics 365 som er distribuert for organisasjonen.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Forhåndskrav hvis du bruker Dynamics 365 Finance
-Hvis Finance er distribuert for organisasjonen, må systemetadministrator publisere det mobile arbeidsområdet **Tidsoppføring for prosjekt**. Hvis du vil ha instruksjoner, kan du se [Publisere et mobilt arbeidsområde](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Hvis Finance er distribuert for organisasjonen, må systemetadministrator publisere det mobile arbeidsområdet **Tidsoppføring for prosjekt**. Hvis du vil ha instruksjoner, kan du se [Publisere et mobilt arbeidsområde](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Forhåndskrav hvis du bruker versjon 1611 med plattformoppdatering 3 eller senere
 Hvis versjon 1611 med plattformoppdatering 3 eller senere er distribuert for organisasjonen, må følgende forhåndskrav fullføres av systemadministrator. 
@@ -66,17 +68,17 @@ Hvis versjon 1611 med plattformoppdatering 3 eller senere er distribuert for org
 <td>Systemadministrator</td>
 <td>KB 4018050 er en X++-oppdatering eller hurtigreparasjon for metadata som inneholder det mobile arbeidsområdet <strong>Tidsoppføring for prosjekt</strong>. For å implementere KB 4018050 må systemadministrator følge fremgangsmåten nedenfor.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Last ned hurtigreparasjonen for metadata fra Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installer hurtigreparasjon for metadata</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Opprett en distribuerbar pakke</a> som inneholder <strong>ApplicationSuite</strong> - og <strong>ProjectMobile</strong> -modellene, og last deretter opp den distribuerbare pakken til LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Ta i bruk den distribuerbare pakken</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Last ned hurtigreparasjonen for metadata fra Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installer hurtigreparasjon for metadata</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Opprett en distribuerbar pakke</a> som inneholder <strong>ApplicationSuite</strong> - og <strong>ProjectMobile</strong> -modellene, og last deretter opp den distribuerbare pakken til LCS.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Ta i bruk den distribuerbare pakken</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publiser arbeidsområdet for <strong>Tidsoppføring for prosjekt</strong>.</td>
 <td>Systemadministrator</td>
-<td>Se <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publisere et mobilt arbeidsområde</a>.</td>
+<td>Se <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publisere et mobilt arbeidsområde</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -94,23 +96,20 @@ Last ned og installer Finance and Operations-mobilappen:
 3.  Første gang du logger deg på, blir du bedt om å oppgi brukernavn og passord. Angi legitimasjonen din.
 4.  Etter at du har logget på, vises de tilgjengelige arbeidsområdene for firmaet. Vær oppmerksom på at hvis systemetadministrator publiserer et nytt arbeidsområde senere, må du oppdatere listen over mobile arbeidsområder.
 
-[![Dra for å oppdatere.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Dra for å oppdatere](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Registrer tid ved hjelp av det mobile arbeidsområdet Tidsoppføring for prosjekt
 1.  På den mobile enheten velger du arbeidsområdet **Tidsoppføring for prosjekt**.
 2.  Velg **Tidsoppføring**. Kalenderdatoene for inneværende uke vises.
 3.  For en valgt dato velger du **Handlinger** &gt; **Ny oppføring**.
 4.  Angi antall timer du vil registrere.
-5.  Velg prosjektet for tidsoppføringen. En liste viser prosjektene som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis du vil ha mer informasjon, kan du se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
+5.  Velg prosjektet for tidsoppføringen. En liste viser prosjektene som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis du vil ha mer informasjon, kan du se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
 6.  Hvis prosjektet ikke finnes i listen, velger du **Søk**. Søk etter navn, eller bytt for å søke etter prosjektnavn eller kunde.
-7.  Velg en kategori. En liste viser kategorier som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis du vil ha mer informasjon, kan du se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
+7.  Velg en kategori. En liste viser kategorier som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis du vil ha mer informasjon, kan du se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
 8.  Hvis kategorien din ikke finnes i listen, velger du **Søk**. Søk etter kategori, eller bytt for å søke etter kategorinavn.
-9.  Velg en aktivitet. En liste viser aktiviteter som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis du vil ha mer informasjon, kan du se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
+9.  Velg en aktivitet. En liste viser aktiviteter som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis du vil ha mer informasjon, kan du se [Mobile-plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
 10. Hvis aktiviteten din ikke finnes i listen, velger du **Søk**. Søk etter aktivitetsnummer, eller bytt for å søke etter formål.
 
 11. Velg linjeegenskapen.
 12. Valgfritt: Angi eventuelt eksterne og interne kommentarer.
 13. Velg **Ferdig**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

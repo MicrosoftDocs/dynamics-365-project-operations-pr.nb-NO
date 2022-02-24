@@ -2,16 +2,18 @@
 title: Konfigurere kostnadsmaler
 description: Dette emnet gir informasjon om hvordan du oppretter og bruker kostnadsmaler i Project Operations.
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993568"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642735"
 ---
 # <a name="set-up-cost-templates"></a>Konfigurere kostnadsmaler
 
@@ -77,6 +79,3 @@ Følg denne fremgangsmåten for å opprette kostnadsmaler:
 7. På **Kategorier**-fanen velger du prosjektkategoriene som skal tas med på kostnadsmallinjen.
 8. På **Generelt**-fanen velger du om denne linjen skal tas med i beregningen av fullføringsprosent.
 9. Velg ferdigstillelseskostnad-metoden ved beregning av fullføringsprosenten.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

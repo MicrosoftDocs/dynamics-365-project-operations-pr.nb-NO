@@ -2,9 +2,11 @@
 title: Ressursfullføring for planlagte ressurser
 description: Dette emnet gir informasjon om planlagte ressurser for et prosjekt.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989518"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081791"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Ressursfullføring for planlagte ressurser
 
@@ -38,6 +40,3 @@ En prosjektleder kan planlegge nødvendige ressursroller for et prosjekt. Ressur
 7. Velg en arbeider, og velg deretter **Tilordne**.
 8. Kontroller at linjen for **Programvareutvikler 1** er fjernet for **XYZ-oppgraderingsprosjekt fase 2**-prosjektet.
 9. I kategorien **Prosjektteam og planlegging** for prosjektet **XYZ-oppgraderingsfase 2** kontrollerer du at arbeideren du valgte i forrige trinn, er lagt til som **Programvareutvikler**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

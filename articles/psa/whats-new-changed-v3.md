@@ -1,6 +1,8 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation versjon 3
 description: Dette emnet gir informasjon om hva som er nytt og endret i Project Service Automation versjon 3.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987088"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150680"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Hva er nytt eller endret i Project Service Automation versjon 3
 
@@ -36,7 +38,7 @@ Dette emnet gir informasjon om endringene i brukergrensesnitt (UI), funksjonalit
 ## <a name="project-scheduling"></a>Prosjektplanlegging
 Prosjektplanen, som ble kalt arbeidsnedbrytningsstruktur (WBS) i tidligere versjoner, har nå fått navnet Tidsplan og åpnes ved å klikke på kategorien **Tidsplan**. 
 
-![Prosjekttidsplan.](media/psa-schedule-01.png)
+![Prosjekttidsplan](media/psa-schedule-01.png)
 
 Tidsplanen har nå en ny overflate for samhandling som er både moderne og tilgjengelig. Den underliggende planleggingsmotoren for Project Service Automation er ikke endret. Kontrollknappene i tidsplanrutenettets bånd gjør det mulig å samhandle med tidsplanen på lignende måte som i forrige versjon av Project Service Automation. Flere endringer i tidsplanen omfatter:
 
@@ -95,22 +97,22 @@ Når du flytter tidsplanen for eksisterende prosjekt fremover, skjer følgende:
 ## <a name="estimates"></a>Estimater
 Estimater er delt inn i to kategorier, **Ressurstilordninger** og **Estimater**. Kategorien **Ressurstilordning** inneholder innsatsestimater og viser ressurstilordningene for oppgavene i en tidsinndelt visning. Du kan redigere estimatene basert på hva planleggingsmotoren har generert.
 
-![Kategorien Ressurstilordninger med arbeidsestimater og ressurstilordninger for oppgaver.](media/resource-assignments-tab-02.png)
+![Kategorien Ressurstilordninger med arbeidsestimater og ressurstilordninger for oppgaver](media/resource-assignments-tab-02.png)
 
 Kategorien **Estimater** viser kostnadene og salgsbeløpene for ressurstilordningene. Beløpene er skrivebeskyttet. Kostnadene og salgsprisen er nå drevet fra teammedlemstilordningene i tidsplanen. Det betyr at hvis du har en oppgave uten noen tilordning, vil oppgaven vises under den ikke-tilordnede samlingen. Dette betyr også at uten **rolle**, som er en standard prisdimensjon, vil det ikke finnes beregnet kostnad eller salg hvis du har en kunde eller en kontrakt/tilbud knyttet til prosjektet. 
 
-![Kategorien Estimater med kostnads- og salgsbeløp.](media/estimates-tab-03.png)
+![Kategorien Estimater med kostnads- og salgsbeløp](media/estimates-tab-03.png)
   
 Kategorien støttes også på aktiviteter i planleggingsvisningen. Gruppering etter kategori i den tidsinndelte visningen av estimater gir en bedre opplevelse, spesielt når du også har utgiftsberegninger i prosjektet. Utgiftsestimater angis ved hjelp av et rutenett i en egen kategori. 
 
 Utgiftsestimater kan angis i rutenettet i kategorien **Utgiftsestimater**. 
 
-![Fanen utgiftsestimater som viser rutenettet for utgiftsestimater.](media/expense-estimates-tab-04.png)
+![Kategorien utgiftsestimater som viser rutenettet for utgiftsestimater](media/expense-estimates-tab-04.png)
 
-## <a name="resource-management"></a>Ressursstyring
+## <a name="resource-management"></a>Ressursbehandling
 Ved hjelp av det nye enhetlige klientgrensesnittet i Project Service Automation versjon 3 og endringer i relasjonen mellom bestillinger og tilordninger, har bemanning av generelle og faktiske ressurser på et prosjekt blitt endret seg svært mye fra versjon 2 og versjon 1. Begrepene for ressurser som kan bestilles, både **faktiske** og **generelle**, er imidlertid de samme, som også gjelder for teammedlemmer, krav, tilordninger og bestillinger.   
 
-![Bruke ressursvelgeren.](media/resource-management-05.png)
+![Bruke ressursvelgeren](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Tilordne en faktisk ressurs som kan bestilles 
 I Project Service Automation versjon 3 er ikke bestillinger og oppgavetilordninger like tett sammenkoblet som i tidligere versjoner av Project Service Automation. Du kan bruke grupperutenettet til å bestille et **faktisk** teammedlem, på samme måte som i markedet.
@@ -136,7 +138,7 @@ Når et krav oppfylles med flere ressurser, beholdes den generelle ressursen i t
 ### <a name="reconciliation"></a>Avstemming
 Kategorien **Avstemming** viser bestillinger og alle tilordninger for hvert prosjektgruppemedlem. Visningen viser timer i celler som kan representere tidspunkter fra måneder til dager. Med denne visninger kan prosjektledere avstemme teammedlemsbestillinger og deres tilordninger for prosjektteamet. Dette er nyttig fordi bestillinger og oppgavetildelinger ikke er tett koblet sammen, noe som gir mer fleksibilitet under planlegging av et prosjekt. 
 
-![Fanen Avstemming med bestillinger og tilordninger for prosjektteammedlemmer.](media/resource-reconciliation-tab-06.png)
+![Kategorien Avstemming med bestillinger og tilordninger for prosjektteammedlemmer](media/resource-reconciliation-tab-06.png)
 
 For hver ressurs bruker visningen forskjellen mellom et teammedlems bestillinger og en beregnet verdi av oppgavetilordningene og viser følgende to forskjeller som kan oppstå med bestillinger og tildelinger i et prosjekt: 
 
@@ -151,19 +153,19 @@ Denne delen inneholder informasjon om endringer i tid, utgift og godkjenning i v
 ### <a name="landing-page"></a>Målside
 Den ikke-utvidbare opplevelsen av egendefinert tidsoppføring er avskrevet i versjon 3. I stedet finnes det nå en utvidbar og tilgjengelig innebygd rutenettopplevelse. Du kan få tilgang til tidsoppføringsfunksjonaliteten ved å bruke områdekartet til venstre. Ved hjelp av denne endringen kan du ikke lenger angi tid for én uke om gangen. I stedet må du opprette en tidsoppføring for hver dag i rutenettet. Når det er opprettet noen få tidsoppføringer, kan brukere masseopprette tidsoppføringer med **Kopier**-funksjonen som forklares senere i dette emnet. 
 
-![Landingsside for tidsoppføringer.](media/time-entry-landing-page-07.png)
+![Landingsside for tidsoppføringer](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Opprette nye tidsoppføringer 
 Klikk **Ny** på båndet for å åpne en hurtigopprettingsside for tidsoppføring der du angir varighet i minutter, timer eller dager. Dette gjør du ved å bare begynne å skrive h, m eller d sammen med antallet.  
 
-![Hurtigoppretting for tidsoppføring.](media/quick-create-time-entry-08.png)
+![Hurtigoppretting for tidsoppføring](media/quick-create-time-entry-08.png)
 
 Oppslagsfelt blir støttet av systemvisninger. Når du for eksempel har angitt prosjektinformasjon, blir **Prosjektoppgave**-feltet angitt som standard til **Mine åpne prosjektoppgaver**. Hvis du vil opprette tidsoppføringer for oppgaver som ikke er tilordnet brukeren, klikker du **Endre visning** på oppslaget og velger **Alle aktive prosjektoppgaver**. Når tidsoppføringen er opprettet og vises i rutenettet, kan du redigere eventuelle linjeverdier direkte i rutenettet.  
 
 ### <a name="bulk-createcopy"></a>Masseopprette/-kopiere 
 Etter at du har opprettet noen få oppføringer, kan du bruke kopieringsfunksjonaliteten til å opprette flere tidsoppføringer samtidig. Klikk **Kopier** for å åpne **Kopier**-dialogboksen. I **Fra-periode: Startdato**, angi datointervallet som tidsperiodene skal kopieres fra. I **Til-periode: Startdato** angir du datoen tidsoppføringer må opprettes. Klikk **Kopier** for å kopiere tidsoppføringene til den tilsvarende dagen i uken som er angitt i **Til-perioden**. Mandagens tidsoppføring fra forrige uke blir for eksempel kopiert til mandag for uken som er angitt i **Til-periode**. 
 
-![Massekopiere tidsoppføringer.](media/bulk-copy-time-entry-09.png)
+![Massekopiere tidsoppføringer](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importer data 
 Tilordninger og utveksling følger samme grensesnittmønster, noe som gjør det mulig for brukeren å angi datointervallet fra når bestillinger må importeres. Deretter må du eksplisitt velge bestillingene som må kopieres til **Utkast**-tidsoppføringer. I versjon 3 kan du ikke lenger se mønsteret for **Foreslått**-tidsoppføringer i rutenettet og kalenderen.  
@@ -179,7 +181,7 @@ I versjon 3 har vi flyttet bort fra den egendefinerte kalenderkontrollen, og vi 
 
 **Hent data i egendefinerte felt i tids- og utgiftsoppføring, og overfør dem via enheter som støtter innsendings- og godkjenningsflyten** – Typisk behandling av tidsoppføringer vises i diagrammet nedenfor.
 
-![Behandling av tidsoppføringsflyt.](media/process-time-entries-10.png)
+![Behandling av tidsoppføringsflyt](media/process-time-entries-10.png)
 
 Hvis forretningskrav stipulerer at tids- og utgiftsenheter må registrere egendefinerte prisdimensjoner og overføre verdiene som angis av en tids- og oppføringsressurs i den egendefinerte prisingsdimensjonen, via alle enhetene i den forrige grafikken, se [Konfigurere egendefinerte felt som prisdimensjoner](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ I versjon 1 og 2 ble det utført oppsett for belastbarhet for roller og kategori
 
 Fra og med versjon 3 utføres oppsett av belastbarhetsalternativer etter rolle og utgiftskategori på tilbuds- eller kontraktlinjenivå. Prisoppsett er atskilt fra belastbarhetsoppsett. Du finner **Belastbare roller** og **Belastbare kategorier** som kategorier på sidene **Tilbudslinje** og **Kontraktlinje** uten å måtte bruke toppnavigasjonen.
 
-![Belastbare roller.](media/chargeable-12.png)
+![Belastbare roller](media/chargeable-12.png)
  
 Oppsettet av belastbare roller og belastbare kategorier benytter også den redigerbare rutenettkontrollen, som er standard. For hver rolle og kategori forblir de støttede alternativene for faktureringstype i tilbuds- og kontraktfasen uendret, som **Belastbar** og **Ikke-belastbar**, fra tidligere versjoner. **Gratis** støttes ikke under tilbuds- eller kontraktfasen. **Gratis** støttes bare i tids- eller utgiftsgodkjenningen.  
  
@@ -247,14 +249,11 @@ Fra og med versjon 3 er opprettelse og bruk av en egendefinert prosjektprisliste
   
 Følgende grafikk er før egendefinerte prislister er opprettet.
 
-![Før egendefinerte prislister.](media/before-custom-price-lists-13.png)
+![Før egendefinerte prislister](media/before-custom-price-lists-13.png)
 
 Følgende grafikk er etter egendefinerte prislister er opprettet.
 
-![Etter egendefinerte prislister.](media/after-custom-price-lists-14.png)
+![Etter egendefinerte prislister](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > En kort forsinkelse kan oppstå mellom når du klikker **Opprett egendefinert prising**, og når den egendefinerte prislisten opprettes. Vi anbefaler at du oppdaterer rutenettet i stedet for å klikke flere ganger. En egendefinert prisliste er opprettet hvis det tilknyttede prislistenavnet har tilbudsnavnet eller prosjektkontraktnavnet tilknyttet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

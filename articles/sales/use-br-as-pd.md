@@ -2,16 +2,18 @@
 title: Bruke en ressurs som kan reserveres som en prisdimensjon
 description: Dette emnet gir informasjon om hvordan du bruker en ressurs som kan reserveres som en prisdimensjon.
 author: Rumant
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996268"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643095"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Bruke en ressurs som kan reserveres som en prisdimensjon
 
@@ -34,7 +36,7 @@ Tabellen nedenfor viser alle de medfølgende skjemaene og visningene etter enhet
 |  Tilbudslinjedetalj| - Prosjektinformasjon<br>- Hurtigoppretting av prosjekt| - Aktiv tilbudslinjedetalj<br>- Kombinerte tilbudslinjedetaljer<br>- Tilknyttet tilbudslinjedetalj |
 |  Detalj for prosjektkontraktlinjer| - Prosjektinformasjon<br>- Hurtigoppretting av prosjekt| - Kombinerte kontraktlinjedetaljer<br>- Aktive kontraktlinjedetaljer<br>- Tilknyttede kontraktlinjedetaljer |
 |  Prosjektoppgave| - Informasjon<br>- Nytt skjema| &nbsp; |
-|  Prosjektteammedlem| - Informasjon<br>- Nytt skjema| - Aktive prosjektteammedlemmer<br>- Prosjektteammedlemmer<br>- Tilknyttede teammedlemmer i prosjektet |
+|  Prosjektteammedlem| -Informasjon<br>- Nytt skjema| - Aktive prosjektteammedlemmer<br>- Prosjektteammedlemmer<br>- Tilknyttede teammedlemmer i prosjektet |
 |  Tidsoppføring| - Informasjon<br>- Opprett tidsoppføring| - Mine tidsoppføringer etter dato<br>- Mine tidsoppføringer for denne uken<br>- Tidsoppføringer til godkjenning|
 |  Journallinje| - Informasjon<br>- Hurtigoppretting| - Aktive journallinjer<br>- Tilknyttet journallinje |
 |  Fakturalinjedetalj| - Informasjon<br>- Hurtigoppretting| - Aktive fakturalinjedetaljer<br>- Belastbare fakturatransaksjoner<br>- Gratis fakturatransaksjoner<br>- Tilknyttet fakturalinjedetalj <br>- Ikke-belastbare fakturatransaksjoner|
@@ -64,18 +66,15 @@ Prisdimensjonsoppføringen for **msydn_bookableresource** må varsles om denne f
 1. Dobbeltklikk på raden i **Prisdimensjoner**-rutenettet for å åpne dimensjonssiden til **msdyn_bookableresource**.
 2. På dimensjonssiden, på **Relatert**-fanen, velger du **Feltnavn for prisdimensjon**.
 
-  ![Fanen Feltnavn for prisdimensjon.](media/PD-fieldname.png)
+  ![Kategorien Feltnavn for prisdimensjon](media/PD-fieldname.png)
 
 3. I den tilknyttede visningen som åpnes, velger du **Legg til nytt feltnavn for prisdimensjon**.
 
-  ![Legge til nye feltnavn for prisdimensjon.](media/Add-NewPD-fieldname.png)
+  ![Legge til nye feltnavn for prisdimensjon](media/Add-NewPD-fieldname.png)
 
   Dette åpner siden **Nytt feltnavn for prisdimensjon** for **msdyn_bookableresource**. 
 
 4. På **Nytt feltnavn for prisdimensjon**-siden legger du **msdyn_projectteam** til **Logisk navn på enhet**.
 5. Legg  **Msdyn_bookableresourceid** til i **Feltnavn**.
 
- ![Skjema for nytt feltnavn for prisdimensjon.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Skjema for nytt feltnavn for prisdimensjon](media/PD-fieldname-Added.png)

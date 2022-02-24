@@ -3,6 +3,7 @@ title: Installere eksempeldata
 description: Dette emnet inneholder informasjon om hvordan du installerer eksempeldata i Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985558"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144515"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installasjon av eksempeldata for Project Service-programmet
 
@@ -86,7 +87,7 @@ Du bør planlegge at datamaskinen skal være tilkoblet et nettverk og installasj
 Skjermbeskytteren på datamaskinen må være deaktivert. Øktlegitimasjonen for installasjonen kan ellers gå tapt når skjermbeskyttelsen aktiveres (med mindre du holder økten aktiv under hele installasjonen).
 
 > [!div class="mx-imgBorder"]
-> ![Skjermbilde av skjermbeskytterinnstillinger med skjermbeskytter deaktivert.](media/sample-data-1.png)
+> ![Skjermbilde av skjermbeskytterinnstillinger med skjermbeskytter deaktivert](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Laste ned og pakke ut
 
@@ -135,20 +136,20 @@ Demodatapakken krever seks brukere. For at pakken skal installeres på riktig m�
     - Brukers fulle navn = "Molly Clark" som kontoadministrator   
     - Brukers fulle navn = "Spencer Low" som praksis- og prosjektleder  
     - Brukers fulle navn = "Veronica Quek" som teammedlem   
-    - Brukers fulle navn ="William Contoso"
+    - Brukers fulle navn = "William Contoso"
   
 2. For demodataimportformål tilordner du de seks brukerne ovenfor administratorrollen slik at eksempeloppføringene importeres på riktig måte. 
 
 3. Åpne **PkgFolder** og finn og åpne **ImportUserMapFile.xml**. Oppdater **Ny=**-feltene til e-postadressene for tilsvarende brukere i systemet.
 
    > [!div class="mx-imgBorder"]
-   > ![Skjermbilde av UserMapFile.](media/sample-data-7.png)
+   > ![Skjermbilde av UserMapFile](media/sample-data-7.png)
 
 4. Hvis brukeren med fullt navn "Spencer Low" har en annen bruker-ID enn **"spencerl"**, må du oppdatere en ekstra fil. Åpne **DemoDataPreImportConfig.xml**, og finn **userstocreateandconfigure**-merket. Oppdater **\<login\>**-merket med loginId (skilles mellom små og store bokstaver). 
 
 5. Den første brukerens kalender (i **userstocreateandconfigure**-merket) brukes til å fylle ut arbeidstimene for alle reserverbare ressurser ved import av demonstrasjonsdata. Gå til **Innstillinger** > **Sikkerhet** > **Brukere**, finn brukeren "Spencer Low", og åpne Arbeidstimer-alternativet. Rediger eksisterende arbeidstimer, og velg **Hele den regelmessige ukeplanen fra begynnelse til slutt**-alternativet. Sikre at **arbeidstimer er satt til 8 AM - 5 PM (9 timer), mandag til fredag og tidssonen angitt til Stillehavskysten (USA og Canada)**. Dette er nødvendig for å sikre at prosjekt- og planleggingstavlen vises som forventet.
 
-**Anbefaling:** Vurder å opprette en sikkerhetskopi av organisasjonen din nå, i tilfelle du må gå tilbake til startpunktet hvis noe går galt under installeringen av eksempeldata. Hvis du vil ha mer informasjon, kan du se [Sikkerhetskopiere og gjenopprette forekomster](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Anbefaling:** Vurder å opprette en sikkerhetskopi av organisasjonen din nå, i tilfelle du må gå tilbake til startpunktet hvis noe går galt under installeringen av eksempeldata. Hvis du vil ha mer informasjon, kan du se [Sikkerhetskopiere og gjenopprette forekomster](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Kjør Package Deployer
 
@@ -172,7 +173,7 @@ Demodatapakken krever seks brukere. For at pakken skal installeres på riktig m�
 5. Velg **Neste** til du ser dialogboksen **Oppsett av demonstrasjonsdata**.
 
    > [!div class="mx-imgBorder"]
-   > ![Skjermbilde av statusvinduet for installasjon av demonstrasjonsdata.](media/sample-data-3.png)
+   > ![Skjermbilde av statusvinduet for installasjon av demonstrasjonsdata](media/sample-data-3.png)
 
 6. Før du fortsetter, bør du merke deg at installasjon av eksempeldata kan ta opptil en time (vanligvis ca. 10 minutter). Du må forsikre deg om datamaskinen forblir på og er koblet til et nettverk gjennom hele installasjonsprosessen, og at økten er aktiv.   
 
@@ -191,10 +192,10 @@ Etter at eksempeldataene er ferdig lastet, logger du på som Spencer Low-brukere
 - Hvis Field Service -programmet er installert, kan du gå til **Project Service** > **Innstillinger** > **Prislister**. Kontroller at faktura- og kostnadssatser finnes. Gå til **Field Service** > **Innstillinger** > **Prislister**, og kontroller at faktura- og kostnadssatsene finnes med riktig valuta for hvert land/område i datasettet.
 
   > [!div class="mx-imgBorder"]
-  > ![Skjermbilde av aktive prislister.](media/sample-data-4.png)
+  > ![Skjermbilde av aktive prislister](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Skjermbilde av aktive organisasjonsenheter.](media/sample-data-5.png)
+  > ![Skjermbilde av aktive organisasjonsenheter](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tekniske merknader
 
@@ -295,7 +296,4 @@ Hvis du må endre arbeidstimer for eksempelressurser som kan reserveres, går du
 Velg en bruker (for eksempel Spencer Low), og endre Spencers arbeidstimer til timene du vil bruke for flere brukere. Gå til **Universal Resource Scheduling** > **Innstillinger** > **Arbeidstidsmaler** og rediger **Standard arbeidsmal**-oppføringen. I **Malressurs**-feltet velger du en bruker med arbeidstimer du vil bruke for andre ressurser. Gå til **Universal Resource Scheduling** > **Planlegging** > **Ressurser** > **Aktive ressurser som kan bestilles**. Velg ressursene du vil endre, og velg deretter **Angi kalender**. På **Arbeidsmal**-rullegardinlisten velger du **Standard arbeidstimer** eller en annen mal med riktig malressurs. Når du går til planleggingstavlen, skal du kunne se at ressursene nå har oppdaterte arbeidstimer.
 
 > [!div class="mx-imgBorder"]
-> ![Skjermbilde av aktive ressurser som kan reserveres.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Skjermbilde av aktive ressurser som kan reserveres](media/sample-data-6.png)

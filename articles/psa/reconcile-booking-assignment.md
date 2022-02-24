@@ -2,6 +2,8 @@
 title: Avstemme bestillinger og tilordninger
 description: Dette emnet gir informasjon om faktiske verdier.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995143"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147935"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Avstemme bestillinger og tilordninger
 
@@ -51,11 +53,11 @@ Når **Tidsskala**-feltet er satt til et nivå som er høyere enn **Dag**, kan d
 
 Når du viser tid på høyere nivåer, har celler i **Avstemming**-kategorien en indikator som informerer deg om at det er forskjeller på lavere nivåer. I illustrasjonen nedenfor vises for eksempel en celleindikator i cellen for måneden februar 2018 for ressursen med navnet Martine Carlson. Derfor kan du se at selv om ressursens bestillinger og tildelinger er like når de akkumuleres på **Måned**-nivå, samsvarer de ikke på de lavere nivåene.
 
-![Ikke-samsvarende bestillinger og tilordninger på månedsnivå.](media/reconcile-assignments-01.JPG)
+![Ikke-samsvarende bestillinger og tilordninger på månedsnivå](media/reconcile-assignments-01.JPG)
 
 Dobbeltklikk en celle for å zoome inn på det neste lavere nivået og vise forskjellen. Hvis du for eksempel dobbeltklikker på forskjellen til Martine Carlson for oktober 2018, kan du drille ned til **Uke**-nivået. Deretter kan du se at ressursen har bestillinger på 16 timer, men ingen tilordninger i de første to ukene i oktober, og 16 timer med tilordninger, men ingen bestillinger i den tredje uken i oktober.
 
-![Ikke-samsvarende bestillinger og tilordninger på ukesnivå.](media/reconcile-assignments-02.JPG)
+![Ikke-samsvarende bestillinger og tilordninger på ukesnivå](media/reconcile-assignments-02.JPG)
 
 Du kan høyreklikke en celle for å zoome ut på det neste høyere nivået. Du kan også deaktivere celleindikatoren ved å velge **Innstillinger**-knappen. 
 
@@ -68,13 +70,13 @@ For å sikre nøyaktige og forutsigbare resultater når du bruker Utvid bestilli
 
 - Brukeren må konfigurere tidssonen for enheten slik at den samsvarer med tidssonen som er angitt i systemets innstillinger for personalisering.
  
-  ![Tidssoneinnstillinger i Windows 10.](media/reconcile-assignments-03.png)
+  ![Tidssoneinnstillinger i Windows 10](media/reconcile-assignments-03.png)
 
-  ![Tidssoneinnstillinger i innstillinger for personalisering.](media/reconcile-assignments-04.png)
+  ![Tidssoneinnstillinger i innstillinger for personalisering](media/reconcile-assignments-04.png)
  
 - Ressursen som kan bestilles, må ha minst ett minutt med arbeidstid som overlapper med konturene som brukes til å definere den ønskede utvidelsen. Eksemplet nedenfor viser for eksempel gjennomgangsressurser med arbeidstid som faller mellom 9:00 og 19:00. 
 
-  ![Sammenligning av ressursomfang.](media/reconcile-assignments-05.png)
+  ![Sammenligning av ressursomfang](media/reconcile-assignments-05.png)
 
 Følgende tabell viser:
 
@@ -83,22 +85,19 @@ Følgende tabell viser:
 - Ressurs B: Denne ressursen befinner seg i en annen tidssone enn prosjektet og starter derfor klokken 7:00 i sin tidssone. Imidlertid vil bestillinger starte på 9:00 som det første starttidspunktet for tilordningsomfanget.
 - Ressurser C og D: Ressursene ligger også i ulike tidssoner, som begge er forskjellige fra hverandre og prosjektet,
 
-|Entity  |Kalender  |
+|Enhet  |Kalender  |
 |-|-|
-|Prosjektkalendermal   | ![prosjektkalender.](media/reconcile-assignments-06.png) |
-|Ressurs A  | ![Ressurs A-kalender.](media/reconcile-assignments-06.png) |
-|Ressurs B  |  ![Ressurs B-kalender.](media/reconcile-assignments-07.png) |
-|Ressurs C  |  ![Ressurs C-kalender.](media/reconcile-assignments-08.png) |
-|Ressurs D  | ![Ressurs D-kalender.](media/reconcile-assignments-09.png)  |
+|Prosjektkalendermal   | ![prosjektkalender](media/reconcile-assignments-06.png) |
+|Ressurs A  | ![Ressurs A-kalender](media/reconcile-assignments-06.png) |
+|Ressurs B  |  ![Ressurs B-kalender](media/reconcile-assignments-07.png) |
+|Ressurs C  |  ![Ressurs C-kalender](media/reconcile-assignments-08.png) |
+|Ressurs D  | ![Ressurs D-kalender](media/reconcile-assignments-09.png)  |
  
 Når du navigerer til avstemmingsvisningen, vises ressurstilordningene og de tilknyttede bestillingsmanglene.
- ![Avstemmingsvisning før utvidelse.](media/reconcile-assignments-10.png)
+ ![Avstemmingsvisning før utvidelse](media/reconcile-assignments-10.png)
 
 Når funksjonen for Utvid bestilling er utført på hver ressurs, blir bestillinger utvidet for hver ressurs. Dette skyldes at hver enkelt ressurs' arbeidstid overlapper med omfanget av mangelen.
- ![Avstemmingsvisning etter bestillingsutvidelse.](media/reconcile-assignments-11.png) 
+ ![Avstemmingsvisning etter bestillingsutvidelse](media/reconcile-assignments-11.png) 
 
 En nærmere titt på detaljene i bestillinger viser imidlertid forskjellene i starttidspunktet for bestillinger. Bestillinger starter ikke tidligere enn starttidspunktet for tildelingsomfanget og ikke tidligere enn det tilgjengelige starttidspunktet for ressursen.
- ![Nye bestillinger for ressursene på planleggingstavlen.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Nye bestillinger for ressursene på planleggingstavlen](media/reconcile-assignments-12.png)

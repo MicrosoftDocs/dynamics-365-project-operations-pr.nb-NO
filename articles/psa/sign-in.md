@@ -2,6 +2,8 @@
 title: Logge på Project Service Automation
 description: Slik logger du på Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990463"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150275"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Logge på Project Service Automation
 
@@ -37,7 +39,7 @@ Når du logger deg på Dynamics 365-apper, må du ha følgende informasjon fra a
   
 - Passordet ditt  
   
-  Du har sannsynligvis mottatt denne informasjonen i en e-post fra administratoren. Hvis du ikke har all denne informasjonen, eller hvis du har problemer med pålogging, kan du [Finne administratoren eller brukerstøttekontakten din](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Du har sannsynligvis mottatt denne informasjonen i en e-post fra administratoren. Hvis du ikke har all denne informasjonen, eller hvis du har problemer med pålogging, kan du [Finne administratoren eller brukerstøttekontakten din](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Angi personlige alternativer for å tillate e-post  
  Du må konfigurere e-postinnstillingene slik at andre kan sende e-post på dine vegne, slik at [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] kan sende e-postvarsler for deg når du har tid og utgifter til å godkjenne eller registrere deg for prosjekter.  
@@ -54,6 +56,3 @@ Når du logger deg på Dynamics 365-apper, må du ha følgende informasjon fra a
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Tillate noen andre å skrive inn tidsoppføringene eller utgiftene dine
 description: Tillate andre å angi tidsoppføring eller utgifter i Project Service
 author: revathiMuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2642e56fc3df44b5c7583d0b996765f5a22f6be1fc46738d02462d928f833048
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000723"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145550"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Tillate noen andre å angi tidsoppføring eller utgifter (Project Service)
 
@@ -91,6 +93,3 @@ Definer en representant for å la noen andre registrere tids- eller utgiftsposte
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Administrere tidssoner
 description: Når et prosjekt opprettes, er tidssonen basert på tidssonen som er definert i den brukte arbeidstidsmalen.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988708"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119835"
 ---
 # <a name="manage-time-zones"></a>Administrere tidssoner
 
@@ -32,13 +34,13 @@ For å få nøyaktige og forutsigbare resultater når du bruker **Utvid bestilli
 
 - Brukeren må konfigurere tidssonen for enheten slik at den samsvarer medtids sonen som er angitt i systemets **tilpassingsinnstillinger**.
  
-  ![Tidssoneinnstillinger i Windows 10.](media/reconcile-assignments-03.png)
+  ![Tidssoneinnstillinger i Windows 10](media/reconcile-assignments-03.png)
 
-  ![Tidssoneinnstillinger i innstillinger for personalisering.](media/reconcile-assignments-04.png)
+  ![Tidssoneinnstillinger i innstillinger for personalisering](media/reconcile-assignments-04.png)
  
 - Ressursen som kan bestilles, må ha minst ett minutt med arbeidstid som overlapper med konturene som brukes til å definere den ønskede utvidelsen. Eksempel: Følgende ressurser med arbeidstid som faller mellom 09:00 og 19:00. 
 
-  ![Sammenligning av ressursomfang.](media/reconcile-assignments-05.png)
+  ![Sammenligning av ressursomfang](media/reconcile-assignments-05.png)
 
 Følgende tabell viser:
 
@@ -47,25 +49,22 @@ Følgende tabell viser:
 - Ressurs B: Denne ressursen befinner seg i en annen tidssone enn prosjektet, og starter 07:00 i sin tidssone. Imidlertid vil bestillinger starte på 9:00 som det første starttidspunktet for tilordningsomfanget.
 - Ressurs C og D: Ressursene befinner seg i andre tidssoner, begge forskjellige fra hverandre og prosjektet, og bestillinger startes ikke tidligere enn de respektive starttidspunktene som er tilgjengelige.
 
-|Entity  |Kalender  |
+|Enhet  |Kalender  |
 |-|-|
-|Prosjektkalendermal   | ![prosjektkalender.](media/reconcile-assignments-06.png) |
-|Ressurs A  | ![Ressurs A-kalender.](media/reconcile-assignments-06.png) |
-|Ressurs B  |  ![Ressurs B-kalender.](media/reconcile-assignments-07.png) |
-|Ressurs C  |  ![Ressurs C-kalender.](media/reconcile-assignments-08.png) |
-|Ressurs D  | ![Ressurs D-kalender.](media/reconcile-assignments-09.png)  |
+|Prosjektkalendermal   | ![prosjektkalender](media/reconcile-assignments-06.png) |
+|Ressurs A  | ![Ressurs A-kalender](media/reconcile-assignments-06.png) |
+|Ressurs B  |  ![Ressurs B-kalender](media/reconcile-assignments-07.png) |
+|Ressurs C  |  ![Ressurs C-kalender](media/reconcile-assignments-08.png) |
+|Ressurs D  | ![Ressurs D-kalender](media/reconcile-assignments-09.png)  |
  
 Når du navigerer til **Avstemming**-visningen, vises ressurstilordningene og de tilknyttede bestillingsmanglene.
 
-![Avstemmingsvisning før utvidelse.](media/reconcile-assignments-10.png)
+![Avstemmingsvisning før utvidelse](media/reconcile-assignments-10.png)
 
 Etter at du har brukt funksjonen for å forlenge bestillingen til hver ressurs, blir alle bestillinger utvidet for hver ressurs, fordi arbeidstiden til hver ressurs overlappet med konturene av mangelen.
 
-![Avstemmingsvisning etter bestillingsutvidelse.](media/reconcile-assignments-11.png) 
+![Avstemmingsvisning etter bestillingsutvidelse](media/reconcile-assignments-11.png) 
 
 Legg merke til at en nærmere kikk på detaljene i bestillingene viser forskjeller i starttidspunktet for bestillingene. Bestillingene starter tidligst på starttidspunktet til tilordningsprofilen, og ikke senere enn den tilgjengelige starttiden til ressursen.
 
-![Nye bestillinger for ressursene på planleggingstavlen.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Nye bestillinger for ressursene på planleggingstavlen](media/reconcile-assignments-12.png)

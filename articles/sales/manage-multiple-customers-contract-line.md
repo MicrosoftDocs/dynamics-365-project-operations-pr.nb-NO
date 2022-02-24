@@ -2,16 +2,18 @@
 title: Administrere flere kunder på prosjektbaserte kontraktlinjer
 description: Dette emnet inneholder informasjon om hvordan du arbeider med kontraktlinjer og kontrakter som inneholder flere kunder.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992128"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181914"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Administrere flere kunder på prosjektbaserte kontraktlinjer
 
@@ -42,6 +44,3 @@ Nedenfor vises feltene på kontraktlinjekundeoppføringen for en prosjektbasert 
 Delingsprosent for fakturering kan redigeres i rutenettet. Når delingsprosentene for fakturering ikke er totalt 100 prosent, oppstår det en feil. Når du har redigert delingsprosentene for fakturering, oppdaterer du siden for å fjerne feilen.
 
 Du kan også prøve å velge **Fordel jevnt** i delrutenettetet for kontraktlinjekunde. Denne handlingen fordeler faktureringsdelingene til alle kontraktlinjekunder. Hvis det finnes en avrundingsfaktor, blir den lagt til i avrundingskunden. Én kontraktlinjekunde er alltid merket som **Avrunding**-kunden med **Avrunding**-flagget satt til **Ja**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,9 @@
 title: Aktivere funksjonene i Project Finder Mobile-appen
 description: Slik aktiverer du funksjonene i Project Finder Mobile-appen for Project Service
 author: JohnPBurrows
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004908"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144560"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Aktivere funksjonene i Project Finder Mobile-appen (Project Service)
 
@@ -47,11 +49,11 @@ Ressursene dine kan bruke Project Finder Mobile-appen på telefoner med [!INCLUD
   
 4. Sett **Tillat at ressurser oppdaterer ferdigheter** til **Ja**.  
   
-   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Dette er en global innstilling. Prosjektledere kan angi om et enkelt prosjekt skal vises på dette prosjektets **Prosjektteam**-side.  
   
-   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>E-postvarslinger  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sender e-post om ressursforespørsler til følgende mottakere på følgende tidspunkt:  
@@ -66,6 +68,3 @@ Ressursene dine kan bruke Project Finder Mobile-appen på telefoner med [!INCLUD
   
 ### <a name="see-also"></a>Se også  
  [Definere ressurser](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

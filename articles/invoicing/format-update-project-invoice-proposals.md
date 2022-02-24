@@ -2,16 +2,18 @@
 title: Behandle forslag om prosjektfaktura
 description: Dette emnet inneholder detaljer om behandling av kunderettede fakturaer med Project Operations for ressurs- eller ikke-lagerbaserte scenarier.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989923"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089281"
 ---
 # <a name="manage-project-invoice-proposals"></a>Behandle forslag om prosjektfaktura
 
@@ -78,8 +80,7 @@ Verdiene for **Mva-gruppe** og **Mva-gruppe for element** hentes som standard fr
     - **Kunde** vil alltid bruke gruppen for faktureringsavgift fra kunden som standard.
     - **Søk** vil søke på tvers av alle enhetene i denne listen og velge den første tilgjengelige verdien. Søket starter med **Prosjekt**-enheten, deretter **Prosjektkontrakt**-enheten, og deretter **Kunde**-enheten.
 
-- **Mva-gruppe for milepæl for fast pris** brukes som standardverdi i feltet **Mva-gruppe for vare** for faktureringsmilepælen. Regnskapsføreren kan se gjennom og endre denne verdien på **A konto-transaksjoner**-siden. Systemet bruker verdien fra A konto-transaksjonen ved opprettelse av en prosjektfakturaforslagslinje.
- 
+- **Mva-gruppe for fast pris for milepælelement** brukes til å standardisere verdien i feltet **Mva-gruppe for element**.
 
 ### <a name="financial-dimensions"></a>Finansdimensjoner
 
@@ -131,7 +132,7 @@ På siden **Formater fakturaforslag** kan egendefinerte grupperingstransaksjoner
 
 Utskriftsbehandling bruker forskjellige rapportfiler til å skrive ut, angi mål og tilpasse bunntekst for fakturaen. Utskriftsbehandling kan konfigureres på modulnivå, men disse innstillingene kan overstyres for et bestemt kunde-, kontrakt- eller fakturaforslag. Hvis du vil ha tilgang til denne funksjonen på siden **Prosjektfakturaforslag**, velger du **Utskrift** > **Utskriftsbehandling**.
 
-Oppsettet for utskriftsbehandling vises som en trevisning, der hvert nodenivå viser de tilgjengelige dokumentene som skal justeres. Du kan tilordne egendefinerte utskrifter på dokumentnivået modul, kunde, kontrakt eller fakturaforslag. Hvis du vil endre utskriften av det opprinnelige dokumentet, utvider du den ønskede noden og velger **Opprinnelig element**. I feltet **Rapportformat** velger du rapportformatet som skal brukes til å skrive ut. Du kan bruke egendefinerte rapportformater ved hjelp av [rammeverket for forretningsdokumentbehandling](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Oppsettet for utskriftsbehandling vises som en trevisning, der hvert nodenivå viser de tilgjengelige dokumentene som skal justeres. Du kan tilordne egendefinerte utskrifter på dokumentnivået modul, kunde, kontrakt eller fakturaforslag. Hvis du vil endre utskriften av det opprinnelige dokumentet, utvider du den ønskede noden og velger **Opprinnelig element**. I feltet **Rapportformat** velger du rapportformatet som skal brukes til å skrive ut. Du kan bruke egendefinerte rapportformater ved hjelp av [rammeverket for forretningsdokumentbehandling](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Publisere fakturaforslag
 
@@ -142,6 +143,3 @@ Hvis du vil vise fakturaen før du publiserer, fjerner du merket for **Publiseri
 I tillegg til siden **Fakturaforslag** kan fakturaforslag også publiseres ved å kjøre den periodiske jobben, **Publisere fakturaforslag**. Du finner denne jobben ved å gå til **Prosjektbehandling og regnskap** > **Periodisk** > **Prosjektfakturaer** > **Publiser fakturaforslag**.
 
 Denne siden viser alle fakturaforslagene som er klare til publisering. Du kan planlegge publisering av fakturaforslag ved å velge **Batch**. Sett **Parameter for satsvis behandling** til **Ja**, og angi regelmessigheten for satsvis behandling ved å velge **Regelmessighet**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

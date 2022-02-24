@@ -2,6 +2,8 @@
 title: Søke etter neste prosjekt med Project Finder Mobile-appen
 description: Slik søker du etter neste prosjekt med Project Finder Mobile-appen for Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990798"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149285"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Søke etter neste prosjekt med Project Finder Mobile-appen (Project Service)
 
@@ -38,15 +40,12 @@ Med Project Finder Mobile-appen på din [!INCLUDE[tn_iphone](../includes/tn-ipho
   
  Trykk pilen til høyre for prosjektet du er interessert i, for å se flere detaljer og registrere deg for det.  
   
- ![Liste over prosjekter som samsvarer med ferdigheter i Project Finder Mobile-appen.](../psa/media/project-service-project-finder-list.png "Liste over prosjekter som samsvarer med ferdigheter i Project Finder Mobile-appen")  
+ ![Liste over prosjekter som samsvarer med ferdigheter i Project Finder Mobile-appen](../psa/media/project-service-project-finder-list.png "Liste over prosjekter som samsvarer med ferdigheter i Project Finder Mobile-appen")  
   
 ## <a name="update-your-skills"></a>Oppdater ferdighetene dine  
  Trykk profilknappen nederst til høyre på skjermen for å oppdatere ferdighetene og kunnskapsnivåene dine.  
   
- ![Profil-knappen i Project Finder Mobile-appen.](../psa/media/project-service-project-finder-profile.png "Profil-knappen i Project Finder-mobilappen")  
+ ![Profil-knappen i Project Finder-mobilappen](../psa/media/project-service-project-finder-profile.png "Profil-knappen i Project Finder-mobilappen")  
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for tid, utgifter og samarbeid](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

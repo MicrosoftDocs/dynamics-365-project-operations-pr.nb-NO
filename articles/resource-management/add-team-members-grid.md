@@ -2,22 +2,24 @@
 title: Legg til teammedlemmer fra rutenettet for teammedlemmer
 description: Dette emnet gir informasjon om hvordan du kan administrere ressurser for teammedlemmer.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008418"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121545"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Legg til teammedlemmer fra rutenettet for teammedlemmer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Dynamics 365 Project Operations inkluderer et instrumentbord for ressursledere som gir en visuell oversikt over ressursbehov og -utnyttelse gjennom hele organisasjonen. Du kan bruke diagrammene på dette instrumentbordet til å visualisere følgende informasjon:
+Dynamics 365 Project Operations inkluderer et Resource Manager-instrumentbord som gir en visuell oversikt over ressursbehov og -utnyttelse gjennom hele organisasjonen. Du kan bruke diagrammene på dette instrumentbordet til å visualisere følgende informasjon:
 
 - **Ressursbehov**: Diagrammet **Aktive ressursforespørsler** viser ressurser som er sendt. Ressursene samles av rolle eller prosjekt.
 - **Ressursbehov som ikke er sendt**: Diagrammet **Ikke-tilordnet ressursbehov** viser alle ressursbehovene som ikke er sendt. Dette diagrammet hjelper ressursansvarlige med å vise behov som ikke er fast, og kan sendes via en ressursforespørsel.
@@ -198,6 +200,3 @@ Når du viser tid på høyere nivåer, har celler i **Avstemming**-kategorien en
 Hvis du har oppgavetildelinger for en ressurs, men ingen bestillinger, går du til **Prosjekter**-skjemaet, i kategorien **Avstemming** og velger **Utvid bestilling**. Dialogboksen **Utvid bestilling** vises med bestillingen som er nødvendig for å løse ressursens underskudd. Dialogboksen viser også ressursens eksisterende bestillinger på tvers av alle prosjekter eller andre enheter som kan planlegges. Hvis du velger **OK** for å opprette en bestilling for ressursen, uavhengig av om ressursen er tilgjengelig, kan det oppstå overbestilling.
 
 Prosjektlederen eller ressurslederen kan deretter bruke planleggingstavlen til å behandle eventuelle situasjoner der en ressurs er overbestilt utover dens kapasitet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

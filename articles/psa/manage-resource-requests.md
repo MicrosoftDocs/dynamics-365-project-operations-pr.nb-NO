@@ -2,6 +2,8 @@
 title: Administrere ressursforespørsler
 description: Slik administrerer du ressursforespørsler i Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985153"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149870"
 ---
 # <a name="manage-resource-requests-project-service"></a>Administrere ressursforespørsler (Project Service)
 
@@ -43,12 +45,9 @@ Kundeansvarlige og prosjektledere ber regelmessig om ressurser for sine prosjekt
   
    -   Klikk **Filter** for å vise **Filter**-ruten, der du kan filtrere resultatene etter organisasjonsenhet, rolle, ferdighet eller andre attributter.  
   
-       ![Ressursforespørsel-skjermen i Project Service.](../psa/media/project-service-resource-request-screen.png "Ressursforespørsel-skjermen i Project Service")  
+       ![Ressursforespørsel-skjermen i Project Service](../psa/media/project-service-resource-request-screen.png "Ressursforespørsel-skjermen i Project Service")  
   
 3. I kalenderen for ressursen du vil bestille, velger du perioden du vil bestille ressursen, og deretter klikker du **Bestill** for å reservere ressursen eller **Foreslå bestilling** for å foreslå bestillingen og få anmoderen til å godkjenne den. Når du reserverer en ressurs, kan du foreta en ikke-forpliktende eller forpliktende bestilling.  
   
 ### <a name="see-also"></a>Se også  
  [Håndbok for ressursansvarlig](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

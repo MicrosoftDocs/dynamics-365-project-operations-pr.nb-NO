@@ -2,6 +2,8 @@
 title: Salgsprosesser
 description: Dette emnet gir informasjon om de grunnleggende salgsprosessene.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000543"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145190"
 ---
 # <a name="sales-processes"></a>Salgsprosesser
 
@@ -39,7 +41,7 @@ Salgsprosessene som brukes i en prosjektbasertert organisasjon, er forskjellig f
 
 Illustrasjonen nedenfor viser en typisk salgsprosess i en prosjektbasert organisasjon.
 
-> ![Salgsprosess i en prosjektbasert organisasjon.](media/basic-guide-1.png)
+> ![Salgsprosess i en prosjektbasert organisasjon](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Estimere et salg
 Verdien av et salg kan estimeres basert på prosjekter som tidligere er levert, samt kompleksiteten i prosjekter. For prosjekter som omfatter utvidelser av tidligere prosjekter, eller prosjekter der leverandørens ekspertise er høy og velkjente arbeidsmaler brukes , kan du bruke en enklere estimeringsprosess. Mer komplekse prosjekter har vanligvis en lengre innkjøpsprosess. Derfor er det flere faser i salgsberegningsprosessen. Tidlig i prosessen bruker salgsteamet inndata fra regnskapsansvarlige eksperter på emnet til å komme i gang med å opprette en et estimat på høyt nivå for hver enkelt arbeidskomponent som tilbys. Disse arbeidskomponentene representeres av tilbudslinjer. 
@@ -50,7 +52,7 @@ Du kan opprette flere tilbud for et prosjekt og gruppere dem under én enhetstyp
 
 Du kan også opprette alternative tilbud under én enhetstype for salgsmulighet eller sette opp systemet slik at en prosjektkontrakt opprettes når et tilbud blir vunnet. I dette tilfellet kan du legge ved et Word-dokument som representerer arbeidserklæringen, i prosjektkontraktoppføringen.
 
-![Lukke et tilbud for å opprette en prosjektkontrakt.](media/basic-guide-2.png)
+![Lukke et tilbud for å opprette en prosjektkontrakt](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfigurere salgsprosessen
 Du kan bruke forretningsprosessflyter i Microsoft Dynamics 365 for å konfigurere salgsprosessen. Forretningsprosessflyter gir salgspersonellet et veiledet visuelt grensesnitt som de kan bruke til å flytte avtaler fremover gjennom fasene som er typiske for firmaet.
@@ -66,7 +68,7 @@ Firmaet kan for eksempel ha følgende seks faser i salgsprosessen:
 
 Disse seks fasene vises med vinkeltegn (\>) som du velger for å utvide hver enhetstype for salgsmulighet som du oppretter.
 
-![Konfigurasjon av forretningsprosess i Dynamics 365.](media/basic-guide-3.png)
+![Konfigurasjon av forretningsprosess i Dynamics 365](media/basic-guide-3.png)
  
 Det kan hende at organisasjonen bruker forskjellige enheter til å representere samme avtale etter hvert som den utvikles. Tidlig i salgsprosessen er en avtale representert av salgsmulighetsenheten. Etter hvert som flere detaljer oppstår, kan du bruke forhåndsberegninger på høyt nivå til å opprette ett eller flere tilbud. Hvis ett av disse tilbudene blir kontrollert av interne interessenter og kundeinteressenter, representerer tilbudsenheten avtalen. Når kunden har godtatt tilbudet, representerer en prosjektkontrakt eller arbeidserklæring avtalen. For å støtte denne virkemåten er forretningsprosessflyter strukturert slik at hver fase i prosessen er koblet til en annen databasetabell.
 
@@ -77,7 +79,7 @@ Etter hvert som du flytter avtaler gjennom fasene, blir du bedt om å opprette d
 > [!NOTE]
 > PSA har bestemte sider for salgsmuligheter, tilbud, ordrer og fakturaer. Du må opprette salgsmuligheter, tilbud, ordrer og fakturaer i Project Service ved hjelp av prosjektinformasjonssidene for disse enhetene. Hvis du bruker en annen side til å opprette en oppføring, kan du ikke åpne oppføringen fra siden **Prosjektinformasjon**. Hvis du vil åpne en oppføring fra siden **Prosjektinformasjon**, må du slette oppføringen og opprette den på nytt ved å bruke siden **Prosjektinformasjon**. På siden **Prosjektinformasjon** sørger forretningslogikken for hver av disse enhets typene for at **Type**-feltet for oppføringen angis på riktig måte, og alle de obligatoriske konseptene blir riktig initialisert.
 
-> ![Prosjektinformasjon for en ny ordre.](media/basic-guide-4.png)
+> ![Prosjektinformasjon for en ny ordre](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Forskjeller mellom Project Service Automation og Sales
 Selv om salgsprosessen i PSA bruker de grunnleggende funksjonene i salgsprosessen i Sales, er det noen viktige forskjeller på grunn av variasjoner i forretningspraksisen i prosjektrelaterte organisasjoner. Her er noen eksempler:
@@ -91,6 +93,3 @@ I PSA kan du ikke spore endringer som er gjort i et tilbud. I stedet må du merk
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Spore kommentarer og godkjenninger av tilbud og prosjektkontrakter
 Du kan administrere gjennomgang og godkjenning av tilbud og prosjektkontrakter ved hjelp av oppføringsveggen og innlegg. Organisasjonen kan opprette egendefinerte arbeidsflyter og plugin-moduler for å tilordne, omdirigere, videresende og administrere varslinger om arbeidselementer for gjennomgang og godkjenning.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

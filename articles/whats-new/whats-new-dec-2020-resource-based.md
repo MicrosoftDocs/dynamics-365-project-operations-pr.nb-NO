@@ -2,17 +2,19 @@
 title: Nyheter desember 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i desember 2020-versjonen av Project Operations for ressursbaserte/ikke-lagerførte scenarioer.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984883"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727892"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter desember 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -106,7 +108,4 @@ Følgende funksjoner er inkludert i denne versjonen:
 | Reise og utgift                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Arbeidsflyten med automatisk postering av utgiftsrapport er fullført, men fakturaen er ikke postert                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.

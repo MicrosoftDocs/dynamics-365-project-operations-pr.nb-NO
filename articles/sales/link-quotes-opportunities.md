@@ -2,16 +2,18 @@
 title: Opprett prosjekttilbud fra salgsmuligheter
 description: Denne emnet gir informasjon om oppretting av et prosjekttilbud fra en salgsmulighet.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999643"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118125"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Opprett prosjekttilbud fra salgsmuligheter
 
@@ -54,6 +56,3 @@ Et eksisterende tilbud kan kobles til en salgsmulighet. Fullfør fremgangsmåten
    Når du flytter en salgsmulighet til denne fasen, kan du velge dette tilbudet fra en liste over tilbud som er knyttet til denne salgsmuligheten. Hvis du velger dette tilbudet, angir du at det skal flyttes fremover.
 
    Alle de andre tilbudene som er knyttet til salgsmuligheten, vil fremdeles være tilgjengelig eog aktivee til ett av dem er vunnet. Du kan flytte salgsprosessen tilbake til den forrige fasen, **Kvalifiser**, og velge et nytt tilbud å flytte fremover med.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

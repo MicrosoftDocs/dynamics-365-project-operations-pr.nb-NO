@@ -2,6 +2,8 @@
 title: Tilpasse ukentlige tidsoppføringer
 description: Dette emnet gir informasjon om hvordan du implementerer egendefinerte forretningsregler som støtter en organisasjons praksis.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002298"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149645"
 ---
 # <a name="customize-weekly-time-entry"></a>Tilpasse ukentlige tidsoppføringer 
 
@@ -29,7 +31,7 @@ ms.locfileid: "7002298"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-I Microsoft Dynamics 365 Project Service Automation, versjon 3.3 har Microsoft satt opp et moderne rutenett som gjør det enkelt å angi tid for opptil én uke om gangen. Det nye rutenettet for ukentlige tidsoppføringer viser totaler for oppføringer etter dato, rad eller uke. Ressurser kan lage kopier av tidsoppføringer i uken og også massekopiere fra tidligere uker. Systemtilpassere kan tilpasse visningen ved å legge til felt, legge til oppslag til andre entiteter og implementere egendefinerte forretningsregler for å støtte organisasjonens fremgangsmåter.
+I Microsoft Dynamics 365 Project Service Automation versjon 3.3 har Microsoft satt opp et moderne rutenett som gjør det enkelt å angi tid for opptil én uke om gangen. Det nye rutenettet for ukentlige tidsoppføringer viser totaler for oppføringer etter dato, rad eller uke. Ressurser kan lage kopier av tidsoppføringer i uken og også massekopiere fra tidligere uker. Systemtilpassere kan tilpasse visningen ved å legge til felt, legge til oppslag til andre entiteter og implementere egendefinerte forretningsregler for å støtte organisasjonens fremgangsmåter.
 
 Du får tilgang til tidsoppføringen og det nye rutenettet for ukentlige tidsoppføringer. Den ikke-utvidbare opplevelsen av egendefinert tidsoppføring som var en del av tidligere PSA-versjoner, er erstattet av det utvidbare rutenettet for ukentlige tidsoppføringer, og også av en alternativ opplevelse i det skrivebeskyttede rutenettet og kalenderen. På grunn av denne endringen kan brukerne angi tid i ukentlige tidsoppføringer.
 
@@ -130,6 +132,3 @@ Du bør bruke plugin-modulvalideringer for valideringer som krever mer kontekst 
 
 > [!IMPORTANT] 
 > For øyeblikket hindrer et kjent problem på TBX-sidene at brukere retter informasjon og velger Fullført på nytt når en oppdatering mislykkes med en plugin-modulvalidering. Du kan omgå dette problemet ved å konfigurere forretningsregelvalideringer for å unngå denne situasjonen så mye som mulig.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

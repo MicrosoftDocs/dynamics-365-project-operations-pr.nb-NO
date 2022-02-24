@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002973"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993158"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hvordan tilpasser jeg forretningsprosessflyten for prosjektfaser?
 
@@ -60,11 +60,11 @@ Hvis oppgradering ikke er noe alternativ, kan du tilpasse forretningsprosessflyt
 1. Legg til flere faser i standardkonfigurasjonen samtidig som du beholder de engelske fasenavnene for **Quote**, **Plan** og **Close**.
 
 
-![Skjermbilde av å legge til faser i standardkonfigurasjon.](media/FAQ-Customize-BPF-1.png)
+![Skjermbilde av å legge til faser i standardkonfigurasjon](media/FAQ-Customize-BPF-1.png)
  
 2. Opprett din egen forretningsprosessflyt og gjør den til den primære forretningsprosessflyten for prosjektenheten, som lar deg ha de fasenavnene du ønsker. Hvis du imidlertid vil bruke de samme standardprosjektfasene **Quote**, **Plan** og **Close**, må du utføre noen tilpassinger som er basert på de egendefinert fasenavnene. Den mer komplekse logikken er i lukkingen av prosjektet, som du fremdeles kan utløse ved å bare deaktivere prosjektoppføringen.
 
-![BPF-tilpasning.](media/FAQ-Customize-BPF-2.png)
+![BPF-tilpassing](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Andre hensyn for Project Service-appen versjon 2.4.4.30 eller tidligere på plattform 9.0
 
@@ -80,11 +80,11 @@ Slik oppretter du din egen forretningsprosessflyt for prosjektenheten:
 
 1. Gå til **Innstillinger** > **Prosessenter**. Ikke kopier forretningsprosessflyten for prosjektfaser fordi dette kopierer også forretningslogikken for Project Service.
 
-  ![Opprett prosess.](media/FAQ-Customize-BPF-3.png)
+  ![Opprett prosess](media/FAQ-Customize-BPF-3.png)
 
 2. Bruk prosessdesigneren til å opprette de fasenavnene du vil ha. Hvis du vil ha samme funksjonalitet som standardfasene for **Tilbud**, **Planlegg** og **Lukk**, må du opprette dette basert på fasenavnene i den egendefinerte forretningsprosessflyten.
 
-   ![Skjermbilde av prosessdesigner som brukes til å tilpasse BPF.](media/FAQ-Customize-BPF-4.png) 
+   ![Skjermbilde av prosessdesigner som brukes til å tilpasse BPF](media/FAQ-Customize-BPF-4.png) 
 
 3. I prosessdesigneren klikker du på **Ordreprosessflyt** for å gjøre den egendefinerte forretningsprosessflyten til den primære forretningsprosessflyten for prosjektenheten, ved å flytte den over forretningsprosessflyten for prosjektfaser til øverst i listen.
 
@@ -95,15 +95,15 @@ Slik oppretter du din egen forretningsprosessflyt for prosjektenheten:
 
 4. Legg til et nytt egendefinert felt i prosjektenheten for å registrere de egendefinerte fasene i den egendefinerte forretningsprosessflyten. Du må legge til forretningslogikk (plugin/arbeidsflyt) for å oppdatere dette feltet når fasen i den egendefinerte forretningsprosessflyten oppdateres.
 
-   ![Skjermbilde av tilpassing av prosjektenhet.](media/FAQ-Customize-BPF-6-720.png)
+   ![Skjermbilde av tilpassing av prosjektenhet](media/FAQ-Customize-BPF-6-720.png)
 
 5. Endre **Prosjekt etter fase**-diagrammet slik at det bruker det nye egendefinerte feltet for faser.
 
-   ![Skjermbilde av bruk av diagrammet Prosjekt etter fase.](media/FAQ-Customize-BPF-7-720.png)
+   ![Skjermbilde av bruk av diagrammet Prosjekt etter fase](media/FAQ-Customize-BPF-7-720.png)
 
 6. Endre eventuelle visninger for prosjektenheten for å ta med det nye egendefinerte feltet for faser.
 
-   ![Skjermbilde av endring av visninger i prosjektenheten.](media/FAQ-Customize-BPF-8-720.png)
+   ![Skjermbilde av endring av visninger i prosjektenheten](media/FAQ-Customize-BPF-8-720.png)
 
 
 

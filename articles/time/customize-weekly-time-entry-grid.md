@@ -2,22 +2,24 @@
 title: Forlenge tidsoppføringer
 description: Dette emnet gir informasjon om hvordan utviklere kan forlenge tidsoppføringskontrollen.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993343"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124650"
 ---
 # <a name="extending-time-entries"></a>Forlenge tidsoppføringer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Dynamics 365 Project Operations inneholder en tilpasset kontroll for utvidbar tidsoppføring. Denne kontrollen inkluderer følgende funksjoner:
+Dynamics 365 Project Operations inneholder en utvidbar, egendefinert kontroll for tidsoppføring. Denne kontrollen inkluderer følgende funksjoner:
 
 - Angi tid vannrett over en uke
 - Totaler etter dag, rad eller uke
@@ -142,6 +144,3 @@ Bruk plugin-modulvalideringer for valideringer som krever mer kontekst enn det s
 
 ### <a name="copying-time-entries"></a>Kopiere tidsoppføringer
 Bruk visningen **Kopier tidsoppføringskolonner** for å definere listen over felter som skal kopieres under tidsoppføring. **Dato** og **Varighet** er obligatoriske felter som ikke bør fjernes fra visningen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

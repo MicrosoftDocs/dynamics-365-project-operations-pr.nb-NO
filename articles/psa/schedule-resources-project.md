@@ -2,6 +2,8 @@
 title: Planlegge ressurser for et prosjekt
 description: Slik planlegger du ressurser for et prosjekt i Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998158"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150455"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planlegge ressurser for et prosjekt (Project Service)
 
@@ -33,7 +35,7 @@ Du kan sjekke ressurstilgjengeligheten for å få en oversikt over bestillingene
   
 Planleggingstavlen viser liste over ressurser og deres tilgjengelighet. Velg en visningsmodus for å vise tilgjengelighet etter **timer**, **dag**, **uke** eller **måned**.  
   
-Før du bruker planleggingstavlen, er det viktig å konfigurere den. For mer informasjon, se [Konfigurere tidsplankortet (Field Service eller Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
+Før du bruker planleggingstavlen, er det viktig å konfigurere den. For mer informasjon, se [Konfigurere tidsplankortet (Field Service eller Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 Hvis du bruker en eldre versjon, kan du sjekke ressurstilgjengelighet under [Vise ressurstilgjengelighet](../psa/view-resource-availability.md).  
 
@@ -81,6 +83,3 @@ Hvis du bruker en eldre versjon, kan du sjekke ressurstilgjengelighet under [Vis
   
 ### <a name="additional-resources"></a>Ytterligere ressurser  
  [Veiledning for ressursansvarlig](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

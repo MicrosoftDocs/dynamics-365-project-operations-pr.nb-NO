@@ -2,9 +2,11 @@
 title: Definere utgiftspolicyer
 description: Du kan definere utgiftspolicyer som dine arbeidere må følge når de angir og sender ut reiseregningsrapporter og reiserekvisisjoner.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986368"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128430"
 ---
 # <a name="define-expense-policies"></a>Definere utgiftspolicyer
 
@@ -51,6 +53,3 @@ Her er noen forslag som kan hjelpe deg når du oppretter nye policyer for håndt
 ## <a name="when-to-evaluate-policies"></a>Når policyer skal evalueres
 
 I parametere for reiseregning og utlegg kan du velge å evaluere policyer for reiseregning og utlegg når en linje lagres, eller når en reiseregning sendes. Hvis du velger å evaluere når en linje lagres, vil brukere ha tidligere innsyn i hva de må gjøre for å fullføre reiseregningen samtidig. Hvis ikke kan du utsette policyevalueringen og spare tid ved å validere på slutten, under innsending til arbeidsflyten.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

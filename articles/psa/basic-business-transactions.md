@@ -2,6 +2,8 @@
 title: Forretningstransaksjoner
 description: Dette emnet inneholder informasjon om forretningstransaksjoner.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987538"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149915"
 ---
 # <a name="business-transactions"></a>Forretningstransaksjoner
 
@@ -88,7 +90,7 @@ Sammen hjelper transaksjonsopprinnelsen og transaksjonstilkoblingen deg med å h
 
 Følgende eksempel viser den typiske behandlingen av tidsoppføringer i en PSA-prosjektlivssyklus.
 
-> ![Behandling av tidsoppføringer i Project Service-livssyklus.](media/basic-guide-17.png)
+> ![Behandling av tidsoppføringer i Project Service-livssyklus](media/basic-guide-17.png)
  
 1. Innsending av en tidsoppføring fører til at det opprettes to journallinjer: én for kostnad og én for ufakturert salg.
 2. Eventiell godkjenning av tidsoppføringen fører til at det opprettes to faktiske verdier: én for kostnad og én for ufakturert salg.
@@ -147,6 +149,3 @@ Tabellen nedenfor viser oppføringene i Transaksjonstilkobling-enheten for den f
 | Korrigering av fakturautkast       | GUID for fakturalinjetransaksjon | Erstatning          | msdyn_invoicelinetransaction | GUID for fakturert salg            | Opprinnelig           | msdyn_actual       |
 | Bekreft fakturakorreksjon     | GUID for tilbakeføring av fakturert salg    | Tilbakeføring          | msdyn_actual                 | GUID for fakturert salg            | Opprinnelig           | msdyn_actual       |
 | GUID for nytt ufakturert faktisk salg | Erstatning                     | msdyn_actual       | GUID for fakturert salg            | Opprinnelig                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Bekrefte en prosjektkontrakt
 description: Dette emnet gir informasjon om hvordan du bekrefter en kontrakt i Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989833"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128295"
 ---
 # <a name="confirm-a-project-contract"></a>Bekrefte en prosjektkontrakt
 
@@ -32,7 +34,4 @@ Når du lukker en prosjektkontrakt som tapt, oppdateres kontraktstatusen til **L
 Hvis prosjektkontrakten som er lukket som tapt, refererer til et prosjekt på sine linjer, blir dette prosjektet også merket som lukket. Eventuelle ressursbestillinger fra den dagen og fremover annulleres. Eventuelle ikke-fakturerte faktiske salgsverdier i prosjektkontrakten som ikke allerede er på en faktura, blir tilbakeført.
 
 > [!NOTE]
-> Hvis du lukker en prosjektkontrakt som tapt, påvirker ikke dette statusen for den tilknyttede salgsmuligheten i Dynamics 365 Project Operations. Salgsmuligheten forblir åpen og må lukkes manuelt.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> I Dynamics 365 Project Operations vil lukking av en prosjektkontrakt som tapt ikke påvirke denne statusen for den tilknyttede salgsmuligheten. Salgsmuligheten forblir åpen og må lukkes manuelt.

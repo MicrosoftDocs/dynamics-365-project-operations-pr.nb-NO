@@ -2,6 +2,8 @@
 title: Scenarioer for flere valutaer (versjon 3.x)
 description: Dette emnet inneholder informasjon om scenarioer med flere valutaer.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005133"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145685"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarioer for flere valutaer
 
@@ -34,7 +36,7 @@ Microsoft Dynamics 365 har to valutakonsepter:
 - **Transaksjonsvaluta** – valutaen som en transaksjon utføres i. 
 - **Standard valuta** – valutaen for Dynamics 365-forekomsten. Denne valutaen konfigureres når en Dynamics 365-forekomst klargjøres. Dette kan ikke endres.
 
-Contoso solgte for eksempel 100 T-skjorter til en kunde i Storbritannia for 15 pund (GBP) per stykk. Tabellen nedenfor viser hvordan denne transaksjonen registreres i Ordreprodukt-enheten.
+Ekeli solgte for eksempel 100 T-skjorter til en kunde i Storbritannia for 15 pund (GBP) per stykk. Tabellen nedenfor viser hvordan denne transaksjonen registreres i Ordreprodukt-enheten.
 
 | Produkt | Antall | Pris per enhet | Valuta | Beløp | Valutakurs | Grunnpris per enhet| Beløp (st.valuta)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,14 +68,14 @@ PSA utvider konseptet med transaksjonsvaluta for kostnaden og salget på følgen
 
 ## <a name="multiple-currency-scenario"></a>Scenario for flere valutaer
 
-Denne delen beskriver et eksempel på et prosjekt som Contoso leverer for en kunde som har fått navnet Fabrikam, Japan. Slik er scenarioet satt opp:
+Denne delen beskriver et eksempel på et prosjekt som har fått navnet Fabrikam, Japan. Slik er scenarioet satt opp:
 
 1. GBP og japanske yen (JPY) er angitt under **Innstillinger** \> **Forretningsbehandling** \> **Valutaer**. 
 2. En kundekonto med navnet **Fabrikam - Japan** er satt opp, og JPY er valgt som valuta for forretningsforbindelsen.
-3. En organisasjonsenhet kalt **Contoso UK** er konfigurert, og GBP er valgt som valuta.
-4. En prosjektkontrakt opprettes, der **Contoso UK** er angitt som kontraktsenheten og **Fabrikam – Japan** er angitt som kunden.
+3. En organisasjonsenhet kalt **Ekeli UK** er konfigurert, og GBP er valgt som valuta.
+4. En prosjektkontrakt opprettes, der **Ekeli UK** er angitt som kontraktsenheten, og **Fabrikam – Japan** er angitt som kunden.
 5. Prosjektkontraktlinjer opprettes basert på faktureringsarrangementer for de forskjellige transaksjonsklassene i prosjektet, for eksempel fakturering av tid kontra fakturering av utgifter.
-6. Det opprettes et prosjekt der **Contoso UK** er angitt som kontraktsenheten. Dette prosjektet opprettes og tilordnes til prosjektkontraktslinjene.
+6. Det opprettes et prosjekt der **Ekeli UK** er angitt som kontraktsenheten. Dette prosjektet opprettes og tilordnes til prosjektkontraktslinjene.
 
 
 Under forhåndsberegning som bruker tilbudslinjedetaljene, detaljene for prosjektkontraktslinjen eller på estimatlinjen for tidsplanen, opprettes det alltid to oppføringer i enheten. Den ene oppføringen gjelder kostnad, og den andre oppføringen er for salg.
@@ -103,6 +105,3 @@ Dynamics 365 håndterer automatisk verdier i forskjellige valutaer. Her er et ek
 | Utgift           | Ufakturert salg   | 17. juni | Noah  | Leiebil           | 1 per stk.     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Hvis du vil beregne den totale verdien for ufakturert salg i prosjektet, kan du opprette et verdifelt felt for **Beløp**-feltet i alle de relaterte, ufakturerte salgsbeløpene. Verdifeltet er en konstruksjon i Dynamics 365, som gjør det mulig å bruke hurtigformler på relaterte oppføringer.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

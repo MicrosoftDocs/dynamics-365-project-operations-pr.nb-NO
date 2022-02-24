@@ -2,16 +2,18 @@
 title: Rediger bestillinger
 description: Dette emnet inneholder informasjon om hvordan du oppdaterer og gjør endringer i bestillinger.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008328"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841378"
 ---
 # <a name="edit-bookings"></a>Redigere bestillinger
 
@@ -31,6 +33,3 @@ Fra rutenettet **Teammedlem** kan en prosjektleder utheve en bestemt ressurs og 
 ## <a name="schedule-board"></a>Planleggingstavle
 
 Fra **planleggingstavlen** har ressursansvarlig en porteføljevisning for alle bestillinger i en organisasjon. Fra denne visningen kan ressursansvarlig utvide, forkorte eller flytte eksisterende bestillinger lik funksjonene som tilbys i **Oppretthold bestillinger**. Ressursansvarlig kan også erstatte eksisterende ressurser som er tildelt en bestemt bestilling, ved å høyreklikke bestillingen og velge **Erstatt ressurs**. Ressursansvarlige kan også redigere eksisterende bestillinger ved å høyreklikke bestillingen og velge **Rediger**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

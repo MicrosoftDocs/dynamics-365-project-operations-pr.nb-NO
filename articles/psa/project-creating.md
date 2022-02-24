@@ -2,6 +2,8 @@
 title: Prosjektplaner
 description: Dette emnet gir informasjon om hvordan du oppretter en tidsplan.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998428"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148430"
 ---
 # <a name="project-schedules"></a>Prosjektplaner 
 
@@ -94,7 +96,7 @@ Rutenettet **Tidsplan** er fullt tilgjengelig og kan brukes med skjermlesere, fo
 
 Et oppgavenavn beskriver arbeidet som må fullføres. I PSA er attributtene som er knyttet til en oppgave, en beskrivelse av tidsplanen til oppgaven og krav til bemanning.
 
-> ![Oppgaveattributter.](media/project-2.png)
+> ![Oppgaveattributter](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Planlegge attributter
 
@@ -147,6 +149,3 @@ Hvis en bladnodeoppgave ikke har foregående oppgaver, settes startdatoen som st
 ### <a name="manual-scheduling"></a>Manuell planlegging
 
 Hvis reglene for automatisk planlegging ikke oppfyller kravene dine, kan du angi at oppgavemodusen skal være **Planlagt manuelt**. Denne innstillingen stopper planleggingsmotoren fra å beregne verdier for andre planleggingsattributter. Hvis du angir foregående oppgaver, vil du alltid ha bruk for den avhengige oppgavens startdato, uavhengig av oppgavemodusen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

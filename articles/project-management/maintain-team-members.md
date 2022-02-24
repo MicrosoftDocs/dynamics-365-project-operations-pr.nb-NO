@@ -2,16 +2,18 @@
 title: Opprettholde teammedlemmer
 description: Dette emnet gir informasjon om bestilling av navngitte ressurser for prosjektteam og tilordne dem til oppgaver.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997078"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131535"
 ---
 # <a name="maintain-team-members"></a>Opprettholde teammedlemmer
 
@@ -19,7 +21,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Du kan legge til en navngitt ressurs i prosjektteamet ved å reservere den direkte til teamet.
 
-1. Gå til **Prosjekter** i Dynamics 365 Project Operations, og velg det åpne prosjektet du bestiller for.
+1. I Dynamics 365 Project Operations går du til **Prosjekter**, og velg det åpne prosjektet du bestiller for.
 2. På **Prosjekt**-siden i **Team**-kategorien velger du **Ny**. 
 3. Velg den bestillbare ressursen i dialogboksen **Hurtigoppretting: Prosjektteammedlem**. **Rolle**-feltet fylles ut med ressursens standardrolle hvis en rolle er tilordnet. Du kan endre rollen. 
 4. Velg fra- og til-datoene som ressursen trenger, og velg fordelingsmetoden for ressursens kapasitet. 
@@ -40,6 +42,3 @@ Når du tar et valg, legges ressursen til i prosjektteamet og tildeles oppgaven,
 Du kan bruke funksjonen for å utvide bestillingen i kategorien **Avstemming** eller **planleggingstavlen** til å reservere ressursens kapasitet til prosjektet.
 
 Når et teammedlem er bestilt i prosjektet, kan du bruke **Vedlikehold bestillinger**, eller du kan bruke **planleggingstavlen** direkte til å behandle bestillingene.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

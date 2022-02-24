@@ -2,10 +2,12 @@
 title: Opprette egendefinerte løsninger for prisdimensjoner
 description: Dette emnet forklarer hvordan du oppretter en egendefinert løsning når du oppretter egendefinerte prisdimensjoner.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995278"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144651"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Opprette egendefinerte løsninger for prisdimensjoner
 
@@ -32,7 +34,7 @@ ms.locfileid: "6995278"
 1. Velg **Innstillinger** > **Løsninger**, og velg deretter **Ny**. 
 2. Gi løsningen navnet **\<your organization name>-prisdimensjoner**, angi den gjenstående nødvendige informasjonen, og velg deretter **Lagre**.
 
-> ![Opprette en egendefinert løsning for prisdimensjoner.](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Opprette en egendefinert løsning for prisdimensjoner](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Legg til alle nødvendige enheter og relaterte komponenter i prisdimensjonsløsningen
 Du må legge til følgende Project Service-enheter i prisløsningen. Fullfør trinnene i denne prosedyren for å gjøre noen viktige skjemaendringer i prisløsningen, slik at enhetene blir klar over de nye prisdimensjonene.
@@ -54,18 +56,15 @@ Du må legge til følgende Project Service-enheter i prisløsningen. Fullfør tr
 - Rollepris 
 - Tidsoppføring 
 
-> ![Legg til eksisterende enheter i prisdimensjonsløsningen.](media/Existing-entities-to-PD-solution.png)
+> ![Legg til eksisterende enheter i prisdimensjonsløsningen](media/Existing-entities-to-PD-solution.png)
 
-> ![Velg løsningskomponenter.](media/Dimension-Components.png)
+> ![Velg løsningskomponenter](media/Dimension-Components.png)
 
 > [!NOTE]
 > Pass på at du inkluderer alle skjemaer og visninger for hver av enhetene som er valgt.
 
 4. Når du blir bedt om å inkludere avhengige enheter for de valgte enhetene, klikker du **Nei**.
 
-> ![Ikke ta med alle relaterte komponenter.](media/Do-not-include-required.png)
+> ![Ikke ta med alle relaterte komponenter](media/Do-not-include-required.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

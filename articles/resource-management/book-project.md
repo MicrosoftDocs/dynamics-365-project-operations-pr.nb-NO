@@ -2,16 +2,18 @@
 title: Bestille til et prosjekt
 description: Dette emnet gir informasjon om bestilling av en ressurs til et prosjekt.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994918"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131085"
 ---
 # <a name="book-to-a-project"></a>Bestille til et prosjekt
 
@@ -64,6 +66,3 @@ Som prosjektleder må du kanskje reservere en ressurs til et prosjekt, men du kj
 
 > [!NOTE]
 > Denne metoden oppretter ingen bestillinger for ressursen. I stedet legges ressursen til for teamet. Når teammedlemmene er lagt til i prosjektet, kan prosjektlederen bruke vedlikehold av bestillinger eller utvide bestillinger til å legge til de nødvendige bestillingerne i ressursen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

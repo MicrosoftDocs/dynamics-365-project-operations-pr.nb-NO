@@ -2,9 +2,11 @@
 title: Konfigurere egendefinerte felt som prisdimensjoner
 description: Dette emnet gir informasjon om hvordan du konfigurerer prisdimensjoner ved hjelp av egendefinerte felt.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003603"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650234"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurere egendefinerte felt som prisdimensjoner
 
@@ -42,11 +44,11 @@ For at et felt skal bli en prismodell, må det være følgende:
 
 - Opprettet som en rad i tabellen **Prisdimensjon**. Legg for eksempel til prisdimensjonsrader som vises i grafikken nedenfor. 
 
-![Rader for beløpsbaserte prisdimensjoner.](media/Amt-based-PD.png)
+![Rader for beløpsbaserte prisdimensjoner](media/Amt-based-PD.png)
 
 Arbeidstimer for ressurs (**msdyn_resourceworkhours**) er lagt til som en påslagsbasert dimensjon og er lagt til i rutenettet i kategorien **Påslagsbasert prisdimensjon**.
 
-![Rader for påslagsbaserte prisdimensjon.](media/Markup-based-PD.png)
+![Rader for påslagsbaserte prisdimensjon](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -73,12 +75,12 @@ Det finnes to typer prisdimensjoner:
   
 | Rolle        | Organisasjonsenhet    |Arbeidssted      |Standardtittel      |Arbeidstid for ressurs      |  Påslag|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|På stedet            |                    |Overtid                 |15     |
-|             | Contoso India|Lokal             |                    |Overtid                 |10     |
-|             | Contoso – USA   |Lokal             |                    |Overtid                 |20     |
+|             | Ekeli India|På stedet            |                    |Overtid                 |15     |
+|             | Ekeli India|Lokal             |                    |Overtid                 |10     |
+|             | Contoso US   |Lokal             |                    |Overtid                 |20     |
 
 
-Hvis en ressurs fra Contoso India som har en basispris på 100 USD, arbeider på stedet, og de registrerer 8 timer normal tid og 2 timer overtid i tidsoppføringen, vil prismotoren bruke basisprisen på 100 for de 8 timene for å registrere 800 USD. For de 2 timene overtid brukes et påslag på 15 % på basisprisen på100 for å få en enhetspris på 115 USD, og det registreres en total kostnad på 230 USD.
+Hvis en ressurs fra Ekeli India som har en basispris på 100 USD, arbeider på stedet, og de registrerer 8 timer normal tid og 2 timer overtid i tidsoppføringen, vil prismotoren bruke basisprisen på 100 for de 8 timene for å registrere 800 USD. For de 2 timene overtid brukes et påslag på 15 % på basisprisen på100 for å få en enhetspris på 115 USD, og det registreres en total kostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gjelder kostnad 
 Hvis det er satt til **Ja**, indikerer det at dimensjonsverdien fra inndatakonteksten skal brukes til å samsvare **Rollepris** og **Rolleprispåslag** ved henting av kostnads- og påslagsrater.
@@ -94,6 +96,3 @@ Ved å angi dimensjonsprioriteten kan prisingen produsere en pris selv når den 
 
 - **Kostnadsprioritet**: Verdien for dimensjonens kostnadsprioritet angir vekten på denne dimensjonen når den samsvares med oppsettet for kostpriser. Verdien for **Kostnadsprioritet** må være unik på tvers av dimensjoner som **Gjelder kostnad**.
 - **Salgsprioritet**: Verdien for dimensjonens salgsprioritet angir vekten på denne dimensjonen når den samsvares med oppsettet for salgspriser eller fakturasatser. Verdien for **Salgsprioritet** må være unik på tvers av dimensjoner som **Gjelder salg**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

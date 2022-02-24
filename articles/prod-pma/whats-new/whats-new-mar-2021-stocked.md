@@ -2,17 +2,19 @@
 title: Nyheter eller endringer i Project Operations, mars 2021, for lagerførte/produksjonsbaserte scenarioer
 description: Dette emnet inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i mars 2021-versjonen av Project Operations for lagerførte/produksjonsbaserte scenarioer.
 author: andchoi
+manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991183"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701959"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nyheter eller endringer i Project Operations, mars 2021, for lagerførte/produksjonsbaserte scenarioer
 
@@ -121,7 +123,7 @@ Følgende funksjoner er inkludert i denne versjonen:
 | Prosjektstyring og regnskap | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Den eldre WBS-klassemetoden (arbeidsnedbrytningsstruktur), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** er avskrevet.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates.md). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,12 @@
 title: Hjemmeside for pris- og kostnadsdimensjoner
 description: Dette emnet gir en oversikt over prisdimensjoner.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998473"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151310"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hjemmeside for pris- og kostnadsdimensjoner
 
@@ -41,7 +42,7 @@ Gitt den vanlige typen av disse attributtene for arbeidet og personene som kreve
 
 PSA leveres med et standardsett med prisdimensjoner. Du kan vise disse ved å gå til **Project Service** > **Parametere**. i parameteroppføringen, i kategorien **Beløpsbaserte prisdimensjoner** kontrollerer du at rollen **msdyn_resourcecategory** og ressursorganisasjonsenheten **msdyn_organizationalunit** har feltene **Gjelder salg** og **Gjelder kostnad** satt til **Ja**. Dette gjør det mulig å konfigurere prisen og kostnaden for hver kombinasjon av rolle og organisasjonsenhet.
 
-![Skjermbilde av Project Service-parametere med Gjelder salg uthevet.](media/PS-OOB-parameters.png)
+![Skjermbilde av Project Service-parametere med "Gjelder salg" uthevet](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Hvis du har brukt de medfølgende feltene for rolle og organisasjonsenhet som prisdimensjoner før versjon 3 av PSA, vil det ikke være noen observerbar endring. Du kan fortsette å bruke Project Service på vanlig måte. 
@@ -66,16 +67,13 @@ Følgende eksempel viser kostnadssatser som er definert basert på rollen og org
 
 | Rolle        | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvikler   | Contoso – USA  |Time | 200|USD     |
-| Utvikler   | Contoso India |Time|   112|USD     |
+| Utvikler   | Contoso US  |Hour | 200|USD     |
+| Utvikler   | Ekeli India |Hour|   112|USD     |
 
 
 **Eksempel på kostnadssatser**
 
 | Lønnssats     | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt firma_Band1 | Contoso – USA  |Time | 145|USD     |
-| Mitt firma_Band2 | Contoso India |Time|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Mitt firma_Band1 | Contoso US  |Hour | 145|USD     |
+| Mitt firma_Band2 | Ekeli India |Hour|   67|USD     |
