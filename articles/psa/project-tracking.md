@@ -2,8 +2,6 @@
 title: Prosjektfremdrift og kostnadsforbruk
 description: Dette emnet gir informasjon om sporing av prosjektfremdrift og kostnadsforbruk.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4fe6adf1a16c1eafc5e37dbd8878dda44cbca230
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148025"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009043"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Prosjektfremdrift og kostnadsforbruk
 
@@ -98,3 +96,6 @@ Sporingsdata i visningene **Innsatssporing** og **Kostnadssporing** viser fremdr
 Feltet **Generell prosjektstatus** er et redigerbart felt som viser den generelle statusen til prosjektet. Det bruker fargekoding, for eksempel grønn, gul og rød, for å vise økende risikoer. Med **Kommentarer**-feltet kan prosjektlederen angi spesifikke kommentarer om statusen. Feltet **Status oppdatert** er ikke redigerbart, og verdien er et tidsstempel som angir når statusen sist ble oppdatert.
 
 Feltene **Tidsplanytelse** og **Kostnadsytelse** angis fra sporingsdatoen. Når tidsplan- og kostnadsavviket for rotnoden i visningen **Innsatssporing** er positive, kan du angi disse feltene til **Foran**. Når tidsplan- og kostnadsavviket for rotnoden er negativ, kan du angi dem til **Bak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

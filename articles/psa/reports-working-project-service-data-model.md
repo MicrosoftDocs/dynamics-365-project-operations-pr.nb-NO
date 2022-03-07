@@ -3,7 +3,7 @@ title: Arbeide med datamodell for Project Service Automation
 description: Dette emnet gir informasjon om hvordan du arbeider med datamodellen.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,19 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147665"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081805"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeide med datamodell for Project Service Automation
 
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation utvider andre appenheter og introduserer sine egne enheter i Common Data Service-datamodellen. Dette emnet beskriver noen av enhetene som du støter på i vanlige scenarioer for PSA-rapportering.
 

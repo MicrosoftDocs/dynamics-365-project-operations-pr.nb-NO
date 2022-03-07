@@ -17,16 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144651"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081629"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Opprette egendefinerte løsninger for prisdimensjoner
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Alle egendefinerte endringer i prisdimensjonen må være i en egen løsning. Denne viktige fremgangsmåten gir deg fleksibilitet i fremtiden for å oppdatere eller fjerne endringer etter behov, den hjelper deg med å bruke arbeidet ditt, og det blir enklere å legge igjen disse endringene til en annen forekomst. Når du har gjort de nødvendige endringene, eksporterer du denne løsningen som en **administrert løsning** og importerer den til andre forekomster for å bruke prisoppsettet på nytt.

@@ -2,18 +2,16 @@
 title: Kopiere prislister
 description: Dette emnet gir information om hvordan du kopierer prislister i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181509"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003738"
 ---
 # <a name="copy-price-lists"></a>Kopiere prislister
 
@@ -43,3 +41,6 @@ Fullfør fremgangsmåten nedenfor for å lage en kopi av en prisliste.
 1. I kategoriene **Rolle**, **Kategori** og **Prislisteelement** for en prisliste kan du velge **Oppdater priser** for å angi et påslag for alle prisene i delrutenettet. 
 2. Angi et påslag på dialogsiden som åpnes. Du kan også angi en negativ påslagsprosent for å redusere prisen etter en bestemt prosentsats. 
 3. Velg **OK** på dialogsiden, og kontroller deretter at prisene i delrutenettet reflekterer endringene du har gjort.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

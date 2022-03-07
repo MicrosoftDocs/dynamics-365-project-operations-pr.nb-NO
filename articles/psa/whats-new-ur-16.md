@@ -2,8 +2,6 @@
 title: Hva er nytt eller endret i Project Service Automation Update Release 16, V3
 description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 16, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 882ee6c25e5d88db22e051254c7fd82dc787ab73
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5d4851ed27028117d25efb0610c25a5aac9c8b70
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143645"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006793"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation, Update Release 16, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet.  Denne versjonen er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen. For mer informasjon, se [Installere eller oppdatere en foretrukket løsning](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page).
+Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet.  Denne versjonen er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen. For mer informasjon, se [Installere eller oppdatere en foretrukket løsning](/dynamics365/project-service/upgrade-psa-home-page).
 Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA V3, Update Release 16. Denne versjonen har buildnummer V3.10.6.34 og er vanligvis tilgjengelig via en egen oppdatering i januar 2020.
 
 
@@ -64,3 +62,6 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA 
 
     -   Løst: Når brukere oppgraderer fra 2.X til 3.X, blir prosjekter med NULL-verdi for prosjektnavn tillatt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

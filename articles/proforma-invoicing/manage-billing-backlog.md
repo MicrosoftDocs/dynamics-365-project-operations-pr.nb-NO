@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122355"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287745"
 ---
 # <a name="manage-the-billing-backlog"></a>Administrere faktureringsrestansen
 
@@ -38,3 +38,6 @@ Ikke-fakturerte faktiske salgsverdier med **Må ikke overskride**-statusen **Mis
 Når det gjelder kontraktlinjer for flere kunder som har en faktureringsmetode for tid og materialer, når tid og utgifter er godkjent, opprettes det en ikke-fakturert faktisk salgsverdi for hver kunde på kontraktlinjen i henhold til del faktureringsprosentdelingen som er definert for hver kunde på kontraktlinjen. I visningen **Faktureringsrestanse for Tid og materiale** kan du se disse individuelle, kundespesifikke, ikke-fakturerte faktiske salgsverdiene. Hver av disse oppføringene av ikke-fakturerte faktiske salgsverdier kan merkes som **Klar for fakturering** atskilt fra denne visningen.
 
 En ikke-fakturert faktisk salgsverdi på et fakturautkast vises i denne visningen med en **Faktureringsstatus** som er **Kundefaktura opprettet**. Når fakturautkastet er bekreftet, oppdateres fakturastatusen for denne oppføringen til **Kundefaktura postert**. Det anbefales ikke å oppdatere denne statusverdien ved hjelp av egendefinert kode, når den er i denne tilstanden. Project Operations fungerer ikke riktig når disse statusverdiene oppdateres med egendefinert kode.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

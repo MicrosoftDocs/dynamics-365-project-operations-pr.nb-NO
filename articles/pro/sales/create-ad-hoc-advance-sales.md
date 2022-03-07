@@ -1,5 +1,5 @@
 ---
-title: Opprette et adhoc-forskudd på en kontrakt
+title: Opprette et adhoc-forskudd på en kontrakt – Lite
 description: Dette emnet gir informasjon om hvordan du oppretter et forskudd på en kontrakt etter behov.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596017"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181374"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Opprette et adhoc-forskudd på en kontrakt
+# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Opprette et adhoc-forskudd på en kontrakt – Lite
 
-_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 Microsoft Dynamics 365 Project Operations støtter faktureringsscenarioer som omfatter forskuddsbetaling. Prosessen for å bruke **Forskudd** i **Project Operations** ligner på **Honorar**-kontrakter. 
 

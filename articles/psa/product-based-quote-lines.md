@@ -2,8 +2,6 @@
 title: Produktbaserte tilbudslinjer
 description: Dette emnet inneholder informasjon om produktbasere tilbudslinjer.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151265"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008598"
 ---
 # <a name="product-based-quote-lines"></a>Produktbaserte tilbudslinjer
 
@@ -60,7 +58,7 @@ Hvis du angir dette feltet til **Overstyr pris**, angir ikke Dynamics 365 en sta
 
 Når du har installert PSA, angis det standard salgspriser på de produktbasert linjene i et tilbud. **Pris**-feltet angis deretter til **Overstyr pris**, slik at du kan redigere standardprisen på tilbudslinjene.
 
-> ![Angi Overstyr pris](media/basic-guide-10.png)
+> ![Angi Overstyr pris.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Antallsfaktorer for produkter
 
@@ -80,5 +78,8 @@ Dynamics 365 kan for eksempel ha følgende egenskaper:
 
 Egenskapene **Antall brukere** og **Antall måneder** kan flagges som antallsfaktorer ved å redigere egenskapene for produktlinjen. 
 
-> ![Flagge Antall brukere og Antall måneder som kvalitetsfaktorer](media/basic-guide-11.png)
+> ![Flagge Antall brukere og Antall måneder som kvalitetsfaktorer.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

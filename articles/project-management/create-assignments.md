@@ -2,18 +2,16 @@
 title: Opprett ressurstilordninger
 description: Dette emnet gir informasjon om oppretting av generelle og navngitte ressurstilordninger.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 610d9f7abbe7bc2eea8cc9a238dd7cfa1c626787
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131760"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006973"
 ---
 # <a name="create-resource-assignments"></a>Opprett ressurstilordninger
 
@@ -42,3 +40,6 @@ Du kan bruke søkeboksen i **ressursvelgeren** for å søke i alle aktive ressur
 1. Naviger til cellen **Tilordnet til** fra oppgaverutenettet, tavlen eller tidslinjen.
 2. Begynn å skrive inn et navn i søkeboksen. Søkeresultater for navnet vises i **ressursvelgeren** under **Andre ressurser**.
 3. Velg ressursen du vil tilordne til oppgaven, eller velg navnet på ressursen under **Andre teamressurser**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

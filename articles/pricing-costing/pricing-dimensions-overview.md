@@ -2,19 +2,18 @@
 title: Oversikt over prisdimensjoner
 description: Dette emnet gir informasjon om prisdimensjonene i Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.custom: intro-internal
+ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650215"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368488"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversikt over prisdimensjoner
 
@@ -61,13 +60,16 @@ Følgende eksempel viser kostnadssatser som er definert basert på rollen og org
 
 | Rolle        | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvikler   | Contoso US  |Hour | 200|USD     |
-| Utvikler   | Ekeli India |Hour|   112|USD     |
+| Utvikler   | Contoso – USA  |Time | 200|USD     |
+| Utvikler   | Contoso India |Time|   112|USD     |
 
 
 **Eksempel på kostnadssatser**
 
 | Lønnssats     | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt firma_Band1 | Contoso US  |Hour | 145|USD     |
-| Mitt firma_Band2 | Ekeli India |Hour|   67|USD     |
+| Mitt firma_Band1 | Contoso – USA  |Time | 145|USD     |
+| Mitt firma_Band2 | Contoso India |Time|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

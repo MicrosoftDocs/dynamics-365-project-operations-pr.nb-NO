@@ -1,23 +1,23 @@
 ---
-title: Oppdatere et prosjekt
+title: Opprett og oppdater et prosjekt
 description: Dette emnet gir informasjon om oppdatering av prosjekter i Project Operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993383"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678361"
 ---
-# <a name="update-a-project"></a>Oppdatere et prosjekt
+# <a name="create-and-update-a-project"></a>Opprett og oppdater et prosjekt
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Nedenfor vises et sammendrag av feltene som kan oppdateres i et prosjekt etter at det er opprettet, og eventuelle gjeldende implikasjoner av oppdateringene.
+Nedenfor vises et sammendrag av feltene som kan oppdateres i et prosjekt etter at det er opprettet. Dette inkluderer også eventuelle gjeldende implikasjoner basert på disse oppdateringene.
 
 ## <a name="project-detail-fields"></a>Felt for prosjektdetaljer
 
@@ -25,8 +25,8 @@ Nedenfor vises et sammendrag av feltene som kan oppdateres i et prosjekt etter a
 - **Beskrivelse**: En oversikt over prosjektet.
 - **Kunde**: Firmaet som prosjektet skal leveres til.
 - **Kalendermal**: Arbeidstiden til prosjektet. Når feltet endres, beregnes hele tidsplanen på nytt.
-- **Valuta**: Valutaen for prosjektet. Standardverdien i dette feltet er basert på valutaen som er definert i kontraktenheten. Når kontraktenheten oppdateres, oppdateres også feltet.
-- **Kontraktenhet**: Organisasjonsenheten som representerer firmagruppen eller divisjonen som er primært ansvarlig for å vinne salget og administrere levering av arbeid og tjenester til kunden. 
+- **Valuta**: Valutaen for prosjektet. Standardverdien for dette feltet er basert på valutaen som er definert i kontraktsenheten. Når kontraktenheten oppdateres, oppdateres også feltet.
+- **Kontraktenhet**: Organisasjonsenheten som representerer firmagruppen eller divisjonen som er primært ansvarlig for å vinne salget og administrere levering av arbeid og tjenester til kunden.  Når prosjektlederens organsasjonsenhet ikke er definert, brukes verdien som er definert i prosjektparameterne i dette feltet.
 - **Prosjektleder**: Prosjektteammedlemmet som har autoriteten til å se gjennom og godkjenne tidsoppføringer og utgifter.
 
 ## <a name="estimate-fields"></a>Estimatfelt

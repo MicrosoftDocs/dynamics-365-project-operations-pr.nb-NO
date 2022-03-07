@@ -2,18 +2,16 @@
 title: Opprette en arbeidsnedbrytningsstruktur
 description: Dette emnet forklarer hvordan du oppretter en WBS-avtale om arbeidsplass for de grunnleggende kontrollene i det nye planleggingsgrensesnittet.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841379"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005713"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opprette en arbeidsnedbrytningsstruktur (WBS)
 
@@ -93,6 +91,8 @@ Tabellen nedenfor viser flere tidsplanattributter.
 | Navn | Navnet på oppgaven. |
 | ID | ID-en for oppgaven i arbeidsnedbrytningsstrukturen. |
 
+Som en administrator kan du definere egendefinerte felter for oppgaveenheten. Feltene kan imidlertid ikke vises i tidsplanrutenettet. Hvis du vil vise de egendefinerte feltene, legger du dem til på detaljsiden for **Prosjektoppgave**.
+
 ## <a name="staffing-attributes"></a>Bemanningsattributter
 
 Du får tilgang til attributter for bemanning via **Ressurser**-feltet i tidsplanen. Du kan søke etter en eksisterende ressurs, eller velge **Opprett** og legge til et prosjektteammedlem som en ny ressurs i **Hurtigoppretting**-ruten.
@@ -116,3 +116,6 @@ Oppgavemodusen har ingen innvirkning på oppdateringer som utføres på start- o
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tilgjengelighet og hurtigtaster
 
 Rutenettet **Tidsplan** er fullt tilgjengelig og kan brukes med skjermlesere, for eksempel Narrator, JAWS eller NVDA. Du kan bla gjennom rutenettområdet ved hjelp av piltastene (som i Microsoft Excel), du kan bruke TAB-tasten til å gå gjennom de interaktive brukergrensesnittelementene, og du kan bruke pil ned-tasten, ENTER-tasten eller mellomromstasten til å velge og åpne rullegardinmenyene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

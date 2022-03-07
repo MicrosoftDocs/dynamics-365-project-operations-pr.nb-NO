@@ -2,24 +2,23 @@
 title: Oversikt over salgsprosess
 description: Dette emnet gir informasjon om grunnleggende salgsprosesser.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177613"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991858"
 ---
 # <a name="sales-process-overview"></a>Oversikt over salgsprosess
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Salgsprosessene som brukes i en prosjektbasertert organisasjon, er forskjellig fra salgsprosessene som brukes i en produktbasert organisasjon. Dette oppstår fordi salgssyklusene for prosjektrelaterte organisasjoner er lengre og krever egendefinerte forkalkuleringsteknikker for å analysere og opprette tilbud for hver avtale. Dynamics 365 Project Operations bruker noe av den følgende funksjonaliteten som brukes i en salgsprosess:
+Salgsprosessene som brukes i en prosjektbasertert organisasjon, er forskjellig fra salgsprosessene som brukes i en produktbasert organisasjon. Dette oppstår fordi salgssyklusene for prosjektrelaterte organisasjoner er lengre og krever egendefinerte forkalkuleringsteknikker for å analysere og opprette tilbud for hver avtale. Dynamics 365 Project Operations bruker noe av følgende funksjonalitet som brukes i en salgsprosess:
 
 - En kundeemneoppføring brukes til å spore salgsprosessen.
 - Kvalifiserte kundeemner spores som salgsmuligheter.
@@ -63,3 +62,6 @@ I Project Operations kan du ikke spore endringer som er gjort i et tilbud. I ste
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Spore kommentarer og godkjenninger av tilbud og prosjektkontrakter
 Du kan administrere gjennomgang og godkjenning av tilbud og prosjektkontrakter ved hjelp av oppføringsveggen og innlegg. Organisasjonen kan opprette egendefinerte arbeidsflyter og plugin-moduler for å tilordne, omdirigere, videresende og administrere varslinger om arbeidselementer for gjennomgang og godkjenning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

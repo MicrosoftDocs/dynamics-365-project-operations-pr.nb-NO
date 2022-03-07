@@ -2,18 +2,16 @@
 title: Virkemåte i brukergrensesnitt for tidsoppføring
 description: Dette emnet gir informasjon om virkemåten i brukergrensesnittet for tidsoppføring.
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499626"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999463"
 ---
 # <a name="time-entry-ui-behavior"></a>Virkemåte i brukergrensesnitt for tidsoppføring
 
@@ -27,7 +25,7 @@ Rutenettet **Ukentlig tidsoppføring** er en egendefinert kontroll som har to ho
 |------------   |------------------------   |
 | Ny           | Alt + Skift + n           |
 | Kopier rad      | Alt + Skift + c           |
-| Rediger oppføring    | Alt + Skift + e           |
+| Rediger enhet    | Alt + Skift + e           |
 | Rediger rad      | Alt + Skift + Ctrl + e    |
 | Åpne oppføring    | Alt + Skift + o           |
 | Start        | Alt + Skift + s           |

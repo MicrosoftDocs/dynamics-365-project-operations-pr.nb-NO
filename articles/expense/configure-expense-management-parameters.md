@@ -2,18 +2,16 @@
 title: Konfigurere parametere for utgiftshåndtering
 description: Dette emnet beskriver parameterne som kontrollerer den generelle virkemåten i utgiftshåndtering.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1e1181467c51384c4de7dcda2de29ed531360a0a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121050"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995453"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurere parametere for utgiftshåndtering
 
@@ -83,3 +81,6 @@ Dette emnet beskriver parameterne som kontrollerer den generelle virkemåten i u
 | Vis anti-korrupsjonsattest   | Velg dette alternativet for å vise anti-korrupsjonsteksten når det opprettes en reiseregning. Bestemte utgiftskategorier kan aktiveres som krever at anti-korrupsjonsattestering velges i reiseregningen. En gavekategori som er relatert til en utgift for en offisiell myndighetsperson, kan for eksempel kreve at den ansatte må bekrefte at utgiften overholder i firmaets retningslinjer som er relatert til offisielle myndighetspersoner. |
 | Anti-korrupsjonsmelding for innsender | Skriv inn teksten som skal vises for en ansatt som oppretter en reiseregning. Hvis du vil angi språkspesifikk tekst som skal vises, basert på brukerspråket, velger du **Oversettelser**. |
 | Anti-korrupsjonsmelding for godkjenner  | Skriv inn teksten som skal vises til godkjenneren når en reiseregning opprettes. Hvis du vil angi språkspesifikk tekst som skal vises, basert på brukerspråket, velger du **Oversettelser**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,60 +2,40 @@
 title: Registrer deg for et forhåndsversjonsbonnement – Lite
 description: Dette emnet gir informasjon om hvordan du abonnerer på og distribuerer Lite-distribusjon i Project Operations – avtale til proformafakturering.
 author: sigitac
-manager: Annbe
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175903"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991543"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrer deg for et forhåndsversjonsbonnement – Lite 
 
-Dette eforklarer hvordan du abonnerer på tilbudet om forhåndsversjon for partnere og distribuerer Lite-distribusjon i Dynamics 365 Project Operations – avtale til proformafakturering.
+Dette emnet forklarer hvordan du abonnerer på prøveversjonstilbudet og distribuerer Dynamics 365 Project Operations Lite distribusjon – avtale til proformafakturering.
 
 > [!NOTE]
 > Denne prosessen vil endres i kommende versjoner av Project Operations.
 
 ## <a name="prerequisites"></a>Forutsetninger
-
-- Du vil motta en e-post som inviterer deg til å delta i forhåndsversjonen. Du kan be om en forhåndsversjon på [Project Operations-nettstsedet](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Brukeren som distribuerer forhåndsversjonen, må ha globale administratorrettigheter for Azure-leieren.
-- Gå gjennom alle vilkår.
-
-## <a name="subscribe"></a>Abonner
-
-Når du mottar en [forespørsel om godkjenning av forhåndsversjon](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), får du to tilbud fra Microsoft via e-post. Med disse tilbudene kan du distribuere forhåndsversjonen av Project Operations:
-
-- Dynamics 365 Project Operations (CRM) – forhåndsversjon
-- Office 365 Project Operations – forhåndsversjon
+- Brukeren som distribuerer forhåndsversjonen, må ha globale administratorrettigheter for Azure-leieren. Du kan opprette en leier i løpet av den første innløsningen av tilbudet.
 
 > [!IMPORTANT]
 > Bare én person, leieradministratoren, i en organisasjon trenger å utføre denne oppgaven. Hvis det ikke er du som er abonnent for denne versjonen, må du vente til organisasjonen har registrert seg og du har mottatt brukerlegitimasjonen.
+> 
+> Prøveversjoner er enkeltbruk i leieren. Du kan bare kjøre en prøveversjon én gang. Vi anbefaler at du oppretter en ny leier i forbindelse med prøveversjonen.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – forhåndsversjon 
+### <a name="dynamics-365-project-operations-trial"></a>Dynamics 365 Project Operations-prøveversjon 
 
 Før du begynner, må du forsikre deg om at du er logget på en nettleser med brukerarbeidskontoen i leieren der du vil ha forhåndsversjonen av Project Operations.
 
-1. Løs inn den første tilbudskoden, **Dynamics 365 Project Operations (CRM) – forhåndsversjon** ved å lime den inn i URL-adressen i nettleseren.
-
-![Løs inn tilbud](./media/16RedeemFirstOfferNew.png)
-
+1. Gå til [Project Operations-prøveversjon](https://aka.ms/try-po) for å løse inn den første tilbudskoden, **Dynamics 365 Project Operations**.
 2. Bekreft ordren.
-![Bekreft ordren](./media/17ConfirmOrderNew.png)
 
-Du ser en bekreftelse på at tilbudet ble løst inn.
-
-![Bekreftelse](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – forhåndsversjon
-
-Gjenta de samme trinnene som med den første tilbudskoden. Pass på at du legger til den andre tilbudskoden ved hjelp av den samme brukerkontoen som ble brukt med første tilbudskode.
+  Du ser bekreftelsen på at tilbudet er innløst.
 
 ## <a name="assign-licenses"></a>Tilordne lisenser
 
@@ -64,30 +44,28 @@ Gjenta de samme trinnene som med den første tilbudskoden. Pass på at du legger
 
 
 1. Gå til [administrasjonssenteret for Microsoft 365](https://portal.office.com/) for å tilordne lisensene til brukerne dine.
-
-![Startsiden for administrasjonssenteret](./media/14AdminPortal.png)
-
 2. På siden **Aktive brukere** velger du brukerne du vil tilordne en lisens til.
-
-![Tilordne lisenser](./media/15AssignLicenses.png)
-
-3. Kontroller at lisensene **Dynamics 365 Project Operations (CRM) – forhåndsversjon** og **Office 365 Project Operations – forhåndsversjon** er valgt. 
+3. Kontroller at **Dynamics 365 Project Operations**-lisensen er valgt. 
 4. Velg **Lagre endringer**.
 
-## <a name="create-a-new-cds-environment"></a>Opprett et nytt CDS-miljø
+## <a name="create-a-new-dataverse-environment"></a>Opprett et nytt Dataverse-miljø
 
-1. Klargjør et nytt Project Operations CDS-distribusjonsmiljø ved å følge instruksjonene i emnet [CDS-distribusjonsmodell](lite-deployment.md). Når du velger miljøtypen, må du passe på å bruke **Prøveversjon (abonnementsbasert)**.
-![Nytt miljø](./media/19CreateEnvironment.png)
+1. Klargjør et nytt Project Operations Dataverse-distribusjonsmiljø ved å følge instruksjonene i emnet [Dataverse-distribusjonsmodell](lite-deployment.md). Når du velger miljøtypen, må du passe på å bruke **Prøveversjon (abonnementsbasert)**.
+
+  ![Nytt miljø.](./media/19CreateEnvironment.png)
 
 2. Velg innstillingen **Enable Dynamics 365-apper**, og la **Distribuer disse appene automatisk** stå tomt.  
 3. Velg **Lagre** for å opprette miljøet.
 
-![Legg til database](./media/20CreateEnvironment1.png)
+  ![Legg til database.](./media/20CreateEnvironment1.png)
 
-4. Når du har opprettet miljøet, installerer du **Microsoft Dynamics 365 Project Operations**-løsningen. 
+4. Når miljøet er opprettet, installerer du **Microsoft Dynamics 365 Project Operations**-løsningen. 
 
-![Installere løsning](./media/21InstallSolution.png)
+![Installer løsning.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installer en CDS-konfigurasjon og konfigurer demodata
 
 Installer CDS-konfigurasjonen og konfigurer demodata ved å følge instruksjonene i emnet [Bruk demonstrasjonsoppsett og konfigurasjonsdata](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Registrer deg for Project Operations-prøveversjoner
 description: Dette emnet gir informasjon om hvordan du distribuerer en prøveversjon av Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
+ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901629"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7418469"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrer deg for Project Operations-prøveversjoner 
 
@@ -85,13 +85,18 @@ Før du begynner logger du på en nettleser med brukerkontoen i leieren der du v
 
    Når klargjøringen har startet, blir du omdirigert til miljølisten i Power Platform-administrasjonssenteret. Når klargjøring pågår, er tilstanden for miljøet **PreparingInstance**.
  
-  Når klargjøringen er fullført, er tilstanden for miljøet **klar**. Klargjøring av miljøet inkluderer distribusjon av demonstrasjonsdata.
+  Når klargjøringen er fullført, er tilstanden for miljøet **Klar**.
  
-4.  Velg den respektive Microsoft Dataverse-nettadressen og nettadressene for Finance and Operations-apper for å validere distribusjonen.
+4.  Når klargjøringen er fullført, velger du den respektive Microsoft Dataverse-nettadressen og nettadressene for Finance and Operations-appene for å validere distribusjonen.
+
+## <a name="demo-data-installation"></a>Installasjon av demodata
+
+Bruk koblingene nedenfor for å få tilgang til demodatapakker for både ikke lagerført beholdning og scenarioer for Lite-distribusjon. 
+- [Demodata for ikke lagerført beholdning](resource-apply-pro-setup-config-data.md)
+- [Lite-demodata](lite-apply-demo-setup-config-data.md)
 
 ## <a name="configuring-dual-write"></a>Konfigurasjon av dobbel skriving
-- Hvis du vil konfigurere sikkerhetsroller for dobbeltskriving, kan du se [Oppdatere sikkerhetsinnstillinger for Project Operations i Dataverse](resource-provision-new-environment.md).
-- Hvis du vil konfigurere tilordninger for dobbeltskriving, kan du se [Kjøre Project Operations med tilordninger for dobbel skriving](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+Konfigurer tilordninger med dobbel skrivetilgang bare for distribusjoner av ikke lagerført beholdning. Hvis du vil ha mer informasjon, kan du se [Tilordningsversjoner av dobbel skriving for Project Operations](resource-dual-write-maps.md).
 
 ## <a name="assign-licenses"></a>Tilordne lisenser
 

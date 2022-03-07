@@ -2,8 +2,6 @@
 title: Veiledning for ressursstyring
 description: Dette emnet gir koblinger til informasjon om ressursbehandling i Project Service Automation
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a0a12840f7f53cab0e81a5d3764d5c1a9d4df6a3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f4c320e666696d3ff065a4431790d39c4f4e549b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149060"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007333"
 ---
 # <a name="resource-management-guide"></a>Veiledning for ressursstyring
 
@@ -44,3 +42,6 @@ PDF-koblingen som tidligere var i dette emnet, er fjernet, og innholdet er flytt
 
 > [!NOTE]
 > Dette emnet blir fjernet i en fremtidig oppdatering av dokumentasjonen. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

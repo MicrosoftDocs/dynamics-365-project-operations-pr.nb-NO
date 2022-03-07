@@ -2,18 +2,17 @@
 title: Oversikt over godkjenninger
 description: Dette emnet gir information om å arbeide med godkjenninger i Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 03/31/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.custom: intro-internal
+ms.openlocfilehash: 9148c9f55e8664850c38aebbc9c4bbaa243475ad
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852511"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368668"
 ---
 # <a name="approvals-overview"></a>Oversikt over godkjenninger
 

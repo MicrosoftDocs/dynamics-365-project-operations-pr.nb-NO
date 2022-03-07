@@ -2,18 +2,17 @@
 title: Oversikt over planleggingsassistent
 description: Dette emnet inneholder informasjon om hvordan du arbeider med planleggingsassistenten for å bestille ressurser.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 83583c97e4ecb5f1fdc0d8d98098afe8e12d27e4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081476"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368128"
 ---
 # <a name="schedule-assistant-overview"></a>Oversikt over planleggingsassistent
 
@@ -57,3 +56,6 @@ Filterruten viser arbeidsrelaterte alternativer, blant annet følgende:
 -   Ressursstyringsfirma
 -   Ressurstyper
 -   Foretrukne ressurser
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

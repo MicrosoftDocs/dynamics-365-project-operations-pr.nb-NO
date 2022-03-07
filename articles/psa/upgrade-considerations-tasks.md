@@ -1,8 +1,6 @@
 ---
 title: Oppgraderingshensyn for arbeidsnedbrytningsstruktur
 description: Dette emnet gir informasjon om oppgradering av arbeidsnedbrytningsstrukturen fra Project Service Automation 2.x til 3.x.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149555"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992353"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Oppgraderingshensyn for arbeidsnedbrytningsstruktur
 
@@ -34,20 +32,20 @@ Dette emnet gir informasjon om oppgradering av arbeidsnedbrytningsstrukturen fra
 ## <a name="key-entities"></a>Viktige enheter
 For en presis arbeidsnedbrytningsstruktur som allerede er lastet inn med ressurser, kreves følgende enheter:
 
-- [Prosjekt](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Prosjektteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Prosjektoppgave](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Ressurstilordninger](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Avhengighet for prosjektoppgaver](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Ressurser som kan reserveres](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Prosjekt](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Prosjektteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Prosjektoppgave](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Ressurstilordninger](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Avhengighet for prosjektoppgaver](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Ressurser som kan reserveres](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 For å definere en ressursbelastet arbeidsnedbrytingsstruktur må du utføre følgende trinn:
 
-1. Opprett et nytt prosjekt. Hvis du vil ha mer informasjon om hvordan du oppretter et nytt prosjekt, se [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Opprett én eller flere oppgaver. Hvis du vil ha mer informasjon om hvordan du oppretter en oppgave, se [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definer aktivitetsavhengighetene. Hvis du vil ha mer informasjon, se [Avhengighet for prosjektoppgaver](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Tilordne prosjektteammedlemmer til prosjektet. Hvis du vil ha mer informasjon, kan du se [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Tilordne prosjektteammedlemmer til oppgavene. Hvis du vil ha mer informasjon, kan du se [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Opprett et nytt prosjekt. Hvis du vil ha mer informasjon om hvordan du oppretter et nytt prosjekt, se [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Opprett én eller flere oppgaver. Hvis du vil ha mer informasjon om hvordan du oppretter en oppgave, se [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definer aktivitetsavhengighetene. Hvis du vil ha mer informasjon, se [Avhengighet for prosjektoppgaver](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Tilordne prosjektteammedlemmer til prosjektet. Hvis du vil ha mer informasjon, kan du se [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Tilordne prosjektteammedlemmer til oppgavene. Hvis du vil ha mer informasjon, kan du se [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Prosjektteamrelasjoner
 
@@ -96,3 +94,6 @@ For å sikre en vellykket oppgradering må følgende relasjoner vedlikeholdes p�
 
 - Alle avhengigheter for prosjektoppgaver må være relatert til samme prosjekt.
 - En oppgave kan ikke referere til samme avhengighet mer enn én gang.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

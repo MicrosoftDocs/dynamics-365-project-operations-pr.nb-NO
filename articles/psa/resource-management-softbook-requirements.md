@@ -3,7 +3,7 @@ title: Foreta en ikke-forpliktende bestilling på krav
 description: Dette emnet gir informasjon om hvordan du foretar en ikke-forpliktende bestilling på krav.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081830"
 ---
 # <a name="soft-book-requirements"></a>Foreta en ikke-forpliktende bestilling på krav
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Et ressurskrav kan være forpliktende. En forpliktende bestilling oppretter et forslag som bruker kapasiteten til en ressurs. Forslaget sendes deretter tilbake til anmoderen for godkjenning. En ikke-forpliktende bestilling legger foreløpig til en ressurs i et prosjektteam og har en annen status på planleggingstavlen, men den forbruker ikke kapasiteten til ressursen. Hvis du vil legge inn en ikke-forpliktende bestilling på en ressurs fra planleggingtavlen, setter du feltet **Bestillingsstatus** til **Ikke-forpliktende**.
 

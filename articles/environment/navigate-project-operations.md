@@ -8,20 +8,18 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
+ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642060"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4174277"
 ---
 # <a name="navigate-project-operations"></a>Navigere i Project Operations
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Dynamics 365 Project Operations ressursbaserte/ikke-lagerførte scenarioer består av to komponenter: 
+Dynamics 365 Project Operations for ressursbaserte/ikke-lagerførte scenarioer består av to komponenter: 
 
  - **Project Operations på Common Data Service-miljøet (CDS)**: Denne komponenten dekker funksjoner og prosesser fra salgsmulighet til proformafakturering. 
  - **Prosjektstyring og regnskap i Dynamics 365 Finance-miljøet**: Denne komponenten dekker funksjoner for reiseutgiftsadministrasjon, prosjektregnskap og inntektsføring. 

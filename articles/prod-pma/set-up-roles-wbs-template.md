@@ -2,11 +2,9 @@
 title: Konfigurere roller i maler for arbeidsnedbrytningsstruktur
 description: Dette emnet gir informasjon om hvordan du konfigurerer rolleinformasjon i maler for arbeidsnedbrytingsstruktur.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081600"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008913"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Konfigurere roller i maler for arbeidsnedbrytningsstruktur
 
@@ -91,7 +89,7 @@ Det er lagt til flere alternativer i WBS for å bruke ressursfunksjonaliteten be
 
 4. Angi datoer og innsats (timer), som vist i illustrasjonen nedenfor.
 
-    [![Angi datoer og innsats](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Angi datoer og innsats.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Velg oppgavelinjen **Innledende**, og deretter, i feltet **Rolle**, velger du **Overordnet prosjektleder**.
 6. Velg **Publiser**.
@@ -107,3 +105,6 @@ Det er lagt til flere alternativer i WBS for å bruke ressursfunksjonaliteten be
     > Du får ingen advarsel om at den angitte ressursen nå er 2, fordi antallet ressurser forblir 1.
 
 14. På siden **Arbeidsnedbrytningsstruktur** validerer du ressurstilordningen på WBS, og deretter velger du **Lagre**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

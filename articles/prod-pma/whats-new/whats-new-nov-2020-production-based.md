@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365568"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950771"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Nyheter november 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
 
@@ -25,4 +25,7 @@ Hvis du vil ha informasjon om hurtigreparasjonene som er inkludert i denne oppda
 
 ## <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
 
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Dynamics 365 Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

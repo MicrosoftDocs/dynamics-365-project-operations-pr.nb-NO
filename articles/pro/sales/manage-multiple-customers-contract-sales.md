@@ -2,18 +2,16 @@
 title: Administrere flere kunder på prosjektkontrakter – Lite
 description: Dette emnet gir informasjon om behandling av flere kunder på prosjektkontrakter.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181329"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001758"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Administrere flere kunder på prosjektkontrakter – Lite
 
@@ -52,3 +50,6 @@ En kontraktkunde kan opprettes, oppdateres eller slettes fra kategorien **Kunder
 Delingsprosent for fakturering kan redigeres i rutenettet. Når delingsprosentene for fakturering ikke er totalt 100 prosent, oppstår det en feil. Når du har redigert delingsprosentene for fakturering, oppdaterer du siden for å lukke feilen.
 
 Du kan også velge **Fordel jevnt** i rutenettet **Kontraktkunder** for å fordele fakturadelingene jevnt til alle kontraktkunder. Hvis det finnes en avrundingsfaktor, blir den lagt til i avrundingskunden. En av kontraktskundene blir alltid merket som kunde for **avrunding**, noe som betyr at avrundingsflagget er satt til **Ja** i kontraktkundeoppføringen. Dette er vanligvis hovedkunden til kontrakten, men den kan også endres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

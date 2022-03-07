@@ -2,8 +2,6 @@
 title: Avbryte tidligere godkjente tids- og utgiftsoppføringer
 description: Dette emnet gir informasjon om hvordan du annullerer en godkjent prosjekttid og en utgiftstransaksjon.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150590"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987448"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Avbryte tidligere godkjente tids- eller utgiftsoppføringer
 
@@ -62,3 +60,6 @@ Et prosjekt berøres også finansielt når en godkjenning annulleres. For det f�
 Deretter opprettes tilbakeføringsoppføringer i tabellen over faktiske verdier. For å opprette tilbakeføringsoppføringer kopierer systemet over feltverdiene fra de opprinnelige faktiske verdiene. De eneste verdiene som ikke kopieres over, er antallsverdiene. Disse verdiene reverseres i stedet. Reverserte faktiske verdier opprettes både for de faktiske verdiene **Kostnad** og **Ufakturert salg**. Feltet **Justeringsstatus** for de tilbakeførte faktiske verdiene settes til **Kan ikke justeres**, og faktureringsstatusen settes til **Annullert**.
 
 Når du har gjort disse endringene, vil beløpet som er registrert som brukt på prosjektet, og restinntekten for prosjektet, ikke lengre regnes med for beløpene som disse faktiske verdiene representerer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

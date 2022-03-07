@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081763"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950456"
 ---
 # <a name="project-management-and-accounting-overview"></a>Oversikt over prosjektstyring og regnskap
 
@@ -205,7 +205,7 @@ Du kan bestille varer fra firmaets lager for forbruk på et prosjekt. Du kan ogs
 
 Måten du bestiller varer på, avhenger av hvor du skal bestille dem fra:
 
--   Hvis du vil bestille varer fra selskapets lager, må du angi ordren som et varebehov. Hvis du bruker siden **Varebehov**, kan du konfigurere behovet slik at du mottar varer som delleveringer.Derfor kan du utsette forbruk av et antall av varene til varene er obligatoriske.
+-   Hvis du vil bestille varer fra selskapets lager, må du angi ordren som et varebehov. Hvis du bruker siden **Varebehov**, kan du konfigurere behovet slik at du mottar varer som delleveringer. Derfor kan du utsette forbruk av et antall av varene til varene er obligatoriske.
 -   Hvis du vil bestille varer fra en ekstern leverandør, må du opprette ordren som en bestilling på **Bestilling**-siden.
 
 > [!NOTE] 
@@ -227,7 +227,7 @@ Prosjekttypen avgjør hvilken faktureringsprosedyre som skal brukes. Bare de to 
 Før du oppretter en kundefaktura for et prosjekt, kan du opprette en foreløpig faktura eller et fakturaforslag. I et fakturaforslag kan du velge prosjekttransaksjoner som skal tas med i en prosjektfaktura. Du kan deretter se gjennom fakturadetaljene før du bokfører prosjektfakturaen og sender den til kunden eller en annen finansieringskilde. 
 
 
-Hvis du vil ha mer informasjon om hvordan du behandler prosjektfakturaer, kan du se [Prosjektfakturering](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Hvis du vil ha mer informasjon om hvordan du behandler prosjektfakturaer, kan du se [Prosjektfakturering](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Beregne kostnaden for å fullføre et prosjekt
@@ -300,7 +300,7 @@ Basert på oppsettet kan du beregne kontantinnflytene for et valgt prosjekt. Hvi
 -   **Prosjektdato:** 5. mars 2012.
 -   **Fakturadato:** 31. mars 2012. Denne datoen er fastsatt basert på fakturahyppigheten. I dette eksemplet angir du fakturafrekvensen til gjeldende måned. Derfor faktureres alle transaksjoner som er postert i mars måned, på den siste dagen i måneden.
 -   **Forfallsdato:** 14. april 2012. Denne datoen blir fastsatt basert på betalingsbetingelsene som ble angitt for prosjektet. I dette eksemplet har du valgt betalingsbetingelser på 14 dager. Det blir derfor lagt til 14 dager på fakturadatoen for å komme til en forfallsdato, 14. april 2012.
--   **Forventet salgsbetalingsdato:** 27. april 2012. Denne datoen beregnes ved å legge til antall dager i feltet **Generelle bufferdager** på siden **Parametere for prosjektstyring og regnskap** til antallet dager i feltet **Individuelle bufferdager** på siden **Prosjektkontrakter**, og deretter legger du til summen til antallet dager i feltet **Forfallsdato**. I dette eksemplet angir du **3** i feltet **Generelle bufferdager** og **10** i feltet **Individuelle bufferdager**. Det blir derfor lagt til 13 dager på forfallsdatoen for å komme til en forventet salgsbetalingsdato, 27. april 2012.
+-   **Forventet salgsbetalingsdato:** 27. april 2012. Denne datoen beregnes ved å legge til antall dager i feltet **Generelle bufferdager** på siden **Parametere for prosjektstyring og regnskap** til antallet dager i feltet **Individuelle bufferdager** på siden **Prosjektkontrakter**, og deretter legger du til summen til antallet dager i feltet **Forfallsdato**. I dette eksemplet angir du **3** i feltet **Generelle bufferdager** og **10** i feltet **Individuelle bufferdager**. Det blir derfor lagt til 13 dager på forfallsdatoen for å komme til en forventet salgsbetalingsdato, 27. april 2012.
 
 De generelle bufferdagene kan enten erstatte de individuelle bufferdagene eller legges til de individuelle bufferdagene:
 
@@ -371,7 +371,7 @@ Hvis **Gjenstående budsjett** er valgt som kostnadsstyringsmetode på siden **P
 -   **Gjenstående budsjett** – Beløpet for det opprinnelige budsjetterte beløpet som fremdeles er tilgjengelig for den valgte kostnadslinjen. Det gjenstående budsjettbeløpet beregnes på siden **Forhåndsvisning av økonomimodul**.
 -   **Totale kostnader** – Summen av de faktiske kostnadene, de igangsatte kostnadene og de gjenstående budsjettbeløpene.
 
-På siden **Kostnadskontroll** i kategorien **Avvik** kan du vise en sammenligning av den totale forventede kostnaden med det opprinnelige budsjettet. Denne sammenligningen viser forskjeller mellom disse beløpene. Derfor kan du se hvor dataene ikke samsvarer. Avviksbeløpene beregnes på følgende måter:
+På siden **Kostnadskontroll** i fanen **Avvik** kan du vise en sammenligning av den totale forventede kostnaden med det opprinnelige budsjettet. Denne sammenligningen viser forskjeller mellom disse beløpene. Derfor kan du se hvor dataene ikke samsvarer. Avviksbeløpene beregnes på følgende måter:
 
 -   **Opprinnelig budsjett** – Beløpet som opprinnelig ble budsjettert for den valgte kostnadslinjen. Det opprinnelige budsjettbeløpet beregnes på siden **Forhåndsvisning av økonomimodul**.
 -   **Totale kostnader** – Summen av de faktiske kostnadene, de igangsatte kostnadene og gjenstående budsjett, som rapportert i kategorien **Generelt**.
@@ -381,7 +381,7 @@ På siden **Kostnadskontroll** i kategorien **Avvik** kan du vise en sammenligni
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Vise de totale budsjetterte beløpene
 
-Hvis **Totalt budsjett** er valgt som kostnadskontrollmetoden på siden **Parametere for prosjektstyring og regnskap**, beregner siden **Kostnadskontroll** de faktiske kostnadene og de totale kostnader for prosjektet, slik at du får hjelp til å oppdage eventuelle differanser mellom de to. På siden **Kostnadskontroll** beregnes beløpene i kolonnen i nederste rute i kategorien **Generelt** på følgende måter:
+Hvis **Totalt budsjett** er valgt som kostnadskontrollmetoden på siden **Parametere for prosjektstyring og regnskap**, beregner siden **Kostnadskontroll** de faktiske kostnadene og de totale kostnader for prosjektet, slik at du får hjelp til å oppdage eventuelle differanser mellom de to. På siden **Kostnadskontroll** beregnes beløpene i kolonnen i nederste rute i fanen **Generelt** på følgende måter:
 
 -   **Total budsjettert kostnad** – Det totale budsjetterte beløpet for den valgte kostnadslinjen.
 -   **Faktisk kostnad** – Det totale kostnadsbeløpet som er pådratt på prosjektet til dato for de valgte kostnadslinjene.
@@ -440,3 +440,6 @@ Når utdraget er beregnet, kan du vise følgende informasjon i de forskjellige k
 -   **Forbruk** – Informasjon om forbruket av timer, varer, utgifter og lønnstransaksjoner.
 -   **Faktura** – Informasjon om fakturaer og a konto-fakturering.
 -   **Timepris** – Timeprisen for timer som blir postert til inntekts- og kostnadskontoer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

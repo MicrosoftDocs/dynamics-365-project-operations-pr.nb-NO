@@ -2,8 +2,6 @@
 title: Nøkkelkonsepter
 description: Dette emnet gir informasjon om nøkkelkonseptene for ressursbehandling i Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147755"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995098"
 ---
 # <a name="key-concepts"></a>Nøkkelkonsepter
 
@@ -48,3 +46,6 @@ Følgende tabell definerer nøkkelkonseptene som brukes i Dynamics 365 Project S
 | Profil                    | Oppgave, krav eller tilordningstimer, brutt ned til daglig fordeling. En 5-dagers oppgave på 40 timer kan for eksempel profileres til åtte timer per dag over fem dager. |
 | Avstemmingsvisning        | En visning som viser bestillinger og tilordninger for hvert prosjektgruppemedlem. I denne visningen kan prosjektlederen se etter eventuelle manglende samsvar mellom bestillinger og tildelinger, og utføre korrigerende handlinger hvis det oppstår uoverensstemmelser. |
 | Arbeidstider                 | En enhet som brukes til å identifisere ressurskapasitet og arbeidstid og ikke-arbeidstid. Denne enheten kalles også ressurskalenderen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

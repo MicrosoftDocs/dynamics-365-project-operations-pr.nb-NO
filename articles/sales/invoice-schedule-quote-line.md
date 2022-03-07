@@ -2,18 +2,16 @@
 title: Fakturaplaner på prosjektbaserte tilbudslinjer
 description: Dette emnet gir informasjon om hvordan du oppretter fakturatidsplaner og milepæler for tilbudslinjer.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180834"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988618"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Fakturaplaner på prosjektbaserte tilbudslinjer
 
@@ -68,3 +66,6 @@ Milepæler med fastpris kan også genereres manuelt når de ikke deles regelmess
 | Fakturastatus | Hurtigoppretting | Når en milepæl opprettes, er denne statusen alltid satt til **Ikke klar for fakturering**. | Dette overføres til milepælen for prosjektkontraktlinjen og til fakturaen. |
 | Linjebeløp | Hurtigoppretting | Beløpet eller verdien for milepælen som skal faktureres til kunden. | Dette overføres til milepælen for prosjektkontraktlinjen og til fakturaen. |
 | Avgift | Hurtigoppretting | Avgiftsbeløpet som skal brukes på milepælen. | Dette overføres til milepælen for prosjektkontraktlinjen og til fakturaen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,21 +5,19 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 58868694987688e279e717d1f7acaf3fd9514770
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642510"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081479"
 ---
 # <a name="collaboration-with-office-groups"></a>Samarbeid med Office-grupper
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ved hjelp av Office-grupper kan du dele et prosjekt med andre gruppemedlemmer i Common Data Service. Når du legger til brukere i gruppen, overføres prosjekteierskapet til gruppen. Alle brukere får redigeringstillatelse i prosjektet. Brukere kan også se prosjektet hvis de har fått rettigheter av administratoren. Disse brukerne vises ikke i gruppen.
 

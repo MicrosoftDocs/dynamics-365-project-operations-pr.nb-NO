@@ -2,18 +2,16 @@
 title: Bestillinger i forhold til tildelinger
 description: Dette emnet inneholder informasjon om forskjellene mellom ressursbestillinger og ressurstildelinger.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008463"
 ---
 # <a name="bookings-vs-assignments"></a>Bestillinger i forhold til tildelinger
 
@@ -26,3 +24,6 @@ I motsetning til bestillinger er tilordninger ressursforpliktelser til prosjekto
 Vanligvis vil summen av bestillinger for en ressurs tilsvare summen av ressursens tilordninger på tvers av én eller flere oppgaver. Project Operations håndhever imidlertid ikke denne avtalen. **Avstemming**-visningen viser en prosjektleder steder der bestillingene og tildelingene til en ressurs ikke er de samme.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

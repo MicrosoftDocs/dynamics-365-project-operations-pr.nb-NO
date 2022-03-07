@@ -2,24 +2,22 @@
 title: Nøkkelkonsepter for ressursstyring
 description: Dette emnet gir information om ressursstyringsfunksjonene i Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123885"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994828"
 ---
 # <a name="resource-management-key-concepts"></a>Nøkkelkonsepter for ressursstyring
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon. Muligheten til å finne de riktige ressursene til rett tid, bestille disse ressursene på prosjekter og sørge for at ressurser blir brukt, hjelper organisasjoner med å oppfylle omsetningsmål og kundetilfredshetsmål. Du kan bruke prosjektbemanningsfunksjonaliteten i Dynamics 365 Project Operations til følgende oppgaver:
+Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon. Muligheten til å finne de riktige ressursene til rett tid, bestille disse ressursene på prosjekter og sørge for at ressurser blir brukt, hjelper organisasjoner med å oppfylle omsetningsmål og kundetilfredshetsmål. Du kan bruke prosjektbemanningsfunksjonaliteten i Dynamics 365 Project Operations til å gjøre følgende oppgaver:
 
 - Danne prosjektteam ved å bestille tilgjengelige og kvalifiserte ressurser.
 - Opprette generelle teammedlemsoppføringer og definere rollene og ressursorganisasjonsenheten.
@@ -35,3 +33,6 @@ Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon. Muligheten
 
 
 Du kan bemanne prosjektet med et team med generelle eller navngitte ressurser i Project Operations. Du kan bruke forskjellige metoder til å legge til og tilordne teammedlemmer og til å administrere bestillinger og tilordninger. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Oversikt over utgiftshåndtering
 description: Dette emnet gir generell informasjon om utgiftshåndtering og koblinger til flere ressurser. Du kan bruke utgiftshåndtering til å opprette en integrert arbeidsflyt der du kan lagre informasjon om betalingsmetode, importere kredittkorttransaksjoner og spore pengene som de ansatte bruker når de påløper utgifter for bedriften din
 author: ShylaThompson
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7066a021390e3403c4312a7cfe8488a989b9aaa3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081780"
 ---
 # <a name="expense-management-overview"></a>Oversikt over utgiftshåndtering
 
@@ -35,7 +37,7 @@ Hvis du vil ha mer informasjon, kan du se [Konfigurere utgiftshåndtering](plan-
 
 ### <a name="whats-new-and-in-development"></a>Hva er nytt og under utvikling
 
-Hvis du vil se hvilke nye funksjoner som er planlagt, kan du se [Utgivelsesplaner for Microsoft Dynamics 365](/dynamics365/release-plans/).
+Hvis du vil se hvilke nye funksjoner som er planlagt, kan du se [Utgivelsesplaner for Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158).
 
 #### <a name="expense-report-entry"></a>Oppføring av reiseregninger
 
@@ -56,6 +58,3 @@ Ytterligere hjelp er tilgjengelig som oppgaveveiledninger. Hvis du vil ha tilgan
 ### <a name="videos"></a>Videoer
 
 Se instruksjonsvideoene som nå er tilgjengelige på [Microsoft Dynamics 365 YouTube-kanalen](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

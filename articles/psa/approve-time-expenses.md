@@ -3,7 +3,7 @@ title: Godkjenne tid og utgifter
 description: Slik godkjenner du tid og utgifter i Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c1ec99ea0951d24939463d33c64f72fce44ba5b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145460"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081798"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Godkjenne tid og utgifter (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

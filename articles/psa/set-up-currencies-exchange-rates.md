@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c6bc200cc24bca2b3358149903a8341dd65f031d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 35a499c3887f9fe7515e839afa35f2a851e81cce
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150410"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282570"
 ---
 # <a name="set-up-currencies-and-exchange-rates-project-service"></a>Sette opp valutaer og valutakurser (Project Service)
 
@@ -43,3 +43,6 @@ Hvis du vil opprette tilbud og fakturere kundene i [!INCLUDE[pn_project_service_
   
 ### <a name="see-also"></a>Se også  
  [Konfigurere Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

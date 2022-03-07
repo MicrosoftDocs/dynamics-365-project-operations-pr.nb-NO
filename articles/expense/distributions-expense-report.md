@@ -2,18 +2,16 @@
 title: Distribusjoner i en utgiftsrapport
 description: Når du angir utgifter i en reiseregning, kan du distribuere dem på tvers av flere prosjekter, juridiske enheter eller forretningsforbindelser i organisasjonen.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8c0ee3b9b989c644ab429310d1e7b4ef4b600dc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 396fd201949663d93d90f6609e5b97f646f7942cde002c91482fa7dc26c394ae
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120960"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006258"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distribusjoner i en utgiftsrapport
 
@@ -30,3 +28,6 @@ Ettersom Gjertrud fungerte på to separate prosjekter mens hun var i Frankfurt, 
 | Togbilletter   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hotell        | EUR 725              | EUR 557                         | EUR 168                         |
 | Måltider        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

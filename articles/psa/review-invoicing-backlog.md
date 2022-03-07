@@ -2,8 +2,6 @@
 title: Se gjennom restansen for fakturering for prosjekter og prosjektkontrakter
 description: Dette emnet gir informasjon om hvordan du gjennomgår tids-, utgifts- og produktrestanse, og hvordan du merker dem som klare til fakturering.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150500"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008548"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Se gjennom restansen for fakturering for prosjekter og prosjektkontrakter
 
@@ -59,3 +57,6 @@ Hver prosjektkontraktlinje som har en fastprisfaktureringsmetode, må definere k
 Hvis du vil se gjennom faktureringsmilepæler, går du til **Salg** \> **Fakturering** \> **Milepæler for fast pris**. Velg milepælene som er klare for fakturering, og velg deretter **Klar for fakturering**. Faktureringsstatusen for disse milepælene endres til **Klar for fakturering**.
 
 ![Milepæler for fast pris](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

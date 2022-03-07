@@ -2,18 +2,16 @@
 title: Kostgodtgjørelser
 description: Dette emnet gir informasjon om reglene for kostgodtgjørelse som brukes i Utgiftshåndtering.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128520"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986413"
 ---
 # <a name="per-diems"></a>Kostgodtgjørelser
 
@@ -31,3 +29,6 @@ En kostgodtgjørelse er en godtgjørelse som betales til en arbeider som er på 
     
 ## <a name="submit-expenses-using-per-diem"></a>Sende utgifter med kostgodtgjørelse
 Hvis du vil sende utgifter ved hjelp av kostgodtgjørelse, bruker du utgiftskategorien **Kostgodtgjørelse** når du oppretter en reiseregning. Angi **Kostgodtgjørelse fra dato**, **Kostgodtgjørelse til dato** og **Sted for kostgodtgjørelse**. Beløpet beregnes basert på kostgodtgjørelsessatsene for den valgte lokasjonen, og måltidsreduksjonen beregnes basert på kostgodtgjørelsesnivåene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

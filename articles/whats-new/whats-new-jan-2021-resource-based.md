@@ -2,19 +2,17 @@
 title: Nyheter januar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i januar 2021-versjonen av Project Operations for ressursbaserte/ikke-lagerførte scenarioer.
 author: sigitac
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958937"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008103"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter januar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -88,4 +86,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 
 ## <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
 
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

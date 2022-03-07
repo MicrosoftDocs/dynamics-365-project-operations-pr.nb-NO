@@ -3,24 +3,21 @@ title: Klargjør et nytt miljø
 description: Dette emnet gir informasjon om hvordan du klargjør et nytt Project Operations-miljø.
 author: sigitac
 manager: Annbe
-ms.date: 12/11/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727802"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121185"
 ---
 # <a name="provision-a-new-environment"></a>Klargjør et nytt miljø
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dette emnet gir informasjon om hvordan du klargjør et nytt Dynamics 365 Project Operations-miljø for ressursbaserte/ikke-lagerbaserte scenarioer.
 
@@ -61,15 +58,17 @@ Bruk fremgangsmåten nedenfor for å aktivere den automatiserte klargjøringsfly
 
 ![Distribusjonssamtykke](./media/2DeploymentConsent.png)
 
-7. Valgfritt – Bruk demodata i miljøet. Gå til **Avanserte innstillinger**, velg **Tilpass konfigurasjon av SQL-database**, og sett **Angi et datasett for applikasjonsdatabase** til **Demo**.
-
-8. Fyll ut de gjenstående nødvendige feltene i veiviseren, og bekreft distribusjonen. Tidspunktet for klargjøring av miljøet varierer basert på miljøtypen. Klargjøring kan ta opptil seks timer.
+7. Fyll ut de gjenstående nødvendige feltene i veiviseren, og bekreft distribusjonen. Tiden det tar å klargjøre miljøet, varierer avhengig av miljøtypen. Klargjøring kan ta opptil seks timer.
 
   Når distribusjonen er fullført, viser miljøet som **Distribuert**.
 
-9. Velg **Logg på** og logg på miljøet for å bekrefte at det er installert.
+8. For å bekrefte at miljøet er distribuert velger du **Logg på** og logger deg på miljøet for å bekrefte.
 
 ![-miljødetaljer](./media/3EnvironmentDetails.png)
+
+## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Bruk Project Operations Finance-demodata (valgfritt trinn)
+
+Bruk Project Operations Finance-demodata for det skydriftede miljøet i versjon 10.0.13, som beskrevet i [denne artikkelen](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Bruk oppdateringer i Finance-miljøet
 
@@ -121,7 +120,7 @@ Behandling av miljøet kan ta litt tid. Når det er ferdig, går miljøet tilbak
 
 ![Bruk løsninger](./media/13ApplySolutions.png)
 
-5. Velg begge løsningene, **Dynamics 365 Finance and Operations Enhetstilordning for dobbel skriving** og **Dynamics 365 Project Operations Enhetstilordning for dobbel skriving**, og velg deretter **Bruk**.
+5. Velg begge løsningene, **Enhetstilordning for dobbel skriving i Dynamics 365 Finance and Operations** og **Enhetstilordninger for dobbel skriving i Dynamics 365 Project Operations**, og velg deretter **Bruk**.
 
 ![Bekreft løsninger](./media/14ConfirmSolutions.png)
 
@@ -151,21 +150,6 @@ Oppdateringen tar ca. 20 minutter. Du mottar et varsel når den er fullført.
 
 ![Bekreftelse på oppdatering](./media/19RefreshConfirmation.png)
 
-## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Oppdatere sikkerhetsinnstillinger for Project Operations i Dataverse
-
-1. Gå til Project Operations i Dataverse-miljøet. 
-2. Gå til **Innstillinger** > **Sikkerhet** > **Sikkerhetsroller**. 
-3. På siden **Sikkerhetsroller** velger du **appbruker med dobbeltskriving** i listen over roller og velger kategorien **Egendefinerte enheter**.  
-4. Kontroller at rollen har tillatelsene **Lese** og **Tilføye i** for følgende:
-      
-      - **Valutakurstype**
-      - **Plan over kontoer**
-      - **Regnskapskalender**
-      - **Finans**
-
-5. Etter at sikkerhetsrollen er oppdatert, går du til **Innstillinger** > **Sikkerhet** > **Team** og velger standardteamet i teamvisningen **Lokale forretningseier**.
-6. Velg **Administrer roller** og bekreft at sikkerhetsrettigheten **appbruker med dobbeltskriving** gjelder for dette teamet.
-
 ## <a name="run-project-operations-dual-write-maps"></a>Kjøre tilordninger med dobbel skriving for Project Operations
 
 1. I LCS-prosjektet går du til siden **Miljødetaljer**.
@@ -176,7 +160,6 @@ Oppdateringen tar ca. 20 minutter. Du mottar et varsel når den er fullført.
 | --- | --- | --- | --- | --- | --- |
 | **Prosjektressursroller for alle selskaper (bookableresourcecategories)** | No | Ja | Common Data Service | No | Ikke tilgjengelig |
 | **Juridiske enheter (cdm\_selskaper)** | No | Ja | Finance and Operations-apper | No | Ikke tilgjengelig |
-| **Finans (msdyn_ledgers)** | No | Ja | Finance and Operations-apper | Ja | Ja, Finance and Operations-apper |
 | **Faktiske verdier for Project Operations-integrering (msdyn\_faktiske verdier)** | No | No | Ikke tilgjengelig | Ja | No |
 | **Prosjektkontraktlinjer (salgsordredetaljer)** | No | No | Ikke tilgjengelig | No | No |
 | **Integreringsenhet for prosjekttransaksjonsrelasjoner (msdyn\_transactionconnections)** | No | No | Ikke tilgjengelig | No | Ikke tilgjengelig |

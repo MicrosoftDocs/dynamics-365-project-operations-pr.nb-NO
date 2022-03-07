@@ -2,12 +2,10 @@
 title: Konfigurere egendefinerte felt som prisdimensjoner
 description: Dette emnet gir informasjon om hvordan du konfigurerer egendefinerte prisdimensjoner.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150365"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002343"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurere egendefinerte felt som prisdimensjoner 
 
@@ -43,11 +41,11 @@ For at et felt skal bli en prismodell, må det være følgende:
 - Opprettet som et felt i enhetene **Rollepris** og **Rolleprispåslag**. For mer informasjon om hvordan du gjør dette, se [Legge til egendefinerte felt i prisoppsett og transaksjonsenheter](field-references.md).
 - Opprettet som en rad i tabellen **Prisdimensjon**. Legg for eksempel til prisdimensjonsrader som vises i grafikken nedenfor. 
 
-![Rader for beløpsbaserte prisdimensjoner](media/Amt-based-PD.png)
+![Rader for beløpsbaserte prisdimensjoner.](media/Amt-based-PD.png)
 
 Merk at Arbeidstimer for ressurs (**msdyn_resourceworkhours**) er lagt til som en påslagsbasert dimensjon og er lagt til i rutenettet i kategorien **Påslagsbasert prisdimensjon**.
 
-![Rader for påslagsbaserte prisdimensjon](media/Markup-based-PD.png)
+![Rader for påslagsbaserte prisdimensjon.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Alle endringer i prisdimensjonsdata i denne tabellen, eksisterende eller nye, overføres bare til Project Service-prisforretningslogikken når hurtigbufferen er oppdatert. Oppdateringstiden for bufferen kan ta opptil 10 minutter. Vent denne tiden for å se endringene i standardlogikken for priser som må resultere fra endringer i prisdimensjonsdata.
@@ -73,12 +71,12 @@ Det finnes to typer prisdimensjoner:
   
 | Rolle        | Organisasjonsenhet    |Arbeidssted      |Standardtittel      |Arbeidstid for ressurs      |  Påslag|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Ekeli India|På stedet            |                    |Overtid                 |15     |
-|             | Ekeli India|Lokal             |                    |Overtid                 |10     |
-|             | Contoso US   |Lokal             |                    |Overtid                 |20     |
+|             | Contoso India|På stedet            |                    |Overtid                 |15     |
+|             | Contoso India|Lokal             |                    |Overtid                 |10     |
+|             | Contoso – USA   |Lokal             |                    |Overtid                 |20     |
 
 
-Hvis en ressurs fra Ekeli India som har en basispris på 100 USD, arbeider på stedet, og de registrerer 8 timer normal tid og 2 timer overtid i tidsoppføringen, vil Project Service-prismotoren bruke basisprisen på 100 for de 8 timene for å registrere 800 USD. For de 2 timene overtid brukes et påslag på 15 % på basisprisen på100 for å få en enhetspris på 115 USD, og det registreres en total kostnad på 230 USD.
+Hvis en ressurs fra Contoso India som har en basispris på 100 USD, arbeider på stedet, og de registrerer 8 timer normal tid og 2 timer overtid i tidsoppføringen, vil Project Service-prismotoren bruke basisprisen på 100 for de 8 timene for å registrere 800 USD. For de 2 timene overtid brukes et påslag på 15 % på basisprisen på100 for å få en enhetspris på 115 USD, og det registreres en total kostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gjelder kostnad 
 Hvis det er satt til **Ja**, indikerer det at dimensjonsverdien fra inndatakonteksten skal brukes til å samsvare **Rollepris** og **Rolleprispåslag** ved henting av kostnads- og påslagsrater.
@@ -94,3 +92,6 @@ Ved å angi dimensjonsprioriteten kan Project Service-prisingen produsere en pri
 
 - **Kostnadsprioritet**: Verdien for dimensjonens kostnadsprioritet angir vekten på denne dimensjonen når den samsvares med oppsettet for kostpriser. Verdien for **Kostnadsprioritet** må være unik på tvers av dimensjoner som **Gjelder kostnad**.
 - **Salgsprioritet**: Verdien for dimensjonens salgsprioritet angir vekten på denne dimensjonen når den samsvares med oppsettet for salgspriser eller fakturasatser. Verdien for **Salgsprioritet** må være unik på tvers av dimensjoner som **Gjelder salg**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

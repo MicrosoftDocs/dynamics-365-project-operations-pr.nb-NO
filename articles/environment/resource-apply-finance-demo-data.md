@@ -2,18 +2,16 @@
 title: Bruke demodata i et skybasert Finance-miljø
 description: Dette emnet forklarer hvordan du bruker demonstrasjonsdata fra Project Operations i et skydriftet Dynamics 365 Finance-miljø.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365250"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000178"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Bruke demodata i et skybasert Finance-miljø
 
@@ -79,3 +77,6 @@ Dette tar noen minutter å fullføre. Du skal få en bekreftelsesmelding om at a
 18. Lukk den eksterne skrivebordsøkten, og bruk LCS-siden **Miljødetaljer** til å logge deg på miljøet for å bekrefte at det fungerer som forventet.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

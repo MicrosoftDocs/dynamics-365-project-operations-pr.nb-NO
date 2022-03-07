@@ -2,11 +2,9 @@
 title: Forespørsel om tidsplan for utgifter til føderale tilskudd
 description: Dette emnet gir informasjon om tidsplanen for forespørselen om tidsplan for utgifter til føderale tilskudd.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a16b0fb097124e26da09e220a1239cd6df303f98
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081604"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010078"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Forespørsel om tidsplan for utgifter til føderale tilskudd
 
@@ -62,7 +60,7 @@ Du må konfigurere CFDA-numrene som kan legges til for tilskudd og inkluderes i 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Sett opp tilskudd som skal rapporteres for forespørselen om tidsplan for utgifter til føderale tilskudd
 
 1. Gå til **Prosjektstyring og regnskap \> Tilskudd \> Tilskudd**, og velg et eksisterende tilskudd.
-2. På hurtigfanen **Oppsett** i feltet **Katalog over Federal Domestic Assistance**, tilordner du CFFDA-nummeret. CFDA-nummeret på tilskuddet avgjør CFDA-klyngen for rapportering.
+2. På hurtigfanen **Oppsett** i feltet **Katalog over Federal Domestic Assistance**, tilordner du CFFDA-nummeret. CFDA-nummeret på tilskuddet avgjør CFDA-klyngen for rapportering.
 3. På hurtigfanen **Kontaktinformasjon** angir du informasjon om giveren ved å følge disse trinnene:
 
     1. Angi kunden som er ansvarlig for tilskuddet, i feltet **Tilskuddskunde**. Denne informasjonen er kanskje allerede angitt for et eksisterende tilskudd.
@@ -79,8 +77,8 @@ Den føderale føderale regjeringen finansierte et infrastrukturprosjekt for en 
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Utelate tilskudd fra SEFA-rapportering basert på tilskuddstypen
 
-1. Gå til **Prosjektstyring og regnskap \> Oppsett \> Tilskudd \> Tilskuddstyper**.
-2. På hurtigfanen **Standardinformasjon** merker du av for **Utelat fra utgiftsplan for føderale tilskudd**.
+1. Gå til **Prosjektstyring og regnskap \> Oppsett \> Tilskudd \> Tilskuddstyper**.
+2. På hurtigfanen **Standardinformasjon** merker du av for **Utelat fra utgiftsplan for føderale tilskudd**.
 3. Velg **Lagre** for å ta i bruk endringene.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Kjøre forespørselen om tidsplan for utgifter til føderale tilskudd
@@ -104,3 +102,6 @@ Forespørselen om tidsplan for utgifter til føderale tilskudd inkluderer følge
 - Katalog over Federal Domestic Assistance
 - Kvitteringer
 - Utgifter
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

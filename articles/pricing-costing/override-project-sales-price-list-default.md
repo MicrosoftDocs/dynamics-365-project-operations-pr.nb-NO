@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: 17a86e89f626cef720fe3c8db0cbd8d6a2a3ddd5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672243"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275550"
 ---
 # <a name="override-project-sales-price-lists"></a>Overstyre salgsprislister for prosjekt
 
@@ -52,3 +52,6 @@ Du kan bruke hver av disse prislistene til å gjøre oppdateringer for arbeids- 
 I en prosjektkontrakt blir alltid prosjektprissetting som standard en egendefinert prisliste med navnet på kontrakten og det opprettede dato/klokkeslett-stempelet lagt til i navnet. Dette gjelder enten kontrakten ble opprettet da tilbudet ble vunnet, eller hvis kontrakten ble opprettet fra grunnen av. Du kan om nødvendig fjerne denne tilordningen til den egendefinerte prislisten og knytte en standard prisliste til prosjektkontrakten i stedet.
 
 Når du knytter en standard prisliste til prosjektprislistene i tilbud eller kontrakt, vil eventuelle endringer som gjøres i prisene i prislisten, ha innvirkning på alle tilbud og kontrakter som bruker prislisten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

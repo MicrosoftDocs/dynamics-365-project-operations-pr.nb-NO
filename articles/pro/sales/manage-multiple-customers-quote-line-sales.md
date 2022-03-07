@@ -2,18 +2,16 @@
 title: Administrere flere kunder på prosjektbaserte tilbudslinjer – Lite
 description: Dette emnet beskriver hvordan du administrerer flere kunder på prosjektbaserte tilbudslinjer.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176488"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001713"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administrere flere kunder på prosjektbaserte tilbudslinjer – Lite
 
@@ -43,3 +41,6 @@ Tabellen nedenfor viser feltene på oppføringen av en tilbudslinjekunde for en 
 Du kan redigere delingsprosenter for fakturering på linjen. Hvis delingsprosentandelen for fakturering ikke er totalt 100 %, oppstår det en feil. Når du har redigert delingsprosentene for fakturering, oppdaterer du tilbudslinjesiden for å fjerne feilen.
 
 Bruk handlingen for jevn fordeling i delrutenettet for tilbudslinjekunder til å fordele fakturingsandeler på alle tilbudslinjekunder. Hvis det finnes en avrundingsfaktor, blir denne lagt til for avrundingskunden. Én av tilbudslinjekundene er alltid merket som avrundingskunde, som betyr at oppføringen av tilbudslinjekunden har avrundingsflagget angitt til **Ja**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

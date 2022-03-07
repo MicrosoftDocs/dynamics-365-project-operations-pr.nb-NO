@@ -2,8 +2,6 @@
 title: Estimater
 description: Dette emnet inneholder informasjon om estimater i Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151445"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992398"
 ---
 # <a name="estimates"></a>Estimater
 
@@ -85,24 +83,27 @@ Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at syst
 1. Åpne PluginRegistrationTool, og koble til forekomsten på nettet.
 2. Velg **Søk**, og søk etter plugin-modulen for å oppdatere.
 
-    ![Dialogboksen Søketre](media/basic-guide-19.png)
+    ![Dialogboksen Søketre.](media/basic-guide-19.png)
 
 3. Velg plugin-modulen, og velg deretter **Velg** på hovedsiden.
 4. Velg trinnet i plugin-modulen som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
 
-    ![Velge et trinn i plugin-modulen](media/basic-guide-20.png)
+    ![Velge et trinn i plugin-modulen.](media/basic-guide-20.png)
 
 5. I dialogboksen **Oppdater eksisterende trinn**, i feltet **Filtreringsattributter** velger du ellipseknappen (**...**):
  
-    ![Dialogboksen Oppdater eksisterende trinn](media/basic-guide-21.png)
+    ![Dialogboksen Oppdater eksisterende trinn.](media/basic-guide-21.png)
 
 6. I dialogboksen **Velg attributter** merker du av i boksene for egendefinerte attributter.
 
-    ![Dialogboksen Velg attributter](media/basic-guide-22.png)
+    ![Dialogboksen Velg attributter.](media/basic-guide-22.png)
 
 7. Velg **OK** for å lukke dialogboksen, og velg deretter **Oppdater trinn**.
  
-    ![Knappen Oppdater trinn](media/basic-guide-23.png)
+    ![Knappen Oppdater trinn.](media/basic-guide-23.png)
 
 8. Gjenta trinn 1 til 7 for den andre plugin-modulen.
 9. Lukk PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

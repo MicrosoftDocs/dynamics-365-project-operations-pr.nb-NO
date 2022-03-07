@@ -2,17 +2,17 @@
 title: Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer
 description: Dette emnet forklarer hvordan du aktiverer ikkee lagerførte materialer og ventende leverandørfakturaer.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993923"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003243"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer
 
@@ -59,11 +59,11 @@ Hvis du bruker standard demonstrasjonsdata, kan det også hende du må stoppe og
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktiver arbeidsflyt for å opprette forretningsforbindelser basert på leverandørenhet
 
-Ordningsløsningen for dobbel skriving gir [hovedintegrering av leverandører](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Som en forutsetning for denne funksjonen må leverandørdata opprettes i **Forretningsforbindelser**-enheten. Aktiver en arbeidsflytprosess for maler for å opprette leverandører i tabellen **Forretningsforbindelser**, som beskrevet i [Veksle mellom leverandørutforminger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Ordningsløsningen for dobbel skriving gir [hovedintegrering av leverandører](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Som en forutsetning for denne funksjonen må leverandørdata opprettes i **Forretningsforbindelser**-enheten. Aktiver en arbeidsflytprosess for maler for å opprette leverandører i tabellen **Forretningsforbindelser**, som beskrevet i [Veksle mellom leverandørutforminger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Angi at produkter skal opprettes som aktive
 
-Ikke-lagerført materiell må konfigureres som **Frigitte produkter** i Økonomi. Ordningsløsningen for dobbel skriving gir en standard [frigitt produktintegrering i Dataverse-produktkatalogen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Produkter fra Økonomi synkroniseres som standard til Dataverse i utkasttilstand. Hvis du vil synkronisere produktet til en aktiv tilstand, slik at det kan brukes direkte i materielle bruksdokumenter eller ventende leverandørfakturaer, går du til **System** > **Administrasjon** > **Systemadministrasjon** > **Systeminnstillinger**, og i **Salgs**-kategorien setter du deretter **Opprett produkter i aktiv tilstand** til **Ja**.
+Ikke-lagerført materiell må konfigureres som **Frigitte produkter** i Økonomi. Ordningsløsningen for dobbel skriving gir en standard [frigitt produktintegrering i Dataverse-produktkatalogen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Produkter fra Økonomi synkroniseres som standard til Dataverse i utkasttilstand. Hvis du vil synkronisere produktet til en aktiv tilstand, slik at det kan brukes direkte i materielle bruksdokumenter eller ventende leverandørfakturaer, går du til **System** > **Administrasjon** > **Systemadministrasjon** > **Systeminnstillinger**, og i **Salgs**-kategorien setter du deretter **Opprett produkter i aktiv tilstand** til **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurere krav i Økonomi
 
@@ -88,7 +88,7 @@ I Project Operations kan du registrere materialestimater og bruk for katalogprod
 2. I **Produkttype**-feltet velger du **Vare** og deretter **Produkt** i feltet **Produktets undertype**.
 3. Angi produktnummeret (WRITEIN) og produktnavnet (ikke i produktkatalogen).
 4. Velg varemodellgruppen. Kontroller at varemodellgruppen du velger, har feltet **Lagerpolicy for lagerført produkt** satt til **Usann**.
-5. Velg verdier i feltene **Varegruppe**, **Lagringsdimensjonsgruppe** og **Sporing av dimensjonsgruppe**. Bruk **lagringsdimensjonen** bare for **Sted**, og ikke angi sporingsdimensjoner.
+5. Velg verdier i feltene **Varegruppe**, **Lagringsdimensjonsgruppe** og **Sporing av dimensjonsgruppe**. Bruk **Lagerdimensjonen** for bare **Sted**, og velg **Ingen** i feltet **Sporingsdimensjon**.
 6. Velg verdier i feltet **Lagerenhet**, **Innkjøpsenhet** og **Salgsenhet**, og lagre deretter endringene.
 7. Angi standard ordeinnstillinger i kategorien **Plan**, og angi deretter standard sted og lager i kategorien **Lagerbeholdning**.
 8. Gå til **Prosjektstyring og regnskap** > **Oppsett** > **Parametere for prosjektstyring og regnskap**, og åpne **Project Operations i Dynamics 365 Dataverse**. 

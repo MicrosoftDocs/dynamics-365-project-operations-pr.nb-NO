@@ -2,11 +2,9 @@
 title: Integrasjon med Microsoft Project Client
 description: Det kan være komplisert å planlegge og vedlikeholde en prosjektplan, så prosjektledere trenger å bruke verktøy som hjelper dem med å administrere denne oppgaven. Integrasjon med Microsoft Project Client gir støtte for å åpne og administrere en arbeidsnedbrytningsstruktur for et prosjekt.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081681"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269847"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasjon med Microsoft Project Client
 
@@ -127,3 +125,13 @@ Følg denne fremgangsmåten for å opprette en ny arbeidsnedbrytningsstruktur me
 8.  Velg **Kalenderen** som skal brukes for ressurser.
 
 11. Klikk **OK**.
+
+> [!NOTE]
+> Tillegget for prosjektklienten støtter ikke følgende tegn i prosjekt-ID-formatet:
+> 
+>   - Understrek
+>   - Periode
+>   - Mellomrom
+>   - Skråstrek
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

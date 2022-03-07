@@ -2,19 +2,17 @@
 title: Oppdatere Project Operations i Økonomi-miljøet
 description: Dette emnet gir informasjon om hvordan du oppdaterer Project Operations i Dynamics 365 Finance-miljøet.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
+ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816637"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011068"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Oppdatere Project Operations i Økonomi-miljøet
 
@@ -125,3 +123,6 @@ Følgende oppdateringer av sikkerhetsrettighetene for enheter nedenfor kreves so
  
  ![Synkronisering av finanstilordning](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

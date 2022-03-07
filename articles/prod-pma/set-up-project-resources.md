@@ -2,11 +2,9 @@
 title: Definere prosjektressurser
 description: Dette emnet gir informasjon om å sette opp eller be om prosjektressurser.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c8e4373da50999a0cc57f4eab672a98e7cf21edcfa5a5589d87691603a777de
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081792"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995728"
 ---
 # <a name="set-up-project-resources"></a>Definere prosjektressurser
 
@@ -75,3 +73,6 @@ Når de foregående oppgavene er fullført, kan du utføre følgende oppgaver sl
 - Oppfyll ressursforespørsler.
 - Be om en bemannet ressurs fra en WBS.
 - Reserver ressurser til et prosjekt uten å ha en forespørsel om en bemannet ressurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

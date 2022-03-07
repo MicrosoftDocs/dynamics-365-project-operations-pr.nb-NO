@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 089481cd3e7c0f8f1d1aa880d64cb79e8d677c2d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642825"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275640"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Opprette egendefinerte felt og enheter som prisdimensjoner
 
@@ -77,3 +77,6 @@ Du kan opprette data for en enhetsbasert dimensjon manuelt eller ved å bruke im
 5. Gjenta trinn 1-3 for å opprette en ny standardtittel for "Overordnet systemingeniør".
 
 > ![Eksempeldata for enheten Standardtittel](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

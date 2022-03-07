@@ -2,8 +2,6 @@
 title: Hva er nytt eller endret i Project Service Automation Update Release 25, V3
 description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 25, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: aabee3fe755e33d2c0f01a96b6f53a68957bc041
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9d8ac559be2c23396604c61caae83c8a5328869d76218c6d8b3b6a6a6b32c1eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143777"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996583"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Hva er nytt eller endret i Project Service Automation Update Release 25, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Denne versjonen er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Denne versjonen er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
 Dette emnet viser funksjonene og reparasjonene som er nye eller endret for Project Service Automation V3, Update Release 25. Denne versjonen har et buildnummer V 3.10.43.76 og er allment tilgjengelig via en egen oppdatering i oktober 2020.
 
@@ -70,3 +68,6 @@ Følgende problemer har blitt løst:
 - Forbedret feilbehandling for å løse nullreferanseunntak generert fra **Kopier prosjekt: estimering av administrasjon av hjelperessurser**.
 - **Ikke klar til fakturering** på en **Faktureringsrestanse for Tid og materiale** fjerner ikke faktureringsstatus.
 - Korrigerte **Pris**-knapper med feiletikett i kategorien **Rollepris** og **Katalogelementer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Standard prislister
 description: Dette emnet gir information om standard salgs- og kostprislister i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130950"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989878"
 ---
 # <a name="default-price-lists"></a>Standard prislister
 
@@ -21,7 +19,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 ## <a name="sales-price-lists"></a>Salgsprislister
 
-Hvert prosjekttilbud og hver kontrakt i Dynamics 365 Project Operations inneholder en standard prisliste for salg. 
+Hvert prosjekttilbud og hver kontrakt i Dynamics 365 Project Operations inneholder en standard salgsprisliste. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Prisliste som standard i prosjekttilbud
 Systemet fullfører følgende prosess for å avgjøre hvilken prisliste som skal være standard i et prosjekttilbud:
@@ -57,3 +55,6 @@ Kostprislister er ikke standard for noen som helst enhet i Project Operations. D
 5. Deretter ser systemet på datogyldigheten for prislistene som samsvarer med datoen for det innkommende estimatet eller den faktiske linjen. 
 6. Hvis det finnes flere prislister som gjelder for datoen i det innkommende estimatet eller de faktiske verdien, velges den sist opprettede prislisten.
 7. Hvis det ikke er knyttet noen kostprislister til prosjektparameterne som samsvarer med valutaen og den gyldige datoen, settes kostnadssatsen til null (0) på det innkommende estimatet eller den faktiske linjen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

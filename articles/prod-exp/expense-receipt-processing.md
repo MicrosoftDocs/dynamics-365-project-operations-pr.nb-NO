@@ -2,9 +2,11 @@
 title: Behandling av utgiftskvittering
 description: Dette emnet gir informasjon om optisk tegngjenkjenning (OCR) for kvitteringer. Denne funksjonen er utformet for å forbedre brukeropplevelsen når reiseregninger opprettes i Microsoft Dynamics 365 Finance.
 author: stsporen
+manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -13,14 +15,16 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: ed9c97ba9cc505106599c2896dc2112358d0c408
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993518"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081778"
 ---
 # <a name="expense-receipt-processing"></a>Behandling av utgiftskvittering
+
+[!include [banner](../includes/banner.md)]
 
 Utgiftsregistrering er forbedret gjennom innføringen av optisk tegngjenkjenning (OCR) for kvitteringer. Denne funksjonen er utformet for å forbedre brukeropplevelsen når reiseregninger opprettes.
 
@@ -93,6 +97,3 @@ USA støttes for øyeblikket.
 Økonomiavdelingen Cognitive Services for å trekke ut feltdataene. Cognitive Services beholder en kopi av kvitteringen i opptil 24 timer, mens behandlingen utføres. Når behandlingen er fullført, fjerner Cognitive Services kvitteringen. Kvitteringer lagres fremdeles i økonomi.
 
 Hvis du vil ha mer informasjon, kan du se [Aktivere kvitteringsforståelse med den nye funksjonen i Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

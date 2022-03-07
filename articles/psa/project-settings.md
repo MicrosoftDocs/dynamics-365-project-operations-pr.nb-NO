@@ -2,8 +2,6 @@
 title: Prosjektinnstillinger
 description: Denne emnet gir informasjon om innstillinger for prosjektstyring.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148160"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996943"
 ---
 # <a name="project-settings"></a>Prosjektinnstillinger
 
@@ -49,7 +47,7 @@ Hvis du vil opprette en prosjektplan, må du opprette en prosjektkalendermal som
   - Arbeidstidsplan for én dag
   - Fritid
 
-> ![Konfigurere salternativer](media/project-13.png)
+> ![Konfigurer alternativer.](media/project-13.png)
 
 4. Velg **Ny ukeplan**, og angi deretter alternativene for denne ressursplanen. Du kan angi en regelmessig ukeplan, daglige timeparametere, selskapet holder stengt, og så videre.
 5. Angi datointervallet, velg **Lagre**, og klikk deretter **Lukk**. 
@@ -68,3 +66,6 @@ Alle organisasjoner må konfigurere disse rollene på siden **Aktive ressurskate
 ## <a name="price-lists"></a>Prislister
 
 Med prislister kan du angi kostpriser og salgspriser for ressursroller, utgiftskategorier, produkter og andre elementer i en organisasjon. Før du angir økonomiske estimater for arbeid som må leveres for et prosjekt, bør du opprette en støttekostnads- og salgsprisliste. I Parametere-delen bør du også konfigurere en standard kostnads- og salgsprisliste som gjelder for alle prosjekter som opprettes i organisasjonen. På siden **Aktive prosjektparametere** sørger du for at du angir en standard kostnads- og salgsprisliste.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

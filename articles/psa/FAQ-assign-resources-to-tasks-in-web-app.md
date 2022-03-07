@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993317"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987718"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Hvordan tilordner jeg en ressurs som kan reserveres, til en oppgave i webappen (Project Service-appen v2.x)?
 
@@ -43,7 +43,7 @@ Med denne metoden kan du legge til en ressurs i prosjektteamet og deretter tilor
 3.  Velg **Fra**- og **Til**-datoer.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skjermbilde av å legge til teammedlem](media/FAQ-Resources-to-Tasks2-1.png "Skjermbilde av å legge til teammedlem")
+    > ![Skjermbilde av å legge til teammedlem.](media/FAQ-Resources-to-Tasks2-1.png "Skjermbilde av å legge til teammedlem")
  
 4.  Velg én av følgende tildelingsmetoder for bestilling av ressursen:
     - **Full kapasitet** bestiller ressursens fulle kapasitet for de angitte fra- og til-datoene.
@@ -63,12 +63,12 @@ Med denne metoden kan du legge til en ressurs i prosjektteamet og deretter tilor
     3. Velg **OK**. Teammedlemmet tilordnes nå til oppgaven.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skjermbilde av å legge til ressurser med WBS](media/FAQ-Resources-to-Tasks2-2.png "Skjermbilde av å legge til ressurser med WBS")
+    > ![Skjermbilde av å legge til ressurser med WBS.](media/FAQ-Resources-to-Tasks2-2.png "Skjermbilde av å legge til ressurser med WBS")
  
 Du kan se aggregatet av ressursens tilordnede timer under Tilordnede timer i teammedlemsrutenettet Det blir mindre enn eller lik de bestilte timene for ressursen. 
 
 > [!div class="mx-imgBorder"] 
-> ![Skjermbilde av tilordnede timer for en ressurs](media/FAQ-Resources-to-Tasks2-3.png "Skjermbilde av tilordnede timer for en ressurs")
+> ![Skjermbilde av tilordnede timer for en ressurs.](media/FAQ-Resources-to-Tasks2-3.png "Skjermbilde av tilordnede timer for en ressurs")
  
 Hvis oppgaven du prøver å tilordne til ressursen, starter etter sluttdatoen for ressursbestillingene, vises ikke ressursen i rullegardinlisten.
 
@@ -92,22 +92,22 @@ Denne metoden sikrer at ressursene har nok bestillinger for oppgaver. Først opp
 4. Velg **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skjermbilde av å bruke WBS for å legge til ressurs](media/FAQ-Resources-to-Tasks2-4.png "Skjermbilde av å bruke WBS for å legge til ressurs")
+    > ![Skjermbilde av å bruke WBS for å legge til ressurs.](media/FAQ-Resources-to-Tasks2-4.png "Skjermbilde av å bruke WBS for å legge til ressurs")
  
 Når du er ferdig med å tilordne roller til oppgavene i WBS, velger du **Generer prosjektteam**. Project Service oppretter minimum antall generelle teammedlemmer basert på rollene, ressursorganisasjonsenhetene og prosjektkalenderen ved å aggregere oppgavetilordningene.
 
 > [!div class="mx-imgBorder"] 
-> ![Skjermbilde av å generere prosjektteam](media/FAQ-Resources-to-Tasks2-5.png "Skjermbilde av å generere prosjektteam")
+> ![Skjermbilde av å generere prosjektteam.](media/FAQ-Resources-to-Tasks2-5.png "Skjermbilde av å generere prosjektteam")
  
 Du kan se ressurser av typen generell ressurs med rolle og stillingsnavn i Teammedlem-rutenettet. Hvis to ressurser kreves for en rolle for å fullføre arbeidet, oppretter funksjonen Generer team to teammedlemmer og bruker stillingsnavnet for å skille dem.
 
 > [!div class="mx-imgBorder"] 
-> ![Skjermbilde av å legge til to generelle ressurser](media/FAQ-Resources-to-Tasks2-6.png "Skjermbilde av å legge til to generelle ressurser")
+> ![Skjermbilde av å legge til to generelle ressurser.](media/FAQ-Resources-to-Tasks2-6.png "Skjermbilde av å legge til to generelle ressurser")
  
 Du kan åpne støtteressurskravet for det generelle teammedlemmet ved å velge koblingen under Ressurskrav.
 
 > [!div class="mx-imgBorder"] 
-> ![Skjermbilde av å åpne støtteressurskrav](media/FAQ-Resources-to-Tasks2-7.png "Skjermbilde av å åpne støtteressurskrav")
+> ![Skjermbilde av å åpne støtteressurskrav.](media/FAQ-Resources-to-Tasks2-7.png "Skjermbilde av å åpne støtteressurskrav")
 
 Velg **Bestill** for den generelle ressursen, og deretter kan du bruke planleggingstavlen for å finne og bestille en virkelige ressurs. Du kan også sende kravet for fullføring av en ressursleder ved å velge **Send forespørsel**.
 

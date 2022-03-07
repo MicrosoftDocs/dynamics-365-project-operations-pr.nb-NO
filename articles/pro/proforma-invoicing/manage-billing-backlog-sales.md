@@ -1,21 +1,19 @@
 ---
-title: Administrere faktureringsrestansen – Lite
-description: Dette emnet gir informasjon om de ulike visningene som er tilgjengelige for bruk ved administrasjon av faktureringsrestansen.
+title: Administrer faktureringsrestanse for prosjekt
+description: Dette emnet inneholder informasjon om de ulike visningene som er tilgjengelige for bruk ved behandling av faktureringsreserve på prosjekter.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: ddd0b62133139a8d9d8d09920986890bd8616808
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176983"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003958"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Administrere faktureringsrestansen – Lite
+# <a name="manage-project-billing-backlog"></a>Administrer faktureringsrestanse for prosjekt 
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
@@ -60,3 +58,6 @@ Ufakturerte faktiske verdier for salg med statusen **Må ikke overskrides** satt
 Hvis kontraktlinjer for flere kunder har tid og materiale-faktureringsmetode, og når tid og utgifter er godkjent, opprettes det ett ufakturert faktisk salg for hver kunde på kontraktlinjen i henhold til faktureringsprosentdelingen som er definert for hver av kundene. I visningen **Faktureringsrestanse for Tid og materiale** vises disse individuelle kundespesifikke ufakturerte faktiske salgsverdiene. Hver av disse oppføringene av ikke-fakturerte faktiske salgsverdier kan merkes som **Klar for fakturering** atskilt fra denne visningen.
 
 Et ufakturert faktisk salg på en kladdefaktura vises i denne visningen med faktureringsstatusen **Opprettet kundefaktura**. Når fakturautkastet er bekreftet, oppdateres fakturastatusen for denne oppføringen til **Kundefaktura postert**. Ikke oppdater denne statusverdien ved hjelp av egendefinert kode. Project Operations fungerer ikke på riktig måte når disse statusverdiene oppdateres med egendefinert kode.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

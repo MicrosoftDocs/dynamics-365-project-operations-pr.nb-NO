@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b9baeca9e79e233c25a6310e426d755b9162bbad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143663"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280725"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation, Update Release 19, V3
 
@@ -66,3 +66,6 @@ Følgende problemer har blitt løst:
 - Kunder kan oppleve redusert ytelse ved oppretting av et prosjekt fordi **GetBookableResourceIdFromUser** henter alle kolonner med ressurser som kan reserveres, i stedet for bare primær-ID-en.
 - **TransactionType**-enheten mangler plugin-modulen for oppdatering av forhåndsvalidering for å hindre brukere i å skrive inn **Enheter** og **UnitGroups** som ikke er gyldige for transaksjonstyper.
 - **Fjern**-trinnet fungerer ikke for import av tidsoppføringer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

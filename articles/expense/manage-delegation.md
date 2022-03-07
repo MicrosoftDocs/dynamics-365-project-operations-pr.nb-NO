@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ee00b3c6a683aa8daf2823331a1a9638828dad03
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122715"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276405"
 ---
 # <a name="manage-delegation"></a>Behandle delegering
 En utgiftsrepresentant kan opprette og administrere reiseregninger for en annen ansatt.
@@ -39,3 +39,6 @@ Hvis funksjonsbehandlingsnøkkelen **Aktiver listeside for utgiftsrepresentanter
 En representant kan raskt filtrere og søke etter eksisterende reiseregninger som er delegert til dem. Representanten kan også raskt opprette en ny reiseregning for andre brukere ved å velge **Ny reiseregning**.
 
 Representanter kan opprette og administrere reiseregninger for andre ansatte ved å gå til **Utgiftshåndtering** > **Mine utgifter** > **Reiseregninger** og velge **Åpne andre brukeres utgifter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

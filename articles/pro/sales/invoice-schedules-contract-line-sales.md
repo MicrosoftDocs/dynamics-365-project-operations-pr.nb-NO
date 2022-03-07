@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4706a2a711efa7d176030deaa33b65bca28d8498
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180339"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273390"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Opprette fakturaplaner på en prosjektbasert kontraktlinje – Lite
 
@@ -74,3 +74,6 @@ Faste prismilepæler kan genereres manuelt når de ikke deles periodisk. Følg f
 | Avgift | Hurtigoppretting | Avgiftsbeløpet som brukes på milepælen. | Dette er inkludert på milepælen for prosjektkontraktlinjen og fakturaen. |
 
 4. Velg **Lagre og lukk**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

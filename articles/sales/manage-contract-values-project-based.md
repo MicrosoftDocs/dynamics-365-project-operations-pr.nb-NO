@@ -2,18 +2,16 @@
 title: Arbeide med prosjektbaserte kontraktlinjer
 description: Dette emnet inneholder informasjon om prosjektbaserte kontraktlinjer.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2072692296308a08756ec3e0f381c792745dd3e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181733"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011518"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Arbeide med prosjektbaserte kontraktlinjer
 
@@ -57,3 +55,6 @@ Regel: Et prosjekt og en bestemt transaksjonsklasse kan bare tas med på én pro
 | C1       | CL2           | P1      | No           | Ja             | No          | Gyldig           | Tid og gebyrer på prosjekt P1 er inkludert på CL1. Utgift på prosjekt P1 er inkludert på CL2. </br>   Det er ingen overlapping i hva som inkluderes på hver enkelt kontraktlinje og derfor er gyldig.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Ikke gyldig       | Bryter regelen. Tid, utgift og gebyrer på prosjekt P1 er inkludert på linjene for to kontrakter.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Ikke gyldig       | Bryter regelen. Tid, utgift og gebyrer på prosjekt P1 er inkludert på linjene for to kontrakter.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

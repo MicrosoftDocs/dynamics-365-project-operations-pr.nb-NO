@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 68675ca95f78382e7a3702805da840a5c8ef2f50
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128880"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279195"
 ---
 # <a name="skills-and-certifications"></a>Ferdigheter og sertifiseringer
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
@@ -43,3 +43,5 @@ Ved å legge til karakteristikker for ressurskrav kan du dokumentere kunnskapen 
 3. I delrutenettet **Ferdigheter** velger du **+Legg til nytt kravkjennetegn.**
 4. Finn og velg de nødvendige egenskapene i hurtigopprettingsruten, og legg til en **rangeringsverdi**.
 5. Velg **Lagre og lukk**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

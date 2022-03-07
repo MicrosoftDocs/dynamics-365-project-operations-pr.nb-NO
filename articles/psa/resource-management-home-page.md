@@ -3,7 +3,7 @@ title: Startside for ressursbehandling
 description: Dette emnet gir informasjon om hvordan du behandler ressuser.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47d8fcc8b648921df43b9c03999ed27d85823a98
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c1a48dc3c814cfaaa08ba8c00834b0b37d6fbc5a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081841"
 ---
 # <a name="resource-management-home-page"></a>Startside for ressursbehandling
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

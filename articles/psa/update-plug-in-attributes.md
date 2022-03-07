@@ -2,11 +2,9 @@
 title: Oppdater plugin-attributter slik at de inkluderer nye prisdimensjoner
 description: Dette emnet inneholder informasjon om hvordan du oppdaterer plugin-attributter for prisdimensjoner.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147080"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988798"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Oppdater plugin-attributter slik at de inkluderer nye prisdimensjoner
 
@@ -44,27 +42,30 @@ Fremgangsmåten nedenfor forklarer hvordan du registrerer plugin-modulene.
 1. Åpne **PluginRegistrationTool**, koble til forekomsten på nettet.
 2. Klikk **Søk**, og søk etter plugin-modulen som du vil oppdatere.
 
- ![Skjermbilde av søketreet](media/PRT-1.png)
+ ![Skjermbilde av søketreet.](media/PRT-1.png)
 
 3. Når plugin-modulen er funnet, velger du den, og deretter klikker du **Velg i hovedskjema**.
 
 4. Velg trinnet i plugin-modulen som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
 
- ![Skjermbilde av plugin-modulen som skal oppdateres](media/PRT-2.png)
+ ![Skjermbilde av plugin-modulen som skal oppdateres.](media/PRT-2.png)
  
 5. I oppdateringsvinduet klikker du på ellipsen (**...**) i filtreringsegenskapene.
 
- ![Skjermbilde av konfigurasjonsinformasjon for oppdatering av eksisterende trinn](media/PRT-3.png)
+ ![Skjermbilde av konfigurasjonsinformasjon for oppdatering av eksisterende trinn.](media/PRT-3.png)
  
 6. Velg avmerkingsboksen for prisattributt.
 
- ![Skjermbilde med avmerkingsboks for prissettingattributter](media/PRT-4.png)
+ ![Skjermbilde med avmerkingsboks for prissettingattributter.](media/PRT-4.png)
 
 7. Klikk **OK** for å lukke siden, og velg deretter **Oppdater trinn**.
 
- ![Skjermbilde som viser "Oppdater trinn"-knappen](media/PRT-5.png)
+ ![Skjermbilde som viser Oppdater trinn-knappen.](media/PRT-5.png)
  
 8. Gjenta denne prosessen for den andre plugin-modulen, **PreOperationQuoteLineDetail – oppdaterer msdyn_quotelinetransaction**.
 
 9. Lukk registreringsverktøyet for plugin-modul.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

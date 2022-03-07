@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272850"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513801"
 ---
 # <a name="manage-leads---lite"></a>Behandle kundeemner – Lite
 
@@ -72,6 +72,3 @@ Forretningsprosessen for kundeemne til salgsmulighet støtter følgende faser:
 | Utarbeid | Salgsmulighet | Utvikle salgsmuligheten for å legge til mer informasjon om arbeidet som er involvert, viktige interessenter og konkurranse. |
 | Foreslå | Salgsmulighet | Utvikle forslaget, og få godkjennelse fra det interne gjennomgangsteamet. |
 | Lukk | Salgsmulighet | Vinn salgsmuligheten for å lukke avtalen. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

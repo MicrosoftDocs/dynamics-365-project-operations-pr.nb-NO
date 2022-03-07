@@ -1,8 +1,6 @@
 ---
 title: Sende en ressursforespørsel
 description: Dette emnet gir informasjon om å sende en forespørsel for en prosjektressurs.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149735"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985018"
 ---
 # <a name="submitting-a-resource-request"></a>Sende en ressursforespørsel
 
@@ -36,8 +34,11 @@ Du kan sende et generert ressurskrav som en ressursforespørsel. Forespørselen 
 1. Klikk kategorien **Team** på siden **Prosjekter** for å vise en liste over bestillbare ressurser i Project Service Automation (PSA). 
 2. Velg den generelle ressursen som har et ressurskrav, fra listen, og klikk deretter **Send forespørsel**.
 
-![Sende en ressursforespørsel](media/RM-how-to-18.png)
+![Sende en ressursforespørsel.](media/RM-how-to-18.png)
 
 Forespørselsstatusen for det generelle teammedlemmet blir endret **Sendt**.
 
 Når forespørselen er utført av ressurslederen, erstattes den generelle ressursen av en navngitt ressurs hvis ressurslederen utfører forespørselen med bestilling av en navngitt ressurs. Ellers blir den generelle ressursen værende i teamet, og forespørselsstatusen endres til **Må gjennomgås** hvis ressurslederen har foreslått en navngitt ressurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

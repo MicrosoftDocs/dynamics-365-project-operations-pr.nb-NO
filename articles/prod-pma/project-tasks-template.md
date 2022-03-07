@@ -2,11 +2,9 @@
 title: Synkronisere prosjektoppgaver direkte fra Project Service Automation til Finance and Operations
 description: Dette emnet beskriver malen og den underliggende oppgaven som brukes til å synkronisere prosjektoppgaver direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081602"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992803"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisere prosjektoppgaver direkte fra Project Service Automation til Finance and Operations
 
@@ -41,7 +39,7 @@ Project Service Automation til Finance-integreringsløsningen bruker funksjonen 
 
 Illustrasjonen nedenfor viser hvordan dataene synkroniseres mellom Project Service Automation og Finance.
 
-[![Dataflyt for Project Service Automation-integrasjon med Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Dataflyt for Project Service Automation-integrasjon med Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Mal og oppgave
 
@@ -82,4 +80,7 @@ Hvis du må bruke Power Query, følger du denne retningslinjen:
 
 Illustrasjonen nedenfor viser et eksempel på maloppgavetilordningene i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 
-[![Maltilordning](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Maltilordning.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

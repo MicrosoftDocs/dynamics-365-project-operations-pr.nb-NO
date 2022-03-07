@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009228"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433665"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Nyheter juli 2021 – Project Operations Lite-distribusjon
 
@@ -20,7 +20,7 @@ _Gjelder: Lite-distribusjon – avtale til proformafakturering_
 
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
-  - Project Operations i Dataverse-miljø, versjon 4.12.0.148 eller 4.12.0.152.
+  - Project Operations på Dataverse-miljø versjon 4.12.0.148.
 
 ## <a name="quality-updates"></a>Kvalitetsoppdateringer
 | **Funksjonsområdet**              | **Referansenummer** | **Kvalitetsoppdatering**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | Generelt                       | 2296857              | Fremdriftssporing for langvarige jobber.                                                                                                                                                                        |
 | Generelt                       | 2253682              | Løsningen for dobbel skriving i Project Operations bør ikke installeres når kjernen for dobbel skriving er installert i et miljø uten orkestreringsløsningen med dobbel skriving.                                                |
 | Generelt                       | 2316420              | Kjerneklargjøring av prosjekttjeneste mislykkes hvis programbrukerens forretningsenhet endres.                                                                                                                     |
-| Generelt                       | 2376405              | Problem med fast utgiverdrevet oppdatering (kvalitetsoppdateringen er tilgjengelig i versjon 4.12.0.152)                                                                                                                     |

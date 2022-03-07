@@ -2,18 +2,16 @@
 title: Reiserekvisisjoner
 description: Dette emnet inneholder informasjon om reiserekvisisjoner.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e05f54349eaa09dd22331ff07950542dd326e711
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123750"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001753"
 ---
 # <a name="travel-requisitions"></a>Reiserekvisisjoner
 
@@ -56,3 +54,6 @@ Velg reiserekvisisjonen du vil godkjenne, og velg deretter **Arbeidsflyt** > **G
 
 > [!NOTE]
 > Når du tilordner en reiseregning til en godkjent reiserekvisisjon, kan ikke transaksjonsbeløpet være større enn det godkjente beløpet. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

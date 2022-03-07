@@ -2,11 +2,9 @@
 title: Konfigurer kredittkortintegrering
 description: Dette emnet forklarer hvordan du arbeider med utgiftsrelaterte kredittkorttransaksjoner.
 author: suvaidya
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866695"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826268"
 ---
 # <a name="set-up-credit-card-integration"></a>Konfigurer kredittkortintegrering
 
@@ -32,7 +30,7 @@ Utgiftsrelaterte kredittkorttransaksjoner kan konfigureres slik at de importeres
 
 Følg denne fremgangsmåten for å importere kredittkorttransaksjoner:
 
-1. På siden **Kredittkorttransaksjoner** velger du **Importer transaksjoner**. Hvis du åpner databehandling for første gang, må systemet oppdatere listen over dataenheter før du kan fortsette.
+1. På siden **Kredittkorttransaksjoner** velger du **Importer transaksjoner**. Hvis du åpner dataadministrasjon for første gang, må systemet oppdatere listen over dataenheter før du kan fortsette.
 2. I **Navn**-feltet angir du en unik beskrivelse av importjobben.
 3. I feltet **Kildedataformat** velger du formatet til filen som inneholder kredittkorttransaksjonene som skal importeres.
 4. Velg **Last opp**, og finn og velg deretter filen som skal importeres.
@@ -46,16 +44,24 @@ Følg denne fremgangsmåten for å importere kredittkorttransaksjoner:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Tilordne kredittkorttransaksjonene på nytt for avsluttede ansatte
 
-Når en ansattoppføring avsluttes, deaktiveres kontoen for den ansattes Active Directory Domain Services (AD DS). Det kan imidlertid hende at det finnes aktive kredittkorttransaksjoner som fremdeles må belastes og refunderes. På **Kredittkorttransaksjoner**-siden kan du tilordne den ansatte på nytt for en kredittkorttransaksjon der den tilknyttede ansatte er avsluttet.
+Når en ansattoppføring avsluttes, deaktiveres den ansattes Active Directory Domain Services-konto (AD DS). Det kan imidlertid hende at det finnes aktive kredittkorttransaksjoner som fremdeles må belastes og refunderes. På **Kredittkorttransaksjoner**-siden kan du tilordne den ansatte på nytt for en kredittkorttransaksjon der den tilknyttede ansatte er avsluttet.
 
 Velg en eller flere kredittkorttransaksjoner, og velg deretter **Tilordne transaksjoner på nytt**. Du kan deretter velge en annen ansatt du vil tilordne kredittkorttransaksjonene til. Når kredittkorttransaksjonene er tilordnet på nytt, kan de velges for en utgiftsrapport og betales gjennom den vanlige prosessen for refusjon av reiseregning.
 
 ## <a name="delete-credit-card-transactions"></a>Slette kredittkorttransaksjoner 
 
-Noen ganger kan det hende at enkelte transaksjoner må slettes etter at kredittkorttransaksjoner er importert. Dette kan skyldes at transaksjonene er duplikater eller fordi dataene kanskje ikke er nøyaktige. Administratorer kan bruke funksjonen **"Slett kredittkorttransaksjoner"** for å velge og slette kredittkorttransaksjoner som **ikke er knyttet til** en utgiftsrapport. 
+Noen ganger kan det hende at enkelte transaksjoner må slettes etter at kredittkorttransaksjoner er importert. Årsaken kan være at transaksjonene er duplikater eller dataene ikke er nøyaktige. Administratorer kan bruke funksjonen **"Slett kredittkorttransaksjoner"** for å velge og slette kredittkorttransaksjoner som **ikke er knyttet til** en utgiftsrapport. 
 
 1. Gå til **Periodiske oppgaver** > **Slett kredittkorttransaksjoner**.
 2. Velg **Filter**, og oppgi informasjon for å identifisere oppføringene som skal inkluderes.
 3. Velg **OK** for å slette oppføringene. 
+
+## <a name="storing-credit-card-numbers"></a>Lagre kredittkortnumre
+
+Det finnes tre alternativer for lagring av kredittkortnumre. Kredittkortnumre lagres på siden **Parametere for reiseregning og utlegg**.
+
+- **Hindre kortnummerregistrering** – Kredittkortnumre lagres ikke.
+- **Hash-kortnumre (lagre siste 4 sifre)** – De fire siste sifrene i kredittkortnumre lagres i et kryptert format.
+- **Lagre kortnumre** – Kredittkortnumre lagres i et ukryptert format. Dette alternativet oppfyller ikke datasikkerhetsstandarden (Data Security Standard (DSS)) til betalingskortbransjen (Payment Card Industry (PCI)). Organisasjonsadministratorer bør derfor la være å lagre kredittkortnumre eller i stedet lagre hash-kortnumre, slik at organisasjonen følger PCI DSS-forskriftene.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

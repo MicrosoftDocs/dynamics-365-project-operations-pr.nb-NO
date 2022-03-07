@@ -2,18 +2,16 @@
 title: Økonomiske estimater for materialer på prosjekter
 description: Dette emnet inneholder informasjon om hvordan du definerer eller beregner prosjektbasert materiell.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 98e3611b2b3948aab09a3eadeac7b95b893812e9
-ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
+ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788881"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992623"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Økonomiske estimater for materialer på prosjekter
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081793"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288841"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilappen Project Timesheet
 
@@ -96,3 +96,6 @@ Klikk **Send** for å sende timeregistreringen til godkjenningsarbeidsflyten.
 ## <a name="review-timesheets"></a>Gå gjennom timeregistreringer
 
 En liste over timeregistreringene som må gjennomgås, er tilgjengelig på menyen. Dette alternativet er bare tilgjengelig hvis du er angitt som en arbeidsflytgodkjenner. Både overskrifts- og linjegodkjenning støttes. Godkjenning på linjenivå gir mulighet til å merke én eller flere linjer for godkjenning. Når du har gått gjennom timeregistreringsinformasjonen, klikker du **Godkjenn**, **Deleger** eller **Retur** for å fortsette arbeidsflyten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

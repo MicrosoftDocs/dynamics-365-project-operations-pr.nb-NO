@@ -2,18 +2,16 @@
 title: Estimere salg og kostnader for prosjekter når en ressurs som kan reserveres fyller flere roller i et prosjekt
 description: Dette emnet forklarer hvordan du bruker prisdimensjoner til å støtte pris- og kostnadsestimater for en ressurs som fyller flere roller i et prosjekt.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531511"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990148"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimere salg og kostnader for prosjekter når en ressurs som kan reserveres fyller flere roller i et prosjekt 
 
@@ -106,3 +104,6 @@ Når du utvider raden for teammedlemsoppføringen, kan du se spesifikke tildelin
 ### <a name="estimates-grid"></a>Rutenett for estimater 
 
 På **Estimater**-rutenettet er begge tilordningene for den samme ressursen priset forskjellig. Tilordningen for ressursen i **Oppgave A** er priset ved hjelp av **Rolle**-attributtverdien for **Sjefskonsulent**. Tilordningen for den samme ressursen i **Oppgave B** er priset ved hjelp av **Rolle**-attributtverdien for **Nettverkstekniker**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

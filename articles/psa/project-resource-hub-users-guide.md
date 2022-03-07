@@ -2,8 +2,6 @@
 title: Brukerhåndbok for Prosjektressurshub
 description: Sluttbrukerhåndbok for Prosjektressurshub for Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948160"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987268"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Brukerhåndbok for Prosjektressurshub
 
@@ -51,31 +49,31 @@ Før du kan begynne å bruke appen Prosjektressurshub, må du installere mobilap
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installere Dynamics 365 for phones og tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Grunnleggende navigasjon
-1.  Når du logger på mobilappen, kan du se siden Mine apper med en liste over appene du har tilgang til. 
+1.  Når du logger på mobilappen, kan du se siden MyApps med en liste over appene du har tilgang til. 
 2.  Velg **Prosjektressurshub**.
 
-![Velg et program](media/chooseApp_1.png "Velg et program")
+![Velg en app.](media/chooseApp_1.png "Velg et program")
 
 **Navigasjonsfeltet**
 
-Bruk navigasjonsfeltet til å gå til arbeidsområdet ditt, opprette en ny oppføring, søke eller utføre andre oppgaver. Trykk på ![Mer-knappen](media/MoreButton.png "Mer-knappen") for å få tilgang til flere kommandoer.
+Bruk navigasjonsfeltet til å gå til arbeidsområdet ditt, opprette en ny oppføring, søke eller utføre andre oppgaver. For å få tilgang til flere kommandoer trykker du på ![Mer-knappen.](media/MoreButton.png "Mer-knappen")
 
-![Navigasjonsfelt](media/NavBar_2.png "Navigasjonsfelt")
+![Navigasjonsfelt.](media/NavBar_2.png "Navigasjonsfelt")
 
 **Favoritter og nylig brukte oppføringer**
 
 Inndelingene Favoritter og Nylig brukte gir rask tilgang til oppføringer, visninger og instrumentbord. 
 
-- Hvis du vil ha tilgang til disse delene, trykker du på **Meny**-knappen ![Meny-knapp](media/MenuButton.png "Menyknapp") i navigasjonsfeltet og deretter på knappen **Favoritter og Nylig** ![Favoritter-knapp](media/FavButton.png "Favorittknapp").
+- For å få tilgang til disse delene trykker du på knappen **Meny** ![Meny-knappen.](media/MenuButton.png "Menyknapp") i navigasjonsfeltet og trykker deretter på knappen **Favoritter og nylige** ![Favoritt-knappen](media/FavButton.png "Favorittknapp").
 
 - Hvis du vil feste et element som favoritt, trykker du på festefunksjonen fra listen over **nylig brukte** elementer. Dette vil feste og flytte elementet til Favoritter.
 
-  ![Favoritter og Nylige elementer](media/Favs_3.png "Favoritter og Nylige elementer")
+  ![Favoritter og Nylige elementer.](media/Favs_3.png "Favoritter og Nylige elementer")
  
 ## <a name="enter-time"></a>Angi tid
 Angi timene minst ukentlig, eller så ofte forespurt av ledere, for å sikre at klientene blir fakturert og du er kreditert på riktig måte.
 
-1. Trykk på menyknappen ![menyknappen](media/MenuButton.png "Menyknapp"), og trykk deretter på **Tidsoppføringer**. Dette åpner kalenderen.
+1. Trykk på menyknappen ![Meny-knappen.](media/MenuButton.png "Menyknapp") og trykk deretter på **Tidsoppføringer**. Dette åpner kalenderen.
 
 2. Trykk på knappen **Forrige** eller **Neste** for å se kalenderen for forrige eller neste uke. Trykk på **I dag** for å gå tilbake til den gjeldende uken.
 

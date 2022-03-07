@@ -2,18 +2,16 @@
 title: Fakturere et honorar eller forskudd
 description: Dette emnet gir information om hvordan du fakturerer et honorar eller forskudd i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596204"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997483"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturere et honorar eller forskudd
 
@@ -51,3 +49,6 @@ Dette kan du se i rutenettet **Brukte honorarer og forskudd** på **Faktura**-si
 | Brukt beløp | Rutenettet **Brukte forskudd og honorarer** på **Prosjektfaktura**-siden  | Dette skrivebeskyttede feltet inneholder den beregnede verdien som oppsummerer hvor mye av honoraret eller forskuddet som er brukt. | Dette feltet kan vises til kunden på den utskrevne fakturaen for å angi beløpet fra dette honoraret eller forskuddet som allerede er brukt. |
 | Samlet beløp | Rutenettet **Brukte forskudd og honorarer** på **Prosjektfaktura**-siden  | Dette redigerbare feltet inneholder beløpet for honoraret eller forskuddet som brukes på denne prosjektfakturaen. Dette beløpet kan ikke være mer enn det som er tilgjengelig for forskuddet. Systemet beregner automatisk dette som differansen mellom feltene **Beløp** og **Brukt beløp** i rutenettet. Du kan redusere dette beløpet for å bruke mindre enn det som er tilgjengelig, men du kan ikke øke beløpet for å bruke mer enn det som er tilgjengelig. | Dette feltet kan vises til kunden på den utskrevne fakturaen for å angi beløpet fra dette honoraret eller forskuddet som brukes på fakturaen. |
 | Saldohonorarbeløp. | Rutenettet **Brukte forskudd og honorarer** på **Prosjektfaktura**-siden  | Dette skrivebeskyttede feltet inneholder verdien for hvor mye av honoraret eller forskuddet som er igjen etter at fakturaen er bekreftet. | Dette feltet kan vises til kunden på den utskrevne fakturaen for å angi beløpet som vil være igjen fra dette honoraret eller forskuddet etter at fakturaen er bekreftet og betalt. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

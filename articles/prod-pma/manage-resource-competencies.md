@@ -2,11 +2,9 @@
 title: Administrere ressurskompetanser
 description: Dette emnet gir informasjon om å sette opp kompetanser for prosjektressurser.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270645"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007428"
 ---
 # <a name="manage-resource-competencies"></a>Administrere ressurskompetanser
 
@@ -31,7 +29,7 @@ ms.locfileid: "5270645"
 
 Ressurskompetanser er en viktig del av ressursbehandlingen. Kompetanser kan brukes som en basis for å avgjøre hvilke ressurser som har riktig balanse mellom ferdigheter, utdanning, sertifisering og prosjekterfaring. Du må angi denne informasjonen for hver ressurs og oppdatere den med jevne mellomrom. På denne måten kan du maksimere funksjonaliteten når bestemte ressurskompetanser samsvares under tildeling av prosjektressurser.
 
-[![Eksempler på ferdigheter, sertifiseringer, utdanning og prosjekterfaring](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Eksempler på ferdigheter, sertifiseringer, utdanning og prosjekterfaring.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Fremgangsmåtene nedenfor forklarer hvordan du konfigurerer noen av kompetansene for en ressurs.
 

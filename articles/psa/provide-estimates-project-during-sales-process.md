@@ -2,8 +2,6 @@
 title: Gi arbeidsestimater for et prosjekt under salgsprosessen
 description: Slik gir du arbeidsestimater for et prosjekt under salgsprosessen i Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e9382127b2ce0b157d681fc77d67200ba9c5e59d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d1daff101f9f0342bb691253fee1290d2335318c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147980"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998243"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>Gi arbeidsestimater for et prosjekt under salgsprosessen (Project Service)
 
@@ -54,3 +52,6 @@ Under salgsprosessen, kan du arbeide ut salgsestimater fra grunnen med tilbudsli
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
