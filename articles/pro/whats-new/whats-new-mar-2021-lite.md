@@ -2,19 +2,17 @@
 title: Nyheter mars 2021 – Project Operations Lite-distribusjon
 description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i mars 2021-versjonen av Project Operations Lite-distribusjon.
 author: sigitac
-manager: tfehr
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bd1518ef8f5645bace63a222b92cfd16d9c19a21
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 8e0d9b9e8fc130e73ae931eb32e2a04c2d53c4113191b44afe8df6dc4678b25d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500026"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009138"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Nyheter mars 2021 – Project Operations Lite-distribusjon
 

@@ -2,18 +2,16 @@
 title: Konfigurere fakturasatser for arbeid
 description: Dette emnet gir informasjon om hvordan du konfigurerer fakturasatser for arbeid i Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274830"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003558"
 ---
 # <a name="set-up-labor-bill-rates"></a>Konfigurere fakturasatser for arbeid
 
@@ -21,8 +19,8 @@ _ **Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scena
 
 Hver prisliste har et sett med rollepriser, eller arbeidssatser, som gjelder for konteksten og datogyldigheten som er inkludert i prislistehodet. Fakturasatser for tidspunkt i Dynamics 365 Project Operations kan bare angis i én valuta, som er valutaen i Prisliste-hodet.
 
-1. Hvis du vil definere fakturasatser for en salgsprisliste, oppretter du en prisliste basert på prislistehodet. 
-2. I delrutenettet i kategorien **Rollepriser** velger du **+ Ny rollepris**. 
+1. Hvis du vil konfigurere fakturasatser for arbeid for en salgsprisliste, går du til **Salg** > **Kunder** > **Prislister** og velger **Ny** for å opprette en ny prisliste. 
+2. I delrutenettet i kategorien **Rollepriser** velger du **Ny rollepris**. 
 3. I **hurtigopprettingsruten** angir du hvilken kombinasjon av rolle og organisasjonsenhet du må definere fakturasatsen for.
 
    Tabellen nedenfor inkluderer feltene i kategorien **Generelt** og **Hurtigopprett**-ruten for en rolleprislinje som du må huske på når du oppretter rollepriser i en salgs- eller kostprisliste.

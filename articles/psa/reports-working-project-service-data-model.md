@@ -2,8 +2,6 @@
 title: Arbeide med datamodell for Project Service Automation
 description: Dette emnet gir informasjon om hvordan du arbeider med datamodellen.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,16 +16,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081805"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002433"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeide med datamodell for Project Service Automation
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation utvider andre appenheter og introduserer sine egne enheter i Common Data Service-datamodellen. Dette emnet beskriver noen av enhetene som du støter på i vanlige scenarioer for PSA-rapportering.
 
@@ -52,7 +53,7 @@ PSA legger også til nye tilbudsrelaterte enheter i Dynamics 365-datamodellen. H
 
 Andre enheter som PSA legger til i tilbudene, er **Prosjektprislinje for tilbudslinje**, **Ressurskategori for tilbudslinje** og **Transaksjonskategori for tilbudslinje**.
 
-![Diagram som viser tilbud, tilbudslinje og prosjektrelasjoner](media/PS-Reporting-image2.png "Diagram som viser tilbud, tilbudslinje og prosjektrelasjoner")
+![Diagram som viser tilbud, tilbudslinje og prosjektrelasjoner.](media/PS-Reporting-image2.png "Diagram som viser tilbud, tilbudslinje og prosjektrelasjoner")
 
 ## <a name="reporting-on-project-contracts"></a>Rapportere om prosjektkontrakter
 
@@ -68,7 +69,7 @@ PSA legger også til nye enheter som er utformet for prosjektkontrakter. Her er 
 
 Andre enheter som PSA legger til i kontrakter, er **Prosjektprisliste for prosjektkontraktslinje**, **Ressurskategori for prosjektkontraktslinje** og **Transaksjonskategori for prosjektkontraktslnje**.
 
-![Diagram som viser ordre, ordrelinje og prosjektrelasjoner](media/PS-Reporting-image3.png "Diagram som viser ordre, ordrelinje og prosjektrelasjoner")
+![Diagram som viser ordre, ordrelinje og prosjektrelasjoner.](media/PS-Reporting-image3.png "Diagram som viser ordre, ordrelinje og prosjektrelasjoner")
 
 ## <a name="reporting-on-projects"></a>Rapportere om prosjekter
 
@@ -80,7 +81,7 @@ Andre enheter som PSA legger til i kontrakter, er **Prosjektprisliste for prosje
 - **Ressurskrav** – denne enheten inneholder kravene for alle generelle ressursteammedlemmer.
 - **Estimat** og **Estimatlinje** – disse enhetene har en relasjon mellom overskrift/linje og inneholder utgiftsestimater for prosjektet. Oppgaveestimater lagres i enheten **Ressursestimat**.
 
-![Diagram som viser ressurskrav og prosjektrelasjoner](media/PS-Reporting-image4.png "Diagram som viser ressurskrav og prosjektrelasjoner")
+![Diagram som viser ressurskrav og prosjektrelasjoner.](media/PS-Reporting-image4.png "Diagram som viser ressurskrav og prosjektrelasjoner")
 
 ## <a name="reporting-on-resources"></a>Rapportere om ressurser
 
@@ -91,7 +92,7 @@ Prosjektressurser bruker de **bestillbare ressursenhetene** fra Universal Resour
 - **Kategori for ressurs som kan reserveres** – denne enheten representerer rollen til den bestillbare ressursen.
 - **Bestillinger av ressurs som kan reserveres** – denne enheten representerer tiden som er bestilt til prosjekter for ressursen. Hver bestilling har både en hodeenhet og linjeenheter, og hver linje har en status som representerer statusen for bestillingen.
 
-![Diagram som viser relasjoner for reserverbare ressursegenskaper](media/PS-Reporting-image5.png "Diagram som viser relasjoner for reserverbare ressursegenskaper")
+![Diagram som viser relasjoner for reserverbare ressursegenskaper.](media/PS-Reporting-image5.png "Diagram som viser relasjoner for reserverbare ressursegenskaper")
 
 ## <a name="reporting-on-actual-transactions"></a>Rapportere om faktiske transaksjoner
 
@@ -119,4 +120,7 @@ Når du arbeider med den enheten **Faktisk verdi**, er det viktig at du forstår
 
 Enheten **Transaksjonsopprinnelse** registrerer opprinnelsen til oppføringen **Faktisk verdi**, og enheten **Transaksjonstilkobling** registrerer de relaterte oppføringene for oppføringen **Faktisk verdi**. I tillegg inneholder oppføringen **Faktisk verdi** referanser til prosjektet, prosjektkontrakten (ordre), den bestillbare ressursen og kunden.
 
-![Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner](media/PS-Reporting-image6.png "Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner")
+![Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner.](media/PS-Reporting-image6.png "Diagram som viser transaksjonstilkobling, opprinnelse og faktiske relasjoner")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

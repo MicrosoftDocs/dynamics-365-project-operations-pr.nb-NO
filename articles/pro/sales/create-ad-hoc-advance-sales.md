@@ -1,23 +1,21 @@
 ---
-title: Opprette et adhoc-forskudd på en kontrakt – Lite
+title: Opprette et adhoc-forskudd på en kontrakt
 description: Dette emnet gir informasjon om hvordan du oppretter et forskudd på en kontrakt etter behov.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181374"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999148"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Opprette et adhoc-forskudd på en kontrakt – Lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Opprette et adhoc-forskudd på en kontrakt
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 Microsoft Dynamics 365 Project Operations støtter faktureringsscenarioer som omfatter forskuddsbetaling. Prosessen for å bruke **Forskudd** i **Project Operations** ligner på **Honorar**-kontrakter. 
 
@@ -39,3 +37,6 @@ Fullfør fremgangsmåten nedenfor for å fakturere kunden for et forskudd.
     | **Fakturastatus** | Dette er en alternativ innstilling som angir om dette forskuddet blir lagt til i en kladdefaktura for denne kunden. Mulige verdier er:</br>- **Ikke klar for fakturering**</br>- **Klar for fakturering** | Når en forskuddsbetaling er merket som **Klar til fakturering**, legges den til som en linjetid på en kladdefaktura. Bare et fullt fakturert forskudd kan brukes til å avstemme mot prosjektkostnader for den neste fakturaperioden. |
 
 4. Velg **Lagre og lukk** i dialogboksen hurtigoppretting for å registrere forhåndsbetaling eller forskudd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

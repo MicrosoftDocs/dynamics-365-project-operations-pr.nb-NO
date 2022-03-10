@@ -2,18 +2,16 @@
 title: Behandle kundeemner – Lite
 description: Denne emnet gir informasjon om behandling av prosjektbaserte kundeemner (Pro).
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513801"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991408"
 ---
 # <a name="manage-leads---lite"></a>Behandle kundeemner – Lite
 
@@ -55,7 +53,7 @@ Kundeemner som har **Type**-verdien satt til **Arbeidsbasert**, kalles for prosj
 - En kontaktoppføring som er knyttet til forretningsforbindelsen basert på verdiene i feltene **Fornavn** og **Etternavn** for kundeemnet.
 - En prosjektbasert salgsmulighet som har **Type**-feltet satt til **Arbeidsbasert**.
 
-Hvis du vil ha mer detaljert informasjon om kvalifiserende kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Hvis du vil ha mer detaljert informasjon om kvalifiserende kundeemner, kan du se [Kvalifisere eller konvertere kundeemner](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Forretningsprosessflyt for prosjekt baserte avtaler
 
@@ -72,3 +70,6 @@ Forretningsprosessen for kundeemne til salgsmulighet støtter følgende faser:
 | Utarbeid | Salgsmulighet | Utvikle salgsmuligheten for å legge til mer informasjon om arbeidet som er involvert, viktige interessenter og konkurranse. |
 | Foreslå | Salgsmulighet | Utvikle forslaget, og få godkjennelse fra det interne gjennomgangsteamet. |
 | Lukk | Salgsmulighet | Vinn salgsmuligheten for å lukke avtalen. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

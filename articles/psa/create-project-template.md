@@ -2,8 +2,6 @@
 title: Opprette en prosjektmal
 description: Slik oppretter du en prosjektmal i Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78d25183aad8d86593d3f2582295db59eb84cf14
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1423dfedccfdc471662581707b4441c9ed477f7c0811ccf3905af8c59f774f77
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133200"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990868"
 ---
 # <a name="create-a-project-template-project-service"></a>Opprette en prosjektmal (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -60,3 +60,6 @@ Prosjektmaler spare tid hvis firmaet jevnlig byr på lignende typer prosjekter. 
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

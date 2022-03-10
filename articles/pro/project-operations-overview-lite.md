@@ -2,24 +2,23 @@
 title: Oversikt over Lite-distribusjon
 description: Dette emnet gir informasjon om de Lite-distribusjonen av Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997393"
 ---
 # <a name="lite-deployment-overview"></a>Oversikt over Lite-distribusjon
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-Lite-distribusjonstypen for Dynamics 365 Project Operations har følgende funksjoner for prosjektbaserte selskaper:
+Lite-distribusjonstypen til Dynamics 365 Project Operations har følgende funksjoner for prosjektbaserte selskaper:
 
 - Prosjektplanlegging ved hjelp av Microsoft Project for Internett
 - Flerdimensjonal prissetting og kostnadsberegning for arbeidsressurser
@@ -37,3 +36,6 @@ Bruk denne distribusjonstypen hvis dine forventninger fra Project Operations er 
 - Et integrert system som håndterer interne og fakturerbare prosjekter for tidsplaner og økonomi, fra prosjektsalg til fakturering.
 - Et tredjeparts bedriftsressursplanleggingssystem (ERP/finansregnskapssystem) for å integrere med Project Operations.
 - Et tredjepartssystem til å arbeide med merverdiavgift, valutakurser, utgiftsrefusjoner og ikke-prosjektutgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

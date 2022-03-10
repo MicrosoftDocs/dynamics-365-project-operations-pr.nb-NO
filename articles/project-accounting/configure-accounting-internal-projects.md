@@ -2,18 +2,16 @@
 title: Konfigurere regnskap for interne prosjekter
 description: Dette emnet gir informasjon om hvordan du konfigurerer regnskapspraksiser for interne prosjekter i Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: be1dcd1b6b18591c99c904e0013d9870c7cafe1077fa6e9634f2e9f495190848
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287610"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005538"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Konfigurere regnskap for interne prosjekter
 
@@ -28,6 +26,7 @@ Prosjekter som ikke er knyttet til en kontrakt i Dynamics 365 Project Operations
 
 - Tidstransaksjoner bokføres ved å debitere **Kostnad**-kontoen og kreditere **Lønnstildeling**-kontoen.
 - Utgiftstransaksjoner bokføres ved å debitere **Kostnad**-kontoen og kreditere kontoen **Forskyvningskonto for utgift**.
+- Varetransaksjoner posteres ved å debitere kontoen **Kostnad** og kreditere kontoen **Kostnad – Vare**.
 
 Når transaksjoner er bokført til prosjektet, tilbakefører systemet alle akkumulerte transaksjoner og oppretter nye fakturerbare transaksjoner hvis prosjektet er tilknyttet en prosjektkontrakt. De fakturerbare transaksjonene følger regnskapsreglene som er definert i den respektive kostnads- og omsetningsprofilen for prosjektet.
 

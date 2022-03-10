@@ -2,18 +2,16 @@
 title: Ferdigheter og sertifiseringer
 description: Dette emnet gir informasjon om hvordan du legger til karakteristikker for ferdigheter og sertifiseringer i ressurser.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 68675ca95f78382e7a3702805da840a5c8ef2f50
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279195"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990193"
 ---
 # <a name="skills-and-certifications"></a>Ferdigheter og sertifiseringer
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_

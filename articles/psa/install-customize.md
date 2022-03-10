@@ -2,8 +2,6 @@
 title: Installere og tilpasse
 description: Slik installerer og tilpasser du Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9d482a4e38009f371b877599bc7559bc0e21b9acf57b175081c8618236163585
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284325"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985356"
 ---
 # <a name="install-and-customize-project-service"></a>Installere og tilpasse (Project Service)
 
@@ -34,20 +32,20 @@ ms.locfileid: "5284325"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Installere Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] er en foretrukket løsning. Det finnes flere måter å kjøpe løsningen. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hjelp organisasjonen og brukerne med å komme i gang](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] er en foretrukket løsning. Det finnes flere måter å kjøpe løsningen. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hjelp organisasjonen og brukerne med å komme i gang](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Tilpasse [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-skjemaer og -rapporter  
  Hvis du vil tilpasse noen av skjemaene, instrumentbordene eller rapportene i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], kan du finne mer informasjon i følgende koblinger:  
   
-- [Komme i gang med utvikling og tilpassing av apper](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Komme i gang med utvikling og tilpassing av apper](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Opprette og utforme skjemaer](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Opprette og utforme skjemaer](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Opprette og redigere instrumentbord](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Opprette og redigere instrumentbord](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Opprette og redigere prosesser](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Opprette og redigere prosesser](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Innføring i rapportering og analyse](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Innføring i rapportering og analyse](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Se også  
  [Administratorhåndbok](../psa/admin-guide.md)   

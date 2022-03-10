@@ -2,18 +2,16 @@
 title: Periodetyper
 description: Dette emnet gir informasjon om hvordan du konfigurerer periodetyper for inntektsestimat.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531509"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998788"
 ---
 # <a name="period-types"></a>Periodetyper
 
@@ -34,3 +32,6 @@ Fullfør fremgangsmåten nedenfor for å opprette og arbeide med periodetyper:
 4. Velg oppføring for periodetype, og velg deretter **Generer perioder** for å opprette perioder for periodetypen. Avhengig av periodefrekvensen du valgte, kan det hende at du har mulighet til å spesifisere en startdato eller antall perioder som skal genereres.
 5. Velg **Perioder** for å gjennomgå genererte perioder.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

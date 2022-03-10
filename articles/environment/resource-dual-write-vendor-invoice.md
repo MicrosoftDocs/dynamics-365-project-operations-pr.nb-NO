@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002289"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986503"
 ---
 # <a name="vendor-invoice-integration"></a>Integrering av leverandørfaktura
 
@@ -36,7 +36,7 @@ I Project Operations posteres prosjektrelaterte leverandørfakturaer ved hjelp a
 
 Underordnede avgifter, underleverandører og andre finansielle innlegg registreres etter behov i Dynamics 365 Finance når leverandørfakturaen posteres.
 
-![Integrering av leverandørfaktura](media/DW7VendorInvoice.png)
+![Integrering av leverandørfaktura.](media/DW7VendorInvoice.png)
 
 Når oppføringer skrives til en **leverandørfaktura**-enhet i Dataverse, starter en automatisert godkjenningsprosess for oppføringene. Hvis det er nødvendig, kan den automatiserte godkjenningsprosessstatusen gjennomgås i Dataverse ved å gå til **Avanserte innstillinger** > **System** > **Systemjobber**. Når godkjenningen er fullført, opprettes oppføringer for materialtransaksjonsklasse i **Faktiske verdier**-enheten.
 

@@ -2,8 +2,6 @@
 title: Prosjektfasetyper
 description: Denne emnet gir informasjon om prosjektfaser.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081671"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996898"
 ---
 # <a name="project-stage-types"></a>Prosjektfasetyper 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -63,3 +63,6 @@ Når arbeidet for prosjektet er fullført, kan prosjekt lederen oppdatere fasen 
 ## <a name="close"></a>Lukk
 
 Når alle transaksjoner er registrert for prosjektet, kan prosjektlederen oppdatere fasen til **Lukk**. På dette tidspunktet kan det ikke registreres noen transaksjoner, og prosjektet er skrivebeskyttet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

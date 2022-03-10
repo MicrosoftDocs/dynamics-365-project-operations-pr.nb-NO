@@ -2,10 +2,9 @@
 title: Startside for ressursbehandling
 description: Dette emnet gir informasjon om hvordan du behandler ressuser.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/28/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1a48dc3c814cfaaa08ba8c00834b0b37d6fbc5a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a55b0f7c8190fd88017851a8e7c9b44cefacb483cd563f6f94110a7421de5d1d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081841"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998203"
 ---
 # <a name="resource-management-home-page"></a>Startside for ressursbehandling
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -39,3 +40,6 @@ Ressurser er det viktigste aktivaet i en tjenestebasert organisasjon. Muligheten
 - [Foreta en ikke-forpliktende bestilling på krav](resource-management-softbook-requirements.md)
 - [Ferdighets- og kunnskapsmodeller](resource-management-skills-proficiency.md)
 - [Vanlige spørsmål om ressursbehandling](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

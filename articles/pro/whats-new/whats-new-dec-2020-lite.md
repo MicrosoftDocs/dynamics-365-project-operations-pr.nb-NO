@@ -2,19 +2,17 @@
 title: Nyheter desember 2020 – Project Operations Lite-distribusjon – avtale til proformafakturering
 description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i desember 2020-versjonen av Project Operations Lite-distribusjon – avtale til proformafakturering.
 author: sigitac
-manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 383fa01a7d79989aef041a8fd68749446aeba367
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 81a5556e98d333fa86d73b1c7f03245a23a454372168f8bd7c79fc4425387734
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272220"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009363"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nyheter desember 2020 – Project Operations Lite-distribusjon – avtale til proformafakturering
 

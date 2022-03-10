@@ -2,16 +2,16 @@
 title: Opprette en arbeidsnedbrytningsstruktur
 description: Dette emnet forklarer hvordan du oppretter en WBS-avtale om arbeidsplass for de grunnleggende kontrollene i det nye planleggingsgrensesnittet.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005713"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928627"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opprette en arbeidsnedbrytningsstruktur (WBS)
 
@@ -95,7 +95,7 @@ Som en administrator kan du definere egendefinerte felter for oppgaveenheten. Fe
 
 ## <a name="staffing-attributes"></a>Bemanningsattributter
 
-Du får tilgang til attributter for bemanning via **Ressurser**-feltet i tidsplanen. Du kan søke etter en eksisterende ressurs, eller velge **Opprett** og legge til et prosjektteammedlem som en ny ressurs i **Hurtigoppretting**-ruten.
+Du får tilgang til attributter for bemanning via **Ressurser**-feltet i tidsplanen. Du kan søke etter en eksisterende ressurs, eller velge **Opprett** og legge til et prosjektteammedlem som en ny ressurs i **Hurtigoppretting**-ruten.  Når du søker etter en ressurs ved hjelp av ressursvelgeren i oppgaverutenettet, tavlevisningen eller Gantt, returnerer søket enten eksisterende prosjektteammedlemmer eller aktive ressurser som kan reserveres.
 
 Feltene **Rolle**, **Ressursenhet** og **Stillingsnavn** brukes til å beskrive bemanningskravene for oppgaven. Disse bemanningsattributtene sammen med oppgaveplanen brukes til å finne tilgjengelige ressurser for denne oppgaven.
 
@@ -117,5 +117,27 @@ Oppgavemodusen har ingen innvirkning på oppdateringer som utføres på start- o
 
 Rutenettet **Tidsplan** er fullt tilgjengelig og kan brukes med skjermlesere, for eksempel Narrator, JAWS eller NVDA. Du kan bla gjennom rutenettområdet ved hjelp av piltastene (som i Microsoft Excel), du kan bruke TAB-tasten til å gå gjennom de interaktive brukergrensesnittelementene, og du kan bruke pil ned-tasten, ENTER-tasten eller mellomromstasten til å velge og åpne rullegardinmenyene.
 
+## <a name="project-limitations"></a>Prosjektbegrensninger 
+Du må være oppmerksom på følgende begrensninger hvis du bruker arbeidsnedbrytningsstrukturen i Project Operations. Disse grensene gjelder for prosjekter og oppgaver. Hvis du vil ha mer informasjon, kan du se [Grenser og begrensninger for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Felt**                                          |  **Grense**           |
+|----------------------------------------------------|----------------------|
+| Maksimalt antall oppgaver for et prosjekt                  | 500                  |
+| Maksimal total varighet for et prosjekt               | 3650 dager (10 år) |
+| Maksimalt antall ressurser for et prosjekt              | 150                  |
+| Maksimalt antall koblinger (bare etterfølgende) for et prosjekt | 600                  |
+| Maksimalt antall egendefinerte felter for et prosjekt          | 10                   |
+| Maksimalt antall sjekklisteelementer per oppgave                   | 20                   |
+
+**Oppgavebegrensninger**
+
+| **Felt**                               |   **Grense**           |
+|-----------------------------------------|-----------------------|
+| Maksimalt antall hierarkinivåer                 | 10 nivåer             |
+| Maksimal antall koblinger (etterfølgene + foregående) | 20                    |
+| Maksimal varighet for bladoppgave           | 1250 dager             |
+| Maksimal varighet for en sammendragsoppgave      | 3650 dager (10 år)  |
+| Maksimalt antall ressurser tilordnet til en oppgave    | 20 ressurser          |
+| Støttet datointervall for en oppgave         | 1/1/2000 til 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

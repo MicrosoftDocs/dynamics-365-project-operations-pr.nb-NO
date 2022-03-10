@@ -2,10 +2,9 @@
 title: Hva er Dynamics 365 Project Service Automation?
 description: Introduksjon og oversikt for Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000273"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Hva er Dynamics 365 Project Service Automation?
 
@@ -47,10 +46,10 @@ I tillegg til å overvåke og kontrollere kostnader for det prosjektbaserte arbe
 ## <a name="whats-new-in-psa"></a>Nyheter i PSA
 Teamet har gleden av å kunngjøre de nyeste oppdateringene! Disse omfatter forbedringer i brukergrensesnittet, feilrettinger og tilføyelse av viktige nye funksjoner og egenskaper. Du spurte, vi lyttet.
 
-Ta en titt på [produktmerknadene fra oktober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) for å se de nyeste forbedringene og tilleggene våre.
+Ta en titt på [produktmerknadene fra oktober 2019](/dynamics365-release-plan/2019wave2/index) for å se de nyeste forbedringene og tilleggene våre.
 
 ### <a name="in-development"></a>Under utvikling
-Hvis du vil se hva vi har planlagt i nær fremtid, kan du gå til [lanseringsbølge 1 for Dynamics 365: 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Hvis du vil se hva vi har planlagt i nær fremtid, kan du gå til [lanseringsbølge 1 for Dynamics 365: 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Få hjelp med PAS versjon 3.x
 Ser du etter ressurser for å planlegge implementeringen? Se nærmere på disse nedlastbare veiledningene.
@@ -83,7 +82,7 @@ Ser du etter ressurser for å planlegge implementeringen? Se nærmere på disse 
  [Merknader for utviklere (appversjon 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Se en oversiktsvideo på 2 minutter
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
 

@@ -2,18 +2,16 @@
 title: Produktbaserte tilbudslinjer for kostberegning
 description: Dette emnet inneholder informasjon om bruk av en kostpris på en produktbasert tilbudslinje.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 17b377eab5bcbc1a2327cb3ff87cc75d8de40953
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081523"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001893"
 ---
 # <a name="costing-product-based-quote-lines"></a>Produktbaserte tilbudslinjer for kostberegning
 
@@ -33,3 +31,6 @@ Eksempel:
 Fabrikam Robotics installerer robotarmer på samlebåndene til A Datum Corporation. Fabrikam leverer installasjonstjenester, men robotarmene blir skaffet fra Trey Robotics. Hvis installasjonen av robotarmer hos A Datum Corporation åpner en ny bransjevertikal for Treys robotarmer, kan Trey gi en spesiell rabatt på denne avtalen til Fabrikam.
 
 I dette tilfellet vil Fabrikam opprette en produktbasert tilbudslinje for robotarmer og angi en spesiell kostnad per enhet for dette tilbudet. Denne kostnaden er forskjellig fra standardkostnaden for Trey Robotic Arms.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

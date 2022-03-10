@@ -2,8 +2,6 @@
 title: Opprette en Office 365-gruppe for et prosjekt
 description: Slik oppretter du en Office 365-gruppe i Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c6b4fbff2f67c7c57d5973489e343cb8bc5025e9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 88ae5eb298e802fdcff24bae378e406d1bc478a63ea37e5bc5d477d137826877
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290461"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004998"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>Opprette en Office 365-gruppe for et prosjekt (Project Service)
 

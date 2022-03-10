@@ -2,18 +2,17 @@
 title: Distribusjonsoversikt for Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 description: Dette emnet gir informasjon om distribusjonstypen Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365566"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009723"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Distribusjonsoversikt for Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -43,3 +42,6 @@ Denne distribusjonen bør velges når forventningene til Project Operations er p
 - Krever en rik mva- og valutakursmotor i bedriftsklassen for å generere kunderettede fakturaer for prosjekter.
 - Et IFRS-kompatibelt system (International Financial Reporting Standards) for prosjektregnskap og inntektsføring.
 - Finance- eller Supply Chain Management-programmer og integrasjon av prosjektrelaterte transaksjoner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

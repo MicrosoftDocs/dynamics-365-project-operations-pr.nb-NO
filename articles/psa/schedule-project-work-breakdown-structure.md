@@ -2,8 +2,6 @@
 title: Planlegge et prosjekt med en arbeidsnedbrytningsstruktur
 description: Slik planlegger du et prosjekt med en arbeidsnedbrytningsstruktur i Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127890"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996808"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planlegge et prosjekt med en arbeidsnedbrytningsstruktur (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -150,3 +150,6 @@ Når du oppretter en arbeidsnedbrytningsstruktur, skal du bruke følgende typer 
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederveiledning](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

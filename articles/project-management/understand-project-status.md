@@ -2,18 +2,16 @@
 title: Forstå prosjektstatus
 description: Dette emnet inneholder informasjon om statusen som er tilordnet prosjekter i Dynamics 365 Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fc9b107507008fd2381d3669552d754d2c867a7f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 47d71b945a2d5e7aa41d2ac3731ac4a5d3051ce279229794e31c9673f688130e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286485"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997033"
 ---
 # <a name="understand-project-status"></a>Forstå prosjektstatus
 

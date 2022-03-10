@@ -1,30 +1,29 @@
 ---
-title: Bruke API-er for tidsplan til å utføre operasjoner med planleggingsenheter
-description: Dette emnet inneholder informasjon og eksempler for bruk av API-er for tidsplan.
+title: Bruk API-er for prosjektplan til å utføre operasjoner med planleggingsenheter
+description: Dette emnet inneholder informasjon og eksempler for bruk av API-er for prosjektplan.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116809"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487697"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Bruke API-er for tidsplan til å utføre operasjoner med planleggingsenheter
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Bruk API-er for prosjektplan til å utføre operasjoner med planleggingsenheter
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-> [!IMPORTANT] 
-> Noen av eller alle funksjonene som er angitt i dette emnet, er tilgjengelig som en del av en forhåndsversjon. Innholdet i og funksjonaliteten kan endres. 
+
 
 ## <a name="scheduling-entities"></a>Planleggingsenheter
 
-API-er for planlegging gjør det mulig å utføre operasjoner for oppretting, oppdatering og sletting med **planleggingsenheter**. Disse enhetene administreres via planleggingsmotoren i Project for the web. Oppretting, oppdatering og sletting med **planleggingsenheter** var begrenser i tidligere versjoner av Dynamics 365 Project Operations.
+API-er for prosjektplan gir mulighet til å utføre operasjoner for oppretting, oppdatering og sletting med **planleggingsenheter**. Disse enhetene administreres via planleggingsmotoren i Project for the web. Oppretting, oppdatering og sletting med **planleggingsenheter** var begrenser i tidligere versjoner av Dynamics 365 Project Operations.
 
-Tabellen nedenfor viser en fullstendig liste over **planleggingsenhetene**.
+Tabellen nedenfor viser en fullstendig liste over prosjekttidsplanens enheter.
 
 | Enhetsnavn  | Logisk navn for enhet |
 | --- | --- |
@@ -39,19 +38,19 @@ Tabellen nedenfor viser en fullstendig liste over **planleggingsenhetene**.
 
 OperationSet er et enhetsarbeidsmønster som kan brukes når flere forespørsler som påvirker tidsplanen, må behandles i en transaksjon.
 
-## <a name="schedule-apis"></a>API-er for planlegging
+## <a name="project-schedule-apis"></a>API-er for prosjektplan
 
-Nedenfor vises en liste over gjeldende API-er for planlegging.
+Nedenfor vises en liste over gjeldende API-er for prosjektplan.
 
 - **msdyn_CreateProjectV1:** Denne API-en kan brukes til å opprette et prosjekt. Prosjektet og standard prosjektsamling opprettes umiddelbart.
 - **msdyn_CreateTeamMemberV1:** Denne API-en kan brukes til å opprette et prosjektteammedlem. Teammedlemsoppføringen opprettes umiddelbart.
 - **msdyn_CreateOperationSetV1**: Denne API-en kan brukes til å planlegge flere forespørsler som må utføres i en transaksjon.
-- **msdyn_PSSCreateV1**: Denne API-en kan brukes til å opprette en enhet. Enheten kan være en hvilken som helst av planleggingsenhetene som støtter opprettingsoperasjonen.
-- **msdyn_PSSUpdateV1**: Denne API-en kan brukes til å oppdatere en enhet. Enheten kan være en hvilken som helst av planleggingsenhetene som støtter oppdateringsoperasjonen.
-- **msdyn_PSSDeleteV1**: Denne API-en kan brukes til å slette en enhet. Enheten kan være en hvilken som helst av planleggingsenhetene som støtter sletteoperasjonen.
+- **msdyn_PSSCreateV1**: Denne API-en kan brukes til å opprette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter opprettingsoperasjonen.
+- **msdyn_PSSUpdateV1**: Denne API-en kan brukes til å oppdatere en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter oppdateringsoperasjonen.
+- **msdyn_PSSDeleteV1**: Denne API-en kan brukes til å slette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter sletteoperasjonen.
 - **msdyn_ExecuteOperationSetV1**: Denne API-en brukes til å kjøre alle operasjonene i det angitte operasjonssettet.
 
-## <a name="using-schedule-apis-with-operationset"></a>Bruke API-er for tidsplan med OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Bruk av API-er for prosjektplan med OperationSet
 
 Ettersom oppføringer med både **CreateProjectV1** og **CreateTeamMemberV1** opprettes umiddelbart, kan ikke disse API-ene brukes direkte i **OperationSet**. Du kan imidlertid bruke API-en til å opprette nødvendige oppføringer, opprette et **OperationSet** og deretter bruke disse forhåndsopprettede oppføringene i **OperationSet**.
 
@@ -257,7 +256,7 @@ Tabellene nedenfor definerer feltene som er begrenset fra **Opprett** og **Redig
 ## <a name="limitations-and-known-issues"></a>Begrensninger og kjente problemer
 Nedenfor vises en liste over begrensninger og kjente problemer:
 
-- API-er for planlegging bare brukes av **brukere med Microsoft Project-lisens.** De kan ikke brukes av følgende:
+- API-er for prosjektplan kan bare brukes av **brukere med Microsoft Project-lisens.** De kan ikke brukes av følgende:
     - Applikasjonsbrukere
     - Systembrukere
     - Integreringsbrukere
@@ -271,7 +270,7 @@ Nedenfor vises en liste over begrensninger og kjente problemer:
 ## <a name="error-handling"></a>Feilbehandling
 
    - Hvis du vil se gjennom feil som genereres fra operasjonssettene, går du til **Innstillinger** \> **Planlegg integrasjon** \> **Operasjonssett**.
-   - Hvis du vil se gjennom feil som genereres fra prosjektplanleggingstjenesten, går du til **Innstillinger** \> **Planlegg integrasjon** \> **PSS-feillogger**.
+   - Hvis du vil se gjennom feil som genereres fra prosjektplantjenesten, går du til **Innstilling** \> **Planlegg integrering** \> **PSS-feillogger**.
 
 ## <a name="sample-scenario"></a>Eksempelscenario
 

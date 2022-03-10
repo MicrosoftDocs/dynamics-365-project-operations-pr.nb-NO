@@ -2,11 +2,9 @@
 title: Opprette og bekrefte korrigeringsjournaler
 description: Dette emnet gir informasjon om hvordan du oppretter og bekrefter en korrigeringsjournal.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081617"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986728"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Opprette og bekrefte korrigeringsjournaler
 
@@ -89,3 +87,6 @@ Fullfør fremgangsmåten nedenfor for å korrigere én eller flere utgiftsoppfø
 8. På prosjektsiden, i kategorien **Faktiske verdier**, går du gjennom **Tilknyttet visning for faktiske data**. De opprinnelige oppføringene og de korrigerte oppføringene vises. Følgende grafikk viser opprinnelige utgiftsoppføringsbeløp og tilhørende korrigerte utgiftsoppføringsbeløp. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

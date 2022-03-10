@@ -2,12 +2,10 @@
 title: Opprette egendefinerte felt og enheter
 description: Dette emnet forklarer hvordan du oppretter alternativsett og enheter i din egen løsning på Power Apps-plattformen.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144875"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992443"
 ---
 # <a name="create-custom-fields-and-entities"></a>Opprette egendefinerte felt og enheter 
 
@@ -45,7 +43,7 @@ En prisdimensjon kan være et alternativsett eller en enhet. Begge må opprettes
 2. I Løsningsutforsker, i den venstre navigasjonsruten, velger du **Enheter**.
 3. Klikk **Ny** for å opprette en ny enhet kalt **Standardtittel**. Angi resten av den nødvendige informasjonen, og klikk deretter **Lagre**.
 
-> ![Standard enhetsdefinisjon for tittel](media/Standard-Title-entity-definition.png)
+> ![Standard enhetsdefinisjon for tittel.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Alternativsettbaserte dimensjoner 
@@ -56,9 +54,9 @@ Du kan opprette to alternativsettbaserte dimensjoner. Bruk **Arbeidssted for res
 2. I Løsningsutforsker, i den venstre navigasjonsruten, velger du **Alternativsett**. 
 3. Klikk **Ny** for å opprette et nytt alternativsett, angi den gjenstående nødvendige informasjonen, og klikk deretter **Lagre**.
 
-> ![Alternativsettbasert prisdimensjon kalt Arbeidssted for ressurs ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Alternativsettbasert prisdimensjon kalt Arbeidssted for ressurs.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Alternativsettbasert prisdimensjon kalt Arbeidstimer for ressurs ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Alternativsettbasert prisdimensjon kalt Arbeidstimer for ressurs.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Opprette data for enhetsbaserte dimensjoner
@@ -70,6 +68,9 @@ Du kan opprette data for en enhetsbasert dimensjon manuelt eller ved å bruke im
 3. Lukk skjemaet. 
 4. Gjenta trinn 1-3 for å opprette en ny standardtittel for "Overordnet systemingeniør".
 
-> ![Eksempeldata for enheten Standardtittel ](media/ST-data.png)
+> ![Eksempeldata for enheten Standardtittel.](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

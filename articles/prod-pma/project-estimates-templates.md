@@ -2,11 +2,9 @@
 title: Synkronisere prosjektestimater direkte fra Project Service Automation til Finance and Operations
 description: Dette emnet beskriver malene og de underliggende oppgavene som brukes til å synkronisere estimater for prosjekttimer og prosjektutgifter direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289471"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988213"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisere prosjektestimater direkte fra Project Service Automation til Finance and Operations
 
@@ -40,7 +38,7 @@ Project Service Automation til Finance-integreringsløsningen bruker funksjonen 
 
 Illustrasjonen nedenfor viser hvordan dataene synkroniseres mellom Project Service Automation og Finance.
 
-[![Dataflyt for Project Service Automation-integrasjon med Finance](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Dataflyt for Project Service Automation-integrasjon med Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Estimater for prosjekttimer
 
@@ -97,7 +95,7 @@ Du må legge til et filter for å fjerne alle rader som har tomme transaksjonska
 
 Illustrasjonen nedenfor viser et eksempel på maloppgavetilordningen i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 
-[![Tilordning av maloppgave i dataintegrering](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Tilordning av maloppgave i dataintegrering.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Prosjektets utgiftsestimater
 
@@ -167,9 +165,9 @@ Hvis ikke er det **Null**
 
 Illustrasjonene nedenfor viser eksempler på maloppgavetilordningene i dataintegrering. Tilordningen viser feltinformasjonen som blir synkronisert fra Project Service Automation til Finance.
 
-[![Maltilordning for utgiftsestimattransaksjoner](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Maltilordning for utgiftsestimattransaksjoner.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Maltilordning for utgiftsestimater](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![Maltilordning for utgiftsestimater.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: Nyskapte utgiftsrapporter
-description: Dette emnet gir informasjon om den nyutformede og nyskapte opplevelsen for oppføring av reiseregninger.
+title: Nyskapte utgiftsrapporter (inneholder video)
+description: Denne emne forklarer den nye utformingen og nyskapte opplevelsen for innlegging av utgiftsrapport.
 author: suvaidya
-manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122808"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941034"
 ---
 # <a name="expense-reports-reimagined"></a>Nyskapte utgiftsrapporter
 
@@ -28,30 +26,26 @@ Oppføring av reiseregninger har blitt utformet på nytt for å forenkle prosess
 
 - Et nytt arbeidsområde for reiseregning som gjør det mulig å få tilgang til representantens utgifter.
 - En ny kvitteringsfunksjon som passer bedre til å vise kvitteringer på hodenivå, og forenkle prosessen med å knytte kvitteringer til utgiftslinjer.
-- Et nytt skrivebeskyttet rutenett som gjør det mulig å vise mange flere utgiftslinjer og flere kolonner med data. Nå kan du se alle spesifiserte linjer og dele linjer, sammen med de overordnede utgiftene.
+- Et nytt skrivebeskyttet rutenett som gjør det mulig å vise mange flere utgiftslinjer og andre kolonner med data. Nå kan du se alle spesifiserte linjer og dele linjer, sammen med de overordnede utgiftene.
 - En forenklet rute for redigering av utgifter.
 - Nyutformede feil, advarsler og policymeldinger for å gi den rette konteksten og forstå problemet og hvordan det kan løses. Vi har fjernet flere av meldingene som ble vist før brukerne kunne fullføre oppgavene sine og løse problemene.
 - En ny side for å angi obligatoriske felt, valgfrie felt og felt som ikke skal tas med. På denne siden kan du redusere antall felt som må angis.
 - Et nytt utseende og en ny stil for reiseregninger, slik at rapportene ikke lenger ser ut som om de ble utformet for regnskapsansatte.
 
-Hvis du vil aktivere den nye opplevelsen, bruker du arbeidsområdet **Funksjonsbehandling** til å aktivere den nyskapte funksjonen **Reiseregning**. Når du aktiverer denne funksjonen, oppstår følgende handlinger:
+Hvis du vil aktivere den nye opplevelsen, bruker du arbeidsområdet **Funksjonsbehandling** til å aktivere funksjonen for **arbeidsområdet Nyskapte utgiftsrapporter**. Når du aktiverer denne funksjonen, oppstår følgende handlinger:
 
 - Det eksisterende arbeidsområdet for utgifter erstattes av det nye arbeidsområdet.
 - Det legges til et nytt menyelement for synlighet for utgiftsfelt.
 - Ingen eksisterende menyelementer for reiseregninger (den eksisterende siden) eller felt for reiseregninger fjernes.
 - Arbeidsflyter og godkjenninger fører deg fremdelses til den eksisterende reiseregningssiden.
 
-## <a name="getting-started-video-for-new-users"></a>Komme-i-gang-video for nye brukere
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Utgiftsopplevelsen i Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0)-videoen (vist ovenfor) er inkludert i [Finance and Operations-spillelisten](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) tilgjengelig på YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nye funksjoner
 
 | Ny funksjon | Beskrivelse |
 |---|----|
-| Synlighet for utgiftsfelt | På en ny konfigurasjonsside kan du angi hvilke felt som skal deaktiveres for en organisasjon, hvilke felt som må være obligatoriske, og hvilke felt som er anbefalt. |
+| Synlighet for utgiftsfelt | På en ny installasjonsside kan du angi hvilke felter som skal deaktiveres for en organisasjon. Du kan også angi hvilke felter som skal være obligatoriske, og hvilke felter som anbefales. |
 | Obligatoriske felter | Med en ny enkel konfigurasjon kan du gjøre noen felt obligatoriske uten å måtte bruke policyrammeverket. |
 | Valgfrie felt | Det er lagt til en ny side for valgfrie felt. På denne måten slipper de ansatte føle at de er nødt til å angi feltene, men feltene er fortsatt enkelt tilgjengelige. |
 | Legg til kvitteringer som ikke er vedlagt | Muligheten til å legge til kvitteringer som ikke er vedlagt, i reiseregningen er mer synlig fra arbeidsområdet og i utgiftsrapporten. |
@@ -59,22 +53,25 @@ Hvis du vil aktivere den nye opplevelsen, bruker du arbeidsområdet **Funksjonsb
 | Reduksjon i meldinger på meldingslinjen| Antallet infologg-meldinger ble redusert, og det ble gjort et forsøk på å forhindre at duplikate meldinger vises i mange tilfeller. |
 | Vanlige handlinger gruppert sammen | Grensesnittet ble renset da det ble lagt til en ny handlingsknapp for de fleste vanlige handlinger på linjenivå, og tillegging av en ellipseknapp (...) for hodet og andre sjeldnere handlinger. |
 | Nytt arbeidsområde for å øke synligheten | Et nytt arbeidsområde ensretter funksjoner og koblinger som gjør det mulig for brukerne å flytte til forskjellige områder. |
-| Legg til eksisterende utgifter og kvitterringer under oppretting av utgift | Når du oppretter reiseregninger, kan du legge til alle eller valgte utgifter og kvitteringer. |
+| Legg til eksisterende utgifter og kvitterringer under oppretting av utgift | Når du oppretter utgiftsrapporter, kan du legge til alle utgifter eller velge ikke-tilknyttede utgifter. Ikke-tilknyttede utgifter er utgifter som ble importert fra feeden for bedriftskredittkortet, eller utgifter som ble manuelt opprettet av brukeren, men som ikke er knyttet til en utgiftsrapport.|
 | Valutakalkulator | En valutakalkulator er lagt til, slik at du kan beregne valutakursen for direkte transaksjoner med flere valutaer. |
 | Lagre og legg til nye utgiftslinjer | Knappene **Lagre** og **Ny** er tilgjengelige når nye utgifter angis, for å hjelpe deg med å angi utgiftslinjer raskt. |
 | Bedre oversikt over delte og spesifiserte linjer | Spesifiserte og delte linjer blir lagt til direkte i listen over utgifter for å øke synligheten og hjelpe deg med å avgjøre om det er noen feil. |
+| Vis detaljer om underkategori på varelinjer | Spesifiseringslinjer for en overordnet utgift viser underkategorietikettene i utgiftsrapporten. Med spesifisering kan du raskt se gjennom de detaljerte detaljene.|
+|Angi regelmessige utgifter raskt | Det nyskapte arbeidsområdet for utgifter gjør det mulig å hurtig spesifisere regelmessige utgifter ved å legge til underkategori, startdato og antall. Antallet refererer til antall ganger utgiften gjentas i en sammenhengende periode. |
 | Vis kvitteringer under spesifisering | Kvitteringer kan vises under spesifisering. |
+| Kontantforskuddvalg | Velg ett eller flere forskudd for å utføre én enkelt utgiftstransaksjon. |
+| Kontantforskuddsaldo | Gå gjennom forskuddssaldoen i sanntid når du oppretter en utgiftsoppføring mot godkjente og betalte forskudd. |
 
 Den første lanseringen er fokusert på scenarioer for utgiftsregistrering. Et gjennomgangs- eller godkjenningsscenario av reiseregninger vil fortsette å bruke den eksisterende siden for utgiftsoppføring.
 
-Følgende funksjoner finnes på den eksisterende siden, men fortsatt ikke på den nye siden. Disse funksjonene vil bli innført på nytt i de neste utgivelsene:
 
-- Godkjenninger
-- Godkjenning av leverandørgjelde og muligheten til å redigere regnskapet
-- Flere oppføringspunkter
+Følgende funksjoner støttes ikke i arbeidsområdet Nyskapte utgiftsrapporter, men er planlagt for fremtidige versjoner: 
+
 - Integrering av reiserekvisisjon
-- Dataenhet for synlighet av utgiftsfelt
-- Oppføring for kostgodtgjørelsesutgifter
-- Arbeidsflyt på linjenivå
+- Utgiftsoppføring for kostgodtgjørelse
 - Midlertidig godkjennerstøtte
-- Avansert spesifisering
+- Mulighet til å vise arbeidsflytlogg
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

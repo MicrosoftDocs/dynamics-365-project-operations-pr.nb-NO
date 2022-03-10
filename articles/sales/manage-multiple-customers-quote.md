@@ -2,18 +2,16 @@
 title: Administrere flere kunder i et prosjekttilbud
 description: Dette emnet inneholder informasjon om å arbeide med tilbud som involverer flere kunder som vil finansiere prosjektet.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277890"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991993"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Administrere flere kunder i et prosjekttilbud
 

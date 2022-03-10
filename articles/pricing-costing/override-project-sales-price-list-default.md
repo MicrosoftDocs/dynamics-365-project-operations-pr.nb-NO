@@ -2,19 +2,17 @@
 title: Overstyre salgsprislister for prosjekt
 description: Dette emnet gir informasjon om hvordan du oppretter egendefinerte prislister for salg.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17a86e89f626cef720fe3c8db0cbd8d6a2a3ddd5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275550"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009588"
 ---
 # <a name="override-project-sales-price-lists"></a>Overstyre salgsprislister for prosjekt
 

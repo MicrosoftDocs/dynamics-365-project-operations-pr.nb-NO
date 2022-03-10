@@ -2,18 +2,16 @@
 title: Administrasjon av komplekse enheter, for eksempel per bruker, per måned for produktbaserte tilbudslinjer – Lite
 description: Dette emnet gir informasjon om administrasjon av komplekse enheter for produktbaserte tilbudslinjer.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d53dde1d3b2705c5b0283f989d0e2eebfdcb5a0eb5f91cf4bf48e9c07aba79d1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175588"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989788"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Administrasjon av komplekse enheter, for eksempel per bruker, per måned for produktbaserte tilbudslinjer – Lite
 
@@ -45,3 +43,6 @@ Følg denne fremgangsmåten for å opprette antallsfaktorer fra produktegenskape
 6. Lagre og lukk skjemaet. Gjenta disse trinnene for alle egenskaper som skal brukes til å beregne antallet for den produktbaserte tilbudslinjen.
 
 Når du oppretter en produktbasert tilbudslinje for et produkt, blir antallet på tilbudslinjen låst. Antallet beregnes som et produkt av egenskapsverdiene som du har lagt inn for tilbudslinjen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

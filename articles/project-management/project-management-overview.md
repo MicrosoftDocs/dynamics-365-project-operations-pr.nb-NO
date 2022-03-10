@@ -1,19 +1,18 @@
 ---
 title: Oversikt over prosjektstyring
-description: Dette emnet gir informasjon om prosjektledelse i Dynamics 365 Project Operations.
+description: Denne emnet gir informasjon om prosjektstyring i Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de7b77bbb0f6e8f7c55aadc35d1f732f37d56615
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081470"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991004"
 ---
 # <a name="project-management-overview"></a>Oversikt over prosjektstyring
 
@@ -26,3 +25,6 @@ Verktøyene for prosjektstyring i Dynamics 365 Project Operations hjelper deg me
 - Bruke prosjektestimater under salgsprosessen.
 - Forutsi ressurskrav for prosjekter som er i forløpet.
 - Levere prosjekter ved å spore fremdrift og kostnadsforbruk.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

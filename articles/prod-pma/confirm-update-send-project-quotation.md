@@ -2,11 +2,9 @@
 title: Bekrefte, oppdatere og sende et prosjekttilbud
 description: Dette emnet gir informasjon om hvordan du sender et tilbud til kunden for bekreftelse, endrer det basert på tilbakemelding, og deretter sender tilbudet på nytt.
 author: ruhercul
-manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df7bfd7c57b7a273a94e49fcf3834072a8eb20b0ed598a144cefaff41e28a431
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081758"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991273"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Bekrefte, oppdatere og sende et prosjekttilbud
 
@@ -57,3 +55,6 @@ Hvis du vil endre et eksisterende prosjekttilbud, må tilbudsstatusen være **Op
 
 > [!NOTE]
 > Du kan ikke endre et prosjekttilbud etter at statusen er endret til **Sendt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

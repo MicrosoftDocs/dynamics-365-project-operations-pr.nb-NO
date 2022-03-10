@@ -1,21 +1,19 @@
 ---
-title: Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje
+title: Konfigurere belastbare komponenter for en prosjektkontraktlinje
 description: Dette emnet gir informasjon om inkluderte, belastbare og ikke-belastbare komponenter på kontraktlinjer.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2266d8e0fe998e7161ede4cb4eaf7d3c70c54f71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278702"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004053"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurere belastbare komponenter for en prosjektbasert kontraktlinje
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfigurere belastbare komponenter for en prosjektkontraktlinje
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369388"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005403"
 ---
 # <a name="intercompany-invoicing-overview"></a>Oversikt over konsernintern fakturering
 
@@ -22,7 +22,7 @@ Det kan hende at organisasjonen har flere divisjoner, datterselskaper og andre j
 
 Illustrasjonen nedenfor viser et typisk scenario der to juridiske enheter, Contoso Robotics USA (den juridiske enheten som låner) og Contoso Robotics UK (den juridiske enheten som låner ut), deler ressurser for å levere et prosjekt for kunden, Adventure works. I dette scenariet skal Contoso Robotics USA, i henhold kontrakten, levere arbeidet til Adventure Works.
 
-![Konsernintern fakturering](./media/IntercompanyScenario.png) 
+![Konsernintern fakturering.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations bruker følgende flyt til å behandle konserninterne transaksjoner:
 
@@ -35,11 +35,11 @@ Dynamics 365 Project Operations bruker følgende flyt til å behandle konsernint
 
 Følgende diagram illustrerer konsernintern fakturering som det relaterer til regnskapshendelser og forventede posteringer til økonomimodulen.
 
-![Konsernintern flyt](./media/IntercompanyFlow.png)
+![Konsernintern flyt.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Ytterligere ressurser
 
-- [Konfigurere konsernintern fakturering](configure-intercompany-invoicing.md)
+- [Konfigurer konsernintern fakturering](configure-intercompany-invoicing.md)
 - [Registrere konserninterne transaksjoner](create-intercompany-transactions.md)
 - [Opprette konserninterne kunde- og leverandørfakturaer](create-intercompany-customer-vendor-invoices.md)
 

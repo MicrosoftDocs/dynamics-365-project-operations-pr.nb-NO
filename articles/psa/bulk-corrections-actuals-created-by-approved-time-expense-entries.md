@@ -2,10 +2,8 @@
 title: Massekorrigeringer av faktiske verdier som er opprettet av godkjente tids- og utgiftsoppføringer
 description: Dette emnet forklarer hvordan en administrator kan utføre én korrigering eller massekorringeringer i tidligere godkjente tids- eller utgiftsoppføringer hvis fakturering ikke er fullført.
 author: rumant
-manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -18,14 +16,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081796"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995413"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Massekorrigeringer av faktiske verdier som er opprettet av godkjente tids- og utgiftsoppføringer
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Noen ganger kan en tids- eller utgiftsoppføring være angitt feil. En konsulent kan for eksempel velge feil dato ved oppretting av en tidsoppføring, eller de kan transponere tallene ved angivelse av en utgift. Hvis en konsulent ikke kan gjøre oppdateringene til de sendte oppføringene, kan en administrator direkte korrigere oppføringen for et prosjekt.
 
@@ -62,7 +62,7 @@ Fullfør fremgangsmåten nedenfor for å rette én eller flere tidsoppføringer 
 
 I følgende grafikk er det for eksempel to linjeelementer med et antall på 8,00 som har debiteringer oppført i Beløp-kolonnen. I tillegg finnes det to linjeelementer med et antall på -8,00 som viser krediterte beløp i Beløp-kolonnen. Disse korrigeringene får antallet til å bli null.
 
-![Listen Tilknyttet visning for faktiske data](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Listen Tilknyttet visning for faktiske data.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Korrigere godkjente utgiftsoppføringer
 
@@ -87,4 +87,7 @@ Fullfør fremgangsmåten nedenfor for å korrigere én eller flere utgiftsoppfø
 
 8. På prosjektsiden, i kategorien **Faktiske verdier**, går du gjennom **Tilknyttet visning for faktiske data**. De opprinnelige oppføringene og de korrigerte oppføringene vises. Følgende grafikk viser opprinnelige utgiftsoppføringsbeløp og tilhørende korrigerte utgiftsoppføringsbeløp. 
 
-![Faktiske verdier for utgifter](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Faktiske verdier for utgifter.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

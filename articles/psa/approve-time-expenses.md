@@ -2,8 +2,6 @@
 title: Godkjenne tid og utgifter
 description: Slik godkjenner du tid og utgifter i Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0c4ea0393b961d444a65c3ea50287b922ff95a322645844927ce9379fdb7e6b1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005043"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Godkjenne tid og utgifter (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,3 +45,6 @@ Når konsulenter angir tid og utgifter for et prosjekt, må du godkjenne dem sli
   
 ### <a name="see-also"></a>Se også  
  [Prosjektlederhåndbok](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

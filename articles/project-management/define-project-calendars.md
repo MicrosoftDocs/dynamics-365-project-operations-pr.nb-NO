@@ -1,12 +1,10 @@
 ---
-title: Definere prosjektkalendere
-description: Dette emnet gir informasjon om hvordan du bruker en prosjektkalender til å spore prosjektplanen.
+title: Definer prosjektkalendere
+description: Dette emnet gir informasjon om hvordan du bruker en kalendermal på et prosjekt til å følge opp prosjektplanen.
 author: ruhercul
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,38 +15,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286980"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487652"
 ---
-# <a name="define-project-calendars"></a>Definere prosjektkalendere
+# <a name="define-project-calendars"></a>Definer prosjektkalendere
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Hvis du vil opprette en prosjektplan, må du opprette en prosjektkalendermal som definerer antallet arbeidstimer for hver dag i tidsplanen og eventuelle tidspunkt selskapet holder stengt. Hvis du vil opprette en prosjektkalendermal, kan du knytte en arbeidsmal til **Kalendermal**-feltet for prosjektet. Følg denne fremgangsmåten for å opprette en arbeidsmal.
+Hvis du vil opprette og administrere et prosjekt, må du bruke en kalendermal på prosjektet. Kalendermalen definerer følgende prosjektattributter:
 
-1. Velg **Ressurser** i venstre navigasjonsrute. 
-2. På **Ressurser**-listesiden åpner du en brukeroppføring og velger deretter **Vis arbeidstimer**.
+- Arbeidstid, inkludert start- og sluttidspunkt
+- Arbeidsdager
+- Kalenderunntak, for eksempel fridager
 
-  > [!NOTE]
-  > Sørg for at du tillater popup-vinduer på nettlesersiden. På denne måten kan du se arbeidstimene som er angitt for ressursen.
-  
-3. I kategorien **Måndsvisning** klikker du **Konfigurer**. En liste med tre alternativer vises: 
+Kalendermalen som brukes på et prosjekt, er en kopi av kalendermalen som er definert i organisasjonens innstillinger.
 
-  - Ny ukeplan
-  - Arbeidstidsplan for én dag
-  - Fritid
+> [!NOTE]
+> Hvis du endrer kalendermalen, overføres ikke disse endringene til arbeidstiden for prosjektet. Hvis du vil endre arbeidstiden for prosjektet, må du bruke en ny mal.
 
-4. Velg **Ny ukeplan**, og angi deretter alternativene for denne ressursplanen. Du kan angi en regelmessig ukeplan, daglige timeparametere, selskapet holder stengt, og så videre.
-5. Angi datointervallet, velg **Lagre**, og klikk deretter **Lukk**. 
-6. Gå tilbake til **Ressurser**-listesiden, og velg ressursen du angir arbeidstimer for. 
-7. Velg **Angi kalender som** for å angi arbeidsmalen. 
-8. Skriv inn et navn på arbeidsmalen i dialogboksen **Arbeidsmal**, og velg deretter **Bruk**. 
+Hvis du vil opprette en kalendermal for organisasjonen, er det to viktige krav:
+
+- Definer ønsket arbeidstid for malen ved hjelp av en ny eller eksisterende ressurs som kan reserveres.
+- Opprett en ny kalendermal, og knytt malen til ressursen som kan reserveres.
+
+**Definer arbeidstimene for malen**
+
+1. Gå til **Ressurser** \> **Ressurser**.
+2. Opprett en ny ressurs som skal refereres til i kalendermalen, eller velg en eksisterende ressurs.
+3. Velg kategorien **Arbeidstimer** for ressursen, og fullfør instruksjonene i [Angi arbeidstimer for en ressurs](/dynamics365/field-service/set-work-hours-resource) for å konfigurere kalenderreglene.
+
+**Opprett en ny kalendermal**
+
+1. Gå til **Innstillinger** \> **Kalendermal**.
+2. Velg **Ny**, og skriv inn et navn, en beskrivelse og en malressurs.
+
+> [!NOTE]
+> Når det refereres til en ressurs i en kalendermal, knyttes en kopi av ressursens kalender til kalendermalen. Hvis arbeidstimene for den kopierte malen endres, overføres ikke disse endringene til kalendermalen.
 
 Du kan nå knytte arbeidsmalen til en prosjektkKalendermal.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
