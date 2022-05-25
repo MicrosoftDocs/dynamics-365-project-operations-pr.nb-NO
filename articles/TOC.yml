@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
+        - name: Mai 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: April 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Mars 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Februar 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Desember 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: November 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
+            - name: Organisasjonsenheter
+              href: sales/OrgUnits.md
         - name: Administrere kundeemner for prosjekt
           href: sales/manage-leads.md
         - name: Administrer salgsmuligheter for prosjekt
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Omsetningssporing av arbeid på prosjekter
               href: project-management/project-sales-tracking.md
-            - name: Oppdater sluttestimat
-              href: project-management/update-completed-estimate.md
         - name: Prosjektteammedlemmer
           items:
             - name: Oversikt over prosjektteammedlemmer
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Bruk API-er for prosjektplan
               href: project-management/schedule-api-preview.md
+            - name: Bruk API-er for prosjektplan med Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: API-ytelse for prosjektplan
               href: project-management/project-schedule-api-performance.md
             - name: Logger for prosjektplanlegging
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Kontantforskudd
           href: expense/cash-advance.md
-        - name: Kostgodtgjørelser
-          href: expense/per-diems.md
+        - name: Utgifter for kostgodtgjørelse
+          href: expense/per-diem-expenses.md
         - name: Utgiftsapp for mobil
           href: expense/expense-using-mobile.md
         - name: Finansadministrasjon
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Godkjenningssett
           href: approvals/approval-sets.md
+        - name: Avbryt godkjenning for tidligere godkjente oppføringer
+          href: approvals/cancelapproval.md
+        - name: Tilbakekall tidligere godkjente oppføringer
+          href: approvals/recall-cancel.md
         - name: Notater for utviklere
           items:
             - name: Utviklers merknader til godkjenninger
               href: approvals/dev-notes-approvals.md
     - name: Faktiske verdier
       items:
+        - name: Forretningstransaksjoner i Project Operations
+          href: actuals/businesstransactions.md
         - name: Oversikt over faktiske verdier
           href: actuals/actuals-overview.md
-        - name: Koble faktiske verdier til opprinnelige oppføringer
+        - name: Transaksjonsopprinnelse – koble faktiske verdier til kilde
           href: actuals/linkingactuals.md
-        - name: Korrigeringsjournaler
+        - name: Transaksjonstilkoblinger – koble faktiske verdier for forskjellige transaksjonstyper
+          href: actuals/connectingactuals.md
+        - name: Journaler
           items:
+            - name: Opprett og bekreft oppføringsjournaler
+              href: actuals/create-confirm-entry-journals.md
             - name: Opprett og bekreft korrigeringsjournaler
               href: actuals/create-confirm-correction-journals.md
     - name: Innkjøp
       items:
         - name: Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer
           href: procurement/configure-materials-nonstocked.md
-        - name: Anskaffelse av ikke-lagerførte materialer for prosjekter ved hjelp av ventende leverandørfakturaer
+        - name: Konfigurer innkjøpskategorier for prosjekter
+          href: procurement/configure-procurement-categories.md
+        - name: Anskaffelse av varer og tjenester for prosjekter ved hjelp av ventende leverandørfakturaer
           href: procurement/pending-vendor-invoices.md
-        - name: Bestill ikke-lagerføre materialer for prosjekter ved hjelp av prosjektbestillinger
+        - name: Bestill varer og tjenester for prosjekter ved hjelp av prosjektbestillinger
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Leverandøroppbevaring
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Behandle omberegning av inntekter
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Avansert konfigurasjon
+      items:
+        - name: Overfør fullstendig fakturerte faktureringsmilepæler under overgang
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Oppgradering
+      items:
+        - name: Oppgraderingshensyn for moderne godkjenninger
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations-apper
+      items:
+        - name: Project Operations-teammedlemsapp
+          href: team-member/project-operations-team-member.md
     - name: Feilsøking
       items:
         - name: Salgsprosess for prosjekt
@@ -562,6 +596,14 @@
       items:
         - name: Nyheter i bølge 2 i 2021 for tidlig tilgang – Lite-distribusjon
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nyheter mai 2022 – Lite-distribusjon
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Nyheter april 2022 – Lite-distribusjon
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Nyheter mars 2022 – Lite-distribusjon
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Nyheter februar 2022 – Lite-distribusjon
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Nyheter desember 2021 – Lite-distribusjon
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Nyheter november 2021 – Lite-distribusjon
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
+            - name: Organisasjonsenheter
+              href: sales/OrgUnits.md
         - name: Administrere kundeemner for prosjekt
           href: pro/sales/managing-leads-sales.md
         - name: Administrer salgsmuligheter for prosjekt
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Omsetningssporing av arbeid på prosjekter
               href: project-management/project-sales-tracking.md
-            - name: Oppdater sluttestimat
-              href: project-management/update-completed-estimate.md
         - name: Prosjektteammedlemmer
           items:
             - name: Oversikt over prosjektteammedlemmer
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Bruk API-er for prosjektplan
               href: project-management/schedule-api-preview.md
+            - name: Bruk API-er for prosjektplan med Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: API-ytelse for prosjektplan
               href: project-management/project-schedule-api-performance.md
     - name: Ressursstyring
@@ -886,12 +930,10 @@
           items:
             - name: Oversikt over ressursutnyttelse
               href: resource-management/resource-utilization-overview.md
-    - name: Administrasjon av underkontrakt i Project Operations
+    - name: Administrasjon av underkontrakt
       items:
         - name: Administrasjon av underkontrakt i Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Underkontrakter i tidlig tilgang for oktober 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Nøkkelkonsepter i underkontrakter
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Administrasjon av leverandører og prosjektprislister
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Tilstandsoverganger på en underkontrakt
           href: pro/subcontracting/subcon-states.md
+    - name: Prosjektleverandørfakturaer
+      items:
+        - name: Leverandørfakturering – konsept og oppretting
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Overskriftsdetaljer for leverandørfakturaer
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Leverandørfakturalinjer for tid
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Leverandørfakturalinjer for produkter
+          href: pro/subcontracting/vi-line-material.md
+        - name: Leverandørfakturalinjer for milepæler
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Leverandørfakturalinjer for utgiftskategorier
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Verifisering av leverandørfakturaer med godkjente faktiske verdier
+          href: pro/subcontracting/VI-Verification.md
+        - name: Annuller en prosjektleverandørfaktura
+          href: pro/subcontracting/cancel-vi.md
+        - name: Bekreft en prosjektleverandørfaktura
+          href: pro/subcontracting/confirm-vi.md
+        - name: Tilstandsoverganger på en leverandørfaktura
+          href: pro/subcontracting/vi-state-model.md
     - name: Tid
       items:
         - name: Oversikt over tid
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Godkjenningssett
           href: approvals/approval-sets.md
+        - name: Avbryt godkjenning for tidligere godkjente oppføringer
+          href: approvals/cancelapproval.md
+        - name: Tilbakekall tidligere godkjente oppføringer
+          href: approvals/recall-cancel.md
         - name: Notater for utviklere
           items:
             - name: Utviklers merknader til godkjenninger
               href: approvals/dev-notes-approvals.md
     - name: Faktiske verdier
       items:
+        - name: Forretningstransaksjoner i Project Operations
+          href: actuals/businesstransactions.md
         - name: Oversikt over faktiske verdier
           href: actuals/actuals-overview.md
-        - name: Koble faktiske verdier til opprinnelige oppføringer
+        - name: Transaksjonsopprinnelse – koble faktiske verdier til kilde
           href: actuals/linkingactuals.md
-        - name: Korrigeringsjournaler
+        - name: Transaksjonstilkoblinger – koble faktiske verdier for forskjellige transaksjonstyper
+          href: actuals/connectingactuals.md
+        - name: Journaler
           items:
+            - name: Opprett og bekreft oppføringsjournaler
+              href: actuals/create-confirm-entry-journals.md
             - name: Opprett og bekreft korrigeringsjournaler
               href: actuals/create-confirm-correction-journals.md
     - name: Proformafakturering
@@ -980,10 +1054,18 @@
           href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Bekrefte en proforma prosjektfaktura
           href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
-        - name: Opprette korrigerte prosjektfakturaer
+        - name: Opprett korrigerte prosjektfakturaer
           href: pro/proforma-invoicing/corrective-invoices-sales.md
-        - name: Konfigurere automatisering av prosjektfaktura
+        - name: Konfigurer automatisering av prosjektfaktura
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Oppgradering
+      items:
+        - name: Oppgraderingshensyn for moderne godkjenninger
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations-apper
+      items:
+        - name: Project Operations-teammedlemsapp
+          href: team-member/project-operations-team-member.md
 - name: Project Operations for lagerførte/produksjonsbaserte scenarioer
   items:
     - name: Nyheter
@@ -1010,67 +1092,23 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Oversikt over prosjektstyring og regnskap
       href: prod-pma/overview-project-management-accounting.md
-    - name: Konsernintern fakturering
-      href: prod-pma/intercompany-invoicing.md
-    - name: Konfigurere konsernintern prosjektfakturering
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Konfigurere standardkostnader for arbeid og utgifter
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Opprette og bruke tilbakeholdelsesbetingelser for leverandørbetaling
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Konfigurere og bruke Betal når betalt-leverandørbetalinger
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Prosjektkostnadsavsetning på kjøpskvitteringer
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Prosjektfakturering
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Ytelse for prosjektfakturaforslag
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Prosjektkontrakter
-      href: prod-pma/project-contracts.md
-    - name: Opprett avanserte kontrakter for fakturering basert på fremdrift
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Prosjektprognoser og -budsjetter
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Opprette prognosemodeller for prosjektbudsjetter
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Overføre prosjektbudsjetter ved regnskapsårets slutt
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Prosjektsalgsordre
-      href: prod-pma/project-sales-orders.md
-    - name: Bestillinger for et prosjekt
-      href: prod-pma/project-purchase-orders.md
-    - name: Prosjekttilbud
-      href: prod-pma/project-quotations.md
-    - name: 'Bekrefte, oppdatere og sende et prosjekttilbud'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Overføre et tilbud til et prosjekt
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Ressursstyring for prosjekt
+    - name: Salgsprosess for prosjekt
       items:
-        - name: Oversikt over ressursstyring for prosjekt
-          href: prod-pma/project-resourcing.md
-        - name: Konfigurere prosjektressurser
-          href: prod-pma/set-up-project-resources.md
-        - name: Administrere ressurskompetanser
-          href: prod-pma/manage-resource-competencies.md
-        - name: Opprette et nytt prosjekt
-          href: prod-pma/create-new-project.md
-        - name: Konfigurere rollebaserte priser
-          href: prod-pma/set-up-role-based-pricing.md
-        - name: Opprette et prosjektteam
-          href: prod-pma/create-project-team.md
-        - name: Synkronisere ressurskapasitet
-          href: prod-pma/synchronize-resource-capacity.md
-        - name: Planleggingsytelse for prosjektressurs
-          href: prod-pma/project-scheduling-performance.md
-        - name: Konfigurere roller i maler for arbeidsnedbrytningsstruktur
-          href: prod-pma/set-up-roles-wbs-template.md
-        - name: Ressursfullføring for planlagte ressurser
-          href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Motta varer på bestilling fra varebehov
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Arbeidsnedbrytningsstrukturer
+        - name: Prosjekttilbud
+          href: prod-pma/project-quotations.md
+        - name: 'Bekreft, oppdater og send et prosjekttilbud'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Overfør et tilbud til et prosjekt
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Prosjektkontrakter
+          href: prod-pma/project-contracts.md
+        - name: Prosjektstøtte
+          href: prod-pma/project-grants.md
+    - name: Prissetting og kostberegning
+      items:
+        - name: Konfigurer standardkostnader for arbeid og utgifter
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Prosjektledelse
       items:
         - name: Oversikt over arbeidsnedbrytningsstrukturer
           href: prod-pma/work-breakdown-structures.md
@@ -1084,12 +1122,130 @@
           href: prod-pma/project-timesheet.md
         - name: Project-timeregistreringer på en mobil enhet
           href: prod-pma/mobile-timesheets.md
-        - name: Implementere egendefinerte felt for mobilappen Project-timeregistrering
+        - name: Implementer egendefinerte felter for mobilappen Project Timesheet
           href: prod-pma/custom-fields-mobile.md
-    - name: Prosjektstøtte
-      href: prod-pma/project-grants.md
-    - name: Eliminer et prosjektestimat
-      href: prod-pma/eliminate-project-estimate.md
+    - name: Ressursstyring
+      items:
+        - name: Oversikt over ressursstyring for prosjekt
+          href: prod-pma/project-resourcing.md
+        - name: Konfigurer prosjektressurser
+          href: prod-pma/set-up-project-resources.md
+        - name: Administrer ressurskompetanser
+          href: prod-pma/manage-resource-competencies.md
+        - name: Opprette et nytt prosjekt
+          href: prod-pma/create-new-project.md
+        - name: Konfigurere rollebaserte priser
+          href: prod-pma/set-up-role-based-pricing.md
+        - name: Opprette et prosjektteam
+          href: prod-pma/create-project-team.md
+        - name: Synkronisere ressurskapasitet
+          href: prod-pma/synchronize-resource-capacity.md
+        - name: Planleggingsytelse for prosjektressurs
+          href: prod-pma/project-scheduling-performance.md
+        - name: Konfigurer roller i maler for arbeidsnedbrytningsstruktur
+          href: prod-pma/set-up-roles-wbs-template.md
+        - name: Ressursfullføring for planlagte ressurser
+          href: prod-pma/resource-fulfillment-planned-resources.md
+    - name: Prosjektbudsjetter og -prognoser
+      items:
+        - name: Prosjektprognoser og -budsjetter
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Opprett prognosemodeller for prosjektbudsjetter
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Overfør prosjektbudsjetter ved regnskapsårets slutt
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Tid
+      items:
+        - name: Standard finansdimensjoner for prosjekttidsoppføringer
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Utgift
+      items:
+        - name: Oversikt over utgifter
+          href: expense/expense-overview.md
+        - name: Ny utgiftsopplevelse
+          items:
+            - name: Nyskapte utgiftsrapporter
+              href: expense/expense-reports-reimagined.md
+            - name: Registrer en kvittering ved hjelp av OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfigurasjon og oppsett
+          items:
+            - name: Konfigurer policyer
+              href: expense/set-up-policies.md
+            - name: Konfigurer arbeidsflyter
+              href: expense/set-up-workflows.md
+            - name: Behandle delegering
+              href: expense/manage-delegation.md
+            - name: Konfigurer parametere for utgiftshåndtering
+              href: expense/configure-expense-management-parameters.md
+            - name: Konfigurer kredittkortintegrering
+              href: expense/set-up-credit-card-integration.md
+            - name: Konfigurer utgiftskategorier
+              href: expense/set-up-expense-categories.md
+            - name: Konfigurer kjørelengde ved å bruke satsnivåer for kjørelengde
+              href: expense/set-up-mileage.md
+        - name: Utgiftsspesifisering
+          href: prod-exp/expense-itemization.md
+        - name: Personlige utgifter
+          href: expense/personal-expenses-expense-report.md
+        - name: Konserninterne utgifter
+          href: prod-exp/intercompany-expense.md
+        - name: Opprett utgiftsrapporter
+          items:
+            - name: Distribusjoner i en utgiftsrapport
+              href: expense/distributions-expense-report.md
+        - name: Godkjenne utgiftsrapporter
+          items:
+            - name: Utgiftsrapporter og flere godkjennere
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Bokfør utgiftsrapporter
+          href: expense/posting-expense-reports.md
+        - name: Reiserekvisisjon
+          href: expense/travel-requisition.md
+        - name: Kontantforskudd
+          href: expense/cash-advance.md
+        - name: Utgifter for kostgodtgjørelse
+          href: expense/per-diem-expenses.md
+        - name: Utgiftsapp for mobil
+          href: expense/expense-using-mobile.md
+        - name: Finansadministrasjon
+          items:
+            - name: Mva-gjenoppretting
+              href: expense/vat-recovery.md
+    - name: Innkjøp
+      items:
+        - name: Bestillinger for et prosjekt
+          href: prod-pma/project-purchase-orders.md
+        - name: Prosjektkostnadsavsetning på kjøpskvitteringer
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Motta varer på bestilling fra varebehov
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Konfigurer og bruk Betal når betalt-leverandørbetalinger
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Opprett og bruk tilbakeholdelsesbetingelser for leverandørbetaling
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Prosjektfakturering
+      items:
+        - name: Prosjektfakturering
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Ytelse for prosjektfakturaforslag
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Opprett avanserte kontrakter for fakturering basert på fremdrift
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Prosjektsalgsordre
+          href: prod-pma/project-sales-orders.md
+        - name: Varekrav for prosjektkontrakter med flere finansieringskilder
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Konsernintern fakturering
+      items:
+        - name: Konsernintern fakturering
+          href: prod-pma/intercompany-invoicing.md
+        - name: Konfigurer konsernintern prosjektfakturering
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Inntektsføring
+      items:
+        - name: Eliminer et prosjektestimat
+          href: prod-pma/eliminate-project-estimate.md
 - name: Utgiftshåndtering
   items:
     - name: Oversikt over utgiftshåndtering
@@ -1148,6 +1304,16 @@
       items:
         - name: Plan for oppdateringsutgivelse for Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Nyheter eller endringer i oppdateringsutgivelse 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Nyheter eller endringer i oppdateringsutgivelse 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Oppgrader fra Project Service Automation til Project Operations – Lite
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Funksjonsendringer fra Project Service Automation til Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation-oppgradering (appversjon 3.x)
       items:
         - name: Project Service Automation-oppgradering
