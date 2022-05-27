@@ -4,20 +4,20 @@ description: Dette emnet gir informasjon om hvordan du abonnerer på og distribu
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323428"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575822"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrer deg for forhåndsversjonsabonnementer på Project Operations for ressursbaserte/ikke-lagerførte scenarioer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emnet forklarer hvordan du abonnerer på prøveversjonstilbudet og distribuerer Project Operations-miljøet for ressursbaserte/ikke-lagerbaserte scenarioer.
 
@@ -40,7 +40,7 @@ Før du begynner, må du forsikre deg om at du er logget på en nettleser med br
 
   Du ser en bekreftelse på at tilbudet ble løst inn.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance – forhåndsversjon
+### <a name="dynamics-365-finance-preview-trial"></a>Prøveversjon av Dynamics 365 Finance-forhåndsversjon
 
 Gå til [Prøveversjon av Dynamics 365 for Finance-forhåndsversjon](https://aka.ms/trypoche), og gjenta trinnene fra forrige del med tilbudet, Registrer deg for det skybaserte miljøet.  
 
@@ -49,7 +49,7 @@ Gå til [Prøveversjon av Dynamics 365 for Finance-forhåndsversjon](https://aka
 > [!IMPORTANT]
 > Du må ha administrativ tilgang til organisasjonens Microsoft 365-portal for å kunne utføre følgende trinn.
 
-1. Gå til [administrasjonssenteret for Microsoft 365](https://portal.office.com/) for å tilordne lisensene til brukerne dine.
+1. Gå til [Microsoft 365-administrasjonssenteret](https://portal.office.com/) for å tilordne lisensene til brukerne.
 
 2. På siden **Aktive brukere** velger du brukerne du vil tilordne en lisens til.
 

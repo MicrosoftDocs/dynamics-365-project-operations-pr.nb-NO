@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984883"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579870"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter desember 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -21,7 +21,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
 - Project Operations på Dataverse-miljø versjon 4.5.0.134
-- Prosjektstyring og regnskap i Dynamics 365 Finance-miljø versjon 10.0.15
+- Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.15
 
 Hvis du vil ha mer informasjon om hvordan du oppdaterer denne utgivelsen, kan du se [Oppdatere Project Operations i Økonomi-miljøet](ur5-nonstocked-installation.md).
 
@@ -61,7 +61,7 @@ Følgende funksjoner er inkludert i denne versjonen:
 | Prosjektplanlegging og sporing | 2057197          | Støtter ikke beregning av linjekopi med oppgavereferanse                                                                                                     |
 | Prosjektplanlegging og sporing | 2060687          | Tidssone-advarselen forsvinner nå etter en bestemt periode                                                                                                      |
 | Ressursbehandling           | 1832887          | Standard Ressurskategori-ID må være statisk for å sikre at repeterende data lastes inn for Dataverse- og Finance-miljøer                                                 |
-| Tid og utgift              | 2081793          | **Navn på utgiftskategori** må tilordnes et **Beskrivelse av utgiftskategori**-felt i Finance and Operations-apper                                                  |
+| Tid og utgift              | 2081793          | **Navn på utgiftskategori** må tilordnes til feltet **Beskrivelse av utgiftskategori** i økonomi- og driftsapper                                                  |
 | Tid og utgift              | 2034882          | **Ny**-knappen viser to ganger på kommandolinjen for tidsoppføringer når Dynamics 365 Field Service er installert                                          |
 | Tid og utgift              | 2056028          | Oppdater **Rediger tid**-siden for å inkludere tidslinje                                                                                                              |
 | Tid og utgift              | 1983747          | Diagrammet for tidsoppføring viser flere data                                                                                                                   |
@@ -106,7 +106,7 @@ Følgende funksjoner er inkludert i denne versjonen:
 | Reise og utgift                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Arbeidsflyten med automatisk postering av utgiftsrapport er fullført, men fakturaen er ikke postert                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for økonomi- og driftsapper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,22 +4,22 @@ description: Dette emnet gir informasjon om hvordan du konfigurerer standardverd
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922950"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579502"
 ---
 # <a name="financial-dimension-defaults"></a>Standardverdier for finansdimensjon
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations bruker [Finansdimensjoner](/dynamics365/finance/general-ledger/financial-dimensions)-rammeverket i Dynamics 365 Finance for å gi ytterligere innsikt i prosjekters underfinansjournal- og økonomimodultransaksjoner.
+
+Dynamics 365 Project Operations bruker rammeverket [Finansdimensjoner](/dynamics365/finance/general-ledger/financial-dimensions) i Dynamics 365 Finance til å gi ytterligere innsikt om underfinanstransaksjoner for prosjekter og økonomitransaksjoner.
 
 Standard finansdimensjoner kan angis for en kunde, et prosjektfinansieringskilde, milepæl, prosjektkontraktlinje eller prosjekt.
 
@@ -60,15 +60,5 @@ Prosjekter opprettes og vedlikeholdes i CDS. Regnskapsattributter for prosjekter
 4. Angi finansdimensjonsstandarder. Legg merke til at finansdimensjonene angis som standard fra kundekontoen. Hvis prosjektet er knyttet til en kontraktlinje med flere prosjektkontraktkunder, brukes hovedkunden som standard for finansdimensjoner.
 
 Standardfinansdimensjoner for prosjekt brukes til å angi standarder for journallinje for tid, utgift og avgiftstransaksjoner i **Journal for Project Operations-integrering** og på relaterte prosjektfakturalinjer.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Bruke finansdimensjoner for prosjekttidsoppføringer
-Hvis du vil bruke finansdimensjoner for prosjekttidsoppføringer, må du være oppmerksom på at standard dimensjonsverdi er basert på følgende rekkefølge:
-
-1. Ressurs
-2. Project
-3. Finansieringskilde
-
-Hvis standarddimensjonen for eksempel er angitt for en ressurs, brukes den over en standard som er angitt på prosjektet. På samme måte brukes en standard prosjektdimensjon over standardinnstillingen som er angitt i finansieringskilden.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

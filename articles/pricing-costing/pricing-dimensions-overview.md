@@ -3,17 +3,16 @@ title: Oversikt over prisdimensjoner
 description: Dette emnet gir informasjon om prisdimensjonene i Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001983"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579272"
 ---
 # <a name="pricing-dimensions-overview"></a>Oversikt over prisdimensjoner
 
@@ -60,16 +59,16 @@ Følgende eksempel viser kostnadssatser som er definert basert på rollen og org
 
 | Rolle        | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvikler   | Contoso – USA  |Time | 200|USD     |
-| Utvikler   | Contoso India |Time|   112|USD     |
+| Utvikler   | Contoso US  |Hour | 200|USD     |
+| Utvikler   | Ekeli India |Hour|   112|USD     |
 
 
 **Eksempel på kostnadssatser**
 
 | Lønnssats     | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt firma_Band1 | Contoso – USA  |Time | 145|USD     |
-| Mitt firma_Band2 | Contoso India |Time|   67|USD     |
+| Mitt firma_Band1 | Contoso US  |Hour | 145|USD     |
+| Mitt firma_Band2 | Ekeli India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

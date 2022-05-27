@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000273"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580192"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Hva er Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ PSA-appen (Project Service Automation) hjelper organisasjoner med effektiv spori
 - ... og mer
 
 I tillegg til å overvåke og kontrollere kostnader for det prosjektbaserte arbeidet kan individuelle konsulenter enkelt angi og spore prosjekttid og utgifter enten på mobilen eller med en webleser.
-
-## <a name="whats-new-in-psa"></a>Nyheter i PSA
-Teamet har gleden av å kunngjøre de nyeste oppdateringene! Disse omfatter forbedringer i brukergrensesnittet, feilrettinger og tilføyelse av viktige nye funksjoner og egenskaper. Du spurte, vi lyttet.
-
-Ta en titt på [produktmerknadene fra oktober 2019](/dynamics365-release-plan/2019wave2/index) for å se de nyeste forbedringene og tilleggene våre.
-
-### <a name="in-development"></a>Under utvikling
-Hvis du vil se hva vi har planlagt i nær fremtid, kan du gå til [lanseringsbølge 1 for Dynamics 365: 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Få hjelp med PAS versjon 3.x
 Ser du etter ressurser for å planlegge implementeringen? Se nærmere på disse nedlastbare veiledningene.
@@ -80,10 +73,6 @@ Ser du etter ressurser for å planlegge implementeringen? Se nærmere på disse 
  [Hvitbøker (appversjon 2.x eller 1.x)](../psa/white-papers.md)
 
  [Merknader for utviklere (appversjon 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Se en oversiktsvideo på 2 minutter
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

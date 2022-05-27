@@ -1,25 +1,25 @@
 ---
 title: Oppdatere Project Operations i Økonomi-miljøet
-description: Dette emnet gir informasjon om hvordan du oppdaterer Project Operations i Dynamics 365 Finance-miljøet.
+description: Dette emnet inneholder informasjon om hvordan du oppdaterer Project Operations i Dynamics 365 Finance-miljøet.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986773"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579946"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Oppdatere Project Operations i Økonomi-miljøet
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
 
-Dette emnet gir informasjon om hvordan du oppdaterer Dynamics 365 Project Operations i Dynamics 365 Finance-miljøet. Det er tre prosedyrer som kreves for å oppdatere Project Operations til Update 5 (UR5):
+Dette emnet inneholder informasjon om hvordan du oppdaterer Dynamics 365 Project Operations i Dynamics 365 Finance-miljøet. Det er tre prosedyrer som kreves for å oppdatere Project Operations til Update 5 (UR5):
 
 - [Importere pakken til forhåndsvisningsprosjektet](#import)
 - [Ta i bruk oppdateringen](#apply)
@@ -119,7 +119,7 @@ Følgende oppdateringer av sikkerhetsrettighetene for enheter nedenfor kreves so
 4. På siden **Tabelltilordningsversjon** bruker du en ny versjon av tilordningen for hver av de tre enhetene.
 5. På siden **Dobbel skriving** velger du Kjør for å starte tilordningene på nytt.
 6. Fra listen over tilordninger velger du tilordningen **Finans (msdyn_ledgers)** med alle dens krav, og deretter merker du av for **Første synkronisering**. 
-7. I feltet **Hovedoppføring for første synkronisering** velger du **Finance and Operations-apper** og velger deretter **Kjør**.
+7. I feltet **Hovedoppføring for første synkronisering** velger du **Økonomi- og driftsapper** og velger deretter **Kjør**.
  
  ![Synkronisering av finanstilordning.](media/DW6.png)
  

@@ -2,18 +2,16 @@
 title: Godkjenningssett
 description: Dette emnet forklarer hvordan du arbeider med godkjenningssett, forespørsler og delsettene for disse operasjonene.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323248"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576236"
 ---
 # <a name="approval-sets"></a>Godkjenningssett
 
@@ -27,6 +25,18 @@ Godkjenningssett angir den totale behandlingstilstanden for de relaterte oppfør
 Godkjenninger som ligger i kø for behandling, vises i visningen **Godkjenninger under behandling**. Systemet behandler alle oppføringene flere ganger asynkront, inkludert å prøve en godkjenning på nytt hvis tidligere forsøk mislyktes.
 
 Feltet for **godkjenningssett for levetid** registrerer antall forsøk som gjenstår for å behandle settet før det er merket som mislykket.
+
+Godkjenningssett behandles gjennom den periodiske aktiveringen basert på en **skyflyt** kalt for **Project Service – Planlegg prosjektgodkjenningssett til gjentakelse**. Du finner dette i **løsningen** kalt for **Project Operations**. 
+
+Kontroller at flyten aktiveres ved å utføre trinnene nedenfor.
+
+1. Logg på som administrator på [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Bytt til miljøet du bruker for Dynamics 365 Project Operations, i øvre høyre hjørne.
+3. Velg **Løsninger** for å vise løsningene som er installert i miljøet.
+4. Velg **Project Operations** i løsningslisten.
+5. Endre filteret fra **Alle** til **Skyflyter**.
+6. Kontroller at flyten **Project Service – Planlegg prosjektgodkjenningssett til gjentakelse** er satt til **På**. Hvis den ikke er det, velger du flyten og velger deretter **Aktiver**.
+7. Kontroller at behandlingen utføres hvert femte minutt ved å se gjennom listen **Systemjobber** i **Innstillinger**-området i Project Operations Dataverse-miljøet.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Mislykkede godkjenninger og godkjenningssett
 Visningen **Mislykkede godkjenninger** viser alle godkjenninger som krever brukerinngripen. Åpne de tilknyttede godkjenningssettloggene for å identifisere årsaken til feilen.

@@ -2,16 +2,16 @@
 title: Korriger regnskapet på utkast av prosjektfakturaforslag
 description: Dette emnet forklarer hvordan du justerer regnskapsrelatert informasjon i et utkast av fakturaforslag.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999328"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575086"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Korriger regnskapet på utkast av prosjektfakturaforslag
 
@@ -27,12 +27,21 @@ Standard mva-grupper for fakturering og mva-grupper for varer kan justeres direk
 
 ## <a name="adjust-financial-dimensions"></a>Juster finansdimensjoner
 
+### <a name="header-dimensions"></a>Hodedimensjoner
+
+Som standard avledes finansdimensjoner for fakturaer fra de ikke-fakturerte prosjekttransaksjonsoppføringene som faktureres. Systeminnstillinger gjør det imidlertid enkelt å bruke finansdimensjoner i hodet i prosjektfakturaforslag til å postere kundesaldoer. Hvis du vil aktivere denne funksjonaliteten, velger du **Tillat oppdateringer av prosjektdimensjoner for utestående fordringer** på **Økonomi**-fanen på siden **Parametere for prosjektstyring og regnskap**.
+
+Finansdimensjoner i fakturahoder kan redigeres før en faktura posteres. På siden **Prosjektfakturaforslag** bytter du til **Hode**-visningen, og deretter redigerer du verdier på fanen **Finansdimensjoner**.
+
+**Hode**-visningen er bare tilgjengelig etter at systemadministratoren har aktivert funksjonen **Bruk prosjektfakturaforslag og fakturajournalskjemaene med hode- og linjevisning** i arbeidsområdet **Funksjonsbehandling**. Denne funksjonen krever oppdatering 10.0.25 eller senere av Finance.
+
+### <a name="line-dimensions"></a>Linjedimensjoner
+
 Finansdimensjoner kan ikke redigeres direkte på en prosjektfakturaforslagslinje. Følg i stedet denne fremgangsmåten for å justere finansdimensjoner i et prosjektfakturaforslag.
 
 1. I prosjektfakturaforslaget velger du **Slett alle** for å fjerne prosjektfakturaforslagslinjene.
 
-    > [!NOTE]
-    > Knappen **Slett alle** er bare tilgjengelig når systemadministrator aktiverer funksjonen **Slett fakturaforslagslinjer ved bruk av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer** i arbeidsområdet **Funksjonsbehandling**.
+    Knappen **Slett alle** er bare tilgjengelig når systemadministrator aktiverer funksjonen **Slett fakturaforslagslinjer ved bruk av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer** i arbeidsområdet **Funksjonsbehandling**.
 
 2. Juster finansdimensjonene:
 
