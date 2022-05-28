@@ -1,5 +1,5 @@
 ---
-title: Synkronisere faktiske prosjektdata direkte fra Project Service Automation til prosjektintegreringsjournalen for postering i Finance and Operations
+title: Synkroniser faktiske prosjektdata direkte fra Project Service Automation til prosjektintegrasjonsjournalen for postering i Finance and Operations
 description: Dette emnet beskriver malene og de underliggende oppgavene som brukes til å synkronisere faktiske prosjektdata direkte fra Microsoft Dynamics 365 Project Service Automation til Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
@@ -7,22 +7,21 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988123"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683550"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronisere faktiske prosjektdata direkte fra Project Service Automation til prosjektintegreringsjournalen for postering i Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkroniser faktiske prosjektdata direkte fra Project Service Automation til prosjektintegrasjonsjournalen for postering i Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
@@ -75,7 +74,7 @@ Før synkronisering av faktiske verdier kan skje må du konfigurere Project Serv
 
 ### <a name="power-query"></a>Power Query
 
-I malen for faktiske prosjektdata må du bruke Microsoft Power Query for Excel til å utføre disse oppgavene:
+I malen for faktiske prosjektdata kan du bruke Microsoft Power Query for Excel til å fullføre disse oppgavene:
 
 - Transformer transaksjonstypen i Project Service Automation til riktig transaksjonstype i Finance. Denne transformasjonen er allerede definert i malen for faktiske prosjektdata (PSA til Fin og Ops).
 - Transformer faktureringstypen i Project Service Automation til riktig faktureringstype i Finance. Denne transformasjonen er allerede definert i malen for faktiske prosjektdata (PSA til Fin og Ops). Faktureringstypen tilordnes deretter til linjeegenskapen basert på konfigurasjonen på siden for **Project Service Automation-integrasjonsparametere**.
@@ -86,7 +85,7 @@ I malen for faktiske prosjektdata må du bruke Microsoft Power Query for Excel t
 #### <a name="contract-organizational-unit"></a>Kontraktorganisasjonsenhet
 Hvis du vil oppdatere den innsatte betingelseskolonnen i malen, klikker du **Tilordne**-pilen for å åpne tilordningen. Velg koblingen **Avansert spørring og filtrering** for å åpne Power Query.
 
-- Hvis du bruker standardmalen for faktiske prosjektdata (PSA til Fin og OPS) i Power Query, velger du siste **Innsatt betingelse** fra delen **Brukte trinn**. I **Funksjon**-oppføringen erstatter du **USSI** med navnet på den juridiske enheten som skal brukes med integrasjonen. Legg til flere betingelser i **Funksjon**-oppføringen slik du ønsker, og oppdater **hvis ikke**-betingelsen fra **USMF** til riktig juridisk enhet.
+- Hvis du bruker standardmalen for faktiske prosjektdata (PSA til Fin and Ops), velger du siste **Innsatt betingelse** i delen **Brukte trinn** i Power Query. I **Funksjon**-oppføringen erstatter du **USSI** med navnet på den juridiske enheten som skal brukes med integrasjonen. Legg til flere betingelser i **Funksjon**-oppføringen slik du ønsker, og oppdater **hvis ikke**-betingelsen fra **USMF** til riktig juridisk enhet.
 - Hvis du oppretter en ny mal, må du legge til kolonnen for å støtte konserninterne tid og utgifter. Velg **Legg til betinget kolonne**, og skriv inn et navn på den nye kolonnen, for eksempel **Juridisk enhet**. Angi en betingelse for kolonnen, der hvis **msdyn\_contractorganizationalunitid.msdyn\_name** er \<organizational unit\>, så \<enter the legal entity\>. Hvis ikke null.
 
 ### <a name="template-mapping-in-data-integration"></a>Maltilordning i dataintegrering
@@ -126,7 +125,7 @@ Faktiske prosjektdata administreres i Project Service Automation, og de synkroni
 
 ### <a name="power-query"></a>Power Query
 
-I malen for oppdatering av faktiske prosjektdata må du bruke Power Query til å utføre disse oppgavene:
+I malen for oppdatering av faktiske prosjektdata må du bruke Power Query til å fullføre disse oppgavene:
 
 - Transformer transaksjonstypen i Finance til riktig transaksjonstype i Project Service Automation. Denne transformasjonen er allerede definert i malen for oppdatering av faktiske prosjektdata (Fin Ops til PSA).
 - Transformer faktureringstypen i Finance til riktig faktureringstype i Project Service Automation. Denne transformasjonen er allerede definert i malen for oppdatering av faktiske prosjektdata (Fin Ops til PSA).

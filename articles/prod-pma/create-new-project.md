@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee576561e9d360c198a57f5885c27aa782267fd1
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985963"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685068"
 ---
 # <a name="create-a-new-project"></a>Opprett et nytt prosjekt
 
@@ -53,7 +52,7 @@ En prosjektleder kan bruke prosjektbemanningsfunksjonaliteten til å opprette ro
 
 [![Eksempel på en rolle.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenario:** Contoso ble engasjert for å fullføre et Tids- og materiellprosjekt som har et godkjent prosjektdiagram. Juniorprosjektlederen holder fremdeles på med å ferdigstille prosjektomfanget. Ressurslederen identifiserer for øyeblikket bestemte ressurser som blir reservert for å arbeide med det nye prosjektet. På grunn av den kritiske prosjekttypen ba prosjektsponsoren om at den overordnede prosjektlederen kunne ha én av rollene. Ressurslederen må skaffe den nye ressursen og definere rollen i systemet i tilfelle juniorprosjektlederen krever ressursinformasjon under planleggingen av prosjektet.
+**Scenario:** Contoso ble engasjert for å fullføre et Tid og materiale-prosjekt som har et godkjent prosjektcharter. Juniorprosjektlederen holder fremdeles på med å ferdigstille prosjektomfanget. Ressurslederen identifiserer for øyeblikket bestemte ressurser som blir reservert for å arbeide med det nye prosjektet. På grunn av den kritiske prosjekttypen ba prosjektsponsoren om at den overordnede prosjektlederen kunne ha én av rollene. Ressurslederen må skaffe den nye ressursen og definere rollen i systemet i tilfelle juniorprosjektlederen krever ressursinformasjon under planleggingen av prosjektet.
 
 Fremgangsmåten nedenfor viser hvordan ressurslederen kan konfigurere rollen som overordnet prosjektleder og knytte ressursegenskaper til den. Senere kan rollen brukes til å søke etter tilgjengelige ressurser som samsvarer med de nødvendige ressurskompetansene.
 

@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989563"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683964"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilt arbeidsområde for tidsoppføring for prosjekt
 
@@ -45,7 +44,7 @@ I det mobile arbeidsområdet **Tidsoppføring for prosjekt** kan brukere utføre
 ## <a name="prerequisites"></a>Forutsetninger
 Forhåndskravene varierer basert på versjonen av Microsoft Dynamics 365 som er distribuert for organisasjonen.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Forhåndskrav hvis du bruker Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Forutsetninger hvis du bruker Dynamics 365 Finance
 Hvis Finance er distribuert for organisasjonen, må systemetadministrator publisere det mobile arbeidsområdet **Tidsoppføring for prosjekt**. Hvis du vil ha instruksjoner, kan du se [Publisere et mobilt arbeidsområde](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Forhåndskrav hvis du bruker versjon 1611 med plattformoppdatering 3 eller senere
@@ -83,7 +82,7 @@ Hvis versjon 1611 med plattformoppdatering 3 eller senere er distribuert for org
 
 ## <a name="download-and-install-the-mobile-app"></a>Laste ned og installere mobilappen
 
-Last ned og installer Finance and Operations-mobilappen:
+Last ned og installere Finance and Operations-mobilappen:
 
 -   [For Android-telefoner](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [For iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

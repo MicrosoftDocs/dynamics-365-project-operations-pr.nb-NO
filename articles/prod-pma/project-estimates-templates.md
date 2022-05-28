@@ -1,32 +1,31 @@
 ---
-title: Synkronisere prosjektestimater direkte fra Project Service Automation til Finance and Operations
-description: Dette emnet beskriver malene og de underliggende oppgavene som brukes til å synkronisere estimater for prosjekttimer og prosjektutgifter direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+title: Synkroniser prosjektestimater direkte fra Project Service Automation til Finance and Operations
+description: Dette emnet beskriver maler og de underliggende oppgavene som brukes til å synkronisere prosjekttimeestimater og prosjektutgiftsestimater direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988213"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684608"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisere prosjektestimater direkte fra Project Service Automation til Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser prosjektestimater direkte fra Project Service Automation til Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Dette emnet beskriver malene og de underliggende oppgavene som brukes til å synkronisere estimater for prosjekttimer og prosjektutgifter direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+Dette emnet beskriver maler og de underliggende oppgavene som brukes til å synkronisere prosjekttimeestimater og prosjektutgiftsestimater direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
 > [!NOTE]
 > - Prosjektoppgaveintegrering, utgiftstransaksjonskategorier, timeoverslag, utgiftsoverslag og låsing av funksjoner er tilgjengelig i versjon 8.0.
@@ -70,7 +69,7 @@ Før synkronisering av estimater for prosjekttime kan skje, må du synkronisere 
 
 ### <a name="power-query"></a>Power Query
 
-I malen for estimat av prosjekttime må du bruke Microsoft Power Query for Excel til å utføre disse oppgavene:
+I malen for prosjekttimeestimater kan du bruke Microsoft Power Query for Excel til å fullføre disse oppgavene:
 
 - Angi standard prognosemodell-ID som skal brukes når integreringen oppretter nye timeprognoser.
 - Filtrer ut alle ressursspesifikke oppføringer i oppgaven som ikke kan integreres i timeprognoser.
@@ -81,7 +80,7 @@ I malen for estimat av prosjekttime må du bruke Microsoft Power Query for Excel
 Hvis du vil oppdatere standard prognosemodell-ID i malen, klikker du **Tilordne**-pilen for å åpne tilordningen. Deretter velger du koblingen **Avansert spørring og filtrering**.
 
 - Hvis du bruker standardmalen for estimater for prosjekttime (PSA til Fin og OPS), velger du **Innsatt betingelse** i listen **Brukte trinn**. I **Funksjon**-oppføringen erstatter du **O\_prognose** med navnet på prognosemodell-ID-en som skal brukes med integrasjonen. Standardmalen har en prognosemodell-ID fra demonstrasjonsdataene.
-- Hvis du oppretter en ny mal, må du legge til denne kolonnen. Velg **Legg til betinget kolonne** i Power Query, og skriv inn et navn for den nye kolonnen, for eksempel **Modell-ID**. Angi betingelsen for kolonnen, der hvis prosjektoppgaven ikke er null, så \<enter the forecast model ID\>. Ellers null.
+- Hvis du oppretter en ny mal, må du legge til denne kolonnen. I Power Query velger du **Legg til betinget kolonne** og angir et navn på den nye kolonnen, for eksempel **Modell-ID**. Angi betingelsen for kolonnen, der hvis prosjektoppgaven ikke er null, så \<enter the forecast model ID\>. Ellers null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrere ut ressursspesifikke oppføringer
 
@@ -126,7 +125,7 @@ Før synkronisering av estimater for prosjektutgifter kan skje, må du synkronis
 
 ### <a name="power-query"></a>Power Query
 
-I malen for estimat av prosjektutgifter må du bruke Power Query til å utføre disse oppgavene:
+I prosjektutgiftsestimatmalen må du bruke Power Query til å fullføre følgende oppgaver:
 
 - Filter for å inkludere bare linjeposter for utgiftsestimater.
 - Angi standard prognosemodell-ID som skal brukes når integreringen oppretter nye timeprognoser.
@@ -141,8 +140,8 @@ Malen for estimater for prosjektutgifter (PSA til fin og OPS) har et standardfil
 
 Hvis du vil oppdatere standard prognosemodell-ID i malen, velger du oppgaven **Utgiftsestimater**, og deretter klikker du **Tilordne**-pilen for å åpne tilordningen. Velg koblingen **Avansert spørring og filtrering**.
 
-- Hvis du bruker standardmalen for estimater for prosjektutgifter (PSA til Fin og OPS) i Power Query, velger du først **Innsatt betingelse** fra delen **Brukte trinn**. I **Funksjon**-oppføringen erstatter du **O\_prognose** med navnet på prognosemodell-ID-en som skal brukes med integrasjonen. Standardmalen har en prognosemodell-ID fra demonstrasjonsdataene.
-- Hvis du oppretter en ny mal, må du legge til denne kolonnen. Velg **Legg til betinget kolonne** i Power Query, og skriv inn et navn for den nye kolonnen, for eksempel **Modell-ID**. Angi betingelsen for kolonnen, der hvis ID-en for estimatlinjen ikke er null, så \<enter the forecast model ID\>. Ellers null.
+- Hvis du bruker standardmalen for prosjektutgiftsestimater (PSA til Fin and Ops), velger du første **Innsatt betingelse** i delen **Brukte trinn** i Power Query. I **Funksjon**-oppføringen erstatter du **O\_prognose** med navnet på prognosemodell-ID-en som skal brukes med integrasjonen. Standardmalen har en prognosemodell-ID fra demonstrasjonsdataene.
+- Hvis du oppretter en ny mal, må du legge til denne kolonnen. I Power Query velger du **Legg til betinget kolonne** og angir et navn på den nye kolonnen, for eksempel **Modell-ID**. Angi betingelsen for kolonnen, der hvis ID-en for estimatlinjen ikke er null, så \<enter the forecast model ID\>. Ellers null.
 
 #### <a name="transform-the-billing-types"></a>Transformer faktureringstypene
 

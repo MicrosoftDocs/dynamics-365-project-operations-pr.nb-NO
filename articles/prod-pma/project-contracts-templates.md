@@ -7,26 +7,25 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001083"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684654"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkronisere prosjektkontrakter og prosjekter direkte fra Project Service Automation til Økonomi 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emnet beskriver malen og de underliggende oppgavene som brukes til å synkronisere prosjektkontrakter og prosjekter direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
@@ -112,7 +111,7 @@ Når integrasjonsløsningen Project Service Automation til Finance brukes, angir
 - **SourceDataID** for prosjektkontrakter og prosjekter kan oppdateres til en annen verdi eller fjernes fra tilordningen. Standardmalverdien er **Project Service Automation**.
 - **PaymentTerms**-tilordningen må oppdateres slik at den gjenspeiler gyldige betalingsbetingelser i Finance. Du kan også fjerne tilordningen fra prosjektoppgaven. Standardverdien for tilordningen inneholder standardverdier for demonstrasjonsdata. Tabellen nedenfor viser verdiene i Project Service Automation.
 
-    | Value | Beskrivelse   |
+    | Verdi | Bekrivelse   |
     |-------|---------------|
     | 1     | 30 dager netto        |
     | 2     | 2 % 10, 30 dager netto |
@@ -121,15 +120,15 @@ Når integrasjonsløsningen Project Service Automation til Finance brukes, angir
 
 ## <a name="power-query"></a>Power Query
 
-Bruk Microsoft Power Query for Excel til å filtrere data hvis følgende betingelser er oppfylt:
+Bruk Microsoft Power Query for Excel for å filtrere data hvis følgende betingelser er oppfylt:
 
 - Du har salgsordrer i Dynamics 365 Sales.
 - Du har flere organisasjonsenheter i Project Service Automation, og disse organisasjonsenhetene blir tilordnet til flere juridiske enheter i Finance.
 
-Hvis du må bruke Power Query, følger du retningslinjene nedenfor:
+Hvis du må bruke Power Query, følger du disse retningslinjene:
 
 - Malen for prosjekter og kontrakter (PSA til Fin og Ops) har et standardfilter som inkluderer bare salgsordrer av typen **Arbeidselement (msdyn\_ordertype = 192350001)**. Dette filteret hjelper deg med å garantere at prosjektkontrakter ikke blir opprettet for salgsordrer i Finance. Hvis du oppretter din egen mal, må du legge til dette filteret.
-- Opprett et Power Query-filter som bare inneholder kontraktorganisasjonene som skal synkroniseres til den juridiske enheten i settet med integreringstilkobling. Prosjektkontrakter du har med kontraktorganisasjonsenheten i Contoso US, må for eksempel synkroniseres med den juridiske enheten USSI, men prosjektkontrakter som du har med kontraktorganisasjonsenheten Contoso Global, må synkroniseres til den juridiske enheten USMF. Hvis du ikke legger til dette filteret i oppgavetilordningen, blir alle prosjektkontrakter synkronisert til den juridiske enheten som er definert for tilkoblingssettet, uavhengig av organisasjonsenheten for kontrakten.
+- Opprett et Power Query-filter som inkluderer bare kontraktorganisasjoner som skal synkroniseres med den juridiske enheten for integreringstilkoblingssettet. Eksempelvis bør prosjektkontrakter som du har med kontraktorganisasjonsenheten Contoso US, synkroniseres til den juridiske enheten USSI, mens prosjektkontrakter som du har med kontraktorganisasjonsenheten for Contoso Global, skal synkroniseres til den juridiske enheten USMF. Hvis du ikke legger til dette filteret i oppgavetilordningen, blir alle prosjektkontrakter synkronisert til den juridiske enheten som er definert for tilkoblingssettet, uavhengig av organisasjonsenheten for kontrakten.
 
 ## <a name="template-mapping-in-data-integration"></a>Maltilordning i dataintegrering
 

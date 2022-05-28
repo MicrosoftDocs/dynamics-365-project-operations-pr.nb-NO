@@ -1,46 +1,42 @@
 ---
-title: Kjøpe ikke lagerførte materialer ved hjelp av en ventende leverandørfaktura
+title: Innkjøp av ikke-lagerførte materialer eller innkjøpskategorier som bruker en ventende leverandørfaktura
 description: Dette emnet forklarer hvordan du registrerer ventende leverandørfakturaer.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547301"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612669"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Kjøpe ikke lagerførte materialer ved hjelp av en ventende leverandørfaktura
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Innkjøp av ikke-lagerførte materialer eller innkjøpskategorier som bruker en ventende leverandørfaktura
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Når et selskap anskaffer ikke-lagerført materiell for et prosjekt, kan kostnadene umiddelbart registreres mot prosjektet. 
+Når et selskap anskaffer ikke-lagerførte materialer eller innkjøpskategorier for et prosjekt, kan kostnadene umiddelbart registreres mot prosjektet. 
 
-Contoso Robotics US utfører for eksempel et prosjekt for fornyelse av utstyr og trenger programvarelisenser. Disse lisensene anskaffes fra en tredjepartsleverandør.  Når du bruker Dynamics 365 Finance, registrerer assistenten for leverandørgjeld et ventende leverandørfakturadokument og attributterer lisenskostnadene direkte mot prosjektet for fornyelse av utstyr. 
+Contoso Robotics US utfører for eksempel et prosjekt for fornyelse av utstyr og trenger programvarelisenser. Disse lisensene anskaffes fra en tredjepartsleverandør.  Ved hjelp av Dynamics 365 Finance registrerer funksjonæren for leverandørgjelde et ventende fakturadokument for leverandør og tilskriver lisenskostnadene direkte mot utstyrsfornyelsesprosjektet. 
 
 > [!IMPORTANT]
-> Før du bruker funksjonaliteten som er beskrevet i dette emnet, må du se gjennom og bruke de nødvendige konfigurasjonene. Hvis du vil ha mer informasjon, kan du se [Aktivere ikke-lagerførte materialer og ventende leverandørfakturaer](configure-materials-nonstocked.md). 
+> Før du bruker funksjonaliteten som er beskrevet i dette emnet, må du se gjennom og bruke de nødvendige konfigurasjonene. Hvis du vil ha mer informasjon , kan du se [Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer](configure-materials-nonstocked.md) og [Bruk innkjøpskategorier med prosjektbestillinger og ventende leverandørfakturaer](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Poster en prosjektrelatert ventende leverandørfaktura 
 
 Ventende leverandørfakturaer kan registreres på siden **Ventende leverandørfakturaer** (**Leverandørgjeld** > **Fakturaer** > **Ventende leverandørfakturaer**). Fullfør følgende trinn for å postere en prosjektrelatert ventende leverandørfaktura:
 
-1. Gå til **Leverandørgjeld** > **Fakturaer** og velg **Ny**. 
-2. I **Fakturakonto**-feltet velger du en leverandør i **Nummer**-feltet og angir leverandørfaktura-IDen.
-3. Legg til en linje i leverandørfakturaen, og velg varen som ikke er på lager fra leverandøren i **Varenummer**-feltet. 
-
-    > [!NOTE]
-    > Leverandørfakturalinjer som er basert på en innkjøpskategori, kan ikke registreres mot prosjektet. 
-    
-5. Legg til innkjøpmengden. Enhetsprisen fylles ut i systemet basert på konfigurasjonen av varepris som ikke er på lager. 
-6. Kontroller totalbeløpet og andre nødvendige detaljer på linjen.
-7. Velg IDen for prosjektet som varen skal registreres til, i kategorien **Prosjekt** i linjedetaljene.
-8. Du kan eventuelt velge aktivitetsnummeret og oppdatere prosjektkategorien og linjeegenskapen.
-9. Poster ventende leverandørfaktura. Når fakturaen posteres, registrerer systemet følgende:
+1. Gå til **Leverandørgjeld** > **Fakturaer**, og velg **Ny**. 
+1. I feltet **Leverandørkonto** velger du en leverandør, og deretter, i **Nummer**-feltet, angir du ID-en for leverandørkontoen.
+1. Legg til en linje i leverandørfakturaen, og deretter, i **Varenummer**-feltet, velger du den ikke-lagerførte varen som ble kjøpt fra leverandøren. I **Innkjøpskategori**-feltet kan du også velge innkjøpskategorien som ble kjøpt fra leverandøren.   
+1. Legg til antallet som ble kjøpt. Systemet fyller ut enhetsprisen basert på priskonfigurasjonen for den ikke-lagerførte varen. 
+1. Kontroller totalbeløpet og andre nødvendige detaljer på linjen.
+1. På **Prosjekt**-fanen velger du ID-en til prosjektet som denne varen skal føres i.
+1. Valgfritt: Velg aktivitetsnummeret, og oppdater prosjektkategorien og linjeegenskapen.
+1. Poster den ventende leverandørfakturaen. Når fakturaen er postert, registrerer systemet følgende informasjon:
     
     - Leverandørsaldobeløpet.
     - Salgsavgiftsbeløpet.

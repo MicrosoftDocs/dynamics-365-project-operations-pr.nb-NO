@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323923"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723688"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Nyheter i bølge 2 i 2021 for tidlig tilgang – Project Operations Lite-distribusjon
 
@@ -26,7 +26,7 @@ Utgivelsen brukes bare når et miljø [er valgt i tidlig tilgang](/power-platfor
 
 ## <a name="features-included-in-this-release"></a>Funksjoner som er inkludert i denne versjonen
 
-[Administrasjon av underkontrakt](../subcontracting/subcontracting_EA_scope.md) – Denne funksjonen gir bedre synlighet og kontroll over alle aspekter av arbeidet med et prosjekt. Forhåndsversjonen av administrasjon av underkontrakt omfatter følgende funksjoner:
+[Administrasjon av underkontrakt](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – Denne funksjonen gir bedre synlighet og kontroll over alle aspekter av arbeidet med et prosjekt. Forhåndsversjonen av administrasjon av underkontrakt omfatter følgende funksjoner:
 
   - En prosjektlederen kan opprette en underkontrakt med en leverandør. Som standard brukes prislistene som er knyttet til leverandøroppføringen, for underkontrakten. Leverandørkontoen har relasjonstypen **Leverandør** eller **Forsyner**.
   - En prosjektlederen kan angi alle innkjøpene som linjeelementer på underkontrakten. Underkontraktlinjer kan være for klokkeslett, utgifter eller produkter. Transaksjonsklassen for underkontraktlinjen avgjør hva linjen gjelder.

@@ -1,24 +1,23 @@
 ---
 title: Behandling av utgiftskvittering
-description: Dette emnet gir informasjon om optisk tegngjenkjenning (OCR) for kvitteringer. Denne funksjonen er utformet for å forbedre brukeropplevelsen når reiseregninger opprettes i Microsoft Dynamics 365 Finance.
+description: Dette emnet gir informasjon om optisk tegngjenkjenning (OCR) for kvitteringer. Denne funksjonen er utformet for å forbedre brukeropplevelsen når utgiftsrapporter opprettes i Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001398"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684332"
 ---
 # <a name="expense-receipt-processing"></a>Behandling av utgiftskvittering
 
@@ -51,7 +50,7 @@ Gjør følgende for å opprette en utgift eller samsvare en utgift fra en kvitte
 
 Denne funksjonen fungerer sammen med funksjonen **Nyskapte utgiftsrapporter**, noe som forenkler utgiftsopplevelsen. Denne funksjonen er bare tilgjengelig for nivå 2+-miljøer, som er sandkasse og produksjon.
 
-Hvis du vil bruke disse avanserte utgiftsfunksjonene, installerer du tilleggsprogrammet for reiseregning og utlegg for Microsoft Dynamics 365 Finance, og deretter aktiverer du funksjonene i forekomsten. Du kan få tilgang til tillegget fra prosjektet i Microsoft Dynamics Lifecycle Services (LCS).
+For å kunne bruke disse avanserte utgiftsfunksjonene må du installere Expense Management Service-tillegget for Microsoft Dynamics 365 Finance og aktivere funksjonene i forekomsten. Du kan få tilgang til tillegget fra prosjektet i Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Logg på LCS, og åpne ønsket miljø.
 2. Gå til **Detaljert informasjon**.
@@ -68,9 +67,9 @@ Aktiver følgende funksjoner i arbeidsområdet **Funksjonsbehandling**:
 
 Når du aktiverer disse funksjonene, oppstår følgende handlinger:
 
-- Det eksisterende arbeidsområdet for **utgiftshåndtering** erstattes av det nye arbeidsområdet.
+- Det eksisterende arbeidsområdet for **Reiseregning og utlegg** erstattes av det nye arbeidsområdet.
 - Det legges til et nytt menyelement for synlighet for utgiftsfelt.
-- Du kan fremdeles åpne siden for de tidligere **reiseregningene** ved å gå til **Utgiftshåndtering > Mine utgifter > Reiseregninger**.
+- Du kan fremdeles åpne siden for de tidligere **reiseregningene** ved å gå til **Reiseregning og utlegg > Mine utgifter > Reiseregninger**.
 - Arbeidsflyter og godkjenninger fører deg fremdelses til den eksisterende reiseregningssiden.
 - Kvitteringer blir behandlet gjennom Microsoft Azure Cognitive Services, og metadata blir trukket ut og lagt til.
 - Det legges til et alternativ som du kan bruke til å opprette en reiseregning som inkluderer samsvarte, ikke-tilknyttede kvitteringer.

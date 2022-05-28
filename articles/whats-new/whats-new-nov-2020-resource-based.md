@@ -4,14 +4,14 @@ description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgj
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007968"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600386"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter november 2020 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -20,7 +20,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
 - Project Operations på CDS-miljø versjon 4.4.0.70
-- Prosjektstyring og regnskap i Dynamics 365 Finance-miljø versjon 10.0.14
+- Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Oppdateringer til Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -65,7 +65,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | Prosjektregnskap  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Hvis du aktiverer funksjonen, er det ikke mulig å finne flere kontraktlinjer uten CDS-integrering.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for økonomi- og driftsapper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

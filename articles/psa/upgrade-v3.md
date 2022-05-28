@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000093"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601766"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Hensyn ved oppgradering – PSA-versjon 2.x eller 1.x til versjon 3
 
@@ -81,15 +82,15 @@ Før du starter oppgraderingen, anbefaler vi at du genererer teamet på nytt for
 
 For oppgaver som er tilordnet til generelle teammedlemmer som ble generert med **Generer team**, vil oppgraderingen beholde den generelle ressursen i teamet og beholde tilordningen til det generelle teammedlemmet. Vi anbefaler at du genererer ressurskravet for det generelle teammedlemmet etter oppgraderingen, men før du bestiller eller sender en ressursforespørsel. Dette bevarer eventuelle organisasjonsenhetstilordninger for de generelle teammedlemmene som er forskjellige fra prosjektets kontraktsorganisasjonsenhet.
 
-I Prosjekt Z-prosjektet er for eksempel kontraktorganisasjonsenheten Contoso US. I prosjektplanen er testing av oppgaver i implementeringsfasen blitt tilordnet rollen Teknisk konsulent, og den tilordnede organisasjonsenheten er Contoso India.
+I Prosjekt Z-prosjektet er for eksempel kontraktorganisasjonsenheten Ekeli USA. I prosjektplanen er testing av oppgaver i implementeringsfasen blitt tilordnet rollen Teknisk konsulent, og den tilordnede organisasjonsenheten er Ekeli India.
 
 ![Organisasjonstilordning for implementeringsfasen.](media/org-unit-assignment-09.png)
 
-Etter implementeringsfasen tilordnes integreringstestoppgaven til den tekniske konsulenten, men organisasjonen er satt til Contoso US.  
+Etter implementeringsfasen tilordnes integreringstestoppgaven til den tekniske konsulenten, men organisasjonen er satt til Ekeli USA.  
 
 ![Organisasjonstilordning for integreringstestoppgave.](media/org-unit-generate-team-10.png)
 
-Når du genererer et team for prosjektet, opprettes det to generiske teammedlemmer på grunn av de forskjellige organisasjonsenhetene i oppgavene. Teknisk konsulent 1 blir tilordnet Contoso India-oppgaver, og Teknisk konsulent 2 får Contoso US-oppgavene.  
+Når du genererer et team for prosjektet, opprettes det to generiske teammedlemmer på grunn av de forskjellige organisasjonsenhetene i oppgavene. Teknisk konsulent 1 blir tilordnet Ekeli India-oppgaver, og Teknisk konsulent 2 får Ekeli USA-oppgavene.  
 
 ![Genererte generelle teammedlemmer.](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -104,7 +105,7 @@ Du kan vise organisasjonsenheten i beregningsvisningen.
  
 Når oppgraderingen er fullført, blir organisasjonsenheten i linjeoppgaven som tilsvarer det generelle teammedlemmet, lagt til det generelle teammedlemmet, og linjeoppgaven blir fjernet. På grunn av dette anbefaler vi at før du oppgraderer, genererer eller genererer teamet på nytt for hvert prosjekt som inneholder generelle ressurser.
 
-For oppgaver som er tilordnet til en rolle med en organisasjonsenhet som er forskjellig fra organisasjonsenheten for kontraktprosjektet, og et team ikke er generert, oppretter oppdateringen et generelt team for rollen, men vil bruke kontraktenheten for prosjektet for teammedlemmets organisasjonsenhet. Ved å se på eksemplet med Prosjekt Z betyr dette at kontraktorganisasjonsenheten Contoso US og prosjektplanen som tester oppgaver i implementeringsfasen, er tilordnet rollen som Teknisk konsulent med organisasjonsenheten tilordnet til Contoso India. Integrasjonstestoppgaven som fullføres etter implementeringsfasen, er tilordnet til rollen Teknisk konsulent. Organisasjonsenheten er Contoso US, og et team har ikke blitt generert. Oppgraderingen oppretter ett generisk teammedlem, en teknisk konsulent som har de tildelte timene for alle tre oppgaver og organisasjonsenheten Contoso US, prosjektets kontraktorganisasjonsenhet.   
+For oppgaver som er tilordnet til en rolle med en organisasjonsenhet som er forskjellig fra organisasjonsenheten for kontraktprosjektet, og et team ikke er generert, oppretter oppdateringen et generelt team for rollen, men vil bruke kontraktenheten for prosjektet for teammedlemmets organisasjonsenhet. Ved å se på eksemplet med Prosjekt Z betyr dette at kontraktorganisasjonsenheten Ekeli USA og prosjektplanen som tester oppgaver i implementeringsfasen, er tilordnet rollen som Teknisk konsulent med organisasjonsenheten tilordnet til Ekeli India. Integrasjonstestoppgaven som fullføres etter implementeringsfasen, er tilordnet til rollen Teknisk konsulent. Organisasjonsenheten er Ekeli USA, og et team har ikke blitt generert. Oppgraderingen oppretter ett generisk teammedlem, en teknisk konsulent som har de tildelte timene for alle tre oppgaver og organisasjonsenheten Ekeli, prosjektets kontraktorganisasjonsenhet.   
  
 Endring av standarden for de ulike ressursorganisasjonsenhetene på ikke-genererte teammedlemmer er årsaken til at vi anbefaler at du genererer eller genererer teamet på nytt for hvert prosjekt som inneholder generelle ressurser, før oppgraderingen, slik at organisasjonsenhetstilordningene ikke går tapt.
 

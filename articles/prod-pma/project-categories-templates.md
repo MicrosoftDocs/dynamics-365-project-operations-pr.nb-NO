@@ -1,5 +1,5 @@
 ---
-title: Synkronisere prosjektutgiftskategorier mellom Finance and Operations og Project Service Automation
+title: Synkroniser prosjektutgiftskategorier mellom Finance and Operations og Project Service Automation
 description: Dette emnet beskriver malene og de underliggende oppgavene som brukes til å synkronisere prosjektutgiftskategorier mellom Microsoft Dynamics 365 Finance og Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
@@ -7,22 +7,21 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001128"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685482"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synkronisere prosjektutgiftskategorier mellom Finance and Operations og Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synkroniser prosjektutgiftskategorier mellom Finance and Operations og Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
@@ -81,10 +80,10 @@ Kategorier for prosjektutgifter administreres i Finance, og de synkroniseres til
 
 ### <a name="power-query"></a>Power Query
 
-Når du synkroniserer med Project Service Automation, må du bruke Microsoft Power Query for Excel for å angi faktureringstype i transaksjonskategorien. Malen Kategorier for prosjektets utgiftstransaksjoner (Fin og Ops til PSA) har en standardkolonne og tilordning. Hvis du oppretter din egen mal, må du legge til en betinget-kolonnen i Power Query. Følg denne fremgangsmåten.
+Når du synkroniserer til Project Service Automation, må du bruke Microsoft Power Query for Excel til å angi faktureringstypen på transaksjonskategorien. Malen Kategorier for prosjektets utgiftstransaksjoner (Fin og Ops til PSA) har en standardkolonne og tilordning. Hvis du oppretter din egen mal, må du legge til en betinget kolonne i Power Query. Følg denne fremgangsmåten.
 
 1. Klikk pilen for å åpne tilordningen for oppgaven for prosjektets utgiftskategori i malen Kategorier for prosjektets utgiftstransaksjoner (Fin og Ops til PSA).
-2. Klikk **Avansert spørring og filtrering** for å åpne Power Query.
+2. Klikk på koblingen **Avansert spørring og filtrering** for å åpne Power Query.
 2. Velg **Legg til betinget kolonne**.
 3. Angi et navn for den nye kolonnen, for eksempel **Faktureringstype**.
 4. Angi følgende betingelse: **hvis KATEGORIID ikke er lik null, så 19235001, ellers null**.

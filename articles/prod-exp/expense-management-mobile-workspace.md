@@ -5,24 +5,23 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001488"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682814"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilt arbeidsområde for utgiftshåndtering
 
-Dette emnet gir informasjon om det mobile arbeidsområdet for **Utgiftshåndtering**. Dette arbeidsområdet gjør det mulig for brukere å registrere og laste opp en kvittering, slik at de kan legge den ved en reiseregning senere. Brukere kan også raskt opprette en utgiftslinje ved hjelp av en tilknyttet kvittering og opprette og administrere reiseregningene sine. Godkjennere kan også bruke det mobile arbeidsområdet **Utgiftshåndtering** til å vise reiseregninger som er tilordnet dem, og enten godkjenne eller avvise reiseregninger.
+Dette emnet gir informasjon om det mobile arbeidsområdet for **Utgiftshåndtering**. Dette arbeidsområdet gjør det mulig for brukere å registrere og laste opp en kvittering, slik at de kan legge den ved en reiseregning senere. Brukere kan også raskt opprette en utgiftslinje ved hjelp av en tilknyttet kvittering og opprette og administrere reiseregningene sine. Godkjennere kan også bruke det mobile arbeidsområdet **Reiseregning og utlegg** til å vise reiseregninger som er tilordnet dem, og enten godkjenne eller avvise reiseregninger.
 
 
 Dette mobile arbeidsområdet er ment å skulle brukes med en Dynamics 365 Unified OPS-mobilapp.
@@ -30,12 +29,12 @@ Dette mobile arbeidsområdet er ment å skulle brukes med en Dynamics 365 Unifie
 
 ## <a name="overview"></a>Oversikt
 
-Mange organisasjoner krever at en kopi av en kvittering blir lagt ved en reiserelatert eller forretningsrelatert reiseregning som en ansatt sender inn for refusjon. Det mobile arbeidsområdet **Utgiftshåndtering** gjør det mulig for brukere raskt å opprette nye utgiftslinjer på den valgte mobilenheten ved hjelp av et vedlagt bilde av en kvittering. Brukere kan også ta et bilde av en kvittering og deretter legge det ved en reiseregning senere. Ansatte kan også opprette og administrere reiseregninger, og deretter sende dem til godkjenning og refusjon ved hjelp av den mobile enheten.
+Mange organisasjoner krever at en kopi av en kvittering blir lagt ved en reiserelatert eller forretningsrelatert reiseregning som en ansatt sender inn for refusjon. Det mobile arbeidsområdet **Reiseregning og utlegg** gjør det mulig for brukere raskt å opprette nye utgiftslinjer på den valgte mobilenheten ved hjelp av et vedlagt bilde av en kvittering. Brukere kan også ta et bilde av en kvittering og deretter legge det ved en reiseregning senere. Ansatte kan også opprette og administrere reiseregninger, og deretter sende dem til godkjenning og refusjon ved hjelp av den mobile enheten.
 
 
-Ved hjelp av det mobile arbeidsområdet **Utgiftshåndtering** kan brukere utføre følgende oppgaver:
+Ved hjelp av det mobile arbeidsområdet **Reiseregning og utlegg** kan brukere utføre følgende oppgaver:
 
-- Ta bilde av en kvittering, og last det opp til Dynamics 365 Finance. Du kan deretter legge ved dette bildet i en reiseregning senere.
+- Ta et bilde av en kvittering og last den opp til Dynamics 365 Finance. Du kan deretter legge ved dette bildet i en reiseregning senere.
 - Laste opp en fil som en registrert kvittering. Du kan deretter legge ved denne filen i en reiseregning senere.
 - Opprett en ny utgiftslinje ved hjelp av en tilknyttet kvittering. Du kan deretter legge til linjeelementet i en reiseregning senere og sende det til godkjenning og refusjon.
 
@@ -53,8 +52,8 @@ Du kan også bruke disse funksjonene:
 ## <a name="prerequisites"></a>Forutsetninger
 Forhåndskravene varierer basert på versjonen som er distribuert for organisasjonen.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Forhåndskrav hvis du bruker Dynamics 365 Finance 
-Hvis Finance er distribuert for organisasjonen, må systemetadministrator publisere det mobile arbeidsområdet **Utgiftshåndtering**. Hvis du vil ha instruksjoner, kan du se [Publisere mobile arbeidsområder](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Forutsetninger hvis du bruker Dynamics 365 Finance 
+Hvis Finance er distribuert for organisasjonen, må systemetadministrator publisere det mobile arbeidsområdet **Reiseregning og utlegg**. Hvis du vil ha instruksjoner, kan du se [Publisere mobile arbeidsområder](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Forhåndskrav hvis du bruker versjon 1611 med plattformoppdatering 3 eller senere
 Hvis versjon 1611 med plattformoppdatering 3 eller senere er distribuert for organisasjonen, må følgende forhåndskrav fullføres av systemadministrator. 
@@ -104,7 +103,7 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Registrere en kvittering ved å bruke det mobilearbeidsområdet for utgiftshåndtering
 
-1. Åpne det mobile arbeidsområdet **Utgiftshåndtering** på mobilenheten.
+1. Åpne det mobile arbeidsområdet **Reiseregning og utlegg** på mobilenheten.
 2. Velg **Registrer en kvittering**.
 3. Velg **Ta bilde** eller **Velg bilde**.
 4. Følg hvilket som helst av disse trinnene:
@@ -121,7 +120,7 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 
 5. Velg **Ferdig**.
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Registrere utgifter raskt ved å bruke det mobilearbeidsområdet for utgiftshåndtering
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Registrere utgifter raskt ved å bruke det mobile arbeidsområdet Reiseregning og utlegg
 1. Åpne det mobile arbeidsområdet **Utgiftshåndtering** på mobilenheten.
 2. Velg **Hurtigoppføring av utgift**.
 3. Velg utgiftskategorien. Du ser en liste over utgiftskategorier som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 50 elementer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) Hvis kategorien din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter utgiftskategori, eller bytt for å søke etter utgiftstype.
@@ -153,7 +152,7 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 1. Åpne det mobile arbeidsområdet **Utgiftshåndtering** på mobilenheten.
 2. Velg **Utgiftoppføring**.
 3. Velg **Ny rapport**, eller velg en eksisterende reiseregning i listen.
-4. For nye reiseregninger angir du formålet og eventuell tilleggsinformasjon som er tilgjengelig. Denne informasjonen varierer avhengig av hvordan utgiftshåndtering er konfigurert for firmaet.
+4. For nye reiseregninger angir du formålet og eventuell tilleggsinformasjon som er tilgjengelig. Denne informasjonen varierer avhengig av hvordan reiseregning og utlegg er konfigurert for firmaet.
 5. Velg **Ferdig**.
 6. Hvis du vil legge til eksisterende utgifter, for eksempel kredittkorttransaksjoner, i reiseregningen, velger du **Legg ved**.
 7. Velg én eller flere utgifter i listen.
@@ -165,7 +164,7 @@ Last ned og installer Dynamics 365 Unified Ops-mobilappen:
 13. Angi beløpet for utgiften.
 14. Velg valutaen for utgiften. Du ser en liste over valutakoder som lastes inn i appen for bruk i frakoblet modus. Som standard lastes 400 valutaer inn, men en utvikler kan endre dette antallet. Hvis utviklere vil ha mer informasjon, kan de se [Mobile-plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) Hvis valutaen din ikke finnes i listen, velger du **Søk** for å utføre et nettsøk. Søk etter valuta, eller bytt for å søke etter navn.
 15. Velg **Ferdig**.
-16. Hvis du vil legge til flere detaljer i utgiften, velger du **Legg til flere detaljer**. Hvilke felt som er tilgjengelige, avhenger av konfigurasjonen av utgiftshåndteringen for firmaet.
+16. Hvis du vil legge til flere detaljer i utgiften, velger du **Legg til flere detaljer**. Hvilke felt som er tilgjengelige, avhenger av konfigurasjonen av reiseregning og utlegg for firmaet.
 17. Hvis firmapolicyen krever en kvittering for utgiftene, velger du **Kvitteringer**, og deretter følger du denne fremgangsmåten:
 
     1. Velg **Registrer kvittering** eller **Legg ved kvittering**.

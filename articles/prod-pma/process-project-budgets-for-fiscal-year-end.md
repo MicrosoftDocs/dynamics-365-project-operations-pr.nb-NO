@@ -1,14 +1,13 @@
 ---
 title: Overføre prosjektbudsjetter ved regnskapsårets slutt
-description: Denne artikkelen inneholder informasjon om hvordan gjenstående budsjettbeløp skal overføres til fremtidige år, og oppretting av detaljer for budsjettregisteret.
+description: Denne artikkelen gir informasjon om hvordan du overfører gjenstående budsjettbeløp til fremtidige år og oppretter budsjettregisterdetaljer.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5b4e768cb78d6a6cb76b3c338fd76363d5290ebd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007383"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684056"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Overføre prosjektbudsjetter ved regnskapsårets slutt
 

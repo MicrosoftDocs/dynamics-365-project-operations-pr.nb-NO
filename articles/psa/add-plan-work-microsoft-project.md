@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005313"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727970"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Bruke tillegget Project Service Automation til å planlegge arbeidet i Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005313"
 ## <a name="download-and-install-the-add-in"></a>Last ned og installer tillegget  
  Ha [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-påloggingsinformasjonen klar. Du trenger denne informasjonen for å koble fra [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Fra nedlastingssenteret kan du laste ned tillegget for den støttede versjonen av Project Service, enten [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) eller [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Fra nedlastingssenteret kan du laste ned tillegget for den støttede versjonen av Project Service, enten [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) eller [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Klikk nedlastingskoblingen.  
 
@@ -87,9 +88,8 @@ Når prosjektplanleggingen er fullført, er det neste trinnet å importere og pu
 
 Prosjektet importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Prosessen for prising og teamgenerering brukes. Åpne prosjektet i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] for å se at teamet, prosjektestimater og arbeidsnedbrytningsstruktur er generert. Tabellen nedenfor viser hvor du finner resultatene:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-diagram**   | Importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Arbeidsnedbrytningsstruktur**-skjermen. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ressursliste** |   Importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Prosjektteammedlemmer**-skjermen.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Bruk av bruk**    |    Importeres til [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Prosjektestimater**-skjermen.     |

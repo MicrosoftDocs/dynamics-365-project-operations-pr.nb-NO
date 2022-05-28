@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679221"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600800"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter juni 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -21,7 +21,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
 - Project Operations i Dynamics 365 Dataverse-miljø, versjon 4.11.0.156 eller 4.11.0.164.
-- Prosjektstyring og regnskap i Finance and Operations-appmiljøversjon 10.0.19.
+- Prosjektstyring og regnskap i økonomi- og driftsapper, versjon 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funksjoner som er inkludert i denne versjonen
 
@@ -38,7 +38,7 @@ Det finnes ingen oppdateringer for tilordninger av dobbel skriving i Project Ope
 
 Hvis du vil ha en gjeldende liste og versjoner av tilordninger for dobbel skriving i Project Operations, kan du se [Tilordningsversjoner av dobbel skriving for Project Operations](../environment/resource-dual-write-maps.md).
 
-Kjør alltid den nyeste versjonen av tilordningen i miljøet, og aktiver alle relaterte tabelltilordninger når du oppdaterer Project Operations Dataverse-løsningen og Finance and Operations-appløsningsversjonen. Enkelte funksjoner fungerer kanskje ikke på riktig måte hvis den nyeste versjonen av tilordningen ikke er aktivert. Du kan se den aktive versjonen av tilordningen på siden **Dobbel skriving** i kolonnen **Versjon**. Aktiver en ny versjon av tilordningen ved å velge **Versjoner av tabelltilordningen**, velge den nyeste versjonen og deretter lagre den valgte versjonen. Hvis du har tilpasset en medfølgende tabelltilordning, må du bruke endringene på nytt. Hvis du vil ha mer informasjon, se [Administrasjon av programlivssyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Kjør alltid den nyeste versjonen av tilordningen i miljøet, og aktiver alle relaterte tabelltilordninger når du oppdaterer versjonen av Project Operations Dataverse-løsningen og løsningen for økonomi- og driftsapper. Enkelte funksjoner fungerer kanskje ikke på riktig måte hvis den nyeste versjonen av tilordningen ikke er aktivert. Du kan se den aktive versjonen av tilordningen på siden **Dobbel skriving** i kolonnen **Versjon**. Aktiver en ny versjon av tilordningen ved å velge **Versjoner av tabelltilordningen**, velge den nyeste versjonen og deretter lagre den valgte versjonen. Hvis du har tilpasset en medfølgende tabelltilordning, må du bruke endringene på nytt. Hvis du vil ha mer informasjon, se [Administrasjon av programlivssyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Hvis det oppstår et problem med å starte kartet, følger du instruksjonene i delen [Problem med manglende tabellkolonner på kart](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i feilsøkingsveiledningen for dobbel skriving.
 

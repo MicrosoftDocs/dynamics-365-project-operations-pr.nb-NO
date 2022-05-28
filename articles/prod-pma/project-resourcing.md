@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007338"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684884"
 ---
 # <a name="project-resourcing-home-page"></a>Startside for prosjektbemanning
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007338"
 
 Dette emnet gir informasjon om prosjektbemanning.
 
-Én utfordring for prosjektledere og ressursansvarlige i løpet av planleggingen av prosjekt er ressursallokering, der de må fastsette og reservere den riktige ressursen til å arbeide med et prosjekt. I Dynamics 365 Finance kan bemanningsfunksjonene for prosjekter angi roller som behandles som midlertidige ressurser som kan reserveres for et bestemt engasjement eller del av et engasjement. Denne typen leverandør gjør det mulig for prosjektledere og ressursansvarlige å utføre følgende oppgaver:
+Én utfordring for prosjektledere og ressursansvarlige i løpet av planleggingen av prosjekt er ressursallokering, der de må fastsette og reservere den riktige ressursen til å arbeide med et prosjekt. I Dynamics 365 Finance kan ressursfunksjoner for prosjekter la deg definere roller som skal behandles som midlertidige ressurser som kan reserveres for et spesifikt prosjekt eller en del av et prosjekt. Denne typen leverandør gjør det mulig for prosjektledere og ressursansvarlige å utføre følgende oppgaver:
 
 - Definere en rolle som har de nødvendige kompetansene, slik at det blir enkelt å matche ressurser.
 - Bruk roller til å definere en opprinnelig avtaletidsplan som er basert på reserverte ressurser.

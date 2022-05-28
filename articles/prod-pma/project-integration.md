@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988033"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684990"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasjon med Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-Det kan være komplisert å planlegge og vedlikeholde en prosjektplan, så prosjektledere trenger å bruke verktøy som hjelper dem med å administrere denne oppgaven. Integrasjon med Microsoft Project Client gir støtte for å åpne og administrere en arbeidsnedbrytningsstruktur for et prosjekt. Prosjektlederen kan publisere eventuelle endringer tilbake til arbeidsnedbrytningsstrukturen for Dynamics 365 Finance-prosjektet.
+Det kan være komplisert å planlegge og vedlikeholde en prosjektplan, så prosjektledere trenger å bruke verktøy som hjelper dem med å administrere denne oppgaven. Integrasjon med Microsoft Project Client gir støtte for å åpne og administrere en arbeidsnedbrytningsstruktur for et prosjekt. Prosjektlederen kan publisere endringer tilbake til arbeidsnedbrytningsstrukturen for prosjekt i Dynamics 365 Finance.
 
 > [!NOTE]
 > Hvis du bruker juli-oppdateringen (versjon 10.0.4), må du installere KB 4054797 og 4055884.
@@ -40,7 +39,7 @@ Hvis du vil aktivere integreringen med Microsoft Project Client, må et Microsof
 •   Klikk **Åpne**, og klikk deretter **Kjør** når du blir bedt om det.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Åpne og rediger et eksisterende utkast for en arbeidsnedbrytningsstruktur i Microsoft Project Client
-Hvis et prosjekt i Dynamics 365 Finance allerede har opprettet en arbeidsnedbrytningsstruktur, kan arbeidsnedbrytningsstrukturen åpnes i Microsoft Project Client-programmet hvis arbeidsnedbrytningsstrukturen er i utkaststatus. Hvis du vil åpne fra **Prosjekt**-siden, klikker du **Åpne i Microsoft Project**-koblingen i kategorien **Plan**. Du kan også åpne denne siden i Microsoft Project Client-programmet ved å klikke **Åpne** i kategorien **Microsoft Dynamics 365**. Velg **Juridisk enhet** og **Prosjekt** fra listen.
+Hvis et prosjekt i Dynamics 365 Finance allerede har opprettet en arbeidsnedbrytningsstruktur, kan arbeidsnedbrytningsstrukturen åpnes i Microsoft Project Client-appen hvis arbeidsnedbrytningsstrukturen har statusen Utkast. Hvis du vil åpne fra **Prosjekt**-siden, klikker du **Åpne i Microsoft Project**-koblingen i kategorien **Plan**. Du kan også åpne denne siden i Microsoft Project Client-programmet ved å klikke **Åpne** i kategorien **Microsoft Dynamics 365**. Velg **Juridisk enhet** og **Prosjekt** fra listen.
 
 > [!NOTE]
 > Hvis du bruker Internet Explorer som webleser, må du klikke **Lagre** for å åpne manuelt fra plasseringen som filen er lastet ned til. Du kan også klikke **Lagre og åpne** for å åpne filen i Microsoft Project Client. Ikke gi nytt navn til filen når du lagrer.

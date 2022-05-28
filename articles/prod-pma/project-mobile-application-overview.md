@@ -3,25 +3,23 @@ title: Oversikt over mobilapper for prosjekter
 description: Dette emnet inneholder generell informasjon om tidsrelaterte prosjektapper for Microsoft Dynamics 365 Project Timesheet, Tidsoppføring for prosjekt og Mine timeregistreringer / Timeregistreringer for min gjennomgang på en mobilenhet.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005673"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685420"
 ---
 # <a name="project-mobile-applications-overview"></a>Oversikt over mobilapper for prosjekter
 
@@ -31,11 +29,11 @@ Tre mobilapper som er relatert til prosjekttid, er tilgjengelige for Microsoft D
 
 ## <a name="project-timesheet-mobile-app"></a>Mobilappen Project Timesheet
 
-Med mobilappen Dynamics 365 Project Timesheet kan brukere sende og godkjenne timeregistreringer for prosjekter på den mobile enheten. Denne mobilappen viser timeregistreringsfunksjonen i Prosjektstyring og regnskap-området i Dynamics 365 Finance. Den hjelper deg med å forbedre produktiviteten og effektiviteten til brukere og bidrar også til at prosjekttimeregistreringer registreres og godkjennes til rett tid.
+Med mobilappen Dynamics 365 Project Timesheet kan brukere sende og godkjenne timeregistreringer for prosjekter på den mobile enheten. Denne mobilappen viser timeregistreringsfunksjonaliteten som befinner seg i prosjektstyrings- og regnskapsområdet i Dynamics 365 Finance. Den hjelper deg med å forbedre produktiviteten og effektiviteten til brukere og bidrar også til at prosjekttimeregistreringer registreres og godkjennes til rett tid.
 
 ## <a name="project-time-entry-workspace"></a>Arbeidsområdet Tidsoppføring for prosjekt
 
-Arbeidsområdet Tidsoppføring for prosjekt gjør det mulig for brukere å skrive inn og spare tid på et prosjekt. Det gjør det imidlertid ikke mulig for brukere å sende eller godkjenne prosjekttimeregistreringer. Den kan bare brukes til tidsregistrering. Dette mobile arbeidsområdet er ment å skulle brukes sammen med en mobilappen Finance and Operations.
+Arbeidsområdet Tidsoppføring for prosjekt gjør det mulig for brukere å skrive inn og spare tid på et prosjekt. Det gjør det imidlertid ikke mulig for brukere å sende eller godkjenne prosjekttimeregistreringer. Den kan bare brukes til tidsregistrering. Dette mobile arbeidsområdet er ment å brukes sammen med Finance and Operations-mobilappen.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mine timeregistreringer / Timeregistreringer for min gjennomgang
 
