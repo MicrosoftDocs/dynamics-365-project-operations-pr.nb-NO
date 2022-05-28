@@ -4,16 +4,16 @@ description: Dette emnet inneholder informasjon om kontantforskudd.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988528"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585712"
 ---
 # <a name="cash-advance"></a>Kontantforskudd
 
@@ -66,7 +66,7 @@ Før du sender en utgiftsrapport, kan du velge kontantforskuddet som er på linj
  
  Når disse funksjonene er aktivert:
  
-  - Du kan legge til ett eller flere kontantforskudd for hver utgiftslinje.
+  - Du kan legge til ett eller flere forskudd for hver utgiftslinje.
   - Den tilgjengelige saldoen for et kontantforskudd vises i sanntid når en utgiftsrapport lagres. Dette gjør det mulig å behandle utgiftstransaksjoner og returnere kontanttransaksjonen samtidig.
   - Du kan velge flere kontantforskudd for én utgiftstransaksjon.
   - Avstemmingsdata for kontantforskudd er tilgjengelige ved hjelp av en spørring. 

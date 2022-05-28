@@ -4,20 +4,20 @@ description: Dette emnet gir informasjon om sikkerhetsmodellen i Dynamics 365 Pr
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991498"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585758"
 ---
 # <a name="security-model"></a>Sikkerhetsmodell
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations inneholder en unik sikkerhetsmodell som tillater en rollebasert forretningssikkerhetsmodell som samarbeider med Microsoft Office-grupper. 
 
@@ -70,7 +70,7 @@ Etter hvert som samarbeidsmodellen med Office-grupper utvikler seg, blir det lag
 
 Hvis du vil ha mer informasjon, kan du se [Sikkerhet i Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Sikkerhet for Project Operations og Microsoft Dynamics 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Sikkerhet i Project Operations og Microsoft Dynamics 365 Finance
 Project Operations inkluderer følgende roller:
 
 - Prosjektleder

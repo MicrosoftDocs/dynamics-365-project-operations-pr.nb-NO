@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986728"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582815"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Opprette og bekrefte korrigeringsjournaler
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Noen ganger kan en tids- eller utgiftsoppføring være angitt feil. En konsulent kan for eksempel velge feil dato ved oppretting av en tidsoppføring, eller de kan transponere tallene ved angivelse av en utgift. Hvis en konsulent ikke kan gjøre oppdateringene til de sendte oppføringene, kan en administrator direkte korrigere oppføringen for et prosjekt.
-
-Hvis du vil fullføre fremgangsmåtene i dette emnet, må du ha administratortillatelser.
+Fra tid til annen kan det hende at en tids- eller utgiftsoppføring angis feil. En konsulent kan for eksempel velge feil dato når de oppretter en tidsoppføring, eller de kan velge feil prosjekt når de oppgir en utgift. Hvis en konsulent ikke kan oppdatere de sendte oppføringene, kan en administrator i bakgrunnen korrigere de faktiske beløpene for et prosjekt direkte.
 
 ## <a name="correct-approved-time-entries"></a>Korrigere godkjente tidsoppføringer     
 
@@ -46,8 +42,8 @@ Fullfør fremgangsmåten nedenfor for å rette én eller flere tidsoppføringer 
 
 6. Velg **Forhåndsvisning**. Velg **OK** i dialogboksen. I kategorien **Journallinjer** kan du vise en liste over de opprinnelige faktiske verdiene som er relatert til de valgte tidsoppføringene som er tilbakeført, og de korrigerte tilsvarende linjene som er blitt opprettet. Hvis det skal utføres flere rettelser, gjentar du trinn 5 og 6. 
 
-> [!NOTE]
-> Alle de korrigerte faktiske verdiene vil ha samme verdier som du har valgt i delen **Nye verdier for tidsoppføringer**.
+    > [!NOTE]
+    > Alle de korrigerte faktiske verdiene vil ha samme verdier som du har valgt i delen **Nye verdier for tidsoppføringer**.
 
 7. Hvis korrigeringene vises som forventet, velger du **Bekreft**. Velg **OK** i dialogboksen.
 
@@ -55,12 +51,10 @@ Fullfør fremgangsmåten nedenfor for å rette én eller flere tidsoppføringer 
 
 9. På **Prosjekter**-siden i kategorien **Faktiske verdier** kan du vise endringene du har utført. 
 
-> [!NOTE]
-> Hvis kategorien **Faktiske verdier** ikke vises, velger du **Relatert** > **Faktiske verdier**.  
+    > [!NOTE]
+    > Hvis kategorien **Faktiske verdier** ikke vises, velger du **Relatert** > **Faktiske verdier**.  
 
 10. I listen **Tilknyttet visning for faktiske data** kan du se at de opprinnelige tidsoppføringene som er tilbakeført, fremdeles er oppført, og dette gjelder også for de tilsvarende korrigerte tidsoppføringene. 
-
-I følgende grafikk er det for eksempel to linjeelementer med et antall på 8,00 som har debiteringer oppført i Beløp-kolonnen. I tillegg finnes det to linjeelementer med et antall på -8,00 som viser krediterte beløp i Beløp-kolonnen. Disse korrigeringene får antallet til å bli null.
 
  
 ## <a name="correct-approved-expense-entries"></a>Korrigere godkjente utgiftsoppføringer
@@ -79,14 +73,30 @@ Fullfør fremgangsmåten nedenfor for å korrigere én eller flere utgiftsoppfø
 
 6. Hvis de korrigerte verdiene er som forventet, velger du **Bekreft**. Velg **OK** i dialogboksen. Hvis verdiene ikke vises som forventet, velger du **Avbryt** for å gå tilbake til listen **Godkjente utgifter**. Gjenta trinn 2 til 5. 
 
-> [!NOTE]
-> De korrigerte faktiske verdiene vil ha samme verdier som du har valgt i delen **Nye verdier for utgifter**.
+7. Når du har bekreftet korreksjonsjournalen, går du tilbake til prosjektet eller prosjektene du har oppdatert, for å vise endringene.
 
-7. Etter at du har bekreftet korrigeringsjournalen, navigerer du tilbake til prosjektet eller prosjektene du oppdaterte, for å vise endringene.  
-
-8. På prosjektsiden, i kategorien **Faktiske verdier**, går du gjennom **Tilknyttet visning for faktiske data**. De opprinnelige oppføringene og de korrigerte oppføringene vises. Følgende grafikk viser opprinnelige utgiftsoppføringsbeløp og tilhørende korrigerte utgiftsoppføringsbeløp. 
+8. På prosjektsiden, på fanen **Faktiske verdier**, går du gjennom listen **Tilknyttet visning for faktiske data**. De opprinnelige oppføringene og de korrigerte oppføringene vises.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Korriger godkjente logger for materialbruk
+
+Fullfør fremgangsmåten nedenfor for å korrigere én eller flere loggoppføringer for materialbruk.
+
+1. I **Salgs**-området, i den venstre navigasjonsruten, under **Transaksjoner**, velger du **Faktiske verdier**.
+
+2. I listen **Faktiske verdier** bruker du kolonnefiltre til å velge **Materiale**-transaksjonsklassen, slik at bare de faktiske verdiene for materialene vises. Bruk andre kolonnefiltre til ytterligere å begrense de faktiske beløpene som vises. Når du kan finne det ønskede settet med faktiske verdier, velger du de faktiske verdiene, og deretter velger du **Korriger oppføringer**. En ny korreksjonsjournal opprettes automatisk, og typen **Materialkorrigering** tilordnes.
+
+3. På siden **Ny journal**, i **Beskrivelse**-feltet, skriver du inn en beskrivelse for korreksjonen. På fanen **Materialkorriger**, i delen **Nye verdier for materialer**, velger du deretter datafeltene som skal korrigeres for de valgte materiallinjene. Du kan for eksempel tilordne materialet til et annet prosjekt, eller korrigere produktet, materialdatoen eller underkontrakten.
+
+4. Velg **Forhåndsvisning**. Velg deretter **OK** i dialogboksen.
+
+5. Kontroller korrigeringene på fanen **Journallinjer**. Du kan vise en liste over de opprinnelige faktiske verdiene som er relatert til de valgte materialoppføringene som er reversert, og de korrigerte tilsvarende linjene som er opprettet.
+
+6. Hvis de korrigerte verdiene er som forventet, velger du **Bekreft**. Velg deretter **OK** i dialogboksen. Hvis verdiene ikke er som forventet, velger du **Avbryt** for å gå tilbake til listen **Faktiske verdier**. Gjenta deretter trinn 2 til 5.
+
+7. Når du har bekreftet korreksjonsjournalen, går du tilbake til prosjektet eller prosjektene du har oppdatert, for å vise endringene.
+
+8. På prosjektsiden, på fanen **Faktiske verdier**, går du gjennom listen **Tilknyttet visning for faktiske data**. De opprinnelige oppføringene og de korrigerte oppføringene vises.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

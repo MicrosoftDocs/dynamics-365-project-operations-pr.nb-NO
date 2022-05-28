@@ -4,26 +4,26 @@ description: Dette emnet gir informasjon om nøkkelkonseptene ved prosjektkontra
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986953"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582952"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Unike konsepter for prosjektbaserte kontrakter
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emnet inneholder nøkkelkonseptene som du må være klar over før du begynner å bruke Prosjektkontrakter i Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Eiende firma
 
-Det eiende firmaet er den juridiske enheten fra modulen **Prosjektstyring og regnskap** i Project Operations fra Dynamics 365 Finance. Det eiende firmaet representerer den juridiske enheten som skal stå for kostnadene og omsetningen som påløper fra en avtale.
+Det eiende selskapet er den juridiske enheten fra modulen **Prosjektstyring og regnskap** for Project Operations fra Dynamics 365 Finance. Det eiende firmaet representerer den juridiske enheten som skal stå for kostnadene og omsetningen som påløper fra en avtale.
 
 ## <a name="contracting-unit"></a>Kontraktsenhet
 

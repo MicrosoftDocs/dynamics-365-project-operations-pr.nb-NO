@@ -2,22 +2,22 @@
 title: Registrer deg for Project Operations-prøveversjoner
 description: Dette emnet gir informasjon om hvordan du distribuerer en prøveversjon av Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901629"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584286"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrer deg for Project Operations-prøveversjoner 
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering, og Project Operations for lagerførte/produksjonsbaserte scenarioer_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emnet forklarer hvordan du abonnerer på forhåndsversjonspartnertilbudet og distribuerer et Dynamics 365 Project Operations-miljø.
 
@@ -36,7 +36,6 @@ Tabellen nedenfor viser detaljene for det nye prøveversjonstilbudet.
 | Bruk av tilbud                    | Én gang per leier                          |
 | Tilbudsvarighet               | 30 kalenderdager                             |
 | Innløsning per leietaker       | 1                                            |
-| Antall brukere              | 25                                           |
 | Internnummer                    | 1 utvidelse, 30 kalenderdager               |
 | Antall prøveversjonsmiljøer | 3                                            |
 
@@ -87,7 +86,7 @@ Før du begynner logger du på en nettleser med brukerkontoen i leieren der du v
  
   Når klargjøringen er fullført, er tilstanden for miljøet **klar**. Klargjøring av miljøet inkluderer distribusjon av demonstrasjonsdata.
  
-4.  Velg den respektive Microsoft Dataverse-nettadressen og nettadressene for Finance and Operations-apper for å validere distribusjonen.
+4.  Velg den respektive Microsoft Dataverse-nettadressen og nettadressene for økonomi- og driftsapper for å validere distribusjonen.
 
 ## <a name="configuring-dual-write"></a>Konfigurasjon av dobbel skriving
 - Hvis du vil konfigurere sikkerhetsroller for dobbeltskriving, kan du se [Oppdatere sikkerhetsinnstillinger for Project Operations i Dataverse](resource-provision-new-environment.md).
@@ -97,7 +96,7 @@ Før du begynner logger du på en nettleser med brukerkontoen i leieren der du v
 
 Du må ha administrativ tilgang til organisasjonens Microsoft 365-portal for å kunne utføre følgende trinn.
 
-1. Gå til [administrasjonssenteret for Microsoft 365](https://portal.office.com/) for å tilordne lisensene til brukerne.
+1. Gå til [Microsoft 365-administrasjonssenteret](https://portal.office.com/) for å tilordne lisensene til brukerne.
 
    ![Startsiden for administrasjonssenteret](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Følgende ressurser gir nyttig veiledning når du begynner arbeidet med Project 
 
 ## <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Hva skjer hvis jeg trenger ALM eller ELM for Finance and Operations-appmiljøet?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Hva skjer hvis jeg trenger ALM eller ELM for økonomi- og driftsappmiljøet?
 
 - Partnere som trenger fullstendige funksjoner for administrasjon av miljølivssyklusen, kan du se [Lisensforespørselen for partnersandkassen](https://experience.dynamics.com/requestlicense) for å se gjennom det nye partnertilbudet. 
 - For partnere som ønsker mer informasjon om interne bruksrettigheter, kan du se [Skyen for interne bruksrettigheter og programvarefordeler (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Følgende ressurser gir nyttig veiledning når du begynner arbeidet med Project 
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Kan jeg forlenge prøveversjonen utover 30 dager?
 Fullfør trinnene nedenfor for å forlenge prøveversjonen.
 
-1. Gå til **Fakturering** > **Dine produkter** i **administrasjonssenteret for Microsoft 365**.
+1. I **Microsoft 365-administrasjonssenteret** går du til **Fakturering** > **Dine produkter**.
 2. Velg **Dynamics 365 Project Operations (CE) – forhåndsversjon**.
 3. Velg **Forleng dato** under **Utløpsdato**.
 

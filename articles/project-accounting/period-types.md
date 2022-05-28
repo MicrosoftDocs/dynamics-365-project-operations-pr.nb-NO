@@ -4,14 +4,14 @@ description: Dette emnet gir informasjon om hvordan du konfigurerer periodetyper
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998788"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580468"
 ---
 # <a name="period-types"></a>Periodetyper
 
@@ -22,7 +22,7 @@ En periodetype definerer hvor ofte inntekten på et prosjekt estimeres. Dette em
 ## <a name="create-and-work-with-period-types"></a>Opprette og arbeide med periodetyper
 Fullfør fremgangsmåten nedenfor for å opprette og arbeide med periodetyper:
 
-1. I Dynamics 365 Finance-miljøet går du til Gå til **Prosjektstyring og regnskap** > **Oppsett** > **Estimater** > **Periodetyper**.
+1. I Dynamics 365 Finance-miljøet går du til **Prosjektstyring og regnskap** > **Oppsett** > **Estimater** > **Periodetyper**.
 2. Hvis du vil opprette en ny periodetype, velger du **Ny**. Angi et navn og en beskrivelse.
 3. Angi en verdi i feltet **Hyppighet**:
 

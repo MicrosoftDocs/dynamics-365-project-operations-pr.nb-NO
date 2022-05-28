@@ -2,16 +2,16 @@
 title: Innstillinger for prosjektkontrakt – Lite
 description: Dette emnet gir informasjon om felt som påvirker kontraktlinjer, og informasjon om kontrakten som er oppsummert, på tvers av alle linjeelementene.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995953"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586402"
 ---
 # <a name="header-details-for-project-contracts"></a>Overskriftsdetaljer for prosjektkontrakter
 
@@ -32,12 +32,15 @@ Tabellen nedenfor viser feltene i en prosjektkontrakt som er unike for Dynamics 
 | Må ikke overskrides-grense | **Sammendrag**-fanen | Dette feltet angir det forhandlede taket for den endelige verdien som kunden har godtatt for denne avtalen. | Taket evalueres under kjøring og gjelder på tvers av alle linjeelementer og prosjekter som er tilknyttet denne avtalen. |
 | Ønsket leveringsdato | **Sammendrag**-fanen | Når en kontrakt er opprettet fra et prosjekttilbud, kopieres dette feltet fra det tilsvarende feltet for prosjekttilbudet. | Denne datoen brukes som sluttdato for å generere fakturaplaner. |
 
-Følgende KPI-er er tilgjengelige i kategorien **Kontraktytelse** for en prosjektkontrakt.
+Følgende KPI-er er tilgjengelige i kategorien **Kontraktytelse** for en prosjektkontrakt. 
 
-| Felt | Sted | Beskrivelse |
+>[!NOTE]
+>Alle beløp på fanen **Kontraktytelse** uttrykkes i standardvalutaen i miljøet.
+
+| Felt | Plassering | Bekrivelse |
 | --- | --- | --- |
-| Kontraktverdi | Samlet kontrakt | Totalverdien for prosjektkontrakten. |
-| Fakturert beløp | Samlet kontrakt | Summen av beløpene på alle fakturaer mot denne kontrakten. |
+| Kontraktverdi | Samlet kontrakt | Totalverdien for prosjektkontrakten.|
+| Fakturert beløp | Samlet kontrakt | Summen av beløpene på alle fakturaer mot denne kontrakten.|
 | Påløpt kostnad | Samlet kontrakt | Summen av alle faktiske kostnader som er logget på alle prosjekter som er tilordnet kontrakten. |
 | Bruttofortjeneste | Samlet kontrakt | Fakturert beløp – kostnad påløpt til dato / fakturert beløp |
 | Forventet margin | Samlet kontrakt | (Kontraktverdi – estimerte kostnader) / kontraktverdi – estimerte kostnader = summen av alle estimerte kostnader for alle prosjekter som er tilordnet kontrakten.|

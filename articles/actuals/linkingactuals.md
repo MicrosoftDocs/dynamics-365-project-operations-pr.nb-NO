@@ -1,94 +1,39 @@
 ---
-title: Koble faktiske verdier til opprinnelige oppføringer
-description: Dette emnet forklarer hvordan du kobler faktiske verdier til opprinnelige oppføringer, for eksempel tidsregistrering, utgiftsregistrering eller logger for materialbruk.
+title: Transaksjonsopprinnelse – Koble faktiske verdier til kilden
+description: Dette emnet forklarer hvordan konseptet med transaksjonsopprinnelse brukes til å koble faktiske verdier til opprinnelige kildeoppføringer, for eksempel tidsoppføring, utgiftsoppføring eller logg over materialbruk.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991768"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584838"
 ---
-# <a name="link-actuals-to-original-records"></a>Koble faktiske verdier til opprinnelige oppføringer
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Transaksjonsopprinnelse – Koble faktiske verdier til kilden
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-
-I Dynamics 365 Project Operations er en *forretningstransaksjon* et abstrakt konsept som ikke representeres av en enhet. Noen felles felt og prosesser på enheter er imidlertid utformet for å bruke konseptet forretnings transaksjoner. Følgende enheter bruker dette konseptet:
-
-- Tilbudslinjedetaljer
-- Kontraktlinjedetaljer
-- Estimatlinjer
-- Journallinjer
-- Faktisk
-
-Av disse enhetene er **tilbudslinjedetaljer**, **kontraktlinjedetaljer** og **estimatlinjer** tilordnet til estimatfasen i prosjektets livssyklus. Enhetene **Journallinjer** og **Faktiske enheter** tilordnes til utførelsesfasen i prosjektets livssyklus.
-
-Project Operations gjenkjenner oppføringer i disse fem enhetene som forretningstransaksjoner. Den eneste forskjellen er at oppføringer i enhetene som er tilordnet til estimatfasen, betraktes som finansielle prognoser, mens oppføringer i enheter som er tilordnet til utførelsesfasen, betraktes som økonomiske fakta som allerede har forekommet.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Konsepter som er unike for forretningstransaksjoner
-Følgende konsepter er unike for forretningstransaksjoner:
-
-- Transaksjonstype
-- Transaksjonsklasse
-- Transaksjonsopprinnelse
-- Transaksjonstilkobling
-
-### <a name="transaction-type"></a>Transaksjonstype
-
-Transaksjonstype representerer tidsberegningen og konteksten for den finansielle innvirkningen på et prosjekt. Dette representeres av et alternativsett som har følgende støttede verdier i Project Operations:
-
-  - Kostnad
-  - Prosjektkontrakt
-  - Ufakturert salg
-  - Fakturert salg
-  - Salg mellom organisasjoner
-  - Kostnad for ressursenhet
-
-### <a name="transaction-class"></a>Transaksjonsklasse
-
-Transaksjonsklasse representerer de forskjellige kostnadstypene som er påløpt for prosjekter. Dette representeres av et alternativsett som har følgende støttede verdier i Project Operations:
-
-  - Tid
-  - Utgift
-  - Materiale
-  - Gebyr
-  - Milepæl
-  - Avgift
-
-**Milepæl** brukes vanligvis av forretningslogikken for fakturering med fast pris i Project Operations.
-
-### <a name="transaction-origin"></a>Transaksjonsopprinnelse
-
-**Transaksjonsopprinnelse** er en enhet som lagrer opprinnelsen til hver forretningstransaksjon. Etter hvert som et prosjekt kommer i gang, vil hver forretningstransaksjon forårsake en annen forretningstransaksjon, som i sin tur oppretter en ny og så videre. Enheten for transaksjonsopprinnelse er utformet for å lagre data om opprinnelsen til hver transaksjon for å bidra til rapportering og sporbarhet. 
-
-### <a name="transaction-connection"></a>Transaksjonstilkobling
-
-**Transaksjonstilkobling** er en enhet som lagrer relasjonen mellom to lignende forretningstransaksjoner, for eksempel kostnader og relaterte faktiske verdier for salg, eller transaksjonsannulleringer som utløses av faktureringsaktiviteter, for eksempel fakturabekreftelse eller fakturakorreksjoner.
-
-Sammen hjelper **Transaksjonsopprinnelse** og **Transaksjonstilkobling** deg med å spore relasjoner mellom forretningstransaksjoner og handlinger som førte til en bestemt forretningstransaksjon.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Eksempel: slik fungerer transaksjonsopprinnelse sammen med transaksjonstilkobling
+Oppføringer for transaksjonsopprinnelse opprettes for å koble faktiske verdier til kilden, for eksempel tidsoppføringer, utgiftsoppføringer, logger for materialbruk og prosjektfakturaer.
 
 Følgende eksempel viser den typiske behandlingen av tidsoppføringer i en Project Operations-prosjektlivssyklus.
 
-> ![Behandling av tidsoppføringer i Project Service-livssyklus.](media/basic-guide-17.png)
+> ![Behandling av tidsoppføringer i Project Operations.](media/basic-guide-17.png)
  
-1. Innsending av en tidsoppføring oppretter to journallinjer: én linje for kostnad og én linje for ufakturert salg.
-2. Eventuell godkjenning av tidsoppføringen oppretter to faktiske verdier: én for kostnad og én for ufakturert salg.
-3. Når en ny prosjektfaktura blir opprettet, opprettes fakturalinjetransaksjonen ved hjelp av data fra det faktiske salget som ikke er fakturert. 
-4. Når fakturaen er bekreftet, opprettes det to nye faktiske verdier: en tilbakeføring av en ufakturert faktisk verdi og et faktisk fakturert salg.
+1. Innsending av en tidsoppføring fører til at det opprettes to journallinjer: én for kostnad og én for ufakturert salg.
+2. Eventuell godkjenning av tidsoppføringen fører til at det opprettes to faktiske verdier: én for kostnad og én for ufakturert salg.
+3. Når brukeren oppretter en prosjektfaktura, opprettes fakturalinjetransaksjonen ved hjelp av data fra det faktiske salget som ikke er fakturert.
+4. Når fakturaen er bekreftet, opprettes det to nye faktiske verdier: en tilbakeføring av en ordre som er fakturert, og et faktisk fakturert salg.
 
-Hver av disse hendelsene oppretter en oppføring i enhetene **Transaksjonsopprinnelse** og **Transaksjonstilkobling**. Disse nye oppføringene bidrar til å bygge en logg over relasjoner mellom oppføringene som opprettes mellom tidsoppføringene, journallinjen, faktiske verdier og fakturalinjedetaljer.
+Hver hendelse i denne behandlingsarbeidsflyten utløser opprettelsen av oppføringer i transaksjonsopprinnelsesenheten for å bidra til å bygge en sporing av relasjonene mellom disse oppføringene som opprettes på tvers av tidsoppføringer, journallinjer, faktiske verdier og fakturalinjedetaljer.
 
-Tabellen nedenfor viser oppføringene i **Transaksjonsopprinnelse**-enheten for arbeidsflyten.
+Tabellen nedenfor viser oppføringene i Transaksjonsopprinnelse-enheten for den foregående arbeidsflyten.
 
-| Seminar/konferanse                        | Opprinnelse                   | Opprinnelsestype                       | Transaksjon                       | Transaksjonstype         |
+| Hendelse                        | Opprinnelse                   | Opprinnelsestype                       | Transaksjon                       | Transaksjonstype         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Innsending av tidsoppføring        | GUID for tidsoppføring   | Tidsoppføring                        | GUID for journallinjeoppføring (kostnad)   | Journallinje             |
 | GUID for tidsoppføring       | Tidsoppføring               | GUID for journallinjeoppføring (salg)  | Journallinje                      |                          |
@@ -124,18 +69,9 @@ Tabellen nedenfor viser oppføringene i **Transaksjonsopprinnelse**-enheten for 
 | GUID for korreksjons IL           | Fakturalinje             | GUID for nytt ufakturert faktisk salg    | Faktisk                            |                          |
 | GUID for fakturakorreksjon      | Faktura                  | GUID for nytt ufakturert faktisk salg    | Faktisk                            |                          |
 
-Tabellen nedenfor viser oppføringene i **Transaksjonstilkobling**-enheten for arbeidsflyten.
 
-| Seminar/konferanse                          | Transaksjon 1                 | Rolle for transaksjon 1 | Type for transaksjon 1           | Transaksjon 2                | Rolle for transaksjon 2 | Type for transaksjon 2 |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Innsending av tidsoppføring          | GUID for journallinje (salg)     | Ufakturert salg     | msdyn_journalline            | GUID for journallinje (kostnad)     | Kostnad               | msdyn_journalline  |
-| Tidsgodkjenning                  | GUID for ufakturert faktisk verdi (salg)  | Ufakturert salg     | msdyn_actual                 | GUID for faktisk kostnadsverdi (kostnad)       | Kostnad               | msdyn_actual       |
-| Oppretting av faktura               | GUID for fakturalinjedetalj      | Fakturert salg       | msdyn_invoicelinetransaction | GUID for ufakturert faktisk salg   | Ufakturert salg     | msdyn_actual       |
-| Fakturabekreftelse           | GUID for tilbakeføring av faktisk verdi         | Tilbakeføring          | msdyn_actual                 | GUID for opprinnelig ufakturert salg | Opprinnelig           | msdyn_actual       |
-| GUID for fakturert salg              | Fakturert salg                  | msdyn_actual       | GUID for ufakturert faktisk salg   | Ufakturert salg               | msdyn_actual       |                    |
-| Korrigering av fakturautkast       | GUID for fakturalinjetransaksjon | Erstatning          | msdyn_invoicelinetransaction | GUID for fakturert salg            | Opprinnelig           | msdyn_actual       |
-| Bekreft fakturakorreksjon     | GUID for tilbakeføring av fakturert salg    | Tilbakeføring          | msdyn_actual                 | GUID for fakturert salg            | Opprinnelig           | msdyn_actual       |
-| GUID for nytt ufakturert faktisk salg | Erstatning                     | msdyn_actual       | GUID for fakturert salg            | Opprinnelig                     | msdyn_actual       |                    |
+Illustrasjonen nedenfor viser koblingene som opprettes mellom faktiske verdier og deres kilder ved ulike hendelser ved hjelp av eksemplet med tidsoppføringer i Project Operations.
 
+> ![Hvordan faktiske verdier er koblet til kildeoppføringer i Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
