@@ -4,14 +4,14 @@ description: Dette emnet gir informasjon om hvordan du abonnerer på og distribu
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991543"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588012"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrer deg for et forhåndsversjonsbonnement – Lite 
 
@@ -43,7 +43,7 @@ Før du begynner, må du forsikre deg om at du er logget på en nettleser med br
 > Du må ha administrativ tilgang til organisasjonens Microsoft 365-portal for å kunne utføre følgende trinn.
 
 
-1. Gå til [administrasjonssenteret for Microsoft 365](https://portal.office.com/) for å tilordne lisensene til brukerne dine.
+1. Gå til [Microsoft 365-administrasjonssenteret](https://portal.office.com/) for å tilordne lisensene til brukerne.
 2. På siden **Aktive brukere** velger du brukerne du vil tilordne en lisens til.
 3. Kontroller at **Dynamics 365 Project Operations**-lisensen er valgt. 
 4. Velg **Lagre endringer**.

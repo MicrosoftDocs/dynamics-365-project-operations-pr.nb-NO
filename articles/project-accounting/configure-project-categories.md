@@ -4,14 +4,14 @@ description: Denne emnet gir informasjon om konfigurering av prosjektkategorier.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997123"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591554"
 ---
 # <a name="configure-project-categories"></a>Konfigurere prosjektkategorier
 
@@ -27,7 +27,7 @@ Transaksjonskategorier er den grunnleggende grupperingen av prosjekttransaksjone
 
 ## <a name="transaction-categories"></a>Transaksjonskategorier
 
-Transaksjonskategorier representerer den grunnleggende grupperingen av prosjekttransaksjoner, og er ikke firma- eller transaksjonstypespesifikk. Eksempelvis bruker Contoso Robotics kategoriene for utforming, reise, installasjon og servicetransaksjon for å gruppere prosjekttransaksjoner.
+Transaksjonskategorier representerer den grunnleggende grupperingen av prosjekttransaksjoner, og er ikke firma- eller transaksjonstypespesifikk. Ekeli bruker for eksempel kategoriene Design, Reise, Installasjon og Servicetransaksjon til å gruppere prosjekttransaksjoner.
 
 Transaksjonskategorier defineres i Project Operations-modulen. 
 1. Gå til **Innstillinger** \> **Transaksjonskategorier** for å åpne skjemaet. 
@@ -35,7 +35,7 @@ Transaksjonskategorier defineres i Project Operations-modulen.
 
 ## <a name="shared-categories"></a>Delta kategorier
 
-Dynamics 365 bruker konseptet Delte kategorier til å kategorisere utgifter i forskjellige programmer, for eksempel Dynamics 365 Finance, Dynamics 365 Supply Chain og Dynamics 365 Project Operations. For hver transaksjonskategori som opprettes, oppretter Project Operations automatisk fire relaterte delte kategorier: timer, utgift, avgifter og vare. Du kan se gjennom og justere de delte kategoriene ved å gå til **Prosjektstyring og regnskap** \> **Oppsett** \> **Kategorier** \> **Delte kategorier**.
+Dynamics 365 bruker konseptet Delte kategorier til å kategorisere utgifter i forskjellige apper, for eksempel Dynamics 365 Finance, Dynamics 365 Supply Chain og Dynamics 365 Project Operations. For hver transaksjonskategori som opprettes, oppretter Project Operations automatisk fire relaterte delte kategorier: timer, utgift, avgifter og vare. Du kan se gjennom og justere de delte kategoriene ved å gå til **Prosjektstyring og regnskap** \> **Oppsett** \> **Kategorier** \> **Delte kategorier**.
 
 ## <a name="project-categories"></a>Prosjektkategorier
 

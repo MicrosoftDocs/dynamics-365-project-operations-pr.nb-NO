@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986818"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589024"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter februar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -21,7 +21,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
 - Project Operations i Dataverse-miljø 4.7.0.95
-- Prosjektstyring og regnskap i Dynamics 365 Finance-miljø versjon 10.0.16 
+- Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.16 
 
 ## <a name="quality-updates"></a>Kvalitetsoppdateringer
 
@@ -46,12 +46,12 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Prosjektstyring og regnskap i Dynamics 365 Finance 
 
-Hvis du vil ha mer informasjon om prosjektbehandling og regnskapsvirksomhet i Dynamics 365 Finance, kan du se [Nyheter januar 2021 – Project Operations for ressurs-/ikke-lagerbaserte scenarioer](whats-new-jan-2021-resource-based.md).
+Hvis du vil ha mer informasjon om prosjektstyring og regnskap i Dynamics 365 Finance, kan du se [Nyheter januar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
 
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). En annen måte å lære om regelverksoppdateringer på, er å logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av problemsøkverktøyet. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for økonomi- og driftsapper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). En annen måte å lære om regelverksoppdateringer på, er å logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av problemsøkverktøyet. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

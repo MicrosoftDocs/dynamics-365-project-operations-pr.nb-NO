@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002343"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591922"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurere egendefinerte felt som prisdimensjoner 
 
@@ -71,12 +72,12 @@ Det finnes to typer prisdimensjoner:
   
 | Rolle        | Organisasjonsenhet    |Arbeidssted      |Standardtittel      |Arbeidstid for ressurs      |  Påslag|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|På stedet            |                    |Overtid                 |15     |
-|             | Contoso India|Lokal             |                    |Overtid                 |10     |
-|             | Contoso – USA   |Lokal             |                    |Overtid                 |20     |
+|             | Ekeli India|På stedet            |                    |Overtid                 |15     |
+|             | Ekeli India|Lokal             |                    |Overtid                 |10     |
+|             | Contoso US   |Lokal             |                    |Overtid                 |20     |
 
 
-Hvis en ressurs fra Contoso India som har en basispris på 100 USD, arbeider på stedet, og de registrerer 8 timer normal tid og 2 timer overtid i tidsoppføringen, vil Project Service-prismotoren bruke basisprisen på 100 for de 8 timene for å registrere 800 USD. For de 2 timene overtid brukes et påslag på 15 % på basisprisen på100 for å få en enhetspris på 115 USD, og det registreres en total kostnad på 230 USD.
+Hvis en ressurs fra Ekeli India som har en basispris på 100 USD, arbeider på stedet, og de registrerer 8 timer normal tid og 2 timer overtid i tidsoppføringen, vil Project Service-prismotoren bruke basisprisen på 100 for de 8 timene for å registrere 800 USD. For de 2 timene overtid brukes et påslag på 15 % på basisprisen på100 for å få en enhetspris på 115 USD, og det registreres en total kostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gjelder kostnad 
 Hvis det er satt til **Ja**, indikerer det at dimensjonsverdien fra inndatakonteksten skal brukes til å samsvare **Rollepris** og **Rolleprispåslag** ved henting av kostnads- og påslagsrater.

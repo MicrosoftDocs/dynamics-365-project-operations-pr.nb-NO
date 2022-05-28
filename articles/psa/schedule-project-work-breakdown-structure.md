@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996808"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587368"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planlegge et prosjekt med en arbeidsnedbrytningsstruktur (Project Service)
 
@@ -63,7 +64,7 @@ En prosjektplan kommuniserer hvilke oppgaver som må utføres, hvilke ressurser 
 ## <a name="task-types"></a>Oppgavetyper  
 Når du oppretter en arbeidsnedbrytningsstruktur, skal du bruke følgende typer oppgaver:  
 
-| | | 
+| Oppgave | Bekrivelse | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Rotnode for prosjektet** | Hovedaktiviteten på øverste nivå for prosjektet. Alle andre prosjektoppgaver opprettes under den. Navnet på rotoppgaven er navnet på prosjektet. Innsats, datoer og varighet for rotnoden er basert på verdiene i hierarkiet under den. Du kan ikke redigere egenskaper for rotnoden eller slette rotnoden. | 
 | **Hovedaktiviteter eller beholderoppgaver** | En hovedaktivitet er en oppgave som har deloppgaver under seg. En hovedaktivitet har ikke arbeidsinnsats eller kostnader selv. Arbeidsinnsatsen og kostnadene er en beregnet verdi av deloppgavene. Du kan endre navnet på en hovedaktivitet, men du kan ikke endre innsats, datoer eller varighet, fordi de blir automatisk beregnet. Hvis du sletter en hovedaktivitet, slettes oppgaven og alle deloppgavene.|  

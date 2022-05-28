@@ -4,14 +4,14 @@ description: Dette emnet forklarer hvordan du distribuerer Project Operations Da
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986458"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591232"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Distribuer Project Operations Dataverse-appen manuelt med støtte for dobbel skriving
 
@@ -37,7 +37,7 @@ Hvis du vil fullføre denne fremgangsmåten, må du logge på som administrator.
 3. Velg miljøtypen. Hvis du registrerte deg for prøveversjonstilbudet, velger du **Prøveversjon (abonnementsbasert)**.
 4. Bekreft distribusjonsområdet.
 5. Aktiver alternativet **Opprett en database for dette miljøet**. 
-6. Bekreft språket, og bekreft deretter at valutaen samsvarer med valutaen for Finance and Operations-appene dine.
+6. Bekreft språket, og bekreft deretter at valutaen samsvarer med valutaen for økonomi- og driftsappene.
 7. Aktiver alternativet **Dynamics 365-apper**, og bekreft at feltet **Automatisk distribusjon av disse appene** er satt til **Ingen**.
 8. Legg til en sikkerhetsgruppe hvis det kreves en sikkerhetsgruppe.
 9. Velg **Lagre** for å opprette miljøet.
@@ -62,4 +62,4 @@ Du kan bare fullføre denne fremgangsmåten hvis du har fullført de forrige fre
 
 ## <a name="link-your-environments"></a><a name="link"></a>Koble til miljøene
 
-Når Dataverse-miljøet er distribuert, kan du konfigurere koblingen i Finance and Operations-appene dine. Følg fremgangsmåten i [Bruk veiviseren for dobbel skriving til å koble miljøene](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Når Dataverse-miljøet er distribuert, kan du konfigurere koblingen i økonomi- og driftsappene. Følg fremgangsmåten i [Bruk veiviseren for dobbel skriving til å koble miljøene](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

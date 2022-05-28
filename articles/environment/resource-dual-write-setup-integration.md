@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986548"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586908"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integrering av Project Operations-oppsett og -konfigurasjonsdata
 
@@ -22,34 +22,34 @@ Dette emnet gir informasjon om dobbeltskrivingsintegrasjon for Project Operation
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Prosjektkontrakter, kontraktlinjer og prosjekter
 
-Prosjektkontrakter, kontraktlinjer og prosjekter opprettes i Dataverse og synkroniseres til Finance and Operations-apper for ekstra regnskap. Oppføringene i disse enhetene kan bare opprettes og slettes i Dataverse. Regnskapsattributter, for eksempel standardverdier for salgsavgiftsgrupper og finansdimensjoner, kan imidlertid legges til i oppføringene i Finance and Operations-appene.
+Prosjektkontrakter, kontraktlinjer og prosjekter opprettes i Dataverse og synkroniseres med økonomi- og driftsapper for ytterligere regnskapsføring. Oppføringene i disse enhetene kan bare opprettes og slettes i Dataverse. Regnskapsattributter, for eksempel standardverdier for salgsavgiftsgrupper og finansdimensjoner, kan imidlertid legges til i oppføringene i økonomi- og driftsapper.
 
   ![Konsepter for prosjektkontraktintegrering.](./media/1ProjectContract.jpg)
 
-Kundeemner, salgsmuligheter og tilbud for salgsaktiviteter spores i Dataverse og synkroniseres ikke til Finance and Operations-apper fordi det ikke er knyttet nedstrømsregnskap til denne aktiviteten.
+Kundeemner, salgsmuligheter og tilbud for salgsaktiviteter spores i Dataverse og synkroniseres ikke med økonomi- og driftsapper fordi det ikke er knyttet nedstrømsregnskap til denne aktiviteten.
 
-Prosjektkontraktfunksjonaliteten i Dataverse oppretter en prosjektkontraktoppføring i Finance and Operations-apper ved hjelp av tabelltilordningen **Prosjektkontrakthoder (salgsordrer)**. Lagring av en prosjektkontrakt i Dataverse starter også opprettingen av en oppføring for en kundeenhet for prosjektkontrakt. Denne oppføringen synkroniseres til Finance and Operations-apper ved hjelp av tabelltilordningen **Prosjektfinansieringskilde (msdyn\_projectcontractssplitbillingrules)**. Denne tilordningen synkroniserer også tillegg, oppdateringer og slettinger av prosjektkontrakter. Deling av faktureringsprosenter mellom prosjektkontraktkunder opprettes bare i Dataverse og synkroniseres ikke til Finance and Operations-apper.
+Prosjektkontraktfunksjonaliteten i Dataverse oppretter en prosjektkontraktoppføring i økonomi- og driftsapper ved hjelp av tabelltilordningen **Prosjektkontrakthoder (salesorders)**. Lagring av en prosjektkontrakt i Dataverse starter også opprettingen av en oppføring for en kundeenhet for prosjektkontrakt. Denne oppføringen synkroniseres med økonomi- og driftsapper ved hjelp av tabelltilordningen **Prosjektfinansieringskilde (msdyn\_projectcontractssplitbillingrules)**. Denne tilordningen synkroniserer også tillegg, oppdateringer og slettinger av prosjektkontrakter. Deling av faktureringsprosenter mellom prosjektkontraktkunder håndteres bare i Dataverse og synkroniseres ikke med økonomi- og driftsapper.
 
-Når en prosjektkontrakt er opprettet i Dataverse, kan prosjektregnskapsføreren oppdatere regnskapsattributtene for denne prosjektkontrakten i Finance and Operations-apper ved å gå til **Prosjektstyring og regnskap** > **Prosjektkontrakter** > **Konfigurer** > **Vis standardregnskap**. Regnskapsføreren kan gå gjennom attributter for operasjonell prosjektkontrakt, for eksempel ønsket leveringsdato og kontraktbeløp, ved å velge prosjektkontrakt-ID-en i Finance and Operations-apper som åpner den relaterte prosjektkontraktoppføringen i Dataverse.
+Når en prosjektkontrakt er opprettet i Dataverse, kan prosjektregnskapsføreren oppdatere regnskapsattributtene for denne prosjektkontrakten i økonomi- og driftsapper ved å gå til **Prosjektstyring og regnskap** > **Prosjektkontrakter** > **Oppsett** > **Vis standardregnskap**. Regnskapsføreren kan gå gjennom attributter i operasjonelle prosjektkontrakter, for eksempel ønsket leveringsdato og kontraktbeløp, ved å velge prosjektkontrakt-ID-en i økonomi- og driftsapper, som åpner den relaterte prosjektkontraktoppføringen i Dataverse.
 
-Prosjektenheten synkroniseres til Finance and Operations-apper ved hjelp av tabelltilordningen **Prosjekter V2 (msdyn\_projects)**. Prosjektregnskapsføreren kan gjøre følgende:
+Prosjektenheten synkroniseres til økonomi- og driftsapper ved hjelp av tabelltilordningen **Prosjekter V2 (msdyn\_projects)**. Prosjektregnskapsføreren kan gjøre følgende:
 
-  - Gå gjennom prosjekter i Finance and Operations-apper ved å gå til **Prosjektstyring og regnskap** > **Alle prosjekter**. 
-  - Oppdatere regnskapsattributter for prosjektet i Finance and Operations-apper ved å gå til **Prosjektstyring og regnskap** > **Alle prosjekter** > **Konfigurer** > **Vis standardregnskap**.  
-  - Gå gjennom operasjonelle prosjektattributter, for eksempel beregnet start- og sluttdato, ved å velge prosjekt-ID-en i Finance and Operations-apper som åpner den relaterte prosjektoppføringen i Dataverse.
+  - Gå gjennom prosjekter i økonomi- og driftsapper ved å gå til **Prosjektstyring og regnskap** > **Alle prosjekter**. 
+  - Oppdater regnskapsattributter for prosjektet i økonomi- og driftsapper ved å gå til **Prosjektstyring og regnskap** > **Alle prosjekter** > **Oppsett** > **Vis standardregnskap**.  
+  - Gå gjennom operasjonelle prosjektattributter, for eksempel beregnet start- og sluttdato, ved å velge prosjekt-ID-en i økonomi- og driftsapper, som åpner den relaterte prosjektoppføringen i Dataverse.
 
 Et prosjekt er knyttet til en prosjektkontrakt via enheten **Prosjektkontraktlinje**.
 
-Prosjektkontraktlinjer i Dataverse oppretter en prosjektkontraktfaktureringsregel i Finance and Operations-apper ved hjelp av tabelltilordningen **Prosjektkontraktlinjer (salgsordredetaljer)**. Faktureringsmetoden definerer regeltypen for prosjektkontraktfakturering i Finance and Operations-apper:
+Prosjektkontraktlinjer i Dataverse oppretter en faktureringsregel for prosjektkontrakt i økonomi- og driftsapper ved hjelp av tabelltilordningen **Prosjektkontraktlinjer (salesorderdetails)**. Faktureringsmetoden definerer faktureringsregeltypen for prosjektkontrakten i økonomi- og driftsapper:
 
   - Prosjektkontraktlinjer med en faktureringsmetode for tid og materiell oppretter en faktureringsregel med tids- og materialtype.
   - Kontraktlinjer med fast prisfaktureringsmetode oppretter en faktureringsregel for milepæler.
 
-Prosjektkontraktlinjer kan gjennomgås av prosjektregnskapsføreren i Finance and Operations-apper ved å gå til **Prosjektstyring og regnskap** > **Prosjektkontrakter** > **Konfigurer** > **Vis standardregnskap**, og se gjennom detaljene i kategorien **Kontraktlinjer**. Regnskapsføreren kan også angi standard finansdimensjoner for kontraktlinjer med fast prisfaktureringsmetode i denne kategorien.
+Prosjektkontraktlinjer kan gjennomgås av prosjektregnskapsføreren i økonomi- og driftsapper ved å gå til **Prosjektstyring og regnskap** > **Prosjektkontrakter** > **Oppsett** > **Vis standardregnskap**, og ved å gå gjennom detaljene på **Kontraktlinjer**-fanen. Regnskapsføreren kan også angi standard finansdimensjoner for kontraktlinjer med fast pris som faktureringsmetode på denne fanen.
 
 ## <a name="billing-milestones"></a>Faktureringsmilepæler
 
-Prosjektkontraktlinjer som bruker faktureringsmetoden med fast pris, faktureres via faktureringsmilepæler. Faktureringsmilepæler synkroniseres for å prosjektere A konto-transaksjoner i Finance and Operations-apper ved hjelp av tabelltilordningen **Kontraktlinjemilepæler for Project Operations-integrering (msdyn\_contractlinescheduleofvalues)**.
+Prosjektkontraktlinjer som bruker faktureringsmetoden med fast pris, faktureres via faktureringsmilepæler. Faktureringsmilepæler synkroniseres til prosjektkontotransaksjoner i økonomi- og driftsapper ved å bruke tabelltilordningen **Milepæler for prosjektkontraktlinje for Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
   ![Integrering av faktureringsmilepæler.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Når du først oppretter en faktureringsmilepæl for en gitt prosjektkontraktlin
 
 ### <a name="project-tasks"></a>Prosjektoppgaver
 
-Prosjektoppgaver synkroniseres til Finance and Operations-apper via tabelltilordningen **Prosjektoppgaver (msdyn\_projecttasks)** bare for referanseformål. Opprettings-, oppdaterings- og slettingsoperasjoner støttes ikke via Finance and Operations-apper.
+Prosjektoppgaver synkroniseres til økonomi- og driftsapper via tabelltilordningen **Prosjektoppgaver (msdyn\_projecttasks)** kun til referanseformål. Oppretting, oppdatering og sletting av operasjoner støttes ikke gjennom økonomi- og driftsapper.
 
   ![Integrasjon av prosjektoppgaver.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Prosjektressurser
 
-Enheten **Prosjektressursroller** synkroniseres til Finance and Operations-apper ved hjelp av tabelltilordningen **Prosjektressursroller for alle selskaper (bookableresourcecategories)** bare for referanseformål. Siden ressursroller i Dataverse ikke er firmaspesifikke, oppretter systemet automatisk respektive firmaspesifikke ressursrolleoppføringer i Finance and Operations-apper automatisk for alle juridiske enheter inkludert i integrasjonsomfanget for dobbel skriving.
+Enheten **Prosjektressursroller** synkroniseres med økonomi- og driftsapper ved å bruke tabelltilordningen **Prosjektressursroller for alle firmaer (bookableresourcecategories)** kun til referanseformål. Siden ressursroller i Dataverse ikke er firmaspesifikke, oppretter systemet automatisk respektive firmaspesifikke ressursrolleoppføringer i økonomi- og driftsapper for alle juridiske enheter, inkludert i integreringsomfanget med dobbel skriving.
 
 ![Integrasjon av ressursroller.](./media/5Resources.jpg)
 
-Prosjektressurser i Project Operations vedlikeholdes i Dataverse og synkroniseres ikke til Finance and Operations-apper.
+Prosjektressurser i Project Operations vedlikeholdes i Dataverse og synkroniseres ikke til økonomi- og driftsapper.
 
 ### <a name="transaction-categories"></a>Transaksjonskategorier
 
-Transaksjonskategorier vedlikeholdes i Dataverse og synkroniseres til Finance and Operations-apper ved hjelp av tabelltilordningen **Prosjekttransaksjonskategorier (msdyn\_transactioncategories)**. Når transaksjonskategorioppføringen er synkronisert, oppretter systemet automatisk fire delte kategorioppføringer. Hver oppføring tilsvarer en transaksjonstype i Finance and Operations-apper og kobler dem til transaksjonskategorioppføringen.
+Transaksjonskategorier vedlikeholdes i Dataverse og synkroniseres til økonomi- og driftsapper ved hjelp av tabelltilordningen **Transaksjonskategorier for prosjekter (msdyn\_transactioncategories)**. Når transaksjonskategorioppføringen er synkronisert, oppretter systemet automatisk fire delte kategorioppføringer. Hver oppføring tilsvarer en transaksjonstype i økonomi- og driftsapper og kobler dem til transaksjonskategorioppføringen.
 
 ![Integrasjon av transaksjonskategorier.](./media/4TransactionCategories.jpg)
 

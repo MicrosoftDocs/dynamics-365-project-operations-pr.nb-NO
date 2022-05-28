@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996718"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593394"
 ---
 # <a name="track-a-projects-status-project-service"></a>Spore status for et prosjekt (Project Service)
 
@@ -33,14 +34,13 @@ Bruk [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-s
 
 Senere i engasjementet oppdateres prosjektfasene for å gjenspeile fasen i engasjementet:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Ny**    | Når du oppretter et prosjekt, er fasen satt til **Ny**. Hvis du opprettet prosjektet fra en mal, kan prosjektet i denne fasen ha en tidsplan, estimater og teamdata. Ellers vil det være disposisjonen for prosjektet, og du må manuelt angi resten av prosjektkomponentene. |
-|  **Tilbud**   |      Når du knytter et prosjekt til et tilbud eller oppretter det fra et tilbud, er prosjektfasen satt til **Tilbud**, og de estimerte start- og sluttdatoene oppdateres også. Når prosjektet er i tilbudsfasen, vises detaljene for tilbudet i kategorien **Salg** på **Prosjekt**-siden.      |
-|   **Plan**   |                                     Når du har vunnet et tilbud som er tilknyttet et prosjekt, og når dette engasjementet går videre til kontraktfasen, oppdateres prosjektfasen til **Plan**. Kontraktdetaljene vises i kategorien **Salg** på **Prosjekt**-siden.                                      |
-| **Fullfør** |                    Når prosjektarbeidet er fullført, kan du bytte fase til **Fullført**. Når prosjektfasen er satt til Fullført, er det forstått at arbeidet er 100 % fullført, men prosjektet holdes åpent for alle ventende tids- eller utgiftsposter som skal registreres.                     |
-|  **Lukk**   |           Når alle transaksjoner er registrert i prosjektet og du ikke forventer at flere skal loggføres, kan du manuelt sette fasen til **Lukk**. Når prosjektet er satt til **Lukk**, kan du ikke loggføre flere transaksjoner i prosjektet, og prosjektet vil være skrivebeskyttet.           |
+| Oppgave | Bekrivelse | 
+|------------|----------|
+| **New** | Når du oppretter et prosjekt, er fasen satt til **Ny**. Hvis du opprettet prosjektet fra en mal, kan prosjektet i denne fasen ha en tidsplan, estimater og teamdata. Ellers vil det være disposisjonen for prosjektet, og du må manuelt angi resten av prosjektkomponentene. |
+| **Tilbud** |  Når du knytter et prosjekt til et tilbud eller oppretter det fra et tilbud, er prosjektfasen satt til **Tilbud**, og de estimerte start- og sluttdatoene oppdateres også. Når prosjektet er i tilbudsfasen, vises detaljene for tilbudet i kategorien **Salg** på **Prosjekt**-siden. |
+| **Plan** |  Når du har vunnet et tilbud som er tilknyttet et prosjekt, og når dette engasjementet går videre til kontraktfasen, oppdateres prosjektfasen til **Plan**. Kontraktdetaljene vises i kategorien **Salg** på **Prosjekt**-siden. |
+| **Fullfør** | Når prosjektarbeidet er fullført, kan du bytte fase til **Fullført**. Når prosjektfasen er satt til Fullført, er det forstått at arbeidet er 100 % fullført, men prosjektet holdes åpent for alle ventende tids- eller utgiftsposter som skal registreres. |
+| **Lukk** | Når alle transaksjoner er registrert i prosjektet og du ikke forventer at flere skal loggføres, kan du manuelt sette fasen til **Lukk**. Når prosjektet er satt til **Lukk**, kan du ikke loggføre flere transaksjoner i prosjektet, og prosjektet vil være skrivebeskyttet. |
 
 ## <a name="to-track-a-projects-status"></a>Slik sporer du status for et prosjekt  
 

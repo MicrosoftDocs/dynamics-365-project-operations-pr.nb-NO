@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992758"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592658"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Nyheter eller endringer i Project Operations, januar 2021, for lagerførte/produksjonsbaserte scenarioer
 
@@ -20,7 +20,7 @@ _**Gjelder for:** Project Operations for lagerførte/produksjonsbaserte scenario
 
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
-- Prosjektstyring og regnskap i Dynamics 365 Finance-miljø versjon 10.0.16
+- Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.16
 
 
 ### <a name="quality-updates"></a>Kvalitetsoppdateringer
@@ -142,7 +142,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | Reise og utgift                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | I Project Operations kan ikke tid med konserninterne oppgaver i Dataverse opprettes eller godkjennes.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for økonomi- og driftsapper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på LCS og vise de planlagte forskriftsmessige oppdateringene ved hjelp av verktøyet for problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

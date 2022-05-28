@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008148"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589116"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter april 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -21,7 +21,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
 - Project Operations på Dataverse-miljø versjon 4.9.0.221
-- Prosjektstyring og regnskap i Dynamics 365 Finance-miljø versjon 10.0.17
+- Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funksjoner som er inkludert i denne versjonen
 
@@ -42,13 +42,13 @@ Listen nedenfor viser tilordningene for dobbel skriving som er endret eller lagt
 | **Enhetstilordning** | **Oppdatert versjon** | **Kommentarer** |
 | --- | --- | --- |
 | Faktiske verdier for Project Operations-integrering (msdyn\_actuals) | 1.0.0.14 | Tilordning endret for å synkronisere faktiske data for materielle prosjekter. |
-| Enhet for utgiftsestimater for Project Operations-integrering (msdyn\_estimateslines) | 1.0.0.2 | Lagt til synkronisering av prosjektkontraktlinje i Finance and Operations-apper for oppgavebasert faktureringsstøtte. |
-| Enhet for timesestimater for Project Operations-integrering (msdyn\_resourceassignments) | 1.0.0.5 | Lagt til synkronisering av prosjektkontraktlinje i Finance and Operations-apper for oppgavebasert faktureringsstøtte. |
-| Project Operations-integreingstabell for materialestimater (msdyn\_estimatelines) | 1.0.0.0 | Ny tabelltilordning for å synkronisere materialestimater fra Dataverse til Finance and Operations-apper. |
-| Project Operations-integrering, prosjektleverandør fakturaeksportenhet (msdyn\_projectvendorinvoices) | 1.0.0.0 | Ny tabelltilordning for å synkronisere leverandørfakturahoder fra Finance and Operations-apper til Dataverse. |
-| Project Operations-integrering, prosjektleverandør fakturalinjeeksportenhet (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Ny tabelltilordning for å synkronisere leverandørfakturalinjer fra Finance and Operations-apper til Dataverse. |
+| Enhet for utgiftsestimater for Project Operations-integrering (msdyn\_estimateslines) | 1.0.0.2 | Lagt til synkronisering av prosjektkontraktslinje i økonomi- og driftsapper for oppgavebasert faktureringsstøtte. |
+| Enhet for timesestimater for Project Operations-integrering (msdyn\_resourceassignments) | 1.0.0.5 | Lagt til synkronisering av prosjektkontraktslinje i økonomi- og driftsapper for oppgavebasert faktureringsstøtte. |
+| Project Operations-integreingstabell for materialestimater (msdyn\_estimatelines) | 1.0.0.0 | Ny tabelltilordning for å synkronisere materialestimater fra Dataverse til økonomi- og driftsapper. |
+| Project Operations-integrering, prosjektleverandør fakturaeksportenhet (msdyn\_projectvendorinvoices) | 1.0.0.0 | Ny tabelltilordning for å synkronisere leverandørfakturaoverskrifter fra økonomi- og driftsapper til Dataverse. |
+| Project Operations-integrering, prosjektleverandør fakturalinjeeksportenhet (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Ny tabelltilordning for å synkronisere leverandørfakturalinjer fra økonomi- og driftsapper til Dataverse. |
 
-Du bør alltid kjøre den nyeste versjonen av tilordningen i miljøet og aktivere alle relaterte tabelltilordninger når du oppdaterer Project Operations Dataverse-løsningen og Finance and Operations-løsningsversjonen. Enkelte funksjoner fungerer kanskje ikke på riktig måte hvis den nyeste versjonen av tilordningen ikke er aktivert. Du kan se den aktive versjonen av tilordningen i **Versjon**-kolonnen på siden **Dobbel skriving**. Du kan aktivere en ny versjon av tilordningen ved å velge **Tabelltilordningsversjoner**, velge den siste versjonen og deretter lagre den valgte versjonen. Hvis du har tilpasset en medfølgende tabelltilordning, må du bruke endringene på nytt. Hvis du vil ha mer informasjon, se [Administrasjon av programlivssyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Du bør alltid kjøre den nyeste versjonen av tilordningen i miljøet, og aktiver alle relaterte tabelltilordninger når du oppdaterer versjonen av Project Operations Dataverse-løsningen og Finance and Operations-løsningen. Enkelte funksjoner fungerer kanskje ikke på riktig måte hvis den nyeste versjonen av tilordningen ikke er aktivert. Du kan se den aktive versjonen av tilordningen i **Versjon**-kolonnen på siden **Dobbel skriving**. Du kan aktivere en ny versjon av tilordningen ved å velge **Tabelltilordningsversjoner**, velge den siste versjonen og deretter lagre den valgte versjonen. Hvis du har tilpasset en medfølgende tabelltilordning, må du bruke endringene på nytt. Hvis du vil ha mer informasjon, se [Administrasjon av programlivssyklus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Hvis du får problemer med å starte tilordningen, følger du instruksjonene i delen [Problem med manglende tabellkolonner i tilordninger](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i feilsøkingsveiledning for dobbel skriving.
 
