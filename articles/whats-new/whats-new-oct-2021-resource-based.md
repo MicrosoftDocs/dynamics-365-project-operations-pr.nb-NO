@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753304"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598500"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter oktober 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753304"
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
    - Project Operations i Microsoft Dataverse-miljø, versjon 4.25.0.91
-   - Prosjektstyring og regnskap i Dynamics 365 Finance-miljø versjon 10.0.21
+   - Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funksjoner som er inkludert i denne versjonen
 

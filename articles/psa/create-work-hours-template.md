@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987403"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598960"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Opprette en mal for arbeidstimer (Project Service)
 
@@ -49,7 +50,7 @@ Hvis du vil opprette en kalendermal for organisasjonen, er det to viktige krav:
 
 1. Gå til **Ressurser** \> **Ressurser**.
 2. Opprett en ny ressurs som skal refereres til i kalendermalen, eller velg en eksisterende ressurs.
-3. Velg kategorien **Arbeidstimer** for ressursen, og fullfør instruksjonene i [Angi arbeidstimer for en ressurs](/dynamics365/field-service/set-work-hours-resource.md) for å konfigurere kalenderreglene.
+3. Velg kategorien **Arbeidstimer** for ressursen, og fullfør instruksjonene i [Angi arbeidstimer for en ressurs](/dynamics365/field-service/set-work-hours-resource) for å konfigurere kalenderreglene.
 
 **Opprett en ny kalendermal**
 

@@ -4,14 +4,14 @@ description: Dette emnet forklarer hvordan du oppretter en WBS-avtale om arbeids
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928627"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597810"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opprette en arbeidsnedbrytningsstruktur (WBS)
 
@@ -124,7 +124,7 @@ Du må være oppmerksom på følgende begrensninger hvis du bruker arbeidsnedbry
 |----------------------------------------------------|----------------------|
 | Maksimalt antall oppgaver for et prosjekt                  | 500                  |
 | Maksimal total varighet for et prosjekt               | 3650 dager (10 år) |
-| Maksimalt antall ressurser for et prosjekt              | 150                  |
+| Maksimalt antall ressurser for et prosjekt              | 300                  |
 | Maksimalt antall koblinger (bare etterfølgende) for et prosjekt | 600                  |
 | Maksimalt antall egendefinerte felter for et prosjekt          | 10                   |
 | Maksimalt antall sjekklisteelementer per oppgave                   | 20                   |

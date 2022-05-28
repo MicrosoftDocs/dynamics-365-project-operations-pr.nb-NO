@@ -4,14 +4,14 @@ description: Dette emnet gir informasjon om hvordan du oppretter konserninterne 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005493"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599992"
 ---
 # <a name="create-intercompany-transactions"></a>Opprette konserninterne transaksjoner
 
@@ -30,14 +30,14 @@ Når en konsernintern transaksjon godkjennes, opprettes de følgende faktiske tr
 
 Kostnader, ressursens enhetskostnad og enhetssalgtransaksjonspriser og valuta mellom organisasjoner styres av **Organisasjonsenhet**. Dette er viktig å huske når du bestemmer deg for hvordan du vil strukturere selskaper og organisasjonsenheter i implementeringen.
 
-Når du oppretter salgsmulighets-, tilbuds-, prosjektkontrakt- og prosjektoppføringer, kontrollerer systemet at valutaen for kontraktenheten samsvarer med kontraktfirmaets regnskapsvaluta. Når de ikke er de samme, kan ikke disse oppføringene opprettes. Valutaen for organisasjonsenheten defineres i Dynamics 365 Project Operations ved å gå til **Dataverse** > **Innstillinger** > **Organisasjonsenheter**. Regnskapsvalutaen for et firma defineres i Dynamics 365 Finance ved å gå til **Økonomimodul** > **Finansoppsett** > **Finans**. Valutaen synkroniseres i Dataverse-miljøet ved hjelp av dobbel skriving-tilordning i finans.
+Når du oppretter salgsmulighets-, tilbuds-, prosjektkontrakt- og prosjektoppføringer, kontrollerer systemet at valutaen for kontraktenheten samsvarer med kontraktfirmaets regnskapsvaluta. Når de ikke er de samme, kan ikke disse oppføringene opprettes. Valutaen for organisasjonsenheten defineres i Dynamics 365 Project Operations ved å gå til **Dataverse** > **Innstillinger** > **Organisasjonsenheter**. Regnskapsvalutaen for et selskap defineres i Dynamics 365 Finance **Økonomimodul** > **Finansoppsett** > **Finans**. Valutaen synkroniseres i Dataverse-miljøet ved hjelp av dobbel skriving-tilordning i finans.
 
 Systemet oppretter leverandørenhetskostnader og faktiske verdier for organisasjons enhetssalg i følgende situasjoner:
 
   - Når ressursenheten er forskjellig fra kontraktenheten
   - Når ressursfirmaet er forskjellig fra kontraktfirmaet
 
-Bare transaksjoner som har et annet ressursfirma enn kontraktfirmaet, blir imidlertid overført til Dynamics 365 Finance-miljøet for ytterligere regnskapsføring.
+Bare transaksjoner som har et annet ressursfirma enn kontraktfirmaet, blir imidlertid overført til Dynamics 365 Finance-miljøet for ekstra regnskap.
 
 Regnskap for faktiske verdier for prosjekter registreres i Project Operations-integreringsjournalen i Finance. Systemet oppretter følgende journallinjer:
 
@@ -60,7 +60,7 @@ Anna Pilskog, en utvikler som er ansatt i GBPM, fører opp 10 timer med arbeid m
     4. Angi valuta til **USD**.
     5. Lagre oppføringen.
 3. Gå til **Salg** > **Prosjektkontrakter** og opprett en ny prosjektkontrakt for Brusefoss industrier.
-    1. Sett det eiende selskapet til **USPM** kontraktsenheten til **Contoso Robotics US**.
+    1. Angi eierfirmaet til **USPM** og kontraktsenheten til **Contoso Robotics US**.
     2. Velg Brusefoss industrier som kunden.
     3. Velg en produktprisliste, og lagre oppføringen.
     4. På **Kontraktlinjer**-fanen oppretter du en ny kontraktlinje. Angi hvilket som helst navn, og velg **Tid og materialer** som faktureringsmetoden.

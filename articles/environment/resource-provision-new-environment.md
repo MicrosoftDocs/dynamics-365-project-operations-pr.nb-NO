@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928673"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594866"
 ---
 # <a name="provision-a-new-environment"></a>Klargjør et nytt miljø
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dette emnet gir informasjon om hvordan du klargjør et nytt Dynamics 365 Project Operations-miljø for ressursbaserte/ikke-lagerbaserte scenarioer.
 
@@ -34,7 +34,7 @@ Bruk fremgangsmåten nedenfor for å aktivere den automatiserte klargjøringsfly
 
 ## <a name="provision-a-project-operations-environment"></a>Klargjør et Project Operations-miljø
 
-1. Åpne en ny Dynamics 365 Finance-distribusjon med et [demonstrasjonsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller et [sandkasse-/produksjonsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Åpne et nytt [demomiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) i Dynamics 365 Finance eller en implementering av et [sandkasse-/produksjonsmiljø](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Gå gjennom veiviseren for **klargjøring av miljø**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Det kan hende du må bruke kvalitetsoppdateringer i Finance-miljøet for å få 
 
     ![Bruk løsninger.](./media/13ApplySolutions.png)
 
-5. Velg begge løsningene, **Dynamics 365 Finance and Operations Enhetstilordning for dobbel skriving** og **Dynamics 365 Project Operations Enhetstilordning for dobbel skriving**, og velg deretter **Bruk**.
+5. Velg begge løsningene, **Enhetstilordning for dobbel skriving for Dynamics 365 Finance and Operations** og **Enhetstilordning for dobbel skriving for Dynamics 365 Project Operations**, og velg deretter **Bruk**.
 
     ![Bekreft løsninger.](./media/14ConfirmSolutions.png)
 

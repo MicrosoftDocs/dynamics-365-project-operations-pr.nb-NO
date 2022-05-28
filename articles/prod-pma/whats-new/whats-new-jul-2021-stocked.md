@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992713"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597074"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Nyheter eller endringer i Project Operations, juli 2021 for lagerførte/produksjonsbaserte scenarioer
 
@@ -20,7 +20,7 @@ _**Gjelder:** Project Operations for lagerførte/produksjonsbaserte scenarioer_
 
 Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
 
-- Prosjektstyring og regnskap i Dynamics 365 Finance-miljø versjon 10.0.20
+- Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.20
  
 ### <a name="quality-updates"></a>Kvalitetsoppdateringer
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | Reise og utgift                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Verktøyet **Tilbakestill utgiftsdokumentstatus** skal tilbakestille statusen for utgiftsrapporten til **Utkast** hvis arbeidsflyten ikke ble funnet. 
 
 ### <a name="regulatory-updates"></a>Forskriftsmessige oppdateringer
-Hvis du vil ha informasjon om forskriftsmessige oppdateringer for Finance and Operations-apper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av verktøyet Problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
+Hvis du vil ha informasjon om forskriftsmessige oppdateringer for økonomi- og driftsapper, kan du se [Forskriftsmessige oppdateringer](/dynamics365/finance/localizations/regulatory-updates). Du kan også logge på Lifecycle Services (LCS) og vise de planlagte forskriftsoppdateringene ved hjelp av verktøyet Problemsøk. Problemsøk lar deg søke etter land, type funksjon og utgave.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998473"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593624"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hjemmeside for pris- og kostnadsdimensjoner
 
@@ -66,16 +67,16 @@ Følgende eksempel viser kostnadssatser som er definert basert på rollen og org
 
 | Rolle        | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvikler   | Contoso – USA  |Time | 200|USD     |
-| Utvikler   | Contoso India |Time|   112|USD     |
+| Utvikler   | Contoso US  |Hour | 200|USD     |
+| Utvikler   | Ekeli India |Hour|   112|USD     |
 
 
 **Eksempel på kostnadssatser**
 
 | Lønnssats     | Organisasjonsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt firma_Band1 | Contoso – USA  |Time | 145|USD     |
-| Mitt firma_Band2 | Contoso India |Time|   67|USD     |
+| Mitt firma_Band1 | Contoso US  |Hour | 145|USD     |
+| Mitt firma_Band2 | Ekeli India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

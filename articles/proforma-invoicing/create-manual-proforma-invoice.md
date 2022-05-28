@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995638"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600064"
 ---
 # <a name="proforma-invoices"></a>Proformafakturaer
 
@@ -82,6 +82,9 @@ Når du oppretter et fakturautkast for et prosjekt, trekkes alle ikke-fakturerte
 - Redigere og justere antallet og faktureringstypen.
 
 Velg **Bekreft** for å bekrefte en faktura. Bekreftelseshandlingen er en énveishandling. Når du velger **Bekreft**, blir fakturaen skrivebeskyttet, og det opprettes faktiske verdier for fakturert salg fra hver fakturalinjedetalj for hver fakturalinje. Hvis fakturalinjedetaljene refererer til en faktisk salgsordre, tilbakefører systemet også faktisk fakturert salg. (Alle fakturalinjedetaljer som ble opprettet fra en tids- eller utgiftsoppføring, vil referere til et ikke-fakturert salg.) Integrasjonssystemer for hovedboken kan bruke denne tilbakeføringen til å tilbakeføre prosjektarbeid som pågår, for regnskapsformål.
+
+> [!NOTE]
+> Bekreftede proformafakturaer og relaterte oppføringer som fakturalinjer og fakturalinjedetaljer kan ikke redigeres eller slettes. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Korrigere en bekreftet faktura
 

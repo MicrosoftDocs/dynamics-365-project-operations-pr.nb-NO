@@ -4,27 +4,27 @@ description: Dette emnet gir informasjon om hvordan du konfigurerer og bruker ko
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986638"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594728"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurere og bruke konfigurasjonsdata i Common Data Service 
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Forutsetninger
 
 Før du begynner å konfigurere data i Common Data Service (CDS), må følgende forhåndskrav oppfylles:
 
 1.  Klargjør et CDS-miljø og et Dynamics 365 Finance-miljø for Project Operations.
-2.  Informasjon om juridisk enhet fra Dynamics 365 Finance deles til CDS-miljøet. Dette betyr at **Firma**-enheten i CDS har følgende firmaoppføringer:
+2.  Informasjon om juridisk enhet fra Dynamics 365 Finance deles med CDS-miljøet. Dette betyr at **Firma**-enheten i CDS har følgende firmaoppføringer:
   - THPM
   - USPM
   - GBPM

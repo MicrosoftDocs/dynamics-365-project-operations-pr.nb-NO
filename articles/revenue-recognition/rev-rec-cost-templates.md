@@ -4,14 +4,14 @@ description: Dette emnet gir informasjon om hvordan du oppretter og bruker kostn
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993568"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594222"
 ---
 # <a name="set-up-cost-templates"></a>Konfigurere kostnadsmaler
 
@@ -56,7 +56,7 @@ Hvilken fremgangsmåte du bestemmer deg for når du skal opprette en kostnadsmal
 ## <a name="create-cost-templates"></a>Opprette kostnadsmaler
 Følg denne fremgangsmåten for å opprette kostnadsmaler:
 
-1. Hvis du vil ha tilgang til kostnadsmaler i Dynamics 365 Finance, går du til **Prosjektstyring og regnskap** > **Oppsett** > **Estimater** > **Kostnadsmal**.
+1. Hvis du vil legge til kostnadsmaler i Dynamics 365 Finance-miljøet, går du til **Prosjektstyring og regnskap** > **Oppsett** > **Estimater** > **Kostnadsmal**.
 2. Velg **Ny** for å opprette en ny kostnadsmal. Angi et navn og en beskrivelse.
 3. Oppgi kostnadslinje-ID for hver transaksjonstype.
 4. Velg en standard fullføringsmetode:
