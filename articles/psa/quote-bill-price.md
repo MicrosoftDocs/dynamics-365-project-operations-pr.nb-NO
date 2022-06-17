@@ -1,6 +1,6 @@
 ---
 title: Hjemmeside for tilbudsgiving, prising og fakturering
-description: Dette emnet inneholder informasjon om tilbudsgivning, prising og fakturering.
+description: Denne artikkelen inneholder informasjon om tilbudsgivning, prising og fakturering.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926742"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Hjemmeside for tilbudsgiving, prising og fakturering
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581112"
 
 Tilbudsgivning, prising og fakturering er funksjoner som brukes av både små og store organisasjoner. Ved å forstå hvordan disse funksjonene fungerer i programmet, kan organisasjoner tilpasse konfigurasjoner på en enklere måte.
 
-Følgende emner gir mer informasjon om funksjonene for tilbudsgivning, prising og fakturering i PSA:
+Følgende artikler gir mer informasjon om funksjonene for tilbudsgivning, prising og fakturering i PSA:
 
 - [Salgsprosess](basic-sales-process.md)
 - [Tilbudslinjer](basic-quote-lines.md)

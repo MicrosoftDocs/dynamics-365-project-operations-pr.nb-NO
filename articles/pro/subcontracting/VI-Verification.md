@@ -1,17 +1,17 @@
 ---
 title: Verifisering av leverandørfakturaer med godkjente faktiske verdier
-description: Dette emnet forklarer hvordan Microsoft Dynamics 365 Project Operations lar prosjektledere verifisere leverandørfakturaer med de faktiske beløpene som ble godkjent etter hvert som underleverandører utførte arbeid og registrerte tid, samt utgiftene og materiellet som ble brukt av prosjektgruppemedlemmer.
+description: Denne artikkelen forklarer hvordan Microsoft Dynamics 365 Project Operations lar prosjektledere verifisere leverandørfakturaer med de faktiske beløpene som ble godkjent etter hvert som underleverandører utførte arbeid og registrerte tid, samt utgiftene og materiellet som ble brukt av prosjektgruppemedlemmer.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914230"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verifisering av leverandørfakturaer med godkjente faktiske verdier
 

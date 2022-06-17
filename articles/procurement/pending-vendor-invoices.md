@@ -1,18 +1,18 @@
 ---
 title: Innkjøp av ikke-lagerførte materialer eller innkjøpskategorier som bruker en ventende leverandørfaktura
-description: Dette emnet forklarer hvordan du registrerer ventende leverandørfakturaer.
+description: Denne artikkelen forklarer hvordan du registrerer ventende leverandørfakturaer.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922004"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Innkjøp av ikke-lagerførte materialer eller innkjøpskategorier som bruker en ventende leverandørfaktura
 
@@ -23,7 +23,7 @@ Når et selskap anskaffer ikke-lagerførte materialer eller innkjøpskategorier 
 Contoso Robotics US utfører for eksempel et prosjekt for fornyelse av utstyr og trenger programvarelisenser. Disse lisensene anskaffes fra en tredjepartsleverandør.  Ved hjelp av Dynamics 365 Finance registrerer funksjonæren for leverandørgjelde et ventende fakturadokument for leverandør og tilskriver lisenskostnadene direkte mot utstyrsfornyelsesprosjektet. 
 
 > [!IMPORTANT]
-> Før du bruker funksjonaliteten som er beskrevet i dette emnet, må du se gjennom og bruke de nødvendige konfigurasjonene. Hvis du vil ha mer informasjon , kan du se [Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer](configure-materials-nonstocked.md) og [Bruk innkjøpskategorier med prosjektbestillinger og ventende leverandørfakturaer](configure-procurement-categories.md)
+> Før du bruker funksjonaliteten beskrevet i denne artikkelen, ser du gjennom og bruker de nødvendige konfigurasjonene. Hvis du vil ha mer informasjon , kan du se [Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer](configure-materials-nonstocked.md) og [Bruk innkjøpskategorier med prosjektbestillinger og ventende leverandørfakturaer](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Poster en prosjektrelatert ventende leverandørfaktura 
 

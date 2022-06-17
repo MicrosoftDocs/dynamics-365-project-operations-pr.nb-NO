@@ -1,17 +1,17 @@
 ---
 title: Oversikt over modi for ressursstyring
-description: Dette emnet gir informasjon om ressursstyringsfunksjonaliteten i Dynamics 365 Project Operations.
+description: Denne artikkelen inneholder informasjon om funksjonen for ressursstyring i Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928444"
 ---
 # <a name="resource-management-modes-overview"></a>Oversikt over modi for ressursstyring
 
@@ -38,7 +38,7 @@ Organisasjoner som trenger fleksibilitet ved tildeling av ressurser, kan bruke h
 
 ![Hybrid modus.](./media/resource-management-hybrid.png)
 
-I tillegg til de støttede prosessene i sentral modus, kan du se følgende emner for å administrere alle andre støttede bestillingsflyter i hybrid modus:
+I tillegg til den støttede prosessen for sentral modus kan du se følgende artikler for å administrere alle andre støttede bestillingsflyter i hybrid modus:
 
 Bestill en ressurs direkte til et prosjekt:
 - [Bestille navngitte bestillbare ressurser til et prosjektteam og tilordne oppgaver](/dynamics365/project-service/assign-named-bookable-resource)

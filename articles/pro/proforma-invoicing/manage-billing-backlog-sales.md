@@ -1,17 +1,17 @@
 ---
 title: Administrer faktureringsrestanse for prosjekt
-description: Dette emnet inneholder informasjon om de ulike visningene som er tilgjengelige for bruk ved behandling av faktureringsreserve på prosjekter.
+description: Denne artikkelen inneholder informasjon om de ulike visningene som er tilgjengelige for bruk ved administrasjon av faktureringsrestansen på prosjekter.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3a90d50fcca8824db10594352cbd1e204665c53
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f2e68449a8f1a0da62850454fb8ae56daffbab0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930100"
 ---
 # <a name="manage-project-billing-backlog"></a>Administrer faktureringsrestanse for prosjekt 
 

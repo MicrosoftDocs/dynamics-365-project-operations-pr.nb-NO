@@ -1,17 +1,17 @@
 ---
 title: Bruke Transaksjonskategori som en prisdimensjon
-description: Dette emnet gir informasjon om hvordan du bruker Transaksjonskategori-feltet som en prisdimensjon.
+description: Denne artikkelen inneholder informasjon om hvordan du bruker feltet Transaksjonskategori som en prisdimensjon.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911706"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Bruke Transaksjonskategori som en prisdimensjon
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591140"
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 
-Dette emnet forklarer hvordan du bruker **Transaksjonskategori**-feltet som en prisdimensjon. 
+Denne artikkelen forklarer hvordan du bruker feltet **Transaksjonskategori** som en prisdimensjon. 
 
-## <a name="prerequisites"></a>Forutsetninger
-Før du fullfører prosedyrene i dette emnet, må du ha en ny prisdimensjonsløsning for organisasjonen. Hvis du ikke allerede har opprettet en, kan du se [Opprette egendefinerte felt og enheter som prisdimensjoner](create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>Forutsetning
+Før du fullfører fremgangsmåtene i denne artikkelen, må du ha en ny løsning for prisdimensjon for organisasjonen. Hvis du ikke allerede har opprettet en, kan du se [Opprette egendefinerte felt og enheter som prisdimensjoner](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Legge til Transaksjonskategori-feltet i skjemaer og visninger
 Hvis du vil gjøre **Transaksjonskategori**-feltet synlig i prisdimensjonsløsningen, må du legge til feltet i alle skjemaer og visninger som en enhet.

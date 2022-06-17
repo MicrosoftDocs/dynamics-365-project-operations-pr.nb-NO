@@ -1,24 +1,24 @@
 ---
 title: Definer leverandøroppbevaring
-description: Dette emnet forklarer hvordan du konfigurerer leverandørbevaring.
+description: Denne artikkelen forklarer hvordan du konfigurerer leverandørbevaring.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929778"
 ---
 # <a name="set-up-vendor-retention"></a>Definer leverandøroppbevaring
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Dette emnet gir informasjon om hvordan du konfigurerer leverandørbevaring.
+Denne artikkelen inneholder informasjon om hvordan du konfigurerer leverandørbevaring.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Konfigurer en konto for leverandøroppbevaring i Økonomi modul
 

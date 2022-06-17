@@ -1,6 +1,6 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation Update Release 20, V3
-description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 20, V3
+description: Denne artikkelen viser funksjoner og rettelser i Project Service Automation Update Release 20 V3
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4b1a8b5b65f0dfeeff74db363c918206c64e81f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7265f4999ee9c584450efcf444621c00acd65920
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913080"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, Update Release 20, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588840"
 
 Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Denne versjonen er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Project Service Automation V3, Update Release 20. Denne versjonen har et build-nummer på V 3.10.31.37 og er generelt tilgjengelig via en egen oppdatering i juni 2020.
+Denne artikkelen viser funksjoner og rettelser som er nye eller endret i Project Service Automation V3, Update Release 20. Denne versjonen har et build-nummer på V 3.10.31.37 og er generelt tilgjengelig via en egen oppdatering i juni 2020.
 
 ## <a name="update-release-20"></a>Update Release 20
 
@@ -53,9 +53,9 @@ Følgende problemer har blitt løst:
 - I Internet Explorer 11 kan ikke brukere opprette utgiftsoppføringer.
 - Tilbakeføring av kostnader og tilbakeføring av ufakturerte faktiske verdier blir ikke koblet sammen.
 - **Oppdater faktiske verdier**-knappen på **Prosjekt**-skjemaet oppdaterer ikke **Faktiske timer for oppgaven**.
-- **PreValidateProjectTeamMemberCreate**-plugin-modulen kan opprette dupliserte generiske ressurser som kan reserveres, når attributtet **msdyn_isgenericresourceprojectscoped** er satt til **Usann**.
+- **PreValidateProjectTeamMemberCreate**-programtillegget kan opprette dupliserte generiske ressurser som kan reserveres, når attributtet **msdyn_isgenericresourceprojectscoped** er satt til **Usann**.
 - **Rekalkulerer** fjerne belastbare kostnader for produktbasert tilbudslinjedetaljer og kontraktlinjedetaljer.
-- I bestemte scenarier viser **PostEstimateLineUpdate**-plugin-modulen en unntaksfeil med null referanse.
+- I bestemte scenarier viser **PostEstimateLineUpdate**-programtillegget en unntaksfeil med null referanse.
 - Tidsfasevarighet i **Diagram for lønnsomhetsanalyse** samsvarer ikke med varigheten for kostnadene i detaljen for tilbudslinjen for fastpris i tilbudet.
 - Enhet og enhetsgruppeverdier bruker ikke riktige standardinnstillinger for utgiftskategorier i skjemaene **Kontraktlinjedetaljer** og **Tilbudslinjedetaljer**.
 - **Kostpris for organisasjonsenhet**-lister tillater overlapping i ikrafttredelsesdato.

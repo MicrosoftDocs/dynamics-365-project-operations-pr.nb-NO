@@ -1,17 +1,17 @@
 ---
 title: Oversikt over ressursutnyttelse
-description: Dette emnet gir informasjon om ressursutnyttelse i Project Operations.
+description: Denne artikkelen inneholder informasjon om ressursutnyttelse i Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e24bbb33cdf34426d4e7fff21b68fcaea2fcef5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5fbba4c9feaf3b26fba3423e160b09c58e049c70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918508"
 ---
 # <a name="resource-utilization-overview"></a>Oversikt over ressursutnyttelse
 

@@ -1,6 +1,6 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation Update Release 19, V3
-description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 19, V3.
+description: Denne artikkelen viser funksjoner og rettelser i Project Service Automation Update Release 19 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 96229a6c656cd88b7314b4692ae5d53897b4e6c5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a17275220eec726107e8ce5f82bdf5cdd403033e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915518"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation, Update Release 19, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596149"
 
 Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Denne versjonen er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for PSA V3, Update Release 19. Denne versjonen har et build-nummer på V3.10.30.41 og er generelt tilgjengelig via en egen oppdatering i mai 2020.
+Denne artikkelen viser funksjoner og rettelser som er nye eller endret PSA V3, Update Release 19. Denne versjonen har et build-nummer på V3.10.30.41 og er generelt tilgjengelig via en egen oppdatering i mai 2020.
 
 ## <a name="update-release-19"></a>Update Release 19
 
@@ -63,7 +63,7 @@ Følgende problemer har blitt løst:
 - Kunder opplever redusert ytelse, henter unødvendig inn PreValidateProjectTeamMemberUpdate.cs
 - Roller som ikke er belastbare i **Ressurskategorier**-listen, må legges til i **Belastbare roller**-fanen som **Ikke-belastbare** på kontraktlinjen for et prosjekt.
 - Kunder kan oppleve redusert ytelse ved oppretting av et prosjekt fordi **GetBookableResourceIdFromUser** henter alle kolonner med ressurser som kan reserveres, i stedet for bare primær-ID-en.
-- **TransactionType**-enheten mangler plugin-modulen for oppdatering av forhåndsvalidering for å hindre brukere i å skrive inn **Enheter** og **UnitGroups** som ikke er gyldige for transaksjonstyper.
+- **TransactionType**-enheten mangler programtillegget for oppdatering av forhåndsvalidering for å hindre brukere i å skrive inn **Enheter** og **UnitGroups** som ikke er gyldige for transaksjonstyper.
 - **Fjern**-trinnet fungerer ikke for import av tidsoppføringer.
 
 

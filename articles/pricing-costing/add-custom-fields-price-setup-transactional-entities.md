@@ -1,6 +1,6 @@
 ---
 title: Legge til obligatoriske egendefinerte felt i prisoppsett og transaksjonsenheter
-description: Dette emnet gir informasjon om hvordan du legger til obligatoriske egendefinerte feltreferanser i enheter og i skjemaer og visninger.
+description: Denne artikkelen inneholder informasjon om hvordan du legger til obligatoriske egendefinerte feltreferanser i enheter og skjemaer og visninger.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926052"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Legge til obligatoriske egendefinerte felt i prisoppsett og transaksjonsenheter
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Dette emnet forutsetter at du har fullført prosedyrene i emnet [Opprette egendefinerte felt og enheter som skal brukes som prisdimensjoner](create-custom-fields-entities-pricing-dimensions.md). Hvis du ikke har utført disse prosedyrene, kan du gå tilbake og fullføre dem og deretter gå tilbake til dette emnet. 
+Denne artikkelen forutsetter at du har fullført fremgangsmåtene i artikkelen [Opprette egendefinerte felter og enheter som skal brukes som prisdimensjoner](create-custom-fields-entities-pricing-dimensions.md). Hvis du ikke har fullført disse fremgangsmåtene, kan du gå tilbake og fullføre dem og deretter gå tilbake til denne artikkelen. 
 
-I dette emnet viser fremgangsmåten hvordan du legger til de obligatoriske egendefinerte feltreferansene i enheter og i bruker grensesnittelementene, for eksempel skjemaer og visninger.
+I denne artikkelen viser fremgangsmåtene hvordan du legger til de obligatoriske egendefinerte feltreferansene i enheter og i brukergrensesnittelementene, for eksempel skjemaer og visninger.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Legg til egendefinerte felt for prisdimensjon 
 Når egendefinerte felt og enheter er opprettet, er det neste trinnet å gjøre prisoppsett og transaksjonsenheter klar over egendefinerte enheter eller alternativsett, ved å opprette referansefelt. Avhengig av om prisdimensjonslisten inneholder alternativsettdimensjoner eller enhetsdimensjoner eller begge deler, følger du bare trinnene i **Egendefinerte prisdimensjoner basert på alternativsett** eller **Egendefinerte prisdimensjoner basert på enheter**, eller begge deler.

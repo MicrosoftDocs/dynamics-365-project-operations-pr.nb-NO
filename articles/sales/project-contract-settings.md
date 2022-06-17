@@ -1,23 +1,23 @@
 ---
 title: Innstillinger for prosjektkontrakt
-description: Dette emnet gir informasjon om feltene som påvirker kontraktlinjer, og informasjon om kontrakten som er oppsummert, på tvers av alle linjeelementene.
+description: Denne artikkelen inneholder informasjon om feltene som påvirker kontraktlinjer, og informasjonen om kontrakten det oppsummeres til på tvers av alle linjeelementene.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921590"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Overskriftsdetaljer for prosjektbaserte kontrakter
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Dette emnet gir informasjon om felt som gjelder for hele prosjektkontrakten, inkludert innstillinger som påvirker alle kontraktlinjene. Informasjon om kontrakten som er oppsummert på tvers av alle linjeelementene for å drive KPI-er for prosjektkontrakten, er også inkludert.
+Denne artikkelen inneholder informasjon om felter som gjelder for hele prosjektkontrakten, inkludert innstillinger som påvirker alle kontraktlinjene. Informasjon om kontrakten som er oppsummert på tvers av alle linjeelementene for å drive KPI-er for prosjektkontrakten, er også inkludert.
 
 Tabellen nedenfor viser feltene i en prosjektkontrakt som er unike for Dynamics 365 Project Operations, eller som har noen viktige endringer i virkemåten fra salgsordre i Dynamics 365 Sales.
 

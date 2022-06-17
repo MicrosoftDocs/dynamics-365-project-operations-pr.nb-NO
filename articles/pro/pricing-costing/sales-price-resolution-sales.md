@@ -1,17 +1,17 @@
 ---
 title: Løs salgspriser for prosjektestimater og faktiske verdier
-description: Dette emnet inneholder informasjon om løsing av salgspriser i prosjektestimater og faktiske verdier.
+description: Denne artikkelen inneholder informasjon om hvordan du løser salgspriser for prosjektestimater og faktiske verdier.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8aa731d48a3ce39dfbf4fc1e5934b0844caf2953
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9a6a19a866ab3218f2a0fa297b5f6a00ed809d2f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917496"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Løs salgspriser for prosjektestimater og faktiske verdier
 

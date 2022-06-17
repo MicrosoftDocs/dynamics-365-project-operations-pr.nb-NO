@@ -1,25 +1,25 @@
 ---
 title: Feilsøke arbeid i oppgaverutenettet
-description: Dette emnet gir feilsøkingsinformasjon som er nødvendig når du arbeider i oppgaverutenettet.
+description: Denne artikkelen inneholder informasjon om feilsøking du trenger når du arbeider i oppgaverutenettet.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911056"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Feilsøke arbeid i oppgaverutenettet 
 
 
 _**Gjelder:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering, Project for the web_
 
-Oppgaverutenettet som distribueres av Dynamics 365 Project Operations, er en driftet iframe i Microsoft Dataverse. Som et resultat av denne bruken må spesifikke krav oppfylles for å sikre at autorisasjon og godkjenning fungerer som de skal. Dettet emne beskriver de vanlige problemene som kan ha innvirkning på muligheten til å gjengi rutenettet eller administrere oppgaver i arbeidsnedbrytningsstrukturen (WBS).
+Oppgaverutenettet som distribueres av Dynamics 365 Project Operations, er en driftet iframe i Microsoft Dataverse. Som et resultat av denne bruken må spesifikke krav oppfylles for å sikre at autorisasjon og godkjenning fungerer som de skal. Denne artikkelen beskriver de vanlige problemene som kan ha innvirkning på muligheten til å gjengi rutenettet eller administrere oppgaver i arbeidsnedbrytningsstrukturen (WBS).
 
 Vanlige problemer omfatter:
 

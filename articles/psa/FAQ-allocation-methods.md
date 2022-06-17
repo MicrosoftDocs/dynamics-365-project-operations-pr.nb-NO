@@ -1,6 +1,6 @@
 ---
 title: Metoder for bestillingstildeling i Project Service Automation
-description: Dette emnet inneholder informasjon om de forskjellige måtene du kan bestille tildelinger på.
+description: Denne artikkelen inneholder informasjon om de forskjellige måtene du kan bestille tildelinger på.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929180"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metoder for bestillingstildeling i Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Om du legger til et teammedlem direkte i et prosjekt i kategorien **Team**, eller reserverer en ressurs for et prosjekt eller krav fra planleggingstavlen, fins det et par forskjellige bestillingstildelingsmetoder du kan bruke. Dette emnet forklarer hvordan hver metode fungerer, og hvilke metoder som kan føre til overbestillingsressurser.
+Om du legger til et teammedlem direkte i et prosjekt i kategorien **Team**, eller reserverer en ressurs for et prosjekt eller krav fra planleggingstavlen, fins det et par forskjellige bestillingstildelingsmetoder du kan bruke. Denne artikkelen forklarer hvordan hver metode fungerer, og hvilke metoder som kan føre til overbestillingsressurser.
 
 ## <a name="full-capacity"></a>Full kapasitet 
 Metoden Full kapasitet bestiller ressursens fulle kapasitet for de angitte fra- og til-datoene. Hvis for eksempel en ressurs har en kalender som er satt til 8 timers arbeidstid per dag, 5 dager i uken, og du angir en start- og sluttdato som dekker 5 arbeidsdager, bestilles ressursen i 40 timer. Bestillingen utføres uavhengig av ressursens gjenværende kapasitet. Hvis en ressurs allerede er bestilt på andre prosjekter i denne perioden, blir de 40 timene registrert som ekstra timer og kan føre til overbestilling.

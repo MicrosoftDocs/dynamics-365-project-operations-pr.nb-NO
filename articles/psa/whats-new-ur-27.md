@@ -1,6 +1,6 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation Update Release 27, V3
-description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 27, V3.
+description: Denne artikkelen viser funksjoner og rettelser i Project Service Automation Update Release 27 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: aab77411760c3d64daa377bffc06391c8e4ed54a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c8f4f736f0659f9b6db25f4685ef1278c45d034
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912942"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Hva er nytt eller endret i Project Service Automation Update Release 27, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8599604"
 
 Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Denne versjonen er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Project Service Automation V3, Update Release 27. Denne versjonen har buildnummer V3.10.45.98 og er vanligvis tilgjengelig via en egen oppdatering i januar 2021.
+Denne artikkelen viser funksjoner og rettelser som er nye eller endret i Project Service Automation V3, Update Release 27. Denne versjonen har buildnummer V3.10.45.98 og er vanligvis tilgjengelig via en egen oppdatering i januar 2021.
 
 ## <a name="update-release-27"></a>Update Release 27
 
@@ -39,7 +39,7 @@ Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Proj
 
 Følgende problemer har blitt løst:
 
-- Logger som genereres av plugin-moduler i Project Service Automation, er ikke satt til automatisk sletting.
+- Logger som genereres av programtillegg i Project Service Automation, er ikke satt til automatisk sletting.
 - Automatisk oppgradering mislykkes fordi Project Service Automation-løsningen inneholder et eldre null NavBarArea- og tittelelement.
 
 **Tid og utgift**

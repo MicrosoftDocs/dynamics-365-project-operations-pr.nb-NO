@@ -1,33 +1,33 @@
 ---
 title: Oppdatere programtilleggattributter med nye prisdimensjoner
-description: Dette emnet gir informasjon om hvordan du oppdaterer programtilleggattributter for prisdimensjoner.
+description: Denne artikkelen inneholder informasjon om hvordan du oppdaterer programtilleggsattributter for prisdimensjoner.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920026"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Oppdatere programtilleggattributter med nye prisdimensjoner
 
-Dette emnet gir informasjon om hvordan du oppdaterer programtilleggattributter for prisdimensjoner.
+Denne artikkelen inneholder informasjon om hvordan du oppdaterer programtilleggsattributter for prisdimensjoner.
 
 > [!NOTE]
-> Dette emnet gjelder bare for tilbuds- og kontraktfunksjonene i Dynamics 365 Project Operations.
+> Denne artikkelen gjelder bare for tilbuds- og kontraktfunksjonene i Dynamics 365 Project Operations.
 
-## <a name="prerequisites"></a>Forutsetninger
-Før du fullfører trinnene i dette emnet, må du fullføre prosedyrene i følgende emner:
+## <a name="prerequisites"></a>Forutsetning
+Før du fullfører trinnene i denne artikkelen, må du ha fullført fremgangsmåtene i følgende artikler:
 
   - [Opprette egendefinerte felt og enheter](create-custom-fields-entities-pricing-dimensions.md) 
   - [Legge til egendefinerte felt i prisoppsett og transaksjonsenheter ](add-custom-fields-price-setup-transactional-entities.md)
   - [Konfigurere egendefinerte felt som prisdimensjoner](set-up-custom-fields-pricing-dimensions.md). 
   
-Hvis du ikke har fullført disse prosedyrene, kan du fullføre dem og deretter gå tilbake til dette emnet.
+Hvis du ikke har utført disse fremgangsmåtene, fullfører du dem og går deretter tilbake til denne artikkelen.
 
 ## <a name="register-a-plug-in"></a>Registrer et programtillegg
 Når det blir opprettet en tilbudslinjedetalj på **Tilbudslinje**-siden for en tilbudslinje for prosjektet, oppretter systemet to estimatlinjer. Én linje gjelder for kostnadssiden for estimatet, og den andre linjen er for salgssiden. Dette er det samme for prosjektkontraktlinjer.

@@ -1,6 +1,6 @@
 ---
 title: Prosjektfasetyper
-description: Denne emnet gir informasjon om prosjektfaser.
+description: Denne artikkelen inneholder informasjon om prosjektfaser.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7f893b5429dd61ae45ad9d536420c96b2f58605b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d772acce152b08c7986739ac557818e6f97d0fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919072"
 ---
 # <a name="project-stage-types"></a>Prosjektfasetyper 
 
@@ -30,7 +30,7 @@ ms.locfileid: "8586862"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Prosjektfaser skal vise statusen til prosjektet etter hvert som det pågår. Tilpassinger kan brukes til automatisk å oppdatere fasene med forretningsprosessflyter, Power Automate eller plugin-modulutvidelser.
+Prosjektfaser skal vise statusen til prosjektet etter hvert som det pågår. Tilpassinger kan brukes til automatisk å oppdatere fasene med forretningsprosessflyter, Power Automate eller programtilleggsutvidelser.
 
 Følgende faser er definert i standard BPF:
 

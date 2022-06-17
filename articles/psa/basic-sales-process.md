@@ -1,6 +1,6 @@
 ---
 title: Salgsprosesser
-description: Dette emnet gir informasjon om de grunnleggende salgsprosessene.
+description: Denne artikkelen inneholder informasjon om de grunnleggende salgsprosessene.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: bec8718e287500a7cbc778dc32758e793be8dc3b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 18a5ca0592dfefb611094685087351149a0f5e3b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923522"
 ---
 # <a name="sales-processes"></a>Salgsprosesser
 
@@ -91,7 +91,7 @@ Selv om salgsprosessen i PSA bruker de grunnleggende funksjonene i salgsprosesse
 I PSA kan du ikke spore endringer som er gjort i et tilbud. I stedet må du merke det eksisterende tilbudet som **Lukket som tapt** og deretter opprette et nytt tilbud. Du kan kopiere et tilbud eller klone et prosjektbasert tilbud ved hjelp av PSA.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Spore kommentarer og godkjenninger av tilbud og prosjektkontrakter
-Du kan administrere gjennomgang og godkjenning av tilbud og prosjektkontrakter ved hjelp av oppføringsveggen og innlegg. Organisasjonen kan opprette egendefinerte arbeidsflyter og plugin-moduler for å tilordne, omdirigere, videresende og administrere varslinger om arbeidselementer for gjennomgang og godkjenning.
+Du kan administrere gjennomgang og godkjenning av tilbud og prosjektkontrakter ved hjelp av oppføringsveggen og innlegg. Organisasjonen kan opprette egendefinerte arbeidsflyter og programtillegg for å tilordne, omdirigere, videresende og administrere varslinger om arbeidselementer for gjennomgang og godkjenning.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

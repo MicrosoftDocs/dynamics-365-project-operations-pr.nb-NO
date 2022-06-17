@@ -1,17 +1,17 @@
 ---
 title: Tilbud – nøkkelkonsepter – Lite
-description: Dette emnet gir informasjon om hvordan du bruker prosjekttilbud i Project Operations.
+description: Denne artikkelen inneholder informasjon om bruk av prosjekttilbud i Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6cc1b38644557370d2447b65d2bba2925dc134a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916990"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Konsepter som er unike for prosjekttilbud
 
@@ -84,7 +84,7 @@ Project Operations-tilbud blir utformet basert på Dynamics 365 Sales-tilbud. De
 
 - Handlingene **Revider** og **Aktiver** støttes ikke.
 - Project Operations-tilbud har to forskjellige typer linjer. Den ene er for prosjekter, og den andre er for produkter.
-- Project Operations-tilbud har sitt eget format og sine egne UI-elementer, forretningsregler, plugin-moduler for forretningslogikk og skript på klientsiden som gjør dem unike fra Sales-tilbud.
+- Project Operations-tilbud har sitt eget format og sine egne UI-elementer, forretningsregler, programtillegg for forretningslogikk og skript på klientsiden som gjør dem unike fra Sales-tilbud.
 
 Av disse grunnene anbefales det at du ikke bruker et Sales-tilbud og et Project Operations-tilbud om hverandre.
 

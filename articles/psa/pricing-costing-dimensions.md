@@ -1,6 +1,6 @@
 ---
 title: Hjemmeside for pris- og kostnadsdimensjoner
-description: Dette emnet gir en oversikt over prisdimensjoner.
+description: Denne artikkelen gir en oversikt over prisdimensjoner.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593624"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925454"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hjemmeside for pris- og kostnadsdimensjoner
 
@@ -47,12 +47,12 @@ PSA leveres med et standardsett med prisdimensjoner. Du kan vise disse ved å g�
 > [!IMPORTANT]
 > Hvis du har brukt de medfølgende feltene for rolle og organisasjonsenhet som prisdimensjoner før versjon 3 av PSA, vil det ikke være noen observerbar endring. Du kan fortsette å bruke Project Service på vanlig måte. 
 
-Hvis du har behov for pris eller kostnad for ressursene ved hjelp av flere attributter, kan du opprette egendefinerte felt, enheter og dimensjoner. Hvis du vil ha mer informasjon, kan du se følgende emner, men vær oppmerksom på at du må fullføre prosedyrene i rekkefølgen angitt nedenfor:
+Hvis du har behov for pris eller kostnad for ressursene ved hjelp av flere attributter, kan du opprette egendefinerte felt, enheter og dimensjoner. Hvis du vil ha mer informasjon, kan du se følgende artikler, men vær oppmerksom på at du må fullføre fremgangsmåtene i rekkefølgen angitt nedenfor:
 
 - [Opprette egendefinerte felt og enheter](create-custom-fields-entities.md)
 - [Legge til egendefinerte felt i prisoppsett og transaksjonsenheter](field-references.md)
 - [Konfigurere egendefinerte felt som prisdimensjoner ](set-up-pricing-dimensions.md)
-- [Oppdater plugin-attributter slik at de inkluderer nye prisdimensjoner](update-plug-in-attributes.md)
+- [Oppdater programtilleggsattributter slik at de inkluderer nye prisdimensjoner](update-plug-in-attributes.md)
 
 ## <a name="pricing-human-resource-time"></a>Prising av personaltid
 Hvordan en organisasjon priser personaltid er ofte en viktig strategisk betraktning som direkte påvirker lønnsomheten i organisasjonen. Du kan arbeide med økonomiteamene og øve på når organisasjonen er klar til å identifisere hvordan de vil sette opp faktura- og kostnadssatser for personale.

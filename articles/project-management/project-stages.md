@@ -1,6 +1,6 @@
 ---
 title: Prosjektfaser
-description: Dette emnet gir informasjon om prosjektstadier som er tilgjengelige i Microsoft Dynamics Project Operations.
+description: Denne artikkelen inneholder informasjon om prosjektfasene som er tilgjengelige i Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a25f32badd8776c89ad6eb56ad77ff61ad0cccae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911148"
 ---
 # <a name="project-stages"></a>Prosjektfaser
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Prosjektfaser skal vise statusen til prosjektet etter hvert som det pågår. Tilpassinger kan brukes til automatisk å oppdatere fasene med forretningsprosessflyter, Power Automate eller plugin-modulutvidelser.
+Prosjektfaser skal vise statusen til prosjektet etter hvert som det pågår. Tilpassinger kan brukes til automatisk å oppdatere fasene med forretningsprosessflyter, Power Automate eller programtilleggsutvidelser.
 
 Følgende faser er definert i standard forretningsprosessflyt:
 

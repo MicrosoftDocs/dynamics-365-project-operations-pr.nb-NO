@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919244"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfigurere flere parameterinnstillinger (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592336"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Når du har konfigurert elementene i tidligere emner, må du angi flere prosjektparametere som skal brukes for prosjekter. Da du installerte [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] for første gang, opprettet du en parameterinnstilling for først å opprette alle oppføringer som kreves for at [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] skal fungere. Nå er det på tide å gå tilbake og konfigurere flere felt for disse innstillingene.  
+Når du har konfigurert elementene i tidligere artikler, må du angi flere prosjektparametere som skal brukes for prosjekter. Da du installerte [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] for første gang, opprettet du en parameterinnstilling for først å opprette alle oppføringer som kreves for at [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] skal fungere. Nå er det på tide å gå tilbake og konfigurere flere felt for disse innstillingene.  
   
  Må du ha konfigurert følgende innstillinger:  
   

@@ -1,6 +1,6 @@
 ---
 title: Massekorrigeringer av faktiske verdier som er opprettet av godkjente tids- og utgiftsoppføringer
-description: Dette emnet forklarer hvordan en administrator kan utføre én korrigering eller massekorringeringer i tidligere godkjente tids- eller utgiftsoppføringer hvis fakturering ikke er fullført.
+description: Denne artikkelen forklarer hvordan en administrator kan foreta enkeltkorrigeringer eller massekorrigeringer av tidligere godkjente tids- eller utgiftsoppføringer hvis faktureringen ikke er fullført.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916301"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Massekorrigeringer av faktiske verdier som er opprettet av godkjente tids- og utgiftsoppføringer
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683374"
 
 Noen ganger kan en tids- eller utgiftsoppføring være angitt feil. En konsulent kan for eksempel velge feil dato ved oppretting av en tidsoppføring, eller de kan transponere tallene ved angivelse av en utgift. Hvis en konsulent ikke kan gjøre oppdateringene til de sendte oppføringene, kan en administrator direkte korrigere oppføringen for et prosjekt.
 
-Hvis du vil fullføre fremgangsmåtene i dette emnet, må du ha administratortillatelser.
+For å kunne fullføre fremgangsmåtene i denne artikkelen må du ha administratortillatelser.
 
 ## <a name="correct-approved-time-entries"></a>Korrigere godkjente tidsoppføringer     
 

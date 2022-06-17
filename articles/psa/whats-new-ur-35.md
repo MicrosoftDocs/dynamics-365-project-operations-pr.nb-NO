@@ -1,6 +1,6 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation Update Release 35, V3
-description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelige i Microsoft Dynamics 365 Project Service Automation-oppdateringsutgivelsen 35, V3.
+description: Denne artikkelen viser funksjoner og rettelser i Microsoft Dynamics 365 Project Service Automation Update Release 35 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e210777f1e4d149b700721ac7fb9bd129b1166fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 28b4a5ccbfff83c9b1a18cb0b4062af9cdaf8f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912850"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-35-v3"></a>Hva er nytt eller endret i Project Service Automation Update Release 35, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8574040"
 
 Vi er glade for å kunngjøre den nyeste oppdateringen for Microsoft Dynamics 365 Project Service Automation-appen. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Den er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, kan du gå til siden for administrasjonssenteret for Dynamics 365 Online-løsninger og installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-Dette emnet viser funksjonene og rettinger som er nye eller endrede for Project Service Automation Update Release 35, V3. Denne versjonen har et build-nummer på V3.10.56.110 og er tilgjengelig via en egenoppdatering i september 2021.
+Denne artikkelen viser funksjoner og rettelser som er nye eller endret i Project Service Automation Update Release 35 V3. Denne versjonen har et build-nummer på V3.10.56.110 og er tilgjengelig via en egenoppdatering i september 2021.
 
 ## <a name="update-release-35"></a>Update Release 35
 

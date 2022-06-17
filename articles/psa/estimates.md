@@ -1,6 +1,6 @@
 ---
 title: Estimater
-description: Dette emnet inneholder informasjon om estimater i Dynamics 365 Project Service Automation.
+description: Denne artikkelen inneholder informasjon om estimater i Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 978af25fb89feb61e3c6fcfeafa212db034ff5cb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fdd8fa033131500956249b1bdabc135b5057bbc1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920532"
 ---
 # <a name="estimates"></a>Estimater
 
@@ -79,17 +79,17 @@ Bruk tabellen nedenfor som veiledning for å forstå forretningslogikken i estim
 
 ## <a name="customizing-the-quote-line-detail-and-contract-line-detail-entities"></a>Tilpasse enhetene for tilbudslinjedetaljer og kontraktlinjedetaljer
 
-Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at systemet skal angi verdien i feltet som en standardverdi på den relaterte kostnadslinjen som opprettes, bruker du registreringsverktøyene PreOperationContractLineDetailUpdate og PreOperationQuoteLineDetailUpdate. Disse plugin-modulene må registreres på nytt etter at tilbudslinjedetaljene eller kontraktslinjedetaljene endres. Følg disse trinnene for å fullføre prosessen.
+Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at systemet skal angi verdien i feltet som en standardverdi på den relaterte kostnadslinjen som opprettes, bruker du registreringsverktøyene PreOperationContractLineDetailUpdate og PreOperationQuoteLineDetailUpdate. Disse programtilleggene må registreres på nytt etter at tilbudslinjedetaljene eller kontraktslinjedetaljene endres. Følg disse trinnene for å fullføre prosessen.
 
 1. Åpne PluginRegistrationTool, og koble til forekomsten på nettet.
-2. Velg **Søk**, og søk etter plugin-modulen for å oppdatere.
+2. Velg **Søk**, og søk etter programtillegget for å oppdatere.
 
     ![Dialogboksen Søketre.](media/basic-guide-19.png)
 
-3. Velg plugin-modulen, og velg deretter **Velg** på hovedsiden.
-4. Velg trinnet i plugin-modulen som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
+3. Velg programtillegget, og velg deretter **Velg** på hovedsiden.
+4. Velg trinnet i programtillegget som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
 
-    ![Velge et trinn i plugin-modulen.](media/basic-guide-20.png)
+    ![Velge et trinn i programtillegget.](media/basic-guide-20.png)
 
 5. I dialogboksen **Oppdater eksisterende trinn**, i feltet **Filtreringsattributter** velger du ellipseknappen (**...**):
  
@@ -103,7 +103,7 @@ Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at syst
  
     ![Knappen Oppdater trinn.](media/basic-guide-23.png)
 
-8. Gjenta trinn 1 til 7 for den andre plugin-modulen.
+8. Gjenta trinn 1 til 7 for det andre programtillegget.
 9. Lukk PluginRegistrationTool.
 
 

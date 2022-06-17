@@ -1,6 +1,6 @@
 ---
 title: Enheter og enhetsgrupper
-description: Dette emnet gir informasjon om hvordan du oppretter enheter og enhetsgrupper i Dynamics 365 Project Operations.
+description: Denne artikkelen inneholder informasjon om hvordan du oppretter enheter og enhetsgrupper i Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921452"
 ---
 # <a name="units-and-unit-groups"></a>Enheter og enhetsgrupper
 
@@ -28,7 +28,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Enhetene er antallet eller målene som du kan selge produktene eller tjenestene i. Hvis du for eksempel selger hageutstyr, kan du selge frø i pakker, bokser og paller. En enhetsgruppe er en samling av disse ulike enhetene.
 
-Hvis du vil fullføre trinnene i dette emnet, må du sørge for at du er tilordnet rollen Systemadministrator- eller Sales Professional-leder eller tilsvarende tillatelser.
+For å fullføre trinnene i denne artikkelen kontrollerer du at du har fått tilordnet rollen Systemansvarlig eller Salgsansvarlig eller har tilsvarende tillatelser.
 
 ## <a name="create-a-unit-group"></a>Opprette en enhetsgruppe
 

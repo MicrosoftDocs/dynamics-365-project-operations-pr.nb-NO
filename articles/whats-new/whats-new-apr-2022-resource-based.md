@@ -1,24 +1,24 @@
 ---
 title: Nyheter april 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-description: Dette emnet inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Microsoft Dynamics 365 Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer fra april 2022.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Microsoft Dynamics 365 Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer fra april 2022.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613281"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912390"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter april 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Dette emnet gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
+Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i et Dataverse-miljø, versjon 4.41.0.45
 - Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.26

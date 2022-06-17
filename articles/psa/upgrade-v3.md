@@ -1,6 +1,6 @@
 ---
 title: Oppgraderingshensyn – Microsoft Dynamics 365 Project Service Automation, versjon 2.x eller 1.x til versjon 3
-description: Dette emnet gir informasjon om hensyn du må ta når du oppgraderer fra Project Service Automation versjon 2.x eller 1.x til versjon 3.
+description: Denne artikkelen inneholder informasjon om hensyn du må ta når du oppgraderer fra Project Service Automation versjon 2.x eller 1.x til versjon 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918922"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Hensyn ved oppgradering – PSA-versjon 2.x eller 1.x til versjon 3
 
@@ -40,7 +40,7 @@ I Project Service Automation versjon 2 og versjon 1 ble oppgavetilordninger lagr
 
 I versjon 3 av Project Service Automation er det underliggende skjemaet for tilordning av bestillbare ressurser til oppgaver endret. Linjeoppgaven er avskrevet, og det er en direkte 1:1-relasjon mellom oppgaven i **Oppgaveenhet** og teammedlemmet i enheten **Ressurstilordning**. Oppgaver som er tilordnet til et prosjektteammedlem, er nå lagret direkte i ressurstilordningsenheten.  
 
-Disse endringene påvirker oppgraderingen av eventuelle eksisterende prosjekter som har ressurstilordninger for navngitte reserverbare ressurser og generelle ressurser i et prosjektteam. Dette emnet gir deg vurderingene du må ta hensyn til for prosjektene dine når du oppgraderer til versjon 3. 
+Disse endringene påvirker oppgraderingen av eventuelle eksisterende prosjekter som har ressurstilordninger for navngitte reserverbare ressurser og generelle ressurser i et prosjektteam. Denne artikkelen gir deg vurderingene du må ta hensyn til for prosjektene dine når du oppgraderer til versjon 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Oppgaver tilordnet til navngitte ressurser
 Ved hjelp av den underliggende oppgaveenheten kunne teammedlemmer ved hjelp av oppgaver i versjon 2 og versjon 1 ha en annen rolle enn standardrollen som er definert. For eksempel kunne Sigrid Hammeren, som var tilordnet rollen som Programbehandler som standard, tilordnes en oppgave med rollen utvikler. I versjon 3 er rollen for et navngitt teammedlem alltid standard, slik at alle oppgaver som Sigrid Hammeren er tilordnet, bruker hennes standardrolle som Programbehandler.

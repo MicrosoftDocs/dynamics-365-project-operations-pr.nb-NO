@@ -1,6 +1,6 @@
 ---
 title: Legge til egendefinerte felt i prisoppsett og transaksjonsenheter
-description: Dette emnet gir informasjon om hvordan du legger til egendefinerte felt i prisoppsett og transaksjonsenheter.
+description: Denne artikkelen gir informasjon om hvordan du legger til egendefinerte felter i prisoppsett og transaksjonsenheter.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920486"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Legge til egendefinerte felt i prisoppsett og transaksjonsenheter 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dette emnet forutsetter at du har fullført prosedyrene i emnet [Opprette egendefinerte felt og enheter](create-custom-fields-entities.md). Hvis du ikke har utført disse prosedyrene, kan du gå tilbake og fullføre dem og deretter gå tilbake til dette emnet. 
+Denne artikkelen forutsetter at du har fullført prosedyrene i artikkelen [Opprette egendefinerte felt og enheter](create-custom-fields-entities.md). Hvis du ikke har fullført disse fremgangsmåtene, kan du gå tilbake og fullføre dem og deretter gå tilbake til denne artikkelen. 
 
-I dette emnet viser fremgangsmåten hvordan du legger til de obligatoriske egendefinerte feltreferansene i enheter og i bruker grensesnittelementene, for eksempel skjemaer og visninger.
+I denne artikkelen viser fremgangsmåtene hvordan du legger til de obligatoriske egendefinerte feltreferansene i enheter og i brukergrensesnittelementene, for eksempel skjemaer og visninger.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Legg til egendefinerte felt for prisdimensjon 
 Når egendefinerte felt og enheter er opprettet, er det neste trinnet å gjøre prisoppsett og transaksjonsenheter klar over egendefinerte enheter eller alternativsett, ved å opprette referansefelt. Avhengig av om prisdimensjonslisten inneholder alternativsettdimensjoner eller enhetsdimensjoner eller begge deler, følger du bare trinnene i **Egendefinerte prisdimensjoner basert på alternativsett** eller **Egendefinerte prisdimensjoner basert på enheter**, eller begge deler.

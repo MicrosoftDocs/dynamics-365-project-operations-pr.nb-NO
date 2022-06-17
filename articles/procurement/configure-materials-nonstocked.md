@@ -1,18 +1,18 @@
 ---
 title: Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer
-description: Dette emnet forklarer hvordan du aktiverer ikkee lagerførte materialer og ventende leverandørfakturaer.
+description: Denne artikkelen forklarer hvordan du aktiverer ikke-lagerførte materialer og ventende leverandørfakturaer.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913770"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurer ikke lagerførte materialer og ventende leverandørfakturaer
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Kjøre tilordninger for dobbel skriving for ikke-lagerført materiell og integrering av leverandørfaktura
 
-Denne delen inneholder informasjon om spesifikke tilordninger som kreves for ikke-lagerført materiell og leverandørfakturaer. Kontroller at de nødvendige tilordningene som er oppført i emnet [Klargjøre et nytt miljø](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps), kjører i miljøet.
+Denne delen inneholder informasjon om spesifikke tilordninger som kreves for ikke-lagerført materiell og leverandørfakturaer. Kontroller at de nødvendige tilordningene som er oppført artikkelen [Klargjør et nytt miljø](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps), kjører i miljøet.
 
 1. Gå til Lifecycle Services (LCS), gå til LCS-prosjektet og gå til siden **Miljødetaljer**.
 2. I delen **Common Data Service-miljøinformasjon** velger du **Koble til CDS for Apps**. Når du har valgt koblingen, blir du omdirigert til listen over enheter i tilordningene.

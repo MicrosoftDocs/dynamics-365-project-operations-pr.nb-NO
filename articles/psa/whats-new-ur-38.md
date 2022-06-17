@@ -1,6 +1,6 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation Update Release 38, V3
-description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelige i Microsoft Dynamics 365 Project Service Automation-oppdateringsutgivelsen 38, V3.
+description: Denne artikkelen viser funksjoner og rettelser i Microsoft Dynamics 365 Project Service Automation Update Release 38 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 12/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ccc08cd0bc365bd4761424a4c0ceac91985e7c89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915197"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Hva er nytt eller endret i Project Service Automation Update Release 38, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8598730"
 
 Vi er glade for å kunngjøre den nyeste oppdateringen for Microsoft Dynamics 365 Project Service Automation-appen. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Den er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, kan du gå til siden for administrasjonssenteret for Dynamics 365 Online-løsninger og installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-Dette emnet viser funksjonene og rettinger som er nye eller endrede for Project Service Automation Update Release 38, V3. Denne versjonen har et build-nummer for V3.10.59.117 og er generelt tilgjengelig via en egen oppdatering i desember 2021.
+Denne artikkelen viser funksjoner og rettelser som er nye eller endret i Project Service Automation Update Release 38 V3. Denne versjonen har et build-nummer for V3.10.59.117 og er generelt tilgjengelig via en egen oppdatering i desember 2021.
 
 ## <a name="update-release-38"></a>Update Release 38
 

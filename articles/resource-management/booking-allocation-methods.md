@@ -1,6 +1,6 @@
 ---
 title: Metoder for bestillingstildeling
-description: Dette emnet gir informasjon om hvordan metoder for bestillingstildeling fungerer i Project-operasjoner.
+description: Denne artikkelen inneholder informasjon om hvordan metoder for bestillingstildeling fungerer i Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912758"
 ---
 # <a name="booking-allocation-methods"></a>Metoder for bestillingstildeling
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Om du legger til et teammedlem direkte i et prosjekt i kategorien **Team**, eller reserverer en ressurs for et prosjekt eller krav fra planleggingstavlen, fins det et par forskjellige bestillingstildelingsmetoder du kan bruke. Dette emnet forklarer hvordan hver metode fungerer, og hvilke metoder som kan føre til overbestillingsressurser.
+Om du legger til et teammedlem direkte i et prosjekt i kategorien **Team**, eller reserverer en ressurs for et prosjekt eller krav fra planleggingstavlen, fins det et par forskjellige bestillingstildelingsmetoder du kan bruke. Denne artikkelen forklarer hvordan hver metode fungerer, og hvilke metoder som kan føre til overbestillingsressurser.
 
 ## <a name="booking-allocation-methods"></a>Metoder for bestillingstildeling
 

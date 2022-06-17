@@ -1,17 +1,17 @@
 ---
 title: Korriger regnskapet på utkast av prosjektfakturaforslag
-description: Dette emnet forklarer hvordan du justerer regnskapsrelatert informasjon i et utkast av fakturaforslag.
+description: Denne artikkelen forklarer hvordan du justerer regnskapsrelatert informasjon i et utkast til fakturaforslag.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921222"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Korriger regnskapet på utkast av prosjektfakturaforslag
 
@@ -19,7 +19,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 *Operasjonsdetaljer* for prosjektfakturaer vedlikeholdes av prosjektlederen på en promafaktura. Disse detaljene inkluderer avgjørelsen om timene, utgiftene, materiellet eller milepælene som må faktureres, priser og bruk av beløp for forskudd og honorar. Når du har kontrollert den opprinnelige promafakturaen, kan du justere operasjonsdetaljene ved å opprette og bekrefte en [korrigerende promafaktura](../proforma-invoicing/corrective-invoices.md).
 
-*Regnskapsdetaljer* for prosjektfakturaer vedlikeholdes i et kunderettet fakturadokument. Disse detaljene inkluderer beregningen av merverdiavgift og finansdimensjonene som brukes på fakturaen. Dette emnet inneholder detaljer om hvordan disse regnskapsdetaljene kan justeres i et utkast til prosjektfakturaforslag.
+*Regnskapsdetaljer* for prosjektfakturaer vedlikeholdes i et kunderettet fakturadokument. Disse detaljene inkluderer beregningen av merverdiavgift og finansdimensjonene som brukes på fakturaen. Denne artikkelen inneholder detaljer om hvordan disse regnskapsdetaljene kan justeres i et utkast til prosjektfakturaforslag.
 
 ## <a name="adjust-sales-tax"></a>Juster merverdiavgift
 

@@ -1,17 +1,17 @@
 ---
 title: Estimere salg og kostnader for prosjekter når en ressurs som kan reserveres fyller flere roller i et prosjekt
-description: Dette emnet forklarer hvordan du bruker prisdimensjoner til å støtte pris- og kostnadsestimater for en ressurs som fyller flere roller i et prosjekt.
+description: Denne artikkelen forklarer hvordan du bruker prisdimensjoner til å støtte pris- og kostnadsestimater for en ressurs med flere roller på et prosjekt.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923476"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimere salg og kostnader for prosjekter når en ressurs som kan reserveres fyller flere roller i et prosjekt 
 

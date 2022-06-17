@@ -1,17 +1,17 @@
 ---
 title: Konsepter for økonomisk estimat
-description: Dette emnet inneholder informasjon om økonomisk estimat for prosjekter i Project Operations.
+description: Denne artikkelen inneholder informasjon om økonomiske estimater for prosjekter i Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 338d2924f0e2a4a7fb943686eaad421a892dce70
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f8a4c3dd31cf5612c352331891178ac0ab852921
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931020"
 ---
 # <a name="financial-estimation-concepts"></a>Konsepter for økonomisk estimat
 
@@ -70,16 +70,16 @@ Bruk tabellen nedenfor som veiledning for å forstå forretningslogikken i estim
 
 ## <a name="customize-the-quote-line-detail-and-contract-line-detail-entities"></a>Tilpasse enhetene for tilbudslinjedetaljer og kontraktlinjedetaljer
 
-Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at systemet skal angi verdien i feltet som en standardverdi på den relaterte kostnadslinjen som opprettes, bruker du registreringsverktøyene **PreOperationContractLineDetailUpdate** og **PreOperationQuoteLineDetailUpdate**. Disse plugin-modulene må registreres på nytt etter at tilbudslinjedetaljene eller kontraktslinjedetaljene endres. Følg disse trinnene for å fullføre prosessen.
+Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at systemet skal angi verdien i feltet som en standardverdi på den relaterte kostnadslinjen som opprettes, bruker du registreringsverktøyene **PreOperationContractLineDetailUpdate** og **PreOperationQuoteLineDetailUpdate**. Disse programtilleggene må registreres på nytt etter at tilbudslinjedetaljene eller kontraktslinjedetaljene endres. Følg disse trinnene for å fullføre prosessen.
 
 1. Åpne PluginRegistrationTool, og koble til forekomsten på nettet.
-2. Velg **Søk**, og søk etter plugin-modulen for å oppdatere.
-3. Velg plugin-modulen, og velg deretter **Velg** på hovedsiden.
-4. Velg trinnet i plugin-modulen som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
+2. Velg **Søk**, og søk etter programtillegget for å oppdatere.
+3. Velg programtillegget, og velg deretter **Velg** på hovedsiden.
+4. Velg trinnet i programtillegget som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
 5. I dialogboksen **Oppdater eksisterende trinn**, i feltet **Filtreringsattributter** velger du ellipseknappen (**...**):
 6. I dialogboksen **Velg attributter** merker du av i boksene for egendefinerte attributter.
 7. Velg **OK** for å lukke dialogboksen, og velg deretter **Oppdater trinn**.
-8. Gjenta trinn 1 til 7 for den andre plugin-modulen.
+8. Gjenta trinn 1 til 7 for det andre programtillegget.
 9. Lukk **PluginRegistrationTool**.
 
 

@@ -1,24 +1,24 @@
 ---
 title: Nyheter april 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-description: Dette emnet inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i april 2021-versjonen av Project Operations for scenarioer basert på ressurer / ikke-lagerførte enheter
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer fra april 2021.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912436"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter april 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
+Denne artikkelen gjelder følgende komponenter og versjoner av Dynamics 365 Project Operations:
 
 - Project Operations på Dataverse-miljø versjon 4.9.0.221
 - Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.17
@@ -59,7 +59,7 @@ Hvis du får problemer med å starte tilordningen, følger du instruksjonene i d
 | **Funksjonsområdet** | **Referansenummer** | **Kvalitetsoppdatering** |
 | --- | --- | --- |
 | Fakturering og prising | 2124532 | Knappen **Rett opp faktura** vises på en proformafaktura når honorarbeløpet eller det brukte honorarbeløpet vises på den opprinnelige fakturaen. Knappen vises bare for miljøer med Finance versjon 10.0.19 eller høyere. |
-| Fakturering og prising | 2224568 | Lagt til logikk for å aktivere tilpassinger som involverer aktivering av plugin-modulen for fakturabekreftelse. |
+| Fakturering og prising | 2224568 | Lagt til logikk for å aktivere tilpassinger som involverer aktivering av programtillegget for fakturabekreftelse. |
 | Fakturering og prising | 2101098 | Forbedret logikken for standardfelt til proformafaktura: **Fakturaadresse**, **Fakturanavn** og **Betalingsbetingelser** angis nå som standard fra den tilsvarende kundeoppføringen i prosjektkontrakten. |
 | Fakturering og prising | 2021413 | Oppdaterte feltene **Faktisk kostnad** og **Salg** i **Oppgave**-enheten for å inkludere salgsverdier fra ufakturerte og fakturerte utgifter for oppgaver. |
 | Fakturering og prising | 2182110 | Når du kopierer en prosjektkontrakt, genereres kontraktlinje-ID-en på nytt i målprosjektkontrakten for å sikre at den er unik. |

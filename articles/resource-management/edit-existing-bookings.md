@@ -1,24 +1,24 @@
 ---
 title: Rediger bestillinger
-description: Dette emnet inneholder informasjon om hvordan du oppdaterer og gjør endringer i bestillinger.
+description: Denne artikkelen inneholder informasjon om hvordan du oppdaterer og endrer bestillinger.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915242"
 ---
 # <a name="edit-bookings"></a>Redigere bestillinger
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 
-Når det skjer endringer i et prosjekt som krever at du oppdaterer eksisterende bestillinger, kan du gjøre endringene på flere måter. Dette emnet beskriver hvordan du oppdaterer og gjør endringer i bestillinger.
+Når det skjer endringer i et prosjekt som krever at du oppdaterer eksisterende bestillinger, kan du gjøre endringene på flere måter. Denne artikkelen skisserer hvordan du oppdaterer og endrer bestillinger.
 
 ## <a name="resource-reconciliation"></a>Ressursavstemming
 

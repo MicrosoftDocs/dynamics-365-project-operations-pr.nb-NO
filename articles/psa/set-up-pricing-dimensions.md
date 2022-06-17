@@ -1,6 +1,6 @@
 ---
 title: Konfigurere egendefinerte felt som prisdimensjoner
-description: Dette emnet gir informasjon om hvordan du konfigurerer egendefinerte prisdimensjoner.
+description: Denne artikkelen inneholder informasjon om hvordan du konfigurerer egendefinerte prisdimensjoner.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922609"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurere egendefinerte felt som prisdimensjoner 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Før du begynner antar dette emnet at du har fullført prosedyrene i emnene [Opprette egendefinerte felt og enheter](create-custom-fields-entities.md) og [Legge til egendefinerte felt i prisoppsett og transaksjonsenheter](field-references.md). Hvis du ikke har utført disse prosedyrene, kan du gå tilbake og fullføre dem og deretter gå tilbake til dette emnet. 
+Før du begynner, antar denne artikkelen at du har fullført fremgangsmåtene i artiklene [Opprette egendefinerte felter og enheter](create-custom-fields-entities.md) og [Legge til egendefinerte felter i prisoppsett og transaksjonsenheter](field-references.md). Hvis du ikke har fullført disse fremgangsmåtene, kan du gå tilbake og fullføre dem og deretter gå tilbake til denne artikkelen. 
 
-Dette emnet gir informasjon om hvordan du konfigurerer egendefinerte prisdimensjoner. I Project Service-webgrensesnittet, på siden **Parametere**, viser kategorien **Beløpsbaserte prisdimensjoner** oppføringene i prisingsdimensjonsenhetene. Som standard oppretter Project Service-installasjonen 2 rader i rutenettet i denne kategorien:
+Denne artikkelen inneholder informasjon om hvordan du konfigurerer egendefinerte prisdimensjoner. I Project Service-webgrensesnittet, på siden **Parametere**, viser kategorien **Beløpsbaserte prisdimensjoner** oppføringene i prisingsdimensjonsenhetene. Som standard oppretter Project Service-installasjonen 2 rader i rutenettet i denne kategorien:
 
 - **msdyn_resourcecategory** (rolle)
 - **msdyn_OrganizationalUnit** (organisasjonsenhet)

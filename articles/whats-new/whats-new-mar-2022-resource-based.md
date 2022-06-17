@@ -1,24 +1,24 @@
 ---
 title: Nyheter mars 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-description: Dette emnet inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer fra mars 2022.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer fra mars 2022.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910918"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter mars 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
 *Gjelder: Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer*
 
-Dette emnet gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
+Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i et Dataverse-miljø, versjon 4.30.0.99
 - Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.25
@@ -55,7 +55,7 @@ Hvis det oppstår et problem når du starter tilordningen, følger du instruksjo
 | Fakturering og prising | 2558859 | Forbedrede feilmeldinger når prisdimensjoner er konfigurert. |
 | Fakturering og prising | 2558933 | **Import fra prosjektestimater** mislykkes når **msdyn\_project** er lagt til som en prisdimensjon. |
 | Fakturering og prising | 2559101 | Sletting av prosjektparametere er ikke blokkert og forårsaker problemer. |
-|   Administrasjon av salgsmuligheter | 2570390 | Plugin-modulen for dobbel skriving tvinger kontotypen i tilbud, bestillinger og muligheter til å være **Kunde**, selv når denne kontotypen ikke er korrekt. |
+|   Administrasjon av salgsmuligheter | 2570390 | Programtillegget for dobbel skriving tvinger kontotypen i tilbud, bestillinger og muligheter til å være **Kunde**, selv når denne kontotypen ikke er korrekt. |
 | Fakturering og prising | 2586097 | Deling av fakturerte faktiske kostnader reverseres ikke når et prosjekt fjernes fra en prosjektkontraktlinje. |
 | Fakturering og prising | 2589619 | Avgifter på materiell som ikke er i katalogen, overføres til ufakturert faktisk salg og til fakturaen. |
 |   Administrasjon av salgsmuligheter | 2594015 | Et tilbud kan ikke lukkes som vunnet for kunder som har **Net60**-betalingsbetingelser. |
@@ -91,11 +91,11 @@ Hvis det oppstår et problem når du starter tilordningen, følger du instruksjo
 
 ## <a name="removed-and-deprecated-features"></a>Funksjoner som er fjernet og avskrevet
 
-Emnet [Fjernede eller avskrevne funksjoner i Project Operations](removed-depreciated-features-project.md) beskriver funksjoner som er fjernet eller avskrevet for Dynamics 365 Project Operations.
+Artikkelen [Fjernede eller avskrevne funksjoner i Project Operations](removed-depreciated-features-project.md) beskriver funksjoner som er fjernet eller avskrevet for Dynamics 365 Project Operations.
 
 - En fjernet funksjon er ikke lenger tilgjengelig i produktet.
 - En avskrevet funksjon er ikke i aktiv utvikling og kan bli fjernet i en fremtidig oppdatering.
 
-En kunngjøring om avskrivning vil vises i emnet [Fjernede eller avskrevne funksjoner i Project Operations](removed-depreciated-features-project.md) 12 måneder før en funksjon blir fjernet fra produktet.
+En kunngjøring om avskrivning vil vises i artikkelen [Fjernede eller avskrevne funksjoner i Project Operations](removed-depreciated-features-project.md) 12 måneder før en funksjon blir fjernet fra produktet.
 
 For oppdelingsendringer som bare påvirker kompileringstiden, men som er binære kompatible med sandkasse- og produksjonsmiljøer, vil avskrivningstiden være mindre enn 12 måneder. Disse endringene er vanligvis funksjonelle oppdateringer som må gjøres på kompilatoren.

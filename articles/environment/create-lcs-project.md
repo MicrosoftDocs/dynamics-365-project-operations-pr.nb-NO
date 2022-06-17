@@ -1,17 +1,17 @@
 ---
 title: Start et nytt LCS-prosjekt
-description: Dette emnet gir informasjon om oppretting av et nytt prosjekt i LCS for Project Operations-miljøet.
+description: Denne artikkelen inneholder informasjon om hvordan du oppretter et nytt prosjekt i LCS for Project Operations-miljøet.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6f5bd20b9d0e8ca1ace1dd6a5a66ae1810bb5b3b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923246"
 ---
 # <a name="start-a-new-lcs-project"></a>Start et nytt LCS-prosjekt
 

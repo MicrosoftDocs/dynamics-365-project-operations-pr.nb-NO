@@ -1,25 +1,25 @@
 ---
 title: Nyheter mars 2021 – Project Operations Lite-distribusjon
-description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i mars 2021-versjonen av Project Operations Lite-distribusjon.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations Lite-distribusjon fra mars 2021.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913908"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Nyheter mars 2021 – Project Operations Lite-distribusjon
 
 _Gjelder: Lite-distribusjon – avtale til proformafakturering_
 
 
-Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
+Denne artikkelen gjelder følgende komponenter og versjoner av Dynamics 365 Project Operations:
 
 - Project Operations på Dataverse-miljø versjon 4.8.0.91 
 

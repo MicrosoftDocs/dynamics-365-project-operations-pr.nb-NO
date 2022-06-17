@@ -1,6 +1,6 @@
 ---
 title: Konfigurere intern prosjektfakturering
-description: Dette emnet viser hvordan du definerer prosjektfakturering mellom to selskaper i organisasjonen.
+description: Denne artikkelen viser hvordan du konfigurerer prosjektfakturering mellom to firmaer i organisasjonen.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916622"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigurere intern prosjektfakturering
 
 [!include [banner](../../includes/banner.md)]
 
-Dette emnet viser hvordan du definerer prosjektfakturering mellom to selskaper i organisasjonen. Denne oppgaven bruker USSI-datasett.
+Denne artikkelen viser hvordan du konfigurerer prosjektfakturering mellom to firmaer i organisasjonen. Denne oppgaven bruker USSI-datasett.
 
 1. I navigasjonsruten går du til **Moduler > Leverandørgjelde > Leverandører > Alle leverandører**.
 2. I listen **Alle leverandører** finner og velger du ønsket oppføring.

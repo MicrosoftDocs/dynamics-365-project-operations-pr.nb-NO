@@ -1,22 +1,22 @@
 ---
 title: Integrering av prosjektfaktura
-description: Dette emnet gir informasjon om integrasjon av dobbel skriving for Project Operations for kundefakturering.
+description: Denne artikkelen inneholder informasjon om integrering av dobbel skriving i Project Operations for kundefakturering.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912114"
 ---
 # <a name="project-invoice-integration"></a>Integrering av prosjektfaktura
 
-Dette emnet gir informasjon om integrasjon av dobbel skriving for Project Operations for kundefakturering.
+Denne artikkelen inneholder informasjon om integrering av dobbel skriving i Project Operations for kundefakturering.
 
 I Project Operations administrerer prosjektlederen prosjektfaktureringsrestansen og oppretter en proformafaktura for kunden i Microsoft Dataverse. Basert på denne proformafakturaen oppretter medarbeideren for utestående fordringer eller prosjektregnskapsføreren en kunderettet faktura. Integrering av to dobbel skriving sikrer at proformafakturadetaljene synkroniseres med økonomi- og driftsapper. Når den kunderettede fakturaen er postert, oppdaterer systemet de relevante faktiske prosjektdataene i Dataverse med regnskapsdetaljene. Grafikken nedenfor gir en konseptuell oversikt på høyt nivå over denne integreringen.
 

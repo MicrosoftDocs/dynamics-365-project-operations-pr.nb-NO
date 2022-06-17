@@ -1,6 +1,6 @@
 ---
 title: Startside for prosjektbemanning
-description: Dette emnet gir informasjon om prosjektbemanning.
+description: Denne artikkelen inneholder informasjon om ressursstyring for prosjekt.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924028"
 ---
 # <a name="project-resourcing-home-page"></a>Startside for prosjektbemanning
 
 [!include [banner](../includes/banner.md)]
 
-Dette emnet gir informasjon om prosjektbemanning.
+Denne artikkelen inneholder informasjon om ressursstyring for prosjekt.
 
 Én utfordring for prosjektledere og ressursansvarlige i løpet av planleggingen av prosjekt er ressursallokering, der de må fastsette og reservere den riktige ressursen til å arbeide med et prosjekt. I Dynamics 365 Finance kan ressursfunksjoner for prosjekter la deg definere roller som skal behandles som midlertidige ressurser som kan reserveres for et spesifikt prosjekt eller en del av et prosjekt. Denne typen leverandør gjør det mulig for prosjektledere og ressursansvarlige å utføre følgende oppgaver:
 
@@ -41,7 +41,7 @@ Dette emnet gir informasjon om prosjektbemanning.
 
 Etter hvert som prosjektplanleggingen fortsetter, kan planlagte ressurser erstattes med bemannede ressurser. Prosjektlederen kan også gå tilbake og oppdatere ressursreserveringene i løpet av et prosjekttrinn.
 
-Følgende emner gir informasjon om oppgavene som må fullføres når du arbeider med ressursprosjekter.
+Følgende artikler inneholder informasjon om oppgavene som må fullføres når du arbeider med ressursprosjekter.
 
 - [Definere prosjektressurser](set-up-project-resources.md)
 - [Administrere ressurskompetanser](manage-resource-competencies.md)

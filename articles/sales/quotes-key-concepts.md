@@ -1,6 +1,6 @@
 ---
 title: Tilbud - Nøkkelkonsepter
-description: Dette emnet gir informasjon om prosjekttilbud og salgstilbud som er tilgjengelige i Project Operations.
+description: Denne artikkelen inneholder informasjon om prosjekttilbud og salgstilbud som er tilgjengelige i Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912528"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Konsepter som er unike for prosjektbaserte tilbud
 
@@ -35,7 +35,7 @@ I Dynamics 365 Project Operations finnes det to typer tilbud, prosjekttilbud og 
 - **Felt og konsepter**: Et salgstilbud inkluderer ikke enkelte felt og konsepter som er inkludert i et prosjekttilbud. Feltene omfatter **Kontraktenhet**, **Forretningsforbindelsesansvarling** og **Navn på kontakt for fakturering**.  
 - **Type**: Salgstilbud og prosjekttilbud identifiseres også ved hjelp av feltet basert på et alternativsett med navnet **Type**. For et salgstilbud har dette feltet verdien **Varebasert**. For et prosjekttilbud har det verdien **Arbeidsbasert**.
 
-Dette emnet fokuserer på detaljene i prosjekttilbud.
+Denne artikkelen fokuserer på detaljene i prosjekttilbud.
 
 Et prosjekttilbud i Project Operations kan ha flere linjeelementer eller tilbudslinjer. Et prosjekttilbud har faktisk to rutenett for linjeelementer. Det ene rutenettet er for prosjektbaserte linjer som tillater detaljerte beregninger. Det andre rutenettet er for produktbaserte linjer som bruker en enkel enhetspris og den antallsbaserte metoden.
 

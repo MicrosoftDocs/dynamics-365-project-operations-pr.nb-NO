@@ -1,17 +1,17 @@
 ---
 title: Konfigurere planleggingstavlen for å vise kontraktarbeidere og underkontraktkapasitet
-description: Dette emnet beskriver hvordan du konfigurerer Planleggingstavle i Microsoft Dynamics 365 Project Operations til å vise ressurskapasitet for underkontrakt under bemanning av prosjektressurskrav.
+description: Denne artikkelen beskriver hvordan du konfigurerer Planleggingstavle i Microsoft Dynamics 365 Project Operations til å vise ressurskapasitet for underkontrakt under bemanning av prosjektressurskrav.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919842"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Konfigurere planleggingstavlen for å vise kontraktarbeidere og underkontraktkapasitet 
 

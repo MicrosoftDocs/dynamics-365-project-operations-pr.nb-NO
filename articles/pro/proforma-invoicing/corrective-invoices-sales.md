@@ -1,17 +1,17 @@
 ---
 title: Korrigerte prosjektfakturaer
-description: Dette emnet inneholder informasjon om hvordan du oppretter og bekrefter korrigerte fakturaer i Project Operations.
+description: Denne artikkelen inneholder informasjon om hvordan du oppretter og bekrefter korrigerende fakturaer i Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29a21dd1da03b06c95c030e5bafc8e3e25fb789b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c6176247db37c3276d775050497585ead011e5a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917358"
 ---
 # <a name="corrective-project-invoices"></a>Korrigerte prosjektfakturaer
 

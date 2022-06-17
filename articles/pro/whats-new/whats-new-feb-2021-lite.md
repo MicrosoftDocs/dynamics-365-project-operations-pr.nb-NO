@@ -1,22 +1,22 @@
 ---
 title: Nyheter februar 2021 – Project Operations Lite-distribusjon
-description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i februar 2021-versjonen av Project Operations Lite-distribusjon.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations Lite-distribusjon fra februar 2021.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914046"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Nyheter februar 2021 – Project Operations Lite-distribusjon
 
-Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
+Denne artikkelen gjelder følgende komponenter og versjoner av Dynamics 365 Project Operations:
 
   - Project Operations på Dataverse-miljø versjon 4.7.0.95
 
@@ -26,7 +26,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | --- | --- | --- |
 | **Fakturering og prising** | 2053736 | Fakturalinjedetaljer er nå tilgjengelige ved å gå til **Faktura** > **Relatert informasjon**. |
 | **Fakturering og prising** | 2122613 | Handlingene **Aktiver** og **Deaktiver** ble fjernet fra tilknytningsenhetene for **Prisliste**. |
-| **Fakturering og prising** | 2128606 | Løste problemet med **ullReferenceException** i plugin-modulen **GetEstimatesForProject**. |
+| **Fakturering og prising** | 2128606 | Løste problemet med **ullReferenceException** i programtillegget **GetEstimatesForProject**. |
 | **Distribusjon og konfigurasjon** | 2140569 | Prosjektløsningen må ikke installeres i Dataverse Teams-miljøene. |
 | **Distribusjon og konfigurasjon** | 2086991 | Begrenset tilpassing av lokalisering av webressurser. |
 | **Administrasjon av salgsmulighet** | 2136794 | Vis riktig feilmelding når prosessen **Bekreft faktura** eller **Merk faktura som betalt** mislykkes, |

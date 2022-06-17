@@ -1,25 +1,25 @@
 ---
 title: Distribuer Project Operations Dataverse-appen manuelt med støtte for dobbel skriving
-description: Dette emnet forklarer hvordan du distribuerer Project Operations Dataverse-appen manuelt slik at den støtter dobbel skriving.
+description: Denne artikkelen forklarer hvordan du distribuerer Project Operations Dataverse-appen manuelt, slik at den støtter dobbeltskriving.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912022"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Distribuer Project Operations Dataverse-appen manuelt med støtte for dobbel skriving
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Dette emnet forklarer hvordan du distribuerer Microsoft Dynamics 365 Project Operations i Microsoft Dataverse slik at den støtter dobbel skriving. Project Operations registrerer konfigurasjonen av miljøet og legger til ytterligere støtte for dobbel skriving hvis forutsetningene oppfylles.
+Denne artikkelen forklarer hvordan du distribuerer Microsoft Dynamics 365 Project Operations manuelt i Microsoft Dataverse, slik at den støtter dobbeltskriving. Project Operations registrerer konfigurasjonen av miljøet og legger til ytterligere støtte for dobbel skriving hvis forutsetningene oppfylles.
 
-Hvis du har fulgt instruksjonene i dette emnet under distribusjon gjennom Microsoft Dynamics Lifecycle Services (LCS), kan du hoppe over distribusjonen av Microsoft Power Platform-integreringen (tidligere kjent som Common Data Service-miljøet).
+Hvis du har fulgt instruksjonene i denne artikkelen under distribusjon via Microsoft Dynamics Lifecycle Services (LCS), kan du hoppe over distribusjonen av Microsoft Power Platform-integreringen (tidligere kalt Common Data Service-miljøet).
 
 Prosessen med å distribuere Project Operations i Dataverse slik at den støtter dobbel skriving har fire hovedtrinn:
 

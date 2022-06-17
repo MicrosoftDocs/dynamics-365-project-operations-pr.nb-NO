@@ -1,6 +1,6 @@
 ---
 title: Tilpasse ukentlige tidsoppføringer
-description: Dette emnet gir informasjon om hvordan du implementerer egendefinerte forretningsregler som støtter en organisasjons praksis.
+description: Denne artikkelen gir informasjon om hvordan du implementerer egendefinerte forretningsregler som støtter en organisasjons praksis.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918968"
 ---
 # <a name="customize-weekly-time-entry"></a>Tilpasse ukentlige tidsoppføringer 
 
@@ -46,9 +46,9 @@ Det nye rutenettet for ukentlig tidsoppføring er en egendefinert kontroll som h
 - Type
 - Oppføringsstatus
 
-**Dimensjoner**-delen tillater ikke innebygd redigering. Denne delen blir støttet av en visning som gjør det mulig å legge til egendefinerte felt i rutenettet for ukentlige tidsoppføringer. Hvis du vil ha mer informasjon om hvordan du legger til egendefinerte felt, kan du se delen "Utvidbarhet" senere i dette emnet.
+**Dimensjoner**-delen tillater ikke innebygd redigering. Denne delen blir støttet av en visning som gjør det mulig å legge til egendefinerte felt i rutenettet for ukentlige tidsoppføringer. Hvis du vil ha mer informasjon om hvordan du legger til egendefinerte felt, kan du se delen «Utvidbarhet» senere i denne artikkelen.
 
-### <a name="duration"></a>Varighet
+### <a name="duration"></a>Duration
 Varighetsdelen viser ukedagene som kolonneoverskrifter. I denne delen kan du aktivere innebygd redigering. Når en tidsoppføringsrad med riktige dimensjoner opprettes, kan brukerne raskt angi, innebygd, hvor mye tid de har brukt på disse dimensjonene.
 
 ## <a name="create-a-new-time-entry"></a>Opprette en ny tidsoppføring
@@ -121,16 +121,16 @@ Hvis du vil angi en ny tidsregistreringsstatus som skrivebeskyttet, legger du ti
 Deretter legger du til forretningsregler for å låse alle feltene på TBX-sidene for **Radredigering for tidsoppføring** og **Redigering for tidsoppføring**. Du kan få tilgang til forretningsreglene for disse sidene ved å åpne redigeringsprogrammet for forretningsprosessflyt for siden og deretter velge **Forretningsregler**. Du kan legge til den nye statusen i betingelsen i de eksisterende forretningsreglene, eller du kan legge til en ny forretningsregel for den nye statusen.
 
 ### <a name="add-custom-validation-rules"></a>Legge til egendefinerte valideringsregler
-Det finnes to typer valideringsregler som du kan legge til for opplevelsen for rutenettet for ukentlige tidsoppføringer: • Forretningsregler på klientsiden som fungerer i hurtigopprettingsdialogbokser og på TBX-sider •   Valideringer for plugin-moduler på serversiden som gjelder for alle tidsregistreringsoppdateringer
+Det finnes to typer valideringsregler som du kan legge til for opplevelsen for rutenettet for ukentlige tidsoppføringer: • Forretningsregler på klientsiden som fungerer i hurtigopprettingsdialogbokser og på TBX-sider •   Valideringer for programtillegg på serversiden som gjelder for alle tidsregistreringsoppdateringer
 
 #### <a name="business-rules"></a>Forretningsregler
 Bruk forretningsregler til å låse og låse opp felt, angi standardverdier i felt og definere valideringer som bare krever informasjon fra gjeldende tidsregistreringsoppføring. Du kan få tilgang til forretningsreglene for en TBX-side ved å åpne redigeringsprogrammet for forretningsprosessflyt for siden og deretter velge **Forretningsregler**. Deretter kan du redigere de eksisterende forretningsreglene eller legge til en ny forretningsregel. Hvis du vil bruke enda mer tilpassede valideringer, kan du bruke en forretningsregel til å kjøre JavaScript.
 
-#### <a name="plug-in-validations"></a>Plugin-modulvalideringer
-Du bør bruke plugin-modulvalideringer for valideringer som krever mer kontekst enn det som er tilgjengelig i én enkelt tidsregistreringsoppføring, eller for valideringer du vil kjøre på innebygde oppdateringer i rutenettet. For å fullføre valideringen oppretter du en egendefinert plugin-modul i enheten **Tidsoppføring**.
+#### <a name="plug-in-validations"></a>Programtilleggsvalideringer
+Du bør bruke programtilleggsvalideringer for valideringer som krever mer kontekst enn det som er tilgjengelig i én enkelt tidsregistreringsoppføring, eller for valideringer du vil kjøre på innebygde oppdateringer i rutenettet. For å fullføre valideringen oppretter du et egendefinert programtillegg i enheten **Tidsoppføring**.
 
 > [!IMPORTANT] 
-> For øyeblikket hindrer et kjent problem på TBX-sidene at brukere retter informasjon og velger Fullført på nytt når en oppdatering mislykkes med en plugin-modulvalidering. Du kan omgå dette problemet ved å konfigurere forretningsregelvalideringer for å unngå denne situasjonen så mye som mulig.
+> For øyeblikket hindrer et kjent problem på TBX-sidene at brukere retter informasjon og velger Fullført på nytt når en oppdatering mislykkes med en programtilleggsvalidering. Du kan omgå dette problemet ved å konfigurere forretningsregelvalideringer for å unngå denne situasjonen så mye som mulig.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

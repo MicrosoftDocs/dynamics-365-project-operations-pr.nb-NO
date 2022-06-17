@@ -1,6 +1,6 @@
 ---
 title: Mobilt arbeidsområde for utgiftshåndtering
-description: Dette emnet gir informasjon om det mobile arbeidsområdet for utgiftshåndtering. Dette arbeidsområdet gjør det mulig for brukere å registrere og laste opp en kvittering, slik at de kan legge den ved en reiseregning senere. Brukere kan også raskt opprette en utgiftslinje ved hjelp av en tilknyttet kvittering og opprette og administrere reiseregningene sine.
+description: Denne artikkelen inneholder informasjon om det mobile arbeidsområdet Utgiftshåndtering. Dette arbeidsområdet gjør det mulig for brukere å registrere og laste opp en kvittering, slik at de kan legge den ved en reiseregning senere. Brukere kan også raskt opprette en utgiftslinje ved hjelp av en tilknyttet kvittering og opprette og administrere reiseregningene sine.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920900"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilt arbeidsområde for utgiftshåndtering
 
-Dette emnet gir informasjon om det mobile arbeidsområdet for **Utgiftshåndtering**. Dette arbeidsområdet gjør det mulig for brukere å registrere og laste opp en kvittering, slik at de kan legge den ved en reiseregning senere. Brukere kan også raskt opprette en utgiftslinje ved hjelp av en tilknyttet kvittering og opprette og administrere reiseregningene sine. Godkjennere kan også bruke det mobile arbeidsområdet **Reiseregning og utlegg** til å vise reiseregninger som er tilordnet dem, og enten godkjenne eller avvise reiseregninger.
+Denne artikkelen inneholder informasjon om det mobile arbeidsområdet **Utgiftshåndtering**. Dette arbeidsområdet gjør det mulig for brukere å registrere og laste opp en kvittering, slik at de kan legge den ved en reiseregning senere. Brukere kan også raskt opprette en utgiftslinje ved hjelp av en tilknyttet kvittering og opprette og administrere reiseregningene sine. Godkjennere kan også bruke det mobile arbeidsområdet **Reiseregning og utlegg** til å vise reiseregninger som er tilordnet dem, og enten godkjenne eller avvise reiseregninger.
 
 
 Dette mobile arbeidsområdet er ment å skulle brukes med en Dynamics 365 Unified OPS-mobilapp.

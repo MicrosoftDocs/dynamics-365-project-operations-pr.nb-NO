@@ -1,28 +1,28 @@
 ---
 title: API-ytelse for prosjektplan
-description: Dette emnet inneholder informasjon om ytelsestestetestene for API-ene for prosjektplanen og viser gode fremgangsmåter for optimal bruk.
+description: Denne artikkelen inneholder informasjon om ytelsestestetestene for API-ene for prosjektplanen og viser gode fremgangsmåter for optimal bruk.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911194"
 ---
 # <a name="project-schedule-api-performance"></a>API-ytelse for prosjektplan
 
 _**Gjelder:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering, Project for the web_
 
-Dette emnet inneholder informasjon om ytelsestestetestene for API-ene (Application Programming Interface) for prosjektplanen og viser gode fremgangsmåter for optimalisering av bruk.
+Denne artikkelen inneholder informasjon om ytelsestestetestene for API-ene (Application Programming Interface) for prosjektplanen og viser gode fremgangsmåter for optimalisering av bruk.
 
 ## <a name="project-scheduling-service"></a>Prosjektplanleggingstjeneste
 Prosjektplanleggingstjeneste er en flerleiertjeneste som kjører i Microsoft Azure. Den er utformet for å forbedre samhandlingen ved å gi en rask og sømløs opplevelse når brukerne arbeider med prosjekter. Denne forbedringen oppnås ved å godta endringsforespørsler, behandle dem og deretter umiddelbart returnere resultatet. Tjenesten forblir asynkron mot Dataverse og blokkerer ikke brukere fra å utføre andre operasjoner.
 
-API-ene for prosjektplanlegging er avhengig av at prosjektplanleggingstjenesten kjører forespørsler, som er beskrevet mer detaljert i senere deler av dette emnet.
+API-ene for prosjektplanlegging er avhengig av at prosjektplanleggingstjenesten kjører forespørsler, som er beskrevet mer detaljert i senere deler av denne artikkelen.
 
 API-ene for prosjektplan er utformet for å fungere med følgende enheter for arbeidsnedbrytningsstruktur (WBS-enheter):
 

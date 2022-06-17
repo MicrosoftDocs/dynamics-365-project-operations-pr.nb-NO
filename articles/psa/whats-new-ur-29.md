@@ -1,6 +1,6 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation Update Release 29, V3
-description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 29, V3.
+description: Denne artikkelen viser funksjoner og rettelser i Project Service Automation Update Release 29 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56cf47d207c7ee518d5d4b53866c3d6ddf1d1fb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 733bbad53933b2de62222e78e3c5c919543c59e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915381"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Hva er nytt eller endret i Project Service Automation Update Release 29, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8587230"
 
 Vi er glad for å annonsere den nyeste oppdateringen for Project Service Automation-programmet for Dynamics 365. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Denne versjonen er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, går du til administrasjonssenteret for Dynamics 365 online, og deretter går du til løsningssiden for å installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Project Service Automation V3, Update Release 29. Denne versjonen har buildnummeret V3.10.47.7, og er generelt tilgjengelig via en egen oppdatering i februar 2021.
+Denne artikkelen viser funksjoner og rettelser som er nye eller endret i Project Service Automation V3, Update Release 29. Denne versjonen har buildnummeret V3.10.47.7, og er generelt tilgjengelig via en egen oppdatering i februar 2021.
 
 ## <a name="update-release-29"></a>Update Release 29
 
@@ -48,7 +48,7 @@ Følgende problemer har blitt løst:
 
 - Mangler valideringslogikk for å sikre at arbeidstimer for ressurstilordning ikke kan være negative.
 - Den egendefinerte handlingen **AssignResourcesForTask** oppdaterer alle felter i stedet for bare endrede felter.
-- Når du kopierer et prosjekt i et miljø med plugin-moduler eller arbeidsflyter som er registrert på **CreateProject**-hendelsen, oppdateres ikke **msdyn_bulkgenerationstatus**-attributtet hvis **CopyWBSToProject** mislykkes.
+- Når du kopierer et prosjekt i et miljø med programtillegg eller arbeidsflyter som er registrert på **CreateProject**-hendelsen, oppdateres ikke **msdyn_bulkgenerationstatus**-attributtet hvis **CopyWBSToProject** mislykkes.
 - Når du utvider prosjektkalenderen, sorteres ikke arbeidsdagene i stigende rekkefølge, noe som fører til at enkelte prosjektoppgaveoppdateringer mislykkes.
 - Endring av prosjektlederen i et eksisterende prosjekt utløser logikken for standardisering av organisasjonsenheten.
 

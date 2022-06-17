@@ -1,6 +1,6 @@
 ---
 title: Bruke bestillbar ressurs som en prisingsdimensjon
-description: Dette emnet gir informasjon om hvordan du bruker en bestillbar ressurs som en prisingsdimensjon.
+description: Denne artikkelen inneholder informasjon om hvordan du bruker en ressurs som kan reserveres, som en prisdimensjon.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916116"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Bruke bestillbar ressurs som en prisingsdimensjon
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dette emnet gir informasjon om hvordan du bruker en bestillbar ressurs som en prisingsdimensjon. Hvis du ikke allerede har opprettet en løsning for prisdimensjon før du begynner, må du opprette en ny. Hvis du allerede har en løsning for prisingsdimensjon, kan du gjøre endringene i den løsningen. Hvis du ikke har opprettet en ny løsning for prisdimensjon for organisasjonen, må du fullføre prosedyrene i emnet [Opprette egendefinerte felt og enheter](create-custom-fields-entities.md).
+Denne artikkelen inneholder informasjon om hvordan du bruker en ressurs som kan reserveres, som en prisdimensjon. Hvis du ikke allerede har opprettet en løsning for prisdimensjon før du begynner, må du opprette en ny. Hvis du allerede har en løsning for prisingsdimensjon, kan du gjøre endringene i den løsningen. Hvis du ikke har opprettet en ny løsning for prisdimensjon for organisasjonen, må du fullføre fremgangsmåtene i artikkelen [Opprette egendefinerte felt og enheter](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Legge til bestillbar ressurs i skjemaer og visninger
 Hvis du vil gjøre feltene synlige i brukergrensesnittet i løsningen for prisingsdimensjonen, må du gå gjennom alle skjemaer og visninger for de viktigste Project Service-enhetene og legge til disse feltene i skjemaene og visningene for disse enhetene.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920670"
 ---
 # <a name="work-breakdown-structures-overview"></a>Oversikt over arbeidsnedbrytningsstrukturer
 
@@ -35,7 +35,7 @@ Graden av detaljer i en WBS avhenger av det nøyaktige nivået som kreves i esti
 
 Prosjekter i bransjer som medier og reklame, programvare og IT-infrastruktur pleier imidlertid å være enestående, og produktiviteten står i forhold til erfaringen og kompetansen til hver enkelt som utfører oppgaven. Disse bransjene bruker derfor en WBS-struktur til å få en tilnærmet størrelse på et prosjekt, og ikke til å spore fremdriften for prosjektet i detalj. 
 
-Bygging av en WBS er en intensiv prosess som vanligvis utføres over en lang periode, og som krever samarbeid og informasjon fra en rekke ulike personer. Dette emnet beskriver hvordan du kan bruke WBS-forbedringer til å oppfylle dine behov for estimater og sporing.
+Bygging av en WBS er en intensiv prosess som vanligvis utføres over en lang periode, og som krever samarbeid og informasjon fra en rekke ulike personer. Denne artikkelen beskriver hvordan du kan bruke forbedringer av arbeidsnedbrytningsstruktur til å oppfylle behovene for estimater og sporing.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Forutsetninger for å opprette en WBS
 Hvis du vil opprette en WBS, må du kunne opprette en arbeidstidsplan og estimere kostnadene for arbeidet.
@@ -166,7 +166,7 @@ Finance har tre visninger for WBS for et prosjekt: prosjektplanleggingsvisning, 
 
 ### <a name="planning-view"></a>Planleggingsvisning
 
-Planleggingsvisningen viser planlagt eller grunnlinjeberegning for tidsplan- og kostnadsinformasjon. Selv om det ikke finnes noen funksjoner for sporing av versjon og basislinje for en prosjekt-WBS, er verdiene i denne visningen ment å representere basislinjeversjonen. I delene Tidsplanestimat og Kostnadsberegning i dette emnet beskrives denne visningen og hvordan den brukes til å opprette en WBS.
+Planleggingsvisningen viser planlagt eller grunnlinjeberegning for tidsplan- og kostnadsinformasjon. Selv om det ikke finnes noen funksjoner for sporing av versjon og basislinje for en prosjekt-WBS, er verdiene i denne visningen ment å representere basislinjeversjonen. Delene Tidsplanestimering og Kostnadsestimat i denne artikkelen beskriver denne visningen og hvordan den brukes til å opprette en arbeidsnedbrytningsstruktur.
 
 ### <a name="effort-tracking-view"></a>Visning av innsatssporing
 

@@ -1,6 +1,6 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation versjon 3
-description: Dette emnet gir informasjon om hva som er nytt og endret i Project Service Automation versjon 3.
+description: Denne artikkelen inneholder informasjon om hva som er nytt og endret i Project Service Automation versjon 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926604"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Hva er nytt eller endret i Project Service Automation versjon 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581664"
 
 
 
-Dette emnet gir informasjon om endringene i brukergrensesnitt (UI), funksjonalitet og terminologi i Project Service Automation mellom versjon 2 eller versjon 1 og versjon 3.
+Denne artikkelen inneholder informasjon om endringene i brukergrensesnitt, funksjonalitet og terminologi i Project Service Automation mellom versjon 2 eller versjon 1 og versjon 3.
 
 ## <a name="project-scheduling"></a>Prosjektplanlegging
 Prosjektplanen, som ble kalt arbeidsnedbrytningsstruktur (WBS) i tidligere versjoner, har nå fått navnet Tidsplan og åpnes ved å klikke på kategorien **Tidsplan**. 
@@ -150,7 +150,7 @@ Når du har oppgavetildelinger for en ressurs uten bestillinger (en bestillingsm
 Denne delen inneholder informasjon om endringer i tid, utgift og godkjenning i versjon 3 av Project Service Automation. Som en del av Dynamics 365 Project Service Automation-løsningen er funksjonen **Tidsoppføring** oppdatert til å dra nytte av Enhetlig grensesnitt-rammeverket. Dette gjør det mulig å levere et ensartet og gjennomført brukergrensesnitt som følger responsiv utforming på best mulig måte for optimal visning på alle skjermstørrelser og enheter. 
 
 ### <a name="landing-page"></a>Målside
-Den ikke-utvidbare opplevelsen av egendefinert tidsoppføring er avskrevet i versjon 3. I stedet finnes det nå en utvidbar og tilgjengelig innebygd rutenettopplevelse. Du kan få tilgang til tidsoppføringsfunksjonaliteten ved å bruke områdekartet til venstre. Ved hjelp av denne endringen kan du ikke lenger angi tid for én uke om gangen. I stedet må du opprette en tidsoppføring for hver dag i rutenettet. Når det er opprettet noen få tidsoppføringer, kan brukere masseopprette tidsoppføringer med **Kopier**-funksjonen som forklares senere i dette emnet. 
+Den ikke-utvidbare opplevelsen av egendefinert tidsoppføring er avskrevet i versjon 3. I stedet finnes det nå en utvidbar og tilgjengelig innebygd rutenettopplevelse. Du kan få tilgang til tidsoppføringsfunksjonaliteten ved å bruke områdekartet til venstre. Ved hjelp av denne endringen kan du ikke lenger angi tid for én uke om gangen. I stedet må du opprette en tidsoppføring for hver dag i rutenettet. Når det er opprettet noen få tidsoppføringer, kan brukere masseopprette tidsoppføringer med **Kopier**-funksjonen som forklares senere i denne artikkelen. 
 
 ![Landingsside for tidsoppføringer.](media/time-entry-landing-page-07.png)
  
@@ -184,7 +184,7 @@ I versjon 3 har vi flyttet bort fra den egendefinerte kalenderkontrollen, og vi 
 
 Hvis forretningskrav stipulerer at tids- og utgiftsenheter må registrere egendefinerte prisdimensjoner og overføre verdiene som angis av en tids- og oppføringsressurs i den egendefinerte prisingsdimensjonen, via alle enhetene i den forrige grafikken, se [Konfigurere egendefinerte felt som prisdimensjoner](set-up-pricing-dimensions.md)
 
-Hvis du vil støtte forretningskrav der tids- og utgiftsenheter må fange opp egendefinerte ikke-prisdimensjoner og overføre verdiene, kan du bruke oppsettet for prisdimensjoner og uttrykke de egendefinerte dimensjonene som prisdimensjoner uten kostnads- eller fakturasats. Et annet scenario vil være å legge til et egendefinert felt for hver enhet ved å bruke det samme feltnavnet på tvers av alle enheter. Egendefinerte plugin-moduler kan opprettes for å relatere oppføringer i enhetene som deltar i innsendings- og godkjenningsflyten, ved hjelp av enhetene for transaksjonsopprinnelse og transaksjonstilkobling.  
+Hvis du vil støtte forretningskrav der tids- og utgiftsenheter må fange opp egendefinerte ikke-prisdimensjoner og overføre verdiene, kan du bruke oppsettet for prisdimensjoner og uttrykke de egendefinerte dimensjonene som prisdimensjoner uten kostnads- eller fakturasats. Et annet scenario vil være å legge til et egendefinert felt for hver enhet ved å bruke det samme feltnavnet på tvers av alle enheter. Egendefinerte programtillegg kan opprettes for å relatere oppføringer i enhetene som deltar i innsendings- og godkjenningsflyten, ved hjelp av enhetene for transaksjonsopprinnelse og transaksjonstilkobling.  
 
 ### <a name="delegate-time-and-expense-entry"></a>Delegere tids- og utgiftsoppføringer
 Common Data Service-plattformen støtter ikke at én bruker representerer en annen bruker, noe som betyr at det i versjon 3 av Project Service Automation ikke er støtte for delegert tids- og utgiftsoppføring. Partnere og kunder har imidlertid tatt i bruk en løsning for å aktivere støtte for delegerte tidsoppføringsopplevelser i versjon 3. Dette er bare en omgåelse og ikke en fullstendig løsning, så det er viktig å forstå begrensningene og bare bruke denne metoden hvis begrensningene er akseptable. 
@@ -200,12 +200,12 @@ Tilpassing gjør det mulig å legge til **Ressurs som kan reserveres** for å op
 
     -eller-
 
-    Opprett en egendefinert visning som inkluderer kolonnen **Ressurs som kan reserveres**, for å vise bare tidsoppføringer som er opprettet for ressursen. Publiser tilpassingene i appmodulutformingen, slik at denne visningen vises under **Visningsvelger** på siden **Tidsoppføringer**. Det finnes to plugin-moduler som håndterer angivelse av overordnet for tidsoppføringer som ikke er relatert til et prosjekt:
+    Opprett en egendefinert visning som inkluderer kolonnen **Ressurs som kan reserveres**, for å vise bare tidsoppføringer som er opprettet for ressursen. Publiser tilpassingene i appmodulutformingen, slik at denne visningen vises under **Visningsvelger** på siden **Tidsoppføringer**. Det finnes to programtillegg som håndterer angivelse av overordnet for tidsoppføringer som ikke er relatert til et prosjekt:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. Opprett en ny plugin-modul for å overskrive **Overordnet**-feltet til den overordnede til brukeren som er tilordnet i feltet **Ressurs som kan reserveres**. Bruk samme **Utføringsfase** som out-of-band-plugin-modulen (OOB), og bruk en **Utføringsrekkefølge** som er høyere enn OOB-plugin-modulene (større enn 1). Dette sikrer at den tilpassede plugin-modulen utføres etter OOB-plugin-modulene.  
+1. Opprett et nytt programtillegg for å overskrive **Overordnet**-feltet til den overordnede til brukeren som er tilordnet i feltet **Ressurs som kan reserveres**. Bruk samme **Utføringsfase** som out-of-band-programtillegget (OOB), og bruk en **Utføringsrekkefølge** som er høyere enn OOB-programtilleggene (større enn 1). Dette sikrer at det egendefinerte programtillegget utføres etter OOB-programtilleggene.  
  
 ### <a name="end-user-experience"></a>Sluttbrukeropplevelse
 1.  Når du oppretter en tidsoppføring på hurtigopprettingssiden, angir du prosjekt- og prosjektoppgavedetaljene, og deretter velger du brukeren i feltet **Ressurs som kan reserveres** som tidsoppføringene må registreres for. 

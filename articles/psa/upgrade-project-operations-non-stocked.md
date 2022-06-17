@@ -1,6 +1,6 @@
 ---
 title: Oppgradere fra Project Service Automation til Project Operations
-description: Dette emnet gir en oversikt over prosessen med å oppgradere fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations.
+description: Denne artikkelen gir en oversikt over prosessen med å oppgradere fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912988"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Oppgradere fra Project Service Automation til Project Operations
 
-Det er en glede å kunngjøre den første av tre faser for oppgradering fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations. Dette emnet gir en oversikt over kunder som begi seg ut på denne spennende reisen. Fremtidige emner inkluderer vurderinger fra utviklere og detaljer om funksjonsforbedringer. De gir ikke bare veiledning for å hjelpe deg med å klargjøre for oppgradering til Project Operations, men forklarer også hva du kan forvente etter at du har oppgradert.
+Det er en glede å kunngjøre den første av tre faser for oppgradering fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Project Operations. Denne artikkelen gir en oversikt over kunder som begir seg ut på denne spennende reisen. Fremtidige artikler inkluderer vurderinger fra utviklere og detaljer om funksjonsforbedringer. De gir ikke bare veiledning for å hjelpe deg med å klargjøre for oppgradering til Project Operations, men forklarer også hva du kan forvente etter at du har oppgradert.
 
 Leveringsprogrammet for oppgraderingen deles opp i de tre fasene.
 
@@ -74,7 +74,7 @@ Her er noen ting du kan se etter:
 - Importen kan mislykkes på grunn av manglende avhengigheter. Med andre ord referansefeltene for tilpassinger eller andre komponenter som er fjernet i Project Operations. I dette tilfellet fjerner du avhengighetene fra utviklingsmiljøet.
 - Hvis den uadministrerte og administrerte løsningen inneholder komponenter som ikke er tilpasset, fjerner du komponentene fra løsningen. Når du for eksempel tilpasser **Prosjekt**-enheten, legger du bare til enhetsoverskriften i løsningen. Ikke legg til alle feltene. Hvis du tidligere har lagt til alle underkomponenter, må du kanskje opprette en ny løsning manuelt og legge til relevante komponenter i den.
 - Skjemaer og visninger vises kanskje ikke som forventet. Hvis du i noen tilfeller har tilpasset noen av standardskjemaene eller -visningene, kan det hende at tilpassingene hindrer at nye oppdateringer i Project Operations trer i kraft. For å identifisere disse problemene anbefaler vi at du gjennomgår en side-ved-side-gjennomgang av en ren installasjon av Project Operations og en installasjon av Project Operations som omfatter tilpassingene dine. Sammenlign de skjemaene som brukes mest i firmaet, for å bekrefte at versjonen av skjemaet fortsatt er fornuftig, og at det ikke mangler noe i den rene versjonen av skjemaet. Gjør det samme for side-ved-side-gjennomganene for alle visninger du har tilpasset.
-- Forretningslogikk kan mislykkes ved kjøretid. Siden referanser til felt i plugin-modulene ikke valideres under importen, kan det hende forretningslogikken mislykkes på grunn av referanser til felt som ikke lenger finnes, og du kan få en feilmelding som ligner på følgende eksempel: "Prosjekt"-enhet inneholder ikke attributt med Navn = 'msdyn_plannedhours' og NameMapping = 'Logical'. I dette tilfellet endrer du tilpassingene slik at de bruker de nye feltene. Hvis du bruker automatisk genererte proxy-klasser og sterke typereferanser i plugin-modullogikken, bør du vurdere å generere proxyene på nytt fra en ren installasjon. På denne måten kan du enkelt identifisere alle stedene der plugin-modulene er avhengige av avskrevne felt.
+- Forretningslogikk kan mislykkes ved kjøretid. Siden referanser til felt i programtilleggene ikke valideres under importen, kan det hende forretningslogikken mislykkes på grunn av referanser til felt som ikke lenger finnes, og du kan få en feilmelding som ligner på følgende eksempel: "Prosjekt"-enhet inneholder ikke attributt med Navn = 'msdyn_plannedhours' og NameMapping = 'Logical'. I dette tilfellet endrer du tilpassingene slik at de bruker de nye feltene. Hvis du bruker automatisk genererte proxy-klasser og sterke typereferanser i programtilleggslogikken, bør du vurdere å generere proxyene på nytt fra en ren installasjon. På denne måten kan du enkelt identifisere alle stedene der programtilleggene er avhengige av avskrevne felt.
 
 Når du har oppdatert tilpassingene slik at de importerer Project Operations på en ren måte, går du videre til de neste trinnene.
 
@@ -90,7 +90,7 @@ Når du har oppdatert tilpassingene slik at de importerer Project Operations på
     > [!NOTE]
     > Oppgraderingen kan ta flere timer, avhengig av datamengden i miljøet. Kjerneteamet som administrerer oppgraderingen, bør planlegge og kjøre oppgraderingen i fritiden. I noen tilfeller bør oppgraderingen kjøres i løpet av helgen hvis datavolumet er stort. Beslutningen om planlegging bør baseres på testresultatene i lavere miljøer.
 
-3. Oppgrader tilpassede løsninger etter behov. Nå distribuerer du eventuelle endringer du har gjort i tilpassingene, i delen [Teste og refaktorere tilpassinger](#testing-and-refactoring-customizations) i dette emnet.
+3. Oppgrader tilpassede løsninger etter behov. Nå distribuerer du eventuelle endringer du har gjort i tilpassingene, i delen [Teste og refaktorere tilpassinger](#testing-and-refactoring-customizations) i denne artikkelen.
 4. Gå til **Innstillinger** \> **Løsninger**, og velg å avinstallere løsningen for **Avskrevne Project Operations-komponenter**.
 
     Denne løsningen er en midlertidig løsning som inneholder den eksisterende datamodellen og komponentene som finnes under oppgraderingen. Ved å fjerne denne løsningen fjerner du alle feltene og komponentene som ikke lenger brukes. På denne måten bidrar du til å forenkle grensesnittet og gjøre integrasjon og utvidelse enklere.
@@ -126,7 +126,6 @@ Som en del av fortsatte investeringer i Project Operations er flere nye funksjon
 | Project Service Automation                             | Project Operations Lite-distribusjon                        | Støttes               |
 | Prosjektstyring og regnskap i Dynamics 365 Finance | Project Operations Lite-distribusjon                        | Støttes ikke for øyeblikket |
 | Prosjektstyring og regnskap for Finance              | Project Operations for ressursbaserte/ikke-lagerførte scenarioer     | Støttes ikke for øyeblikket |
-| Prosjektstyring og regnskap for Finance              | Project Operations for lagerførte scenarioer / produksjonsordrescenarioer | Støttes ikke for øyeblikket |
 | Project Service Automation 3.x                         | Project Operations for ressursbaserte/ikke-lagerførte scenarioer     | Støttes ikke for øyeblikket |
 | Project for the Web (dedikert miljø)            | Project Operations Lite-distribusjon                        | Støttes ikke for øyeblikket |
 

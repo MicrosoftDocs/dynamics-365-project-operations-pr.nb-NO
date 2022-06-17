@@ -1,24 +1,24 @@
 ---
 title: Nyheter februar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i februar 2021-versjonen av Project Operations for ressursbaserte/ikke-lagerførte scenarioer.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer fra februar 2021.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38fede1746bcb09700c9c9c5e20653e0c39fea2a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910656"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter februar 2021 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
+Denne artikkelen gjelder følgende komponenter og versjoner av Dynamics 365 Project Operations:
 
 - Project Operations i Dataverse-miljø 4.7.0.95
 - Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.16 
@@ -31,7 +31,7 @@ Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og
 | --- | --- | --- |
 | **Fakturering og prising** | 2053736 | Fakturalinjedetaljer er nå tilgjengelige ved å gå til **Faktura** > **Relatert informasjon**. |
 | **Fakturering og prising** | 2122613 | Handlingene **Aktiver** og **Deaktiver** ble fjernet fra tilknytningsenhetene for **Prisliste**. |
-| **Fakturering og prising** | 2128606 | Løste problemet med **ullReferenceException** i plugin-modulen **GetEstimatesForProject**. |
+| **Fakturering og prising** | 2128606 | Løste problemet med **ullReferenceException** i programtillegget **GetEstimatesForProject**. |
 | **Distribusjon og konfigurasjon** | 2139346 | Løste problemet med import av uadministrert **Dynamics365ProjectOperationsDualWrite**-løsning. |
 | **Distribusjon og konfigurasjon** | 2140569 | Prosjektløsningen må ikke installeres i Dataverse Teams-miljøene. |
 | **Distribusjon og konfigurasjon** | 2086991 | Begrenset tilpassing av lokalisering av webressurser. |

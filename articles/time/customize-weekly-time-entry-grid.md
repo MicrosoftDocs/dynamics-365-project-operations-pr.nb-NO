@@ -1,17 +1,17 @@
 ---
 title: Forlenge tidsoppføringer
-description: Dette emnet gir informasjon om hvordan utviklere kan forlenge tidsoppføringskontrollen.
+description: Denne artikkelen inneholder informasjon om hvordan utviklere kan utvide tidsoppføringskontrollen.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914782"
 ---
 # <a name="extending-time-entries"></a>Forlenge tidsoppføringer
 
@@ -119,13 +119,13 @@ Deretter legger du til forretningsregler for å låse alle feltene på sidene **
 Du kan legge til to typer valideringsregler for opplevelsen i rutenettet **Ukentlig tidsoppføring**:
 
 - Forretningsregler på klientsiden som fungerer på sider
-- Valideringer av plugin-moduler på serversiden som gjelder for alle tidsoppføringsoppdateringer
+- Valideringer av programtillegg på serversiden som gjelder for alle tidsoppføringsoppdateringer
 
 #### <a name="client-side-business-rules"></a>Forretningsregler på klientsiden
 Bruk forretningsregler til å låse og låse opp felt, angi standardverdier i felt og definere valideringer som bare krever informasjon fra gjeldende tidsregistreringsoppføring. For å få tilgang til forretningsreglene for en side kan du åpne skjemaredigeringsprogrammet og deretter velge **Forretningsregler**. Deretter kan du redigere de eksisterende forretningsreglene eller legge til en ny forretningsregel.
 
-#### <a name="server-side-plug-in-validations"></a>Valideringer av plugin-moduler på serversiden
-Du bør bruke plugin-modulvalideringer for valideringer som krever mer kontekst enn det som er tilgjengelig i én enkelt tidsregistreringsoppføring. Du bør også bruke dem for eventuelle valideringer du vil kjøre på innebygde oppdateringer i rutenettet. For å fullføre valideringene oppretter du en egendefinert plugin-modul i enheten **Tidsoppføring**.
+#### <a name="server-side-plug-in-validations"></a>Valideringer av programtillegg på serversiden
+Du bør bruke programtilleggsvalideringer for valideringer som krever mer kontekst enn det som er tilgjengelig i én enkelt tidsregistreringsoppføring. Du bør også bruke dem for eventuelle valideringer du vil kjøre på innebygde oppdateringer i rutenettet. For å fullføre valideringene oppretter du et egendefinert programtillegg i enheten **Tidsoppføring**.
 
 ### <a name="limits"></a>Grenser
 Rutenettet **Tidsoppføring** har for tiden en størrelsesbegrensning på 500 rader. Hvis det er flere enn 500 rader, vises ikke de overflødige radene. Denne størrelsesgrensen kan ikke økes.

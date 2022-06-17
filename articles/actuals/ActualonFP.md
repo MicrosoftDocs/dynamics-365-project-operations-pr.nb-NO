@@ -1,6 +1,6 @@
 ---
 title: Faktiske verdier virker inn på et engasjement med fast pris
-description: Dette emnet inneholder informasjon om hva som skjer med tabellen Faktiske verdier ved ulike hendelser i løpet av livssyklusen til en avtale med fast pris i Microsoft Dynamics 365 Project Operations.
+description: Denne artikkelen inneholder informasjon om hva som skjer med tabellen Faktiske verdier ved ulike hendelser i løpet av livssyklusen til en avtale med fast pris i Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918140"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>Faktiske verdier virker inn på et engasjement med fast pris
 

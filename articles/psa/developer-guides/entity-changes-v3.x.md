@@ -1,6 +1,6 @@
 ---
 title: Endringer av enhet, kontroll og brukergrensesnitt (Project Service Automation 3.x)
-description: Dette emnet beskriver løsningsendringer for Microsoft Dynamics Project Service Automation 3.x.
+description: Denne artikkelen beskriver løsningsendringer for Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926880"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Endringer av enhet, kontroll og brukergrensesnitt (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Med utgivelsen av Microsoft Dynamics Project Service Automation (PSA) 3.x er det utført mange endringer i enhetene, kontrollene, visningene og brukergrensesnittet. I dette emnet finner du informasjon om disse viktige endringene.
+Med utgivelsen av Microsoft Dynamics Project Service Automation (PSA) 3.x er det utført mange endringer i enhetene, kontrollene, visningene og brukergrensesnittet. I denne artikkelen finner du informasjon om disse viktige endringene.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Forholdet mellom overordnet-underordnet for enhetene salgsdokument, salgsdokumentlinje, salgsdokumentlinjedetalj
 I versjoner av Dynamics 365 Project Service Automation (PSA) som er utgitt før versjon 3.0, ble noe av relasjonene mellom salgsdokumenter, salgsdokumentlinjer og salgsdokumentlinjedetaljer implementert ved hjelp av strengfelt som ville ha en streng representasjon av GUID for den relaterte enheten. Dette skyldes plattformbegrensninger som krevde betydelig egendefinert kode på server- og klientsidene av løsningen, slik at disse relasjonene fungerer på samme måte som vanlige Dynamics CRM-enhetsrelasjoner og får strengfelt til å fungere som oppslagsfelt.

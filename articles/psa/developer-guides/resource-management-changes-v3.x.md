@@ -1,6 +1,6 @@
 ---
 title: Endringer i ressursbehandling (Project Service Automation 3.x)
-description: Dette emnet inneholder informasjon om endringene i ressursbehandling.
+description: Denne artikkelen inneholder informasjon om endringene i ressursbehandling.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916024"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Endringer i ressursbehandling (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Delene i dette emnet gir informasjon om endringene som er gjort i ressursbehandling i Dynamics 365 Project Service Automation versjon 3.x.
+Delene i denne artikkelen inneholder informasjon om endringene som er gjort i ressursbehandling i Dynamics 365 Project Service Automation versjon 3.x.
 
 ## <a name="project-estimates"></a>Prosjektestimater
 

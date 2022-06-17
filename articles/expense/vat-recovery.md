@@ -1,17 +1,17 @@
 ---
 title: Mva-fradrag i utgiftshåndtering
-description: Dette emnet forklarer hvordan du mottar refusjoner for kvalifiserte mva-transaksjoner.
+description: Denne artikkelen forklarer hvordan du kan få refusjoner for transaksjoner som er kvalifisert for mva-refusjon.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1df921bbef4c11c7e07ed38775644117215a50fb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927938"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Mva-fradrag i utgiftshåndtering
 

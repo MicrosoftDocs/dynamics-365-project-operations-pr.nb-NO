@@ -1,24 +1,24 @@
 ---
 title: Konfigurere kostnadsmaler
-description: Dette emnet gir informasjon om hvordan du oppretter og bruker kostnadsmaler i Project Operations.
+description: Denne artikkelen inneholder informasjon om hvordan du oppretter og bruker kostnadsmaler i Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918416"
 ---
 # <a name="set-up-cost-templates"></a>Konfigurere kostnadsmaler
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
 
-Dette emnet gir informasjon om hvordan du oppretter og bruker kostnadsmaler i Project Operations. En kostnadsmal bestemmer:
+Denne artikkelen inneholder informasjon om hvordan du oppretter og bruker kostnadsmaler i Project Operations. En kostnadsmal bestemmer:
 
 - Prosjektkategoriene for prognose og faktiske transaksjoner som skal tas med i en prosentdel av fullføringsberegningen for prosjektet. Verdien for prosent fullført brukes til å beregne hvor mye inntekt som blir gjenkjent.
 - Hvorvidt fullføringsprosenten kan endres hvis den beregnes automatisk.

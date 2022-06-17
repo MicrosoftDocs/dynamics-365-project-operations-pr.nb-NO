@@ -1,21 +1,21 @@
 ---
 title: Administrere flere kunder på prosjektkontrakter
-description: Dette emnet gir informasjon om hvordan du administrerer flere kunder på en prosjektkontrakt.
+description: Denne artikkelen inneholder informasjon om hvordan du administrerer flere kunder i en prosjektkontrakt.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928352"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Administrere flere kunder på prosjektkontrakter
 
-Dette emnet gir informasjon om hvordan du administrerer flere kunder på en prosjektkontrakt. Du kan bruke en prosjektkontrakt når en kontraktavtale for flere kunder er nødvendig for å finansiere en avtale. På **Prosjektkontrakt**-siden, inneholder **Sammendrag**-fanen informasjon om den primære kunden for en avtale. Andre kunder som deltar i avtalen, kan legges til i **Kunder**-fanen.
+Denne artikkelen inneholder informasjon om hvordan du administrerer flere kunder i en prosjektkontrakt. Du kan bruke en prosjektkontrakt når en kontraktavtale for flere kunder er nødvendig for å finansiere en avtale. På **Prosjektkontrakt**-siden, inneholder **Sammendrag**-fanen informasjon om den primære kunden for en avtale. Andre kunder som deltar i avtalen, kan legges til i **Kunder**-fanen.
 
 Alle kontraktkunder i **Kunder**-fanen i prosjektkontrakten er som standard kontraktlinjekunder på eventuelle nye prosjektbaserte kontraktlinjer som opprettes for prosjektkontrakten. Eksisterende prosjektbaserte kontraktlinjer arver ikke nye kontraktkunderoppføringer som opprettes på et senere tidspunkt.
 

@@ -1,6 +1,6 @@
 ---
 title: Utgiftsapp for mobil
-description: Dette emnet gir informasjon om det mobile arbeidsområdet Reiseregning og utlegg.
+description: Denne artikkelen inneholder informasjon om det mobile arbeidsområdet Utgiftshåndtering.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930238"
 ---
 # <a name="mobile-expense-app"></a>Utgiftsapp for mobil
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Dette emnet gir informasjon om det mobile arbeidsområdet for **Reiseregning og utlegg**. Dette arbeidsområdet gjør det mulig for brukere å registrere og laste opp en kvittering, slik at de kan legge den ved en reiseregning senere. Brukere kan også raskt opprette en utgiftslinje ved hjelp av en tilknyttet kvittering og opprette og administrere reiseregningene sine. Godkjennere kan også bruke det mobile arbeidsområdet **Reiseregning og utlegg** til å vise reiseregninger som er tilordnet dem, og enten godkjenne eller avvise reiseregninger.
+Denne artikkelen inneholder informasjon om det mobile arbeidsområdet **Utgiftshåndtering**. Dette arbeidsområdet gjør det mulig for brukere å registrere og laste opp en kvittering, slik at de kan legge den ved en reiseregning senere. Brukere kan også raskt opprette en utgiftslinje ved hjelp av en tilknyttet kvittering og opprette og administrere reiseregningene sine. Godkjennere kan også bruke det mobile arbeidsområdet **Reiseregning og utlegg** til å vise reiseregninger som er tilordnet dem, og enten godkjenne eller avvise reiseregninger.
 
 Dette mobile arbeidsområdet er ment å skulle brukes med en Dynamics 365 Unified OPS-mobilapp.
 

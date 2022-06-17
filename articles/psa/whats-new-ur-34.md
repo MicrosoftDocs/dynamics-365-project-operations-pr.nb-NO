@@ -1,6 +1,6 @@
 ---
 title: Hva er nytt eller endret i Project Service Automation Update Release 34, V3
-description: Dette emnet viser funksjonene og reparasjonene som er tilgjengelig i Project Service Automation Update Release 34, V3.
+description: Denne artikkelen viser funksjoner og rettelser i Project Service Automation Update Release 34 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/05/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7a4feaeebf8fa2ef3447dc6dfc3d0903266f3b2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e47a5442f285952c165a2d30e337a362a6b065dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928674"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>Hva er nytt eller endret i Project Service Automation Update Release 34, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588702"
 
 Vi er glade for å kunngjøre den nyeste oppdateringen for Microsoft Dynamics 365 Project Service Automation-appen. Denne versjonen inkluderer viktige forbedringer av kvalitet, ytelse og anvendelighet. Den er kompatibel med Dynamics 365 9.x. Hvis du vil oppdatere til denne versjonen, kan du gå til siden for administrasjonssenteret for Dynamics 365 Online-løsninger og installere oppdateringen. For mer informasjon, se [Installere, oppdatere eller fjerne en foretrukket løsning](/power-platform/admin/install-remove-preferred-solution).
 
-Dette emnet viser funksjonene og reparasjonene som er nye eller endrede for Project Service Automation V3, Update Release 34. Denne versjonen har et build-nummer på V3.10.55.38 og er allment tilgjengelig via en egenoppdatering i juli 2021.
+Denne artikkelen viser funksjoner og rettelser som er nye eller endret i Project Service Automation V3, Update Release 34. Denne versjonen har et build-nummer på V3.10.55.38 og er allment tilgjengelig via en egenoppdatering i juli 2021.
 
 ## <a name="update-release-34"></a>Update Release 34
 

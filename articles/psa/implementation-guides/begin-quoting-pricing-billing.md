@@ -1,6 +1,6 @@
 ---
 title: Veiledning for tilbud, priser og fakturering
-description: Dette emnet gir koblinger til informasjon om tilbudsgiving, fakturering og prising i Project Service Automation.
+description: Denne artikkelen inneholder koblinger til informasjon om grunnleggende tilbud, priser og fakturering i Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910810"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Veiledning for tilbud, priser og fakturering
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592244"
 
 Muligheten til å finne de riktige ressursene til rett tid, bestille disse ressursene på prosjekter og sørge for at ressurser som er brukt, hjelper organisasjoner med å oppfylle omsetningsmål og kundetilfredshetsmål. 
 
-PDF-koblingen som tidligere var i dette emnet, er fjernet, og innholdet er flyttet til følgende emner:
+PDF-koblingen som tidligere var i denne artikkelen, er fjernet, og innholdet er flyttet til følgende artikler:
 
 - [Tilbudsgiving, prising og fakturering](../quote-bill-price.md)
 - [Salgsprosesser](../basic-sales-process.md)
@@ -50,7 +50,7 @@ PDF-koblingen som tidligere var i dette emnet, er fjernet, og innholdet er flytt
 - [Registrere faktiske verdier](../advanced-actuals.md)
 
 > [!NOTE]
-> Dette emnet blir fjernet i en fremtidig oppdatering av dokumentasjonen. 
+> Denne artikkelen blir fjernet i en fremtidig oppdatering av dokumentasjonen. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
 title: Integrering av prosjektestimater og faktiske verdier
-description: Dette emnet gir informasjon om dobbeltskrivingsintegrasjon for Project Operations for prosjektestimater og faktiske data.
+description: Denne artikkelen inneholder informasjon om integrering av dobbel skriving i Project Operations for prosjektestimater og faktiske verdier.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914598"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integrering av prosjektestimater og faktiske verdier
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Dette emnet gir informasjon om dobbeltskrivingsintegrasjon for Project Operations for prosjektestimater og faktiske data.
+Denne artikkelen inneholder informasjon om integrering av dobbel skriving i Project Operations for prosjektestimater og faktiske verdier.
 
 ## <a name="project-estimates"></a>Prosjektestimater
 

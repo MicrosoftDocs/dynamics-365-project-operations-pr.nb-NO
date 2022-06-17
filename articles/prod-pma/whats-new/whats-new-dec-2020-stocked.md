@@ -1,24 +1,24 @@
 ---
 title: Nyheter desember 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
-description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i desember 2020-versjonen av Project Operations for lagerførte/produksjonsbaserte scenarioer.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for lagerførte/produksjonsbaserte scenarioer fra desember 2020.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911378"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nyheter eller endringer i Project Operations, desember 2020, for lagerførte/produksjonsbaserte scenarioer
 
 _Gjelder for: Project Operations for lagerførte/produksjonsbaserte scenarioer_
 
-Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
+Denne artikkelen gjelder følgende komponenter og versjoner av Dynamics 365 Project Operations:
 
   - Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.15
 

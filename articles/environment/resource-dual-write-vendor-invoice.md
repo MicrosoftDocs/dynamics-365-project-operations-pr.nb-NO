@@ -1,18 +1,18 @@
 ---
 title: Integrering av leverandørfaktura
-description: Dette emnet inneholder informasjon om integrering av leverandørfaktura i Project Operations.
+description: Denne artikkelen inneholder informasjon om integrering av leverandørfaktura i Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912068"
 ---
 # <a name="vendor-invoice-integration"></a>Integrering av leverandørfaktura
 
@@ -21,7 +21,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 Prosjektrelaterte innkjøp i Dynamics 365 Project Operations kan registreres ved å gå til **Leverandørgjeld** > **Fakturaer** > **Ventende leverandørfakturaer** og bruke et ventende leverandørfakturadokument. Hvis du vil ha mer informasjon, kan du se [Kjøpe ikke-lagerførte materialer ved hjelp av en ventende leverandørfaktura](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Før du bruker funksjonaliteten som er beskrevet i dette emnet, må du se gjennom og bruke de nødvendige konfigurasjonene. Hvis du vil ha mer informasjon, kan du se [Aktivere ikke-lagerførte materialer og ventende leverandørfakturaer](../procurement/configure-materials-nonstocked.md).
+> Før du bruker funksjonaliteten beskrevet i denne artikkelen, ser du gjennom og bruker de nødvendige konfigurasjonene. Hvis du vil ha mer informasjon, kan du se [Aktivere ikke-lagerførte materialer og ventende leverandørfakturaer](../procurement/configure-materials-nonstocked.md).
 
 I Project Operations posteres prosjektrelaterte leverandørfakturaer ved hjelp av spesielle posteringsregler:
 

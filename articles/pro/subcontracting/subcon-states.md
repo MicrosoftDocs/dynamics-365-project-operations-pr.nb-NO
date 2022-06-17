@@ -1,17 +1,17 @@
 ---
 title: Tilstandsoverganger på en underkontrakt
-description: Dette emnet forklarer tilstandsovergangene for en underkontrakt i Microsoft Dynamics 365 Project Operations etter hvert som underkontrakten opprettes, utføres og lukkes.
+description: Denne artikkelen forklarer tilstandsovergangene for en underkontrakt i Microsoft Dynamics 365 Project Operations etter hvert som underkontrakten opprettes, utføres og lukkes.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919750"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Tilstandsoverganger på en underkontrakt 
 
@@ -19,7 +19,7 @@ ms.locfileid: "8579180"
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-Dette emnet forklarer tilstandsovergangene for en underkontrakt i Microsoft Dynamics 365 Project Operations. Hver tilstand representeres som utkast, bekreftet, lukket eller annullert. Bildet nedenfor viser statusovergangene.
+Denne artikkelen forklarer tilstandsovergangene for en underkontrakt i Microsoft Dynamics 365 Project Operations. Hver tilstand representeres som utkast, bekreftet, lukket eller annullert. Bildet nedenfor viser statusovergangene.
 
 ![Tilstandsmodell for underkontrakt](../media/SubconStates.png)  
 

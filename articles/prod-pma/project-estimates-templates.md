@@ -1,6 +1,6 @@
 ---
 title: Synkroniser prosjektestimater direkte fra Project Service Automation til Finance and Operations
-description: Dette emnet beskriver maler og de underliggende oppgavene som brukes til å synkronisere prosjekttimeestimater og prosjektutgiftsestimater direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+description: Denne artikkelen beskriver maler og de underliggende oppgavene som brukes til å synkronisere prosjekttimeestimater og prosjektutgiftsestimater direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920854"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser prosjektestimater direkte fra Project Service Automation til Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Dette emnet beskriver maler og de underliggende oppgavene som brukes til å synkronisere prosjekttimeestimater og prosjektutgiftsestimater direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
+Denne artikkelen beskriver maler og de underliggende oppgavene som brukes til å synkronisere prosjekttimeestimater og prosjektutgiftsestimater direkte fra Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 
 > [!NOTE]
 > - Prosjektoppgaveintegrering, utgiftstransaksjonskategorier, timeoverslag, utgiftsoverslag og låsing av funksjoner er tilgjengelig i versjon 8.0.

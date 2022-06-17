@@ -1,6 +1,6 @@
 ---
 title: Utgifter til kostgodtgjørelse
-description: Dette emnet gir informasjon om hvordan du arbeider med utgifter til kostgodtgjørelse.
+description: Denne artikkelen inneholder informasjon om hvordan du arbeider med utgifter til kostgodtgjørelse.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923200"
 ---
 # <a name="per-diem-expenses"></a>Utgifter til kostgodtgjørelse
 
 > [!IMPORTANT] 
-> Funksjonaliteten som er beskrevet i dette emnet, er tilgjengelige for angitte brukere som en del av en forhåndsversjon.
+> Funksjonaliteten som er beskrevet i denne artikkelen, er tilgjengelig for angitte brukere som en del av en forhåndsversjon.
 
 Betaling av kostgodtgjørelse dag er en fast, forhåndsbestemt daglig sats som et selskap betaler til sine ansatte for innkvartering (hoteller), måltider og tilfeldige utgifter som de ansatte pådrar seg mens de er på jobbreise. Selskapet betaler denne godtgjørelsen til de ansatte i stedet for å betale de faktiske reiseutgiftene. De ansatte kan bruke kostgodtgjørelsessatsen under **Tilfeldige utgifter / Annet** til å dekke tips, romservice, klesvask eller stryking av klær for viktige forretningsmøter. Satsen for kostgodtgjørelse kan variere, avhengig av om arbeidsgiveren velger å refundere for den kombinerte kostnaden for innkvartering og måltider, eller bare for kostnader for måltider og tilfeldige utgifter.
 

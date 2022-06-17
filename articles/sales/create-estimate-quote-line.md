@@ -1,6 +1,6 @@
 ---
 title: Opprette estimater på en tilbudslinje
-description: Dette emnet gir informasjon om hvordan du oppretter et estimat på en tilbudslinje for et prosjekt.
+description: Denne artikkelen inneholder informasjon om hvordan du oppretter et estimat på en tilbudslinje for et prosjekt.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2a673c3ff646e76cf150dbcac40373d5dddcc4ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9f606ff2c33c46063f7025e8bc58e704d472061b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912574"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Opprette estimater på en tilbudslinje
 
@@ -75,16 +75,16 @@ Bruk tabellen nedenfor som veiledning for å forstå forretningslogikken i estim
 
 ## <a name="customize-the-quote-line-detail-and-contract-line-detail-entities"></a>Tilpasse enhetene for tilbudslinjedetaljer og kontraktlinjedetaljer
 
-Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at systemet skal angi verdien i feltet som en standardverdi på den relaterte kostnadslinjen som opprettes, bruker du registreringsverktøyene PreOperationContractLineDetailUpdate og PreOperationQuoteLineDetailUpdate. Disse plugin-modulene må registreres på nytt etter at tilbudslinjedetaljene eller kontraktslinjedetaljene endres. Følg disse trinnene for å fullføre prosessen.
+Hvis du har lagt til et egendefinert felt i tilbudslinjedetaljene og vil at systemet skal angi verdien i feltet som en standardverdi på den relaterte kostnadslinjen som opprettes, bruker du registreringsverktøyene PreOperationContractLineDetailUpdate og PreOperationQuoteLineDetailUpdate. Disse programtilleggene må registreres på nytt etter at tilbudslinjedetaljene eller kontraktslinjedetaljene endres. Følg disse trinnene for å fullføre prosessen.
 
 1. Åpne PluginRegistrationTool, og koble til forekomsten på nettet.
-2. Velg **Søk**, og søk etter plugin-modulen for å oppdatere.
-3. Velg plugin-modulen, og velg deretter **Velg** på hovedsiden.
-4. Velg trinnet i plugin-modulen som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
+2. Velg **Søk**, og søk etter programtillegget for å oppdatere.
+3. Velg programtillegget, og velg deretter **Velg** på hovedsiden.
+4. Velg trinnet i programtillegget som skal oppdateres, høyreklikk, og velg deretter **Oppdater**.
 5. I dialogboksen **Oppdater eksisterende trinn**, i feltet **Filtreringsattributter** velger du ellipseknappen (**...**):
 6. I dialogboksen **Velg attributter** merker du av i boksene for egendefinerte attributter.
 7. Velg **OK** for å lukke dialogboksen, og velg deretter **Oppdater trinn**.
-8. Gjenta trinn 1 til 7 for den andre plugin-modulen.
+8. Gjenta trinn 1 til 7 for det andre programtillegget.
 9. Lukk PluginRegistrationTool.
 
 

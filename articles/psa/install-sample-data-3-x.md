@@ -1,6 +1,6 @@
 ---
 title: Installere eksempeldata
-description: Dette emnet inneholder informasjon om hvordan du installerer eksempeldata i Project Service Automation.
+description: Denne artikkelen inneholder informasjon om installasjon av eksempeldata i Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak
@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8fb3854c139125abbf499622d048e2ff0791516a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926788"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installasjon av eksempeldata for Project Service-programmet
 
@@ -238,7 +238,7 @@ Det finnes en rekke andre konfigurasjonskomponenter i denne konfigurasjonsfilen 
 
 - **\<UsersToCreateAndConfigure\>** angir ressurser som kan reserveres, som opprettes (hvis de ikke allerede finnes) før eksempeldataimporten utføres. Merk at ressursen som kan reserveres i kildesystemets eksempeldata samsvarer med målsystemets oppføringer for ressurs som kan reserveres, på FullName og påloggingen for hver ressurs. Det er derfor IKKE mulig å endre navnene i denne forhåndskonfigurasjonsfilen med mindre du først importerer eksempeldata til et målsystem ved hjelp av disse navnene, og deretter endrer navn på ressursene som reserveres, til ønsket navnsett sammen med de aktiverte brukeroppføringene, og deretter eksporterer dataene på nytt for import til de endelige målsystemet (ved å oppdatere gamle og nye **ImportUserMapFile.xml**-oppføringer tilsvarende).
 
-- **\<PluginsToDisable\>** angir svært diskrete linjeelement-plugin-moduler som må være deaktivert under eksempeldataimporten, og deretter aktiveres på nytt etterpå.
+- **\<PluginsToDisable\>** angir svært diskrete linjeelement-programtillegg som må være deaktivert under eksempeldataimporten, og deretter aktiveres på nytt etterpå.
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Det fiktive scenarioet Fabrikam Robotics
 

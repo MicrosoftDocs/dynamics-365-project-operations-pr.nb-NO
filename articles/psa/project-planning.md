@@ -1,6 +1,6 @@
 ---
 title: Hjemmeside for prosjektplanlegging
-description: Denne emnet gir informasjon om prosjektplanlegging.
+description: Denne artikkelen inneholder informasjon om prosjektplanlegging.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919106"
 ---
 # <a name="project-planning-home-page"></a>Hjemmeside for prosjektplanlegging
 
@@ -43,7 +43,7 @@ Verktøyene for prosjektstyring i PSA hjelper deg med å kjøre prosjekter på e
 - Forutsi ressurskrav for prosjekter som er i forløpet.
 - Levere prosjekter ved å spore fremdrift og kostnadsforbruk.
 
-Følgende emner inneholder informasjon som hjelper prosjektledere med å estimere arbeid, estimere prosjektkostnader og estimere ressurskrav ved hjelp av verktøyene som støttes i PSA:
+Følgende artikler inneholder informasjon som hjelper prosjektledere med å estimere arbeid, estimere prosjektkostnader og estimere ressurskrav ved hjelp av verktøyene som støttes i PSA:
 
 - [Opprette en tidsplan](project-creating.md)
 - [Estimere prosjektkostnader og inntekter](project-estimating.md)

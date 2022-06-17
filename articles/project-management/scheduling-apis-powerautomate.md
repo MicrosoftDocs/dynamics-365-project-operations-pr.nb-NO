@@ -1,25 +1,25 @@
 ---
 title: Bruk API-er for prosjektplan med Power Automate
-description: Denne emne inneholder en eksempelflyt som bruker API-er (programmeringsgrensesnitt) for prosjektplan.
+description: Denne artikkelen inneholder en eksempelflyt som bruker API-er (programmeringsgrensesnitt) for prosjektplan.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916346"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Bruk API-er for prosjektplan med Power Automate
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Dette emnet beskriver en eksempelflyt som viser hvordan du oppretter en komplett prosjektplan ved å bruke Microsoft Power Automate, hvordan du oppretter et operasjonssett og oppdaterer en enhet. Eksemplet viser hvordan du oppretter et prosjekt, et prosjektteammedlem, operasjonssett, prosjektoppgaver og ressurstildelinger. Dette emnet forklarer også hvordan du oppdaterer en enhet og kjører et operasjonssett.
+Denne artikkelen beskriver en eksempelflyt som viser hvordan du oppretter en komplett prosjektplan ved å bruke Microsoft Power Automate, hvordan du oppretter et operasjonssett og oppdaterer en enhet. Eksemplet viser hvordan du oppretter et prosjekt, et prosjektteammedlem, operasjonssett, prosjektoppgaver og ressurstildelinger. Denne artikkelen forklarer også hvordan du oppdaterer en enhet og kjører et operasjonssett.
 
-Følgende er en fullstendig liste over trinnene som er dokumentert i eksempelflyten i dette emnet:
+Følgende er en fullstendig liste over trinnene som er dokumentert i eksempelflyten i denne artikkelen:
 
 1. [Opprett en PowerApps-utløser](#1)
 2. [Opprette et prosjekt](#2)
@@ -40,7 +40,7 @@ Følgende er en fullstendig liste over trinnene som er dokumentert i eksempelfly
 
 ## <a name="assumptions"></a>Antagelser
 
-Dette emnet forutsetter at du har grunnleggende kunnskaper om Dataverse-plattformen, skyflyter og API-en (programmeringsgrensesnitt) for prosjektplan. Hvis du vil ha mer informasjon, kan du se delen [Referanser](#references) senere i dette emnet.
+Denne artikkelen forutsetter at du har grunnleggende kunnskaper om Dataverse-plattformen, skyflyter og API-en (programmeringsgrensesnitt) for prosjektplan. Hvis du vil ha mer informasjon, kan du se delen [Referanser](#references) senere i denne artikkelen.
 
 ## <a name="create-a-flow"></a>Opprett en flyt
 
@@ -65,7 +65,7 @@ Følg disse trinnene for å opprette en [løsningsavhengig flyt](/power-automate
 1. På **Løsninger**-siden velger du løsningen du opprettet, og velger deretter **Ny**.
 2. I den venstre ruten velger du **Skyflyter** \> **Automatisering** \> **Skyflyt** \> **Direkte**.
 3. I **Flytnavn**-feltet skriver du inn **Schedule API Demo Flow**.
-4. I listen **Velg hvordan denne flyten skal utløses** velger du **Power Apps**. Når du oppretter en Power Apps-utløser, er logikken opp til deg som forfatter. I dette emnet lar du inndataparameterne være tomme for testformål.
+4. I listen **Velg hvordan denne flyten skal utløses** velger du **Power Apps**. Når du oppretter en Power Apps-utløser, er logikken opp til deg som forfatter. I denne artikkelen lar du inndataparameterne være tomme for testformål.
 5. Velg **Opprett**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Trinn2: Opprett et prosjekt

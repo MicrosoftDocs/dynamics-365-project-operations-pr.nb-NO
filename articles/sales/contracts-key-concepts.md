@@ -1,17 +1,17 @@
 ---
 title: Prosjektkontrakter – nøkkelkonsepter
-description: Dette emnet gir informasjon om nøkkelkonseptene ved prosjektkontrakter i Project Operations.
+description: Denne artikkelen inneholder informasjon om nøkkelkonseptene for prosjektkontrakter i Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926236"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Unike konsepter for prosjektbaserte kontrakter
 
@@ -19,7 +19,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 
 
-Dette emnet inneholder nøkkelkonseptene som du må være klar over før du begynner å bruke Prosjektkontrakter i Dynamics 365 Project Operations:
+Denne artikkelen inneholder nøkkelkonseptene du må ha kjennskap til før du begynner å bruke prosjektkontrakter i Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Eiende firma
 
@@ -85,7 +85,7 @@ Fakturaplaner er spesifikke for hver kontraktlinje, og de kreves for at automati
 
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Endringer fra Dynamics 365 Sales-tilbud
 
-Kontrakter i Project Operations blir utformet basert på tilbud i Dynamics 365 Sales. Det er imidlertid noen viktige avvik og forskjeller i funksjonaliteten. Kontrakter har sitt eget format og sine egne UI-elementer, forretningsregler, plugin-moduler for forretningslogikk og skript på klientsiden som gjør dem unike fra tilbud. Av disse grunnene må du ikke bruke en salgsordre og en Project Operations-kontrakt om hverandre.
+Kontrakter i Project Operations blir utformet basert på tilbud i Dynamics 365 Sales. Det er imidlertid noen viktige avvik og forskjeller i funksjonaliteten. Kontrakter har sitt eget format og sine egne UI-elementer, forretningsregler, programtillegg for forretningslogikk og skript på klientsiden som gjør dem unike fra tilbud. Av disse grunnene må du ikke bruke en salgsordre og en Project Operations-kontrakt om hverandre.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

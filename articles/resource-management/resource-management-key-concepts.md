@@ -1,17 +1,17 @@
 ---
 title: Nøkkelkonsepter for ressursstyring
-description: Dette emnet gir information om ressursstyringsfunksjonene i Microsoft Dynamics Project Operations.
+description: Denne artikkelen inneholder informasjon om funksjoner for ressursstyring i Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: dc9505543f461bb0e275a4dec462675c5e3848b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3d780484420e409488b7eb57a8bb4977316a7c81
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915610"
 ---
 # <a name="resource-management-key-concepts"></a>Nøkkelkonsepter for ressursstyring
 

@@ -1,23 +1,23 @@
 ---
 title: Legg til et Azure-abonnement i et LCS Project
-description: Dette emnet gir informasjon om hvordan du kobler Azure-abonnementet til et LCS-prosjekt.
+description: Denne artikkelen inneholder informasjon om hvordan du kobler Azure-abonnementet til et LCS-prosjekt.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912160"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Legg til et Azure-abonnement i et LCS Project
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Skydriftede miljøer må distribueres ved hjelp av et eksisterende Azure-abonnement. Dette emnet forklarer hvordan du kobler det eksisterende Azure-abonnementet ditt til et LCS-prosjekt. 
+Skydriftede miljøer må distribueres ved hjelp av et eksisterende Azure-abonnement. Denne artikkelen forklarer hvordan du kobler det eksisterende Azure-abonnementet til et LCS-prosjekt. 
 
 ## <a name="grant-admin-consent"></a>Gi admin-tillatelse
 
@@ -59,7 +59,7 @@ Autorisasjonen er nå fullført.
 2. Skriv inn Azure abonnements-ID-en din. Du finner Azure-abonnements-ID-en i [Azure-portalen](https://ms.portal.azure.com/), under **Innstillinger** nederst til venstre på skjermen.
 3. I feltet **Konfigurer for å bruke Azure Resource Manager** velger du **Ja**.
 4. Kontroller at Azure-abonnementets AAD-leierdomene samsvarer med det domeneeiende Azure-abonnementet du bruker, og velg **Neste**.
-5. På skjermen **Microsoft Azure-oppsett** velger du **Neste** for å bekrefte. Hvis det vises en feil i skjermbildet, må du gå tilbake til delen [Gi Dynamics Deployment Services tilgang til Azure-abonnementet](#provide) i dette emnet og må kontrollere at du har fullført alle trinnene.
+5. På skjermen **Microsoft Azure-oppsett** velger du **Neste** for å bekrefte. Hvis du får en feil på denne skjermen, går du tilbake til delen [Gi Dynamics-distribusjonstjenester tilgang til Azure-abonnement](#provide) i denne artikkelen og kontrollerer at du har fullført alle trinnene.
 6. Last ned Azure Management-sertifikatet til en lokal mappe på datamaskinen. Be administrator for Azure-abonnementet ditt om å laste opp sertifikatet til Azure Management-portalen ved å velge abonnementet og gå til **Innstillinger** > **Administrasjonssertifikater**. Dette sertifikatet gjør det mulig for LCS å kommunisere med Azure på dine vegne. Du kan hoppe over dette trinnet hvis brukeren har tilgang til abonnementet.
 7. Velg **Neste**.
 8. Velg Azure-området du skal distribuere i, og velg et datasenter som er nær stedet der du vil bruke dette systemet.

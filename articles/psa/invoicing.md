@@ -1,6 +1,6 @@
 ---
 title: Fakturering i Project Service Automation
-description: Dette emnet inneholder informasjon om fakturering.
+description: Denne artikkelen inneholder informasjon om fakturering.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926834"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturering i Project Service Automation
 
@@ -94,7 +94,7 @@ Når **ProcessRunner** har kjørt ferdig, kaller den **ProcessRunCaller**, angir
 Den satsvise prosessjobben for oppretting av fakturaer er en gjentakende jobb. Hvis denne satsvise prosessen kjører mange ganger, opprettes flere forekomster av jobben, og det fører til feil. Derfor bør du starte den satsvise prosessen bare én gang, og du bør bare starte den på nytt hvis den slutter å kjøre.
 
 > [!NOTE]
-> Satsvis fakturering i Project Service Automation kjører bare for prosjektkontraktlinjer som konfigureres ved hjelp av fakturaplaner. En kontraktlinje med en faktureringsmetode for fast pris må ha milepæler konfigurert. Det må konfigureres en datobasert fakturaplan for en prosjektkontraktlinje med en faktureringsmetode for tid og materialer. Informasjon om hvordan du angir faktureringsfrekvenser i konteksten for et prosjekt som er basert på en tilbudslinje, finnes i emnet [Tilbud og tilbudslinjer](basic-quote-lines.md#invoice-schedule). Det samme gjelder for en prosjektbasert kontraktlinje.      
+> Satsvis fakturering i Project Service Automation kjører bare for prosjektkontraktlinjer som konfigureres ved hjelp av fakturaplaner. En kontraktlinje med en faktureringsmetode for fast pris må ha milepæler konfigurert. Det må konfigureres en datobasert fakturaplan for en prosjektkontraktlinje med en faktureringsmetode for tid og materialer. Artikkelen [Tilbud og tilbudslinjer](basic-quote-lines.md#invoice-schedule) inneholder informasjon om hvordan du konfigurerer faktureringsfrekvenser i sammenheng med et prosjekt som er basert på en tilbudslinje. Det samme gjelder for en prosjektbasert kontraktlinje.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Redigere et PSA-fakturautkast
 

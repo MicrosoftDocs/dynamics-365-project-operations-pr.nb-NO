@@ -1,17 +1,17 @@
 ---
 title: Nyheter november 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
-description: Dette emnet gir informasjon om kvalitetsoppdateringene som er tilgjengelige i november 2020-versjonen av Project Operations for lagerførte/produksjonsbaserte scenarioer.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for lagerførte/produksjonsbaserte scenarioer fra november 2020.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911241"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Nyheter november 2020 – Project Operations for lagerførte/produksjonsbaserte scenarioer
 

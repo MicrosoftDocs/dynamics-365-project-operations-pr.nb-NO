@@ -1,24 +1,24 @@
 ---
 title: Funksjoner som er fjernet eller avskrevet i Dynamics 365 Project Operations
-description: Dette emnet beskriver funksjoner som er fjernet eller som er planlagt for fjerning fra Dynamics 365 Project Operations.
+description: Denne artikkelen beskriver funksjoner som er fjernet eller som er planlagt for fjerning fra Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921498"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Funksjoner som er fjernet eller avskrevet i Dynamics 365 Project Operations
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering, og Project Operations for lagerførte/produksjonsbaserte scenarioer_
 
-Dette emnet beskriver funksjoner som er fjernet eller som er planlagt for fjerning fra Dynamics 365 Project Operations.
+Denne artikkelen beskriver funksjoner som er fjernet eller som er planlagt for fjerning fra Dynamics 365 Project Operations.
 
 - En *fjernet* funksjon er ikke lenger tilgjengelig i produktet.
 - En *avskrevet* funksjon er ikke i aktiv utvikling, og kan bli fjernet i en fremtidig oppdatering.

@@ -1,18 +1,18 @@
 ---
 title: Bruk innkjøpskategorier med prosjektbestillinger og ventende leverandørfakturaer
-description: Dette emnet beskriver hvordan du konfigurerer innkjøpskategorier som kan brukes med prosjektbestillinger og ventende leverandørfakturaer.
+description: Denne artikkelen beskriver hvordan du konfigurerer innkjøpskategorier som kan brukes med prosjektbestillinger og ventende leverandørfakturaer.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927432"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Bruk innkjøpskategorier med prosjektbestillinger og ventende leverandørfakturaer
 
@@ -47,7 +47,7 @@ Følg denne fremgangsmåten for å tilordne prosjektkategorier til innkjøpskate
 
 1. Gå til **Innkjøp og leverandører \> Innkjøpskategorier**.
 1. Velg **Rediger kategorihierarki**.
-1. Velg den ønskede kategorihierarkinoden, og gå deretter til fanen **Tilordne prosjektkategorier**, tilknytt noden med prosjektkategorien fra kategorien **Tid**, Utgift eller **Vareprosjekt** (det vil si kategorien **Standard tid** eller **Standard utgift**).
+1. Velg den ønskede kategorihierarkinoden, og gå deretter til fanen **Tilordne prosjektkategorier**, tilknytt noden med prosjektkategorien fra kategorien **Tid**, **Utgift** eller **Vareprosjekt** (det vil si kategorien **Standardtid** eller **Standardutgift**).
 1. Velg **Lagre**.
 1. Lukk siden.
 

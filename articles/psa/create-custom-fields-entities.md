@@ -1,6 +1,6 @@
 ---
 title: Opprette egendefinerte felt og enheter
-description: Dette emnet forklarer hvordan du oppretter alternativsett og enheter i din egen løsning på Power Apps-plattformen.
+description: Denne artikkelen forklarer hvordan du oppretter alternativsett og enheter i din egen løsning på Power Apps-plattformen.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926926"
 ---
 # <a name="create-custom-fields-and-entities"></a>Opprette egendefinerte felt og enheter 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Fullfør fremgangsmåten nedenfor når du vil opprette et egendefinert alternativsett eller enhet på Power Apps-plattformen.  
-Fremgangsmåtene i dette emnet bør fullføres ved hjelp av nettgrensesnittet i PSA (Project Service Automation).
+Fremgangsmåtene i denne artikkelen bør fullføres ved hjelp av nettgrensesnittet i PSA (Project Service Automation).
 
 > [!IMPORTANT]
 > Vi anbefaler at du gjør alle egendefinerte endringer i prisdimensjonen i en separat løsning. Denne viktige fremgangsmåten gir deg fleksibilitet i fremtiden for å oppdatere eller fjerne endringer etter behov, den hjelper deg med å bruke arbeidet ditt, og det blir enklere å legge igjen disse endringene til en annen forekomst. Når du har gjort alle de nødvendige endringene, eksporterer du denne løsningen som en **administrert løsning** og importerer den til andre forekomster for å bruke prisoppsettet på nytt.

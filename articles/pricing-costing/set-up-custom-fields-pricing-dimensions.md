@@ -1,6 +1,6 @@
 ---
 title: Konfigurere egendefinerte felt som prisdimensjoner
-description: Dette emnet gir informasjon om hvordan du konfigurerer prisdimensjoner ved hjelp av egendefinerte felt.
+description: Denne artikkelen inneholder informasjon om hvordan du definerer prisdimensjoner ved hjelp av egendefinerte felter.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917588"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurere egendefinerte felt som prisdimensjoner
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-Før du begynner antar dette emnet at du har fullført prosedyrene i emnene [Opprette egendefinerte felt og enheter](create-custom-fields-entities-pricing-dimensions.md) og [Legge til obligatoriske egendefinerte felt i prisoppsett og transaksjonsenheter](add-custom-fields-price-setup-transactional-entities.md). Hvis du ikke har utført disse prosedyrene, kan du gå tilbake og fullføre dem og deretter gå tilbake til dette emnet. 
+Før du begynner, antar denne artikkelen at du har fullført fremgangsmåtene i artiklene [Opprette egendefinerte felter og enheter](create-custom-fields-entities-pricing-dimensions.md) og [Legge til obligatoriske egendefinerte felter i prisoppsett og transaksjonsenheter](add-custom-fields-price-setup-transactional-entities.md). Hvis du ikke har fullført disse fremgangsmåtene, kan du gå tilbake og fullføre dem og deretter gå tilbake til denne artikkelen. 
 
-Dette emnet gir informasjon om hvordan du konfigurerer egendefinerte prisdimensjoner. På **Parametere**-siden viser kategorien **Beløpsbaserte prisdimensjoner** oppføringene i Prisdimensjoner-enhetene. Som standard er det to rader i rutenettet i denne kategorien:
+Denne artikkelen inneholder informasjon om hvordan du konfigurerer egendefinerte prisdimensjoner. På **Parametere**-siden viser kategorien **Beløpsbaserte prisdimensjoner** oppføringene i Prisdimensjoner-enhetene. Som standard er det to rader i rutenettet i denne kategorien:
 
 - **msdyn_resourcecategory** (rolle)
 - **msdyn_OrganizationalUnit** (organisasjonsenhet)
