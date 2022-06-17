@@ -1,17 +1,17 @@
 ---
 title: Tilordningsversjoner av dobbel skriving for Project Operations
-description: Dette emnet inneholder listen over tilordninger for dobbel skriving som kreves for Dynamics 365 Project Operations.
+description: Denne artikkelen inneholder listen over tilordninger med dobbel skriving som kreves for Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612766"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959448"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Tilordningsversjoner av dobbel skriving for Project Operations
 
@@ -54,7 +54,7 @@ Følgende tilordninger kreves for en Project Operations-løsning. Tilordningsver
 | Enhet for timesestimater for Project Operations-integrering (msdyn_resourceassignments) | 1.0.0.5 | Ikke nødvendig for klargjøring. ||
 | Eksportenhet for prosjektutgiftskategorier for Project Operations-integrering (msdyn_expensecategories) | 1.0.0.1 | Ikke nødvendig for klargjøring. ||
 | Eksportenhet for prosjektutgifter for Project Operations-integrering (msdyn_expenses) | 1.0.0.3 | Ikke nødvendig for klargjøring. ||
-| Project Operations-integrering, prosjektleverandør fakturaeksportenhet (msdyn_projectvendorinvoices) | 1.0.0.0 | Ikke nødvendig for klargjøring. ||
+| Project Operations-integrering, prosjektleverandør fakturaeksportenhet (msdyn_projectvendorinvoices) | 1.0.0.1 | Ikke nødvendig for klargjøring. |10.0.26 eller senere|
 | Project Operations-integrering, prosjektleverandør fakturalinjeeksportenhet (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Ikke nødvendig for klargjøring. | 10.0.26 eller senere |
 | Prosjektressursroller for alle selskaper (bookableresourcecategories) | 1.0.0.1 | Krever en første synkronisering for tabelltilordningen for å synkronisere ressursrollene for prosjektleder og teammedlem som fylles ut i Dynamics 365 Dataverse-miljøet under klargjøring. Dataverse er hovedkilden for den første synkroniseringen. ||
 | Prosjektoppgaver (msdyn_projecttasks) | 1.0.0.4 | Ikke nødvendig for klargjøring. ||

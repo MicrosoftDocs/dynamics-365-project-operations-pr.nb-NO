@@ -1,17 +1,17 @@
 ---
 title: Registrer deg for Project Operations-prøveversjoner
-description: Dette emnet gir informasjon om hvordan du distribuerer en prøveversjon av Dynamics 365 Project Operations.
+description: Denne artikkelen inneholder informasjon om hvordan du distribuerer en prøveversjon av Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584286"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959484"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrer deg for Project Operations-prøveversjoner 
 
@@ -19,9 +19,9 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 
 
-Dette emnet forklarer hvordan du abonnerer på forhåndsversjonspartnertilbudet og distribuerer et Dynamics 365 Project Operations-miljø.
+Denne artikkelen forklarer hvordan du abonnerer på partnertilbudet med forhåndsversjon og distribuerer et Dynamics 365 Project Operations-miljø.
 
-Med den nye prøveversjonen av Project Operations kan du automatisk distribuere et av de tre støttede distribusjonsscenarioene ved å fylle ut et spørreskjema som anbefaler den beste distribusjonsmåten. Dette emnet gir informasjon om hvordan du:
+Med den nye prøveversjonen av Project Operations kan du automatisk distribuere et av de tre støttede distribusjonsscenarioene ved å fylle ut et spørreskjema som anbefaler den beste distribusjonsmåten. Denne artikkelen inneholder informasjon om hvordan du gjør følgende:
 
 - løser inn prøveversjonstilbudet
 - iverksetter klargjøring
@@ -89,7 +89,8 @@ Før du begynner logger du på en nettleser med brukerkontoen i leieren der du v
 4.  Velg den respektive Microsoft Dataverse-nettadressen og nettadressene for økonomi- og driftsapper for å validere distribusjonen.
 
 ## <a name="configuring-dual-write"></a>Konfigurasjon av dobbel skriving
-- Hvis du vil konfigurere sikkerhetsroller for dobbeltskriving, kan du se [Oppdatere sikkerhetsinnstillinger for Project Operations i Dataverse](resource-provision-new-environment.md).
+- Hvis du vil konfigurere sikkerhetsroller for dobbeltskriving, kan du se [Oppdatere sikkerhetsinnstillinger for Project Operations i Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Gå til økonomi- og driftsforekomsten for å få tilgang til konfigurasjon med dobbel skriving, og gå deretter til **Databehandling** > **Dual Write**.
 - Hvis du vil konfigurere tilordninger for dobbeltskriving, kan du se [Kjøre Project Operations med tilordninger for dobbel skriving](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Tilordne lisenser

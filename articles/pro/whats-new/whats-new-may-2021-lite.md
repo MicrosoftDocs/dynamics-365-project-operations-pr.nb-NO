@@ -1,24 +1,24 @@
 ---
 title: Nyheter mai 2021 – Project Operations Lite-distribusjon
-description: Dette emnet inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i mai 2021-versjonen av Project Operations Lite-distribusjonen.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations Lite-distribusjon fra mai 2021.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 854a8c2290281b4d11a045321a334d8866806041
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a5d67159b732e0309e03c64fb6dadcc7b8cbff51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934194"
 ---
 # <a name="whats-new-may-2021---project-operations-lite-deployment"></a>Nyheter mai 2021 – Project Operations Lite-distribusjon
 
 _Gjelder: Lite-distribusjon – avtale til proformafakturering_
 
-Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
+Denne artikkelen gjelder følgende komponenter og versjoner av Dynamics 365 Project Operations:
 
    - Project Operations på Dataverse-miljø versjon 4.10.0.186.
 
@@ -32,7 +32,7 @@ Følgende funksjoner er inkludert i denne versjonen:
 
 | **Funksjonsområdet** | **Referansenummer** | **Kvalitetsoppdatering** |
 | --- | --- | --- |
-| Fakturering og prising | 2224568 | Lagt til logikk for å aktivere tilpassinger som involverer aktivering av plugin-modulen for fakturabekreftelse. |
+| Fakturering og prising | 2224568 | Lagt til logikk for å aktivere tilpassinger som involverer aktivering av programtillegget for fakturabekreftelse. |
 | Fakturering og prising | 2101098 | Forbedret logikken i standardfelt for proformafaktura. Disse feltene omfatter **Fakturaadresse**, **Fakturanavn** og **Betalingsbetingelser**. Feltene er nå standard fra den tilsvarende kundeoppføringen for prosjektkontrakten. |
 | Fakturering og prising | 2021413 | Oppdaterte feltene **Faktisk kostnad** og **Salg** i **Oppgave**-enheten for å inkludere salgsverdier fra ufakturerte og fakturerte utgifter for oppgaver. |
 | Fakturering og prising | 2182110 | Når du kopierer en prosjektkontrakt, genereres kontraktlinje-ID-en på nytt i målprosjektkontrakten for å sikre at den er unik. |

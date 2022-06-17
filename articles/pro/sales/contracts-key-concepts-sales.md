@@ -1,17 +1,17 @@
 ---
 title: Prosjektkontrakter – Nøkkelkonsepter – Lite
-description: Dette emnet gir informasjon om nøkkelkonseptene for prosjektkontrakter.
+description: Denne artikkelen inneholder informasjon om nøkkelkonseptene for prosjektkontrakter.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932676"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Unike konsepter for prosjektkontrakter
 
@@ -19,7 +19,7 @@ _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 
 
-Dette emnet inneholder nøkkelkonseptene som du må være klar over før du begynner å bruke Prosjektkontrakter i Dynamics 365 Project Operations:
+Denne artikkelen inneholder nøkkelkonseptene du må ha kjennskap til før du begynner å bruke prosjektkontrakter i Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Kontraktsenhet
 
@@ -88,7 +88,7 @@ Fakturaplaner er spesifikke for hver kontraktlinje, og de kreves for at automati
 Project Operations-kontrakter blir utformet basert på Dynamics 365 Sales-kontrakter. Det er imidlertid noen viktige avvik og forskjeller i funksjonaliteten du bør være oppmerksom på:
 
 - Project Operations-kontrakter har to ulike typer linjer, én for prosjekter og én for produkter.
-- Project Operations-kontrakter har sitt eget format og sine egne UI-elementer, forretningsregler, plugin-moduler for forretningslogikk og skript på klientsiden som gjør dem unike fra salgskontrakter.
+- Project Operations-kontrakter har sitt eget format og sine egne UI-elementer, forretningsregler, programtillegg for forretningslogikk og skript på klientsiden som gjør dem unike fra salgskontrakter.
 
 Av disse grunnene bør du ikke bruke en salgskontrakt og en prosjektkontrakt om hverandre.
 

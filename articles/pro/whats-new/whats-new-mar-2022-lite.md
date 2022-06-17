@@ -1,24 +1,24 @@
 ---
 title: Nyheter mars 2022 – Project Operations Lite-distribusjon
-description: Dette emnet inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations Lite-distribusjon fra mars 2022.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations Lite-distribusjon fra mars 2022.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934240"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Nyheter mars 2022 – Project Operations Lite-distribusjon
 
 _Gjelder: Lite-distribusjon – avtale til proformafakturering_
 
-Dette emnet gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
+Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i et Dataverse-miljø, versjon 4.30.0.99
 
@@ -40,7 +40,7 @@ Dette emnet gjelder følgende komponenter og versjoner av Microsoft Dynamics 365
 | Fakturering og prising | 2558859 | Forbedrede feilmeldinger når prisdimensjoner er konfigurert. |
 | Fakturering og prising | 2558933 | **Import fra prosjektestimater** mislykkes når **msdyn\_project** er lagt til som en prisdimensjon. |
 | Fakturering og prising | 2559101 | Sletting av prosjektparametere er ikke blokkert og forårsaker problemer. |
-|   Administrasjon av salgsmuligheter | 2570390 | Plugin-modulen for dobbel skriving tvinger kontotypen i tilbud, bestillinger og muligheter til å være **Kunde**, selv når denne kontotypen ikke er korrekt. |
+|   Administrasjon av salgsmuligheter | 2570390 | Programtillegget for dobbel skriving tvinger kontotypen i tilbud, bestillinger og muligheter til å være **Kunde**, selv når denne kontotypen ikke er korrekt. |
 | Fakturering og prising | 2586097 | Deling av fakturerte faktiske kostnader reverseres ikke når et prosjekt fjernes fra en prosjektkontraktlinje. |
 | Fakturering og prising | 2589619 | Avgifter på materiell som ikke er i katalogen, overføres til ufakturert faktisk salg og til fakturaen. |
 |   Administrasjon av salgsmuligheter | 2594015 | Et tilbud kan ikke lukkes som vunnet for kunder som har **Net60**-betalingsbetingelser. |
@@ -51,9 +51,9 @@ Dette emnet gjelder følgende komponenter og versjoner av Microsoft Dynamics 365
 
 ## <a name="removed-and-deprecated-features"></a>Funksjoner som er fjernet og avskrevet
 
-Emnet [Fjernede eller avskrevne funksjoner i Project Operations](../../whats-new/removed-depreciated-features-project.md) beskriver funksjoner som er fjernet eller avskrevet for Dynamics 365 Project Operations.
+Artikkelen [Fjernede eller avskrevne funksjoner i Project Operations](../../whats-new/removed-depreciated-features-project.md) beskriver funksjoner som er fjernet eller avskrevet for Dynamics 365 Project Operations.
 
 - En fjernet funksjon er ikke lenger tilgjengelig i produktet.
 - En avskrevet funksjon er ikke i aktiv utvikling og kan bli fjernet i en fremtidig oppdatering.
 
-En kunngjøring om avskrivning vil vises i emnet [Fjernede eller avskrevne funksjoner i Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 måneder før en funksjon blir fjernet fra produktet.
+En kunngjøring om avskrivning vil vises i artikkelen [Fjernede eller avskrevne funksjoner i Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 måneder før en funksjon blir fjernet fra produktet.

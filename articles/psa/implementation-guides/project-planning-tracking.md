@@ -1,6 +1,6 @@
 ---
 title: Prosjektplanlegging og sporing
-description: Dette emnet gir en kobling til informasjon om planlegging og sporing i Project Service Automation.
+description: Denne artikkelen inneholder en kobling til informasjon om planlegging og sporing i Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933274"
 ---
 # <a name="project-planning-and-tracking"></a>Prosjektplanlegging og sporing
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589898"
 
 Project Service-appen hjelper serviceorganisasjoner med å identifisere salgsmuligheter, sende bud, inngå kontraktsavtaler, administrere ressurser, spore tid og utgifter, fakturere kunder og levere prosjekter i tide og innenfor budsjettet. 
 
-PDF-koblingen som tidligere var i dette emnet, er fjernet, og innholdet er flyttet til følgende emner:
+PDF-koblingen som tidligere var i denne artikkelen, er fjernet, og innholdet er flyttet til følgende artikler:
 
 - [Prosjektplaner](../project-creating.md)
 - [Prosjektkostnader og -omsetning](../project-estimating.md)
@@ -43,7 +43,7 @@ PDF-koblingen som tidligere var i dette emnet, er fjernet, og innholdet er flytt
 - [Prosjektinnstillinger](../project-settings.md)
 
 > [!NOTE]
-> Dette emnet blir fjernet i en fremtidig oppdatering av dokumentasjonen. 
+> Denne artikkelen blir fjernet i en fremtidig oppdatering av dokumentasjonen. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

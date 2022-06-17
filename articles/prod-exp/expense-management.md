@@ -1,6 +1,6 @@
 ---
 title: Oversikt over utgiftshåndtering
-description: Dette emnet gir generell informasjon om utgiftshåndtering og koblinger til flere ressurser. Du kan bruke utgiftshåndtering til å opprette en integrert arbeidsflyt der du kan lagre informasjon om betalingsmetode, importere kredittkorttransaksjoner og spore pengene som de ansatte bruker når de påløper utgifter for bedriften din
+description: Denne artikkelen inneholder generell informasjon om utgiftshåndtering og koblinger til ytterligere ressurser. Du kan bruke utgiftshåndtering til å opprette en integrert arbeidsflyt der du kan lagre informasjon om betalingsmetode, importere kredittkorttransaksjoner og spore pengene som de ansatte bruker når de påløper utgifter for bedriften din
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934056"
 ---
 # <a name="expense-management-overview"></a>Oversikt over utgiftshåndtering
 

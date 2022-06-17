@@ -1,24 +1,24 @@
 ---
 title: Opprett ressurstilordninger
-description: Dette emnet gir informasjon om oppretting av generelle og navngitte ressurstilordninger.
+description: Denne artikkelen inneholder informasjon om hvordan du oppretter generiske og navngitte ressurstilordninger.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933504"
 ---
 # <a name="create-resource-assignments"></a>Opprett ressurstilordninger
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 
-En ressurstilordning er den direkte tilknytningen av et prosjektteammedlem til en bladnodeoppgave. Dette emnet gir informasjon om de forskjellige måtene å tilordne ressurse på.
+En ressurstilordning er den direkte tilknytningen av et prosjektteammedlem til en bladnodeoppgave. Denne artikkelen inneholder informasjon om de forskjellige måtene du kan tilordne ressurser på.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Opprette et generelt teammedlem gjennom oppgavetilordning
 

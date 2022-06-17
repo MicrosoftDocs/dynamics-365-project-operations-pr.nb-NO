@@ -1,6 +1,6 @@
 ---
 title: Tilbud og tilbudslinjer
-description: Dette emnet inneholder informasjon om tilbud og tilbudslinjer.
+description: Denne artikkelen inneholder informasjon om tilbud og tilbudslinjer.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933366"
 ---
 # <a name="quotes-and-quote-lines"></a>Tilbud og tilbudslinjer
 
@@ -39,7 +39,7 @@ I Dynamics 365 Project Service Automation finnes det to typer tilbud: prosjektti
 - Et salgstilbud inkluderer ikke enkelte felt og konsepter som er inkludert i et prosjekttilbud som har felt. Feltene omfatter **Kontraktenhet**, **Forretningsforbindelsesansvarling** og **Navn på kontakt for fakturering**.  
 - Salgstilbud og prosjekttilbud identifiseres også ved hjelp av et felt basert på et alternativsett med navnet **Type**. For et salgstilbud har dette feltet verdien **Varebasert**. For et prosjekttilbud har det verdien **Arbeidsbasert**.
 
-Dette emnet fokuserer på detaljene i prosjekttilbud.
+Denne artikkelen fokuserer på detaljene i prosjekttilbud.
 
 Et prosjekttilbud i PSA kan ha flere linjeelementer eller tilbudslinjer. Et prosjekttilbud har faktisk to rutenett for linjeelementer. Det ene rutenettet er for prosjektbaserte linjer som tillater detaljerte beregninger. Det andre rutenettet er for produktbaserte linjer som bruker en enkel enhetspris og den antallsbaserte metoden.
 

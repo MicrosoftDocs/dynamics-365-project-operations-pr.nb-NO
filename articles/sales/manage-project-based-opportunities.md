@@ -1,17 +1,17 @@
 ---
 title: Administrere prosjektbaserte salgsmuligheter
-description: Dette emnet gir informasjon om hvordan du arbeider med salgsmuligheter som er relatert til prosjekter.
+description: Denne artikkelen inneholder informasjon om hvordan du arbeider med salgsmuligheter som er knyttet til prosjekter.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933228"
 ---
 # <a name="manage-project-based-opportunities"></a>Administrere prosjektbaserte salgsmuligheter
 
@@ -19,7 +19,7 @@ _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenar
 
 Prosjektrelaterte selskaper har vanligvis sine operasjoner for levering spredt på tvers av flere land og i flere geografier. Kostnaden av prosjektutførelsen og -leveringen kan variere avhengig av hvilken geografi eller divisjon som administrerer leveringen. Dette kan i sin tur påvirke marginene i avtalen. Levering av prosjektrelaterte tjenester involverer vanligvis store mengder menneskelig ressurstid, betydelige utgifter til reise, materialkostnader og andre utgifter.
 
-Prosjektbaserte salgsmuligheter i Dynamics 365 Project Operations er utformet med utvidelser for Dynamics 365 Sales. Emnet inneholder detaljer om de forskjellige feltene og forretningslogikken som er inkludert i tilleggsfunksjonaliteten som er nødvendig for prosjektrelaterte selskaper, for å administrere prosjektrelaterte salgsmuligheter.
+Prosjektbaserte salgsmuligheter i Dynamics 365 Project Operations er utformet med utvidelser for Dynamics 365 Sales. Artikkelen inneholder detaljer om de forskjellige feltene og forretningslogikken som er inkludert i tilleggsfunksjonaliteten som kreves av prosjektbaserte firmaer for å administrere prosjektbaserte salgsmuligheter.
 
 ## <a name="view-all-project-based-opportunities"></a>Vise alle prosjektbaserte salgsmuligheter
 

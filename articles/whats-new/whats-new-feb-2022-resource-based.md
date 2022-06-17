@@ -1,24 +1,24 @@
 ---
 title: Nyheter februar 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-description: Dette emnet inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer fra februar 2022.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer fra februar 2022.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932998"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter februar 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
 *Gjelder: Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer*
 
-Dette emnet gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
+Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i et Dataverse-miljø, versjon 4.28.0.120
 - Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.24
@@ -76,11 +76,11 @@ Hvis det oppstår et problem når du starter tilordningen, følger du instruksjo
 
 ## <a name="removed-and-deprecated-features"></a>Funksjoner som er fjernet og avskrevet
 
-Emnet [Fjernede eller avskrevne funksjoner i Project Operations](removed-depreciated-features-project.md) beskriver funksjoner som er fjernet eller avskrevet for Dynamics 365 Project Operations.
+Artikkelen [Fjernede eller avskrevne funksjoner i Project Operations](removed-depreciated-features-project.md) beskriver funksjoner som er fjernet eller avskrevet for Dynamics 365 Project Operations.
 
 - En fjernet funksjon er ikke lenger tilgjengelig i produktet.
 - En avskrevet funksjon er ikke i aktiv utvikling og kan bli fjernet i en fremtidig oppdatering.
 
-En kunngjøring om avskrivning vil vises i emnet [Fjernede eller avskrevne funksjoner i Project Operations](removed-depreciated-features-project.md) 12 måneder før en funksjon blir fjernet fra produktet.
+En kunngjøring om avskrivning vil vises i artikkelen [Fjernede eller avskrevne funksjoner i Project Operations](removed-depreciated-features-project.md) 12 måneder før en funksjon blir fjernet fra produktet.
 
 For oppdelingsendringer som bare påvirker kompileringstiden, men som er binære kompatible med sandkasse- og produksjonsmiljøer, vil avskrivningstiden være mindre enn 12 måneder. Disse endringene er vanligvis funksjonelle oppdateringer som må gjøres på kompilatoren.

@@ -1,17 +1,17 @@
 ---
 title: Innstillinger for salgsmulighet – Lite
-description: Dette emnet inneholder informasjon om prosjektrelaterte avtaler og prosjektbaserte salgsmulighetslinjer.
+description: Denne artikkelen inneholder informasjon om prosjektbaserte avtaler og prosjektbaserte salgsmulighetslinjer.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f40154fed5790083e3a4d3264cc9f8cc23ae18bc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e2a95c57bff326237fb97a6cf432096833369eb8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934424"
 ---
 # <a name="header-details-for-project-opportunities"></a>Overskriftsdetaljer for prosjektsalgsmuligheter
 

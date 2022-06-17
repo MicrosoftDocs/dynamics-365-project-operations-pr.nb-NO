@@ -1,17 +1,17 @@
 ---
 title: Oversikt over salgsprosess
-description: Dette emnet gir informasjon om grunnleggende salgsprosesser.
+description: Denne artikkelen inneholder informasjon om grunnleggende salgsprosesser.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e99035798f775de5cd59724a9fe0d7ea6de40034
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 27b6b1e6f4d33ae1f8cfafba306b533e12c0cd2b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933159"
 ---
 # <a name="sales-process-overview"></a>Oversikt over salgsprosess
 
@@ -60,7 +60,7 @@ Etter hvert som du flytter avtaler gjennom fasene, blir du bedt om å opprette d
 I Project Operations kan du ikke spore endringer som er gjort i et tilbud. I stedet må du merke det eksisterende tilbudet som **Lukket som tapt** og deretter opprette et nytt tilbud. Du kan kopiere et tilbud eller klone et prosjektbasert tilbud.
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Spore kommentarer og godkjenninger av tilbud og prosjektkontrakter
-Du kan administrere gjennomgang og godkjenning av tilbud og prosjektkontrakter ved hjelp av oppføringsveggen og innlegg. Organisasjonen kan opprette egendefinerte arbeidsflyter og plugin-moduler for å tilordne, omdirigere, videresende og administrere varslinger om arbeidselementer for gjennomgang og godkjenning.
+Du kan administrere gjennomgang og godkjenning av tilbud og prosjektkontrakter ved hjelp av oppføringsveggen og innlegg. Organisasjonen kan opprette egendefinerte arbeidsflyter og programtillegg for å tilordne, omdirigere, videresende og administrere varslinger om arbeidselementer for gjennomgang og godkjenning.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

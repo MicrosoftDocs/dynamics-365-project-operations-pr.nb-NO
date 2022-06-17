@@ -1,24 +1,24 @@
 ---
 title: Nyheter eller endringer i Project Operations, juli 2021 for lagerførte/produksjonsbaserte scenarioer
-description: Denne emne inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i juli 2021-versjonen av Project Operations for lagerførte/produksjonsbaserte scenarioer.
+description: Denne artikkelen inneholder informasjon om kvalitetsoppdateringene som er tilgjengelige i utgivelsen av Project Operations for lagerførte/produksjonsbaserte scenarioer fra juli 2021.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933642"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Nyheter eller endringer i Project Operations, juli 2021 for lagerførte/produksjonsbaserte scenarioer
 
 _**Gjelder:** Project Operations for lagerførte/produksjonsbaserte scenarioer_
 
-Dette emnet gjelder for følgende Dynamics 365 Project Operations-komponenter og versjoner:
+Denne artikkelen gjelder følgende komponenter og versjoner av Dynamics 365 Project Operations:
 
 - Prosjektledelse og regnskap i et Dynamics 365 Finance-miljø versjon 10.0.20
  
