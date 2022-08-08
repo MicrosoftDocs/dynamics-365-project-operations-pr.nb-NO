@@ -2,22 +2,22 @@
 title: Journal for Project Operations-integrering
 description: Denne artikkelen inneholder informasjon om arbeid med journalen for integrering i Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923890"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106287"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal for Project Operations-integrering
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Tid og utgifter-oppføringer oppretter **Faktisk**-transaksjoner, som representerer driftsvisningen av arbeid som fullføres mot et prosjekt. Dynamics 365 Project Operations gir regnskapsførere et verktøy for å gjennomgå transaksjoner og justere regnskapsattributtene etter behov. Når gjennomgangen og justeringene er fullført, blir transaksjonene postert til prosjektets underfinansjournal og økonomimodulen. En regnskapsfører kan utføre disse aktivitetene ved hjelp av **Project Operations-integrering**-journalen (**Dynamics 365 Finance** > **Prosjektstyring og regnskap** > **Journaler** > **Prosjekt Operations-integrering**-journalen.
+Oppføringer for tid, utgift, gebyr og materiale oppretter **Faktisk**-transaksjoner, som representerer driftsvisningen av arbeid som fullføres mot et prosjekt. Dynamics 365 Project Operations gir regnskapsførere et verktøy for å gjennomgå transaksjoner og justere regnskapsattributtene etter behov. Når gjennomgangen og justeringene er fullført, blir transaksjonene postert til prosjektets underfinansjournal og økonomimodulen. En regnskapsfører kan utføre disse aktivitetene ved hjelp av **Project Operations-integrering**-journalen (**Dynamics 365 Finance** > **Prosjektstyring og regnskap** > **Journaler** > **Prosjekt Operations-integrering**-journalen.
 
 ![Integreringsjournalflyt.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Bare følgende regnskapsattributter kan oppdateres i journallinjene for Project 
 - **Mva-gruppe for fakturering** og **Mva-gruppe for faktureringsvare**
 - **Finansdimensjoner** (ved hjelp av **Fordel beløp**-handling)
 
-Integreringsjournallinjer kan slettes, men eventuelle ikke-bokførte linjer settes inn i kladden på nytt etter at du har kjørt den periodiske prosessen **Import fra oppsamling** på nytt.
+Integreringsjournallinjer kan slettes. Men eventuelle ikke-bokførte linjer settes inn i kladden på nytt etter at du har kjørt den periodiske prosessen **Import fra oppsamling** på nytt.
+
+### <a name="post-the-project-operations-integration-journal"></a>Poster Project Operations-integreringssjournalen
 
 Når du posterer integreringsjournalen, opprettes det en underfinansjournal for prosjekt og transaksjoner i økonomimodulen. Disse brukes i nedstøms kundefakturering, inntektsføring og finansrapportering.
 
+Den valgte integreringskladden for Project Operations kan posteres ved hjelp **Post** på Project Operations-integreringsjournalen. Alle journaler kan legges inn automatisk ved å kjøre en prosess i **Periodisk** > **Project Operations-integrering** > **Project Operations-integreringsjournal**.
+
+Postering kan utføres interaktivt eller i en gruppe. Vær oppmerksom på at alle journaler som har mer enn 100 linjer, automatisk blir lagt inn i et parti. For å få bedre ytelse når journaler som har mange linjer, legges parti, aktiverer du funksjonen **Poster Project Operations-integreringssjournalen** i arbeidsområdet **Funksjonsbehandling**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Overføre alle linjer som har innleggsfeil, til en ny journal
+
+> [!NOTE]
+> Hvis du vil bruke denne funksjonen, aktiverer du **Overfør alle linjer med posteringsfeil til en ny Project Operations-integreringsjournal** i arbeidsområdet **Funksjonsbehandling**.
+
+Under postering i Project Operations-integreringsjournalen validerer systemet hver linje i journalen. Systemet posterer alle linjer som ikke har feil, og oppretter en ny journal for alle linjer som har innleggsfeil. Hvis du vil se gjennom journalene som har posteringsfeillinjer, går du til **Prosjektstyring og regnskap** > **Journaler** > **Project Operations-integreringsjournal** og filtrerer journalene ved hjelp av feltet **Opprinnelig journal**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

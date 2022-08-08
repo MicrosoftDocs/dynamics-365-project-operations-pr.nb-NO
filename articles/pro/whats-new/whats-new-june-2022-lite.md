@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959443"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031205"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>Nyheter juni 2022 – Project Operations Lite-distribusjon
 
@@ -20,7 +20,7 @@ _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
 Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamics 365 Project Operations:
 
-- Project Operations i et Dataverse-miljø, versjon 4.43.0.77
+- Project Operations i et Dataverse-miljø, versjon 4.43.0.77 eller 4.43.0.119
 
 ## <a name="quality-updates"></a>Kvalitetsoppdateringer
 

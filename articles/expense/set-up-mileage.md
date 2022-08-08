@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930146"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064290"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Angi reisegodtgjørelse ved hjelp av kjørelengdenivåer
 
@@ -50,5 +50,15 @@ Funksjonen for **beregningen av reisegodtgjørelsesbeløp for flere reisegodtgj�
 
 Når du har aktivert funksjonen, tilbakestiller du reisegodtgjørelsesnivåene, slik at de gjenspeiler verdien i **Antall**-feltet på riktig måte. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Aktivere totalberegningen for reisegodtgjørelse med regnskapsårfunksjonen
+
+Funksjonen for **totalberegning av reisegodtgjørelse etter regnskapsår** gir en ny innstilling i parametere for administrasjon av utgifter som utfører totalberegninger for kilometer per regnskapsår i stedet for kalenderåret. Fullfør fremgangsmåten nedenfor for å aktivere denne funksjonen.
+
+1. Gå til **Arbeidsområder** > **Funksjonsbehandling**.
+1. Finn og velg funksjonen for **totalberegning av av reisegodtgjørelse etter regnskapsår**, og velg deretter **Aktiver nå**.
+1. Gå til **Utgiftshåndtering** > **Oppsett** > **Generelt** > **Parametere for utgiftshåndtering**.
+1. På siden **Parametere for utgiftshåndtering** finner og aktiverere du **Bruk regnskapsår for totalberegning av av reisegodtgjørelse**.
+
+Når du har aktivert **Bruk regnskapsår for totalberegning av av reisegodtgjørelse** kalkuleres kilometerlengde av regnskapsår.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

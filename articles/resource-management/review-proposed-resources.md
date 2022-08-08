@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924856"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183987"
 ---
 # <a name="review-proposed-resources"></a>Se gjennom foreslåtte ressurser
 
@@ -40,8 +40,8 @@ Følg denne fremgangsmåten for å se gjennom foreslåtte ressurser:
     Følgende statusoppdateringer inntreffer:
 
     - På siden **Planleggingsassistent** oppdateres statusindikatorene for å indikere at bestillingen er foreslått, ikke forpliktende bestilt.
-    - I ressursforespørselen endres statusen til **Må gjennomgås**.
-    - I kategorien **Team** i prosjektet endres verdien for det generelle teammedlemmets **Forespørselsstatus** til **Må gjennomgås**.
+    - I ressursforespørselen skal kontrolløren av forespørselen endre statusen til **Må gjennomgås**.
+    - I kategorien **Team** i prosjektet endres verdien for det generelle teammedlemmets **Forespørselsstatus** til **Må gjennomgås** automatisk.
 
 Prosjektlederen kan godta eller avvise forslaget.
 

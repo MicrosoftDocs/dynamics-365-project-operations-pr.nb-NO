@@ -2,7 +2,7 @@
 title: Mobilappen Project Timesheet
 description: Denne artikkelen inneholder informasjon om mobilappen Microsoft Dynamics 365 Project Timesheet. Med mobilappen Project Timesheet kan brukere sende og godkjenne timeregistreringer for prosjekter på den mobile enheten.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923982"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110987"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilappen Project Timesheet
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923982"
 
 ## <a name="overview"></a>Oversikt
 
-Med mobilappen Microsoft Dynamics 365 Project Timesheet kan brukere sende og godkjenne timeregistreringer for prosjekter på den mobile enheten (iPhone eller Android). Denne mobilappen viser timeregistreringsfunksjonaliteten som befinner seg i området Prosjektstyring og regnskap i Dynamics 365 Finance, som forbedrer brukernes produktivitet og effektivitet og gjør det mulig å legge inn oppføringer til rett tid og godkjenne timeregistreringer for prosjekt.
+Med mobilappen Microsoft Dynamics 365 Project Timesheet kan brukere sende og godkjenne timeregistreringer for prosjekter på den mobile enheten (iPhone eller Android). Denne mobilappen viser timeregistreringsfunksjonaliteten som befinner seg i prosjektstyrings- og regnskapsområdet i Dynamics 365 Finance. Den hjelper deg med å forbedre produktiviteten og effektiviteten til brukere og bidrar også til at prosjekttimeregistreringer registreres og godkjennes til rett tid.
 
 ## <a name="download-and-install-the-mobile-app"></a>Laste ned og installere mobilappen
 
@@ -38,6 +38,19 @@ Last ned og Installer Microsoft Dynamics 365 Project Timesheet-mobilappen for An
 
 I Finance må Project Timesheet-mobilappen være aktivert. Hvis du vil aktivere funksjonaliteten, går du til **Parametere for prosjektstyring og regnskap \> Timeregistrering** og velger **Aktiver Microsoft Dynamics 365 Project Timesheet**-parameteren.
 
+### <a name="resolve-sign-in-issues"></a>Løse problemer med pålogging
+
+**Problem:** Når brukerne logger seg på Project Timesheet-mobilappen, får de en feilmelding om at det ikke er mulig å få tilgang til appen 2bc50526-cdc3-4e36-a970-c284c34cbd6e i denne leieren.
+
+**Problem:** Når brukerne logger på Project Timesheet-mobilappen, får de en feilmelding som ligner på ett av følgende eksempler:
+
+- AADSTS50020: Brukerkonto [brukernavn] fra identitetsleverandøren https://sts.windows.net/[app-id] finnes ikke i leieren [leier-ID], og har ikke tilgang til programmet [app-id] i leieren.
+- Valgt brukerkonto finnes ikke i leier [leier-id] og har ikke tilgang til programmet [app-id] i den leieren.
+
+**Forklaring:** Disse problemene skyldes en endring som ble gjort i Azure Active Directory (Azure AD) i mai 2022, og som er relatert til eksterne brukere. Denne endringen er ikke utført for å finansiere apper og operasjoner, og derfor kan det påvirke kunder i alle versjoner av plattformen eller programmet.
+
+**Løsning:** Inviter alle eksterne brukere til leieren via Azure AD. Hvis du vil ha mer informasjon, kan du se [Invitere brukere med Azure Active Directory B2B-samarbeid](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Logge på appen
 
 1.  Start appen på mobilenheten.
@@ -46,7 +59,7 @@ I Finance må Project Timesheet-mobilappen være aktivert. Hvis du vil aktivere 
 
 3.  Første gang du logger deg på, blir du bedt om å oppgi brukernavn og passord. Angi legitimasjonen din.
 
-4.  Du blir logget på standardfirmaet ditt.
+4. Du blir logget på standardfirmaet ditt.
 
 ## <a name="submit-a-project-timesheet"></a>Sende inn en prosjekttimeregistrering
 

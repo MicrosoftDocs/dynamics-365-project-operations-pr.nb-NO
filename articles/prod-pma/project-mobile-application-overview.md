@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922878"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028898"
 ---
 # <a name="project-mobile-applications-overview"></a>Oversikt over mobilapper for prosjekter
 
@@ -33,11 +33,11 @@ Med mobilappen Dynamics 365 Project Timesheet kan brukere sende og godkjenne tim
 
 ## <a name="project-time-entry-workspace"></a>Arbeidsområdet Tidsoppføring for prosjekt
 
-Arbeidsområdet Tidsoppføring for prosjekt gjør det mulig for brukere å skrive inn og spare tid på et prosjekt. Det gjør det imidlertid ikke mulig for brukere å sende eller godkjenne prosjekttimeregistreringer. Den kan bare brukes til tidsregistrering. Dette mobile arbeidsområdet er ment å brukes sammen med Finance and Operations-mobilappen.
+Arbeidsområdet Tidsoppføring for prosjekt gjør det mulig for brukere å skrive inn og spare tid på et prosjekt. Det gjør det imidlertid ikke mulig for brukere å sende eller godkjenne prosjekttimeregistreringer. Den kan bare brukes til tidsregistrering. Dette mobile arbeidsområdet er ment å brukes sammen med økonomi og drift-mobilappen.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mine timeregistreringer / Timeregistreringer for min gjennomgang
 
-Mine timeregistreringer (optimalisert for mobil) og Timeregistreringer for min gjennomgang (optimalisert for mobil) utgjør en løsning som ansatte kan bruke til å opprette, sende og godkjenne timeregistreringer for prosjekter på en mobil enhet. Arbeidere kan få tilgang til Finance-funksjonaliteten via URL-adressen til programmet. Denne løsningen krever ikke Finance and Operations-mobilappen.
+Mine timeregistreringer (optimalisert for mobil) og Timeregistreringer for min gjennomgang (optimalisert for mobil) utgjør en løsning som ansatte kan bruke til å opprette, sende og godkjenne timeregistreringer for prosjekter på en mobil enhet. Arbeidere kan få tilgang til Finance-funksjonaliteten via URL-adressen til programmet. Denne løsningen krever ikke økonomi og drift-mobilappen.
 
 ## <a name="for-more-information"></a>For mer informasjon
 

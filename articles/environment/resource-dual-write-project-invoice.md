@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61f16ebdbabd6545c09d8d7bd82d99b85dc09975
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912114"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029036"
 ---
 # <a name="project-invoice-integration"></a>Integrering av prosjektfaktura
 
@@ -24,6 +24,6 @@ I Project Operations administrerer prosjektlederen prosjektfaktureringsrestansen
 
 Når prosjektlederen har kontrollert proformafakturaen i Dataverse, synkroniseres informasjonen i proformafakturahodet med økonomi- driftsapper ved hjelp av tabelltilordningen med dobbel skriving, **Prosjektfakturaforslag V2 (fakturaer)**. Dette er en enveisintegrering fra Dataverse til økonomi- og driftsapper. Oppretting eller sletting av prosjektfakturaforslag direkte i økonomi- og driftsapper støttes ikke.
 
-Fakturabekreftelse i Dataverse utløser også forretningslogikken for å opprette faktureringsrelaterte oppføringer i **Faktiske verdier**-enheten. Disse oppføringer synkroniseres til Finance and Operations ved å bruke tabelltilordningen med dobbel skriving, **Faktiske verdier for Project Operations-integrering (msdyn\_actuals).** Hvis du vil ha mer informasjon, se [Prosjektestimater og faktiske verdier](resource-dual-write-estimates-actuals.md). 
+Fakturabekreftelse i Dataverse utløser også forretningslogikken for å opprette faktureringsrelaterte oppføringer i **Faktiske verdier**-enheten. Disse oppføringer synkroniseres til økonomi og drift ved å bruke tabelltilordningen med dobbel skriving, **Faktiske verdier for Project Operations-integrering (msdyn\_actuals).** Hvis du vil ha mer informasjon, se [Prosjektestimater og faktiske verdier](resource-dual-write-estimates-actuals.md). 
 
 Prosjektfakturaforslagslinjer opprettes av den periodiske prosessen **Importer skjemaoppsamling**. Denne prosessen er basert på detaljer om faktiske data for fakturert salg i tabellen **Oppsamling av faktiske verdier**. Hvis du vil ha mer informasjon, kan du se [Behandle prosjektfakturaforslag](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals). 

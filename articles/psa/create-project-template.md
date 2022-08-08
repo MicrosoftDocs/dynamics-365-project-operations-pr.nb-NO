@@ -4,7 +4,7 @@ description: Slik oppretter du en prosjektmal i Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599006"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177438"
 ---
 # <a name="create-a-project-template-project-service"></a>Opprette en prosjektmal (Project Service)
 
@@ -40,7 +40,14 @@ Prosjektmaler spare tid hvis firmaet jevnlig byr på lignende typer prosjekter. 
 - **Prosjektestimater**:Prosjektestimater i maler fungerer på samme måte som de gjør i prosjekter, bortsett fra at prislister for tilbakestilling av kostnadene og salgsprisene alltid er standardkostnader og salgsprislister definert i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-parameterne. Resten av funksjonaliteten er den samme som i et prosjekt.  
   
 - **Sette sammen prosjektteam**: Når du setter sammen et prosjektteam for en prosjektmal, kan du bestille en navngitt ressurs i en mal. Du kan bruke **Genererer prosjektteam** i arbeidsnedbrytningsstrukturen til å generere et sett med generelle ressurser. Du kan også angi nødvendige ferdigheter og kompetanser for generelle ressurser. Du kan ikke erstatte en generell ressurs med en bestillbar ressurs i prosjektmaler.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Opprette en prosjektmal fra et eksisterende prosjekt
+Du kan opprette en mal fra et prosjekt på disse måtene:
+
+- **Arbeidsnedbrytningsstruktur**: En arbeidsnedbrytningsstruktur i en mal som avledes fra et prosjekt, kopierer alle oppgaver og avhengigheter. Tilordningene som opprettes, baseres på de generiske teammedlemmene som legges til i prosjektgruppen når prosjektmalen opprettes.
+- **Prosjektestimater**: Når en prosjektmal opprettes fra et eksisterende prosjekt, kopieres estimatene fra kildeprosjektet til prosjektmalen.
+- **Prosjektteammedlemmer**: Når en mal opprettes fra et eksisterende prosjekt, erstattes alle navngitte teammedlemmer med organisasjonens generelle ressurs. Alle posisjonsnavn og roller vedlikeholdes.
+
 ## <a name="create-a-project-from-a-template"></a>Opprette et prosjekt fra en mal  
  Du kan opprette et prosjekt fra en mal på disse måtene:  
   

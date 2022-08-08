@@ -2,17 +2,17 @@
 title: Feilsøke arbeid i oppgaverutenettet
 description: Denne artikkelen inneholder informasjon om feilsøking du trenger når du arbeider i oppgaverutenettet.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911056"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188244"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Feilsøke arbeid i oppgaverutenettet 
 
@@ -72,7 +72,10 @@ Project Operations krever at en prosjektparameter refererer til PEX-endepunktet.
 4. Fjern feltet fra siden **Prosjektparametere**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Løsning 3: Logg på project.microsoft.com
-Åpne en ny fane i Microsoft Edge-nettleseren, gå til project.microsoft.com og logg på ved å bruke brukerrollen du bruker for å få tilgang til Project Operations.
+
+Åpne en ny fane i -nettleseren, gå til project.microsoft.com og logg på ved å bruke brukerrollen du bruker for å få tilgang til Project Operations. Det er viktig at bare én bruker er logget på et Microsoft-produkt i nettleseren. Feilmeldingen "login.microsoftonline.com nektet å koble til" vises oftest når mer enn én bruker er logget på, som vist i illustrasjonen nedenfor.
+
+![Velg en påloggingsside for en konto som viser at to brukere er logget på.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Prosjektet lastes ikke inn, og brukergrensesnittet står fast på spinneren
 

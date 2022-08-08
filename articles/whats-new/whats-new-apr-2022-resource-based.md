@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912390"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110896"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter april 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -25,7 +25,7 @@ Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funksjoner som er inkludert i denne versjonen
 
-Innkjøpskategorier kan ikke brukes i prosjektbestillinger og ventende leverandørfakturaer. For mer informasjon, se [Bruk innkjøpskategorier med prosjektbestillinger og ventende leverandørfakturaer](configure-procurement-categories.md).
+Innkjøpskategorier kan ikke brukes i prosjektbestillinger og ventende leverandørfakturaer. For mer informasjon, se [Bruk innkjøpskategorier med prosjektbestillinger og ventende leverandørfakturaer](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Oppdateringer av tilordninger for dobbel skriving for Project Operations
 

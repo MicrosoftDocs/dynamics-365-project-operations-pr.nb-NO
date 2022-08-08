@@ -1,5 +1,5 @@
 ---
-title: Synkroniser prosjektoppgaver direkte fra Project Service Automation til Finance and Operations
+title: Synkroniser prosjektoppgaver direkte fra Project Service Automation til økonomi og drift
 description: Denne artikkelen beskriver malen og den underliggende oppgavene som brukes til å synkronisere prosjektoppgaver direkte fra Microsoft Dynamics 365 Project Service Automation til Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ed559fcd9e0e666f68e7d9f4f1fca91417fe4970
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931158"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028373"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser prosjektoppgaver direkte fra Project Service Automation til Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkroniser prosjektoppgaver direkte fra Project Service Automation til økonomi og drift
 
 [!include[banner](../includes/banner.md)]
 
