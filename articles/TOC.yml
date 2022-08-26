@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
-        - name: Juli 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: August 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arkiv
           items:
+            - name: Juli 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juni 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Mai 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -384,6 +386,42 @@
           items:
             - name: Oversikt over ressursutnyttelse
               href: resource-management/resource-utilization-overview.md
+    - name: Administrasjon av underkontrakt
+      items:
+        - name: Administrasjon av underkontrakt i Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Nøkkelkonsepter i underkontrakter
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Administrasjon av leverandører og prosjektprislister
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Underleverandører som ressurser som kan reserveres
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Overskriftsdetaljer for underkontrakter
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Underkontraktlinjer for tid
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Underkontraktlinjer for utgiftskategorier
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Underkontraktlinjer for produkter
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressurser for underkontraktlinje
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milepæler for underkontraktlinje
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Prosjektteammedlemmer for underkontrakter
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Underkontraktalternativer for prosjektteammedlemmer
+          href: pro/subcontracting/subcon-options.md
+        - name: Kostnadsberegning av tilordninger for underleveranseressurs
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurer planleggingstavlen for å vise kontraktarbeidere og underkontraktkapasitet
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Bemanning av et prosjekt med kontraktarbeidere og underkontraktkapasitet
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registrering av tid, utgifter og materialbruk for underkontraktkomponenter'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Tilstandsoverganger på en underkontrakt
+          href: pro/subcontracting/subcon-states.md
     - name: Tid
       items:
         - name: Oversikt over tid
@@ -580,7 +618,9 @@
       items:
         - name: Overfør fullstendig fakturerte faktureringsmilepæler under overgang
           href: advanced-configuration/migrating-invoiced-milestones.md
-    - name: Oppgradering
+        - name: Synkroniser prosjektstatus for å hindre oppføring mot lukkede prosjekter
+          href: advanced-configuration/sync-project-status.md
+    - name: Oppgrader
       items:
         - name: Oppgraderingshensyn for moderne godkjenninger
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Nyheter juli 2022 – Lite-distribusjon
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Nyheter august 2022 – Lite-distribusjon
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arkiv
           items:
+            - name: Nyheter juli 2022 – Lite-distribusjon
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Nyheter juni 2022 – Lite-distribusjon
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Nyheter i bølge 2 i 2021 for tidlig tilgang – Lite-distribusjon
@@ -1080,7 +1122,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfigurer automatisering av prosjektfaktura
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Oppgradering
+    - name: Oppgrader
       items:
         - name: Oppgraderingshensyn for moderne godkjenninger
           href: upgrade/upgrade-considerations-modern-approvals.md
