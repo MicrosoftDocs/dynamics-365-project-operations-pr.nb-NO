@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929226"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230328"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Bruk API-er for prosjektplan til å utføre operasjoner med planleggingsenheter
 
@@ -45,9 +45,9 @@ Nedenfor vises en liste over gjeldende API-er for prosjektplan.
 - **msdyn_CreateProjectV1:** Denne API-en kan brukes til å opprette et prosjekt. Prosjektet og standard prosjektsamling opprettes umiddelbart.
 - **msdyn_CreateTeamMemberV1:** Denne API-en kan brukes til å opprette et prosjektteammedlem. Teammedlemsoppføringen opprettes umiddelbart.
 - **msdyn_CreateOperationSetV1**: Denne API-en kan brukes til å planlegge flere forespørsler som må utføres i en transaksjon.
-- **msdyn_PSSCreateV1**: Denne API-en kan brukes til å opprette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter opprettingsoperasjonen.
-- **msdyn_PSSUpdateV1**: Denne API-en kan brukes til å oppdatere en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter oppdateringsoperasjonen.
-- **msdyn_PSSDeleteV1**: Denne API-en kan brukes til å slette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter sletteoperasjonen.
+- **msdyn_PssCreateV1**: Denne API-en kan brukes til å opprette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter opprettingsoperasjonen.
+- **msdyn_PssUpdateV1**: Denne API-en kan brukes til å oppdatere en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter oppdateringsoperasjonen.
+- **msdyn_PssDeleteV1**: Denne API-en kan brukes til å slette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter sletteoperasjonen.
 - **msdyn_ExecuteOperationSetV1**: Denne API-en brukes til å kjøre alle operasjonene i det angitte operasjonssettet.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Bruk av API-er for prosjektplan med OperationSet

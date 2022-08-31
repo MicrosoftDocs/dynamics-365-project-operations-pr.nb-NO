@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959479"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316954"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Nyheter eller endringer i Project Operations i juni 2022 for lagerførte/produksjonsbaserte scenarioer
 
@@ -24,7 +24,7 @@ Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funksjoner som er inkludert i denne versjonen
 
-Varekrav kan brukes for prosjektkontrakter som har flere finansieringskilder. Hvis du vil ha mer informasjon, kan du se [Varekrav for prosjektkontrakter med flere finansieringskilder](/multiple-funding-sources-item-req.md).
+Varekrav kan brukes for prosjektkontrakter som har flere finansieringskilder. Hvis du vil ha mer informasjon, kan du se [Varekrav for prosjektkontrakter med flere finansieringskilder](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Kvalitetsoppdateringer
 

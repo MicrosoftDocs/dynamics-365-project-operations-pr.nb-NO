@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
-ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
+ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9188291"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295891"
 ---
 # <a name="project-operations-updates"></a>Project Operations-oppdateringer
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations består av to komponenter:
 
 | Project Operations i Dataverse-miljø | Prosjektstyring og regnskap i økonomi- og driftsapper | 
 | --- | --- |
-| 4.44.0.22 | 10.0.28 |
+| 4.45.0.53 | 10.0.28 |
 
 Når det gjelder et ressursbasert/ikke-lagerbasert scenario i Project Operations, anbefaler vi at du bruker Orchestration versjon 2.3.1.15 eller nyere med dobbel skriving.
 
@@ -47,24 +47,24 @@ Oppdateringer for Project Operations i Dataverse-miljø er tilgjengelige månedl
 | Stasjon | Område | Gjeldende versjonsnummer | Automatiske oppdateringer for Lite-distribusjon | Automatiske oppdateringer for ressursbasert/ikke-lagerbasert distribusjon | Neste versjonsnummer | Neste versjon er allment tilgjengelig |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stasjon 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Første versjon         |  4.44.0.22      | Fullført           | Fullført            | TBD                 | 05. august 2022       |
+|   &nbsp;  | Første versjon         |  4.45.0.53      | Fullført           | Fullført            | TBD                 | 26. august 2022       |
 | Stasjon 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sør-Amerika         |  4.44.0.22      | Fullført           | Fullført            | TBD                 | 06. august 2022       |
-|   &nbsp;  | Canada                |  4.44.0.22      | Fullført           | Fullført            | TBD                 | 06. august 2022       |
-|   &nbsp;  | India                 |  4.44.0.22      | Fullført           | Fullført            | TBD                 | 06. august 2022       |
-|   &nbsp;  | Frankrike                |  4.44.0.22      | Fullført           | Fullført            | TBD                 | 06. august 2022       |
-|   &nbsp;  | Sør-Afrika          |  4.44.0.22      | Fullført           | Fullført            | TBD                 | 06. august 2022       |
-|   &nbsp;  | Sveits           |  4.44.0.22      | Fullført           | Fullført            | TBD                 | 06. august 2022       |
+|   &nbsp;  | Sør-Amerika         |  4.45.0.53      | Fullført           | Fullført            | TBD                 | 02. september 2022       |
+|   &nbsp;  | Canada                |  4.45.0.53      | Fullført           | Fullført            | TBD                 | 02. september 2022       |
+|   &nbsp;  | India                 |  4.45.0.53      | Fullført           | Fullført            | TBD                 | 02. september 2022       |
+|   &nbsp;  | Frankrike                |  4.45.0.53      | Fullført           | Fullført            | TBD                 | 02. september 2022       |
+|   &nbsp;  | Sør-Afrika          |  4.45.0.53      | Fullført           | Fullført            | TBD                 | 02. september 2022       |
+|   &nbsp;  | Sveits           |  4.45.0.53      | Fullført           | Fullført            | TBD                 | 02. september 2022       |
 | Stasjon 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.44.0.22      | Fullført      | Fullført       | TBD                 | 12. august 2022       |
-|   &nbsp;  | Asia/Stillehavskysten          |  4.44.0.22      | Fullført      | Fullført       | TBD                 | 12. august 2022       |
-|   &nbsp;  | Storbritannia         |  4.44.0.22      | Fullført      | Fullført       | TBD                 | 12. august 2022       |
-|   &nbsp;  | Oseania               |  4.44.0.22      | Fullført      | Fullført       | TBD                 | 12. august 2022       |
-|   &nbsp;  | Forente arabiske emirater  |  4.44.0.22      | Fullført      | Fullført       | TBD                 | 12. august 2022       |
+|   &nbsp;  | Japan                 |  4.44.0.22      | Fullført      | Fullført       | 4.45.0.53                 | 19. august 2022       |
+|   &nbsp;  | Asia/Stillehavskysten          |  4.44.0.22      | Fullført      | Fullført       | 4.45.0.53                 | 19. august 2022       |
+|   &nbsp;  | Storbritannia         |  4.44.0.22      | Fullført      | Fullført       | 4.45.0.53                 | 19. august 2022       |
+|   &nbsp;  | Oseania               |  4.44.0.22      | Fullført      | Fullført       | 4.45.0.53                 | 19. august 2022       |
+|   &nbsp;  | Forente arabiske emirater  |  4.44.0.22      | Fullført      | Fullført       | 4.45.0.53                 | 19. august 2022       |
 | Stasjon 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.43.0.119      | Fullført           | Fullført            | 4.44.0.22           | 29. juli 2022       |
+|   &nbsp;  | Europa                |  4.44.0.22      | Fullført           | Fullført            | 4.45.0.53           | 26. august 2022       |
 | Stasjon 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nord-Amerika         |  4.43.0.119      | Fullført           | Fullført            | 4.44.0.22           | 05. august 2022       |
+|   &nbsp;  | Nord-Amerika         |  4.44.0.22      | Fullført           | Fullført            | 4.45.0.53           | 02. september 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lanseringsplan for prosjektstyring og regnskap i miljøet for økonomi- og driftsapper
 
