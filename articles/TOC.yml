@@ -166,9 +166,11 @@
                   href: sales/import-estimate-quote-line.md
                 - name: Fakturaplaner på prosjektbaserte tilbudslinjer
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopiere prosjekttilbud
+            - name: Kopier prosjekttilbud
               href: sales/lose-quote.md
-            - name: Lukke prosjekttilbud
+            - name: Aktiver og revider et prosjekttilbud
+              href: sales/activation-and-revision.md
+            - name: Lukk prosjekttilbud
               href: sales/win-quote.md
         - name: Administrer prosjektkontrakter
           items:
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Opprett fakturaplaner på prosjektbaserte kontraktlinjer
                   href: sales/invoice-schedules-contract-line.md
+            - name: Kopier prosjektbaserte kontrakter
+              href: sales/copy-project-based-contracts-sales.md
             - name: Bekreft en prosjektkontrakt
               href: pro/sales/confirm-contract-sales.md
             - name: Forskudd og honorarer
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Overstyr salgsprislister for prosjekt
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Løse kostpriser for estimater og faktiske verdier
+            - name: Fastslå kostpriser for estimater og faktiske verdier
               href: pricing-costing/cost-price-resolution.md
-            - name: Løs salgspriser for estimater og faktiske verdier
+            - name: Fastslå salgspriser for estimater og faktiske verdier
               href: pricing-costing/sales-price-resolution.md
             - name: Kopier prislister
               href: pricing-costing/copy-price-lists.md
@@ -760,13 +764,15 @@
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Estimere en prosjektbasert tilbudslinje
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Importere estimat fra et prosjekt
+                - name: Importer estimat fra et prosjekt
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Administrere fakturaplaner
+                - name: Administrer fakturaplaner
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopiere prosjektbaserte tilbud
+            - name: Kopier prosjektbaserte tilbud
               href: sales/lose-quote.md
-            - name: Lukke prosjektbaserte tilbud
+            - name: Aktiver og revider et prosjekttilbud
+              href: sales/activation-and-revision.md
+            - name: Lukk prosjektbaserte tilbud
               href: pro/sales/win-quote-sales.md
         - name: Administrer prosjektbaserte kontrakter
           items:
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Overstyr salgsprislister for prosjekt
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Løs kostpriser på prosjektestimater og faktiske verdier
+            - name: Fastslå kostpriser på prosjektestimater og faktiske verdier
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Løs salgspriser for prosjektestimater og faktiske verdier
+            - name: Fastslå salgspriser for prosjektestimater og faktiske verdier
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kopier prislister
               href: pricing-costing/copy-price-lists.md
