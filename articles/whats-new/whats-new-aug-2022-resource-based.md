@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348024"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403869"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter august 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -38,6 +38,11 @@ Hvis det oppstår et problem når du starter tilordningen, følger du instruksjo
 | Funksjonsområdet | Referansenummer | Kvalitetsoppdatering |
 | --- | --- | --- |
 |   Administrasjon av salgsmuligheter | 2762089 | Feilhåndtering under lukking av kontrakten som tapt hvis automatisk lagring er deaktivert i organisasjonen.|
+|Prosjektplanlegging og sporing | 2767841 | Telemetri oppdaterer opprettelses- eller oppdateringsscenarioer for prosjektenhet.|
+|Fakturering og prising | 2771072 | Håndtering av nullreferanseunntak under vinning av tilbud.|
+|Fakturering og prising | 2844181 |Feil under henting av en korrelasjons-ID og blokkering av en fakturaopprettelse.|
+|Fakturering og prising | 2852836 | Manglende konserninterne faktiske verdier for konsernintern utgift opprettet og godkjent i CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Oversikt over prosjektstyring og regnskap i Finans
 

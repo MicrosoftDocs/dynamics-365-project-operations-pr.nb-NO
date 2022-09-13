@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 471cf1fc24010351a76394cb2342d2cfe14da1cb
-ms.sourcegitcommit: 360eccc09e47f81cd57affa9f0012641b7351694
+ms.openlocfilehash: 95681a4e1c0c42e8a29810796ee84429c94cc7cd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9321402"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403916"
 ---
 # <a name="whats-new-august-2022---project-operations-lite-deployment"></a>Nyheter august 2022 – Project Operations Lite-distribusjon
 
@@ -27,3 +27,7 @@ Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamic
 | Funksjonsområdet | Referansenummer | Kvalitetsoppdatering |
 | --- | --- | --- |
 |   Administrasjon av salgsmuligheter | 2762089 | Feilhåndtering under lukking av kontrakten som tapt hvis automatisk lagring er deaktivert i organisasjonen.|
+|Prosjektplanlegging og sporing | 2767841 | Telemetri oppdaterer opprettelses- eller oppdateringsscenarioer for prosjektenhet.|
+|Fakturering og prising | 2771072 | Håndtering av nullreferanseunntak under vinning av tilbud.|
+|Fakturering og prising | 2844181 |Feil under henting av en korrelasjons-ID og blokkering av en fakturaopprettelse.|
+|Fakturering og prising | 2852836 | Manglende konserninterne faktiske verdier for konsernintern utgift opprettet og godkjent i CE.|

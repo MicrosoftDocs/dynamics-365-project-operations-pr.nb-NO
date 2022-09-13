@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183923"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403964"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter juli 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
 
@@ -45,6 +45,12 @@ Hvis det oppstår et problem når du starter tilordningen, følger du instruksjo
 | Fakturering og prising | 2675880 | Forhindre at et prosjekt kobles til en kontraktlinje som ikke er arbeidsbasert. |
 | Fakturering og prising | 2664396 | Hvis en tilbudsprisliste lagres uten et tilbud, må det finnes en feil som angir at tilbudet ikke kan være tomt. |
 | Fakturering og prising | 2184019 | Kategorien **Oppgavebasert fakturering** skal ikke vises for prosjekter som ikke har støttekontrakt eller tilbud. |
+| Tid og utgift | 2754459 | Vis banner og omgå asynkron behandling når regelmessig planlegging av skyflyt er inaktiv. |
+| Fakturering og prising | 2724391 | Feil unntak oppstår når regelen for delt fakturering for prosjektkontrakt mangler en kundeverdi. |
+| Fakturering og prising | 2708638 | Finner ikke oppføring under søk med rutenettsøk i materialbruk og godkjenninger for materialbruk.|
+| Fakturering og prising | 2686977 | Forhindre validering for fakturalinje under oppretting av faktura. |
+| Fakturering og prising | 2683032 | Kopiering av belastbare roller og kategorier kan ikke skaleres utover 5000 oppføringer.|
+| Fakturering og prising | 2673363 | Kostnadsforbruk % i prosjekt blir skadet når det finnes både innsats- og utgiftsestimater og faktiske verdier for et prosjekt. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Oversikt over prosjektstyring og regnskap i Finans
 
