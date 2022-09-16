@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Overstyr salgsprislister for prosjekt
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Definer datoeffektive overstyringer for bestemte priser i en prisliste
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Fastslå kostpriser for estimater og faktiske verdier
               href: pricing-costing/cost-price-resolution.md
             - name: Fastslå salgspriser for estimater og faktiske verdier
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Bestill varer og tjenester for prosjekter ved hjelp av prosjektbestillinger
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Leverandørfakturaer for underkontrakter i Dataverse
+          items:
+            - name: Opprett leverandørfakturaer
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verifisering av leverandørfakturaer med godkjente faktiske verdier
+              href: pro/subcontracting/VI-Verification.md
+            - name: Bekreft prosjektleverandørfakturaer
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Leverandøroppbevaring
           items:
             - name: Oversikt over leverandøroppbevaring
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Overstyr salgsprislister for prosjekt
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Definer datoeffektive overstyringer for bestemte priser i en prisliste
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Fastslå kostpriser på prosjektestimater og faktiske verdier
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Fastslå salgspriser for prosjektestimater og faktiske verdier
