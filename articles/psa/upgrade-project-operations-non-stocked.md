@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230281"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446048"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Oppgradere fra Project Service Automation til Project Operations
 
@@ -29,7 +29,7 @@ Det er en glede å kunngjøre den første av tre faser for oppgradering fra Micr
 
 Leveringsprogrammet for oppgraderingen deles opp i de tre fasene.
 
-| Oppgraderingslevering | Fase 1 (januar 2022) | Fase 2 (april bølge 2022) | Fase 3  |
+| Oppgraderingslevering | Fase 1 (januar 2022) | Fase 2 (november 2022) | Fase 3 (april bølge 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Ingen avhengighet av arbeidsnedbrytningsstrukturen (WBS) for prosjekter | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS innenfor gjeldende støttede grenser for Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Leveringsprogrammet for oppgraderingen deles opp i de tre fasene.
 
 Som en del av oppgraderingsprosessen har vi lagt til oppgraderingslogger i områdekartet, slik at administratorer lettere kan diagnostisere feil. I tillegg til det nye grensesnittet blir nye valideringsregler lagt til for å sikre dataintegritet etter en oppgradering. Valideringene nedenfor blir lagt til i oppgraderingsprosessen.
 
-| Valideringer | Fase 1 (januar 2022) | Fase 2 (april bølge 2022) | Fase 3  |
+| Valideringer | Fase 1 (januar 2022) | Fase 2 (november 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS valideres mot vanlige dataintegritetsbrudd (for eksempel ressurstilordninger som er tilknyttet den samme overordnede oppgaven, men som har forskjellige overordnede prosjekter). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS valideres mot de [kjente grensene for Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

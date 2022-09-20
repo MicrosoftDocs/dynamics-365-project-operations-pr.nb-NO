@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410131"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475197"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Fastslå salgspriser for prosjektestimater og faktiske verdier
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-For å fastsette salgspriser på estimater og faktiske verdier i Microsoft Dynamics 365 Project Operations bruker systemet først datoen og valutaen i konteksten for innkommende estimat eller faktisk verdi til å fastsette salgsprislisten. Systemet bruker feltet **Transaksjonsdato** i den spesifikke konteksten for faktisk verdi til å fastsette hvilken prisliste som gjelder. Når salgsprislisten er fastsatt, fastsetter systemet salgs- eller fakturasatsen.
+For å fastsette salgspriser på estimater og faktiske verdier i Microsoft Dynamics 365 Project Operations bruker systemet først datoen og valutaen i konteksten for innkommende estimat eller faktisk verdi til å fastsette salgsprislisten. Systemet bruker feltet **Transaksjonsdato** i den spesifikke konteksten for faktisk verdi til å fastsette hvilken prisliste som gjelder. Verdien for **Transaksjonsdato** for det innkommende estimatet eller den faktiske verdien sammenlignes med verdiene for **Effektiv startdato** (tidssoneuavhengig) og **Effektiv sluttdato** (tidssoneuavhengig) i prislisten. Når salgsprislisten er fastsatt, fastsetter systemet salgs- eller fakturasatsen.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Fastsette salgssatser på faktiske og estimerte linjer for tid
 

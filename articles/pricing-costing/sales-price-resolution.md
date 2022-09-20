@@ -1,68 +1,95 @@
 ---
-title: Løse salgspriser for estimater og faktiske verdier
-description: Denne artikkelen inneholder informasjon om hvordan du løser salgssatser for estimater og faktiske verdier.
+title: Fastslå salgspriser for prosjektbaserte estimater og faktiske verdier
+description: Denne artikkelen inneholder informasjon om hvordan salgspriser for prosjektbaserte estimater og faktiske verdier fastsettes.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911838"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475382"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Løse salgspriser for estimater og faktiske verdier
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Fastslå salgspriser for prosjektbaserte estimater og faktiske verdier
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-Når salgspriser på estimater og faktiske beløp løses i Dynamics 365 Project Operations, bruker systemet først datoen og valutaen for det relaterte prosjekttilbudet eller kontrakten til å løse salgsprislisten. Når salgsprislisten er løst, løser systemet salgs- eller fakturasatsen.
+For å fastsette salgspriser på estimater og faktiske verdier i Microsoft Dynamics 365 Project Operations bruker systemet først datoen og valutaen i konteksten for innkommende estimat eller faktisk verdi til å fastsette salgsprislisten. Systemet bruker feltet **Transaksjonsdato** i den spesifikke konteksten for faktisk verdi til å fastsette hvilken prisliste som gjelder. Verdien for **Transaksjonsdato** for det innkommende estimatet eller den faktiske verdien sammenlignes med verdiene for **Effektiv startdato** (tidssoneuavhengig) og **Effektiv sluttdato** (tidssoneuavhengig) i prislisten. Når salgsprislisten er fastsatt, fastsetter systemet salgs- eller fakturasatsen.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Løse salgssatser på faktiske og estimerte linjer for tid
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Fastsette salgssatser på faktiske og estimerte linjer for tid
 
-I Project Operations brukes estimatlinjer til å angi tilbudslinje- og kontraktlinjedetaljene for tids- og ressurstilordningene for prosjektet.
+Kontekst for estimat for **Tid** henviser til følgende:
 
-Når en prisliste for salg er løst, fullfører systemet følgende trinn for angi fakturasatsen som standard.
+- Tilbudslinjedetaljer for **Tid**.
+- Kontraktlinjedetaljer for **Tid**.
+- Ressurstilordninger i et prosjekt.
 
-1. Ssystemet bruker feltene **Rolle**, **Ressursstyringsfirma** og **Ressursenhet** på estimatlinjen for tid til å samsvare mot rolleprislinjene i den løste prislisten. Dette samsvaret forutsetter at standard prisdimensjoner for fakturasatser brukes. Hvis du har konfigurert prising basert på andre felter i stedet for, eller i tillegg til **Rolle**, **Ressursutstyringsfirma** og **Ressursenhet**, er det denne kombinasjonen som brukes til å hente en samsvarende rolleprislinje.
-2. Hvis systemet finner en rolleprislinje som har en fakturasats for kombinasjonen av feltene **Rolle**, **Ressurstyringsfirma** og **Ressursenhet**, brukes denne fakturasatsen som standard.
-3. Hvis systemet ikke kan samsvare feltverdiene for **Rolle**, **Ressursutstyringsfirma** og **Ressursenhet**, henter det rolleprislinjer med en samsvarende rolle, men nullverdier for **Ressursenhet**. Når systemet har funnet en samsvarende rolleprisoppføring, blir fakturasatsen fra denne oppføringen standardsatsen. Dette samsvaret forutsetter en standardkonfigurasjon for den relative prioriteten for **Rolle** i forhold til **Ressursenhet** som en salgsprisdimensjon.
+Kontekst for faktisk verdi for **Tid** henviser til følgende:
+
+- Oppførings- og korrigeringsjournallinjer for **Tid**.
+- Journallinjer som opprettes når en tidsoppføring sendes inn.
+- Fakturalinjedetaljer for **Tid**. 
+
+Når en prisliste for salg er fastsatt, fullfører systemet følgende trinn for å angi standard fakturasats.
+
+1. Systemet samsvarer kombinasjonen av feltene **Rolle**, **Ressursstyringsfirma** og **Ressursenhet** i konteksten for estimat eller faktisk verdi for **Tid** med rolleprislinjene i prislisten. Dette samsvaret forutsetter at du bruker de bruksklare prisdimensjonene for fakturasatser. Hvis du har konfigurert prising slik at den er basert på andre felter enn eller i tillegg til **Rolle**, **Ressursutstyringsfirma** og **Ressursenhet**, brukes denne kombinasjonen av felter til å hente en samsvarende rolleprislinje.
+1. Hvis systemet finner en rolleprislinje som har en fakturasats for kombinasjonen av **Rolle**, **Ressursstyringsfirma** og **Ressursenhet**, brukes denne fakturasatsen som standard fakturasats.
 
 > [!NOTE]
-> Hvis du konfigurerte en annen prioritering av **Rolle**, **Ressursutstyringsfirma** og **Ressursenhet**, eller hvis du har andre dimensjoner som har høyere prioritet, endres denne virkemåten i henhold til dette. Systemet henter rolleprisoppføringene med samsvarende verdier for hver av prisdimensjonsverdiene i prioritetsrekkefølgen, med rader som har nullverdier for de dimensjonene som kommer sist.
+> Hvis du konfigurerer en annen prioritering av feltene **Rolle**, **Ressursutstyringsfirma** og **Ressursenhet**, eller hvis du har andre dimensjoner som har høyere prioritet, endres den foregående virkemåten i henhold til dette. Systemet henter rolleprisoppføringer som har verdier som samsvarer med hver prisdimensjonsverdi, i prioritert rekkefølge. Rader som har nullverdier for disse dimensjonene, kommer sist.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Løse salgssatser på faktiske og estimerte linjer for utgift
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Fastsette salgssatser på faktiske og estimerte linjer for utgift
 
-I Project Operations brukes estimatlinjer for utgift til å angi tilbudslinje- og kontraktlinjedetaljene for utgifter og utgiftsestimatlinjene for prosjektet.
+Kontekst for estimat for **Utgift** henviser til følgende:
 
-Når en prisliste for salg er løst, fullfører systemet følgende trinn for angi enhetssalgsprisen som standard.
+- Tilbudslinjedetaljer for **Utgift**.
+- Kontraktlinjedetaljer for **Utgift**.
+- Utgiftsestimatlinjer i et prosjekt.
 
-1. Systemet bruker kombinasjonen av feltene **Kategori** og **Enhet** på estimatlinjen for utgift til å samsvare mot kategoriprislinjene i prislisten som er løst.
-2. Hvis systemet finner en kategoriprislinje som har en salgssats for kombinasjonen av feltene **Kategori** og **Enhet**, brukes denne salgssatsen som standard.
-3. Hvis systemet finner en samsvarende kategoriprislinje, kan prismodellen brukes til å angi salgsprisen som standard. Tabellen nedenfor viser standard virkemåte for utgiftspris i Project Operations.
+Kontekst for faktisk verdi for **Utgift** henviser til følgende:
 
-    | Kontekst | Prismodell | Pris brukt som standard |
+- Oppførings- og korrigeringsjournallinjer for **Utgift**.
+- Journallinjer som opprettes når en utgiftsoppføring sendes inn.
+- Fakturalinjedetaljer for **Utgift**. 
+
+Når en prisliste for salg er fastsatt, fullfører systemet følgende trinn for angi standard enhetssalgspris.
+
+1. Systemet samsvarer kombinasjonen av feltene **Kategori** og **Enhet** på estimatlinjen for **Utgift** med kategoriprislinjene i prislisten.
+1. Hvis systemet finner en kategoriprislinje som har en salgssats for kombinasjonen av **Kategori** og **Enhet**, brukes denne salgssatsen som standard salgssats.
+1. Hvis systemet finner en samsvarende kategoriprislinje, kan prismodellen brukes til å angi standard salgspris. Tabellen nedenfor viser standard virkemåte for utgiftspriser i Project Operations.
+
+    | Kontekst | Prismodell | Standardpris |
     | --- | --- | --- |
-    | Estimat | Pris per enhet | Basert på kategoriprislinjen |
-    | &nbsp; | Kostpris | 0.00 |
-    | &nbsp; | Påslag over kostnad | 0.00 |
-    | Faktisk | Pris per enhet | Basert på kategoriprislinjen |
-    | &nbsp; | Kostpris | Basert på de relaterte faktiske kostnadene |
-    | &nbsp; | Påslag over kostnad | Ved å bruke en markering som definert av kategoriprislinjen for enhetskostnadssasten for den relaterte faktiske kostnaden |
+    | Estimat | Pris per enhet | Basert på kategoriprislinjen. |
+    |        | Kostpris | 0.00 |
+    |        | Påslag over kostnad | 0.00 |
+    | Faktisk | Pris per enhet | Basert på kategoriprislinjen. |
+    |        | Kostpris | Basert på de relaterte faktiske kostnadene. |
+    |        | Påslag over kostnad | En markering brukes, som definert av kategoriprislinjen, på enhetskostnadssatsen for den relaterte faktiske kostnaden. |
 
-4. Hvis systemet ikke kan samsvare verdiene i feltene **Kategori** og **Enhet**, settes salgssatsen til null (0) som standard.
+1. Hvis systemet ikke kan samsvare verdiene i feltene **Kategori** og **Enhet**, settes salgssatsen til **0** (null) som standard.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Løs salgssatser på linjer med faktiske verdier og estimatlinjer for materialer
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Fastsette salgssatser på linjer med faktiske verdier og estimater for materialer
 
-I Project Operations brukes estimatlinjer for materialer til å angi tilbuds- og kontraktlinjedetaljer for materialer og materialestimatlinjene i et prosjekt.
+Kontekst for estimat for **Materiale** henviser til følgende:
 
-Når en prisliste for salg er løst, fullfører systemet følgende trinn for angi enhetssalgsprisen som standard.
+- Tilbudslinjedetaljer for **Materiale**.
+- Kontraktlinjedetaljer for **Materiale**.
+- Materialestimatlinjer i et prosjekt.
 
-1. Systemet bruker feltkombinasjonen **Produkt** og **Enhet** på estimatlinjen for materiale for samsvar med prislisteelementlinjene i prislisten som ble løst.
-2. Hvis systemet finner en prislisteelementlinje som har en salgssats for feltkombinasjonen **Produkt** og **Enhet** og prismetoden er **Valutabeløp**, brukes salgsprisen som er angitt på prislinjen.
-3. Hvis verdiene i feltene **Produkt** og **Enhet** ikke samsvarer, blir salgssatsen null som standard.
+Kontekst for faktisk verdi for **Materiale** henviser til følgende:
 
+- Oppførings- og korrigeringsjournallinjer for **Materiale**.
+- Journallinjer som opprettes når en logg over materialbruk sendes inn.
+- Fakturalinjedetaljer for **Materiale**. 
 
+Når en prisliste for salg er fastsatt, fullfører systemet følgende trinn for angi standard enhetssalgspris.
+
+1. Systemet samsvarer kombinasjonen av feltene **Produkt** og **Enhet** på estimatlinjen for **Materiale** med prislisteelementlinjene i prislisten.
+1. Hvis systemet finner en prislisteelementlinje som har en salgssats for kombinasjonen av **Produkt** og **Enhet**, og prismetoden er **Valutabeløp**, brukes salgsprisen som er angitt på prislinjen. 
+1. Hvis verdiene i feltene **Produkt** og **Enhet** ikke samsvarer, eller hvis prismodellen er en annen enn **Valutabeløp**, settes salgssatsen til **0** (null) som standard. Dette skjer fordi Project Operations bare støtter prismodellen **Valutabeløp** for materiale som brukes i et prosjekt.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

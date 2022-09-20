@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410167"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475244"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Fastslå kostnadssatser for prosjektestimater og faktiske verdier
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-For å fastsette kostprislisten og kostnadssatser i konteksten for estimat og faktisk verdi bruker systemet informasjonen i feltene **Dato**, **Valuta** og **Kontraktsenhet** i det relaterte prosjektet.
+For å fastsette kostnadssatser på estimater og faktiske verdier i Microsoft Dynamics 365 Project Operations bruker systemet først datoen og valutaen i konteksten for innkommende estimat eller faktisk verdi til å fastsette kostprislisten. Systemet bruker feltet **Transaksjonsdato** i den spesifikke konteksten for faktisk verdi til å fastsette hvilken prisliste som gjelder. Verdien for **Transaksjonsdato** for det innkommende estimatet eller den faktiske verdien sammenlignes med verdiene for **Effektiv startdato** (tidssoneuavhengig) og **Effektiv sluttdato** (tidssoneuavhengig) i prislisten. Når kostprislisten er fastsatt, fastsetter systemet kostnadssatsen. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Fastsette kostnadssatser kontekster for estimat og faktisk verdi for tid
 
@@ -33,7 +33,7 @@ Kontekst for faktisk verdi for **Tid** henviser til følgende:
 - Oppførings- og korrigeringsjournallinjer for **Tid**.
 - Journallinjer som opprettes når en tidsoppføring sendes inn.
 
-Når en kostprisliste for salg er fastsatt, fullfører systemet følgende trinn for å angi standard kostnadssats.
+Når en kostprisliste er fastsatt, fullfører systemet følgende trinn for å angi standard kostnadssats.
 
 1. Systemet samsvarer kombinasjonen av feltene **Rolle** og **Ressursenhet** i konteksten for estimat eller faktisk verdi for **Tid** med rolleprislinjene i prislisten. Dette samsvaret forutsetter at du bruker standard prissettingsdimensjoner for arbeidskostnad. Hvis du har konfigurert systemet til å samsvare andre felter enn eller i tillegg til **Rolle** og **Ressursenhet**, brukes en annen kombinasjon til å hente en samsvarende rolleprislinje.
 1. Hvis systemet finner en rolleprislinje som har en kostnadssats for kombinasjonen av **Rolle** og **Ressursenhet**, brukes denne kostnadssatsen som standard kostnadssats.
@@ -55,7 +55,7 @@ Kontekst for faktisk verdi for **Utgift** henviser til følgende:
 - Oppførings- og korrigeringsjournallinjer for **Utgift**.
 - Journallinjer som opprettes når en utgiftsoppføring sendes inn.
 
-Når en kostprisliste for salg er fastsatt, fullfører systemet følgende trinn for å angi standard kostnadssats.
+Når en kostprisliste er fastsatt, fullfører systemet følgende trinn for å angi standard kostnadssats.
 
 1. Systemet samsvarer kombinasjonen av feltene **Kategori** og **Enhet** i konteksten for estimat eller faktisk verdi for **Utgift** med kategoriprislinjene i prislisten.
 1. Hvis systemet finner en kategoriprislinje som har en kostnadssats for kombinasjonen av **Kategori** og **Enhet**, brukes denne kostnadssatsen som standard kostnadssats.
@@ -75,7 +75,7 @@ Kontekst for faktisk verdi for **Materiale** henviser til følgende:
 - Oppførings- og korrigeringsjournallinjer for **Materiale**.
 - Journallinjer som opprettes når en logg over materialbruk sendes inn.
 
-Når en kostprisliste for salg er fastsatt, fullfører systemet følgende trinn for å angi standard kostnadssats.
+Når en kostprisliste er fastsatt, fullfører systemet følgende trinn for å angi standard kostnadssats.
 
 1. Systemet bruker kombinasjonen av feltene **Produkt** og **Enhet** i konteksten for estimat eller faktisk verdi for **Materiale** mot prislisteelementlinjene i prislisten.
 1. Hvis systemet finner en prislisteelementlinje som har en kostnadssats for kombinasjonen av **Produkt** og **Enhet**, brukes denne kostnadssatsen som standard kostnadssats.
