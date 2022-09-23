@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Tilbakekall tidligere godkjente oppføringer
           href: approvals/recall-cancel.md
+        - name: Sikkerhet og godkjenninger
+          href: approvals/approvals-security.md
         - name: Notater for utviklere
           items:
             - name: Utviklers merknader til godkjenninger
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Definer leverandøroppbevaring
               href: procurement/set-up-vendor-retention.md
+            - name: Betal når betalt
+              href: procurement/Pay-when-paid.md
     - name: Fakturering
       items:
         - name: Oversikt over faktureringsprosess
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Tilbakekall tidligere godkjente oppføringer
           href: approvals/recall-cancel.md
+        - name: Sikkerhet og godkjenninger
+          href: approvals/approvals-security.md
         - name: Notater for utviklere
           items:
             - name: Utviklers merknader til godkjenninger
