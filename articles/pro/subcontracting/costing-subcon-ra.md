@@ -2,20 +2,20 @@
 title: Kostnadsberegning av tilordninger for underleveranseressurs
 description: Denne artikkelen forklarer hvordan Microsoft Dynamics 365 Project Operations beregner kostnadsberegning av tilordninger for underleveranseressurs.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262072"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522668"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Kostnadsberegning av tilordninger for underleveranseressurs
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 Oppgavetilordninger for prosjektteammedlemmer for underkontrakt kalkuleres ved hjelp av prislisten **Kjøp** som er knyttet til underkontrakten for den relaterte teammedlemsoppføringen. Dette er forskjellig fra hvordan ressurstilordninger for ansatte kostnadsberegnes der oppgavetilordninger for ansattressurser er kostnadsberegnet ved hjelp av **Kostnad**-prislisten som er knyttet til kontraktsenheten for prosjektet. 
 

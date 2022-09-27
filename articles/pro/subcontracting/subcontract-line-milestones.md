@@ -2,20 +2,20 @@
 title: Milepæler for underkontraktlinje
 description: Denne artikkelen forklarer hvordan du oppretter og vedlikeholder en milepælbasert fakturaplan for en underkontrakt med en leverandør.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261806"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522477"
 ---
 # <a name="subcontract-line-milestones"></a>Milepæler for underkontraktlinje
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 I Dynamics 365 Project Operations kan en underkontraktlinje med en faktureringsmetode med fast pris angi en milepælbasert fakturaplan med leverandøren.
 

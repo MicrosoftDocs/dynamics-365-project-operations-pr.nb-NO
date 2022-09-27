@@ -2,16 +2,16 @@
 title: Journal for Project Operations-integrering
 description: Denne artikkelen inneholder informasjon om arbeid med journalen for integrering i Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106287"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541090"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal for Project Operations-integrering
 
@@ -65,6 +65,12 @@ Postering kan utføres interaktivt eller i en gruppe. Vær oppmerksom på at all
 > [!NOTE]
 > Hvis du vil bruke denne funksjonen, aktiverer du **Overfør alle linjer med posteringsfeil til en ny Project Operations-integreringsjournal** i arbeidsområdet **Funksjonsbehandling**.
 
-Under postering i Project Operations-integreringsjournalen validerer systemet hver linje i journalen. Systemet posterer alle linjer som ikke har feil, og oppretter en ny journal for alle linjer som har innleggsfeil. Hvis du vil se gjennom journalene som har posteringsfeillinjer, går du til **Prosjektstyring og regnskap** > **Journaler** > **Project Operations-integreringsjournal** og filtrerer journalene ved hjelp av feltet **Opprinnelig journal**.
+Denne funksjonen bidrar til å forbedre opplevelsen med Project Operations-integreringsjournalen. Når den er aktivert, kan tidsberegningsproblemer med dobbel skriving og oppsett ikke lenger hindre at gyldige logger blir publisert. Under postering i Project Operations-integreringsjournalen validerer systemet hver linje i journalen. Den posterer alle linjer som ikke har feil, og oppretter en ny journal for alle linjer som har posteringsfeil.
+
+Hvis du vil se gjennom journalene som har linjer med posteringsfeil, kan du gå til **Prosjektstyring og regnskap** \> **Journaler** \> **Project Operations-integreringsjournal** og filtrere listen over journaler ved å bruke feltet **Opprinnelig journal**. Illustrasjonen nedenfor viser et eksempel der journalene på siden **Project Operations-integreringsjournal** er filtrert på denne måten.
+
+![Opprinnelig journal vist på siden Project Operations-integreringsjournal.](./media/transferLines-originalJournal.png)
+
+Hvis en periodisk satsvis jobb er konfigurert til å postere integreringsjournalen, blir posteringen prøvd på nytt, og journalene blir postert hvis tidsberegningsproblemet er løst. Eventuelle gjenværende journaler må undersøkes manuelt ved å se gjennom loggene og iverksette eventuelle nødvendige handlinger.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

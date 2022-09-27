@@ -2,20 +2,20 @@
 title: Underkontraktalternativer for prosjektteammedlemmer
 description: Denne artikkelen forklarer underkontraktalternativene for prosjektteammedlemmer i Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261619"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522291"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Underkontraktalternativer for prosjektteammedlemmer
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 I Microsoft Dynamics 365 Project Operations kan du evaluere underkontraktsalternativene som er tilgjengelige for ett eller flere prosjektteammedlemmer. Med de tilgjengelige underkontraktalternativene kan du gjøre følgende:
 

@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230328"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541137"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Bruk API-er for prosjektplan til å utføre operasjoner med planleggingsenheter
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 
-
-## <a name="scheduling-entities"></a>Planleggingsenheter
+**Planleggingsenheter**
 
 API-er for prosjektplan gir mulighet til å utføre operasjoner for oppretting, oppdatering og sletting med **planleggingsenheter**. Disse enhetene administreres via planleggingsmotoren i Project for the web. Oppretting, oppdatering og sletting med **planleggingsenheter** var begrenser i tidligere versjoner av Dynamics 365 Project Operations.
 
 Tabellen nedenfor viser en fullstendig liste over prosjekttidsplanens enheter.
 
-| Enhetsnavn  | Logisk navn for enhet |
-| --- | --- |
-| Project | msdyn_project |
-| Prosjektoppgave  | msdyn_projecttask  |
-| Avhengighet for prosjektoppgaver  | msdyn_projecttaskdependency  |
-| Ressurstilordning | msdyn_resourceassignment |
-| Prosjektsamling  | msdyn_projectbucket |
-| Prosjektteammedlem | msdyn_projectteam |
+| **Enhetsnavn**         | **Logisk navn for enhet**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Prosjektoppgave            | msdyn_projecttask           |
+| Avhengighet for prosjektoppgaver | msdyn_projecttaskdependency |
+| Ressurstilordning     | msdyn_resourceassignment    |
+| Prosjektsamling          | msdyn_projectbucket         |
+| Prosjektteammedlem     | msdyn_projectteam           |
+| Prosjektsjekklister      | msdyn_projectchecklist      |
+| Prosjektetikett           | msdyn_projectlabel          |
+| Prosjektoppgave til etikett   | msdyn_projecttasktolabel    |
+| Prosjektsprint          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet er et enhetsarbeidsmønster som kan brukes når flere forespørsler som påvirker tidsplanen, må behandles i en transaksjon.
 
-## <a name="project-schedule-apis"></a>API-er for prosjektplan
+**API-er for prosjektplan**
 
 Nedenfor vises en liste over gjeldende API-er for prosjektplan.
 
-- **msdyn_CreateProjectV1:** Denne API-en kan brukes til å opprette et prosjekt. Prosjektet og standard prosjektsamling opprettes umiddelbart.
-- **msdyn_CreateTeamMemberV1:** Denne API-en kan brukes til å opprette et prosjektteammedlem. Teammedlemsoppføringen opprettes umiddelbart.
-- **msdyn_CreateOperationSetV1**: Denne API-en kan brukes til å planlegge flere forespørsler som må utføres i en transaksjon.
-- **msdyn_PssCreateV1**: Denne API-en kan brukes til å opprette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter opprettingsoperasjonen.
-- **msdyn_PssUpdateV1**: Denne API-en kan brukes til å oppdatere en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter oppdateringsoperasjonen.
-- **msdyn_PssDeleteV1**: Denne API-en kan brukes til å slette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter sletteoperasjonen.
-- **msdyn_ExecuteOperationSetV1**: Denne API-en brukes til å kjøre alle operasjonene i det angitte operasjonssettet.
+| **API**                                 | Bekrivelse                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Denne API-en brukes til å opprette et prosjekt. Prosjektet og standard prosjektsamling opprettes umiddelbart.                         |
+| **msdyn_CreateTeamMemberV1**            | Denne API-en brukes til å opprette et prosjektteammedlem. Teammedlemsoppføringen opprettes umiddelbart.                                  |
+| **msdyn_CreateOperationSetV1**          | Denne API-en brukes til å planlegge flere forespørsler som må utføres i en transaksjon.                                        |
+| **msdyn_PssCreateV1**                   | Denne API-en brukes til å opprette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter opprettingsoperasjonen. |
+| **msdyn_PssUpdateV1**                   | Denne API-en brukes til å oppdatere en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter oppdateringsoperasjonen  |
+| **msdyn_PssDeleteV1**                   | Denne API-en brukes til å slette en enhet. Enheten kan være en hvilken som helst av prosjektplanleggingsenhetene som støtter sletteoperasjonen. |
+| **msdyn_ExecuteOperationSetV1**         | Denne API-en brukes til å kjøre alle operasjonene i det angitte operasjonssettet.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Denne API-en brukes til å oppdatere omfanget for planlagt arbeid med ressurstilordning.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Bruk av API-er for prosjektplan med OperationSet
+
+
+**Bruk av API-er for prosjektplan med OperationSet**
 
 Ettersom oppføringer med både **CreateProjectV1** og **CreateTeamMemberV1** opprettes umiddelbart, kan ikke disse API-ene brukes direkte i **OperationSet**. Du kan imidlertid bruke API-en til å opprette nødvendige oppføringer, opprette et **OperationSet** og deretter bruke disse forhåndsopprettede oppføringene i **OperationSet**.
 
-## <a name="supported-operations"></a>Støttede operasjoner
+**Støttede operasjoner**
 
-| Planleggingsenhet | Opprette | Oppdater | Delete | Viktige hensyn |
-| --- | --- | --- | --- | --- |
-Prosjektoppgave | Ja | Ja | Ja | Feltene **Progress**, **EffortCompleted** og **EffortRemaining** kan redigeres i Project for the Web, men de kan ikke redigeres i Project Operations.  |
-| Avhengighet for prosjektoppgaver | Ja |  | Ja | Oppføringer for prosjektoppgaveavhengighet oppdateres ikke. I stedet kan en gammel oppføring slettes, og en ny oppføring kan opprettes. |
-| Ressurstilordning | Ja | Ja | | Operasjoner med følgende felter støttes ikke: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** og **PlannedWork**. Ressurstilordningsoppføringer oppdateres ikke. I stedet kan en gammel oppføring slettes, og en ny oppføring kan opprettes. |
-| Prosjektsamling | Ja | Ja | Ja | Standardsamlingen opprettes ved hjelp av API-en **CreateProjectV1**. Støtte for oppretting og sletting av prosjektsamlinger ble lagt til i oppdateringsversjon 16. |
-| Prosjektteammedlem | Ja | Ja | Ja | For oppretting bruker du API-en **CreateTeamMemberV1**. |
-| Project | Ja | Ja |  | Operasjoner med følgende felter støttes ikke: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** og **Duration**. |
+| **Planleggingsenhet**   | **Opprette** | **Update** | **Delete** | **Viktige hensyn**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Prosjektoppgave            | Ja        | Ja        | Ja        | Feltene **Progress**, **EffortCompleted** og **EffortRemaining** kan redigeres i Project for the Web, men de kan ikke redigeres i Project Operations.                                                                                                                                                                                             |
+| Avhengighet for prosjektoppgaver | Ja        | Nei         | Ja        | Oppføringer for prosjektoppgaveavhengighet oppdateres ikke. I stedet kan en gammel oppføring slettes, og en ny oppføring kan opprettes.                                                                                                                                                                                                                                 |
+| Ressurstilordning     | Ja        | Ja\*      | Ja        | Operasjoner med følgende felter støttes ikke: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** og **PlannedWork**. Ressurstilordningsoppføringer oppdateres ikke. I stedet kan en gammel oppføring slettes, og en ny oppføring kan opprettes. En separat API er oppgitt for å oppdatere omganget av ressurstilordningen. |
+| Prosjektsamling          | Ja        | Ja        | Ja        | Standardsamlingen opprettes ved hjelp av API-en **CreateProjectV1**. Støtte for oppretting og sletting av prosjektsamlinger ble lagt til i oppdateringsversjon 16.                                                                                                                                                                                                   |
+| Prosjektteammedlem     | Ja        | Ja        | Ja        | For oppretting bruker du API-en **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
+| Project                 | Ja        | Ja        |            | Operasjoner med følgende felter støttes ikke: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** og **Duration**.                                                                                       |
+| Prosjektsjekklister      | Ja        | Ja        | Ja        |                                                                                                                                                                                                                                                                                                                                                         |
+| Prosjektetikett           | Nei         | Ja        | Nei         | Etikettnavn kan endres. Denne funksjonen er bare tilgjengelig for Project for the Web                                                                                                                                                                                                                                                                      |
+| Prosjektoppgave til etikett   | Ja        | Nei         | Ja        | Denne funksjonen er bare tilgjengelig for Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Prosjektsprint          | Ja        | Ja        | Ja        | **Start**-feltet må ha en dato som er før **Fullfør**-feltet. Sprinter for samme prosjekt kan ikke overlappe med hverandre. Denne funksjonen er bare tilgjengelig for Project for the Web                                                                                                                                                                    |
 
-Disse API-ene kan kalles med enhetsobjekter som inneholder egendefinerte felt.
+
+
 
 ID-egenskapen er valgfri. Hvis den er angitt, prøver systemet å bruke den, og dette fører til et unntak hvis den ikke kan brukes. Hvis den ikke er angitt, genererer systemet den.
 
-## <a name="restricted-fields"></a>Begrensede felt
+**Begrensninger og kjente problemer**
 
-Tabellene nedenfor definerer feltene som er begrenset fra **Opprett** og **Rediger**.
-
-### <a name="project-task"></a>Prosjektoppgave
-
-| Logisk navn                           | Kan opprette     | Kan redigere         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Nei (ja for Prosjekt)             | Nei (ja for Prosjekt)               |
-| msdyn_effortremaining                  | Nei (ja for Prosjekt)              | Nei (ja for Prosjekt)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Nei (ja for Prosjekt)             | Nei (ja for Prosjekt) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Avhengighet for prosjektoppgaver
-
-| Logisk navn                  | Kan opprette     | Kan redigere     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Ja            | No           |
-| msdyn_predecessortaskname     | Ja            | No           |
-| msdyn_project                 | Ja            | No           |
-| msdyn_projectname             | Ja            | No           |
-| msdyn_projecttaskdependencyid | Ja            | No           |
-| msdyn_successortask           | Ja            | No           |
-| msdyn_successortaskname       | Ja            | No           |
-
-### <a name="resource-assignment"></a>Ressurstilordning
-
-| Logisk navn                 | Kan opprette     | Kan redigere     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Ja            | No           |
-| msdyn_bookableresourceidname | Ja            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Ja            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Prosjektteammedlem
-
-| Logisk navn                                     | Kan opprette     | Kan redigere     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Logisk navn                           | Kan opprette     | Kan redigere     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Ja            | No           |
-| msdyn_contractorganizationalunitid     | Ja            | No           |
-| msdyn_contractorganizationalunitidname | Ja            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Ja            | Ja          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Prosjektsamling
-
-| Logisk navn          | Kan opprette      | Kan redigere     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Ja             | No           |
-| msdyn_name            | Ja             | Ja          |
-| msdyn_project         | Ja             | No           |
-| msdyn_projectbucketid | Ja             | No           |
-
-## <a name="limitations-and-known-issues"></a>Begrensninger og kjente problemer
 Nedenfor vises en liste over begrensninger og kjente problemer:
 
-- API-er for prosjektplan kan bare brukes av **brukere med Microsoft Project-lisens**. De kan ikke brukes av følgende:
+-   API-er for prosjektplan kan bare brukes av **brukere med Microsoft Project-lisens**. De kan ikke brukes av følgende:
+    -   Applikasjonsbrukere
+    -   Systembrukere
+    -   Integreringsbrukere
+    -   Andre brukere som ikke har den nødvendige lisensen
+-   Hvert **OperationSet** kan bare ha maksimalt 100 operasjoner.
+-   Hver bruker kan bare ha maksimalt 10 åpne **OperationSets**.
+-   Project Operations støtter for øyeblikket maksimalt 500 oppgaver på et prosjekt.
+-   Hver oppdateringsoperasjon for omfanget av ressurstilordningen teller som én enkelt operasjon.
+-   Hver liste over oppdaterte omfang kan inneholde maksimalt 100 tidssektorer.
+-   **OperationSet**-feilstatus og -feillogger er ikke tilgjengelige for øyeblikket.
+-   Det er en maksimumsgrense på 400 sprinter per prosjekt.
+-   [Begrensninger og grenser for prosjekter og oppgaver](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Etiketter er for øyeblikket bare tilgjengelig for Project for the Web.
 
-    - Applikasjonsbrukere
-    - Systembrukere
-    - Integreringsbrukere
-    - Andre brukere som ikke har den nødvendige lisensen
+**Feilbehandling**
 
-- Hvert **OperationSet** kan bare ha maksimalt 100 operasjoner.
-- Hver bruker kan bare ha maksimalt 10 åpne **OperationSets**.
-- Project Operations støtter for øyeblikket maksimalt 500 oppgaver på et prosjekt.
-- **OperationSet**-feilstatus og -feillogger er ikke tilgjengelige for øyeblikket.
-- [Begrensninger og grenser for prosjekter og oppgaver](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Hvis du vil se gjennom feil som genereres fra operasjonssettene, går du til **Innstillinger** \> **Planlegg integrasjon** \> **Operasjonssett**.
+-   Hvis du vil se gjennom feil som genereres fra prosjektplantjenesten, går du til **Innstilling** \> **Planlegg integrering** \> **PSS-feillogger**.
 
-## <a name="error-handling"></a>Feilbehandling
+**Redigering av ressurstilordningsomfang**
 
-- Hvis du vil se gjennom feil som genereres fra operasjonssettene, går du til **Innstillinger** \> **Planlegg integrasjon** \> **Operasjonssett**.
-- Hvis du vil se gjennom feil som genereres fra prosjektplantjenesten, går du til **Innstilling** \> **Planlegg integrering** \> **PSS-feillogger**.
+I motsetning til alle andre API-er for prosjektplanlegging som oppdaterer en enhet, er API-en for ressurstilordningsomfang kun ansvarlig for oppdateringer for ett enkelt felt, msdyn_plannedwork, på én enhet, msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Eksempelscenario
+Den gitte tidsplanmodusen er:
+
+-   **faste enheter**
+-   prosjektkalender er 9-5p er 9-5pst, man, tir, tor, fre (IKKE ARBEID PÅ ONSDAGER)
+-   og ressurskalenderen er 9-1p PST man til fre
+
+Denne tilordningen er for én uke, fire timer om dagen. Dette er fordi ressurskalenderen er fra 9 til 1 PST, eller fire timer om dagen.
+
+| &nbsp;     | Oppgave | Startdato | Sluttdato  | Antall | 13.06.2022 | 14.06.2022 | 15.06.2022 | 16.06.2022 | 17.06.2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 arbeider |  T1  | 13.06.2022  | 17.06.2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Hvis du for eksempel vil at arbeideren bare skal arbeide tre timer hver dag denne uken og bruke en time på andre oppgaver.
+
+#### <a name="updatedcontours-sample-payload"></a>Eksempelnyttelasten UpdatedContours:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Dette er tilordningen etter at API-en for oppdatering av omfanget til tidsplanen er kjørt.
+
+| &nbsp;     | Oppgave | Startdato | Sluttdato  | Antall | 13.06.2022 | 14.06.2022 | 15.06.2022 | 16.06.2022 | 17.06.2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 arbeider | T1   | 13.06.2022  | 17.06.2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Eksempelscenario**
 
 I dette scenarioet skal du opprette et prosjekt, et teammedlem, fire oppgaver og to ressurstilordninger. Deretter skal du oppdatere én oppgave, oppdatere prosjektet, slette én oppgave, slette én ressurstilordning og opprette en aktivitetsavhengighet.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Flere eksempler
+** Flere eksempler
 
 ```csharp
 #region Call actions --- Sample code ----

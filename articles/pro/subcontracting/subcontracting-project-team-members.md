@@ -2,20 +2,20 @@
 title: Prosjektteammedlemmer for underkontrakter
 description: Denne artikkelen forklarer hvordan prosjektteammedlemmer legges til i underkontrakter i Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261383"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522808"
 ---
 # <a name="subcontracting-project-team-members"></a>Prosjektteammedlemmer for underkontrakter
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 I Microsoft Dynamics 365 Project Operations kan du velge å legge til ubemannede og bemannede prosjektteammedlemmer i underkontrakter.
 

@@ -2,20 +2,20 @@
 title: Underkontraktlinjer for produkter
 description: Denne artikkelen forklarer hvordan du registrerer underkontraktlinjer for produkter og bruker de ulike feltene til å registrere produktkjøp fra leverandører.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262135"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522855"
 ---
 # <a name="subcontract-lines-for-products"></a>Underkontraktlinjer for produkter
 
-_**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
 En underkontrakt i Dynamics 365 Project Operations kan ha en underleverandørlinje for produkter. Disse linjene gjør det mulig for en prosjektleder å kjøpe produkter fra leverandører som de deretter kan bruke på prosjektoppgaver.
 
