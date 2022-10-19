@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621296"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634865"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Nyheter september 2022 – Project Operations Lite-distribusjon
 
@@ -30,6 +30,7 @@ Denne artikkelen gjelder følgende komponenter og versjoner av Microsoft Dynamic
 | Fakturering og prising | **Tidssoneagnostisk prisstandard**<br>Project Operations har innført konseptet med en tidssoneagnostisk dato for alle faktiske verdier for prosjekt. Et nytt felt, **Transaksjonsdato**, er nå tilgjengelig på journallinjer og faktiske verdier og brukes til å lagre datoen da transaksjonen forekom, men uten å konvertere denne datoen til Coordinated Universal Time. Denne datoen brukes til nedstrømsprosesser, for eksempel prisstandard og opprettelse av faktura. | <p>[Fastslå kostnadssatser for prosjektbaserte estimater og faktiske verdier](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Fastslå salgspriser for prosjektbaserte estimater og faktiske verdier](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Fakturering og prising | **Datoeffektive prisoverstyringer i Project Operations**<br>Datoeffektive prisoverstyringer gjør at du kan overstyre eller endre bestemte priser i prislisten. | [Datoeffektive prisoverstyringer](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Tid og utgift | **Global godkjenner**<br>Denne funksjonen aktiverer uavhengige programvareleverandører (ISV) og sentralisert godkjenning, uavhengig av statusen for prosjekt- eller teammedlem i prosjektet. | [Sikkerhet og godkjenninger](/dynamics365/project-operations/approvals/approvals-security) |
+|Prosjektplanlegging og sporing|**Bruk API-er for prosjektplan til å utføre operasjoner med planleggingsenheter** </br> </br>API-en for redigering av ressurstilordninger gjør det mulig for utviklere å programmatisk angi en oppgavetilordningspersons innsats i alle støttede datointervaller for mer detaljert planlegging av faser i tid.|[Bruk API-er for prosjektplan til å utføre operasjoner med planleggingsenheter](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Kvalitetsoppdateringer
 

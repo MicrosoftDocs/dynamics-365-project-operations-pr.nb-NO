@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932078"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655201"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Opprette en arbeidsnedbrytningsstruktur (WBS)
 
@@ -112,6 +112,18 @@ Feltene **Rolle**, **Ressursenhet** og **Stillingsnavn** brukes til å beskrive 
 Du kan bruke tidsplanen i Project Operations til å opprette foregående relasjoner mellom aktiviteter. Feltet **Foregående** bruker én eller flere verdier til å angi oppgavene som en oppgave avhenger av. Når foregående verdier tilordnes til en oppgave, kan oppgaven bare starte etter at alle de foregående oppgavene er fullført. På grunn av avhengigheten tilbakestilles planlagt startdato for oppgaven til datoen når de foregående oppgavene er fullført.
 
 Oppgavemodusen har ingen innvirkning på oppdateringer som utføres på start- og sluttdatoene for foregående/avhengige oppgaver.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Forstå hva som skjer med varighet, ressurskalendere og prosjektkalendere for oppgaver
+Varigheten for en oppgave defineres som antall arbeidstimer mellom starttiden på startdatoen og sluttdatoen for aktiviteten.   Project for the Web definerer varighetsenheter som følger:
+
+| **Mål for varighet** | **Antall**|
+|----------------------------------------------------|----------------------|
+| Timer per dag | 8 |
+| Timer per uke |  40 |
+| Dager per måned |  20 |
+
+Ikke-tilordnete oppgaver planlegges ved hjelp av prosjektkalenderen. Ved første ressurstilordning oppdateres imidlertid planleggingen av en oppgave slik at den respekterer kalenderen til ressursen. Påfølgende endringer for en oppgave som har en tilordning, styres av [planleggingsmodusen](scheduling-modes.md) for prosjektet. Hvis du vil lære mer om innvirkningen kalendere har på oppgaver, kan du se [Ressurskalendere i Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) og [Starttidspunkter for oppgaver og prosjektene dine.](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tilgjengelighet og hurtigtaster
 
