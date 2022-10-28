@@ -1752,9 +1752,7 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Hvordan tilpasser jeg forretningsprosessflyten for prosjektfaser?
               href: psa/FAQ-customize-bpf.md
-            - name: Oppgraderingshensyn for arbeidsnedbrytningsstrukturen
-              href: psa/upgrade-considerations-tasks.md
-        - name: Hvitbøker
+        - name: Tekniske dokumenter
           href: psa/white-papers.md
         - name: Administratorhåndbok
           items:
