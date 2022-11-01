@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686988"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709457"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Oppgradere fra Project Service Automation til Project Operations
 
@@ -70,7 +70,7 @@ Forutsetninger for fase 3 oppdateres etter hvert som datoene for allmenn tilgjen
 
 ## <a name="licensing"></a>Lisensiering
 
-Hvis du har aktive lisenser for Project Service Automation, kan du installere og bruke Project Operations, som omfatter alle funksjonene i Project Service Automation og så videre. Du kan deretter teste funksjonene i Project Operations i et eget miljø mens du fortsetter å bruke Project Service Automation i produksjon. Når lisensene for Project Service Automation utløper, må du gå over til Project Operations. Når du planlegger denne overføringen, må du ta hensyn til det faktum at Project Operations-lisensen ikke inneholder en Project Service Automation-lisens.
+Hvis du har aktive lisenser for Project Service Automation, kan du installere og bruke Project Operations, som omfatter alle funksjonene i Project Service Automation og så videre. På denne måten kan du teste funksjonene i Project Operations mens du fortsetter å bruke Project Service Automation i produksjon. Når lisensene for Project Service Automation utløper, må du gå over til Project Operations. Når du planlegger denne overføringen, må du ta hensyn til det faktum at Project Operations-lisensen ikke inneholder en Project Service Automation-lisens. Kunder som har scenarioer der de har distribuert Project Service Automation og må fortsette å bruke eller øke lisensene sine for PSA mens de planlegger å gå over til Project Operations, kan be om midlertidige PSA-lisenser basert på lisenser du har kjøpt for Project Operations. Det utstedes én Project Service Automation-lisens for én Project Operations-lisens. Du kan be om midlertidige PSA-lisenser ved hjelp av denne koblingen: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Teste og refaktorere tilpassinger
 
