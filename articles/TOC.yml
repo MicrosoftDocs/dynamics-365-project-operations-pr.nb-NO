@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: Planleggingsmoduser
           href: project-management/scheduling-modes.md
+        - name: Ekstern planlegging
+          href: project-management/external-scheduling.md
         - name: Oppdater et prosjekt
           href: project-management/update-project.md
         - name: Kopier et prosjekt
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: Planleggingsmoduser
           hreF: project-management/scheduling-modes.md
+        - name: Ekstern planlegging
+          href: project-management/external-scheduling.md
         - name: Oppdater et prosjekt
           href: project-management/update-project.md
         - name: Kopier et prosjekt
