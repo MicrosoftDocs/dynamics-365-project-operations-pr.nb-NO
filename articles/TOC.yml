@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
-        - name: September 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: November 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arkiv
           items:
+            - name: Oktober 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: September 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: August 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juli 2022 – Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Organisasjonsenheter
               href: sales/OrgUnits.md
-        - name: Administrere kundeemner for prosjekt
+        - name: Administrer prosjektbaserte kundeemner
           href: sales/manage-leads.md
-        - name: Administrer salgsmuligheter for prosjekt
+        - name: Administrere prosjektbaserte salgsmuligheter
           items:
             - name: Oversikt over administrasjon av salgsmuligheter for prosjekt
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Prosjektbaserte salgsmulighetslinjer
               href: sales/project-based-lines.md
-            - name: Opprett prosjekttilbud fra salgsmuligheter
+            - name: Opprett tilbud fra salgsmuligheter for prosjekt
               href: sales/link-quotes-opportunities.md
-            - name: Kopiere prosjektbaserte salgsmuligheter
+            - name: Kopier salgsmuligheter for prosjekt
               href: sales/copy-project-based-opportunity.md
             - name: Lukk en salgsmulighet for prosjekt
               href: sales/close-opportunity.md
-        - name: Administrer prosjekttilbud
+        - name: Administrer prosjektbaserte tilbud
           items:
             - name: Oversikt over administrasjon av prosjekttilbud
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Overskriftsdetaljer for prosjektbaserte tilbud
               href: sales/quote-values-budget-limits-contract.md
-            - name: Administrer flere kunder i et prosjekttilbud
+            - name: Administrer flere kunder i et prosjektbasert tilbud
               href: sales/manage-multiple-customers-quote.md
-            - name: Administrer prosjektprislister i et tilbud
+            - name: Prosjektprislister i prosjekttilbud
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Prosjektbaserte tilbudslinjer
               items:
-                - name: Oversikt over prosjektbaserte tilbudslinjer
+                - name: Oversikt over prosjekttilbudslinjer
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Administrer flere kunder på prosjektbaserte tilbudslinjer
+                - name: Administrer flere kunder i prosjektbaserte tilbudslinjer
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Tilordne prosjekter og oppgaver til prosjektbasert tilbudslinjer
+                - name: Tildel prosjekter og oppgaver til prosjekttilbudslinjer
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfigurer belastbare komponenter for prosjektbaserte tilbudslinjer
+                - name: Konfigurer belastbare komponenter i prosjekttilbudslinjer
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Konfigurer de belastbare komponentene i en prosjekttilbudslinje
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Estimer en prosjekttilbudslinje
-                  href: sales/create-estimate-quote-line.md
-                - name: Importer estimater fra et prosjekt til en prosjektbasert tilbudslinje
-                  href: sales/import-estimate-quote-line.md
-                - name: Fakturaplaner på prosjektbaserte tilbudslinjer
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Importer estimater fra et prosjekt til en prosjekttilbudslinje
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Fakturaplaner i prosjekttilbudslinjer
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopier prosjekttilbud
               href: sales/lose-quote.md
             - name: Aktiver og revider et prosjekttilbud
               href: sales/activation-and-revision.md
-            - name: Lukk prosjekttilbud
+            - name: Lukk prosjektbaserte tilbud
               href: sales/win-quote.md
-        - name: Administrer prosjektkontrakter
+        - name: Administrer prosjektbaserte kontrakter
           items:
-            - name: Oversikt over administrasjon av prosjektkontrakter
+            - name: Administrer prosjektkontrakter
               href: pro/sales/manage-contracts-sales.md
             - name: Konsepter som er unike for prosjektbaserte kontrakter
               href: sales/contracts-key-concepts.md
             - name: Overskriftsdetaljer for prosjektbaserte kontrakter
               href: sales/project-contract-settings.md
-            - name: Administrer prosjektprislister i prosjektkontrakter
+            - name: Administrer prosjektprislister i prosjektbaserte kontrakter
               href: sales/contracts-manage-project-price-lists.md
-            - name: Administrer flere kunder på prosjektkontrakter
+            - name: Administrer flere kunder i prosjektbaserte kontrakter
               href: sales/manage-multiple-customers-contract.md
             - name: Prosjektbaserte kontraktlinjer
               items:
-                - name: Oversikt over prosjektbaserte kontraktlinjer
+                - name: Oversikt over prosjektkontraktlinjer
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Administrer flere kunder på prosjektbaserte kontraktlinjer
+                - name: Administrer flere kunder i prosjektbaserte kontraktlinjer
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Tilordne prosjekter og oppgaver på en prosjektkontraktlinje
+                - name: Tildel prosjekter og oppgaver til en prosjektkontraktlinje
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Konfigurer belastbare komponenter for en prosjektkontraktlinje
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Estimer en prosjektkontraktlinje
+                - name: Estimer en prosjektbasert kontraktlinje
                   href: sales/create-estimate-contract-line.md
-                - name: Importer estimater fra et prosjekt til en prosjektbasert kontraktlinje
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Opprett fakturaplaner på prosjektbaserte kontraktlinjer
+                - name: Importer estimater fra et prosjekt til en prosjektkontraktlinje
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Opprett fakturaplaner i en prosjektbasert kontraktlinje
                   href: sales/invoice-schedules-contract-line.md
             - name: Kopier prosjektbaserte kontrakter
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Forskudd og honorarer
               items:
-                - name: Forskudd og honorarbaserte kontrakter
+                - name: Prosjektkontrakter basert på forskudd og honorar
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Konfigurer en honorarplan
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Opprett et adhoc-forskudd på en kontrakt
+                - name: Opprett et adhoc-forskudd i en prosjektkontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prissetting og kostberegning
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Synkroniser prosjektstatus for å hindre oppføring mot lukkede prosjekter
           href: advanced-configuration/sync-project-status.md
+        - name: Oppsett av valutakonvertering for beregning av salgspriser fra kostnadssatser
+          href: advanced-configuration/currencyconversion.md
     - name: Oppgrader
       items:
         - name: Oppgraderingshensyn for moderne godkjenninger
@@ -664,7 +668,7 @@
           href: pro/project-operations-overview-lite.md
         - name: Registrer deg for et forhåndsversjonsbonnement – Lite
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Distribuere Project Operations – Lite
+        - name: Distribuer Project Operations Lite
           href: environment/lite-deployment.md
         - name: Bruk demonstrasjonsoppsett og konfigurasjonsdata – Lite
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Nyheter september 2022 – Lite-distribusjon
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Nyheter november 2022 – Lite-distribusjon
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arkiv
           items:
+            - name: Nyheter oktober 2022 – Lite-distribusjon
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Nyheter september 2022 – Lite-distribusjon
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Nyheter august 2022 – Lite-distribusjon
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Nyheter juli 2022 – Lite-distribusjon
@@ -746,21 +754,21 @@
               href: pro/sales/product-based-lines-sales.md
             - name: Administrer prosjektbaserte salgsmulighetslinjer
               href: pro/sales/project-based-lines-sales.md
-            - name: Opprette tilbud fra salgsmuligheter for prosjekt
+            - name: Opprett tilbud fra salgsmuligheter for prosjekt
               href: sales/link-quotes-opportunities.md
-            - name: Kopiere prosjektbaserte salgsmuligheter
+            - name: Kopier salgsmuligheter for prosjekt
               href: sales/copy-project-based-opportunity.md
             - name: Lukk en salgsmulighet for prosjekt
               href: sales/close-opportunity.md
-        - name: Administrer prosjektbaserte tilbud
+        - name: Administrer prosjekttilbud
           items:
-            - name: Oversikt over prosjektbaserte tilbud
+            - name: Oversikt over prosjekttilbud
               href: pro/sales/manage-quotes-sales.md
             - name: Konsepter som er unike for prosjekttilbud
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Overskriftsdetaljer for prosjekttilbud
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Flere kunder i prosjekttilbud
+            - name: Administrer flere kunder i prosjekttilbud
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Prosjektprislister i prosjekttilbud
               href: pro/sales/manage-project-price-lists-sales.md
@@ -770,39 +778,39 @@
                   href: pro/sales/product-based-quote-lines-sales.md
                 - name: Produktbaserte tilbudslinjer for kostberegning
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: Administrere komplekse enheter for produktbaserte tilbudslinjer
+                - name: Administrer komplekse enheter for produktbaserte tilbudslinjer
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Prosjektbaserte tilbudslinjer
+            - name: Prosjekttilbudslinjer
               items:
-                - name: Oversikt over prosjektbaserte tilbudslinjer
+                - name: Oversikt over prosjekttilbudslinjer
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Administrere flere kunder
+                - name: Administrer flere kunder i prosjekttilbudslinjer
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Tilordne prosjekter og oppgaver
+                - name: Tildel prosjekter og oppgaver til prosjekttilbudslinjer
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfigurere belastbare komponenter
+                - name: Konfigurer belastbare komponenter i prosjekttilbudslinjer
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Estimere en prosjektbasert tilbudslinje
+                - name: Estimer en prosjekttilbudslinje
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Importer estimat fra et prosjekt
+                - name: Importer estimater fra et prosjekt til en prosjekttilbudslinje
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Administrer fakturaplaner
+                - name: Fakturaplaner i prosjekttilbudslinjer
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopier prosjektbaserte tilbud
+            - name: Kopier prosjekttilbud
               href: sales/lose-quote.md
             - name: Aktiver og revider et prosjekttilbud
               href: sales/activation-and-revision.md
-            - name: Lukk prosjektbaserte tilbud
+            - name: Lukk prosjekttilbud
               href: pro/sales/win-quote-sales.md
-        - name: Administrer prosjektbaserte kontrakter
+        - name: Administrer prosjektkontrakter
           items:
-            - name: Oversikt over prosjektbaserte kontrakter
+            - name: Oversikt over prosjektkontrakter
               href: pro/sales/manage-contracts-sales.md
             - name: Konsepter som er unike for prosjektkontrakter
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Overskriftsdetaljer for prosjektkontrakter
               href: pro/sales/project-contract-settings-sales.md
-            - name: Flere kunder på prosjektkontrakter
+            - name: Administrer flere kunder i prosjektkontrakter
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Prosjektprislister for prosjektkontrakter
               href: sales/contracts-manage-project-price-lists.md
@@ -812,35 +820,35 @@
                   href: pro/sales/product-based-contract-lines-overview-sales.md
                 - name: Produktbaserte kontraktlinjer for kostberegning
                   href: pro/sales/cost-product-based-contract-lines-sales.md
-                - name: Administrere komplekse enheter for produktbaserte kontraktlinjer
+                - name: Administrer komplekse enheter for produktbaserte kontraktlinjer
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Prosjektbaserte kontraktlinjer
+            - name: Prosjektkontraktlinjer
               items:
-                - name: Oversikt over prosjektbaserte kontraktlinjer
+                - name: Oversikt over prosjektkontraktlinjer
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Administrere flere kontraktkunder
+                - name: Administrer flere kunder i prosjektkontrakter
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
-                - name: Tilordne prosjekter og oppgaver til en prosjektkontraktlinje
+                - name: Tildel prosjekter og oppgaver til en prosjektkontraktlinje
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Konfigurere belastbare komponenter for en prosjektkontraktlinje
+                - name: Konfigurer belastbare komponenter for en prosjektkontraktlinje
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Estimere en prosjektbasert kontraktlinje
+                - name: Estimer en prosjektkontraktlinje
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: Importere estimater fra et prosjekt til en prosjektkontraktlinje
+                - name: Importer estimater fra et prosjekt til en prosjektkontraktlinje
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Administrere fakturaplaner på en prosjektkontraktlinje
+                - name: Opprett fakturaplaner i en prosjektkontraktlinje
                   href: pro/sales/invoice-schedules-contract-line-sales.md
-            - name: Kopiere prosjektkontrakter
+            - name: Kopier prosjektkontrakter
               href: pro/sales/copy-project-contracts-sales.md
             - name: Bekreft en prosjektkontrakt
               href: pro/sales/confirm-contract-sales.md
             - name: Forskudd og honorarer
               items:
-                - name: Forskudd og honorarbaserte kontrakter – Lite
+                - name: Forskudd og honorarbaserte kontrakter
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfigurere en tidsplan for honorarer – Lite
+                - name: Konfigurer en honorarplanKonfigurer en honorarplan
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Opprett et adhoc-forskudd på en kontrakt – Lite
+                - name: Opprett et adhoc-forskudd i en prosjektkontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prissetting og kostberegning
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Nyheter
       items:
-        - name: Nyheter september 2022 – Project Operations for lagerførte/produksjonsbaserte scenarioer
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Nyheter oktober 2022 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arkiv
           items:
+            - name: Nyheter september 2022 – Project Operations for lagerførte/produksjonsbaserte scenarioer
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Nyheter juli 2022 – Project Operations for lagerførte/produksjonsbaserte scenarioer
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Nyheter juni 2022 – Project Operations for lagerførte/produksjonsbaserte scenarioer
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Distribusjonsoversikt for Project Operations for lagerførte/produksjonsbaserte scenarioer
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Oversikt over prosjektstyring og regnskap
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Prosjektregnskap
+      items:
+        - name: Oversikt over prosjektstyring og regnskap
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Prosjektjusteringer
+          href: project-accounting/project-adjustments.md
     - name: Salgsprosess for prosjekt
       items:
         - name: Prosjekttilbud
