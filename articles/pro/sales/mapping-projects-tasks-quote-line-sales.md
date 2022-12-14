@@ -1,23 +1,23 @@
 ---
-title: Tilordne prosjekter og oppgaver til en prosjektbasert tilbudslinje
-description: Denne artikkelen inneholder informasjon om hvordan du tilordner prosjekter og oppgaver til en prosjektbasert oppgavelinje.
+title: Tilordne prosjekter og oppgaver til prosjekttilbudslinjer
+description: Denne artikkelen inneholder informasjon om hvordan du tilordner prosjekter og oppgaver til prosjekttilbudslinjer.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917174"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824359"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Tilordne prosjekter og oppgaver til en prosjektbasert tilbudslinje
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Tilordne prosjekter og oppgaver til prosjekttilbudslinjer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-På prosjektbaserte tilbudslinjer kan du tilordne de spesifikke oppgavene til et prosjekt som allerede er knyttet til en tilbudslinje.
+På prosjekttilbudslinjer kan du tilordne de spesifikke oppgavene til et prosjekt som allerede er knyttet til en tilbudslinje.
 
 Når du tilordner oppgaver til en tilbudslinje, vil følgende elementer du har definert i tilbudslinjen, bare gjelde for disse oppgavene:
 

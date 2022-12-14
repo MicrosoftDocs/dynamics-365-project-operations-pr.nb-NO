@@ -1,19 +1,19 @@
 ---
-title: Oversikt over produktbaserte tilbudslinjer – Lite
+title: Oversikt over produktbaserte tilbudslinjer
 description: Denne artikkelen inneholder informasjon om arbeid med produktbaserte tilbudslinjer.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a260c0f51cc2d958281dbc6f0f711347cab85a9a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914322"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826235"
 ---
-# <a name="product-based-quote-lines-overview---lite"></a>Oversikt over produktbaserte tilbudslinjer – Lite
+# <a name="product-based-quote-lines-overview"></a>Oversikt over produktbaserte tilbudslinjer
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 

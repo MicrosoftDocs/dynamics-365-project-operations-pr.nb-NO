@@ -1,31 +1,29 @@
 ---
-title: Behandle kundeemner
+title: Administrere prosjektbaserte kundeemner
 description: Denne artikkelen inneholder informasjon om behandling av prosjektbaserte kundeemner.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920210"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825812"
 ---
-# <a name="manage-leads"></a>Behandle kundeemner
+# <a name="manage-project-based-leads"></a>Administrere prosjektbaserte kundeemner
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
 Prosjektrelaterte kundeemner kan administreres og kvalifiseres i Project Operations. Prosessen med behandling av kundeemner inkluderer opprettelse av arbeidsbaserte kundeemner og kvalifisering av disse kundeemnene. 
 
-## <a name="project-sales-leads"></a>Kundeemner i prosjekt
-
 I **Salg**-delen, i den venstre navigasjonsruten, åpner du listesiden **Kundeemner** for å vise en liste over alle kundeemneoppføringer i systemet. Listen over kundeemner som vises, er arbeidsbasert, og andre typer kundeemner kan opprettes hvis du også har Dynamics 365 Sales eller Dynamics 365 Field Service.
 
 Du kan opprette en filtrert visning for å se bare kundeemner som er basert på prosjekter, ved å opprette et filter på **Type**-verdien. Du kan for eksempel velge å vise bare arbeidsbaserte kundeemner.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Opprett et nytt kundeemne for en prosjektbasert avtale
+## <a name="create-a-new-project-based-lead"></a>Opprett et nytt prosjektbasert kundeemne 
 
 Når et prosjektbasert kundeemne er kvalifisert, opprettes det en salgsmulighet og en forretningsforbindelse. En prosjektbasert salgsmulighet er utgangspunktet for salgsoppfølgingsoppgaver i Salgsmulighet-fasen. Prosjektrelaterte salgsmuligheter har unike funksjoner som kreves for å selge prosjektarbeid. Disse funksjonene omfatter følgende:
 

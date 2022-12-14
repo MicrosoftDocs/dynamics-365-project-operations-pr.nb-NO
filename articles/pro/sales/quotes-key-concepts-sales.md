@@ -1,17 +1,17 @@
 ---
-title: Tilbud – nøkkelkonsepter – Lite
+title: Konsepter som er unike for prosjekttilbud
 description: Denne artikkelen inneholder informasjon om bruk av prosjekttilbud i Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916990"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825906"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Konsepter som er unike for prosjekttilbud
 
@@ -82,9 +82,13 @@ Faktureringsplaner er spesifikke for hver tilbudslinje, og de er også valgfrie.
 
 Project Operations-tilbud blir utformet basert på Dynamics 365 Sales-tilbud. Det er imidlertid noen viktige forskjeller i funksjonaliteten du bør være oppmerksom på:
 
-- Handlingene **Revider** og **Aktiver** støttes ikke.
+
 - Project Operations-tilbud har to forskjellige typer linjer. Den ene er for prosjekter, og den andre er for produkter.
 - Project Operations-tilbud har sitt eget format og sine egne UI-elementer, forretningsregler, programtillegg for forretningslogikk og skript på klientsiden som gjør dem unike fra Sales-tilbud.
+- Salgstilbud lar deg knytte flere ordrer til et salgstilbud. I Project Operations kan bare én prosjektkontrakt knyttes til et prosjekttilbud.
+- Når du vinner et tilbud, kan den relaterte salgsmuligheten forbli åpen. Når et prosjekttilbud er vunnet, blir den relaterte salgsmuligheten lukket.
+- Et salgstilbud inkluderer ikke enkelte felt og konsepter som er inkludert i et prosjekttilbud. Feltene omfatter **Kontraktenhet**, **Forretningsforbindelsesansvarling** og **Navn på kontakt for fakturering**.  
+- **Type**: Salgstilbud og prosjekttilbud identifiseres også ved hjelp av feltet basert på et alternativsett med navnet **Type**. For et salgstilbud har dette feltet verdien **Varebasert**. For et prosjekttilbud har det verdien **Arbeidsbasert**.
 
 Av disse grunnene anbefales det at du ikke bruker et Sales-tilbud og et Project Operations-tilbud om hverandre.
 

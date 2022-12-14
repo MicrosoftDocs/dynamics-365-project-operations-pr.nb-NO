@@ -1,19 +1,19 @@
 ---
-title: Importere estimater for et prosjekt til en prosjektbasert tilbudslinje – Lite
-description: Denne artikkelen inneholder informasjon om hvordan du importerer estimater fra et prosjekt til en tilbudslinje.
+title: Importere estimater fra et prosjekt til en prosjekttilbudslinje
+description: Denne artikkelen inneholder informasjon om hvordan du importerer estimater fra et prosjekttilbudslinje.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917312"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824499"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importere estimater for et prosjekt til en prosjektbasert tilbudslinje 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>Importere estimater fra et prosjekt til en prosjekttilbudslinje 
 
 _**Gjelder for:** Lite-distribusjon – avtale til proformafakturering, Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 

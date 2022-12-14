@@ -1,23 +1,23 @@
 ---
-title: Administrere flere kunder på prosjektbaserte tilbudslinjer – Lite
-description: Denne artikkelen beskriver hvordan du administrerer flere kunder på prosjektbaserte tilbudslinjer.
+title: Administrere flere kunder i prosjekttilbudslinjer
+description: Denne artikkelen beskriver hvordan du administrerer flere kunder på prosjekttilbudslinjer.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927800"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824451"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administrere flere kunder på prosjektbaserte tilbudslinjer – Lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Administrere flere kunder i prosjekttilbudslinjer
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-Prosjektbaserte tilbudslinjer støtter scenarioer der hver tilbudslinje har en liste over kunder som betaler for den. Denne listen over kunder på den prosjektbaserte tilbudslinjen kan være den samme som listen over kunder i tilbudet. Du kan også endre listen over kunder slik at de kan være forskjellige. Når et prosjekttilbud blir vunnet, kopieres kundelisten på den prosjektbaserte tilbudslinjen til den tilsvarende prosjektbaserte kontraktlinjen for å opprette den eventuelle prosjektkontrakten. Kunder i det prosjektbaserte tilbudet kopieres til prosjektkontrakten.
+Prosjekttilbudslinjer støtter scenarioer der hver tilbudslinje har en liste over kunder som betaler for den. Denne listen over kunder på den prosjektbaserte tilbudslinjen kan være den samme som listen over kunder i tilbudet. Du kan også endre listen over kunder slik at de kan være forskjellige. Når et prosjekttilbud blir vunnet, kopieres kundelisten på den prosjektbaserte tilbudslinjen til den tilsvarende prosjektbaserte kontraktlinjen for å opprette den eventuelle prosjektkontrakten. Kunder i det prosjektbaserte tilbudet kopieres til prosjektkontrakten.
 
 Når du fakturerer den eventuelle prosjektkontrakten, prioriteres kundelisten på den prosjektbaserte kontraktlinjen over listen på prosjektkontrakten. Kundelisten på prosjektkontrakten brukes bare for standardverdier på nye prosjektkontraktlinjer.
 

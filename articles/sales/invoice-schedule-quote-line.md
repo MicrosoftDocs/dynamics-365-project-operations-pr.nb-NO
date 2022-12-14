@@ -1,27 +1,27 @@
 ---
-title: Fakturaplaner på prosjektbaserte tilbudslinjer
+title: Fakturaplaner på prosjekttilbudslinjer
 description: Denne artikkelen inneholder informasjon om hvordan du oppretter fakturaplaner og milepæler for tilbudslinjer.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918324"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825766"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Fakturaplaner på prosjektbaserte tilbudslinjer
+# <a name="invoice-schedules-on-project-quote-lines"></a>Fakturaplaner på prosjekttilbudslinjer
 
 _**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
 
-En prosjektbasert tilbudslinje gir mulighet til å uttrykke en fakturaplan. Dette er valgfritt i løpet av tilbudsfasen fordi programmet ikke støtter fakturering av et prosjekt når det er knyttet til en tilbudslinje. Fakturering er bare tillatt etter at tilbudet er vunnet. Den eneste effekten ved å opprette en fakturaplan i løpet av tilbudsfasen er at denne fakturaplanen kopieres til den prosjektbaserte kontraktlinjen. Hvis du ikke oppretter en fakturaplan i løpet av tilbudsfasen, kan du gjøre dette på den prosjektbaserte kontraktlinjen.
+En prosjekttilbudslinje gir mulighet til å uttrykke en fakturaplan. Dette er valgfritt i løpet av tilbudsfasen fordi programmet ikke støtter fakturering av et prosjekt når det er knyttet til en tilbudslinje. Fakturering er bare tillatt etter at tilbudet er vunnet. Den eneste effekten ved å opprette en fakturaplan i løpet av tilbudsfasen er at denne fakturaplanen kopieres til den prosjektbaserte kontraktlinjen. Hvis du ikke oppretter en fakturaplan i løpet av tilbudsfasen, kan du gjøre dette på den prosjektbaserte kontraktlinjen.
 
 Generelt sett er formålet med faktureringsplanen å tillate automatisk opprettelse av utkastfakturaer for en prosjektbasert kontraktlinje. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Opprette en fakturaplan for tid og materiale for en prosjektbasert tilbudslinje
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Opprette en fakturaplan for tid og materiale for en prosjekttilbudslinje
 
 Når faktureringsmetoden for en prosjektbasert tilbudslinje er tid og materiell, genererer systemet en datobasert fakturaplan. Fullfør fremgangsmåten nedenfor for å generere en datobasert fakturaplan automatisk.
 
@@ -36,7 +36,7 @@ Når faktureringsmetoden for en prosjektbasert tilbudslinje er tid og materiell,
     - **Transaksjonsfrist** er angitt til dagen før **Dato for fakturakjøring**.
     - **Kjørestatus** angis automatisk til **Ikke kjørt**. Når den automatiske fakturaopprettingsjobben kjører for en bestemt fakturakjøringsdato, oppdateres dette feltet automatisk til **Kjøringen var vellykket** eller **Kjøring mislyktes**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Opprette en fakturaplan for fastpris for en prosjektbasert tilbudslinje
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Opprette en fakturaplan for fastpris for en prosjekttilbudslinje
 
 Når den prosjektbaserte tilbudslinjen har faktureringsmetoden **Fast**, oppretter systemet en milepælbasert fakturaplan. Fullfør fremgangsmåten nedenfor for automatisk å generere denne tidsplanen for et fast sett med milepæler som er likt distribuert for kalenderperioden.
 

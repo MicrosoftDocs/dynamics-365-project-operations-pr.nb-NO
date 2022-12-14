@@ -1,19 +1,19 @@
 ---
-title: Opprette fakturaplaner på en prosjektbasert kontraktlinje – Lite
+title: Opprett fakturaplaner på en prosjektkontraktlinje
 description: Denne artikkelen inneholder informasjon om hvordan du oppretter fakturaplaner og milepæler.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 403b993c3f61ca5f0fb1bac45331aa0613d16439
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1a6d0647ee012212a74a674cfa4e995d0e375b77
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921130"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824733"
 ---
-# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Opprette fakturaplaner på en prosjektbasert kontraktlinje – Lite
+# <a name="create-invoice-schedules-on-a-project-contract-line"></a>Opprett fakturaplaner på en prosjektkontraktlinje
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 

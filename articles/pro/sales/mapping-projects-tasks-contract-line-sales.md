@@ -1,23 +1,23 @@
 ---
-title: Tilordne prosjekter og oppgaver til en prosjektbasert kontraktlinje – Lite
+title: Tilordne prosjekter og oppgaver til en prosjektkontraktlinje
 description: Denne artikkelen inneholder informasjon om hvordan du legger til og fjerner prosjekter og oppgaver på en kontraktlinje.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932538"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825071"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Tilordne prosjekter og oppgaver til en prosjektbasert kontraktlinje 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Tilordne prosjekter og oppgaver til en prosjektkontraktlinje 
 
 _**Gjelder for:** Lite-distribusjon – avtale til proformafakturering, Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-På prosjektbaserte kontraktlinjer kan du tilordne bestemte oppgaver i et prosjekt til kontraktlinjen.
+På prosjektkontraktlinjer kan du tilordne bestemte oppgaver i et prosjekt til kontraktlinjen.
 
 Når du tilordner bestemte oppgaver til en kontraktlinje, vil faktureringsmetoden, alternativer for belastbarhet, Må ikke overskrides-grenser og kundene som er definert på kontraktlinjen, bare gjelde for disse spesifikke oppgavene.
 
@@ -25,7 +25,7 @@ Hvis du har et scenario der én fase av et prosjekt, for eksempel prototypefasen
 
 Alle de andre fasene i prosjektets arbeidsnedbrytningsstruktur (WBS) kan tilknyttes kontraktlinjen for tid og materialer.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Knytte oppgaver til prosjektbaserte kontraktlinjer
+## <a name="associate-tasks-to-project-contract-lines"></a>Knytte oppgaver til prosjektkontraktlinjer
 
 Oppgaver kan knyttes til kontraktlinjer fra kategorien **Belastbare oppgaver** på siden **Kontraktlinje** eller fra kategorien **Oppgavefakturering** på siden **Prosjekt**.
 

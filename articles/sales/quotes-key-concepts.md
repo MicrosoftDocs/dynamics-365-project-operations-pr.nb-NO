@@ -1,8 +1,8 @@
 ---
-title: Tilbud - Nøkkelkonsepter
-description: Denne artikkelen inneholder informasjon om prosjekttilbud og salgstilbud som er tilgjengelige i Project Operations.
+title: Konsepter som er unike for prosjektbaserte tilbud
+description: Denne artikkelen inneholder informasjon om prosjekttilbud i Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912528"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824340"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Konsepter som er unike for prosjektbaserte tilbud
 
-_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer, Lite-distribusjon – avtale til proformafakturering_
+_**Gjelder for:** Project Operations for ressursbaserte/ikke-lagerbaserte scenarioer_
 
-I Dynamics 365 Project Operations finnes det to typer tilbud, prosjekttilbud og salgstilbud. De to typene tilbud er forskjellige på følgende måter:
+Før du begynner å bruke prosjekttilbud i Microsoft Dynamics 365 Project Operations, må du være oppmerksom på følgende nøkkelkonsepter.
 
-- **Rutenett for linjeelementer**: I et salgstilbud er det bare ett rutenett for linjeelementer. Prosjekttilbud har to rutenett for linjeelementer. Ett rutenett er for prosjektlinjer, og det andre er for produktlinjer.
-- **Aktivering og revisjoner**: Salgstilbud støtter aktivering og revisjoner. Disse prosessene støttes ikke i et prosjekttilbud.
-- **Tilknyttede ordrer**: Du kan knytte flere ordrer til et salgstilbud. Du kan bare knytte én prosjektkontrakt til et prosjekttilbud.
-- **Vinne et tilbud**: Når du vinner et tilbud, kan den relaterte salgsmuligheten forbli åpen. Når et prosjekttilbud er vunnet, blir den relaterte salgsmuligheten lukket.
-- **Felt og konsepter**: Et salgstilbud inkluderer ikke enkelte felt og konsepter som er inkludert i et prosjekttilbud. Feltene omfatter **Kontraktenhet**, **Forretningsforbindelsesansvarling** og **Navn på kontakt for fakturering**.  
-- **Type**: Salgstilbud og prosjekttilbud identifiseres også ved hjelp av feltet basert på et alternativsett med navnet **Type**. For et salgstilbud har dette feltet verdien **Varebasert**. For et prosjekttilbud har det verdien **Arbeidsbasert**.
+## <a name="owning-company"></a>Eiende firma
 
-Denne artikkelen fokuserer på detaljene i prosjekttilbud.
+Det eiende firmaet representerer den juridiske enheten som eier prosjektleveringen. Kunden i tilbudet skal være en gyldig kunde i denne juridiske enheten i økonomi- og driftsapper. Valutaen til det eiende firmaet og valutaen til kontraktenheten som er valgt i et prosjektbasert tilbud, må samsvare.
 
-Et prosjekttilbud i Project Operations kan ha flere linjeelementer eller tilbudslinjer. Et prosjekttilbud har faktisk to rutenett for linjeelementer. Det ene rutenettet er for prosjektbaserte linjer som tillater detaljerte beregninger. Det andre rutenettet er for produktbaserte linjer som bruker en enkel enhetspris og den antallsbaserte metoden.
+## <a name="contracting-unit"></a>Kontraktsenhet
 
-- **Prosjektbasert**: Tilbudsverdien bestemmes etter at du har beregnet hvor mye arbeid som kreves. Du kan beregne arbeid på et høyt nivå, direkte som linjedetaljer under hver tilbudslinje, eller basert på beregning av faktiske data, ved hjelp av et prosjekt og en prosjektplan. Prosjektbaserte tilbudslinjer finnes bare i prosjektrelaterte tilbud som opprettes ved hjelp av Project Operations. Denne typen tilbudslinje er en tilpasset form av tilbudslinjer utenfor produktkatalogen som er tilgjengelige i Microsoft Dynamics 365 Sales.
+En kontraktenhet representerer avdelingen eller praksisen som eier prosjektleveringen. Du kan definere ressurskostnader for hver enkelt kontraktsenhet. Når du angir ressurskostnader for en ressurs i en kontraktenhet, kan du også konfigurere forskjellige kostnadssatser for ressurser som kontraktenheten låner fra, eller for andre avdelinger eller praksiser i virksomheten. Disse kostnadssatsene kalles overføringspriser, ressurslån eller vekslingspriser. Når du angir kostnadene ved å låne ressurser fra andre avdelinger, kan du konfigurere disse kostnadssatsene i valutaen for den utlånende avdelingen.
 
-- **Produktbasert**: Tilbudsverdien fastsettes basert på antall enheter som selges, og produktets enhetssalgspris. Produktet på en produktbasert linje kan komme fra en produktkatalog i Salg, eller det kan være et produkt som du definerer. Denne typen tilbudslinje er også tilgjengelig for prosjektrelaterte tilbud som opprettes ved hjelp av Project Operations.
+## <a name="cost-currency"></a>Kostnadsvaluta
 
-Beløpet i et tilbud er summen på tvers av de produktbaserte linjene og de prosjektbaserte linjene.
+Kostnadsvalutaen i Project Operations er valutaen som kostnader rapporteres i. Denne valutaen utledes fra valutaen som er knyttet til feltet **Kontraktenhet** i tilbudet, kontrakten og prosjektet. Kostnader mot et prosjekt kan registreres i enhver valuta. Det foretas imidlertid valutaomregning fra valutaen som kostnadene ble registrert i, til kostnadsvalutaen i prosjektet.
 
-> [!NOTE]
-> Tilbud og tilbudslinjer kreves ikke i Project Operations. Du kan starte prosjektprosessen med en prosjektkontrakt (solgt prosjekt). En salgsmulighet er imidlertid alltid nødvendig, uansett om du starter med et tilbud eller en prosjektkontrakt.
+Siden valutakursene på Dataverse-plattformen (CDS) ikke kan være datoeffektive, kan totalene på skjermen for kostnader endres over tid hvis du oppdaterer valutakursen. Kostnader som registreres i databasen, forblir imidlertid uendret, siden beløpene lagres i valutaen de ble pådratt i.
 
-## <a name="project-based-quote-lines"></a>Prosjektbaserte tilbudslinjer
+## <a name="sales-currency"></a>Salgsvaluta
 
-En prosjektbasert tilbudslinje i Project Operations har følgende faktureringsmetoder:
+Salgsvalutaen i Project Operations er valutaen som de beregnede og faktiske salgsbeløpene registreres og vises i. Dette er også valutaen som kunden blir fakturert i for avtalen. Når det gjelder et prosjekttilbud, angis en standard salgsvaluta fra kunde- eller forretningsforbindelsesoppføringen, og kan endres når tilbudet opprettes. Salgsvalutaen kan imidlertid ikke endres etter at tilbudet er lagret. Standard produkt- og prosjektprislister angis basert på salgsvalutaen i tilbudet.
 
-- Tid og materiale
-- Fast pris
+I motsetning til kostnader kan salgsverdier **bare** registreres i salgsvalutaen.
 
-### <a name="time-and-material"></a>Tid og materiale
+## <a name="billing-method"></a>Faktureringsmetode
 
-Faktureringsmetoden for tid og materiale er basert på forbruk. Når du velger denne faktureringsmetoden, faktureres kunden etter hvert som kostnader påløper i prosjektet. Fakturaer opprettes etter en datobasert periodisk frekvens. I løpet av salgsprosessen gir tilbudsverdien for en tid-og-material-komponent bare et estimat av den endelige kostnaden til kunden. Leverandøren forplikter seg ikke til selv å fullføre prosjektet med nøyaktig den siterte verdien. Tid-og materiell-komponenter øker kundens risiko. Det kan hende at kundene vil forhandle på flere ikke-overskrid-klausuler for å redusere risikoen. Project Operations støtter ikke angivelse av ikke-overskrid-klausuler.
+Prosjekter har vanligvis kontraktmodeller basert på faste gebyrer og forbruk. I Project Operations representeres kontraktmodellen for et prosjekt av faktureringsmetoden. Faktureringsmetoden har to verdier: tid og materiale og fast pris.
 
-### <a name="fixed-price"></a>Fast pris
+- **Tid og materiale** – En forbruksbasert kontraktmodell der hver kostnad som påløper, støttes av den tilsvarende omsetningen. Etter hvert som du beregner eller oppfører flere kostnader, øker også det tilhørende estimerte og faktiske salget. Du kan angi grenser som ikke må overskrides, på tilbudslinjer som har denne faktureringsmetoden. På denne måten kan du sette et tak på den faktiske omsetningen. Beregnet omsetning påvirkes ikke av grensene som ikke må overskrides.
+- **Fast pris** – En kontraktmodell med fast gebyr der salgsverdiene er uavhengige av kostnadene som påløper. Salgsverdien er fast og endres ikke etter hvert som du beregner eller oppfører flere kostnader.
 
-I faktureringsmetoden fast pris forplikter en leverandør seg til å levere prosjektet til en fast kostnad for kunden. Kunden faktureres for den angitte verdien på tilbudslinjen med fast pris, uansett hvilken kostnader som påløper for leverandøren for å levere denne tilbudslinjen. Tilbudslinjen med fast pris blir fakturert på én av følgende måter: 
+## <a name="project-price-lists"></a>Prosjektprislister
 
-- Som et totalbeløp i begynnelsen eller slutten av prosjektet, eller når en milepæl for et prosjekt er nådd. 
-- Med en datobasert hyppighet med like andeler av den faste verdien på tilbudslinjen. Disse andelene kalles periodiske milepæler.
-- I avdrag som har en pengeverdi som er justert etter fremdriften for arbeidet eller bestemte milepæler som er oppnådd i prosjektet. I dette tilfellet kan verdien for hvert avdrag være forskjellige, men de må alle summeres til den faste verdien på tilbudslinjen.
+Prosjektprislister er prislister som brukes til å angi standardpriser, ikke kostnadssatser, for tid, utgifter og andre prosjektrelaterte komponenter. Det kan være flere prislister, og hver liste kan ha sin egen datogyldighet for hvert prosjekt tilbud. Project Operations støtter ikke overlappende gyldighetsdatoer for prosjektprislister.
 
-Project Operations støtter alle tre typer fakturaplaner for tilbudslinjer med fast pris.
+## <a name="product-price-lists"></a>Produktprislister
 
-## <a name="transaction-classification"></a>Transaksjonsklassifisering
+Produktprislister er prislister som brukes til å angi standardpriser, ikke kostnadssatser, for produktbaserte linjer i et tilbud. Det finnes bare én produktprisliste per tilbud.
 
-Profesjonelle serviceorganisasjoner oppgir og fakturerer vanligvis kundene etter klassifisering av kostnader. Kostnadene representeres av følgende transaksjonsklassifiseringer:
+## <a name="transaction-classes"></a>Transaksjonsklasser
 
-- **Tid**: Denne klassifiseringen representerer kostnadene for arbeid eller personale i et prosjekt.
-- **Utgift**: Denne klassifiseringen representerer alle andre typer utgifter i et prosjekt. Siden utgifter kan klassifiseres bredt, kan de fleste organisasjoner opprette underkategorier, for eksempel reise, leiebil, hotell eller kontorutstyr.
-- **Avgift**: Denne klassifiseringen representerer diverse kostnader, straffer og andre elementer som er belastet kunden. 
-- **Skatt**: Denne klassifiseringen representerer skattebeløp som brukere legger til mens de registrerer utgifter.
-- **Materialetransaksjon**: Denne klassifiseringen representerer faktiske verdier fra produktlinjer på en bekreftet prosjektfaktura.
-- **Milepæl**: Denne klassifiseringen brukes av faktureringslogikken for fast pris.
+Project Operations støtter fire typer transaksjonsklasser:
 
-En eller flere av disse transaksjonsklassifiseringene kan tilknyttes hver tilbudslinje. Når et tilbud er vunnet, blir tilordningen mellom transaksjonsklassifiseringen og tilbudslinjen overført til kontraktlinjen.
-  
-Et tilbud kan for eksempel inneholde følgende to tilbudslinjer: 
+- Tid
+- Utgift
+- Materiale
+- Gebyr
 
-- Konsulentarbeid som bruker en faktureringsmetode for tid og materialer, der klassifiseringer av tid og gebyrtransaksjoner gjelder. Alle tids- og gebyrtransaksjoner for eksempelprosjektet for **Dynamics AX-implementering** faktureres for eksempel til kunden basert på tiden og materialene som brukes. 
-- Relaterte reiseutgifter som bruker en faktureringsmetode for fast pris. Alle reiseutgifter for eksempelprosjektet **Dynamics AX-implementering** blir for eksempel fakturert med et fast beløp.
+Kostnads- og salgsverdier kan beregnes og påløpes for transaksjonsklasser av typen **Tid**, **Utgift** og **Materiale**. **Gebyr** er en transaksjonsklasse bare for omsetning.
 
-> [!NOTE]
-> Kombinasjonen av prosjekt- og transaksjonsklassifiseringen for **Tid**, **Utgift** og **Avgift** som er tilknyttet en tilbudslinje eller kontraktlinje, må være unik. Hvis samme kombinasjon av prosjekt- og transaksjonsklasse er tilknyttet mer enn én kontraktlinje eller tilbudslinje, fungerer ikke Project Operations på riktig måte.
+## <a name="work-entities-and-billing-entities"></a>Arbeidsenheter og faktureringsenheter
 
-## <a name="billing-types"></a>Faktureringstyper
+Prosjekter og Oppgaver er enheter som representerer arbeid. Tilbudslinjer og Kontraktlinjer er enheter som representerer fakturering. Du kan koble ulike arbeidsenheter til faktureringsalternativer ved å knytte dem til Tilbudslinjer eller Kontraktlinjer.
 
-Feltet **Faktureringstype** definerer konseptet belastbarhet. Det er et alternativsett som har følgende mulige verdier:
+## <a name="multi-customer-deals"></a>Avtaler for flere kunder
 
-- **Belastbar**: Kkategoriostnaden som er påløpt av denne rollen/kategorien, er en direkte kostnad som styrer prosjektutførelsen, og kunden vil betale for dette arbeidet. Betalingen kan administreres som en ordning med tid og materialer eller fast pris. Den ansatte som bruker denne tiden, vil imidlertid motta den tilsvarende kreditten for sin fakturerbare utnyttelse.
-- **Ikke-belastbar**: Kostnaden som er påløpt av denne rollen/kategorien, regnes som en direkte kostnad som styrer prosjektutførelsen, selv om kunden ikke anerkjenner dette faktumet og ikke vil betale for dette arbeidet. Den ansatte som bruker denne tiden, blir ikke kreditert med fakturerbar utnyttelse for den.
-- **Gratis** : Kostnaden som er påløpt av denne rollen/kategorien, regnes som en direkte kostnad som styrer prosjektutførelsen, og kunden anerkjenner dette faktumet. Den ansatte som bruker denne tiden, blir kreditert for fakturerbar utnyttelse for den. Denne kostnaden belastes imidlertid ikke kunden.
-- **Ikke tilgjengelig**: Kostnadene som påløper på interne prosjekter som ikke krever inntektssporing, spores ved hjelp av dette alternativet.
+Avtaler for flere kunder skjer når det er flere enn én kunde per faktura. Her er noen typiske eksempler:
 
-## <a name="invoice-schedule"></a>Fakturaplan
+- **Opprinnelige utstyrsfabrikanter (OEM) og partnerne deres** – Partnere og forhandlere selger et produkt med tjenester som gir ekstra verdi. I løpet av en avtale med en kunde tilbyr OEM-en vanligvis å finansiere en del av prosjektet.
+- **Prosjekter for offentlig sektor** – Flere avdelinger hos lokale myndigheter godtar å finansiere et prosjekt, og de faktureres i henhold til en tidligere avtalt deling. Eksempel: Et skoledistrikt og byen eller de lokale myndighetene er enige om å finansiere byggingen av et svømmebasseng.
 
-En fakturaplan er en serie datoer der fakturering for et prosjekt inntreffer. Du kan opprette en fakturaplan på en tilbudslinje hvis dette er aktuelt. Hver tilbudslinje kan ha sin egen fakturaplan. Hvis du vil opprette en fakturaplan, må du angi følgende attributtverdier:
+## <a name="invoice-schedules"></a>Fakturaplaner
 
-- En startdato for fakturering 
-- En leveringsdato som representerer sluttdatoen for fakturering i prosjektet
-- En fakturafrekvens
+Faktureringsplaner er spesifikke for hver tilbudslinje og valgfrie. Fakturaplaner opprettes basert på bestemte start- og sluttdatoer og en fakturahyppighet. De brukes i kontraktfasen når automatisk oppretting av fakturaer er konfigurert. Fakturaplaner er valgfrie i tilbudsfasen. Hvis de opprettes i tilbudsfasen, kopieres de til prosjektkontrakten som opprettes når et prosjekttilbud blir vunnet.
 
-Disse tre attributtverdiene brukes til å generere et foreløpig sett med datoer som fakturering skal inntreffe på.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Forskjeller fra tilbud i Dynamics 365 Sales
 
-## <a name="invoice-frequency"></a>Fakturafrekvens
+Project Operations-tilbud er basert på Dynamics 365 Sales-tilbud. Det er imidlertid noen viktige forskjeller i funksjonaliteten du bør være oppmerksom på:
 
-Faktureringsfrekvens er en enhet som lagrer attributtverdier som bidrar til å uttrykke frekvensen av fakturaopprettelser. Følgende attributter uttrykker eller definerer faktureringsfreksensen:
+- Project Operations-tilbud har to ulike typer linjer: én for prosjekter og én for produkter.
+- Project Operations-tilbud har en egen side og egne brukergrensesnittelementer, forretningsregler, programtillegg for forretningslogikk og skript på klientsiden som skiller dem fra Sales-tilbud.
+- I Sales kan du knytte flere ordrer til ett salgstilbud. I Project Operations kan du bare knytte én prosjektkontrakt til et prosjekttilbud.
+- Når du vinner et tilbud, kan den relaterte salgsmuligheten forbli åpen. Når et prosjekttilbud er vunnet, blir den relaterte salgsmuligheten lukket.
+- Et salgstilbud inkluderer ikke enkelte felter og konsepter som et prosjekttilbud omfatter. Feltene omfatter **Kontraktenhet**, **Forretningsforbindelsesansvarling** og **Navn på kontakt for fakturering**.
+- Salgstilbud og prosjekttilbud identifiseres ved hjelp av feltet **Type** som er basert på et alternativsett. For et salgstilbud er verdien i dette feltet **Varebasert**. For et prosjekttilbud er verdien **Arbeidsbasert**.
 
-- **Periode**: Månedlig, annenhver uke og ukentlige perioder støttes. 
-- **Kjøringer per periode**: For perioder ukentlig og annenhver uke kan du bare definere én kjøring per periode. For månedlige perioder kan du definere mellom én og fire kjøringer per periode. 
-- **Dager for kjøring**: Dagene når fakturering skal kjøres. Du kan konfigurere dette attributtet på to forskjellige måter:
-  - **Ukedager**: Du kan for eksempel angi at fakturering skal kjøres hver mandag eller annenhver mandag. Kunder som må angi at fakturering skal kjøre på en arbeidsdag, kan foretrekke denne typen konfigurasjon. 
-  - **Kalenderdager**: Du kan for eksempel angi at fakturering skal kjøres den sjuende og tjueførste dagen i hver måned. Enkelte organisasjoner kan foretrekke denne typen konfigurasjon, fordi den bidrar til å garantere at fakturering kjøres etter en fast tidsplan hver måned.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Fakturaplan for en tilbudslinje med fast pris
-
-For en tilbudslinje med fast pris kan du bruke rutenettet **Fakturaplen** til å opprette faktureringsmilepæler som er lik verdien på tilbudslinjen.
-
-- Hvis du vil opprette faktureringsmilepæler som er likt inndelt, velger du en fakturafrekvens, angir startdatoen for fakturering på tilbudslinjen og velger **Forespurt fullføringsdato** for tilbudet i **Sammendrag**-delen i tilbudshodet. . Deretter velger du **Generer periodiske milepæler** for å opprette likt delte milepæler basert på den valgte fakturafrekvensen. 
-- Hvis du vil opprette en faktureringsmilepæl for et engangsbeløp, oppretter du en milepæl, og deretter angir du tilbudslinjeverdien som milepælbeløpet.
-- Hvis du vil opprette faktureringsmilepæler som er basert på bestemte oppgaver i prosjektplanen, oppretter du en milepæl og tilordner den til prosjektets tidsplanelement i brukergrensesnittet for faktureringsmilepælen.
-
+På grunn av disse forskjellene anbefaler vi at du ikke bruker Sales-tilbud og Project Operations-tilbud om hverandre.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

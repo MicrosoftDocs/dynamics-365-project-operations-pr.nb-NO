@@ -1,32 +1,32 @@
 ---
-title: Estimere en prosjektbasert kontraktlinje – Lite
+title: Estimere en prosjektkontraktlinje
 description: Denne artikkelen inneholder informasjon om estimering av en prosjektbasert kontraktlinje.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914414"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824780"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Estimere en prosjektbasert kontraktlinje – Lite
+# <a name="estimate-a-project-contract-line"></a>Estimere en prosjektkontraktlinje
 
 _**Gjelder:** Lite-distribusjon – avtale til proformafakturering_
 
-I Dynamics 365 Project Operations inneholder en prosjektbasert kontraktlinje detaljer som hjelper deg med å estimere kostnaden og potensiell omsetning på arbeidet som er involvert i å levere kontraktlinjen.
+I Dynamics 365 Project Operations inneholder en prosjektkontraktlinje detaljer som hjelper deg med å estimere kostnaden og potensiell omsetning på arbeidet som er involvert i å levere kontraktlinjen.
 
-For å beregne en prosjektbasert kontraktlinje går du til kategorien **Kontraktlinjedetalj** på den prosjektbaserte **Kontraktlinje**.  Det er to måter å opprette et estimat på en prosjektbasert kontraktlinje på:
+For å beregne en prosjektkontraktlinje går du til fanen **Kontraktlinjedetalj** på den prosjektbaserte **Kontraktlinje**.  Det er to måter å opprette et estimat på en prosjektbasert kontraktlinje på:
 
    - Opprett et estimat direkte på kontraktlinjen ved å legge til kontraktlinjedetaljer manuelt.
    - Opprett et prosjekt og en prosjektplan, og knytt deretter prosjektet og aktivitetene til kontraktlinjen i prosjektet. Dette gjør at du kan importere prosjektplananslaget til kontraktlinjen basert på komponentene som er inkludert på kontraktlinjen.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Opprette et estimat direkte på en prosjektbasert kontraktlinje
 
-Gjør følgende for å opprette et estimat direkte på en prosjektbasert kontraktlinje:
+Gjør følgende for å opprette en estimering direkte på en prosjektkontraktlinje:
 
 1. Gå til kontraktlinjen, og velg kategorien **Kontraktlinjedetaljer**. Linjene du oppretter i denne kategorien, oppsummeres og vises som **Kontraktverdi** for denne **Kontraktlinjen**. 
 2. I underrutenettet **Kontraktlinjedetaljer** velger du **Ny kontraktlinjedetalj**. Det åpnes en glidebryter for hurtigopprettelse. Følgende felter er tilgjengelige på siden **Kontraktlinjedetaljer**.

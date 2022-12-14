@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911654"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826094"
 ---
 # <a name="manage-project-quotes"></a>Administrere prosjekttilbud
 
@@ -23,7 +23,7 @@ I Dynamics 365 Project Operations er prosjekttilbud utformet for bidra til å by
   - Tilbudslinjedetaljer som identifiserer og beregner arbeidet for hver komponent eller tilbudslinje på høyt nivå. Tidsplan- eller datoestimater og økonomiaspekter ved arbeidet er knyttet til denne tilbudslinjen.
   - Kontraktmodeller og belastbare komponenter konfigureres for hver tilbudslinje. Dette oppsettet hjelper deg med å beregne spredningen av inntekter, forbruk og lønnsomhet for hver tilbudslinje og det totale tilbudet.
 
-## <a name="view-all-project-based-quotes"></a>Vise alle prosjektbaserte tilbud
+## <a name="view-all-project-quotes"></a>Vis alle prosjekttilbud
 
 En liste over alle prosjekttilbud kan ses på listesiden **Tilbud**. 
 
