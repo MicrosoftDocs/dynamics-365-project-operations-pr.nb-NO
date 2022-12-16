@@ -846,9 +846,9 @@
               items:
                 - name: Forskudd og honorarbaserte kontrakter
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfigurer en honorarplanKonfigurer en honorarplan
+                - name: Konfigurer en honorarplan
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Opprett et adhoc-forskudd i en prosjektkontrakt
+                - name: Opprett et ad hoc-forskudd i en prosjektkontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prissetting og kostberegning
       items:
